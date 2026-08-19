@@ -1,2 +1,47 @@
-# jugg-league-analytics
-Fantasy football analytics, draft preparation, and league management tools for the JUGG League.
+# JUGG League Analytics
+
+A fantasy football analytics, draft preparation, and league management project built for the JUGG League, a long-running private Yahoo Fantasy Football league.
+
+## Project Goals
+
+The goal of this project is to use historical Yahoo Fantasy Football data to better understand league trends and build tools that improve the fantasy football experience for our league.
+
+The project will include:
+
+- Historical matchup and scoring analysis
+- All-time team and manager records
+- Head-to-head records between managers
+- Historical standings and season results
+- Draft history and draft performance analysis
+- Player and roster analysis
+- Transaction and waiver activity
+- League scoring and performance trends
+- Draft preparation tools
+- League management dashboards and tools
+
+## Yahoo Fantasy Sports Data
+
+The project will use the Yahoo Fantasy Sports API to retrieve read-only data from the JUGG League.
+
+Data may include:
+
+- League information and settings
+- Teams and managers
+- Weekly matchups and scores
+- Standings
+- Rosters and players
+- Draft results
+- Transactions
+- Historical league seasons
+
+Historical data will be used to analyze trends across multiple seasons and provide context for draft preparation and league management.
+
+## Intended Users
+
+This is a small, non-commercial project intended for personal use and members of the private JUGG fantasy football league.
+
+Yahoo Fantasy Sports data will not be sold or redistributed.
+
+## Status
+
+This project is currently in development.
