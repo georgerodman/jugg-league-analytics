@@ -1,0 +1,98 @@
+{
+  "build_id": "20260823T201229Z",
+  "comparison": "board_comparison.json",
+  "completed_at": "2026-08-23T20:13:30.642388+00:00",
+  "published_pointers": {
+    "data/processed/auction_history_matches/latest.json": "89edd795a2eaa91b99e0d3dcec58e5ad8848c617e3b94355a05ceb20ce3f1608",
+    "data/processed/auction_price_model/latest.json": "11e17243cae4ce508b2838fcd8ea5291a2d856bfc6e0b5087b68e98cb2471573",
+    "data/processed/canonical_projections/2020/latest.json": "6a2b5841a896636ff2b6b23ce2a373ddc7267d3c6b713665d2ce0b5879ead77f",
+    "data/processed/canonical_projections/2021/latest.json": "4b642f490eeabaec23b5c67b0d37b53b762c4f9af95366ff823a3b22af0ddcbb",
+    "data/processed/canonical_projections/2022/latest.json": "62037661ebe439c9c6d99395be2fd9ee8e01d27ab694a3636a1a88b82301a149",
+    "data/processed/canonical_projections/2023/latest.json": "aca5d1f888308152928e3764c3669f9fbfadf9491678241ee77581f7d7054c1e",
+    "data/processed/canonical_projections/2024/latest.json": "615f32693065433549c200ec83eeabd0e758223a5a72ae3a0785530e330cafee",
+    "data/processed/canonical_projections/2025/latest.json": "f7171a630b8b5ec0270ce702f303175f79923313409c81bfb639b6e3855cb357",
+    "data/processed/canonical_projections/2026/latest.json": "9c03b954669323cc568243ee7355f36905e1595c9fa8f59abb0df504b82898e3",
+    "data/processed/espn_salary_cap_values/2020/latest.json": "1f4099e18bf9524d3599f9202312f7c4cf848fa463047b19124cfca07572ed20",
+    "data/processed/espn_salary_cap_values/2021/latest.json": "6c41081a47091629d81ca1b2a7ac77e8610be23a3a971dd69d3e08f4ac1ee74b",
+    "data/processed/espn_salary_cap_values/2022/latest.json": "739b8ad03a8ebfaf97907ab5197c4877299a93cf6ce7cea896256b2ee968030e",
+    "data/processed/espn_salary_cap_values/2023/latest.json": "b6868b0805d867c6e462d3c868f1d4037574304f506a310a27ebfa89becebacc",
+    "data/processed/espn_salary_cap_values/2024/latest.json": "b7df2d3157dcc4a84752fd75f7a46d17de5cf091cfcc7ed866ee4a6e2f8e6ad0",
+    "data/processed/espn_salary_cap_values/2025/latest.json": "ddcad097af713391744bf3f99b86d72f08d89c691b4eaf156943a45f21fb8334",
+    "data/processed/espn_salary_cap_values/2026/latest.json": "079fad1ca482c0393b137701339ab1c85091a9f4eb4fcfda8a0fb6ee844680f4",
+    "data/processed/espn_salary_cap_values/combined/latest.json": "1951bec8dc3e8de904fe602daa72ee2820347168e768bf96a267a82e03343810",
+    "data/processed/fantasypros/2020/latest.json": "5f56dea9ab47223364a851d7dcffcdb7bc608c85d2a62fcc8e1868fbab20957b",
+    "data/processed/fantasypros/2021/latest.json": "1114fac1f7dba5fdbfad77cfeda9fdddc12557ced3ede909ac037bcf07cfd734",
+    "data/processed/fantasypros/2022/latest.json": "90cfb859f506c677b009f998df4275ac7591e8820ec10f0d825527a5f33803a2",
+    "data/processed/fantasypros/2023/latest.json": "6712c6c05707de1f315bc496a6c667e7047dc6ae7782219be34034f824a82ec6",
+    "data/processed/fantasypros/2024/latest.json": "40d1b3d6f6cd01b8c72e47e624b2680cd8ced2b5be053c62bdc5817e654090c3",
+    "data/processed/fantasypros/2025/latest.json": "61d2b8c76a1714bf122e1b32ebcb59e1f5966e33254f1de88d3b8d840f4bcd41",
+    "data/processed/fantasypros/2026/latest.json": "4dc08e293c1bbf5006482901c0a5c62fdfdc1c79d27fae0917042137bba7a729",
+    "data/processed/fantasypros_actuals/2020/latest.json": "b8141818917652c93095af127b7d291b40156c561a03718b9592cc5ecc693a70",
+    "data/processed/fantasypros_actuals/2021/latest.json": "583fc89690834343d4b393bec890ccb41db1e5a79d015084b7c19b4488e532ef",
+    "data/processed/fantasypros_actuals/2022/latest.json": "d49d5d851ccd17347372e1f0172a62ccc0a9b2bb24a2c67f5b696e65ce48136b",
+    "data/processed/fantasypros_actuals/2023/latest.json": "21bdc61ab1d5d352ed0a475ab9cc71054dfdd21a20b0ceceb7ab77ea71d0b99d",
+    "data/processed/fantasypros_actuals/2024/latest.json": "e48ec605db115f8c74291d029eb1bd2909e2ac4f50ef701e25a83e266af593fe",
+    "data/processed/fantasypros_actuals/2025/latest.json": "3f6a5be9688097a2ea4cec9e493dc10882f59efeadb8a925520f41d6249a115a",
+    "data/processed/fantasypros_adp/2020/latest.json": "e5223e6ae96271580fc43aa57ffe42675713eeaddef8e737a13a22ab9fd3d2d6",
+    "data/processed/fantasypros_adp/2021/latest.json": "b1852f383d550e3e35ff83781bf94c5dd00fbef736cc1a66e01e3e9e43b4630e",
+    "data/processed/fantasypros_adp/2022/latest.json": "37895142c7d40dd947fef542f2692f04fda00e55dec8329ab528aea2c35e6427",
+    "data/processed/fantasypros_adp/2023/latest.json": "007a756c22302155e41a0876ed53614384ba5a1ba0ded70879916df52ac72db0",
+    "data/processed/fantasypros_adp/2024/latest.json": "10a720c2e0ecc2e8d0721ce1482efbc462dab462cdf425e792cf0a6f9e6e8caa",
+    "data/processed/fantasypros_adp/2025/latest.json": "5d4f67eb68b75d8476463eee3d236b2d44c0223e26e5dd0d4c9a708331a6bfab",
+    "data/processed/fantasypros_adp/2026/latest.json": "694768bfd8f68e63879a2e833229d2619e93a12e78a03f9aabc477f4645098d9",
+    "data/processed/nflverse/latest.json": "05300888a9a4f217743e72ffb586e0b065ce465823c14d760f55b299982e17d7",
+    "data/processed/owner_tendencies/latest.json": "64f8fbdd63d8a173e4a68556132ceecfaaca5ba9520e83c1b1a6617de80a8432",
+    "data/processed/production_value_model/latest.json": "117febbba82e7dafeb1e51355c0e9f0eb2207b1428d9450f3eb928ed2e987f7c",
+    "data/processed/projection_evaluation/latest.json": "76980c83807a6a90f330637050f760b2f36a0abb74a29fb3f7c588f4ae1ed6dc",
+    "data/processed/projection_match_review/latest.json": "e452986fd905306ce88252cf0055b9feff9d4f6b02fbdebcae9c99605d4e37ea",
+    "data/processed/rebuilds/latest.json": "3803c6c3ec58b6f7cbe7823c7b51a4b22fb0306102b8f465f93e07b88b26f8a4"
+  },
+  "schema_version": 1,
+  "stages": [
+    {
+      "exit_code": 0,
+      "name": "canonical_projections",
+      "script": "scripts/build_canonical_projections.py"
+    },
+    {
+      "exit_code": 0,
+      "name": "projection_match_report",
+      "script": "scripts/projection_match_report.py"
+    },
+    {
+      "exit_code": 0,
+      "name": "auction_history_matches",
+      "script": "scripts/match_auction_history.py"
+    },
+    {
+      "exit_code": 0,
+      "name": "projection_evaluation",
+      "script": "scripts/evaluate_projection_sources.py"
+    },
+    {
+      "exit_code": 0,
+      "name": "auction_price_and_probability",
+      "script": "scripts/auction_price_model.py"
+    },
+    {
+      "exit_code": 0,
+      "name": "production_value_and_decision_board",
+      "script": "scripts/production_value_model.py"
+    },
+    {
+      "exit_code": 0,
+      "name": "owner_tendencies",
+      "script": "scripts/owner_tendencies.py"
+    },
+    {
+      "exit_code": 0,
+      "name": "tests"
+    },
+    {
+      "exit_code": 0,
+      "name": "domain_typecheck_and_tests"
+    }
+  ],
+  "started_at": "2026-08-23T20:12:29.405871+00:00",
+  "status": "complete"
+}

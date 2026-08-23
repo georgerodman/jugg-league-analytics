@@ -1,0 +1,17 @@
+{
+  "name": "jugg-league-analytics",
+  "private": true,
+  "scripts": {
+    "test:domain": "tsx --test tests/domain/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "better-sqlite3": "12.4.1"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "7.6.13",
+    "@types/node": "20.19.24",
+    "tsx": "4.20.6",
+    "typescript": "5.9.3"
+  }
+}

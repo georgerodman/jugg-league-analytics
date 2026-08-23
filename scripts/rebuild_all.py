@@ -114,6 +114,15 @@ def run(root: Path) -> Path:
         stage_records.append({"name": "tests", "exit_code": tests.returncode})
         if tests.returncode:
             raise RebuildError(f"Tests failed; see {out / 'tests.log'}")
+        domain_tests = subprocess.run(["npm", "run", "typecheck"], cwd=root, capture_output=True, text=True)
+        if domain_tests.returncode == 0:
+            executed = subprocess.run(["npm", "run", "test:domain"], cwd=root, capture_output=True, text=True)
+            domain_tests = subprocess.CompletedProcess(domain_tests.args, executed.returncode,
+                domain_tests.stdout + domain_tests.stderr + executed.stdout, executed.stderr)
+        (out / "domain_tests.log").write_text(domain_tests.stdout + domain_tests.stderr)
+        stage_records.append({"name": "domain_typecheck_and_tests", "exit_code": domain_tests.returncode})
+        if domain_tests.returncode:
+            raise RebuildError(f"Domain verification failed; see {out / 'domain_tests.log'}")
         current = pointers(root)
         new_board = load_board(root, current.get(production_pointer))
         if len(new_board) != 294:

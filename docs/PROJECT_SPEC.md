@@ -97,6 +97,15 @@ Copilot advice must be explainable and clearly distinguish facts, model estimate
 
 SQLite is the operational source of truth during the draft. Persist configuration, imported data, model outputs needed at runtime, current draft state, and an auditable transaction/event history. Write locally before initiating external sync. On restart or refresh, reconstruct the exact draft state and identify any pending synchronization work.
 
+Use an immutable, per-draft ordered event log plus transactional materialized
+state. Every command carries an idempotency key and expected state version. A
+successful nomination, sale, correction, roster reassignment, or lifecycle
+change must append its event and update local state in one transaction before
+creating retryable remote-sync work. Corrections append compensating events;
+they never rewrite or delete audit history. The initial domain and schema
+contract is documented in `docs/DRAFT_DOMAIN_AND_SQLITE.md` and implemented by
+`db/migrations/001_initial.sql`.
+
 Projection imports must be prepared before draft night. The live application reads the last validated local projection artifact and must not call FantasyPros, FFA, or another projection provider during essential draft operation.
 
 ### Google Sheets write-through
