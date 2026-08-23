@@ -49,3 +49,14 @@ Checksums and schema observations are recorded in
 - Immutable FantasyPros historical standard-scoring player-points responses.
 - Used only for offline projection evaluation, not as a draft-night dependency.
 - One offensive-position response plus checksum metadata per request.
+
+## `nflverse/<timestamp>/`
+
+- Immutable CSV snapshots downloaded from official nflverse release assets and
+  the nflverse schedule repository.
+- Includes the player registry and schedules plus season-specific weekly player
+  stats, rosters, and team stats.
+- `manifest.json` records source URLs, seasons, schemas, record counts, and
+  SHA-256 checksums.
+- Normalization, identity matching, and league scoring write only to
+  `data/processed/nflverse/<timestamp>/`.

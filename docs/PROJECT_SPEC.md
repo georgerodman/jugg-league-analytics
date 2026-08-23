@@ -18,6 +18,14 @@ Estimate each player's fantasy contribution and convert it into draft value unde
 
 Use FantasyPros as the primary source for preseason player identity and projected counting statistics. Treat FantasyFootballAnalytics (FFA) and future projection or player-data providers as enrichment sources for uncertainty, kicker detail, injuries, biographical attributes, comparison signals, or missing fields. Preserve every provider independently at the raw-data boundary. Merged model inputs must retain field-level source provenance and apply explicit, tested conflict and fallback rules rather than silently blending or overwriting values.
 
+Use nflverse as the primary historical NFL outcomes and identifier-enrichment
+source. Preserve nflverse releases as immutable pre-draft snapshots, normalize
+them behind a Python adapter, and calculate actual fantasy points from the
+league scoring configuration. nflverse actuals evaluate preseason projections
+and provide prior-season model features; they do not replace FantasyPros as the
+preseason projection backbone. Name-based identity matching must remain
+reviewable and must never silently create a permanent player identifier.
+
 ### Owner tendencies
 
 Learn or encode manager-specific behavior from historical drafts: position and team preferences, typical aggression, willingness to pay, timing, nomination patterns, budget discipline, and other repeatable tendencies. Use owner signals as probabilistic context, not certainty, and show when evidence is weak.

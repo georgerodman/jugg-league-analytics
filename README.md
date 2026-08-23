@@ -90,3 +90,16 @@ data contract and provenance details.
 FantasyPros is the primary projection source. Historical FFA snapshots are
 preserved separately under `data/raw/ffa/<season>/` and will enrich the primary
 dataset with uncertainty, kicker detail, and other source-specific fields.
+
+## Refresh historical nflverse data
+
+Build the immutable historical-results, player-identity, and league-scored
+actuals artifacts before draft night:
+
+```sh
+python3 scripts/nflverse_pipeline.py --seasons 2020 2021 2022 2023 2024 2025
+```
+
+The live application never calls nflverse. It consumes only the last validated
+local artifacts. See `docs/DATA_SOURCE_OPERATIONS.md` for refresh, rebuild, and
+review instructions.

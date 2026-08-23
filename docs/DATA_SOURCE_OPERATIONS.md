@@ -126,3 +126,47 @@ python3 scripts/fantasypros_actual_points.py
 Treat evaluation results as evidence, not an automatic promotion mechanism.
 Coverage, MAE, RMSE, bias, missingness, uncertainty quality, and licensing all
 matter when assigning a source role.
+
+## Refresh nflverse historical data
+
+nflverse is the historical NFL outcomes and identifier-enrichment source. It
+is not a live draft dependency and does not overwrite projection fields.
+
+Fetch and build the supported completed seasons:
+
+```sh
+python3 scripts/nflverse_pipeline.py --seasons 2020 2021 2022 2023 2024 2025
+```
+
+The command downloads players, weekly player stats, season rosters, weekly
+team stats, and schedules. It validates required columns before publication,
+stores immutable responses and checksums under
+`data/raw/nflverse/<snapshot>/`, and publishes normalized data under
+`data/processed/nflverse/<snapshot>/`. The raw and processed `latest.json`
+pointers change only after a complete successful build.
+
+Rebuild a preserved snapshot without network access:
+
+```sh
+python3 scripts/nflverse_pipeline.py --no-download
+```
+
+Review `player_identity_crosswalk.json` after every refresh. Exact
+name-position-team and unique name-position matches are accepted with explicit
+confidence; unmatched players remain exceptions. Names are matching evidence,
+not durable identifiers. The crosswalk retains nflverse/GSIS, FantasyPros,
+Yahoo, ESPN, PFR, and PFF identifiers when available.
+
+`league_scored_actuals.json` contains regular-season weekly and season totals
+calculated from `config/league.json`. Kicker calculations use nflverse distance
+and miss buckets. Defense calculations use team defensive statistics and final
+schedule scores for the configured points-allowed bucket. This points-allowed
+method should be compared with Yahoo's historical scoring exports before it is
+treated as an exact platform reconciliation.
+
+Before promoting a new snapshot, inspect its manifest and match exceptions,
+then run:
+
+```sh
+python3 -m unittest discover -s tests -v
+```
