@@ -55,6 +55,12 @@ source contains a player absent from an enrichment source and needs no action.
 collapsed deterministically and counted in canonical build metadata; distinct
 candidates are never selected automatically.
 
+The combined projection match report also flags unmatched rows inside a
+position-specific draftable review band (`QB` 20, `RB` 50, `WR` 60, `TE` 20,
+`K` 15, `DEF` 15). Review-band flags distinguish potentially meaningful
+enrichment gaps from the provider's long tail; they do not remove or downgrade
+the FantasyPros primary projection.
+
 ## Refresh FFA or another file-delivered source
 
 1. Preserve the supplied file unchanged under
