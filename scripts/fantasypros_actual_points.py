@@ -16,7 +16,10 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-from fantasypros_projections import PipelineError, atomic_write, load_dotenv
+try:
+    from scripts.fantasypros_projections import PipelineError, atomic_write, load_dotenv
+except ModuleNotFoundError:  # Direct execution places scripts/ on sys.path.
+    from fantasypros_projections import PipelineError, atomic_write, load_dotenv
 
 API_BASE = "https://api.fantasypros.com/public/v2/json"
 POSITIONS = ("QB", "RB", "WR", "TE")

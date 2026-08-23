@@ -7,6 +7,7 @@ COPY --from=node_runtime /usr/local/ /usr/local/
 RUN apt-get update \
     && apt-get install --yes --no-install-recommends \
         git \
+        poppler-utils \
         sqlite3 \
     && rm -rf /var/lib/apt/lists/* \
     && groupadd --gid 1000 developer \
@@ -17,4 +18,3 @@ WORKDIR /workspace
 USER developer
 
 CMD ["sleep", "infinity"]
-

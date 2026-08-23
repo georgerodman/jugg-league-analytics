@@ -94,6 +94,16 @@ FantasyPros is the primary projection source. Historical FFA snapshots are
 preserved separately under `data/raw/ffa/<season>/` and will enrich the primary
 dataset with uncertainty, kicker detail, and other source-specific fields.
 
+Yahoo and ESPN historical ADP market markers can be refreshed with:
+
+```sh
+python3 scripts/fantasypros_adp.py
+```
+
+The project does not generate homegrown JUGG auction-dollar values. Publicly
+available auction values will be preserved as external market inputs when a
+suitable source is added.
+
 ## Refresh historical nflverse data
 
 Build the immutable historical-results, player-identity, and league-scored

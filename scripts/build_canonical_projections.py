@@ -72,6 +72,15 @@ def load_latest_fantasypros(root: Path, season: int) -> tuple[dict[str, Any], Pa
     return json.loads(artifact_path.read_text(encoding="utf-8")), artifact_path
 
 
+def load_latest_adp(root: Path, season: int) -> tuple[dict[str, Any], Path]:
+    pointer_path = root / "data" / "processed" / "fantasypros_adp" / str(season) / "latest.json"
+    if not pointer_path.exists():
+        raise BuildError(f"Missing FantasyPros platform ADP pointer for {season}")
+    pointer = json.loads(pointer_path.read_text(encoding="utf-8"))
+    artifact_path = root / pointer["artifact"]
+    return json.loads(artifact_path.read_text(encoding="utf-8")), artifact_path
+
+
 def load_ffa(root: Path, season: int) -> tuple[list[dict[str, str]], Path]:
     path = root / "data" / "raw" / "ffa" / str(season) / f"raw_stats_{season}_wk0.csv"
     if not path.exists():
@@ -198,6 +207,8 @@ def ffa_enrichment(row: dict[str, str]) -> tuple[dict[str, Any], dict[str, Any]]
 
 def build_season(root: Path, season: int) -> Path:
     fantasypros, fp_path = load_latest_fantasypros(root, season)
+    adp, adp_path = load_latest_adp(root, season)
+    adp_by_id = {row["fantasypros_id"]: row for row in adp["players"]}
     ffa_rows, ffa_path = load_ffa(root, season)
     aliases = load_aliases(root, season)
     identities = load_identity_registry(root, season)
@@ -238,9 +249,16 @@ def build_season(root: Path, season: int) -> Path:
                 "points_half": fp.get("fantasypros_points_half"),
                 "points_ppr": fp.get("fantasypros_points_ppr"),
             },
+            "market_signals": {
+                "adp_yahoo": adp_by_id.get(fp["fantasypros_id"], {}).get("adp_yahoo"),
+                "adp_espn": adp_by_id.get(fp["fantasypros_id"], {}).get("adp_espn"),
+            },
             "enrichments": {},
             "match": {"ffa": {"method": method, "confidence": 1.0 if method.endswith("team") else 0.9 if method == "exact_name_position" else 0.0}},
         }
+        for platform in ("yahoo", "espn"):
+            if canonical["market_signals"][f"adp_{platform}"] is not None:
+                provenance[f"market_signals.adp_{platform}"] = f"fantasypros:{platform}_adp"
         if isinstance(match, tuple):
             row_number, row = match
             metadata, enrichment = ffa_enrichment(row)
@@ -268,6 +286,7 @@ def build_season(root: Path, season: int) -> Path:
         "enrichment_sources": ["ffa"],
         "inputs": {
             "fantasypros": {"path": str(fp_path.relative_to(root)), "sha256": hashlib.sha256(fp_path.read_bytes()).hexdigest()},
+            "fantasypros_adp": {"path": str(adp_path.relative_to(root)), "sha256": hashlib.sha256(adp_path.read_bytes()).hexdigest()},
             "ffa": {"path": str(ffa_path.relative_to(root)), "sha256": hashlib.sha256(ffa_path.read_bytes()).hexdigest()},
         },
         "player_count": len(output_players), "match_methods": dict(methods),

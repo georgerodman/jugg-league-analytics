@@ -50,6 +50,21 @@ Checksums and schema observations are recorded in
 - Used only for offline projection evaluation, not as a draft-night dependency.
 - One offensive-position response plus checksum metadata per request.
 
+## `fantasypros_adp/<season>/<timestamp>/`
+
+- Immutable FantasyPros half-PPR and PPR ADP pool responses.
+- Yahoo ADP is extracted from source ID 236; ESPN ADP from source ID 79.
+- These are external snake-draft market markers, not auction-dollar values.
+
+## `espn_cheat_sheets/`
+
+- ESPN non-PPR Salary Cap Value cheat-sheet PDFs for 2020–2026.
+- Canonical filename: `espn_salary_cap_values_<season>_non_ppr.pdf`.
+- Files remain byte-for-byte unchanged; processed manifests record SHA-256
+  checksums.
+- Published assumptions are 10 teams and a $200 budget per team. These are
+  public ESPN estimates, not JUGG-generated auction values.
+
 ## `nflverse/<timestamp>/`
 
 - Immutable CSV snapshots downloaded from official nflverse release assets and
