@@ -2,15 +2,24 @@
   "name": "jugg-league-analytics",
   "private": true,
   "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
     "test:domain": "tsx --test tests/domain/*.test.ts",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "better-sqlite3": "12.4.1"
+    "better-sqlite3": "12.4.1",
+    "next": "15.5.2",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "zod": "4.1.5"
   },
   "devDependencies": {
     "@types/better-sqlite3": "7.6.13",
     "@types/node": "20.19.24",
+    "@types/react": "19.1.12",
+    "@types/react-dom": "19.1.9",
     "tsx": "4.20.6",
     "typescript": "5.9.3"
   }

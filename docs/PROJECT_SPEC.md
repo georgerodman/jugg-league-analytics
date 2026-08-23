@@ -76,9 +76,34 @@ The live engine maintains the authoritative local draft state:
 
 Every completed sale must update the winning roster and budget, remove the player from the available pool, update league-wide constraints, and trigger recalculation. State transitions should be deterministic, validated, persisted, and recoverable.
 
+A deliberate full-draft reset is available from the application. It requires
+typing `RESET`, checkpoints and preserves the prior SQLite database as a
+timestamped local backup, initializes a clean draft, and projects the empty
+rosters to Google Sheets. Renegades strategy and player preferences are
+preserved by default but can be reset explicitly from the confirmation dialog.
+
 ## Nominated-Player Workflow
 
 Optimize the main draft screen around one currently nominated player. Show the information needed to decide whether and how far to pursue that player: projected performance, publicly sourced auction values when available, historical JUGG prices, external ADP, positional context, roster fit, risks, comparable alternatives, and relevant owner signals.
+
+The application is named **Renegade Draft Room** and highlights the operator's
+team, **Rodman Renegades**. The V1 visual direction uses a split-focus desktop
+layout: a restrained searchable player list on the left and a dedicated live
+decision workspace on the right. The current nomination remains compact while
+roster fit, recommendation rationale, likely competition, room pressure,
+owner signals, and alternatives receive the available decision space. A
+compact Last 5 Picks strip stays on the main screen for rapid, confirmed
+corrections; the complete immutable history is available on demand.
+
+The player list includes blended Yahoo/ESPN ADP and bye week and sorts through
+clickable column headers. Renegades-specific strategy is stored separately from
+market and production models. Preferred/avoided players, preferred/avoided NFL
+team-position situations, roster construction, risk tolerance, and bye-week
+concentration are bounded advisory inputs: they may adjust Renegades value and
+recommendations but never make a player unavailable or change the market-price
+prediction. Completed sales produce a separate, shrinkage-controlled live
+market estimate while preserving the frozen pre-draft prediction. The detailed
+contract is in `docs/LIVE_MARKET_AND_STRATEGY.md`.
 
 There is intentionally no live bid-entry stream. The user selects or confirms the nominated player, uses the app for decision support while bidding happens elsewhere, then records the final winner and sale price. The app immediately advances state and recommendations.
 
@@ -111,6 +136,15 @@ Projection imports must be prepared before draft night. The live application rea
 ### Google Sheets write-through
 
 Google Sheets provides a familiar shared view and optional downstream reporting. Successful local changes should write through to Sheets when connectivity is available. Synchronization must be retryable and idempotent, with visible pending/error status and a reconciliation path. Sheets must not become a runtime dependency or override newer authoritative local state without an explicit conflict policy.
+
+For the 2026 draft, completed sales and compensating sale corrections trigger a
+full authoritative roster projection to the `2026 Draft Board` workbook's
+`Sheet1` tab. Only each owner's Player and Price cells are written; existing
+position labels, formatting, remaining-budget formulas, max-bid formulas, and
+salary-cap inputs are preserved. The owner/cell contract is versioned in
+`config/google_sheets.json`. The local runtime authenticates with a dedicated
+service account whose credential file remains outside version control. Failed
+writes remain in the SQLite outbox and can be retried without duplicating picks.
 
 ### Offline-first behavior
 

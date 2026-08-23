@@ -3,6 +3,9 @@
 Data-source responsibilities and the player identity/matching process are
 documented in `docs/DATA_SOURCES_AND_PLAYER_IDENTITY.md`.
 
+The folder hierarchy, naming conventions, and architectural ownership
+boundaries are documented in `docs/REPOSITORY_MAP.md`.
+
 A fantasy football analytics, draft preparation, and league management project built for the JUGG League, a long-running private Yahoo Fantasy Football league.
 
 ## Project Goals
@@ -47,7 +50,29 @@ Yahoo Fantasy Sports data will not be sold or redistributed.
 
 ## Status
 
-This project is currently in development.
+The first working version of **Renegade Draft Room** is now available locally.
+
+## Run Renegade Draft Room
+
+Install the pinned application packages once, then start the local app:
+
+```sh
+npm install
+npm run dev
+```
+
+Open the local address printed by Next.js (normally
+`http://localhost:3000`). The application creates its recoverable SQLite draft
+state under the ignored `.local/` directory and imports the current validated
+player board and owner profiles the first time it opens.
+
+Before draft night, verify a production build with:
+
+```sh
+npm run typecheck
+npm run test:domain
+npm run build
+```
 
 ## Development environment
 

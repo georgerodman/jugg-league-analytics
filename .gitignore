@@ -218,3 +218,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Local Next.js application output and draft-night state
+node_modules/
+.next/
+.local/
+tsconfig.tsbuildinfo

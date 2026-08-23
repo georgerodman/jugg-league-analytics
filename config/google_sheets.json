@@ -1,0 +1,17 @@
+{
+  "spreadsheetId": "1cPaAntBnFk8dAReYQi0uN3ZQAI_6EE2J04aIevl9Aqc",
+  "sheetName": "Sheet1",
+  "sheetId": 0,
+  "owners": {
+    "George Rodman": { "playerColumn": 1, "priceColumn": 2, "firstRosterRow": 4 },
+    "Lee Krassner": { "playerColumn": 5, "priceColumn": 6, "firstRosterRow": 4 },
+    "Ken Moller": { "playerColumn": 9, "priceColumn": 10, "firstRosterRow": 4 },
+    "Julius Berotte": { "playerColumn": 13, "priceColumn": 14, "firstRosterRow": 4 },
+    "Nate Corbett": { "playerColumn": 17, "priceColumn": 18, "firstRosterRow": 4 },
+    "Robbie Bagwell": { "playerColumn": 1, "priceColumn": 2, "firstRosterRow": 23 },
+    "Joey Breeland": { "playerColumn": 5, "priceColumn": 6, "firstRosterRow": 23 },
+    "Brandon Martin": { "playerColumn": 9, "priceColumn": 10, "firstRosterRow": 23 },
+    "Brad Beissner": { "playerColumn": 13, "priceColumn": 14, "firstRosterRow": 23 },
+    "Phil Carr": { "playerColumn": 17, "priceColumn": 18, "firstRosterRow": 23 }
+  }
+}

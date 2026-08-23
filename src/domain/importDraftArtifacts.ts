@@ -12,15 +12,22 @@ export const JUGG_SLOTS: SlotTemplate[] = [
 
 function file(path:string){const bytes=readFileSync(path);return {bytes,payload:JSON.parse(bytes.toString("utf8")),sha256:createHash("sha256").update(bytes).digest("hex")};}
 
-export function initializeFromArtifacts(service:DraftService,input:{draftId:string;season:number;name:string;decisionBoardPath:string;ownerProfilesPath:string;teamNames?:Record<string,string>}):void {
+export function initializeFromArtifacts(service:DraftService,input:{draftId:string;season:number;name:string;decisionBoardPath:string;ownerProfilesPath:string;espnSalaryCapPath?:string;teamNames?:Record<string,string>}):void {
   const board=file(input.decisionBoardPath), owners=file(input.ownerProfilesPath);
+  const espn=input.espnSalaryCapPath?file(input.espnSalaryCapPath):null;
+  const espnValues=(espn?.payload.values??[]) as any[];
+  const byeByPlayer=new Map(espnValues.map(row=>[row.internal_player_id,row.bye_week]));
+  const byeByTeam=new Map(espnValues.filter(row=>row.nfl_team&&row.bye_week).map(row=>[row.nfl_team,row.bye_week]));
   const teams:TeamInput[]=owners.payload.owners.map((profile:any,index:number)=>({id:`team:${index+1}`,ownerId:`owner:${profile.owner.toLowerCase().replace(/[^a-z0-9]+/g,"-")}`,ownerName:profile.owner,name:input.teamNames?.[profile.owner] ?? profile.owner}));
   const players:PlayerInput[]=board.payload.players.map((row:any)=>({id:row.internal_player_id,name:row.player_name,position:row.position,nflTeam:row.nfl_team,identityStatus:row.internal_player_id.startsWith("provisional:")?"provisional":"stable"}));
   service.initializeDraft({id:input.draftId,season:input.season,name:input.name,teams,players,slots:JUGG_SLOTS});
   service.db.transaction(()=>{
     service.db.prepare("INSERT INTO artifact_imports(id,artifact_type,schema_version,build_id,relative_path,sha256,metadata_json) VALUES(?,?,?,?,?,?,?)").run("artifact:decision","combined_decision_board",1,board.payload.metadata.build_id,input.decisionBoardPath,board.sha256,JSON.stringify(board.payload.metadata));
     service.db.prepare("INSERT INTO artifact_imports(id,artifact_type,schema_version,build_id,relative_path,sha256,metadata_json) VALUES(?,?,?,?,?,?,?)").run("artifact:owners","owner_tendencies",1,owners.payload.metadata.build_id,input.ownerProfilesPath,owners.sha256,JSON.stringify(owners.payload.metadata));
-    const update=service.db.prepare("UPDATE draft_player_pool SET expected_price=?,price_low=?,price_high=?,draft_probability=?,production_value=?,expected_surplus=?,risk_flags_json=?,market_artifact_id='artifact:decision',production_artifact_id='artifact:decision',owner_profile_artifact_id='artifact:owners' WHERE draft_id=? AND player_id=?");
-    for(const row of board.payload.players) update.run(row.expected_jugg_price,row.price_range_low,row.price_range_high,row.draft_probability,row.production_value,row.expected_surplus,JSON.stringify((row.risk_flags||"").split(";").filter(Boolean)),input.draftId,row.internal_player_id);
+    const update=service.db.prepare("UPDATE draft_player_pool SET expected_price=?,price_low=?,price_high=?,draft_probability=?,production_value=?,expected_surplus=?,risk_flags_json=?,adp_espn=?,adp_yahoo=?,bye_week=?,market_artifact_id='artifact:decision',production_artifact_id='artifact:decision',owner_profile_artifact_id='artifact:owners' WHERE draft_id=? AND player_id=?");
+    for(const row of board.payload.players) update.run(row.expected_jugg_price,row.price_range_low,row.price_range_high,row.draft_probability,row.production_value,row.expected_surplus,JSON.stringify((row.risk_flags||"").split(";").filter(Boolean)),row.adp_espn,row.adp_yahoo,byeByPlayer.get(row.internal_player_id)??byeByTeam.get(row.nfl_team)??null,input.draftId,row.internal_player_id);
+    const updateOwner=service.db.prepare("UPDATE owners SET profile_json=?,profile_artifact_id='artifact:owners' WHERE display_name=?");
+    for(const profile of owners.payload.owners) updateOwner.run(JSON.stringify(profile),profile.owner);
+    service.db.prepare("INSERT INTO draft_strategy(draft_id,strategy_json) VALUES(?,?)").run(input.draftId,JSON.stringify({buildStyle:"balanced",riskTolerance:"balanced",byeWeekMode:"soft",maxSameBye:2,targetPremium:3,situations:[],teamPreferences:[],notes:""}));
   })();
 }

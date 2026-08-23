@@ -8,6 +8,7 @@ class SqliteSchemaTests(unittest.TestCase):
     def setUp(self):
         self.db=sqlite3.connect(":memory:")
         self.db.executescript((ROOT/"db/migrations/001_initial.sql").read_text())
+        self.db.executescript((ROOT/"db/migrations/002_strategy_and_market_context.sql").read_text())
 
     def tearDown(self): self.db.close()
 
@@ -30,5 +31,15 @@ class SqliteSchemaTests(unittest.TestCase):
         with self.assertRaises(sqlite3.IntegrityError):
             self.db.execute("INSERT INTO draft_events(id,draft_id,sequence,event_type,aggregate_type,aggregate_id,idempotency_key,payload_json,occurred_at) VALUES('e2','d',2,'draft_started','draft','d','key','{}','x')")
         with self.assertRaises(sqlite3.IntegrityError): self.db.execute("INSERT INTO owners(id,display_name,profile_json) VALUES('bad','Bad','not-json')")
+
+    def test_strategy_preferences_are_validated_but_do_not_remove_players(self):
+        self.seed()
+        self.db.execute("INSERT INTO draft_player_pool(draft_id,player_id,adp_espn,adp_yahoo,bye_week) VALUES('d','p',25,31,8)")
+        self.db.execute("INSERT INTO draft_strategy(draft_id,strategy_json) VALUES('d','{\"byeWeekMode\":\"soft\"}')")
+        self.db.execute("INSERT INTO player_preferences(draft_id,player_id,preference,premium) VALUES('d','p','avoid',0)")
+        status=self.db.execute("SELECT status FROM draft_player_pool WHERE draft_id='d' AND player_id='p'").fetchone()[0]
+        self.assertEqual(status,"available")
+        with self.assertRaises(sqlite3.IntegrityError):
+            self.db.execute("UPDATE player_preferences SET preference='blocked' WHERE draft_id='d' AND player_id='p'")
 
 if __name__ == '__main__': unittest.main()

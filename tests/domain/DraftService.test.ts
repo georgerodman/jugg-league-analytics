@@ -5,7 +5,7 @@ import { readFileSync } from "node:fs";
 import { DraftService, DomainError, type SlotTemplate } from "../../src/domain/DraftService.js";
 import { initializeFromArtifacts, JUGG_SLOTS } from "../../src/domain/importDraftArtifacts.js";
 
-const migration=readFileSync("db/migrations/001_initial.sql","utf8");
+const migration=readFileSync("db/migrations/001_initial.sql","utf8")+readFileSync("db/migrations/002_strategy_and_market_context.sql","utf8");
 const slots:SlotTemplate[]=[
   {slotType:"QB",count:1,eligiblePositions:["QB"]},{slotType:"RB",count:1,eligiblePositions:["RB"]},
   {slotType:"WR",count:2,eligiblePositions:["WR"]},{slotType:"TE",count:1,eligiblePositions:["TE"]},

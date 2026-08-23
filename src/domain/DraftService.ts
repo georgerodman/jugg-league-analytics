@@ -1,6 +1,7 @@
 import Database from "better-sqlite3";
-import { readFileSync } from "node:fs";
+import { readFileSync, readdirSync } from "node:fs";
 import { randomUUID } from "node:crypto";
+import { dirname } from "node:path";
 
 export type Position = "QB" | "RB" | "WR" | "TE" | "K" | "DEF";
 export type Command = { draftId: string; expectedVersion: number; idempotencyKey: string; occurredAt: string };
@@ -20,6 +21,12 @@ export class DraftService {
     db.pragma("journal_mode = WAL"); db.pragma("synchronous = FULL");
     if (!db.prepare("SELECT 1 FROM sqlite_master WHERE type='table' AND name='schema_migrations'").get())
       db.exec(readFileSync(migrationPath, "utf8"));
+    const applied=new Set((db.prepare("SELECT version FROM schema_migrations").all() as {version:number}[]).map(row=>row.version));
+    const migrations=readdirSync(dirname(migrationPath)).filter(name=>/^\d{3}_.+\.sql$/.test(name)).sort();
+    for(const name of migrations){
+      const version=Number(name.slice(0,3));
+      if(!applied.has(version))db.exec(readFileSync(`${dirname(migrationPath)}/${name}`,"utf8"));
+    }
     return new DraftService(db);
   }
 
