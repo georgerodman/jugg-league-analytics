@@ -1,6 +1,6 @@
 import unittest
 
-from scripts.build_canonical_projections import index_ffa, normalize_name, normalize_position, normalize_team, parse_value
+from scripts.build_canonical_projections import index_ffa, normalize_name, normalize_position, normalize_team, parse_value, stable_internal_id
 from scripts.evaluate_projection_sources import ffa_standard_points, metrics
 
 
@@ -31,6 +31,11 @@ class CanonicalProjectionTests(unittest.TestCase):
         by_name_pos, _, _, duplicate_count = index_ffa([row, dict(row)], {})
         self.assertEqual(len(by_name_pos[("exampleplayer", "RB")]), 1)
         self.assertEqual(duplicate_count, 1)
+
+    def test_stable_identity_prefers_gsis_with_provisional_fallback(self):
+        self.assertEqual(stable_internal_id(17298, "00-0034857"), ("nfl:gsis:00-0034857", "stable"))
+        self.assertEqual(stable_internal_id(1, "team:BUF"), ("nfl:def:BUF", "stable"))
+        self.assertEqual(stable_internal_id(99, None), ("provisional:fantasypros:99", "provisional"))
 
 
 if __name__ == "__main__":

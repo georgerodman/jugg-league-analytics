@@ -26,6 +26,14 @@ and provide prior-season model features; they do not replace FantasyPros as the
 preseason projection backbone. Name-based identity matching must remain
 reviewable and must never silently create a permanent player identifier.
 
+Use GSIS-backed internal identifiers (`nfl:gsis:<id>`) as the preferred durable
+identity for NFL players and team identifiers (`nfl:def:<team>`) for defenses.
+When no validated GSIS mapping exists, retain an explicit provider-scoped
+provisional identifier rather than guessing. FantasyPros, FFA, Yahoo, ESPN,
+PFR, and PFF IDs are source aliases on that entity, not the entity itself.
+Identity promotion requires collision checks, evidence provenance, a shadow
+old-to-new mapping, and regression testing against versioned reviewed records.
+
 ### Owner tendencies
 
 Learn or encode manager-specific behavior from historical drafts: position and team preferences, typical aggression, willingness to pay, timing, nomination patterns, budget discipline, and other repeatable tendencies. Use owner signals as probabilistic context, not certainty, and show when evidence is weak.

@@ -103,13 +103,14 @@ def write_csv(path: Path, rows: Iterable[dict[str, Any]], fields: list[str]) -> 
     atomic_write(path, buffer.getvalue().encode())
 
 
-def acquire(root: Path, seasons: tuple[int, ...]) -> Path:
+def acquire(root: Path, seasons: tuple[int, ...], identity_seasons: tuple[int, ...] = ()) -> Path:
     fetched_at = datetime.now(timezone.utc)
     snapshot_id = fetched_at.strftime("%Y%m%dT%H%M%SZ")
     raw_dir = root / "data" / "raw" / "nflverse" / snapshot_id
     requests: list[dict[str, Any]] = []
     targets = [("players", None), ("schedules", None)]
     targets.extend((dataset, season) for season in seasons for dataset in ("player_stats", "rosters", "team_stats"))
+    targets.extend(("rosters", season) for season in identity_seasons if season not in seasons)
     for dataset, season in targets:
         url = DATASETS[dataset].format(season=season)
         body = fetch(url)
@@ -123,7 +124,8 @@ def acquire(root: Path, seasons: tuple[int, ...]) -> Path:
         })
     manifest = {
         "schema_version": SCHEMA_VERSION, "source": "nflverse", "snapshot_id": snapshot_id,
-        "fetched_at": fetched_at.isoformat(), "seasons": list(seasons), "requests": requests,
+        "fetched_at": fetched_at.isoformat(), "seasons": list(seasons),
+        "identity_seasons": list(sorted(set(seasons) | set(identity_seasons))), "requests": requests,
         "license": "CC-BY-4.0; individual upstream datasets may have additional terms",
     }
     atomic_write(raw_dir / "manifest.json", (json.dumps(manifest, indent=2, sort_keys=True) + "\n").encode())
@@ -142,7 +144,8 @@ def load_snapshot(root: Path, snapshot_id: str | None) -> tuple[Path, dict[str, 
     return raw_dir, manifest
 
 
-def normalize_sources(root: Path, raw_dir: Path, manifest: dict[str, Any], seasons: tuple[int, ...]) -> Path:
+def normalize_sources(root: Path, raw_dir: Path, manifest: dict[str, Any], seasons: tuple[int, ...],
+                      identity_seasons: tuple[int, ...] = ()) -> Path:
     snapshot_id = manifest["snapshot_id"]
     out_dir = root / "data" / "processed" / "nflverse" / snapshot_id
     players = csv_rows((raw_dir / "players.csv").read_bytes(), "players")
@@ -169,8 +172,17 @@ def normalize_sources(root: Path, raw_dir: Path, manifest: dict[str, Any], seaso
         write_csv(out_dir / f"team_stats_{season}.csv", team_stats, team_fields)
         counts.update({f"player_stats_{season}": len(stats), f"rosters_{season}": len(rosters),
                        f"team_stats_{season}": len(team_stats)})
+    for season in identity_seasons:
+        if season in seasons:
+            continue
+        rosters = csv_rows((raw_dir / f"rosters_{season}.csv").read_bytes(), "rosters")
+        roster_fields = ["season", "week", "team", "full_name", "position", "status", "birth_date",
+                         "years_exp", "gsis_id", "espn_id", "yahoo_id", "pfr_id", "pff_id", "sleeper_id"]
+        write_csv(out_dir / f"rosters_{season}.csv", rosters, roster_fields)
+        counts[f"rosters_{season}"] = len(rosters)
     metadata = {"schema_version": SCHEMA_VERSION, "source": "nflverse", "snapshot_id": snapshot_id,
-                "built_at": datetime.now(timezone.utc).isoformat(), "seasons": list(seasons), "record_counts": counts,
+                "built_at": datetime.now(timezone.utc).isoformat(), "seasons": list(seasons),
+                "identity_seasons": list(sorted(set(seasons) | set(identity_seasons))), "record_counts": counts,
                 "raw_manifest": str((raw_dir / "manifest.json").relative_to(root))}
     atomic_write(out_dir / "manifest.json", (json.dumps(metadata, indent=2, sort_keys=True) + "\n").encode())
     latest = root / "data" / "processed" / "nflverse" / "latest.json"
@@ -187,34 +199,67 @@ def canonical_players(root: Path, season: int) -> list[dict[str, Any]]:
 def build_crosswalk(root: Path, processed: Path, seasons: tuple[int, ...]) -> Path:
     master = list(csv.DictReader((processed / "players.csv").open(encoding="utf-8", newline="")))
     master_by_gsis = {row["gsis_id"]: row for row in master if row["gsis_id"]}
+    master_by_name_pos: dict[tuple[str, str], dict[str, dict[str, str]]] = defaultdict(dict)
+    for row in master:
+        gsis = clean_id(row["gsis_id"])
+        if gsis:
+            master_by_name_pos[(normalize_name(row["display_name"]), normalize_position(row["position"]))][gsis] = row
+    alias_payload = json.loads((root / "config" / "player_aliases.json").read_text())
+    identity_aliases: dict[tuple[int, str, str], str] = {}
+    for alias in alias_payload.get("aliases", []):
+        if alias.get("source") != "identity":
+            continue
+        for season in alias.get("seasons", seasons):
+            identity_aliases[(season, normalize_name(alias["source_name"]), normalize_position(alias["position"]))] = normalize_name(alias["registry_name"])
     output, exceptions = [], []
     methods: Counter[str] = Counter()
     for season in seasons:
         rosters = list(csv.DictReader((processed / f"rosters_{season}.csv").open(encoding="utf-8", newline="")))
         by_name_pos: dict[tuple[str, str], dict[str, dict[str, str]]] = defaultdict(dict)
         by_name_pos_team: dict[tuple[str, str, str | None], dict[str, dict[str, str]]] = defaultdict(dict)
+        roster_by_gsis: dict[str, dict[str, str]] = {}
         for row in rosters:
             pos = normalize_position(row["position"])
             key = (normalize_name(row["full_name"]), pos)
             gsis = clean_id(row["gsis_id"])
             if gsis:
+                roster_by_gsis[gsis] = row
                 by_name_pos[key][gsis] = row
                 by_name_pos_team[(*key, normalize_team(row["team"]))][gsis] = row
         for player in canonical_players(root, season):
             position = player["position"]
+            existing_gsis = player.get("source_ids", {}).get("gsis")
+            evidence_match, evidence_method, evidence_confidence = None, "unmatched", 0.0
             if position == "DEF":
                 team = normalize_team(player.get("nfl_team"))
-                match, method, confidence = {"gsis_id": f"team:{team}"}, "team_defense", 1.0
+                evidence_match, evidence_method, evidence_confidence = {"gsis_id": f"team:{team}"}, "team_defense", 1.0
             else:
                 key = (normalize_name(player["name"]), position)
                 team_candidates = list(by_name_pos_team.get((*key, normalize_team(player.get("nfl_team"))), {}).values())
                 name_candidates = list(by_name_pos.get(key, {}).values())
                 if len(team_candidates) == 1:
-                    match, method, confidence = team_candidates[0], "exact_name_position_team", 1.0
+                    evidence_match, evidence_method, evidence_confidence = team_candidates[0], "exact_name_position_team", 1.0
                 elif len(name_candidates) == 1:
-                    match, method, confidence = name_candidates[0], "exact_name_position", 0.9
-                else:
-                    match, method, confidence = None, "ambiguous" if name_candidates else "unmatched", 0.0
+                    evidence_match, evidence_method, evidence_confidence = name_candidates[0], "exact_name_position", 0.9
+                elif name_candidates:
+                    evidence_method = "ambiguous"
+                if evidence_match is None:
+                    source_name = normalize_name(player["name"])
+                    registry_name = identity_aliases.get((season, source_name, position), source_name)
+                    master_candidates = list(master_by_name_pos.get((registry_name, position), {}).values())
+                    if len(master_candidates) == 1:
+                        evidence_match = master_candidates[0]
+                        evidence_method = "reviewed_alias_master_registry" if registry_name != source_name else "exact_master_registry"
+                        evidence_confidence = 1.0 if registry_name != source_name else 0.95
+                    elif master_candidates:
+                        evidence_method = "ambiguous_master_registry"
+            if existing_gsis:
+                if evidence_match and evidence_match["gsis_id"] != existing_gsis:
+                    raise NflverseError(f"Identity evidence conflict for {season} {player['name']}: "
+                                        f"stored {existing_gsis}, roster candidate {evidence_match['gsis_id']}")
+                match, method, confidence = roster_by_gsis.get(existing_gsis, {"gsis_id": existing_gsis}), "direct_gsis", 1.0
+            else:
+                match, method, confidence = evidence_match, evidence_method, evidence_confidence
             methods[method] += 1
             if not match:
                 exceptions.append({"season": season, "internal_player_id": player["internal_player_id"],
@@ -229,12 +274,57 @@ def build_crosswalk(root: Path, processed: Path, seasons: tuple[int, ...]) -> Pa
                 "pfr_id": clean_id(ids.get("pfr_id")), "pff_id": clean_id(ids.get("pff_id")),
                 "name": player["name"], "position": position, "nfl_team": normalize_team(player.get("nfl_team")),
                 "match_method": method, "match_confidence": confidence,
+                "identity_origin_method": evidence_method if evidence_match else (player.get("identity_evidence") or {}).get("method", method),
+                "identity_origin_confidence": evidence_confidence if evidence_match else (player.get("identity_evidence") or {}).get("confidence", confidence),
             })
+    fp_keys: dict[tuple[int, int], str] = {}
+    stable_keys: dict[tuple[int, str], int] = {}
+    fp_across_seasons: dict[int, str] = {}
+    gsis_across_seasons: dict[str, int] = {}
+    source_id_transitions = []
+    collisions = []
+    for row in output:
+        fp_key, stable_key = (row["season"], int(row["fantasypros_id"])), (row["season"], row["gsis_id"])
+        if fp_key in fp_keys and fp_keys[fp_key] != row["gsis_id"]:
+            collisions.append({"type": "fantasypros_to_multiple_gsis", "key": fp_key, "values": [fp_keys[fp_key], row["gsis_id"]]})
+        if stable_key in stable_keys and stable_keys[stable_key] != int(row["fantasypros_id"]):
+            collisions.append({"type": "gsis_to_multiple_fantasypros", "key": stable_key,
+                               "values": [stable_keys[stable_key], row["fantasypros_id"]]})
+        fp_id = int(row["fantasypros_id"])
+        if fp_id in fp_across_seasons and fp_across_seasons[fp_id] != row["gsis_id"]:
+            collisions.append({"type": "cross_season_fantasypros_identity_change", "key": fp_id,
+                               "values": [fp_across_seasons[fp_id], row["gsis_id"]]})
+        if row["gsis_id"] in gsis_across_seasons and gsis_across_seasons[row["gsis_id"]] != fp_id:
+            transition = {"type": "fantasypros_id_changed_for_stable_gsis", "gsis_id": row["gsis_id"],
+                          "fantasypros_ids": sorted({gsis_across_seasons[row["gsis_id"]], fp_id})}
+            if transition not in source_id_transitions:
+                source_id_transitions.append(transition)
+        fp_keys[fp_key], stable_keys[stable_key] = row["gsis_id"], int(row["fantasypros_id"])
+        fp_across_seasons[fp_id], gsis_across_seasons[row["gsis_id"]] = row["gsis_id"], fp_id
+    if collisions:
+        raise NflverseError(f"Identity registry has {len(collisions)} collisions; refusing publication")
+    origin_methods = Counter(row["identity_origin_method"] for row in output)
+    method_precision = {method: {"accepted": count, "validated_correct": None,
+                                 "note": "Requires adjudicated gold labels"}
+                        for method, count in sorted(origin_methods.items())}
     payload = {"metadata": {"schema_version": 1, "snapshot_id": processed.name, "seasons": list(seasons),
                             "record_count": len(output), "exception_count": len(exceptions),
-                            "match_methods": dict(methods)}, "players": output, "exceptions": exceptions}
+                            "match_methods": dict(methods), "collision_count": 0,
+                            "source_id_transition_count": len(source_id_transitions),
+                            "source_id_transitions": source_id_transitions,
+                            "identity_origin_methods": dict(origin_methods),
+                            "method_precision": method_precision}, "players": output, "exceptions": exceptions}
     path = processed / "player_identity_crosswalk.json"
     atomic_write(path, (json.dumps(payload, indent=2, sort_keys=True) + "\n").encode())
+    shadow = []
+    for row in output:
+        stable = f"nfl:def:{row['gsis_id'][5:]}" if row["gsis_id"].startswith("team:") else f"nfl:gsis:{row['gsis_id']}"
+        shadow.append({"season": row["season"], "fantasypros_id": row["fantasypros_id"],
+                       "old_internal_player_id": f"nfl:fantasypros:{row['fantasypros_id']}",
+                       "stable_internal_player_id": stable, "match_method": row["match_method"]})
+    atomic_write(processed / "identity_migration_shadow.json",
+                 (json.dumps({"metadata": {"schema_version": 1, "record_count": len(shadow),
+                                            "collision_count": 0}, "mappings": shadow}, indent=2, sort_keys=True) + "\n").encode())
     return path
 
 
@@ -336,14 +426,17 @@ def build_actuals(root: Path, processed: Path, crosswalk_path: Path, seasons: tu
     return path
 
 
-def run(root: Path, seasons: tuple[int, ...], download: bool, snapshot_id: str | None) -> tuple[Path, Path, Path]:
+def run(root: Path, seasons: tuple[int, ...], download: bool, snapshot_id: str | None,
+        identity_seasons: tuple[int, ...] = ()) -> tuple[Path, Path, Path]:
     if download:
-        raw_dir = acquire(root, seasons)
+        raw_dir = acquire(root, seasons, identity_seasons)
         manifest = json.loads((raw_dir / "manifest.json").read_text())
     else:
         raw_dir, manifest = load_snapshot(root, snapshot_id)
-    processed = normalize_sources(root, raw_dir, manifest, seasons)
-    crosswalk = build_crosswalk(root, processed, seasons)
+        if not identity_seasons:
+            identity_seasons = tuple(manifest.get("identity_seasons", seasons))
+    processed = normalize_sources(root, raw_dir, manifest, seasons, identity_seasons)
+    crosswalk = build_crosswalk(root, processed, tuple(sorted(set(seasons) | set(identity_seasons))))
     actuals = build_actuals(root, processed, crosswalk, seasons)
     return processed, crosswalk, actuals
 
@@ -351,13 +444,17 @@ def run(root: Path, seasons: tuple[int, ...], download: bool, snapshot_id: str |
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--seasons", type=int, nargs="+", default=DEFAULT_SEASONS)
+    parser.add_argument("--identity-seasons", type=int, nargs="+", default=(),
+                        help="Roster-only seasons used for identity matching without outcome data")
     parser.add_argument("--no-download", action="store_true", help="Rebuild from the latest preserved raw snapshot")
     parser.add_argument("--snapshot-id")
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
     args = parser.parse_args()
     seasons = tuple(sorted(set(args.seasons)))
     try:
-        processed, crosswalk, actuals = run(args.root.resolve(), seasons, not args.no_download, args.snapshot_id)
+        identity_seasons = tuple(sorted(set(args.identity_seasons)))
+        processed, crosswalk, actuals = run(args.root.resolve(), seasons, not args.no_download, args.snapshot_id,
+                                            identity_seasons)
         print(f"Wrote normalized nflverse data to {processed}")
         print(f"Wrote identity crosswalk to {crosswalk}")
         print(f"Wrote league-scored actuals to {actuals}")

@@ -42,14 +42,17 @@ FFA as an enrichment and validation signal rather than removing it.
 ## Identity results
 
 Canonical projections use FantasyPros IDs as the provider-backed identity and
-an internal identifier shaped as `nfl:fantasypros:<fantasypros_id>`. FFA matching
+an internal identifier shaped as `nfl:gsis:<gsis_id>` when a validated nflverse
+identity is available, with `provisional:fantasypros:<fantasypros_id>` as the
+explicit fallback. FFA matching
 uses normalized name, position, and team evidence with conservative fallbacks.
 Exceptions are emitted rather than guessed.
 
-All 840 historical auction sales now map to an internal player identity. Three
+839 of 840 historical auction sales now map to an internal player identity. Two
 sales whose players were absent from that season's FantasyPros projection pool
-were resolved through the same unique FantasyPros identity in another season.
-One reviewed nickname alias is stored in `config/player_aliases.json`.
+were resolved through the same unique identity in another season. One reviewed
+nickname alias is stored in `config/player_aliases.json`; the remaining
+unmatched sale stays visible for review rather than being guessed.
 
 ## Limitations and next evaluation
 

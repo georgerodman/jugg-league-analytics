@@ -10,6 +10,10 @@
     {"source": "ffa", "source_name": "Chigoziem Okonkwo", "fantasypros_name": "Chig Okonkwo", "position": "TE", "seasons": [2022, 2023, 2024, 2025, 2026]},
     {"source": "ffa", "source_name": "Nathaniel Dell", "fantasypros_name": "Tank Dell", "position": "WR", "seasons": [2023, 2024, 2025, 2026]},
     {"source": "ffa", "source_name": "Josh Palmer", "fantasypros_name": "Joshua Palmer", "position": "WR", "seasons": [2021, 2022, 2023, 2024, 2025, 2026]},
-    {"source": "auction_history", "source_name": "Cameron 'Cam' Skattebo", "fantasypros_name": "Cam Skattebo", "position": "RB","seasons": [2025]}
+    {"source": "auction_history", "source_name": "Cameron 'Cam' Skattebo", "fantasypros_name": "Cam Skattebo", "position": "RB","seasons": [2025]},
+    {"source": "identity", "source_name": "Hollywood Brown", "registry_name": "Marquise Brown", "position": "WR", "seasons": [2020, 2021, 2022, 2023, 2024, 2025, 2026]},
+    {"source": "identity", "source_name": "Joshua Palmer", "registry_name": "Josh Palmer", "position": "WR", "seasons": [2021, 2022, 2023, 2024, 2025, 2026]},
+    {"source": "identity", "source_name": "Mitch Tinsley", "registry_name": "Mitchell Tinsley", "position": "WR", "seasons": [2023, 2024, 2025, 2026]},
+    {"source": "identity", "source_name": "Drew Ogletree", "registry_name": "Andrew Ogletree", "position": "TE", "seasons": [2022, 2023, 2024, 2025, 2026]}
   ]
 }

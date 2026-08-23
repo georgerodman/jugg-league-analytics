@@ -484,6 +484,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0030332"
     },
     {
+      "fantasypros_id": 11815,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:11815",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0030390"
+    },
+    {
       "fantasypros_id": 13606,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:13606",
@@ -526,6 +533,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0028787"
     },
     {
+      "fantasypros_id": 9434,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:9434",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0020578"
+    },
+    {
       "fantasypros_id": 18545,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:18545",
@@ -533,11 +547,32 @@
       "stable_internal_player_id": "nfl:gsis:00-0035269"
     },
     {
+      "fantasypros_id": 17893,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:17893",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0034479"
+    },
+    {
       "fantasypros_id": 9474,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:9474",
       "season": 2020,
       "stable_internal_player_id": "nfl:gsis:00-0023482"
+    },
+    {
+      "fantasypros_id": 9508,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:9508",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0004091"
+    },
+    {
+      "fantasypros_id": 9560,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:9560",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0019646"
     },
     {
       "fantasypros_id": 9581,
@@ -790,6 +825,13 @@
       "old_internal_player_id": "nfl:fantasypros:19275",
       "season": 2020,
       "stable_internal_player_id": "nfl:gsis:00-0036389"
+    },
+    {
+      "fantasypros_id": 16841,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:16841",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0033275"
     },
     {
       "fantasypros_id": 18185,
@@ -1065,6 +1107,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0029623"
     },
     {
+      "fantasypros_id": 11172,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:11172",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0029668"
+    },
+    {
       "fantasypros_id": 19318,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:19318",
@@ -1093,11 +1142,25 @@
       "stable_internal_player_id": "nfl:gsis:00-0032434"
     },
     {
+      "fantasypros_id": 11175,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:11175",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0029677"
+    },
+    {
       "fantasypros_id": 18323,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:18323",
       "season": 2020,
       "stable_internal_player_id": "nfl:gsis:00-0034955"
+    },
+    {
+      "fantasypros_id": 11179,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:11179",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0029682"
     },
     {
       "fantasypros_id": 16419,
@@ -1128,6 +1191,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0033104"
     },
     {
+      "fantasypros_id": 9891,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:9891",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0027974"
+    },
+    {
       "fantasypros_id": 16477,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:16477",
@@ -1154,6 +1224,13 @@
       "old_internal_player_id": "nfl:fantasypros:16389",
       "season": 2020,
       "stable_internal_player_id": "nfl:gsis:00-0033899"
+    },
+    {
+      "fantasypros_id": 9178,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:9178",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0023645"
     },
     {
       "fantasypros_id": 19063,
@@ -1233,6 +1310,27 @@
       "stable_internal_player_id": "nfl:gsis:00-0033672"
     },
     {
+      "fantasypros_id": 17293,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:17293",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0034412"
+    },
+    {
+      "fantasypros_id": 9425,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:9425",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0026898"
+    },
+    {
+      "fantasypros_id": 9435,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:9435",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0023662"
+    },
+    {
       "fantasypros_id": 9442,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:9442",
@@ -1268,6 +1366,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0032792"
     },
     {
+      "fantasypros_id": 18427,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:18427",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0035471"
+    },
+    {
       "fantasypros_id": 15493,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:15493",
@@ -1280,6 +1385,20 @@
       "old_internal_player_id": "nfl:fantasypros:11872",
       "season": 2020,
       "stable_internal_player_id": "nfl:gsis:00-0029857"
+    },
+    {
+      "fantasypros_id": 9678,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:9678",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0027854"
+    },
+    {
+      "fantasypros_id": 17495,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:17495",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0034416"
     },
     {
       "fantasypros_id": 13932,
@@ -2003,6 +2122,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0034975"
     },
     {
+      "fantasypros_id": 18026,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:18026",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0034115"
+    },
+    {
       "fantasypros_id": 18616,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:18616",
@@ -2283,6 +2409,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0035551"
     },
     {
+      "fantasypros_id": 19844,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:19844",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0036187"
+    },
+    {
       "fantasypros_id": 19613,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:19613",
@@ -2295,6 +2428,13 @@
       "old_internal_player_id": "nfl:fantasypros:16006",
       "season": 2020,
       "stable_internal_player_id": "nfl:gsis:00-0032540"
+    },
+    {
+      "fantasypros_id": 18957,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:18957",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0035013"
     },
     {
       "fantasypros_id": 15611,
@@ -2339,6 +2479,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0035448"
     },
     {
+      "fantasypros_id": 16825,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:16825",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0033374"
+    },
+    {
       "fantasypros_id": 19496,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:19496",
@@ -2351,6 +2498,13 @@
       "old_internal_player_id": "nfl:fantasypros:15546",
       "season": 2020,
       "stable_internal_player_id": "nfl:gsis:00-0032426"
+    },
+    {
+      "fantasypros_id": 12282,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:12282",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0031075"
     },
     {
       "fantasypros_id": 11347,
@@ -2367,11 +2521,25 @@
       "stable_internal_player_id": "nfl:gsis:00-0035187"
     },
     {
+      "fantasypros_id": 11863,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:11863",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0029795"
+    },
+    {
       "fantasypros_id": 9963,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:9963",
       "season": 2020,
       "stable_internal_player_id": "nfl:gsis:00-0028064"
+    },
+    {
+      "fantasypros_id": 15922,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:15922",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0032593"
     },
     {
       "fantasypros_id": 18720,
@@ -2381,6 +2549,20 @@
       "stable_internal_player_id": "nfl:gsis:00-0035467"
     },
     {
+      "fantasypros_id": 15816,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:15816",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0032964"
+    },
+    {
+      "fantasypros_id": 11896,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:11896",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0029854"
+    },
+    {
       "fantasypros_id": 15614,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:15614",
@@ -2388,11 +2570,46 @@
       "stable_internal_player_id": "nfl:gsis:00-0032393"
     },
     {
+      "fantasypros_id": 13942,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:13942",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0031599"
+    },
+    {
+      "fantasypros_id": 13729,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:13729",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0030668"
+    },
+    {
+      "fantasypros_id": 9749,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:9749",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0027531"
+    },
+    {
       "fantasypros_id": 18660,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:18660",
       "season": 2020,
       "stable_internal_player_id": "nfl:gsis:00-0035728"
+    },
+    {
+      "fantasypros_id": 11658,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:11658",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0030432"
+    },
+    {
+      "fantasypros_id": 14263,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:14263",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0031731"
     },
     {
       "fantasypros_id": 19074,
@@ -2437,11 +2654,39 @@
       "stable_internal_player_id": "nfl:gsis:00-0033049"
     },
     {
+      "fantasypros_id": 18069,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:18069",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0034201"
+    },
+    {
       "fantasypros_id": 15806,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:15806",
       "season": 2020,
       "stable_internal_player_id": "nfl:gsis:00-0032940"
+    },
+    {
+      "fantasypros_id": 17241,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:17241",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0034358"
+    },
+    {
+      "fantasypros_id": 17737,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:17737",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0034565"
+    },
+    {
+      "fantasypros_id": 16676,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:16676",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0033304"
     },
     {
       "fantasypros_id": 12108,
@@ -2465,6 +2710,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0034253"
     },
     {
+      "fantasypros_id": 11186,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:11186",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0029613"
+    },
+    {
       "fantasypros_id": 18292,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:18292",
@@ -2486,6 +2738,20 @@
       "stable_internal_player_id": "nfl:gsis:00-0035806"
     },
     {
+      "fantasypros_id": 9894,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:9894",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0028083"
+    },
+    {
+      "fantasypros_id": 9258,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:9258",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0026213"
+    },
+    {
       "fantasypros_id": 19432,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:19432",
@@ -2500,11 +2766,25 @@
       "stable_internal_player_id": "nfl:gsis:00-0031577"
     },
     {
+      "fantasypros_id": 13940,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:13940",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0031590"
+    },
+    {
       "fantasypros_id": 12102,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:12102",
       "season": 2020,
       "stable_internal_player_id": "nfl:gsis:00-0031301"
+    },
+    {
+      "fantasypros_id": 13946,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:13946",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0031569"
     },
     {
       "fantasypros_id": 16445,
@@ -2521,11 +2801,32 @@
       "stable_internal_player_id": "nfl:gsis:00-0034808"
     },
     {
+      "fantasypros_id": 9317,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:9317",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0026153"
+    },
+    {
+      "fantasypros_id": 17764,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:17764",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0034551"
+    },
+    {
       "fantasypros_id": 17248,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:17248",
       "season": 2020,
       "stable_internal_player_id": "nfl:gsis:00-0034457"
+    },
+    {
+      "fantasypros_id": 16746,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:16746",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0033760"
     },
     {
       "fantasypros_id": 17250,
@@ -2535,11 +2836,25 @@
       "stable_internal_player_id": "nfl:gsis:00-0034799"
     },
     {
+      "fantasypros_id": 12343,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:12343",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0031102"
+    },
+    {
       "fantasypros_id": 18622,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:18622",
       "season": 2020,
       "stable_internal_player_id": "nfl:gsis:00-0035454"
+    },
+    {
+      "fantasypros_id": 18084,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:18084",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0034509"
     },
     {
       "fantasypros_id": 18625,
@@ -2563,6 +2878,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0029615"
     },
     {
+      "fantasypros_id": 9717,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:9717",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0027325"
+    },
+    {
       "fantasypros_id": 19345,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:19345",
@@ -2584,6 +2906,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0031959"
     },
     {
+      "fantasypros_id": 17305,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:17305",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0034679"
+    },
+    {
       "fantasypros_id": 9428,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:9428",
@@ -2591,11 +2920,25 @@
       "stable_internal_player_id": "nfl:gsis:00-0025399"
     },
     {
+      "fantasypros_id": 16554,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:16554",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0033596"
+    },
+    {
       "fantasypros_id": 19399,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:19399",
       "season": 2020,
       "stable_internal_player_id": "nfl:gsis:00-0036006"
+    },
+    {
+      "fantasypros_id": 11657,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:11657",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0030433"
     },
     {
       "fantasypros_id": 18619,
@@ -2633,6 +2976,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0029273"
     },
     {
+      "fantasypros_id": 17284,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:17284",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0034221"
+    },
+    {
       "fantasypros_id": 18608,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:18608",
@@ -2654,11 +3004,25 @@
       "stable_internal_player_id": "nfl:gsis:00-0036020"
     },
     {
+      "fantasypros_id": 17828,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:17828",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0034621"
+    },
+    {
       "fantasypros_id": 11638,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:11638",
       "season": 2020,
       "stable_internal_player_id": "nfl:gsis:00-0030414"
+    },
+    {
+      "fantasypros_id": 9928,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:9928",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0028011"
     },
     {
       "fantasypros_id": 11649,
@@ -2673,6 +3037,13 @@
       "old_internal_player_id": "nfl:fantasypros:11839",
       "season": 2020,
       "stable_internal_player_id": "nfl:gsis:00-0030112"
+    },
+    {
+      "fantasypros_id": 11470,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:11470",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0029205"
     },
     {
       "fantasypros_id": 17201,
@@ -2701,6 +3072,13 @@
       "old_internal_player_id": "nfl:fantasypros:11920",
       "season": 2020,
       "stable_internal_player_id": "nfl:gsis:00-0029931"
+    },
+    {
+      "fantasypros_id": 14185,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:14185",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0031665"
     },
     {
       "fantasypros_id": 11594,
@@ -2792,6 +3170,13 @@
       "old_internal_player_id": "nfl:fantasypros:17272",
       "season": 2020,
       "stable_internal_player_id": "nfl:gsis:00-0034829"
+    },
+    {
+      "fantasypros_id": 17536,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:17536",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0034766"
     },
     {
       "fantasypros_id": 15581,
@@ -3074,6 +3459,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0033387"
     },
     {
+      "fantasypros_id": 17115,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:17115",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0033357"
+    },
+    {
       "fantasypros_id": 13960,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:13960",
@@ -3340,6 +3732,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0036424"
     },
     {
+      "fantasypros_id": 14470,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:14470",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0032098"
+    },
+    {
       "fantasypros_id": 9992,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:9992",
@@ -3417,11 +3816,46 @@
       "stable_internal_player_id": "nfl:gsis:00-0030089"
     },
     {
+      "fantasypros_id": 14072,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:14072",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0031609"
+    },
+    {
+      "fantasypros_id": 16217,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:16217",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0032745"
+    },
+    {
       "fantasypros_id": 16064,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:16064",
       "season": 2020,
       "stable_internal_player_id": "nfl:gsis:00-0032864"
+    },
+    {
+      "fantasypros_id": 18596,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:18596",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0035309"
+    },
+    {
+      "fantasypros_id": 18133,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:18133",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0034784"
+    },
+    {
+      "fantasypros_id": 12145,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:12145",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0031418"
     },
     {
       "fantasypros_id": 15842,
@@ -3443,6 +3877,20 @@
       "old_internal_player_id": "nfl:fantasypros:18400",
       "season": 2020,
       "stable_internal_player_id": "nfl:gsis:00-0035102"
+    },
+    {
+      "fantasypros_id": 14332,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:14332",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0032089"
+    },
+    {
+      "fantasypros_id": 18386,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:18386",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0035009"
     },
     {
       "fantasypros_id": 18613,
@@ -3508,6 +3956,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0033315"
     },
     {
+      "fantasypros_id": 15855,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:15855",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0032634"
+    },
+    {
       "fantasypros_id": 15857,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:15857",
@@ -3520,6 +3975,20 @@
       "old_internal_player_id": "nfl:fantasypros:9172",
       "season": 2020,
       "stable_internal_player_id": "nfl:gsis:00-0024389"
+    },
+    {
+      "fantasypros_id": 11691,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:11691",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0030422"
+    },
+    {
+      "fantasypros_id": 11219,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:11219",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0029689"
     },
     {
       "fantasypros_id": 9706,
@@ -3550,6 +4019,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0033763"
     },
     {
+      "fantasypros_id": 14282,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:14282",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0031884"
+    },
+    {
       "fantasypros_id": 18136,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:18136",
@@ -3562,6 +4038,13 @@
       "old_internal_player_id": "nfl:fantasypros:16252",
       "season": 2020,
       "stable_internal_player_id": "nfl:gsis:00-0033095"
+    },
+    {
+      "fantasypros_id": 15924,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:15924",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0032508"
     },
     {
       "fantasypros_id": 18785,
@@ -3592,6 +4075,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0032227"
     },
     {
+      "fantasypros_id": 9685,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:9685",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0027873"
+    },
+    {
       "fantasypros_id": 13849,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:13849",
@@ -3604,6 +4094,13 @@
       "old_internal_player_id": "nfl:fantasypros:18482",
       "season": 2020,
       "stable_internal_player_id": "nfl:gsis:00-0035562"
+    },
+    {
+      "fantasypros_id": 9312,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:9312",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0027139"
     },
     {
       "fantasypros_id": 17660,
@@ -3655,6 +4152,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0027985"
     },
     {
+      "fantasypros_id": 9850,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:9850",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0027215"
+    },
+    {
       "fantasypros_id": 16541,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:16541",
@@ -3676,6 +4180,20 @@
       "stable_internal_player_id": "nfl:gsis:00-0031788"
     },
     {
+      "fantasypros_id": 16500,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:16500",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0033559"
+    },
+    {
+      "fantasypros_id": 14116,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:14116",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0032120"
+    },
+    {
       "fantasypros_id": 13957,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:13957",
@@ -3683,11 +4201,39 @@
       "stable_internal_player_id": "nfl:gsis:00-0032117"
     },
     {
+      "fantasypros_id": 9988,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:9988",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0028093"
+    },
+    {
+      "fantasypros_id": 11224,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:11224",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0029414"
+    },
+    {
       "fantasypros_id": 16937,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:16937",
       "season": 2020,
       "stable_internal_player_id": "nfl:gsis:00-0033439"
+    },
+    {
+      "fantasypros_id": 11315,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:11315",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0029587"
+    },
+    {
+      "fantasypros_id": 15808,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:15808",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0033054"
     },
     {
       "fantasypros_id": 14613,
@@ -3991,6 +4537,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0027942"
     },
     {
+      "fantasypros_id": 18226,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:18226",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0035662"
+    },
+    {
       "fantasypros_id": 9332,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:9332",
@@ -4136,6 +4689,13 @@
       "old_internal_player_id": "nfl:fantasypros:17255",
       "season": 2020,
       "stable_internal_player_id": "nfl:gsis:00-0034353"
+    },
+    {
+      "fantasypros_id": 15688,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:15688",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0032688"
     },
     {
       "fantasypros_id": 19201,
@@ -4432,6 +4992,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0036340"
     },
     {
+      "fantasypros_id": 18713,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:18713",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0035006"
+    },
+    {
       "fantasypros_id": 19267,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:19267",
@@ -4621,6 +5188,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0034370"
     },
     {
+      "fantasypros_id": 19398,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:19398",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0036196"
+    },
+    {
       "fantasypros_id": 15587,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:15587",
@@ -4768,6 +5342,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0034273"
     },
     {
+      "fantasypros_id": 18876,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:18876",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0035215"
+    },
+    {
       "fantasypros_id": 18618,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:18618",
@@ -4857,6 +5438,13 @@
       "old_internal_player_id": "nfl:fantasypros:14103",
       "season": 2020,
       "stable_internal_player_id": "nfl:gsis:00-0031763"
+    },
+    {
+      "fantasypros_id": 17441,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:17441",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0034206"
     },
     {
       "fantasypros_id": 16489,
@@ -4983,6 +5571,13 @@
       "old_internal_player_id": "nfl:fantasypros:18719",
       "season": 2020,
       "stable_internal_player_id": "nfl:gsis:00-0035597"
+    },
+    {
+      "fantasypros_id": 15689,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:15689",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0032959"
     },
     {
       "fantasypros_id": 18791,
@@ -5146,6 +5741,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0034710"
     },
     {
+      "fantasypros_id": 9446,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:9446",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0026293"
+    },
+    {
       "fantasypros_id": 13081,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:13081",
@@ -5193,6 +5795,13 @@
       "old_internal_player_id": "nfl:fantasypros:18624",
       "season": 2020,
       "stable_internal_player_id": "nfl:gsis:00-0035399"
+    },
+    {
+      "fantasypros_id": 16495,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:16495",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0033441"
     },
     {
       "fantasypros_id": 19505,
@@ -5251,6 +5860,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0033266"
     },
     {
+      "fantasypros_id": 17146,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:17146",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0033379"
+    },
+    {
       "fantasypros_id": 18590,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:18590",
@@ -5300,11 +5916,32 @@
       "stable_internal_player_id": "nfl:gsis:00-0036439"
     },
     {
+      "fantasypros_id": 10006,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:10006",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0028116"
+    },
+    {
+      "fantasypros_id": 15707,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:15707",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0032550"
+    },
+    {
       "fantasypros_id": 16435,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:16435",
       "season": 2020,
       "stable_internal_player_id": "nfl:gsis:00-0033937"
+    },
+    {
+      "fantasypros_id": 11406,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:11406",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0028263"
     },
     {
       "fantasypros_id": 16911,
@@ -5349,6 +5986,62 @@
       "stable_internal_player_id": "nfl:gsis:00-0033706"
     },
     {
+      "fantasypros_id": 17532,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:17532",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0034442"
+    },
+    {
+      "fantasypros_id": 17013,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:17013",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0033434"
+    },
+    {
+      "fantasypros_id": 14341,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:14341",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0031818"
+    },
+    {
+      "fantasypros_id": 9699,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:9699",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0027681"
+    },
+    {
+      "fantasypros_id": 9064,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:9064",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0024334"
+    },
+    {
+      "fantasypros_id": 11212,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:11212",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0029640"
+    },
+    {
+      "fantasypros_id": 11837,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:11837",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0030516"
+    },
+    {
+      "fantasypros_id": 12137,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:12137",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0031326"
+    },
+    {
       "fantasypros_id": 18148,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:18148",
@@ -5368,6 +6061,13 @@
       "old_internal_player_id": "nfl:fantasypros:17973",
       "season": 2020,
       "stable_internal_player_id": "nfl:gsis:00-0034652"
+    },
+    {
+      "fantasypros_id": 14352,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:14352",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0031912"
     },
     {
       "fantasypros_id": 16038,
@@ -5412,11 +6112,25 @@
       "stable_internal_player_id": "nfl:gsis:00-0031972"
     },
     {
+      "fantasypros_id": 9156,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:9156",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0026983"
+    },
+    {
       "fantasypros_id": 17519,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:17519",
       "season": 2020,
       "stable_internal_player_id": "nfl:gsis:00-0034395"
+    },
+    {
+      "fantasypros_id": 18485,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:18485",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0035101"
     },
     {
       "fantasypros_id": 9691,
@@ -5438,6 +6152,13 @@
       "old_internal_player_id": "nfl:fantasypros:17257",
       "season": 2020,
       "stable_internal_player_id": "nfl:gsis:00-0034653"
+    },
+    {
+      "fantasypros_id": 11434,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:11434",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0029388"
     },
     {
       "fantasypros_id": 17664,
@@ -5468,11 +6189,32 @@
       "stable_internal_player_id": "nfl:gsis:00-0031339"
     },
     {
+      "fantasypros_id": 10992,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:10992",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0028434"
+    },
+    {
       "fantasypros_id": 10004,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:10004",
       "season": 2020,
       "stable_internal_player_id": "nfl:gsis:00-0028114"
+    },
+    {
+      "fantasypros_id": 17571,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:17571",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0034409"
+    },
+    {
+      "fantasypros_id": 14307,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:14307",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0031782"
     },
     {
       "fantasypros_id": 18432,
@@ -5496,11 +6238,25 @@
       "stable_internal_player_id": "nfl:gsis:00-0033994"
     },
     {
+      "fantasypros_id": 13507,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:13507",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0030737"
+    },
+    {
       "fantasypros_id": 18565,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:18565",
       "season": 2020,
       "stable_internal_player_id": "nfl:gsis:00-0035589"
+    },
+    {
+      "fantasypros_id": 18229,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:18229",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0035529"
     },
     {
       "fantasypros_id": 19771,
@@ -5515,6 +6271,13 @@
       "old_internal_player_id": "nfl:fantasypros:19375",
       "season": 2020,
       "stable_internal_player_id": "nfl:gsis:00-0036165"
+    },
+    {
+      "fantasypros_id": 17732,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:17732",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0034560"
     },
     {
       "fantasypros_id": 14234,
@@ -5538,6 +6301,20 @@
       "stable_internal_player_id": "nfl:gsis:00-0034267"
     },
     {
+      "fantasypros_id": 17910,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:17910",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0034489"
+    },
+    {
+      "fantasypros_id": 18053,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:18053",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0034307"
+    },
+    {
       "fantasypros_id": 11211,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:11211",
@@ -5559,6 +6336,20 @@
       "stable_internal_player_id": "nfl:gsis:00-0036259"
     },
     {
+      "fantasypros_id": 18008,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:18008",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0034499"
+    },
+    {
+      "fantasypros_id": 18657,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:18657",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0035090"
+    },
+    {
       "fantasypros_id": 19478,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:19478",
@@ -5571,6 +6362,13 @@
       "old_internal_player_id": "nfl:fantasypros:16490",
       "season": 2020,
       "stable_internal_player_id": "nfl:gsis:00-0033464"
+    },
+    {
+      "fantasypros_id": 9986,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:9986",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0028091"
     },
     {
       "fantasypros_id": 11548,
@@ -5594,6 +6392,20 @@
       "stable_internal_player_id": "nfl:gsis:00-0032935"
     },
     {
+      "fantasypros_id": 17267,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:17267",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0034271"
+    },
+    {
+      "fantasypros_id": 9320,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:9320",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0026176"
+    },
+    {
       "fantasypros_id": 16539,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:16539",
@@ -5608,6 +6420,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0031570"
     },
     {
+      "fantasypros_id": 11626,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:11626",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0030521"
+    },
+    {
       "fantasypros_id": 18699,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:18699",
@@ -5615,11 +6434,39 @@
       "stable_internal_player_id": "nfl:gsis:00-0035593"
     },
     {
+      "fantasypros_id": 11081,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:11081",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0028497"
+    },
+    {
       "fantasypros_id": 18540,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:18540",
       "season": 2020,
       "stable_internal_player_id": "nfl:gsis:00-0035120"
+    },
+    {
+      "fantasypros_id": 15716,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:15716",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0033078"
+    },
+    {
+      "fantasypros_id": 12121,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:12121",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0031359"
+    },
+    {
+      "fantasypros_id": 18811,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:18811",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0034949"
     },
     {
       "fantasypros_id": 13899,
@@ -5657,6 +6504,20 @@
       "stable_internal_player_id": "nfl:gsis:00-0032951"
     },
     {
+      "fantasypros_id": 15607,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:15607",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0033060"
+    },
+    {
+      "fantasypros_id": 16438,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:16438",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0033305"
+    },
+    {
       "fantasypros_id": 17256,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:17256",
@@ -5678,11 +6539,67 @@
       "stable_internal_player_id": "nfl:gsis:00-0032609"
     },
     {
+      "fantasypros_id": 11609,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:11609",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0030460"
+    },
+    {
+      "fantasypros_id": 12136,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:12136",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0031373"
+    },
+    {
+      "fantasypros_id": 16108,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:16108",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0032937"
+    },
+    {
+      "fantasypros_id": 9460,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:9460",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0026986"
+    },
+    {
+      "fantasypros_id": 11198,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:11198",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0029638"
+    },
+    {
+      "fantasypros_id": 9479,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:9479",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0026901"
+    },
+    {
       "fantasypros_id": 11200,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:11200",
       "season": 2020,
       "stable_internal_player_id": "nfl:gsis:00-0029632"
+    },
+    {
+      "fantasypros_id": 16076,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:16076",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0032488"
+    },
+    {
+      "fantasypros_id": 12060,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:12060",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0029848"
     },
     {
       "fantasypros_id": 19654,
@@ -5699,6 +6616,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0031257"
     },
     {
+      "fantasypros_id": 9510,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:9510",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0026345"
+    },
+    {
       "fantasypros_id": 19715,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:19715",
@@ -5711,6 +6635,13 @@
       "old_internal_player_id": "nfl:fantasypros:16557",
       "season": 2020,
       "stable_internal_player_id": "nfl:gsis:00-0033366"
+    },
+    {
+      "fantasypros_id": 13972,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:13972",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0032170"
     },
     {
       "fantasypros_id": 17203,
@@ -5727,11 +6658,32 @@
       "stable_internal_player_id": "nfl:gsis:00-0035750"
     },
     {
+      "fantasypros_id": 16875,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:16875",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0033773"
+    },
+    {
+      "fantasypros_id": 11380,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:11380",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0029580"
+    },
+    {
       "fantasypros_id": 17224,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:17224",
       "season": 2020,
       "stable_internal_player_id": "nfl:gsis:00-0034054"
+    },
+    {
+      "fantasypros_id": 11433,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:11433",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0029129"
     },
     {
       "fantasypros_id": 16494,
@@ -5762,11 +6714,39 @@
       "stable_internal_player_id": "nfl:gsis:00-0033562"
     },
     {
+      "fantasypros_id": 13911,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:13911",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0032166"
+    },
+    {
+      "fantasypros_id": 17302,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:17302",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0034068"
+    },
+    {
       "fantasypros_id": 18969,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:18969",
       "season": 2020,
       "stable_internal_player_id": "nfl:gsis:00-0035587"
+    },
+    {
+      "fantasypros_id": 16498,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:16498",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0033968"
+    },
+    {
+      "fantasypros_id": 12134,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:12134",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0031189"
     },
     {
       "fantasypros_id": 12888,
@@ -5783,6 +6763,20 @@
       "stable_internal_player_id": "nfl:gsis:00-0033911"
     },
     {
+      "fantasypros_id": 11627,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:11627",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0030542"
+    },
+    {
+      "fantasypros_id": 10092,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:10092",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0028825"
+    },
+    {
       "fantasypros_id": 18370,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:18370",
@@ -5795,6 +6789,13 @@
       "old_internal_player_id": "nfl:fantasypros:19052",
       "season": 2020,
       "stable_internal_player_id": "nfl:gsis:00-0035544"
+    },
+    {
+      "fantasypros_id": 9884,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:9884",
+      "season": 2020,
+      "stable_internal_player_id": "nfl:gsis:00-0027996"
     },
     {
       "fantasypros_id": 18726,
@@ -6308,6 +7309,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0029421"
     },
     {
+      "fantasypros_id": 9573,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:9573",
+      "season": 2021,
+      "stable_internal_player_id": "nfl:gsis:00-0024333"
+    },
+    {
       "fantasypros_id": 16413,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:16413",
@@ -6651,6 +7659,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0033119"
     },
     {
+      "fantasypros_id": 16841,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:16841",
+      "season": 2021,
+      "stable_internal_player_id": "nfl:gsis:00-0033275"
+    },
+    {
       "fantasypros_id": 16381,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:16381",
@@ -6833,6 +7848,20 @@
       "stable_internal_player_id": "nfl:gsis:00-0035282"
     },
     {
+      "fantasypros_id": 15845,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:15845",
+      "season": 2021,
+      "stable_internal_player_id": "nfl:gsis:00-0032431"
+    },
+    {
+      "fantasypros_id": 9714,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:9714",
+      "season": 2021,
+      "stable_internal_player_id": "nfl:gsis:00-0027796"
+    },
+    {
       "fantasypros_id": 16417,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:16417",
@@ -6866,6 +7895,13 @@
       "old_internal_player_id": "nfl:fantasypros:16726",
       "season": 2021,
       "stable_internal_player_id": "nfl:gsis:00-0033319"
+    },
+    {
+      "fantasypros_id": 18255,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:18255",
+      "season": 2021,
+      "stable_internal_player_id": "nfl:gsis:00-0035652"
     },
     {
       "fantasypros_id": 11872,
@@ -7419,6 +8455,13 @@
       "old_internal_player_id": "nfl:fantasypros:12209",
       "season": 2021,
       "stable_internal_player_id": "nfl:gsis:00-0031376"
+    },
+    {
+      "fantasypros_id": 23310,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:23310",
+      "season": 2021,
+      "stable_internal_player_id": "nfl:gsis:00-0036919"
     },
     {
       "fantasypros_id": 19627,
@@ -8058,6 +9101,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0036422"
     },
     {
+      "fantasypros_id": 11692,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:11692",
+      "season": 2021,
+      "stable_internal_player_id": "nfl:gsis:00-0030549"
+    },
+    {
       "fantasypros_id": 11987,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:11987",
@@ -8105,6 +9155,13 @@
       "old_internal_player_id": "nfl:fantasypros:14084",
       "season": 2021,
       "stable_internal_player_id": "nfl:gsis:00-0032134"
+    },
+    {
+      "fantasypros_id": 17536,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:17536",
+      "season": 2021,
+      "stable_internal_player_id": "nfl:gsis:00-0034766"
     },
     {
       "fantasypros_id": 18246,
@@ -8436,11 +9493,25 @@
       "stable_internal_player_id": "nfl:gsis:00-0037005"
     },
     {
+      "fantasypros_id": 11812,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:11812",
+      "season": 2021,
+      "stable_internal_player_id": "nfl:gsis:00-0030089"
+    },
+    {
       "fantasypros_id": 12233,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:12233",
       "season": 2021,
       "stable_internal_player_id": "nfl:gsis:00-0031384"
+    },
+    {
+      "fantasypros_id": 16878,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:16878",
+      "season": 2021,
+      "stable_internal_player_id": "nfl:gsis:00-0033763"
     },
     {
       "fantasypros_id": 16252,
@@ -8504,6 +9575,13 @@
       "old_internal_player_id": "nfl:fantasypros:16543",
       "season": 2021,
       "stable_internal_player_id": "nfl:gsis:00-0033338"
+    },
+    {
+      "fantasypros_id": 18601,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:18601",
+      "season": 2021,
+      "stable_internal_player_id": "nfl:gsis:00-0035539"
     },
     {
       "fantasypros_id": 17508,
@@ -8877,6 +9955,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0033857"
     },
     {
+      "fantasypros_id": 18226,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:18226",
+      "season": 2021,
+      "stable_internal_player_id": "nfl:gsis:00-0035662"
+    },
+    {
       "fantasypros_id": 18627,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:18627",
@@ -8896,6 +9981,13 @@
       "old_internal_player_id": "nfl:fantasypros:19201",
       "season": 2021,
       "stable_internal_player_id": "nfl:gsis:00-0036407"
+    },
+    {
+      "fantasypros_id": 15688,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:15688",
+      "season": 2021,
+      "stable_internal_player_id": "nfl:gsis:00-0032688"
     },
     {
       "fantasypros_id": 12128,
@@ -9078,6 +10170,13 @@
       "old_internal_player_id": "nfl:fantasypros:19219",
       "season": 2021,
       "stable_internal_player_id": "nfl:gsis:00-0036387"
+    },
+    {
+      "fantasypros_id": 19398,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:19398",
+      "season": 2021,
+      "stable_internal_player_id": "nfl:gsis:00-0036196"
     },
     {
       "fantasypros_id": 18634,
@@ -9283,6 +10382,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0033943"
     },
     {
+      "fantasypros_id": 18876,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:18876",
+      "season": 2021,
+      "stable_internal_player_id": "nfl:gsis:00-0035215"
+    },
+    {
       "fantasypros_id": 20130,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:20130",
@@ -9339,11 +10445,25 @@
       "stable_internal_player_id": "nfl:gsis:00-0036913"
     },
     {
+      "fantasypros_id": 22785,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:22785",
+      "season": 2021,
+      "stable_internal_player_id": "nfl:gsis:00-0036620"
+    },
+    {
       "fantasypros_id": 16864,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:16864",
       "season": 2021,
       "stable_internal_player_id": "nfl:gsis:00-0033681"
+    },
+    {
+      "fantasypros_id": 22845,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:22845",
+      "season": 2021,
+      "stable_internal_player_id": "nfl:gsis:00-0036988"
     },
     {
       "fantasypros_id": 15586,
@@ -9771,6 +10891,13 @@
       "old_internal_player_id": "nfl:fantasypros:17232",
       "season": 2021,
       "stable_internal_player_id": "nfl:gsis:00-0034052"
+    },
+    {
+      "fantasypros_id": 9446,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:9446",
+      "season": 2021,
+      "stable_internal_player_id": "nfl:gsis:00-0026293"
     },
     {
       "fantasypros_id": 14083,
@@ -10382,6 +11509,20 @@
       "stable_internal_player_id": "nfl:gsis:00-0037471"
     },
     {
+      "fantasypros_id": 23462,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:23462",
+      "season": 2022,
+      "stable_internal_player_id": "nfl:gsis:00-0036515"
+    },
+    {
+      "fantasypros_id": 19774,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:19774",
+      "season": 2022,
+      "stable_internal_player_id": "nfl:gsis:00-0035758"
+    },
+    {
       "fantasypros_id": 17298,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:17298",
@@ -10879,6 +12020,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0032434"
     },
     {
+      "fantasypros_id": 16841,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:16841",
+      "season": 2022,
+      "stable_internal_player_id": "nfl:gsis:00-0033275"
+    },
+    {
       "fantasypros_id": 17234,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:17234",
@@ -11271,6 +12419,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0037248"
     },
     {
+      "fantasypros_id": 23310,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:23310",
+      "season": 2022,
+      "stable_internal_player_id": "nfl:gsis:00-0036919"
+    },
+    {
       "fantasypros_id": 9872,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:9872",
@@ -11465,6 +12620,13 @@
       "old_internal_player_id": "nfl:fantasypros:19438",
       "season": 2022,
       "stable_internal_player_id": "nfl:gsis:00-0036096"
+    },
+    {
+      "fantasypros_id": 18026,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:18026",
+      "season": 2022,
+      "stable_internal_player_id": "nfl:gsis:00-0034115"
     },
     {
       "fantasypros_id": 19111,
@@ -11878,6 +13040,13 @@
       "old_internal_player_id": "nfl:fantasypros:18256",
       "season": 2022,
       "stable_internal_player_id": "nfl:gsis:00-0034975"
+    },
+    {
+      "fantasypros_id": 15546,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:15546",
+      "season": 2022,
+      "stable_internal_player_id": "nfl:gsis:00-0032426"
     },
     {
       "fantasypros_id": 18571,
@@ -12615,6 +13784,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0035356"
     },
     {
+      "fantasypros_id": 23982,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:23982",
+      "season": 2022,
+      "stable_internal_player_id": "nfl:gsis:00-0037809"
+    },
+    {
       "fantasypros_id": 23341,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:23341",
@@ -12727,6 +13903,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0032725"
     },
     {
+      "fantasypros_id": 17536,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:17536",
+      "season": 2022,
+      "stable_internal_player_id": "nfl:gsis:00-0034766"
+    },
+    {
       "fantasypros_id": 24180,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:24180",
@@ -12818,6 +14001,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0032135"
     },
     {
+      "fantasypros_id": 18350,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:18350",
+      "season": 2022,
+      "stable_internal_player_id": "nfl:gsis:00-0035428"
+    },
+    {
       "fantasypros_id": 19665,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:19665",
@@ -12865,6 +14055,13 @@
       "old_internal_player_id": "nfl:fantasypros:22820",
       "season": 2022,
       "stable_internal_player_id": "nfl:gsis:00-0036590"
+    },
+    {
+      "fantasypros_id": 24216,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:24216",
+      "season": 2022,
+      "stable_internal_player_id": "nfl:gsis:00-0037348"
     },
     {
       "fantasypros_id": 19510,
@@ -12916,6 +14113,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0034319"
     },
     {
+      "fantasypros_id": 17486,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:17486",
+      "season": 2022,
+      "stable_internal_player_id": "nfl:gsis:00-0034672"
+    },
+    {
       "fantasypros_id": 16022,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:16022",
@@ -12942,6 +14146,20 @@
       "old_internal_player_id": "nfl:fantasypros:22831",
       "season": 2022,
       "stable_internal_player_id": "nfl:gsis:00-0036692"
+    },
+    {
+      "fantasypros_id": 17541,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:17541",
+      "season": 2022,
+      "stable_internal_player_id": "nfl:gsis:00-0034439"
+    },
+    {
+      "fantasypros_id": 23212,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:23212",
+      "season": 2022,
+      "stable_internal_player_id": "nfl:gsis:00-0036474"
     },
     {
       "fantasypros_id": 17273,
@@ -13147,6 +14365,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0034348"
     },
     {
+      "fantasypros_id": 18226,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:18226",
+      "season": 2022,
+      "stable_internal_player_id": "nfl:gsis:00-0035662"
+    },
+    {
       "fantasypros_id": 18345,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:18345",
@@ -13343,6 +14568,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0034411"
     },
     {
+      "fantasypros_id": 15688,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:15688",
+      "season": 2022,
+      "stable_internal_player_id": "nfl:gsis:00-0032688"
+    },
+    {
       "fantasypros_id": 20130,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:20130",
@@ -13397,6 +14629,13 @@
       "old_internal_player_id": "nfl:fantasypros:23072",
       "season": 2022,
       "stable_internal_player_id": "nfl:gsis:00-0037740"
+    },
+    {
+      "fantasypros_id": 22845,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:22845",
+      "season": 2022,
+      "stable_internal_player_id": "nfl:gsis:00-0036988"
     },
     {
       "fantasypros_id": 23101,
@@ -13679,6 +14918,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0033681"
     },
     {
+      "fantasypros_id": 22785,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:22785",
+      "season": 2022,
+      "stable_internal_player_id": "nfl:gsis:00-0036620"
+    },
+    {
       "fantasypros_id": 19590,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:19590",
@@ -13924,6 +15170,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0034930"
     },
     {
+      "fantasypros_id": 19587,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:19587",
+      "season": 2022,
+      "stable_internal_player_id": "nfl:gsis:00-0036364"
+    },
+    {
       "fantasypros_id": 16443,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:16443",
@@ -13971,6 +15224,13 @@
       "old_internal_player_id": "nfl:fantasypros:19736",
       "season": 2022,
       "stable_internal_player_id": "nfl:gsis:00-0036228"
+    },
+    {
+      "fantasypros_id": 12127,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:12127",
+      "season": 2022,
+      "stable_internal_player_id": "nfl:gsis:00-0031235"
     },
     {
       "fantasypros_id": 18791,
@@ -14687,6 +15947,20 @@
       "stable_internal_player_id": "nfl:gsis:00-0029421"
     },
     {
+      "fantasypros_id": 19469,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:19469",
+      "season": 2023,
+      "stable_internal_player_id": "nfl:gsis:00-0035849"
+    },
+    {
+      "fantasypros_id": 9549,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:9549",
+      "season": 2023,
+      "stable_internal_player_id": "nfl:gsis:00-0026968"
+    },
+    {
       "fantasypros_id": 17298,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:17298",
@@ -15373,6 +16647,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0036312"
     },
     {
+      "fantasypros_id": 9444,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:9444",
+      "season": 2023,
+      "stable_internal_player_id": "nfl:gsis:00-0026143"
+    },
+    {
       "fantasypros_id": 24575,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:24575",
@@ -15763,6 +17044,13 @@
       "old_internal_player_id": "nfl:fantasypros:19471",
       "season": 2023,
       "stable_internal_player_id": "nfl:gsis:00-0037276"
+    },
+    {
+      "fantasypros_id": 23310,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:23310",
+      "season": 2023,
+      "stable_internal_player_id": "nfl:gsis:00-0036919"
     },
     {
       "fantasypros_id": 16407,
@@ -16276,6 +17564,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0038636"
     },
     {
+      "fantasypros_id": 18617,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:18617",
+      "season": 2023,
+      "stable_internal_player_id": "nfl:gsis:00-0035448"
+    },
+    {
       "fantasypros_id": 22976,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:22976",
@@ -16365,6 +17660,13 @@
       "old_internal_player_id": "nfl:fantasypros:14191",
       "season": 2023,
       "stable_internal_player_id": "nfl:gsis:00-0031595"
+    },
+    {
+      "fantasypros_id": 13948,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:13948",
+      "season": 2023,
+      "stable_internal_player_id": "nfl:gsis:00-0032187"
     },
     {
       "fantasypros_id": 19438,
@@ -16710,6 +18012,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0033110"
     },
     {
+      "fantasypros_id": 23982,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:23982",
+      "season": 2023,
+      "stable_internal_player_id": "nfl:gsis:00-0037809"
+    },
+    {
       "fantasypros_id": 19562,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:19562",
@@ -16892,6 +18201,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0036876"
     },
     {
+      "fantasypros_id": 17115,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:17115",
+      "season": 2023,
+      "stable_internal_player_id": "nfl:gsis:00-0033357"
+    },
+    {
       "fantasypros_id": 17508,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:17508",
@@ -17030,6 +18346,13 @@
       "old_internal_player_id": "nfl:fantasypros:19456",
       "season": 2023,
       "stable_internal_player_id": "nfl:gsis:00-0036332"
+    },
+    {
+      "fantasypros_id": 24561,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:24561",
+      "season": 2023,
+      "stable_internal_player_id": "nfl:gsis:00-0037292"
     },
     {
       "fantasypros_id": 17387,
@@ -17424,6 +18747,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0035823"
     },
     {
+      "fantasypros_id": 17143,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:17143",
+      "season": 2023,
+      "stable_internal_player_id": "nfl:gsis:00-0034011"
+    },
+    {
       "fantasypros_id": 16541,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:16541",
@@ -17611,6 +18941,13 @@
       "old_internal_player_id": "nfl:fantasypros:15645",
       "season": 2023,
       "stable_internal_player_id": "nfl:gsis:00-0032394"
+    },
+    {
+      "fantasypros_id": 24216,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:24216",
+      "season": 2023,
+      "stable_internal_player_id": "nfl:gsis:00-0037348"
     },
     {
       "fantasypros_id": 17443,
@@ -17884,6 +19221,13 @@
       "old_internal_player_id": "nfl:fantasypros:22916",
       "season": 2023,
       "stable_internal_player_id": "nfl:gsis:00-0039064"
+    },
+    {
+      "fantasypros_id": 18226,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:18226",
+      "season": 2023,
+      "stable_internal_player_id": "nfl:gsis:00-0035662"
     },
     {
       "fantasypros_id": 16377,
@@ -18171,6 +19515,13 @@
       "old_internal_player_id": "nfl:fantasypros:23791",
       "season": 2023,
       "stable_internal_player_id": "nfl:gsis:00-0037664"
+    },
+    {
+      "fantasypros_id": 22845,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:22845",
+      "season": 2023,
+      "stable_internal_player_id": "nfl:gsis:00-0036988"
     },
     {
       "fantasypros_id": 20126,
@@ -18775,6 +20126,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0032208"
     },
     {
+      "fantasypros_id": 18933,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:18933",
+      "season": 2023,
+      "stable_internal_player_id": "nfl:gsis:00-0035432"
+    },
+    {
       "fantasypros_id": 23001,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:23001",
@@ -18824,6 +20182,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0037291"
     },
     {
+      "fantasypros_id": 22785,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:22785",
+      "season": 2023,
+      "stable_internal_player_id": "nfl:gsis:00-0036620"
+    },
+    {
       "fantasypros_id": 19587,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:19587",
@@ -18857,6 +20222,13 @@
       "old_internal_player_id": "nfl:fantasypros:17871",
       "season": 2023,
       "stable_internal_player_id": "nfl:gsis:00-0034317"
+    },
+    {
+      "fantasypros_id": 18612,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:18612",
+      "season": 2023,
+      "stable_internal_player_id": "nfl:gsis:00-0035350"
     },
     {
       "fantasypros_id": 24213,
@@ -18936,6 +20308,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0037093"
     },
     {
+      "fantasypros_id": 18634,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:18634",
+      "season": 2023,
+      "stable_internal_player_id": "nfl:gsis:00-0036365"
+    },
+    {
       "fantasypros_id": 19052,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:19052",
@@ -19011,6 +20390,13 @@
       "old_internal_player_id": "nfl:fantasypros:25468",
       "season": 2023,
       "stable_internal_player_id": "nfl:gsis:00-0038640"
+    },
+    {
+      "fantasypros_id": 17286,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:17286",
+      "season": 2023,
+      "stable_internal_player_id": "nfl:gsis:00-0034772"
     },
     {
       "fantasypros_id": 18636,
@@ -19279,6 +20665,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0035934"
     },
     {
+      "fantasypros_id": 9446,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:9446",
+      "season": 2023,
+      "stable_internal_player_id": "nfl:gsis:00-0026293"
+    },
+    {
       "fantasypros_id": 19534,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:19534",
@@ -19424,6 +20817,13 @@
       "old_internal_player_id": "nfl:fantasypros:25952",
       "season": 2023,
       "stable_internal_player_id": "nfl:gsis:00-0038181"
+    },
+    {
+      "fantasypros_id": 24370,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:24370",
+      "season": 2023,
+      "stable_internal_player_id": "nfl:gsis:00-0038839"
     },
     {
       "fantasypros_id": 25467,
@@ -20350,6 +21750,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0027973"
     },
     {
+      "fantasypros_id": 11174,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:11174",
+      "season": 2024,
+      "stable_internal_player_id": "nfl:gsis:00-0029701"
+    },
+    {
       "fantasypros_id": 19297,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:19297",
@@ -20922,6 +22329,13 @@
       "old_internal_player_id": "nfl:fantasypros:25987",
       "season": 2024,
       "stable_internal_player_id": "nfl:gsis:00-0039874"
+    },
+    {
+      "fantasypros_id": 23310,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:23310",
+      "season": 2024,
+      "stable_internal_player_id": "nfl:gsis:00-0036919"
     },
     {
       "fantasypros_id": 25322,
@@ -21505,6 +22919,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0036269"
     },
     {
+      "fantasypros_id": 11410,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:11410",
+      "season": 2024,
+      "stable_internal_player_id": "nfl:gsis:00-0029239"
+    },
+    {
       "fantasypros_id": 22948,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:22948",
@@ -22042,6 +23463,13 @@
       "old_internal_player_id": "nfl:fantasypros:26343",
       "season": 2024,
       "stable_internal_player_id": "nfl:gsis:00-0039824"
+    },
+    {
+      "fantasypros_id": 24561,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:24561",
+      "season": 2024,
+      "stable_internal_player_id": "nfl:gsis:00-0037292"
     },
     {
       "fantasypros_id": 17387,
@@ -22695,6 +24123,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0039893"
     },
     {
+      "fantasypros_id": 18226,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:18226",
+      "season": 2024,
+      "stable_internal_player_id": "nfl:gsis:00-0035662"
+    },
+    {
       "fantasypros_id": 26122,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:26122",
@@ -22714,6 +24149,13 @@
       "old_internal_player_id": "nfl:fantasypros:13971",
       "season": 2024,
       "stable_internal_player_id": "nfl:gsis:00-0032211"
+    },
+    {
+      "fantasypros_id": 22845,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:22845",
+      "season": 2024,
+      "stable_internal_player_id": "nfl:gsis:00-0036988"
     },
     {
       "fantasypros_id": 16434,
@@ -23521,6 +24963,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0038941"
     },
     {
+      "fantasypros_id": 9867,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:9867",
+      "season": 2024,
+      "stable_internal_player_id": "nfl:gsis:00-0027944"
+    },
+    {
       "fantasypros_id": 19798,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:19798",
@@ -23862,6 +25311,13 @@
       "old_internal_player_id": "nfl:fantasypros:19801",
       "season": 2024,
       "stable_internal_player_id": "nfl:gsis:00-0036630"
+    },
+    {
+      "fantasypros_id": 24214,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:24214",
+      "season": 2024,
+      "stable_internal_player_id": "nfl:gsis:00-0037745"
     },
     {
       "fantasypros_id": 26377,
@@ -24452,11 +25908,46 @@
       "stable_internal_player_id": "nfl:gsis:00-0036816"
     },
     {
+      "fantasypros_id": 25465,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:25465",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0038402"
+    },
+    {
+      "fantasypros_id": 18689,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:18689",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0035145"
+    },
+    {
+      "fantasypros_id": 26581,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:26581",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0039649"
+    },
+    {
+      "fantasypros_id": 12378,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:12378",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0030332"
+    },
+    {
       "fantasypros_id": 24549,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:24549",
       "season": 2025,
       "stable_internal_player_id": "nfl:gsis:00-0038097"
+    },
+    {
+      "fantasypros_id": 24588,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:24588",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0037606"
     },
     {
       "fantasypros_id": 11818,
@@ -24480,11 +25971,25 @@
       "stable_internal_player_id": "nfl:gsis:00-0034450"
     },
     {
+      "fantasypros_id": 11345,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:11345",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0029621"
+    },
+    {
       "fantasypros_id": 26638,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:26638",
       "season": 2025,
       "stable_internal_player_id": "nfl:gsis:00-0039498"
+    },
+    {
+      "fantasypros_id": 24620,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:24620",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0037471"
     },
     {
       "fantasypros_id": 26940,
@@ -24494,11 +25999,32 @@
       "stable_internal_player_id": "nfl:gsis:00-0039934"
     },
     {
+      "fantasypros_id": 11465,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:11465",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0029597"
+    },
+    {
       "fantasypros_id": 25222,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:25222",
       "season": 2025,
       "stable_internal_player_id": "nfl:gsis:00-0038152"
+    },
+    {
+      "fantasypros_id": 9433,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:9433",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0025580"
+    },
+    {
+      "fantasypros_id": 19766,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:19766",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0036469"
     },
     {
       "fantasypros_id": 9443,
@@ -24513,6 +26039,27 @@
       "old_internal_player_id": "nfl:fantasypros:18779",
       "season": 2025,
       "stable_internal_player_id": "nfl:gsis:00-0035189"
+    },
+    {
+      "fantasypros_id": 23983,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:23983",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0037645"
+    },
+    {
+      "fantasypros_id": 11339,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:11339",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0029421"
+    },
+    {
+      "fantasypros_id": 25616,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:25616",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0038354"
     },
     {
       "fantasypros_id": 16548,
@@ -25047,6 +26594,20 @@
       "stable_internal_player_id": "nfl:gsis:00-0026300"
     },
     {
+      "fantasypros_id": 12091,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:12091",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0031288"
+    },
+    {
+      "fantasypros_id": 24113,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:24113",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0037175"
+    },
+    {
       "fantasypros_id": 24027,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:24027",
@@ -25061,11 +26622,25 @@
       "stable_internal_player_id": "nfl:gsis:00-0036384"
     },
     {
+      "fantasypros_id": 9858,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:9858",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0027948"
+    },
+    {
       "fantasypros_id": 18323,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:18323",
       "season": 2025,
       "stable_internal_player_id": "nfl:gsis:00-0034955"
+    },
+    {
+      "fantasypros_id": 9078,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:9078",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0026625"
     },
     {
       "fantasypros_id": 16419,
@@ -25080,6 +26655,13 @@
       "old_internal_player_id": "nfl:fantasypros:27289",
       "season": 2025,
       "stable_internal_player_id": "nfl:gsis:00-0040222"
+    },
+    {
+      "fantasypros_id": 23042,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:23042",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0037139"
     },
     {
       "fantasypros_id": 11425,
@@ -25131,11 +26713,32 @@
       "stable_internal_player_id": "nfl:gsis:00-0035282"
     },
     {
+      "fantasypros_id": 20159,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:20159",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0036929"
+    },
+    {
+      "fantasypros_id": 19243,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:19243",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0036197"
+    },
+    {
       "fantasypros_id": 24728,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:24728",
       "season": 2025,
       "stable_internal_player_id": "nfl:gsis:00-0038998"
+    },
+    {
+      "fantasypros_id": 24073,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:24073",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0038598"
     },
     {
       "fantasypros_id": 15615,
@@ -25187,6 +26790,34 @@
       "stable_internal_player_id": "nfl:gsis:00-0034438"
     },
     {
+      "fantasypros_id": 11686,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:11686",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0030533"
+    },
+    {
+      "fantasypros_id": 23028,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:23028",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0038132"
+    },
+    {
+      "fantasypros_id": 23121,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:23121",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0038637"
+    },
+    {
+      "fantasypros_id": 25226,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:25226",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0039238"
+    },
+    {
       "fantasypros_id": 17447,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:17447",
@@ -25194,11 +26825,46 @@
       "stable_internal_player_id": "nfl:gsis:00-0034401"
     },
     {
+      "fantasypros_id": 16414,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:16414",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0033958"
+    },
+    {
+      "fantasypros_id": 25319,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:25319",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0038150"
+    },
+    {
+      "fantasypros_id": 16841,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:16841",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0033275"
+    },
+    {
       "fantasypros_id": 25373,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:25373",
       "season": 2025,
       "stable_internal_player_id": "nfl:gsis:00-0040206"
+    },
+    {
+      "fantasypros_id": 11872,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:11872",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0029857"
+    },
+    {
+      "fantasypros_id": 11174,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:11174",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0029701"
     },
     {
       "fantasypros_id": 19803,
@@ -25241,6 +26907,13 @@
       "old_internal_player_id": "nfl:fantasypros:13932",
       "season": 2025,
       "stable_internal_player_id": "nfl:gsis:00-0031800"
+    },
+    {
+      "fantasypros_id": 17801,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:17801",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0034177"
     },
     {
       "fantasypros_id": 25746,
@@ -25789,6 +27462,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0040202"
     },
     {
+      "fantasypros_id": 23310,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:23310",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0036919"
+    },
+    {
       "fantasypros_id": 26392,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:26392",
@@ -26160,6 +27840,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0039325"
     },
     {
+      "fantasypros_id": 17687,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:17687",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0034184"
+    },
+    {
       "fantasypros_id": 23812,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:23812",
@@ -26223,11 +27910,39 @@
       "stable_internal_player_id": "nfl:gsis:00-0035628"
     },
     {
+      "fantasypros_id": 16707,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:16707",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0033296"
+    },
+    {
       "fantasypros_id": 13924,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:13924",
       "season": 2025,
       "stable_internal_player_id": "nfl:gsis:00-0032104"
+    },
+    {
+      "fantasypros_id": 19366,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:19366",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0036336"
+    },
+    {
+      "fantasypros_id": 17612,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:17612",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0034414"
+    },
+    {
+      "fantasypros_id": 11410,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:11410",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0029239"
     },
     {
       "fantasypros_id": 26748,
@@ -26244,11 +27959,67 @@
       "stable_internal_player_id": "nfl:gsis:00-0034681"
     },
     {
+      "fantasypros_id": 22797,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:22797",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0036857"
+    },
+    {
       "fantasypros_id": 19325,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:19325",
       "season": 2025,
       "stable_internal_player_id": "nfl:gsis:00-0036360"
+    },
+    {
+      "fantasypros_id": 11613,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:11613",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0030578"
+    },
+    {
+      "fantasypros_id": 16446,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:16446",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0033725"
+    },
+    {
+      "fantasypros_id": 16407,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:16407",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0033925"
+    },
+    {
+      "fantasypros_id": 16374,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:16374",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0033893"
+    },
+    {
+      "fantasypros_id": 18230,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:18230",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0035657"
+    },
+    {
+      "fantasypros_id": 12334,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:12334",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0030874"
+    },
+    {
+      "fantasypros_id": 18588,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:18588",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0035664"
     },
     {
       "fantasypros_id": 25770,
@@ -26258,11 +28029,39 @@
       "stable_internal_player_id": "nfl:gsis:00-0038518"
     },
     {
+      "fantasypros_id": 18630,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:18630",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0035184"
+    },
+    {
+      "fantasypros_id": 15850,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:15850",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0032450"
+    },
+    {
+      "fantasypros_id": 15498,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:15498",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0033045"
+    },
+    {
       "fantasypros_id": 23293,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:23293",
       "season": 2025,
       "stable_internal_player_id": "nfl:gsis:00-0036569"
+    },
+    {
+      "fantasypros_id": 19438,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:19438",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0036096"
     },
     {
       "fantasypros_id": 18673,
@@ -26272,6 +28071,27 @@
       "stable_internal_player_id": "nfl:gsis:00-0035726"
     },
     {
+      "fantasypros_id": 16424,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:16424",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0033948"
+    },
+    {
+      "fantasypros_id": 19631,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:19631",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0035831"
+    },
+    {
+      "fantasypros_id": 12209,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:12209",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0031376"
+    },
+    {
       "fantasypros_id": 20088,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:20088",
@@ -26279,11 +28099,32 @@
       "stable_internal_player_id": "nfl:gsis:00-0036670"
     },
     {
+      "fantasypros_id": 17304,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:17304",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0034808"
+    },
+    {
       "fantasypros_id": 19974,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:19974",
       "season": 2025,
       "stable_internal_player_id": "nfl:gsis:00-0035924"
+    },
+    {
+      "fantasypros_id": 15611,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:15611",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0032975"
+    },
+    {
+      "fantasypros_id": 19445,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:19445",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0036370"
     },
     {
       "fantasypros_id": 19351,
@@ -26307,6 +28148,48 @@
       "stable_internal_player_id": "nfl:gsis:00-0036842"
     },
     {
+      "fantasypros_id": 15637,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:15637",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0033118"
+    },
+    {
+      "fantasypros_id": 19333,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:19333",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0036269"
+    },
+    {
+      "fantasypros_id": 11821,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:11821",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0030513"
+    },
+    {
+      "fantasypros_id": 16378,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:16378",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0033856"
+    },
+    {
+      "fantasypros_id": 17058,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:17058",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0033308"
+    },
+    {
+      "fantasypros_id": 13903,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:13903",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0032144"
+    },
+    {
       "fantasypros_id": 14191,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:14191",
@@ -26326,6 +28209,27 @@
       "old_internal_player_id": "nfl:fantasypros:17251",
       "season": 2025,
       "stable_internal_player_id": "nfl:gsis:00-0035311"
+    },
+    {
+      "fantasypros_id": 17587,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:17587",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0034433"
+    },
+    {
+      "fantasypros_id": 18480,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:18480",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0035273"
+    },
+    {
+      "fantasypros_id": 17308,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:17308",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0034750"
     },
     {
       "fantasypros_id": 19844,
@@ -26349,11 +28253,32 @@
       "stable_internal_player_id": "nfl:gsis:00-0036020"
     },
     {
+      "fantasypros_id": 9962,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:9962",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0028063"
+    },
+    {
+      "fantasypros_id": 19482,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:19482",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0035860"
+    },
+    {
       "fantasypros_id": 18607,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:18607",
       "season": 2025,
       "stable_internal_player_id": "nfl:gsis:00-0035291"
+    },
+    {
+      "fantasypros_id": 19263,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:19263",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0036251"
     },
     {
       "fantasypros_id": 23279,
@@ -26846,6 +28771,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0040081"
     },
     {
+      "fantasypros_id": 24561,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:24561",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0037292"
+    },
+    {
       "fantasypros_id": 24621,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:24621",
@@ -27119,6 +29051,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0039814"
     },
     {
+      "fantasypros_id": 26436,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:26436",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0039305"
+    },
+    {
       "fantasypros_id": 16937,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:16937",
@@ -27131,6 +29070,20 @@
       "old_internal_player_id": "nfl:fantasypros:23174",
       "season": 2025,
       "stable_internal_player_id": "nfl:gsis:00-0037282"
+    },
+    {
+      "fantasypros_id": 17115,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:17115",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0033357"
+    },
+    {
+      "fantasypros_id": 16459,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:16459",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0033895"
     },
     {
       "fantasypros_id": 22923,
@@ -27196,11 +29149,25 @@
       "stable_internal_player_id": "nfl:gsis:00-0033455"
     },
     {
+      "fantasypros_id": 24242,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:24242",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0037168"
+    },
+    {
       "fantasypros_id": 23137,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:23137",
       "season": 2025,
       "stable_internal_player_id": "nfl:gsis:00-0039316"
+    },
+    {
+      "fantasypros_id": 13966,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:13966",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0032062"
     },
     {
       "fantasypros_id": 25469,
@@ -27217,6 +29184,20 @@
       "stable_internal_player_id": "nfl:gsis:00-0039458"
     },
     {
+      "fantasypros_id": 19234,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:19234",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0036424"
+    },
+    {
+      "fantasypros_id": 14084,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:14084",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0032134"
+    },
+    {
       "fantasypros_id": 27550,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:27550",
@@ -27229,6 +29210,13 @@
       "old_internal_player_id": "nfl:fantasypros:24331",
       "season": 2025,
       "stable_internal_player_id": "nfl:gsis:00-0038564"
+    },
+    {
+      "fantasypros_id": 19462,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:19462",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0037100"
     },
     {
       "fantasypros_id": 24886,
@@ -27252,11 +29240,39 @@
       "stable_internal_player_id": "nfl:gsis:00-0039686"
     },
     {
+      "fantasypros_id": 24630,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:24630",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0037164"
+    },
+    {
+      "fantasypros_id": 24732,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:24732",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0039613"
+    },
+    {
       "fantasypros_id": 19563,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:19563",
       "season": 2025,
       "stable_internal_player_id": "nfl:gsis:00-0036225"
+    },
+    {
+      "fantasypros_id": 16582,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:16582",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0033258"
+    },
+    {
+      "fantasypros_id": 17443,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:17443",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0034575"
     },
     {
       "fantasypros_id": 22672,
@@ -27273,6 +29289,20 @@
       "stable_internal_player_id": "nfl:gsis:00-0038498"
     },
     {
+      "fantasypros_id": 14339,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:14339",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0031690"
+    },
+    {
+      "fantasypros_id": 14164,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:14164",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0032141"
+    },
+    {
       "fantasypros_id": 19756,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:19756",
@@ -27280,11 +29310,46 @@
       "stable_internal_player_id": "nfl:gsis:00-0035956"
     },
     {
+      "fantasypros_id": 17283,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:17283",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0034830"
+    },
+    {
+      "fantasypros_id": 23386,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:23386",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0036779"
+    },
+    {
       "fantasypros_id": 24778,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:24778",
       "season": 2025,
       "stable_internal_player_id": "nfl:gsis:00-0037112"
+    },
+    {
+      "fantasypros_id": 23145,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:23145",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0037436"
+    },
+    {
+      "fantasypros_id": 18482,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:18482",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0035562"
+    },
+    {
+      "fantasypros_id": 9712,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:9712",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0027696"
     },
     {
       "fantasypros_id": 24181,
@@ -27301,11 +29366,39 @@
       "stable_internal_player_id": "nfl:gsis:00-0034364"
     },
     {
+      "fantasypros_id": 12124,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:12124",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0031299"
+    },
+    {
+      "fantasypros_id": 23255,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:23255",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0036674"
+    },
+    {
       "fantasypros_id": 19456,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:19456",
       "season": 2025,
       "stable_internal_player_id": "nfl:gsis:00-0036332"
+    },
+    {
+      "fantasypros_id": 17802,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:17802",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0034193"
+    },
+    {
+      "fantasypros_id": 12095,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:12095",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0031260"
     },
     {
       "fantasypros_id": 22977,
@@ -27322,11 +29415,32 @@
       "stable_internal_player_id": "nfl:gsis:00-0024243"
     },
     {
+      "fantasypros_id": 22865,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:22865",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0036519"
+    },
+    {
       "fantasypros_id": 18921,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:18921",
       "season": 2025,
       "stable_internal_player_id": "nfl:gsis:00-0035436"
+    },
+    {
+      "fantasypros_id": 19510,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:19510",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0035771"
+    },
+    {
+      "fantasypros_id": 13964,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:13964",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0031585"
     },
     {
       "fantasypros_id": 24239,
@@ -27343,11 +29457,39 @@
       "stable_internal_player_id": "nfl:gsis:00-0037031"
     },
     {
+      "fantasypros_id": 19688,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:19688",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0036005"
+    },
+    {
+      "fantasypros_id": 19067,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:19067",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0035572"
+    },
+    {
+      "fantasypros_id": 22971,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:22971",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0037569"
+    },
+    {
       "fantasypros_id": 25939,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:25939",
       "season": 2025,
       "stable_internal_player_id": "nfl:gsis:00-0038735"
+    },
+    {
+      "fantasypros_id": 24808,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:24808",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0037632"
     },
     {
       "fantasypros_id": 17886,
@@ -27371,11 +29513,25 @@
       "stable_internal_player_id": "nfl:gsis:00-0036534"
     },
     {
+      "fantasypros_id": 15760,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:15760",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0032725"
+    },
+    {
       "fantasypros_id": 18757,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:18757",
       "season": 2025,
       "stable_internal_player_id": "nfl:gsis:00-0035039"
+    },
+    {
+      "fantasypros_id": 19641,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:19641",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0036438"
     },
     {
       "fantasypros_id": 26352,
@@ -27390,6 +29546,34 @@
       "old_internal_player_id": "nfl:fantasypros:25206",
       "season": 2025,
       "stable_internal_player_id": "nfl:gsis:00-0038145"
+    },
+    {
+      "fantasypros_id": 22807,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:22807",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0037011"
+    },
+    {
+      "fantasypros_id": 18567,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:18567",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0035259"
+    },
+    {
+      "fantasypros_id": 19811,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:19811",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0036250"
+    },
+    {
+      "fantasypros_id": 13960,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:13960",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0032214"
     },
     {
       "fantasypros_id": 19706,
@@ -27411,6 +29595,13 @@
       "old_internal_player_id": "nfl:fantasypros:23394",
       "season": 2025,
       "stable_internal_player_id": "nfl:gsis:00-0036640"
+    },
+    {
+      "fantasypros_id": 18690,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:18690",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0035222"
     },
     {
       "fantasypros_id": 25347,
@@ -27812,6 +30003,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0039342"
     },
     {
+      "fantasypros_id": 18226,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:18226",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0035662"
+    },
+    {
       "fantasypros_id": 11616,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:11616",
@@ -27845,6 +30043,13 @@
       "old_internal_player_id": "nfl:fantasypros:25304",
       "season": 2025,
       "stable_internal_player_id": "nfl:gsis:00-0038621"
+    },
+    {
+      "fantasypros_id": 22845,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:22845",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0036988"
     },
     {
       "fantasypros_id": 23794,
@@ -28358,6 +30563,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0040154"
     },
     {
+      "fantasypros_id": 15547,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:15547",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0033009"
+    },
+    {
       "fantasypros_id": 17528,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:17528",
@@ -28440,6 +30652,13 @@
       "old_internal_player_id": "nfl:fantasypros:24372",
       "season": 2025,
       "stable_internal_player_id": "nfl:gsis:00-0040184"
+    },
+    {
+      "fantasypros_id": 24049,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:24049",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0037091"
     },
     {
       "fantasypros_id": 26011,
@@ -28638,6 +30857,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0040551"
     },
     {
+      "fantasypros_id": 24370,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:24370",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0038839"
+    },
+    {
       "fantasypros_id": 26023,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:26023",
@@ -28722,11 +30948,25 @@
       "stable_internal_player_id": "nfl:gsis:00-0040432"
     },
     {
+      "fantasypros_id": 13969,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:13969",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0031549"
+    },
+    {
       "fantasypros_id": 23108,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:23108",
       "season": 2025,
       "stable_internal_player_id": "nfl:gsis:00-0037257"
+    },
+    {
+      "fantasypros_id": 17292,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:17292",
+      "season": 2025,
+      "stable_internal_player_id": "nfl:gsis:00-0034777"
     },
     {
       "fantasypros_id": 26379,
@@ -29366,11 +31606,32 @@
       "stable_internal_player_id": "nfl:gsis:00-0038097"
     },
     {
+      "fantasypros_id": 13274,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:13274",
+      "season": 2026,
+      "stable_internal_player_id": "nfl:gsis:00-0029822"
+    },
+    {
+      "fantasypros_id": 9232,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:9232",
+      "season": 2026,
+      "stable_internal_player_id": "nfl:gsis:00-0026858"
+    },
+    {
       "fantasypros_id": 24009,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:24009",
       "season": 2026,
       "stable_internal_player_id": "nfl:gsis:00-0038562"
+    },
+    {
+      "fantasypros_id": 26478,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:26478",
+      "season": 2026,
+      "stable_internal_player_id": "nfl:gsis:00-0039750"
     },
     {
       "fantasypros_id": 25222,
@@ -29380,11 +31641,32 @@
       "stable_internal_player_id": "nfl:gsis:00-0038152"
     },
     {
+      "fantasypros_id": 9443,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:9443",
+      "season": 2026,
+      "stable_internal_player_id": "nfl:gsis:00-0023853"
+    },
+    {
       "fantasypros_id": 26763,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:26763",
       "season": 2026,
       "stable_internal_player_id": "nfl:gsis:00-0039576"
+    },
+    {
+      "fantasypros_id": 25616,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:25616",
+      "season": 2026,
+      "stable_internal_player_id": "nfl:gsis:00-0038354"
+    },
+    {
+      "fantasypros_id": 16910,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:16910",
+      "season": 2026,
+      "stable_internal_player_id": "nfl:gsis:00-0033702"
     },
     {
       "fantasypros_id": 16548,
@@ -29751,6 +32033,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0038476"
     },
     {
+      "fantasypros_id": 16417,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:16417",
+      "season": 2026,
+      "stable_internal_player_id": "nfl:gsis:00-0033949"
+    },
+    {
       "fantasypros_id": 19297,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:19297",
@@ -29924,6 +32213,13 @@
       "old_internal_player_id": "nfl:fantasypros:25972",
       "season": 2026,
       "stable_internal_player_id": "nfl:gsis:00-0040203"
+    },
+    {
+      "fantasypros_id": 20080,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:20080",
+      "season": 2026,
+      "stable_internal_player_id": "nfl:gsis:00-0038122"
     },
     {
       "fantasypros_id": 17234,
@@ -30234,6 +32530,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0033293"
     },
     {
+      "fantasypros_id": 23310,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:23310",
+      "season": 2026,
+      "stable_internal_player_id": "nfl:gsis:00-0036919"
+    },
+    {
       "fantasypros_id": 27142,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:27142",
@@ -30395,6 +32698,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0040888"
     },
     {
+      "fantasypros_id": 19302,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:19302",
+      "season": 2026,
+      "stable_internal_player_id": "nfl:gsis:00-0036893"
+    },
+    {
       "fantasypros_id": 25823,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:25823",
@@ -30535,11 +32845,25 @@
       "stable_internal_player_id": "nfl:gsis:00-0039875"
     },
     {
+      "fantasypros_id": 18607,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:18607",
+      "season": 2026,
+      "stable_internal_player_id": "nfl:gsis:00-0035291"
+    },
+    {
       "fantasypros_id": 27097,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:27097",
       "season": 2026,
       "stable_internal_player_id": "nfl:gsis:00-0040179"
+    },
+    {
+      "fantasypros_id": 16483,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:16483",
+      "season": 2026,
+      "stable_internal_player_id": "nfl:gsis:00-0033699"
     },
     {
       "fantasypros_id": 22928,
@@ -31032,6 +33356,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0037809"
     },
     {
+      "fantasypros_id": 14104,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:14104",
+      "season": 2026,
+      "stable_internal_player_id": "nfl:gsis:00-0031610"
+    },
+    {
       "fantasypros_id": 16399,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:16399",
@@ -31298,6 +33629,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0037805"
     },
     {
+      "fantasypros_id": 15645,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:15645",
+      "season": 2026,
+      "stable_internal_player_id": "nfl:gsis:00-0032394"
+    },
+    {
       "fantasypros_id": 18561,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:18561",
@@ -31324,6 +33662,13 @@
       "old_internal_player_id": "nfl:fantasypros:26310",
       "season": 2026,
       "stable_internal_player_id": "nfl:gsis:00-0039912"
+    },
+    {
+      "fantasypros_id": 25347,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:25347",
+      "season": 2026,
+      "stable_internal_player_id": "nfl:gsis:00-0038406"
     },
     {
       "fantasypros_id": 23821,
@@ -31380,6 +33725,13 @@
       "old_internal_player_id": "nfl:fantasypros:27467",
       "season": 2026,
       "stable_internal_player_id": "nfl:gsis:00-0040046"
+    },
+    {
+      "fantasypros_id": 25820,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:25820",
+      "season": 2026,
+      "stable_internal_player_id": "nfl:gsis:00-0038456"
     },
     {
       "fantasypros_id": 24853,
@@ -31443,6 +33795,13 @@
       "old_internal_player_id": "nfl:fantasypros:28163",
       "season": 2026,
       "stable_internal_player_id": "nfl:gsis:00-0041579"
+    },
+    {
+      "fantasypros_id": 24181,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:24181",
+      "season": 2026,
+      "stable_internal_player_id": "nfl:gsis:00-0037306"
     },
     {
       "fantasypros_id": 25430,
@@ -31597,6 +33956,13 @@
       "old_internal_player_id": "nfl:fantasypros:16706",
       "season": 2026,
       "stable_internal_player_id": "nfl:gsis:00-0033576"
+    },
+    {
+      "fantasypros_id": 24561,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:24561",
+      "season": 2026,
+      "stable_internal_player_id": "nfl:gsis:00-0037292"
     },
     {
       "fantasypros_id": 16743,
@@ -31935,6 +34301,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0039894"
     },
     {
+      "fantasypros_id": 18244,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:18244",
+      "season": 2026,
+      "stable_internal_player_id": "nfl:gsis:00-0035719"
+    },
+    {
       "fantasypros_id": 18598,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:18598",
@@ -32003,6 +34376,13 @@
       "old_internal_player_id": "nfl:fantasypros:27331",
       "season": 2026,
       "stable_internal_player_id": "nfl:gsis:00-0041547"
+    },
+    {
+      "fantasypros_id": 13981,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:13981",
+      "season": 2026,
+      "stable_internal_player_id": "nfl:gsis:00-0031588"
     },
     {
       "fantasypros_id": 22985,
@@ -32101,6 +34481,13 @@
       "old_internal_player_id": "nfl:fantasypros:19590",
       "season": 2026,
       "stable_internal_player_id": "nfl:gsis:00-0036259"
+    },
+    {
+      "fantasypros_id": 11616,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:11616",
+      "season": 2026,
+      "stable_internal_player_id": "nfl:gsis:00-0030279"
     },
     {
       "fantasypros_id": 26409,
@@ -32299,6 +34686,13 @@
       "stable_internal_player_id": "nfl:gsis:00-0041048"
     },
     {
+      "fantasypros_id": 18226,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:18226",
+      "season": 2026,
+      "stable_internal_player_id": "nfl:gsis:00-0035662"
+    },
+    {
       "fantasypros_id": 25335,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:25335",
@@ -32360,6 +34754,13 @@
       "old_internal_player_id": "nfl:fantasypros:27211",
       "season": 2026,
       "stable_internal_player_id": "nfl:gsis:00-0040134"
+    },
+    {
+      "fantasypros_id": 22845,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:22845",
+      "season": 2026,
+      "stable_internal_player_id": "nfl:gsis:00-0036988"
     },
     {
       "fantasypros_id": 23080,
@@ -32677,11 +35078,25 @@
       "stable_internal_player_id": "nfl:gsis:00-0039623"
     },
     {
+      "fantasypros_id": 24049,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:24049",
+      "season": 2026,
+      "stable_internal_player_id": "nfl:gsis:00-0037091"
+    },
+    {
       "fantasypros_id": 26023,
       "match_method": "direct_gsis",
       "old_internal_player_id": "nfl:fantasypros:26023",
       "season": 2026,
       "stable_internal_player_id": "nfl:gsis:00-0039920"
+    },
+    {
+      "fantasypros_id": 25416,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:25416",
+      "season": 2026,
+      "stable_internal_player_id": "nfl:gsis:00-0041099"
     },
     {
       "fantasypros_id": 25813,
@@ -32696,6 +35111,13 @@
       "old_internal_player_id": "nfl:fantasypros:25334",
       "season": 2026,
       "stable_internal_player_id": "nfl:gsis:00-0038573"
+    },
+    {
+      "fantasypros_id": 24370,
+      "match_method": "direct_gsis",
+      "old_internal_player_id": "nfl:fantasypros:24370",
+      "season": 2026,
+      "stable_internal_player_id": "nfl:gsis:00-0038839"
     },
     {
       "fantasypros_id": 25627,
@@ -32938,7 +35360,7 @@
   ],
   "metadata": {
     "collision_count": 0,
-    "record_count": 4705,
+    "record_count": 5051,
     "schema_version": 1
   }
 }

@@ -138,6 +138,15 @@ Fetch and build the supported completed seasons:
 python3 scripts/nflverse_pipeline.py --seasons 2020 2021 2022 2023 2024 2025
 ```
 
+During the preseason, acquire the current roster for identity matching without
+requiring an unavailable or incomplete outcomes release:
+
+```sh
+python3 scripts/nflverse_pipeline.py \
+  --seasons 2020 2021 2022 2023 2024 2025 \
+  --identity-seasons 2026
+```
+
 The command downloads players, weekly player stats, season rosters, weekly
 team stats, and schedules. It validates required columns before publication,
 stores immutable responses and checksums under
@@ -156,6 +165,25 @@ name-position-team and unique name-position matches are accepted with explicit
 confidence; unmatched players remain exceptions. Names are matching evidence,
 not durable identifiers. The crosswalk retains nflverse/GSIS, FantasyPros,
 Yahoo, ESPN, PFR, and PFF identifiers when available.
+
+Canonical IDs prefer `nfl:gsis:<gsis_id>` and `nfl:def:<team>`. Records without
+a validated mapping use `provisional:fantasypros:<id>` and remain eligible for
+later promotion through `config/player_identity_overrides.json`. The crosswalk
+also publishes `identity_migration_shadow.json`, collision counts, original
+match evidence, and a method-precision placeholder that must not be presented
+as measured accuracy until enough records have been human-adjudicated.
+
+Run the corroborated registry audit with:
+
+```sh
+python3 scripts/audit_player_identity.py
+```
+
+`tests/fixtures/player_identity_audit.csv` is a small, versioned provider-ID
+corroboration seed. It detects regression but is not yet the recommended
+300–500-row human-adjudicated gold set. Expand it across seasons, positions,
+match methods, aliases, trades, common names, and provisional records before
+using its precision as a production accuracy estimate.
 
 `league_scored_actuals.json` contains regular-season weekly and season totals
 calculated from `config/league.json`. Kicker calculations use nflverse distance

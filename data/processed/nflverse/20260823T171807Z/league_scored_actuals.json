@@ -289,7 +289,7 @@
     {
       "games": 6,
       "gsis_id": "00-0026293",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0026293",
       "league_points": 0.0,
       "name": "Matthew Slater",
       "points_per_game": 0.0,
@@ -1739,7 +1739,7 @@
     {
       "games": 8,
       "gsis_id": "00-0032098",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032098",
       "league_points": 3.1,
       "name": "Daniel Brown",
       "points_per_game": 0.3875,
@@ -2039,7 +2039,7 @@
     {
       "games": 16,
       "gsis_id": "00-0032688",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032688",
       "league_points": 129.1,
       "name": "Robbie Chosen",
       "points_per_game": 8.0687,
@@ -2509,7 +2509,7 @@
     {
       "games": 4,
       "gsis_id": "00-0033275",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033275",
       "league_points": 14.52,
       "name": "PJ Walker",
       "points_per_game": 3.63,
@@ -2629,7 +2629,7 @@
     {
       "games": 16,
       "gsis_id": "00-0033357",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033357",
       "league_points": 154.62,
       "name": "Taysom Hill",
       "points_per_game": 9.6638,
@@ -3469,7 +3469,7 @@
     {
       "games": 11,
       "gsis_id": "00-0034115",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034115",
       "league_points": 129.3,
       "name": "Jeff Wilson",
       "points_per_game": 11.7545,
@@ -4189,7 +4189,7 @@
     {
       "games": 12,
       "gsis_id": "00-0034766",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034766",
       "league_points": 42.7,
       "name": "Chris Herndon",
       "points_per_game": 3.5583,
@@ -4569,7 +4569,7 @@
     {
       "games": 9,
       "gsis_id": "00-0035006",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035006",
       "league_points": 20.9,
       "name": "Bisi Johnson",
       "points_per_game": 2.3222,
@@ -4729,7 +4729,7 @@
     {
       "games": 9,
       "gsis_id": "00-0035215",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035215",
       "league_points": 27.7,
       "name": "Deonte Harty",
       "points_per_game": 3.0778,
@@ -5089,7 +5089,7 @@
     {
       "games": 1,
       "gsis_id": "00-0035529",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035529",
       "league_points": 0.0,
       "name": "Hakeem Butler",
       "points_per_game": 0.0,
@@ -5299,7 +5299,7 @@
     {
       "games": 16,
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 125.0,
       "name": "Marquise Brown",
       "points_per_game": 7.8125,
@@ -5779,7 +5779,7 @@
     {
       "games": 4,
       "gsis_id": "00-0036187",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036187",
       "league_points": 7.6,
       "name": "Reggie Gilliam",
       "points_per_game": 1.9,
@@ -5809,7 +5809,7 @@
     {
       "games": 16,
       "gsis_id": "00-0036196",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036196",
       "league_points": 101.9,
       "name": "Gabe Davis",
       "points_per_game": 6.3688,
@@ -6959,7 +6959,7 @@
     {
       "games": 10,
       "gsis_id": "00-0026293",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0026293",
       "league_points": 0.0,
       "name": "Matthew Slater",
       "points_per_game": 0.0,
@@ -8469,7 +8469,7 @@
     {
       "games": 17,
       "gsis_id": "00-0032688",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032688",
       "league_points": 85.5,
       "name": "Robbie Chosen",
       "points_per_game": 5.0294,
@@ -8879,7 +8879,7 @@
     {
       "games": 5,
       "gsis_id": "00-0033275",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033275",
       "league_points": 17.78,
       "name": "PJ Walker",
       "points_per_game": 3.556,
@@ -10369,7 +10369,7 @@
     {
       "games": 6,
       "gsis_id": "00-0034766",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034766",
       "league_points": 10.0,
       "name": "Chris Herndon",
       "points_per_game": 1.6667,
@@ -10859,7 +10859,7 @@
     {
       "games": 13,
       "gsis_id": "00-0035215",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035215",
       "league_points": 77.1,
       "name": "Deonte Harty",
       "points_per_game": 5.9308,
@@ -11479,7 +11479,7 @@
     {
       "games": 16,
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 135.3,
       "name": "Marquise Brown",
       "points_per_game": 8.4562,
@@ -11989,7 +11989,7 @@
     {
       "games": 15,
       "gsis_id": "00-0036196",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036196",
       "league_points": 90.9,
       "name": "Gabe Davis",
       "points_per_game": 6.06,
@@ -12869,7 +12869,7 @@
     {
       "games": 8,
       "gsis_id": "00-0036620",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036620",
       "league_points": 18.3,
       "name": "Dee Eskridge",
       "points_per_game": 2.2875,
@@ -13349,7 +13349,7 @@
     {
       "games": 16,
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 90.4,
       "name": "Kenny Gainwell",
       "points_per_game": 5.65,
@@ -13519,7 +13519,7 @@
     {
       "games": 15,
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 59.9,
       "name": "Josh Palmer",
       "points_per_game": 3.9933,
@@ -15189,7 +15189,7 @@
     {
       "games": 12,
       "gsis_id": "00-0032688",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032688",
       "league_points": 32.2,
       "name": "Robbie Chosen",
       "points_per_game": 2.6833,
@@ -15459,7 +15459,7 @@
     {
       "games": 6,
       "gsis_id": "00-0033275",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033275",
       "league_points": 45.14,
       "name": "PJ Walker",
       "points_per_game": 7.5233,
@@ -16149,7 +16149,7 @@
     {
       "games": 16,
       "gsis_id": "00-0034115",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034115",
       "league_points": 136.5,
       "name": "Jeff Wilson",
       "points_per_game": 8.5312,
@@ -17559,7 +17559,7 @@
     {
       "games": 12,
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 89.0,
       "name": "Marquise Brown",
       "points_per_game": 7.4167,
@@ -18739,7 +18739,7 @@
     {
       "games": 9,
       "gsis_id": "00-0036620",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036620",
       "league_points": 6.8,
       "name": "Dee Eskridge",
       "points_per_game": 0.7556,
@@ -19159,7 +19159,7 @@
     {
       "games": 17,
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 64.9,
       "name": "Kenny Gainwell",
       "points_per_game": 3.8176,
@@ -19319,7 +19319,7 @@
     {
       "games": 16,
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 97.3,
       "name": "Josh Palmer",
       "points_per_game": 6.0812,
@@ -19849,7 +19849,7 @@
     {
       "games": 2,
       "gsis_id": "00-0037348",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037348",
       "league_points": 0.0,
       "name": "Tanner Conner",
       "points_per_game": 0.0,
@@ -20169,7 +20169,7 @@
     {
       "games": 16,
       "gsis_id": "00-0037809",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037809",
       "league_points": 65.2,
       "name": "Chig Okonkwo",
       "points_per_game": 4.075,
@@ -20829,7 +20829,7 @@
     {
       "games": 5,
       "gsis_id": "00-0026293",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0026293",
       "league_points": 0.0,
       "name": "Matthew Slater",
       "points_per_game": 0.0,
@@ -21989,7 +21989,7 @@
     {
       "games": 16,
       "gsis_id": "00-0033357",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033357",
       "league_points": 111.52,
       "name": "Taysom Hill",
       "points_per_game": 6.97,
@@ -23559,7 +23559,7 @@
     {
       "games": 13,
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 83.7,
       "name": "Marquise Brown",
       "points_per_game": 6.4385,
@@ -24519,7 +24519,7 @@
     {
       "games": 4,
       "gsis_id": "00-0036620",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036620",
       "league_points": 0.5,
       "name": "Dee Eskridge",
       "points_per_game": 0.125,
@@ -24799,7 +24799,7 @@
     {
       "games": 16,
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 67.38,
       "name": "Kenny Gainwell",
       "points_per_game": 4.2112,
@@ -24939,7 +24939,7 @@
     {
       "games": 10,
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 68.7,
       "name": "Josh Palmer",
       "points_per_game": 6.87,
@@ -25349,7 +25349,7 @@
     {
       "games": 11,
       "gsis_id": "00-0037292",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037292",
       "league_points": 26.7,
       "name": "Andrew Ogletree",
       "points_per_game": 2.4273,
@@ -25679,7 +25679,7 @@
     {
       "games": 17,
       "gsis_id": "00-0037809",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037809",
       "league_points": 59.4,
       "name": "Chig Okonkwo",
       "points_per_game": 3.4941,
@@ -29379,7 +29379,7 @@
     {
       "games": 2,
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 9.1,
       "name": "Marquise Brown",
       "points_per_game": 4.55,
@@ -30439,7 +30439,7 @@
     {
       "games": 17,
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 46.6,
       "name": "Kenny Gainwell",
       "points_per_game": 2.7412,
@@ -30569,7 +30569,7 @@
     {
       "games": 15,
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 68.4,
       "name": "Josh Palmer",
       "points_per_game": 4.56,
@@ -30909,7 +30909,7 @@
     {
       "games": 12,
       "gsis_id": "00-0037292",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037292",
       "league_points": 16.9,
       "name": "Andrew Ogletree",
       "points_per_game": 1.4083,
@@ -31299,7 +31299,7 @@
     {
       "games": 2,
       "gsis_id": "00-0037745",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037745",
       "league_points": -0.1,
       "name": "Velus Jones Jr.",
       "points_per_game": -0.05,
@@ -34529,7 +34529,7 @@
     {
       "games": 13,
       "gsis_id": "00-0033357",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033357",
       "league_points": 31.78,
       "name": "Taysom Hill",
       "points_per_game": 2.4446,
@@ -35649,7 +35649,7 @@
     {
       "games": 16,
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 88.7,
       "name": "Marquise Brown",
       "points_per_game": 5.5438,
@@ -36529,7 +36529,7 @@
     {
       "games": 17,
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 148.3,
       "name": "Kenny Gainwell",
       "points_per_game": 8.7235,
@@ -36649,7 +36649,7 @@
     {
       "games": 12,
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 30.3,
       "name": "Josh Palmer",
       "points_per_game": 2.525,
@@ -36749,7 +36749,7 @@
     {
       "games": 13,
       "gsis_id": "00-0037091",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037091",
       "league_points": 20.2,
       "name": "Bo Melton",
       "points_per_game": 1.5538,
@@ -37009,7 +37009,7 @@
     {
       "games": 11,
       "gsis_id": "00-0037292",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037292",
       "league_points": 8.7,
       "name": "Andrew Ogletree",
       "points_per_game": 0.7909,
@@ -38179,7 +38179,7 @@
     {
       "games": 8,
       "gsis_id": "00-0038839",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0038839",
       "league_points": 23.6,
       "name": "Mitchell Tinsley",
       "points_per_game": 2.95,
@@ -38569,7 +38569,7 @@
     {
       "games": 4,
       "gsis_id": "00-0039305",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0039305",
       "league_points": 0.0,
       "name": "Jack Westover",
       "points_per_game": 0.0,
@@ -42094,7 +42094,7 @@
     },
     {
       "gsis_id": "00-0032098",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032098",
       "league_points": 0.0,
       "name": "Daniel Brown",
       "position": "TE",
@@ -42281,7 +42281,7 @@
     },
     {
       "gsis_id": "00-0032688",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032688",
       "league_points": 19.4,
       "name": "Robbie Chosen",
       "position": "WR",
@@ -42743,7 +42743,7 @@
     },
     {
       "gsis_id": "00-0033357",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033357",
       "league_points": 4.22,
       "name": "Taysom Hill",
       "position": "TE",
@@ -43755,7 +43755,7 @@
     },
     {
       "gsis_id": "00-0034766",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034766",
       "league_points": 1.7,
       "name": "Chris Herndon",
       "position": "TE",
@@ -44019,7 +44019,7 @@
     },
     {
       "gsis_id": "00-0035006",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035006",
       "league_points": 5.6,
       "name": "Bisi Johnson",
       "position": "WR",
@@ -44096,7 +44096,7 @@
     },
     {
       "gsis_id": "00-0035215",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035215",
       "league_points": 2.6,
       "name": "Deonte Harty",
       "position": "WR",
@@ -44360,7 +44360,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 10.1,
       "name": "Marquise Brown",
       "position": "WR",
@@ -44558,7 +44558,7 @@
     },
     {
       "gsis_id": "00-0036196",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036196",
       "league_points": 1.6,
       "name": "Gabe Davis",
       "position": "WR",
@@ -45152,7 +45152,7 @@
     },
     {
       "gsis_id": "00-0026293",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0026293",
       "league_points": 0.0,
       "name": "Matthew Slater",
       "position": "WR",
@@ -46373,7 +46373,7 @@
     },
     {
       "gsis_id": "00-0032688",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032688",
       "league_points": 8.9,
       "name": "Robbie Chosen",
       "position": "WR",
@@ -46813,7 +46813,7 @@
     },
     {
       "gsis_id": "00-0033357",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033357",
       "league_points": 0.8,
       "name": "Taysom Hill",
       "position": "TE",
@@ -47352,7 +47352,7 @@
     },
     {
       "gsis_id": "00-0034115",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034115",
       "league_points": 0.3,
       "name": "Jeff Wilson",
       "position": "RB",
@@ -47836,7 +47836,7 @@
     },
     {
       "gsis_id": "00-0034766",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034766",
       "league_points": 0.5,
       "name": "Chris Herndon",
       "position": "TE",
@@ -48144,7 +48144,7 @@
     },
     {
       "gsis_id": "00-0035006",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035006",
       "league_points": 2.4,
       "name": "Bisi Johnson",
       "position": "WR",
@@ -48210,7 +48210,7 @@
     },
     {
       "gsis_id": "00-0035215",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035215",
       "league_points": 3.4,
       "name": "Deonte Harty",
       "position": "WR",
@@ -48496,7 +48496,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 4.2,
       "name": "Marquise Brown",
       "position": "WR",
@@ -48683,7 +48683,7 @@
     },
     {
       "gsis_id": "00-0036187",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036187",
       "league_points": 6.1,
       "name": "Reggie Gilliam",
       "position": "RB",
@@ -48694,7 +48694,7 @@
     },
     {
       "gsis_id": "00-0036196",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036196",
       "league_points": 6.6,
       "name": "Gabe Davis",
       "position": "WR",
@@ -50509,7 +50509,7 @@
     },
     {
       "gsis_id": "00-0032688",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032688",
       "league_points": 5.5,
       "name": "Robbie Chosen",
       "position": "WR",
@@ -50916,7 +50916,7 @@
     },
     {
       "gsis_id": "00-0033357",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033357",
       "league_points": -1.3,
       "name": "Taysom Hill",
       "position": "TE",
@@ -51477,7 +51477,7 @@
     },
     {
       "gsis_id": "00-0034115",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034115",
       "league_points": 18.9,
       "name": "Jeff Wilson",
       "position": "RB",
@@ -51917,7 +51917,7 @@
     },
     {
       "gsis_id": "00-0034766",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034766",
       "league_points": 2.1,
       "name": "Chris Herndon",
       "position": "TE",
@@ -52247,7 +52247,7 @@
     },
     {
       "gsis_id": "00-0035215",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035215",
       "league_points": 0.5,
       "name": "Deonte Harty",
       "position": "WR",
@@ -52533,7 +52533,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 1.3,
       "name": "Marquise Brown",
       "position": "WR",
@@ -52764,7 +52764,7 @@
     },
     {
       "gsis_id": "00-0036196",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036196",
       "league_points": 8.1,
       "name": "Gabe Davis",
       "position": "WR",
@@ -54348,7 +54348,7 @@
     },
     {
       "gsis_id": "00-0032098",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032098",
       "league_points": 0.0,
       "name": "Daniel Brown",
       "position": "TE",
@@ -54535,7 +54535,7 @@
     },
     {
       "gsis_id": "00-0032688",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032688",
       "league_points": 9.9,
       "name": "Robbie Chosen",
       "position": "WR",
@@ -54942,7 +54942,7 @@
     },
     {
       "gsis_id": "00-0033357",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033357",
       "league_points": 1.4,
       "name": "Taysom Hill",
       "position": "TE",
@@ -55382,7 +55382,7 @@
     },
     {
       "gsis_id": "00-0034115",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034115",
       "league_points": 1.9,
       "name": "Jeff Wilson",
       "position": "RB",
@@ -55789,7 +55789,7 @@
     },
     {
       "gsis_id": "00-0034766",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034766",
       "league_points": 1.1,
       "name": "Chris Herndon",
       "position": "TE",
@@ -56086,7 +56086,7 @@
     },
     {
       "gsis_id": "00-0035006",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035006",
       "league_points": 0.0,
       "name": "Bisi Johnson",
       "position": "WR",
@@ -56152,7 +56152,7 @@
     },
     {
       "gsis_id": "00-0035215",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035215",
       "league_points": 2.0,
       "name": "Deonte Harty",
       "position": "WR",
@@ -56482,7 +56482,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 8.6,
       "name": "Marquise Brown",
       "position": "WR",
@@ -56713,7 +56713,7 @@
     },
     {
       "gsis_id": "00-0036187",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036187",
       "league_points": 0.0,
       "name": "Reggie Gilliam",
       "position": "RB",
@@ -56724,7 +56724,7 @@
     },
     {
       "gsis_id": "00-0036196",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036196",
       "league_points": 8.6,
       "name": "Gabe Davis",
       "position": "WR",
@@ -58385,7 +58385,7 @@
     },
     {
       "gsis_id": "00-0032688",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032688",
       "league_points": 11.5,
       "name": "Robbie Chosen",
       "position": "WR",
@@ -58770,7 +58770,7 @@
     },
     {
       "gsis_id": "00-0033357",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033357",
       "league_points": 7.3,
       "name": "Taysom Hill",
       "position": "TE",
@@ -59221,7 +59221,7 @@
     },
     {
       "gsis_id": "00-0034115",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034115",
       "league_points": 2.7,
       "name": "Jeff Wilson",
       "position": "RB",
@@ -59628,7 +59628,7 @@
     },
     {
       "gsis_id": "00-0034766",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034766",
       "league_points": 2.4,
       "name": "Chris Herndon",
       "position": "TE",
@@ -59815,7 +59815,7 @@
     },
     {
       "gsis_id": "00-0035006",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035006",
       "league_points": 1.3,
       "name": "Bisi Johnson",
       "position": "WR",
@@ -60167,7 +60167,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 13.8,
       "name": "Marquise Brown",
       "position": "WR",
@@ -60365,7 +60365,7 @@
     },
     {
       "gsis_id": "00-0036196",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036196",
       "league_points": 5.8,
       "name": "Gabe Davis",
       "position": "WR",
@@ -61861,7 +61861,7 @@
     },
     {
       "gsis_id": "00-0032098",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032098",
       "league_points": 0.0,
       "name": "Daniel Brown",
       "position": "TE",
@@ -62015,7 +62015,7 @@
     },
     {
       "gsis_id": "00-0032688",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032688",
       "league_points": 7.7,
       "name": "Robbie Chosen",
       "position": "WR",
@@ -63753,7 +63753,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 5.7,
       "name": "Marquise Brown",
       "position": "WR",
@@ -63973,7 +63973,7 @@
     },
     {
       "gsis_id": "00-0036196",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036196",
       "league_points": 0.7,
       "name": "Gabe Davis",
       "position": "WR",
@@ -65546,7 +65546,7 @@
     },
     {
       "gsis_id": "00-0032688",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032688",
       "league_points": 7.4,
       "name": "Robbie Chosen",
       "position": "WR",
@@ -65909,7 +65909,7 @@
     },
     {
       "gsis_id": "00-0033357",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033357",
       "league_points": 0.6,
       "name": "Taysom Hill",
       "position": "TE",
@@ -66437,7 +66437,7 @@
     },
     {
       "gsis_id": "00-0034115",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034115",
       "league_points": 30.0,
       "name": "Jeff Wilson",
       "position": "RB",
@@ -67031,7 +67031,7 @@
     },
     {
       "gsis_id": "00-0035215",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035215",
       "league_points": 10.6,
       "name": "Deonte Harty",
       "position": "WR",
@@ -67251,7 +67251,7 @@
     },
     {
       "gsis_id": "00-0035529",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035529",
       "league_points": 0.0,
       "name": "Hakeem Butler",
       "position": "WR",
@@ -67559,7 +67559,7 @@
     },
     {
       "gsis_id": "00-0036187",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036187",
       "league_points": 1.5,
       "name": "Reggie Gilliam",
       "position": "RB",
@@ -67570,7 +67570,7 @@
     },
     {
       "gsis_id": "00-0036196",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036196",
       "league_points": 1.1,
       "name": "Gabe Davis",
       "position": "WR",
@@ -68219,7 +68219,7 @@
     },
     {
       "gsis_id": "00-0026293",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0026293",
       "league_points": 0.0,
       "name": "Matthew Slater",
       "position": "WR",
@@ -69187,7 +69187,7 @@
     },
     {
       "gsis_id": "00-0032688",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032688",
       "league_points": 4.8,
       "name": "Robbie Chosen",
       "position": "WR",
@@ -69440,7 +69440,7 @@
     },
     {
       "gsis_id": "00-0033275",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033275",
       "league_points": 0.12,
       "name": "PJ Walker",
       "position": "QB",
@@ -69539,7 +69539,7 @@
     },
     {
       "gsis_id": "00-0033357",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033357",
       "league_points": 12.5,
       "name": "Taysom Hill",
       "position": "TE",
@@ -70463,7 +70463,7 @@
     },
     {
       "gsis_id": "00-0034766",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034766",
       "league_points": -1.7,
       "name": "Chris Herndon",
       "position": "TE",
@@ -70749,7 +70749,7 @@
     },
     {
       "gsis_id": "00-0035215",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035215",
       "league_points": 1.7,
       "name": "Deonte Harty",
       "position": "WR",
@@ -71002,7 +71002,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 6.3,
       "name": "Marquise Brown",
       "position": "WR",
@@ -71189,7 +71189,7 @@
     },
     {
       "gsis_id": "00-0036187",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036187",
       "league_points": 0.0,
       "name": "Reggie Gilliam",
       "position": "RB",
@@ -71200,7 +71200,7 @@
     },
     {
       "gsis_id": "00-0036196",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036196",
       "league_points": 0.0,
       "name": "Gabe Davis",
       "position": "WR",
@@ -71893,7 +71893,7 @@
     },
     {
       "gsis_id": "00-0026293",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0026293",
       "league_points": 0.0,
       "name": "Matthew Slater",
       "position": "WR",
@@ -73015,7 +73015,7 @@
     },
     {
       "gsis_id": "00-0032688",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032688",
       "league_points": 6.3,
       "name": "Robbie Chosen",
       "position": "WR",
@@ -73334,7 +73334,7 @@
     },
     {
       "gsis_id": "00-0033357",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033357",
       "league_points": 9.42,
       "name": "Taysom Hill",
       "position": "TE",
@@ -74401,7 +74401,7 @@
     },
     {
       "gsis_id": "00-0035215",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035215",
       "league_points": 4.0,
       "name": "Deonte Harty",
       "position": "WR",
@@ -74665,7 +74665,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 3.8,
       "name": "Marquise Brown",
       "position": "WR",
@@ -74907,7 +74907,7 @@
     },
     {
       "gsis_id": "00-0036196",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036196",
       "league_points": 13.0,
       "name": "Gabe Davis",
       "position": "WR",
@@ -76513,7 +76513,7 @@
     },
     {
       "gsis_id": "00-0032688",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032688",
       "league_points": 2.1,
       "name": "Robbie Chosen",
       "position": "WR",
@@ -76766,7 +76766,7 @@
     },
     {
       "gsis_id": "00-0033275",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033275",
       "league_points": 0.48,
       "name": "PJ Walker",
       "position": "QB",
@@ -76854,7 +76854,7 @@
     },
     {
       "gsis_id": "00-0033357",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033357",
       "league_points": 2.5,
       "name": "Taysom Hill",
       "position": "TE",
@@ -77921,7 +77921,7 @@
     },
     {
       "gsis_id": "00-0035006",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035006",
       "league_points": 0.0,
       "name": "Bisi Johnson",
       "position": "WR",
@@ -77954,7 +77954,7 @@
     },
     {
       "gsis_id": "00-0035215",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035215",
       "league_points": 0.4,
       "name": "Deonte Harty",
       "position": "WR",
@@ -78262,7 +78262,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 1.4,
       "name": "Marquise Brown",
       "position": "WR",
@@ -78493,7 +78493,7 @@
     },
     {
       "gsis_id": "00-0036196",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036196",
       "league_points": 0.0,
       "name": "Gabe Davis",
       "position": "WR",
@@ -79098,7 +79098,7 @@
     },
     {
       "gsis_id": "00-0026293",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0026293",
       "league_points": 0.0,
       "name": "Matthew Slater",
       "position": "WR",
@@ -79890,7 +79890,7 @@
     },
     {
       "gsis_id": "00-0032098",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032098",
       "league_points": 0.0,
       "name": "Daniel Brown",
       "position": "TE",
@@ -80066,7 +80066,7 @@
     },
     {
       "gsis_id": "00-0032688",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032688",
       "league_points": 4.6,
       "name": "Robbie Chosen",
       "position": "WR",
@@ -80363,7 +80363,7 @@
     },
     {
       "gsis_id": "00-0033275",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033275",
       "league_points": 13.12,
       "name": "PJ Walker",
       "position": "QB",
@@ -80429,7 +80429,7 @@
     },
     {
       "gsis_id": "00-0033357",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033357",
       "league_points": 24.22,
       "name": "Taysom Hill",
       "position": "TE",
@@ -81320,7 +81320,7 @@
     },
     {
       "gsis_id": "00-0034766",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034766",
       "league_points": 9.2,
       "name": "Chris Herndon",
       "position": "TE",
@@ -81573,7 +81573,7 @@
     },
     {
       "gsis_id": "00-0035006",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035006",
       "league_points": 0.9,
       "name": "Bisi Johnson",
       "position": "WR",
@@ -81639,7 +81639,7 @@
     },
     {
       "gsis_id": "00-0035215",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035215",
       "league_points": 2.5,
       "name": "Deonte Harty",
       "position": "WR",
@@ -81936,7 +81936,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 0.0,
       "name": "Marquise Brown",
       "position": "WR",
@@ -83696,7 +83696,7 @@
     },
     {
       "gsis_id": "00-0032098",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032098",
       "league_points": 0.0,
       "name": "Daniel Brown",
       "position": "TE",
@@ -83894,7 +83894,7 @@
     },
     {
       "gsis_id": "00-0032688",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032688",
       "league_points": 15.4,
       "name": "Robbie Chosen",
       "position": "WR",
@@ -84323,7 +84323,7 @@
     },
     {
       "gsis_id": "00-0033357",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033357",
       "league_points": 18.52,
       "name": "Taysom Hill",
       "position": "TE",
@@ -84895,7 +84895,7 @@
     },
     {
       "gsis_id": "00-0034115",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034115",
       "league_points": 2.0,
       "name": "Jeff Wilson",
       "position": "RB",
@@ -85346,7 +85346,7 @@
     },
     {
       "gsis_id": "00-0034766",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034766",
       "league_points": 0.0,
       "name": "Chris Herndon",
       "position": "TE",
@@ -85588,7 +85588,7 @@
     },
     {
       "gsis_id": "00-0035006",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035006",
       "league_points": 9.4,
       "name": "Bisi Johnson",
       "position": "WR",
@@ -86072,7 +86072,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 14.5,
       "name": "Marquise Brown",
       "position": "WR",
@@ -86281,7 +86281,7 @@
     },
     {
       "gsis_id": "00-0036196",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036196",
       "league_points": 13.9,
       "name": "Gabe Davis",
       "position": "WR",
@@ -87755,7 +87755,7 @@
     },
     {
       "gsis_id": "00-0032098",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032098",
       "league_points": 0.0,
       "name": "Daniel Brown",
       "position": "TE",
@@ -88316,7 +88316,7 @@
     },
     {
       "gsis_id": "00-0033357",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033357",
       "league_points": 25.58,
       "name": "Taysom Hill",
       "position": "TE",
@@ -88866,7 +88866,7 @@
     },
     {
       "gsis_id": "00-0034115",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034115",
       "league_points": 5.9,
       "name": "Jeff Wilson",
       "position": "RB",
@@ -89922,7 +89922,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 9.9,
       "name": "Marquise Brown",
       "position": "WR",
@@ -90120,7 +90120,7 @@
     },
     {
       "gsis_id": "00-0036196",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036196",
       "league_points": 12.8,
       "name": "Gabe Davis",
       "position": "WR",
@@ -91836,7 +91836,7 @@
     },
     {
       "gsis_id": "00-0032688",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032688",
       "league_points": 9.7,
       "name": "Robbie Chosen",
       "position": "WR",
@@ -92243,7 +92243,7 @@
     },
     {
       "gsis_id": "00-0033357",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033357",
       "league_points": 21.94,
       "name": "Taysom Hill",
       "position": "TE",
@@ -92815,7 +92815,7 @@
     },
     {
       "gsis_id": "00-0034115",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034115",
       "league_points": 8.4,
       "name": "Jeff Wilson",
       "position": "RB",
@@ -93299,7 +93299,7 @@
     },
     {
       "gsis_id": "00-0034766",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034766",
       "league_points": 0.9,
       "name": "Chris Herndon",
       "position": "TE",
@@ -93959,7 +93959,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 11.0,
       "name": "Marquise Brown",
       "position": "WR",
@@ -94190,7 +94190,7 @@
     },
     {
       "gsis_id": "00-0036196",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036196",
       "league_points": 7.9,
       "name": "Gabe Davis",
       "position": "WR",
@@ -95939,7 +95939,7 @@
     },
     {
       "gsis_id": "00-0032688",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032688",
       "league_points": 2.0,
       "name": "Robbie Chosen",
       "position": "WR",
@@ -96302,7 +96302,7 @@
     },
     {
       "gsis_id": "00-0033357",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033357",
       "league_points": 6.3,
       "name": "Taysom Hill",
       "position": "TE",
@@ -96918,7 +96918,7 @@
     },
     {
       "gsis_id": "00-0034115",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034115",
       "league_points": 12.0,
       "name": "Jeff Wilson",
       "position": "RB",
@@ -97369,7 +97369,7 @@
     },
     {
       "gsis_id": "00-0034766",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034766",
       "league_points": 4.8,
       "name": "Chris Herndon",
       "position": "TE",
@@ -98051,7 +98051,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 9.8,
       "name": "Marquise Brown",
       "position": "WR",
@@ -98348,7 +98348,7 @@
     },
     {
       "gsis_id": "00-0036196",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036196",
       "league_points": 1.8,
       "name": "Gabe Davis",
       "position": "WR",
@@ -99008,7 +99008,7 @@
     },
     {
       "gsis_id": "00-0026293",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0026293",
       "league_points": 0.0,
       "name": "Matthew Slater",
       "position": "WR",
@@ -99987,7 +99987,7 @@
     },
     {
       "gsis_id": "00-0032098",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032098",
       "league_points": 1.3,
       "name": "Daniel Brown",
       "position": "TE",
@@ -100185,7 +100185,7 @@
     },
     {
       "gsis_id": "00-0032688",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032688",
       "league_points": 9.9,
       "name": "Robbie Chosen",
       "position": "WR",
@@ -100559,7 +100559,7 @@
     },
     {
       "gsis_id": "00-0033357",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033357",
       "league_points": 10.02,
       "name": "Taysom Hill",
       "position": "TE",
@@ -101131,7 +101131,7 @@
     },
     {
       "gsis_id": "00-0034115",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034115",
       "league_points": 26.4,
       "name": "Jeff Wilson",
       "position": "RB",
@@ -101615,7 +101615,7 @@
     },
     {
       "gsis_id": "00-0034766",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034766",
       "league_points": 9.4,
       "name": "Chris Herndon",
       "position": "TE",
@@ -101890,7 +101890,7 @@
     },
     {
       "gsis_id": "00-0035006",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035006",
       "league_points": 1.3,
       "name": "Bisi Johnson",
       "position": "WR",
@@ -102330,7 +102330,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 8.5,
       "name": "Marquise Brown",
       "position": "WR",
@@ -102649,7 +102649,7 @@
     },
     {
       "gsis_id": "00-0036196",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036196",
       "league_points": 3.3,
       "name": "Gabe Davis",
       "position": "WR",
@@ -103265,7 +103265,7 @@
     },
     {
       "gsis_id": "00-0026293",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0026293",
       "league_points": 0.0,
       "name": "Matthew Slater",
       "position": "WR",
@@ -104090,7 +104090,7 @@
     },
     {
       "gsis_id": "00-0032098",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032098",
       "league_points": 1.8,
       "name": "Daniel Brown",
       "position": "TE",
@@ -104299,7 +104299,7 @@
     },
     {
       "gsis_id": "00-0032688",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032688",
       "league_points": 4.0,
       "name": "Robbie Chosen",
       "position": "WR",
@@ -104541,7 +104541,7 @@
     },
     {
       "gsis_id": "00-0033275",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033275",
       "league_points": 0.8,
       "name": "PJ Walker",
       "position": "QB",
@@ -104629,7 +104629,7 @@
     },
     {
       "gsis_id": "00-0033357",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033357",
       "league_points": 10.6,
       "name": "Taysom Hill",
       "position": "TE",
@@ -105212,7 +105212,7 @@
     },
     {
       "gsis_id": "00-0034115",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034115",
       "league_points": 20.8,
       "name": "Jeff Wilson",
       "position": "RB",
@@ -105685,7 +105685,7 @@
     },
     {
       "gsis_id": "00-0034766",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034766",
       "league_points": 12.3,
       "name": "Chris Herndon",
       "position": "TE",
@@ -106004,7 +106004,7 @@
     },
     {
       "gsis_id": "00-0035006",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035006",
       "league_points": 0.0,
       "name": "Bisi Johnson",
       "position": "WR",
@@ -106455,7 +106455,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 16.1,
       "name": "Marquise Brown",
       "position": "WR",
@@ -106796,7 +106796,7 @@
     },
     {
       "gsis_id": "00-0036196",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036196",
       "league_points": 16.7,
       "name": "Gabe Davis",
       "position": "WR",
@@ -114722,7 +114722,7 @@
     },
     {
       "gsis_id": "00-0032688",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032688",
       "league_points": 11.7,
       "name": "Robbie Chosen",
       "position": "WR",
@@ -115844,7 +115844,7 @@
     },
     {
       "gsis_id": "00-0034766",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034766",
       "league_points": 0.0,
       "name": "Chris Herndon",
       "position": "TE",
@@ -116152,7 +116152,7 @@
     },
     {
       "gsis_id": "00-0035215",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035215",
       "league_points": 13.2,
       "name": "Deonte Harty",
       "position": "WR",
@@ -116471,7 +116471,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 13.4,
       "name": "Marquise Brown",
       "position": "WR",
@@ -116658,7 +116658,7 @@
     },
     {
       "gsis_id": "00-0036196",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036196",
       "league_points": 10.0,
       "name": "Gabe Davis",
       "position": "WR",
@@ -117197,7 +117197,7 @@
     },
     {
       "gsis_id": "00-0036620",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036620",
       "league_points": 2.8,
       "name": "Dee Eskridge",
       "position": "WR",
@@ -117384,7 +117384,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 10.3,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -117505,7 +117505,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 1.7,
       "name": "Josh Palmer",
       "position": "WR",
@@ -117681,7 +117681,7 @@
     },
     {
       "gsis_id": "00-0026293",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0026293",
       "league_points": 0.0,
       "name": "Matthew Slater",
       "position": "WR",
@@ -118825,7 +118825,7 @@
     },
     {
       "gsis_id": "00-0032688",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032688",
       "league_points": 3.8,
       "name": "Robbie Chosen",
       "position": "WR",
@@ -120266,7 +120266,7 @@
     },
     {
       "gsis_id": "00-0035215",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035215",
       "league_points": 1.0,
       "name": "Deonte Harty",
       "position": "WR",
@@ -120607,7 +120607,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 17.3,
       "name": "Marquise Brown",
       "position": "WR",
@@ -121553,7 +121553,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 5.2,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -121685,7 +121685,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 2.1,
       "name": "Josh Palmer",
       "position": "WR",
@@ -122917,7 +122917,7 @@
     },
     {
       "gsis_id": "00-0032688",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032688",
       "league_points": 0.8,
       "name": "Robbie Chosen",
       "position": "WR",
@@ -124402,7 +124402,7 @@
     },
     {
       "gsis_id": "00-0035215",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035215",
       "league_points": 3.1,
       "name": "Deonte Harty",
       "position": "WR",
@@ -124732,7 +124732,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 5.3,
       "name": "Marquise Brown",
       "position": "WR",
@@ -124919,7 +124919,7 @@
     },
     {
       "gsis_id": "00-0036196",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036196",
       "league_points": 2.3,
       "name": "Gabe Davis",
       "position": "WR",
@@ -125645,7 +125645,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 3.4,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -125942,7 +125942,7 @@
     },
     {
       "gsis_id": "00-0026293",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0026293",
       "league_points": 0.0,
       "name": "Matthew Slater",
       "position": "WR",
@@ -126987,7 +126987,7 @@
     },
     {
       "gsis_id": "00-0032688",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032688",
       "league_points": 4.9,
       "name": "Robbie Chosen",
       "position": "WR",
@@ -128615,7 +128615,7 @@
     },
     {
       "gsis_id": "00-0035215",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035215",
       "league_points": 5.2,
       "name": "Deonte Harty",
       "position": "WR",
@@ -128956,7 +128956,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 15.1,
       "name": "Marquise Brown",
       "position": "WR",
@@ -129198,7 +129198,7 @@
     },
     {
       "gsis_id": "00-0036196",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036196",
       "league_points": 0.0,
       "name": "Gabe Davis",
       "position": "WR",
@@ -129847,7 +129847,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 14.9,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -130133,7 +130133,7 @@
     },
     {
       "gsis_id": "00-0026293",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0026293",
       "league_points": 0.0,
       "name": "Matthew Slater",
       "position": "WR",
@@ -131178,7 +131178,7 @@
     },
     {
       "gsis_id": "00-0032688",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032688",
       "league_points": 3.0,
       "name": "Robbie Chosen",
       "position": "WR",
@@ -132366,7 +132366,7 @@
     },
     {
       "gsis_id": "00-0034766",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034766",
       "league_points": 0.0,
       "name": "Chris Herndon",
       "position": "TE",
@@ -132718,7 +132718,7 @@
     },
     {
       "gsis_id": "00-0035215",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035215",
       "league_points": 13.2,
       "name": "Deonte Harty",
       "position": "WR",
@@ -133059,7 +133059,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 24.5,
       "name": "Marquise Brown",
       "position": "WR",
@@ -133246,7 +133246,7 @@
     },
     {
       "gsis_id": "00-0036196",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036196",
       "league_points": 1.6,
       "name": "Gabe Davis",
       "position": "WR",
@@ -133994,7 +133994,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 2.4,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -134115,7 +134115,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 1.2,
       "name": "Josh Palmer",
       "position": "WR",
@@ -135204,7 +135204,7 @@
     },
     {
       "gsis_id": "00-0032688",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032688",
       "league_points": 7.1,
       "name": "Robbie Chosen",
       "position": "WR",
@@ -136249,7 +136249,7 @@
     },
     {
       "gsis_id": "00-0034766",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034766",
       "league_points": 6.2,
       "name": "Chris Herndon",
       "position": "TE",
@@ -136887,7 +136887,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 3.5,
       "name": "Marquise Brown",
       "position": "WR",
@@ -137063,7 +137063,7 @@
     },
     {
       "gsis_id": "00-0036196",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036196",
       "league_points": 2.5,
       "name": "Gabe Davis",
       "position": "WR",
@@ -137745,7 +137745,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 0.1,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -137822,7 +137822,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 0.8,
       "name": "Josh Palmer",
       "position": "WR",
@@ -138856,7 +138856,7 @@
     },
     {
       "gsis_id": "00-0032688",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032688",
       "league_points": 1.4,
       "name": "Robbie Chosen",
       "position": "WR",
@@ -139065,7 +139065,7 @@
     },
     {
       "gsis_id": "00-0033275",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033275",
       "league_points": 2.62,
       "name": "PJ Walker",
       "position": "QB",
@@ -140429,7 +140429,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 14.0,
       "name": "Marquise Brown",
       "position": "WR",
@@ -141265,7 +141265,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 10.1,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -141496,7 +141496,7 @@
     },
     {
       "gsis_id": "00-0026293",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0026293",
       "league_points": 0.0,
       "name": "Matthew Slater",
       "position": "WR",
@@ -142464,7 +142464,7 @@
     },
     {
       "gsis_id": "00-0032688",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032688",
       "league_points": 0.0,
       "name": "Robbie Chosen",
       "position": "WR",
@@ -142728,7 +142728,7 @@
     },
     {
       "gsis_id": "00-0033275",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033275",
       "league_points": -0.1,
       "name": "PJ Walker",
       "position": "QB",
@@ -143564,7 +143564,7 @@
     },
     {
       "gsis_id": "00-0034766",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034766",
       "league_points": 0.7,
       "name": "Chris Herndon",
       "position": "TE",
@@ -143872,7 +143872,7 @@
     },
     {
       "gsis_id": "00-0035215",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035215",
       "league_points": 5.7,
       "name": "Deonte Harty",
       "position": "WR",
@@ -144389,7 +144389,7 @@
     },
     {
       "gsis_id": "00-0036196",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036196",
       "league_points": 8.9,
       "name": "Gabe Davis",
       "position": "WR",
@@ -145170,7 +145170,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 2.7,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -145280,7 +145280,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 8.4,
       "name": "Josh Palmer",
       "position": "WR",
@@ -145434,7 +145434,7 @@
     },
     {
       "gsis_id": "00-0026293",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0026293",
       "league_points": 0.0,
       "name": "Matthew Slater",
       "position": "WR",
@@ -146314,7 +146314,7 @@
     },
     {
       "gsis_id": "00-0032688",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032688",
       "league_points": 0.2,
       "name": "Robbie Chosen",
       "position": "WR",
@@ -147689,7 +147689,7 @@
     },
     {
       "gsis_id": "00-0035215",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035215",
       "league_points": 5.2,
       "name": "Deonte Harty",
       "position": "WR",
@@ -147942,7 +147942,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 11.6,
       "name": "Marquise Brown",
       "position": "WR",
@@ -148151,7 +148151,7 @@
     },
     {
       "gsis_id": "00-0036196",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036196",
       "league_points": 0.0,
       "name": "Gabe Davis",
       "position": "WR",
@@ -148822,7 +148822,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 6.3,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -148932,7 +148932,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 2.2,
       "name": "Josh Palmer",
       "position": "WR",
@@ -149119,7 +149119,7 @@
     },
     {
       "gsis_id": "00-0026293",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0026293",
       "league_points": 0.0,
       "name": "Matthew Slater",
       "position": "WR",
@@ -149988,7 +149988,7 @@
     },
     {
       "gsis_id": "00-0032688",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032688",
       "league_points": 9.7,
       "name": "Robbie Chosen",
       "position": "WR",
@@ -150230,7 +150230,7 @@
     },
     {
       "gsis_id": "00-0033275",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033275",
       "league_points": 6.28,
       "name": "PJ Walker",
       "position": "QB",
@@ -151066,7 +151066,7 @@
     },
     {
       "gsis_id": "00-0034766",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034766",
       "league_points": 1.4,
       "name": "Chris Herndon",
       "position": "TE",
@@ -151352,7 +151352,7 @@
     },
     {
       "gsis_id": "00-0035215",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035215",
       "league_points": 7.0,
       "name": "Deonte Harty",
       "position": "WR",
@@ -151638,7 +151638,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 3.7,
       "name": "Marquise Brown",
       "position": "WR",
@@ -151891,7 +151891,7 @@
     },
     {
       "gsis_id": "00-0036196",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036196",
       "league_points": 10.5,
       "name": "Gabe Davis",
       "position": "WR",
@@ -152342,7 +152342,7 @@
     },
     {
       "gsis_id": "00-0036620",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036620",
       "league_points": -0.4,
       "name": "Dee Eskridge",
       "position": "WR",
@@ -152562,7 +152562,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 1.4,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -152694,7 +152694,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 2.2,
       "name": "Josh Palmer",
       "position": "WR",
@@ -152881,7 +152881,7 @@
     },
     {
       "gsis_id": "00-0026293",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0026293",
       "league_points": 0.0,
       "name": "Matthew Slater",
       "position": "WR",
@@ -153860,7 +153860,7 @@
     },
     {
       "gsis_id": "00-0032688",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032688",
       "league_points": 3.0,
       "name": "Robbie Chosen",
       "position": "WR",
@@ -155290,7 +155290,7 @@
     },
     {
       "gsis_id": "00-0035215",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035215",
       "league_points": 1.1,
       "name": "Deonte Harty",
       "position": "WR",
@@ -155818,7 +155818,7 @@
     },
     {
       "gsis_id": "00-0036196",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036196",
       "league_points": 2.7,
       "name": "Gabe Davis",
       "position": "WR",
@@ -156709,7 +156709,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 2.3,
       "name": "Josh Palmer",
       "position": "WR",
@@ -157875,7 +157875,7 @@
     },
     {
       "gsis_id": "00-0032688",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032688",
       "league_points": 1.5,
       "name": "Robbie Chosen",
       "position": "WR",
@@ -158117,7 +158117,7 @@
     },
     {
       "gsis_id": "00-0033275",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033275",
       "league_points": 2.48,
       "name": "PJ Walker",
       "position": "QB",
@@ -159184,7 +159184,7 @@
     },
     {
       "gsis_id": "00-0035215",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035215",
       "league_points": 0.9,
       "name": "Deonte Harty",
       "position": "WR",
@@ -159503,7 +159503,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 5.1,
       "name": "Marquise Brown",
       "position": "WR",
@@ -159723,7 +159723,7 @@
     },
     {
       "gsis_id": "00-0036196",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036196",
       "league_points": 4.7,
       "name": "Gabe Davis",
       "position": "WR",
@@ -160251,7 +160251,7 @@
     },
     {
       "gsis_id": "00-0036620",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036620",
       "league_points": 1.0,
       "name": "Dee Eskridge",
       "position": "WR",
@@ -160449,7 +160449,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 3.2,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -160537,7 +160537,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 2.5,
       "name": "Josh Palmer",
       "position": "WR",
@@ -160691,7 +160691,7 @@
     },
     {
       "gsis_id": "00-0026293",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0026293",
       "league_points": 0.0,
       "name": "Matthew Slater",
       "position": "WR",
@@ -162759,7 +162759,7 @@
     },
     {
       "gsis_id": "00-0035215",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035215",
       "league_points": 15.9,
       "name": "Deonte Harty",
       "position": "WR",
@@ -163100,7 +163100,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 5.5,
       "name": "Marquise Brown",
       "position": "WR",
@@ -163232,7 +163232,7 @@
     },
     {
       "gsis_id": "00-0036196",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036196",
       "league_points": 9.0,
       "name": "Gabe Davis",
       "position": "WR",
@@ -163694,7 +163694,7 @@
     },
     {
       "gsis_id": "00-0036620",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036620",
       "league_points": 9.5,
       "name": "Dee Eskridge",
       "position": "WR",
@@ -163958,7 +163958,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 14.7,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -164046,7 +164046,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 0.0,
       "name": "Josh Palmer",
       "position": "WR",
@@ -165102,7 +165102,7 @@
     },
     {
       "gsis_id": "00-0032688",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032688",
       "league_points": 14.4,
       "name": "Robbie Chosen",
       "position": "WR",
@@ -165300,7 +165300,7 @@
     },
     {
       "gsis_id": "00-0033275",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033275",
       "league_points": 6.5,
       "name": "PJ Walker",
       "position": "QB",
@@ -166136,7 +166136,7 @@
     },
     {
       "gsis_id": "00-0034766",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034766",
       "league_points": 1.7,
       "name": "Chris Herndon",
       "position": "TE",
@@ -166642,7 +166642,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 4.1,
       "name": "Marquise Brown",
       "position": "WR",
@@ -166807,7 +166807,7 @@
     },
     {
       "gsis_id": "00-0036196",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036196",
       "league_points": 10.3,
       "name": "Gabe Davis",
       "position": "WR",
@@ -167236,7 +167236,7 @@
     },
     {
       "gsis_id": "00-0036620",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036620",
       "league_points": 0.0,
       "name": "Dee Eskridge",
       "position": "WR",
@@ -167522,7 +167522,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 12.6,
       "name": "Josh Palmer",
       "position": "WR",
@@ -168644,7 +168644,7 @@
     },
     {
       "gsis_id": "00-0032688",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032688",
       "league_points": 6.2,
       "name": "Robbie Chosen",
       "position": "WR",
@@ -170459,7 +170459,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 4.3,
       "name": "Marquise Brown",
       "position": "WR",
@@ -170679,7 +170679,7 @@
     },
     {
       "gsis_id": "00-0036196",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036196",
       "league_points": 20.5,
       "name": "Gabe Davis",
       "position": "WR",
@@ -171218,7 +171218,7 @@
     },
     {
       "gsis_id": "00-0036620",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036620",
       "league_points": 0.0,
       "name": "Dee Eskridge",
       "position": "WR",
@@ -171515,7 +171515,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 0.0,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -171625,7 +171625,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 1.5,
       "name": "Josh Palmer",
       "position": "WR",
@@ -172725,7 +172725,7 @@
     },
     {
       "gsis_id": "00-0032688",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032688",
       "league_points": 5.8,
       "name": "Robbie Chosen",
       "position": "WR",
@@ -174540,7 +174540,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 4.4,
       "name": "Marquise Brown",
       "position": "WR",
@@ -175376,7 +175376,7 @@
     },
     {
       "gsis_id": "00-0036620",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036620",
       "league_points": 1.7,
       "name": "Dee Eskridge",
       "position": "WR",
@@ -175662,7 +175662,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 0.6,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -175783,7 +175783,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 10.3,
       "name": "Josh Palmer",
       "position": "WR",
@@ -175959,7 +175959,7 @@
     },
     {
       "gsis_id": "00-0026293",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0026293",
       "league_points": 0.0,
       "name": "Matthew Slater",
       "position": "WR",
@@ -176861,7 +176861,7 @@
     },
     {
       "gsis_id": "00-0032688",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032688",
       "league_points": 1.0,
       "name": "Robbie Chosen",
       "position": "WR",
@@ -178324,7 +178324,7 @@
     },
     {
       "gsis_id": "00-0035215",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035215",
       "league_points": 2.3,
       "name": "Deonte Harty",
       "position": "WR",
@@ -178676,7 +178676,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 0.8,
       "name": "Marquise Brown",
       "position": "WR",
@@ -178929,7 +178929,7 @@
     },
     {
       "gsis_id": "00-0036196",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036196",
       "league_points": 4.0,
       "name": "Gabe Davis",
       "position": "WR",
@@ -179490,7 +179490,7 @@
     },
     {
       "gsis_id": "00-0036620",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036620",
       "league_points": 3.7,
       "name": "Dee Eskridge",
       "position": "WR",
@@ -179699,7 +179699,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 0.4,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -179809,7 +179809,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 1.6,
       "name": "Josh Palmer",
       "position": "WR",
@@ -179985,7 +179985,7 @@
     },
     {
       "gsis_id": "00-0026293",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0026293",
       "league_points": 0.0,
       "name": "Matthew Slater",
       "position": "WR",
@@ -180975,7 +180975,7 @@
     },
     {
       "gsis_id": "00-0032688",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032688",
       "league_points": 11.0,
       "name": "Robbie Chosen",
       "position": "WR",
@@ -182262,7 +182262,7 @@
     },
     {
       "gsis_id": "00-0035215",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035215",
       "league_points": 3.3,
       "name": "Deonte Harty",
       "position": "WR",
@@ -182724,7 +182724,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 2.7,
       "name": "Marquise Brown",
       "position": "WR",
@@ -182988,7 +182988,7 @@
     },
     {
       "gsis_id": "00-0036196",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036196",
       "league_points": 3.9,
       "name": "Gabe Davis",
       "position": "WR",
@@ -183802,7 +183802,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 14.7,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -183879,7 +183879,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 10.5,
       "name": "Josh Palmer",
       "position": "WR",
@@ -191386,7 +191386,7 @@
     },
     {
       "gsis_id": "00-0032688",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032688",
       "league_points": 16.2,
       "name": "Robbie Chosen",
       "position": "WR",
@@ -192145,7 +192145,7 @@
     },
     {
       "gsis_id": "00-0034115",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034115",
       "league_points": 3.0,
       "name": "Jeff Wilson",
       "position": "RB",
@@ -193036,7 +193036,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 10.3,
       "name": "Marquise Brown",
       "position": "WR",
@@ -193806,7 +193806,7 @@
     },
     {
       "gsis_id": "00-0036620",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036620",
       "league_points": 0.0,
       "name": "Dee Eskridge",
       "position": "WR",
@@ -194048,7 +194048,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 9.2,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -194158,7 +194158,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 0.9,
       "name": "Josh Palmer",
       "position": "WR",
@@ -194488,7 +194488,7 @@
     },
     {
       "gsis_id": "00-0037809",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037809",
       "league_points": 0.7,
       "name": "Chig Okonkwo",
       "position": "TE",
@@ -195412,7 +195412,7 @@
     },
     {
       "gsis_id": "00-0032688",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032688",
       "league_points": 1.2,
       "name": "Robbie Chosen",
       "position": "WR",
@@ -196105,7 +196105,7 @@
     },
     {
       "gsis_id": "00-0034115",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034115",
       "league_points": 10.3,
       "name": "Jeff Wilson",
       "position": "RB",
@@ -197029,7 +197029,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 6.8,
       "name": "Marquise Brown",
       "position": "WR",
@@ -197777,7 +197777,7 @@
     },
     {
       "gsis_id": "00-0036620",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036620",
       "league_points": 0.6,
       "name": "Dee Eskridge",
       "position": "WR",
@@ -198041,7 +198041,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 1.8,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -198151,7 +198151,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 9.0,
       "name": "Josh Palmer",
       "position": "WR",
@@ -198481,7 +198481,7 @@
     },
     {
       "gsis_id": "00-0037809",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037809",
       "league_points": 0.0,
       "name": "Chig Okonkwo",
       "position": "TE",
@@ -199471,7 +199471,7 @@
     },
     {
       "gsis_id": "00-0032688",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032688",
       "league_points": 1.4,
       "name": "Robbie Chosen",
       "position": "WR",
@@ -200164,7 +200164,7 @@
     },
     {
       "gsis_id": "00-0034115",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034115",
       "league_points": 8.6,
       "name": "Jeff Wilson",
       "position": "RB",
@@ -201099,7 +201099,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 14.0,
       "name": "Marquise Brown",
       "position": "WR",
@@ -202089,7 +202089,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 0.6,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -202199,7 +202199,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 9.9,
       "name": "Josh Palmer",
       "position": "WR",
@@ -203453,7 +203453,7 @@
     },
     {
       "gsis_id": "00-0032688",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032688",
       "league_points": 2.6,
       "name": "Robbie Chosen",
       "position": "WR",
@@ -204179,7 +204179,7 @@
     },
     {
       "gsis_id": "00-0034115",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034115",
       "league_points": 13.4,
       "name": "Jeff Wilson",
       "position": "RB",
@@ -205125,7 +205125,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 14.8,
       "name": "Marquise Brown",
       "position": "WR",
@@ -205862,7 +205862,7 @@
     },
     {
       "gsis_id": "00-0036620",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036620",
       "league_points": 1.6,
       "name": "Dee Eskridge",
       "position": "WR",
@@ -206115,7 +206115,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 7.7,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -206236,7 +206236,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 2.5,
       "name": "Josh Palmer",
       "position": "WR",
@@ -206632,7 +206632,7 @@
     },
     {
       "gsis_id": "00-0037809",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037809",
       "league_points": 9.8,
       "name": "Chig Okonkwo",
       "position": "TE",
@@ -207534,7 +207534,7 @@
     },
     {
       "gsis_id": "00-0032688",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032688",
       "league_points": 3.2,
       "name": "Robbie Chosen",
       "position": "WR",
@@ -207732,7 +207732,7 @@
     },
     {
       "gsis_id": "00-0033275",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033275",
       "league_points": 2.4,
       "name": "PJ Walker",
       "position": "QB",
@@ -208271,7 +208271,7 @@
     },
     {
       "gsis_id": "00-0034115",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034115",
       "league_points": 19.2,
       "name": "Jeff Wilson",
       "position": "RB",
@@ -209272,7 +209272,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 13.8,
       "name": "Marquise Brown",
       "position": "WR",
@@ -209954,7 +209954,7 @@
     },
     {
       "gsis_id": "00-0036620",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036620",
       "league_points": 0.0,
       "name": "Dee Eskridge",
       "position": "WR",
@@ -210229,7 +210229,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 2.0,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -210339,7 +210339,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 2.4,
       "name": "Josh Palmer",
       "position": "WR",
@@ -210636,7 +210636,7 @@
     },
     {
       "gsis_id": "00-0037348",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037348",
       "league_points": 0.0,
       "name": "Tanner Conner",
       "position": "TE",
@@ -210779,7 +210779,7 @@
     },
     {
       "gsis_id": "00-0037809",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037809",
       "league_points": 0.0,
       "name": "Chig Okonkwo",
       "position": "TE",
@@ -211681,7 +211681,7 @@
     },
     {
       "gsis_id": "00-0033275",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033275",
       "league_points": 2.3,
       "name": "PJ Walker",
       "position": "QB",
@@ -212143,7 +212143,7 @@
     },
     {
       "gsis_id": "00-0034115",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034115",
       "league_points": 0.5,
       "name": "Jeff Wilson",
       "position": "RB",
@@ -212891,7 +212891,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 6.8,
       "name": "Marquise Brown",
       "position": "WR",
@@ -213562,7 +213562,7 @@
     },
     {
       "gsis_id": "00-0036620",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036620",
       "league_points": 3.9,
       "name": "Dee Eskridge",
       "position": "WR",
@@ -213804,7 +213804,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 2.5,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -213914,7 +213914,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 5.7,
       "name": "Josh Palmer",
       "position": "WR",
@@ -214200,7 +214200,7 @@
     },
     {
       "gsis_id": "00-0037348",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037348",
       "league_points": 0.0,
       "name": "Tanner Conner",
       "position": "TE",
@@ -215190,7 +215190,7 @@
     },
     {
       "gsis_id": "00-0032688",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032688",
       "league_points": 0.0,
       "name": "Robbie Chosen",
       "position": "WR",
@@ -215333,7 +215333,7 @@
     },
     {
       "gsis_id": "00-0033275",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033275",
       "league_points": 17.08,
       "name": "PJ Walker",
       "position": "QB",
@@ -215773,7 +215773,7 @@
     },
     {
       "gsis_id": "00-0034115",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034115",
       "league_points": 5.4,
       "name": "Jeff Wilson",
       "position": "RB",
@@ -217170,7 +217170,7 @@
     },
     {
       "gsis_id": "00-0036620",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036620",
       "league_points": 0.4,
       "name": "Dee Eskridge",
       "position": "WR",
@@ -217830,7 +217830,7 @@
     },
     {
       "gsis_id": "00-0037809",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037809",
       "league_points": 0.0,
       "name": "Chig Okonkwo",
       "position": "TE",
@@ -218776,7 +218776,7 @@
     },
     {
       "gsis_id": "00-0032688",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032688",
       "league_points": 0.0,
       "name": "Robbie Chosen",
       "position": "WR",
@@ -218963,7 +218963,7 @@
     },
     {
       "gsis_id": "00-0033275",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033275",
       "league_points": 18.68,
       "name": "PJ Walker",
       "position": "QB",
@@ -219392,7 +219392,7 @@
     },
     {
       "gsis_id": "00-0034115",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034115",
       "league_points": 3.5,
       "name": "Jeff Wilson",
       "position": "RB",
@@ -220954,7 +220954,7 @@
     },
     {
       "gsis_id": "00-0036620",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036620",
       "league_points": 0.3,
       "name": "Dee Eskridge",
       "position": "WR",
@@ -221196,7 +221196,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 1.1,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -221768,7 +221768,7 @@
     },
     {
       "gsis_id": "00-0037809",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037809",
       "league_points": 0.3,
       "name": "Chig Okonkwo",
       "position": "TE",
@@ -222571,7 +222571,7 @@
     },
     {
       "gsis_id": "00-0032688",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032688",
       "league_points": -0.4,
       "name": "Robbie Chosen",
       "position": "WR",
@@ -222725,7 +222725,7 @@
     },
     {
       "gsis_id": "00-0033275",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033275",
       "league_points": -1.04,
       "name": "PJ Walker",
       "position": "QB",
@@ -223176,7 +223176,7 @@
     },
     {
       "gsis_id": "00-0034115",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034115",
       "league_points": 13.2,
       "name": "Jeff Wilson",
       "position": "RB",
@@ -224507,7 +224507,7 @@
     },
     {
       "gsis_id": "00-0036620",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036620",
       "league_points": 0.0,
       "name": "Dee Eskridge",
       "position": "WR",
@@ -224771,7 +224771,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 9.8,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -224903,7 +224903,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 10.6,
       "name": "Josh Palmer",
       "position": "WR",
@@ -225211,7 +225211,7 @@
     },
     {
       "gsis_id": "00-0037809",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037809",
       "league_points": 4.8,
       "name": "Chig Okonkwo",
       "position": "TE",
@@ -226179,7 +226179,7 @@
     },
     {
       "gsis_id": "00-0033275",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033275",
       "league_points": 5.72,
       "name": "PJ Walker",
       "position": "QB",
@@ -226619,7 +226619,7 @@
     },
     {
       "gsis_id": "00-0034115",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034115",
       "league_points": 20.3,
       "name": "Jeff Wilson",
       "position": "RB",
@@ -228126,7 +228126,7 @@
     },
     {
       "gsis_id": "00-0036620",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036620",
       "league_points": 0.0,
       "name": "Dee Eskridge",
       "position": "WR",
@@ -228324,7 +228324,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 1.2,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -228434,7 +228434,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 4.4,
       "name": "Josh Palmer",
       "position": "WR",
@@ -228907,7 +228907,7 @@
     },
     {
       "gsis_id": "00-0037809",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037809",
       "league_points": 4.1,
       "name": "Chig Okonkwo",
       "position": "TE",
@@ -231932,7 +231932,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 0.0,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -232053,7 +232053,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 22.6,
       "name": "Josh Palmer",
       "position": "WR",
@@ -232537,7 +232537,7 @@
     },
     {
       "gsis_id": "00-0037809",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037809",
       "league_points": 3.1,
       "name": "Chig Okonkwo",
       "position": "TE",
@@ -233417,7 +233417,7 @@
     },
     {
       "gsis_id": "00-0032688",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032688",
       "league_points": 1.7,
       "name": "Robbie Chosen",
       "position": "WR",
@@ -234077,7 +234077,7 @@
     },
     {
       "gsis_id": "00-0034115",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034115",
       "league_points": 11.2,
       "name": "Jeff Wilson",
       "position": "RB",
@@ -235012,7 +235012,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 4.6,
       "name": "Marquise Brown",
       "position": "WR",
@@ -235914,7 +235914,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 10.6,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -236024,7 +236024,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 5.6,
       "name": "Josh Palmer",
       "position": "WR",
@@ -236530,7 +236530,7 @@
     },
     {
       "gsis_id": "00-0037809",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037809",
       "league_points": 3.5,
       "name": "Chig Okonkwo",
       "position": "TE",
@@ -238070,7 +238070,7 @@
     },
     {
       "gsis_id": "00-0034115",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034115",
       "league_points": 0.3,
       "name": "Jeff Wilson",
       "position": "RB",
@@ -239819,7 +239819,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 5.3,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -239918,7 +239918,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 6.0,
       "name": "Josh Palmer",
       "position": "WR",
@@ -240435,7 +240435,7 @@
     },
     {
       "gsis_id": "00-0037809",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037809",
       "league_points": 6.8,
       "name": "Chig Okonkwo",
       "position": "TE",
@@ -241293,7 +241293,7 @@
     },
     {
       "gsis_id": "00-0032688",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032688",
       "league_points": 5.0,
       "name": "Robbie Chosen",
       "position": "WR",
@@ -241920,7 +241920,7 @@
     },
     {
       "gsis_id": "00-0034115",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034115",
       "league_points": 2.6,
       "name": "Jeff Wilson",
       "position": "RB",
@@ -242646,7 +242646,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 3.4,
       "name": "Marquise Brown",
       "position": "WR",
@@ -243394,7 +243394,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 0.0,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -243482,7 +243482,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 5.3,
       "name": "Josh Palmer",
       "position": "WR",
@@ -243889,7 +243889,7 @@
     },
     {
       "gsis_id": "00-0037809",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037809",
       "league_points": 12.5,
       "name": "Chig Okonkwo",
       "position": "TE",
@@ -244824,7 +244824,7 @@
     },
     {
       "gsis_id": "00-0032688",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032688",
       "league_points": 0.0,
       "name": "Robbie Chosen",
       "position": "WR",
@@ -246397,7 +246397,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 1.9,
       "name": "Marquise Brown",
       "position": "WR",
@@ -247343,7 +247343,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 1.4,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -247453,7 +247453,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 4.9,
       "name": "Josh Palmer",
       "position": "WR",
@@ -247992,7 +247992,7 @@
     },
     {
       "gsis_id": "00-0037809",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037809",
       "league_points": 6.0,
       "name": "Chig Okonkwo",
       "position": "TE",
@@ -249686,7 +249686,7 @@
     },
     {
       "gsis_id": "00-0034115",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034115",
       "league_points": 10.0,
       "name": "Jeff Wilson",
       "position": "RB",
@@ -250632,7 +250632,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 5.8,
       "name": "Marquise Brown",
       "position": "WR",
@@ -251479,7 +251479,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 5.8,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -251589,7 +251589,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 1.6,
       "name": "Josh Palmer",
       "position": "WR",
@@ -252117,7 +252117,7 @@
     },
     {
       "gsis_id": "00-0037809",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037809",
       "league_points": 1.0,
       "name": "Chig Okonkwo",
       "position": "TE",
@@ -253019,7 +253019,7 @@
     },
     {
       "gsis_id": "00-0032688",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0032688",
       "league_points": 1.3,
       "name": "Robbie Chosen",
       "position": "WR",
@@ -253690,7 +253690,7 @@
     },
     {
       "gsis_id": "00-0034115",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034115",
       "league_points": 7.6,
       "name": "Jeff Wilson",
       "position": "RB",
@@ -254515,7 +254515,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 6.1,
       "name": "Marquise Brown",
       "position": "WR",
@@ -255384,7 +255384,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 1.7,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -255494,7 +255494,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 0.0,
       "name": "Josh Palmer",
       "position": "WR",
@@ -256000,7 +256000,7 @@
     },
     {
       "gsis_id": "00-0037809",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037809",
       "league_points": 2.4,
       "name": "Chig Okonkwo",
       "position": "TE",
@@ -257661,7 +257661,7 @@
     },
     {
       "gsis_id": "00-0034115",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0034115",
       "league_points": 7.4,
       "name": "Jeff Wilson",
       "position": "RB",
@@ -258541,7 +258541,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 0.7,
       "name": "Marquise Brown",
       "position": "WR",
@@ -259498,7 +259498,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 4.2,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -259619,7 +259619,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 5.9,
       "name": "Josh Palmer",
       "position": "WR",
@@ -260180,7 +260180,7 @@
     },
     {
       "gsis_id": "00-0037809",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037809",
       "league_points": 10.2,
       "name": "Chig Okonkwo",
       "position": "TE",
@@ -267685,7 +267685,7 @@
     },
     {
       "gsis_id": "00-0033357",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033357",
       "league_points": 0.4,
       "name": "Taysom Hill",
       "position": "TE",
@@ -268741,7 +268741,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 5.7,
       "name": "Marquise Brown",
       "position": "WR",
@@ -269632,7 +269632,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 7.4,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -269753,7 +269753,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 0.4,
       "name": "Josh Palmer",
       "position": "WR",
@@ -270028,7 +270028,7 @@
     },
     {
       "gsis_id": "00-0037292",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037292",
       "league_points": 2.0,
       "name": "Andrew Ogletree",
       "position": "TE",
@@ -270215,7 +270215,7 @@
     },
     {
       "gsis_id": "00-0037809",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037809",
       "league_points": 0.0,
       "name": "Chig Okonkwo",
       "position": "TE",
@@ -271700,7 +271700,7 @@
     },
     {
       "gsis_id": "00-0033357",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033357",
       "league_points": 7.72,
       "name": "Taysom Hill",
       "position": "TE",
@@ -272756,7 +272756,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 11.4,
       "name": "Marquise Brown",
       "position": "WR",
@@ -273669,7 +273669,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 1.3,
       "name": "Josh Palmer",
       "position": "WR",
@@ -274131,7 +274131,7 @@
     },
     {
       "gsis_id": "00-0037809",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037809",
       "league_points": 3.5,
       "name": "Chig Okonkwo",
       "position": "TE",
@@ -275748,7 +275748,7 @@
     },
     {
       "gsis_id": "00-0033357",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033357",
       "league_points": 2.1,
       "name": "Taysom Hill",
       "position": "TE",
@@ -276716,7 +276716,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 12.1,
       "name": "Marquise Brown",
       "position": "WR",
@@ -277508,7 +277508,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 4.8,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -277640,7 +277640,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 10.6,
       "name": "Josh Palmer",
       "position": "WR",
@@ -277937,7 +277937,7 @@
     },
     {
       "gsis_id": "00-0037292",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037292",
       "league_points": 1.1,
       "name": "Andrew Ogletree",
       "position": "TE",
@@ -278146,7 +278146,7 @@
     },
     {
       "gsis_id": "00-0037809",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037809",
       "league_points": 0.7,
       "name": "Chig Okonkwo",
       "position": "TE",
@@ -278938,7 +278938,7 @@
     },
     {
       "gsis_id": "00-0026293",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0026293",
       "league_points": 0.0,
       "name": "Matthew Slater",
       "position": "WR",
@@ -279774,7 +279774,7 @@
     },
     {
       "gsis_id": "00-0033357",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033357",
       "league_points": 2.22,
       "name": "Taysom Hill",
       "position": "TE",
@@ -280797,7 +280797,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 9.6,
       "name": "Marquise Brown",
       "position": "WR",
@@ -281655,7 +281655,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 4.1,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -281787,7 +281787,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 7.7,
       "name": "Josh Palmer",
       "position": "WR",
@@ -282018,7 +282018,7 @@
     },
     {
       "gsis_id": "00-0037292",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037292",
       "league_points": 10.8,
       "name": "Andrew Ogletree",
       "position": "TE",
@@ -282227,7 +282227,7 @@
     },
     {
       "gsis_id": "00-0037809",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037809",
       "league_points": 2.9,
       "name": "Chig Okonkwo",
       "position": "TE",
@@ -283129,7 +283129,7 @@
     },
     {
       "gsis_id": "00-0026293",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0026293",
       "league_points": 0.0,
       "name": "Matthew Slater",
       "position": "WR",
@@ -283921,7 +283921,7 @@
     },
     {
       "gsis_id": "00-0033357",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033357",
       "league_points": 2.0,
       "name": "Taysom Hill",
       "position": "TE",
@@ -284845,7 +284845,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 12.1,
       "name": "Marquise Brown",
       "position": "WR",
@@ -285549,7 +285549,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 2.4,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -285868,7 +285868,7 @@
     },
     {
       "gsis_id": "00-0037292",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037292",
       "league_points": 1.6,
       "name": "Andrew Ogletree",
       "position": "TE",
@@ -286033,7 +286033,7 @@
     },
     {
       "gsis_id": "00-0037809",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037809",
       "league_points": 3.3,
       "name": "Chig Okonkwo",
       "position": "TE",
@@ -287518,7 +287518,7 @@
     },
     {
       "gsis_id": "00-0033357",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033357",
       "league_points": 5.26,
       "name": "Taysom Hill",
       "position": "TE",
@@ -288563,7 +288563,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 3.4,
       "name": "Marquise Brown",
       "position": "WR",
@@ -289278,7 +289278,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 1.7,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -289410,7 +289410,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 6.0,
       "name": "Josh Palmer",
       "position": "WR",
@@ -289674,7 +289674,7 @@
     },
     {
       "gsis_id": "00-0037292",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037292",
       "league_points": 0.0,
       "name": "Andrew Ogletree",
       "position": "TE",
@@ -289872,7 +289872,7 @@
     },
     {
       "gsis_id": "00-0037809",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037809",
       "league_points": 1.8,
       "name": "Chig Okonkwo",
       "position": "TE",
@@ -291247,7 +291247,7 @@
     },
     {
       "gsis_id": "00-0033357",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033357",
       "league_points": 12.8,
       "name": "Taysom Hill",
       "position": "TE",
@@ -292116,7 +292116,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 4.9,
       "name": "Marquise Brown",
       "position": "WR",
@@ -292776,7 +292776,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 7.6,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -292864,7 +292864,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 13.3,
       "name": "Josh Palmer",
       "position": "WR",
@@ -293062,7 +293062,7 @@
     },
     {
       "gsis_id": "00-0037292",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037292",
       "league_points": 0.0,
       "name": "Andrew Ogletree",
       "position": "TE",
@@ -294690,7 +294690,7 @@
     },
     {
       "gsis_id": "00-0033357",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033357",
       "league_points": 21.46,
       "name": "Taysom Hill",
       "position": "TE",
@@ -295801,7 +295801,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 9.3,
       "name": "Marquise Brown",
       "position": "WR",
@@ -296384,7 +296384,7 @@
     },
     {
       "gsis_id": "00-0036620",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036620",
       "league_points": -0.5,
       "name": "Dee Eskridge",
       "position": "WR",
@@ -296582,7 +296582,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 0.6,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -296692,7 +296692,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 2.4,
       "name": "Josh Palmer",
       "position": "WR",
@@ -296934,7 +296934,7 @@
     },
     {
       "gsis_id": "00-0037292",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037292",
       "league_points": 9.3,
       "name": "Andrew Ogletree",
       "position": "TE",
@@ -297165,7 +297165,7 @@
     },
     {
       "gsis_id": "00-0037809",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037809",
       "league_points": 2.7,
       "name": "Chig Okonkwo",
       "position": "TE",
@@ -298584,7 +298584,7 @@
     },
     {
       "gsis_id": "00-0033357",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033357",
       "league_points": 17.62,
       "name": "Taysom Hill",
       "position": "TE",
@@ -299695,7 +299695,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 2.4,
       "name": "Marquise Brown",
       "position": "WR",
@@ -300300,7 +300300,7 @@
     },
     {
       "gsis_id": "00-0036620",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036620",
       "league_points": 0.0,
       "name": "Dee Eskridge",
       "position": "WR",
@@ -300487,7 +300487,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 8.3,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -300729,7 +300729,7 @@
     },
     {
       "gsis_id": "00-0037292",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037292",
       "league_points": 1.9,
       "name": "Andrew Ogletree",
       "position": "TE",
@@ -300927,7 +300927,7 @@
     },
     {
       "gsis_id": "00-0037809",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037809",
       "league_points": 2.8,
       "name": "Chig Okonkwo",
       "position": "TE",
@@ -302379,7 +302379,7 @@
     },
     {
       "gsis_id": "00-0033357",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033357",
       "league_points": 2.3,
       "name": "Taysom Hill",
       "position": "TE",
@@ -303380,7 +303380,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 2.8,
       "name": "Marquise Brown",
       "position": "WR",
@@ -304535,7 +304535,7 @@
     },
     {
       "gsis_id": "00-0037809",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037809",
       "league_points": 2.7,
       "name": "Chig Okonkwo",
       "position": "TE",
@@ -306955,7 +306955,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 1.2,
       "name": "Marquise Brown",
       "position": "WR",
@@ -307505,7 +307505,7 @@
     },
     {
       "gsis_id": "00-0036620",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036620",
       "league_points": 0.0,
       "name": "Dee Eskridge",
       "position": "WR",
@@ -307725,7 +307725,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 0.5,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -308154,7 +308154,7 @@
     },
     {
       "gsis_id": "00-0037809",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037809",
       "league_points": 0.6,
       "name": "Chig Okonkwo",
       "position": "TE",
@@ -309639,7 +309639,7 @@
     },
     {
       "gsis_id": "00-0033357",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033357",
       "league_points": 6.1,
       "name": "Taysom Hill",
       "position": "TE",
@@ -310750,7 +310750,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 8.8,
       "name": "Marquise Brown",
       "position": "WR",
@@ -311344,7 +311344,7 @@
     },
     {
       "gsis_id": "00-0036620",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036620",
       "league_points": 1.0,
       "name": "Dee Eskridge",
       "position": "WR",
@@ -311564,7 +311564,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 3.6,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -312103,7 +312103,7 @@
     },
     {
       "gsis_id": "00-0037809",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037809",
       "league_points": 4.5,
       "name": "Chig Okonkwo",
       "position": "TE",
@@ -313632,7 +313632,7 @@
     },
     {
       "gsis_id": "00-0033357",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033357",
       "league_points": 13.4,
       "name": "Taysom Hill",
       "position": "TE",
@@ -314512,7 +314512,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 0.0,
       "name": "Marquise Brown",
       "position": "WR",
@@ -315216,7 +315216,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 4.7,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -315513,7 +315513,7 @@
     },
     {
       "gsis_id": "00-0037292",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037292",
       "league_points": 0.0,
       "name": "Andrew Ogletree",
       "position": "TE",
@@ -315711,7 +315711,7 @@
     },
     {
       "gsis_id": "00-0037809",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037809",
       "league_points": 6.4,
       "name": "Chig Okonkwo",
       "position": "TE",
@@ -316448,7 +316448,7 @@
     },
     {
       "gsis_id": "00-0026293",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0026293",
       "league_points": 0.0,
       "name": "Matthew Slater",
       "position": "WR",
@@ -318912,7 +318912,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 2.8,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -319231,7 +319231,7 @@
     },
     {
       "gsis_id": "00-0037292",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037292",
       "league_points": 0.0,
       "name": "Andrew Ogletree",
       "position": "TE",
@@ -319407,7 +319407,7 @@
     },
     {
       "gsis_id": "00-0037809",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037809",
       "league_points": 4.6,
       "name": "Chig Okonkwo",
       "position": "TE",
@@ -321090,7 +321090,7 @@
     },
     {
       "gsis_id": "00-0033357",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033357",
       "league_points": 0.5,
       "name": "Taysom Hill",
       "position": "TE",
@@ -323037,7 +323037,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 2.1,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -323147,7 +323147,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 17.3,
       "name": "Josh Palmer",
       "position": "WR",
@@ -323378,7 +323378,7 @@
     },
     {
       "gsis_id": "00-0037292",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037292",
       "league_points": 0.0,
       "name": "Andrew Ogletree",
       "position": "TE",
@@ -323620,7 +323620,7 @@
     },
     {
       "gsis_id": "00-0037809",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037809",
       "league_points": 3.6,
       "name": "Chig Okonkwo",
       "position": "TE",
@@ -325325,7 +325325,7 @@
     },
     {
       "gsis_id": "00-0033357",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033357",
       "league_points": 0.2,
       "name": "Taysom Hill",
       "position": "TE",
@@ -327118,7 +327118,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 7.9,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -327228,7 +327228,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 4.7,
       "name": "Josh Palmer",
       "position": "WR",
@@ -327756,7 +327756,7 @@
     },
     {
       "gsis_id": "00-0037809",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037809",
       "league_points": 12.3,
       "name": "Chig Okonkwo",
       "position": "TE",
@@ -328658,7 +328658,7 @@
     },
     {
       "gsis_id": "00-0026293",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0026293",
       "league_points": 0.0,
       "name": "Matthew Slater",
       "position": "WR",
@@ -329351,7 +329351,7 @@
     },
     {
       "gsis_id": "00-0033357",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033357",
       "league_points": 9.54,
       "name": "Taysom Hill",
       "position": "TE",
@@ -331111,7 +331111,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 2.68,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -331716,7 +331716,7 @@
     },
     {
       "gsis_id": "00-0037809",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037809",
       "league_points": 3.4,
       "name": "Chig Okonkwo",
       "position": "TE",
@@ -332629,7 +332629,7 @@
     },
     {
       "gsis_id": "00-0026293",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0026293",
       "league_points": 0.0,
       "name": "Matthew Slater",
       "position": "WR",
@@ -333322,7 +333322,7 @@
     },
     {
       "gsis_id": "00-0033357",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033357",
       "league_points": 7.9,
       "name": "Taysom Hill",
       "position": "TE",
@@ -335192,7 +335192,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 6.2,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -335291,7 +335291,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 5.0,
       "name": "Josh Palmer",
       "position": "WR",
@@ -335830,7 +335830,7 @@
     },
     {
       "gsis_id": "00-0037809",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037809",
       "league_points": 3.6,
       "name": "Chig Okonkwo",
       "position": "TE",
@@ -345438,7 +345438,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 1.2,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -345537,7 +345537,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 1.5,
       "name": "Josh Palmer",
       "position": "WR",
@@ -345933,7 +345933,7 @@
     },
     {
       "gsis_id": "00-0037745",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037745",
       "league_points": -0.1,
       "name": "Velus Jones Jr.",
       "position": "WR",
@@ -349486,7 +349486,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 0.6,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -349585,7 +349585,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 1.9,
       "name": "Josh Palmer",
       "position": "WR",
@@ -349882,7 +349882,7 @@
     },
     {
       "gsis_id": "00-0037292",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037292",
       "league_points": 1.2,
       "name": "Andrew Ogletree",
       "position": "TE",
@@ -353611,7 +353611,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 1.2,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -353963,7 +353963,7 @@
     },
     {
       "gsis_id": "00-0037292",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037292",
       "league_points": 0.0,
       "name": "Andrew Ogletree",
       "position": "TE",
@@ -357802,7 +357802,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 0.9,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -357901,7 +357901,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 3.6,
       "name": "Josh Palmer",
       "position": "WR",
@@ -358121,7 +358121,7 @@
     },
     {
       "gsis_id": "00-0037292",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037292",
       "league_points": 7.5,
       "name": "Andrew Ogletree",
       "position": "TE",
@@ -361784,7 +361784,7 @@
     },
     {
       "gsis_id": "00-0037292",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037292",
       "league_points": 0.5,
       "name": "Andrew Ogletree",
       "position": "TE",
@@ -364952,7 +364952,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 2.3,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -365062,7 +365062,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 3.8,
       "name": "Josh Palmer",
       "position": "WR",
@@ -365227,7 +365227,7 @@
     },
     {
       "gsis_id": "00-0037292",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037292",
       "league_points": 2.4,
       "name": "Andrew Ogletree",
       "position": "TE",
@@ -368846,7 +368846,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 6.7,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -368923,7 +368923,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 6.3,
       "name": "Josh Palmer",
       "position": "WR",
@@ -369132,7 +369132,7 @@
     },
     {
       "gsis_id": "00-0037292",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037292",
       "league_points": 0.0,
       "name": "Andrew Ogletree",
       "position": "TE",
@@ -372949,7 +372949,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 1.9,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -373026,7 +373026,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 7.2,
       "name": "Josh Palmer",
       "position": "WR",
@@ -377052,7 +377052,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 1.0,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -377140,7 +377140,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 12.3,
       "name": "Josh Palmer",
       "position": "WR",
@@ -380682,7 +380682,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 3.9,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -380759,7 +380759,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 3.6,
       "name": "Josh Palmer",
       "position": "WR",
@@ -380957,7 +380957,7 @@
     },
     {
       "gsis_id": "00-0037292",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037292",
       "league_points": 0.2,
       "name": "Andrew Ogletree",
       "position": "TE",
@@ -384389,7 +384389,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 4.9,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -384488,7 +384488,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 2.3,
       "name": "Josh Palmer",
       "position": "WR",
@@ -384686,7 +384686,7 @@
     },
     {
       "gsis_id": "00-0037292",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037292",
       "league_points": 0.8,
       "name": "Andrew Ogletree",
       "position": "TE",
@@ -387843,7 +387843,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 8.2,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -387887,7 +387887,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 3.8,
       "name": "Josh Palmer",
       "position": "WR",
@@ -388085,7 +388085,7 @@
     },
     {
       "gsis_id": "00-0037292",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037292",
       "league_points": 0.0,
       "name": "Andrew Ogletree",
       "position": "TE",
@@ -391616,7 +391616,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 0.0,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -391748,7 +391748,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 3.1,
       "name": "Josh Palmer",
       "position": "WR",
@@ -391990,7 +391990,7 @@
     },
     {
       "gsis_id": "00-0037292",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037292",
       "league_points": 2.2,
       "name": "Andrew Ogletree",
       "position": "TE",
@@ -395444,7 +395444,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 3.3,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -395532,7 +395532,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 7.8,
       "name": "Josh Palmer",
       "position": "WR",
@@ -399151,7 +399151,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 6.0,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -399261,7 +399261,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 1.0,
       "name": "Josh Palmer",
       "position": "WR",
@@ -402649,7 +402649,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 4.5,
       "name": "Marquise Brown",
       "position": "WR",
@@ -403331,7 +403331,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 1.3,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -403441,7 +403441,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 6.1,
       "name": "Josh Palmer",
       "position": "WR",
@@ -403672,7 +403672,7 @@
     },
     {
       "gsis_id": "00-0037292",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037292",
       "league_points": 0.0,
       "name": "Andrew Ogletree",
       "position": "TE",
@@ -406763,7 +406763,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 4.6,
       "name": "Marquise Brown",
       "position": "WR",
@@ -407445,7 +407445,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 0.9,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -407566,7 +407566,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 4.1,
       "name": "Josh Palmer",
       "position": "WR",
@@ -407951,7 +407951,7 @@
     },
     {
       "gsis_id": "00-0037745",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037745",
       "league_points": 0.0,
       "name": "Velus Jones Jr.",
       "position": "WR",
@@ -411636,7 +411636,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 2.3,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -411922,7 +411922,7 @@
     },
     {
       "gsis_id": "00-0037292",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037292",
       "league_points": 2.1,
       "name": "Andrew Ogletree",
       "position": "TE",
@@ -421365,7 +421365,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 9.9,
       "name": "Marquise Brown",
       "position": "WR",
@@ -421959,7 +421959,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 2.3,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -422036,7 +422036,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 6.1,
       "name": "Josh Palmer",
       "position": "WR",
@@ -422102,7 +422102,7 @@
     },
     {
       "gsis_id": "00-0037091",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037091",
       "league_points": 0.0,
       "name": "Bo Melton",
       "position": "WR",
@@ -422289,7 +422289,7 @@
     },
     {
       "gsis_id": "00-0037292",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037292",
       "league_points": 0.0,
       "name": "Andrew Ogletree",
       "position": "TE",
@@ -425589,7 +425589,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 3.0,
       "name": "Marquise Brown",
       "position": "WR",
@@ -426216,7 +426216,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 3.6,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -426304,7 +426304,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 4.7,
       "name": "Josh Palmer",
       "position": "WR",
@@ -426535,7 +426535,7 @@
     },
     {
       "gsis_id": "00-0037292",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037292",
       "league_points": 0.0,
       "name": "Andrew Ogletree",
       "position": "TE",
@@ -427206,7 +427206,7 @@
     },
     {
       "gsis_id": "00-0038839",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0038839",
       "league_points": 7.3,
       "name": "Mitchell Tinsley",
       "position": "WR",
@@ -429824,7 +429824,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 4.2,
       "name": "Marquise Brown",
       "position": "WR",
@@ -430385,7 +430385,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 8.6,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -430462,7 +430462,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 0.5,
       "name": "Josh Palmer",
       "position": "WR",
@@ -431441,7 +431441,7 @@
     },
     {
       "gsis_id": "00-0038839",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0038839",
       "league_points": 0.0,
       "name": "Mitchell Tinsley",
       "position": "WR",
@@ -434103,7 +434103,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 9.8,
       "name": "Marquise Brown",
       "position": "WR",
@@ -434653,7 +434653,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 25.4,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -434752,7 +434752,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 2.5,
       "name": "Josh Palmer",
       "position": "WR",
@@ -434818,7 +434818,7 @@
     },
     {
       "gsis_id": "00-0037091",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037091",
       "league_points": 0.0,
       "name": "Bo Melton",
       "position": "WR",
@@ -435016,7 +435016,7 @@
     },
     {
       "gsis_id": "00-0037292",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037292",
       "league_points": 0.0,
       "name": "Andrew Ogletree",
       "position": "TE",
@@ -435753,7 +435753,7 @@
     },
     {
       "gsis_id": "00-0038839",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0038839",
       "league_points": 0.9,
       "name": "Mitchell Tinsley",
       "position": "WR",
@@ -437513,7 +437513,7 @@
     },
     {
       "gsis_id": "00-0033357",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033357",
       "league_points": 0.66,
       "name": "Taysom Hill",
       "position": "TE",
@@ -438140,7 +438140,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 4.8,
       "name": "Marquise Brown",
       "position": "WR",
@@ -438712,7 +438712,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 3.6,
       "name": "Josh Palmer",
       "position": "WR",
@@ -441363,7 +441363,7 @@
     },
     {
       "gsis_id": "00-0033357",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033357",
       "league_points": 6.1,
       "name": "Taysom Hill",
       "position": "TE",
@@ -442012,7 +442012,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 16.5,
       "name": "Marquise Brown",
       "position": "WR",
@@ -442507,7 +442507,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 3.6,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -442606,7 +442606,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 6.0,
       "name": "Josh Palmer",
       "position": "WR",
@@ -442650,7 +442650,7 @@
     },
     {
       "gsis_id": "00-0037091",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037091",
       "league_points": 0.3,
       "name": "Bo Melton",
       "position": "WR",
@@ -445312,7 +445312,7 @@
     },
     {
       "gsis_id": "00-0033357",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033357",
       "league_points": 0.8,
       "name": "Taysom Hill",
       "position": "TE",
@@ -445906,7 +445906,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 7.4,
       "name": "Marquise Brown",
       "position": "WR",
@@ -446445,7 +446445,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 1.5,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -446577,7 +446577,7 @@
     },
     {
       "gsis_id": "00-0037091",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037091",
       "league_points": 0.0,
       "name": "Bo Melton",
       "position": "WR",
@@ -446731,7 +446731,7 @@
     },
     {
       "gsis_id": "00-0037292",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037292",
       "league_points": 0.0,
       "name": "Andrew Ogletree",
       "position": "TE",
@@ -449239,7 +449239,7 @@
     },
     {
       "gsis_id": "00-0033357",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033357",
       "league_points": 1.2,
       "name": "Taysom Hill",
       "position": "TE",
@@ -449800,7 +449800,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 0.0,
       "name": "Marquise Brown",
       "position": "WR",
@@ -450317,7 +450317,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 1.5,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -450416,7 +450416,7 @@
     },
     {
       "gsis_id": "00-0037091",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037091",
       "league_points": 0.0,
       "name": "Bo Melton",
       "position": "WR",
@@ -450581,7 +450581,7 @@
     },
     {
       "gsis_id": "00-0037292",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037292",
       "league_points": 0.0,
       "name": "Andrew Ogletree",
       "position": "TE",
@@ -452781,7 +452781,7 @@
     },
     {
       "gsis_id": "00-0033357",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033357",
       "league_points": 3.0,
       "name": "Taysom Hill",
       "position": "TE",
@@ -453320,7 +453320,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 7.3,
       "name": "Marquise Brown",
       "position": "WR",
@@ -453892,7 +453892,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 3.4,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -454178,7 +454178,7 @@
     },
     {
       "gsis_id": "00-0037292",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037292",
       "league_points": 0.0,
       "name": "Andrew Ogletree",
       "position": "TE",
@@ -454816,7 +454816,7 @@
     },
     {
       "gsis_id": "00-0038839",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0038839",
       "league_points": 2.7,
       "name": "Mitchell Tinsley",
       "position": "WR",
@@ -455091,7 +455091,7 @@
     },
     {
       "gsis_id": "00-0039305",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0039305",
       "league_points": 0.0,
       "name": "Jack Westover",
       "position": "TE",
@@ -456554,7 +456554,7 @@
     },
     {
       "gsis_id": "00-0033357",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033357",
       "league_points": 2.0,
       "name": "Taysom Hill",
       "position": "TE",
@@ -457720,7 +457720,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 0.4,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -457863,7 +457863,7 @@
     },
     {
       "gsis_id": "00-0037091",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037091",
       "league_points": 2.8,
       "name": "Bo Melton",
       "position": "WR",
@@ -458039,7 +458039,7 @@
     },
     {
       "gsis_id": "00-0037292",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037292",
       "league_points": 0.0,
       "name": "Andrew Ogletree",
       "position": "TE",
@@ -458820,7 +458820,7 @@
     },
     {
       "gsis_id": "00-0039305",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0039305",
       "league_points": 0.0,
       "name": "Jack Westover",
       "position": "TE",
@@ -460921,7 +460921,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 4.0,
       "name": "Marquise Brown",
       "position": "WR",
@@ -461482,7 +461482,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 22.5,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -461570,7 +461570,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 1.7,
       "name": "Josh Palmer",
       "position": "WR",
@@ -461625,7 +461625,7 @@
     },
     {
       "gsis_id": "00-0037091",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037091",
       "league_points": 1.7,
       "name": "Bo Melton",
       "position": "WR",
@@ -462747,7 +462747,7 @@
     },
     {
       "gsis_id": "00-0039305",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0039305",
       "league_points": 0.0,
       "name": "Jack Westover",
       "position": "TE",
@@ -464243,7 +464243,7 @@
     },
     {
       "gsis_id": "00-0033357",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033357",
       "league_points": 1.7,
       "name": "Taysom Hill",
       "position": "TE",
@@ -464892,7 +464892,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 1.0,
       "name": "Marquise Brown",
       "position": "WR",
@@ -465431,7 +465431,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 12.2,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -465508,7 +465508,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 2.1,
       "name": "Josh Palmer",
       "position": "WR",
@@ -465695,7 +465695,7 @@
     },
     {
       "gsis_id": "00-0037292",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037292",
       "league_points": 6.8,
       "name": "Andrew Ogletree",
       "position": "TE",
@@ -466344,7 +466344,7 @@
     },
     {
       "gsis_id": "00-0038839",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0038839",
       "league_points": 8.9,
       "name": "Mitchell Tinsley",
       "position": "WR",
@@ -467983,7 +467983,7 @@
     },
     {
       "gsis_id": "00-0033357",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033357",
       "league_points": 0.7,
       "name": "Taysom Hill",
       "position": "TE",
@@ -468676,7 +468676,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 8.0,
       "name": "Marquise Brown",
       "position": "WR",
@@ -469226,7 +469226,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 4.5,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -469347,7 +469347,7 @@
     },
     {
       "gsis_id": "00-0037091",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037091",
       "league_points": 1.5,
       "name": "Bo Melton",
       "position": "WR",
@@ -469534,7 +469534,7 @@
     },
     {
       "gsis_id": "00-0037292",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037292",
       "league_points": 0.8,
       "name": "Andrew Ogletree",
       "position": "TE",
@@ -470271,7 +470271,7 @@
     },
     {
       "gsis_id": "00-0038839",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0038839",
       "league_points": 2.2,
       "name": "Mitchell Tinsley",
       "position": "WR",
@@ -472130,7 +472130,7 @@
     },
     {
       "gsis_id": "00-0033357",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033357",
       "league_points": -0.1,
       "name": "Taysom Hill",
       "position": "TE",
@@ -472779,7 +472779,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 3.5,
       "name": "Marquise Brown",
       "position": "WR",
@@ -473373,7 +473373,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 10.2,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -473472,7 +473472,7 @@
     },
     {
       "gsis_id": "00-0037091",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037091",
       "league_points": 10.5,
       "name": "Bo Melton",
       "position": "WR",
@@ -473648,7 +473648,7 @@
     },
     {
       "gsis_id": "00-0037292",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037292",
       "league_points": 0.0,
       "name": "Andrew Ogletree",
       "position": "TE",
@@ -476068,7 +476068,7 @@
     },
     {
       "gsis_id": "00-0033357",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033357",
       "league_points": 0.2,
       "name": "Taysom Hill",
       "position": "TE",
@@ -477245,7 +477245,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 12.6,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -477322,7 +477322,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 1.6,
       "name": "Josh Palmer",
       "position": "WR",
@@ -477377,7 +477377,7 @@
     },
     {
       "gsis_id": "00-0037091",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037091",
       "league_points": 0.0,
       "name": "Bo Melton",
       "position": "WR",
@@ -478257,7 +478257,7 @@
     },
     {
       "gsis_id": "00-0038839",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0038839",
       "league_points": 1.6,
       "name": "Mitchell Tinsley",
       "position": "WR",
@@ -480237,7 +480237,7 @@
     },
     {
       "gsis_id": "00-0033357",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033357",
       "league_points": 12.32,
       "name": "Taysom Hill",
       "position": "TE",
@@ -480908,7 +480908,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 2.2,
       "name": "Marquise Brown",
       "position": "WR",
@@ -481480,7 +481480,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 18.8,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -481557,7 +481557,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 0.2,
       "name": "Josh Palmer",
       "position": "WR",
@@ -481601,7 +481601,7 @@
     },
     {
       "gsis_id": "00-0037091",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037091",
       "league_points": 0.0,
       "name": "Bo Melton",
       "position": "WR",
@@ -481810,7 +481810,7 @@
     },
     {
       "gsis_id": "00-0037292",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037292",
       "league_points": 1.1,
       "name": "Andrew Ogletree",
       "position": "TE",
@@ -482569,7 +482569,7 @@
     },
     {
       "gsis_id": "00-0038839",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0038839",
       "league_points": 0.0,
       "name": "Mitchell Tinsley",
       "position": "WR",
@@ -484560,7 +484560,7 @@
     },
     {
       "gsis_id": "00-0033357",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033357",
       "league_points": 0.0,
       "name": "Taysom Hill",
       "position": "TE",
@@ -485231,7 +485231,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 0.7,
       "name": "Marquise Brown",
       "position": "WR",
@@ -485836,7 +485836,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 3.8,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -485913,7 +485913,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 1.2,
       "name": "Josh Palmer",
       "position": "WR",
@@ -485979,7 +485979,7 @@
     },
     {
       "gsis_id": "00-0037091",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037091",
       "league_points": 3.4,
       "name": "Bo Melton",
       "position": "WR",
@@ -488806,7 +488806,7 @@
     },
     {
       "gsis_id": "00-0033357",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0033357",
       "league_points": 3.2,
       "name": "Taysom Hill",
       "position": "TE",
@@ -489466,7 +489466,7 @@
     },
     {
       "gsis_id": "00-0035662",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0035662",
       "league_points": 6.4,
       "name": "Marquise Brown",
       "position": "WR",
@@ -490005,7 +490005,7 @@
     },
     {
       "gsis_id": "00-0036919",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036919",
       "league_points": 13.4,
       "name": "Kenny Gainwell",
       "position": "RB",
@@ -490071,7 +490071,7 @@
     },
     {
       "gsis_id": "00-0036988",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0036988",
       "league_points": 0.1,
       "name": "Josh Palmer",
       "position": "WR",
@@ -490159,7 +490159,7 @@
     },
     {
       "gsis_id": "00-0037091",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0037091",
       "league_points": 0.0,
       "name": "Bo Melton",
       "position": "WR",
@@ -491325,7 +491325,7 @@
     },
     {
       "gsis_id": "00-0039305",
-      "internal_player_id": null,
+      "internal_player_id": "nfl:gsis:00-0039305",
       "league_points": 0.0,
       "name": "Jack Westover",
       "position": "TE",

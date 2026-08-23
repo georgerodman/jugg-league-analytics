@@ -96,6 +96,37 @@ def load_aliases(root: Path, season: int) -> dict[tuple[str, str], str]:
     return aliases
 
 
+def load_identity_registry(root: Path, season: int) -> dict[int, dict[str, Any]]:
+    """Load reviewed/validated provider-to-stable identity mappings when available."""
+    pointer = root / "data" / "processed" / "nflverse" / "latest.json"
+    mappings: dict[int, dict[str, Any]] = {}
+    if pointer.exists():
+        latest = json.loads(pointer.read_text(encoding="utf-8"))
+        crosswalk_path = (root / latest["manifest"]).parent / "player_identity_crosswalk.json"
+        if crosswalk_path.exists():
+            payload = json.loads(crosswalk_path.read_text(encoding="utf-8"))
+            for row in payload.get("players", []):
+                if row["season"] == season:
+                    mappings[int(row["fantasypros_id"])] = row
+    override_path = root / "config" / "player_identity_overrides.json"
+    if override_path.exists():
+        payload = json.loads(override_path.read_text(encoding="utf-8"))
+        for row in payload.get("overrides", []):
+            seasons = row.get("seasons")
+            if seasons and season not in seasons:
+                continue
+            mappings[int(row["fantasypros_id"])] = row | {"match_method": "reviewed_override", "match_confidence": 1.0}
+    return mappings
+
+
+def stable_internal_id(fantasypros_id: int, gsis_id: str | None) -> tuple[str, str]:
+    if gsis_id and gsis_id.startswith("team:"):
+        return f"nfl:def:{gsis_id.removeprefix('team:')}", "stable"
+    if gsis_id:
+        return f"nfl:gsis:{gsis_id}", "stable"
+    return f"provisional:fantasypros:{fantasypros_id}", "provisional"
+
+
 def index_ffa(rows: list[dict[str, str]], aliases: dict[tuple[str, str], str]) -> tuple[dict, dict, dict, int]:
     by_name_pos: dict[tuple[str, str], list[tuple[int, dict[str, str]]]] = {}
     by_name_pos_team: dict[tuple[str, str, str | None], list[tuple[int, dict[str, str]]]] = {}
@@ -169,6 +200,7 @@ def build_season(root: Path, season: int) -> Path:
     fantasypros, fp_path = load_latest_fantasypros(root, season)
     ffa_rows, ffa_path = load_ffa(root, season)
     aliases = load_aliases(root, season)
+    identities = load_identity_registry(root, season)
     by_name_pos, by_name_pos_team, by_pos_team, duplicate_ffa_rows = index_ffa(ffa_rows, aliases)
     built_at = datetime.now(timezone.utc)
     build_id = built_at.strftime("%Y%m%dT%H%M%SZ")
@@ -181,11 +213,21 @@ def build_season(root: Path, season: int) -> Path:
         methods[method] += 1
         stats = dict(fp["stats"])
         provenance = {f"stats.{key}": "fantasypros" for key in stats}
+        identity = identities.get(int(fp["fantasypros_id"]))
+        legacy_id = f"nfl:fantasypros:{fp['fantasypros_id']}"
+        gsis_id = identity.get("gsis_id") if identity else None
+        internal_id, identity_status = stable_internal_id(int(fp["fantasypros_id"]), gsis_id)
+        source_ids = {"fantasypros": fp["fantasypros_id"]}
+        if gsis_id:
+            source_ids["gsis"] = gsis_id
         canonical = {
-            "internal_player_id": f"nfl:fantasypros:{fp['fantasypros_id']}",
+            "internal_player_id": internal_id,
+            "legacy_internal_player_id": legacy_id,
+            "identity_status": identity_status,
+            "identity_evidence": {"method": identity.get("match_method"), "confidence": identity.get("match_confidence")} if identity else None,
             "season": season,
             "name": fp["name"], "position": fp["position"], "nfl_team": normalize_team(fp.get("nfl_team")),
-            "source_ids": {"fantasypros": fp["fantasypros_id"]},
+            "source_ids": source_ids,
             "stats": stats,
             "field_provenance": provenance,
             "fantasypros": {
