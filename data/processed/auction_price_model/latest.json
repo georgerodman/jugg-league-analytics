@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "build_id": "20260823T190806Z",
-  "benchmark": "data/processed/auction_price_model/20260823T190806Z/benchmark.json",
-  "training_rows": "data/processed/auction_price_model/20260823T190806Z/training_rows.csv",
-  "scores_2026_csv": "data/processed/auction_price_model/20260823T190806Z/scores_2026.csv",
-  "scores_2026_json": "data/processed/auction_price_model/20260823T190806Z/scores_2026.json"
+  "build_id": "20260823T194509Z",
+  "benchmark": "data/processed/auction_price_model/20260823T194509Z/benchmark.json",
+  "training_rows": "data/processed/auction_price_model/20260823T194509Z/training_rows.csv",
+  "scores_2026_csv": "data/processed/auction_price_model/20260823T194509Z/scores_2026.csv",
+  "scores_2026_json": "data/processed/auction_price_model/20260823T194509Z/scores_2026.json"
 }

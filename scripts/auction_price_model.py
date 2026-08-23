@@ -41,7 +41,7 @@ CSV_FIELDS = (
 SCORE_FIELDS = (
     "jugg_price_rank", "internal_player_id", "fantasypros_id", "player_name", "position",
     "nfl_team", "expected_jugg_price_if_drafted", "uncalibrated_model_price", "price_range_low", "price_range_high",
-    "range_basis", "espn_salary_cap_value", "adp_espn", "adp_yahoo",
+    "range_basis", "draft_probability", "draft_likelihood", "espn_salary_cap_value", "adp_espn", "adp_yahoo",
     "projected_points_jugg", "prior_jugg_salary", "missing_inputs",
 )
 
@@ -272,7 +272,7 @@ def fit_ridge(
     }
 
 
-def predict_ridge(model: dict[str, Any], row: dict[str, Any]) -> float:
+def predict_ridge(model: dict[str, Any], row: dict[str, Any], minimum: float | None = 1.0) -> float:
     vector = [1.0 if row["position"] == position else 0.0 for position in POSITIONS[:-1]]
     for feature in model["feature_names"]:
         observed = row.get(feature)
@@ -282,9 +282,10 @@ def predict_ridge(model: dict[str, Any], row: dict[str, Any]) -> float:
     standardized = [
         (value - mean) / scale for value, mean, scale in zip(vector, model["means"], model["scales"])
     ]
-    return max(1.0, model["coefficients"][0] + sum(
+    prediction = model["coefficients"][0] + sum(
         coefficient * value for coefficient, value in zip(model["coefficients"][1:], standardized)
-    ))
+    )
+    return max(minimum, prediction) if minimum is not None else prediction
 
 
 def fit_knn(rows: list[dict[str, Any]], feature_names: tuple[str, ...], neighbors: int) -> dict[str, Any]:
@@ -316,7 +317,7 @@ def fit_knn(rows: list[dict[str, Any]], feature_names: tuple[str, ...], neighbor
     }
 
 
-def predict_knn(model: dict[str, Any], row: dict[str, Any]) -> float:
+def predict_knn(model: dict[str, Any], row: dict[str, Any], minimum: float | None = 1.0) -> float:
     raw = [2.0 if row["position"] == position else 0.0 for position in POSITIONS]
     for feature in model["feature_names"]:
         missing = row.get(feature) is None
@@ -329,9 +330,113 @@ def predict_knn(model: dict[str, Any], row: dict[str, Any]) -> float:
     )[:model["neighbors"]]
     exact = [target for distance, target in distances if distance < 1e-12]
     if exact:
-        return max(1.0, statistics.fmean(exact))
+        prediction = statistics.fmean(exact)
+        return max(minimum, prediction) if minimum is not None else prediction
     weights = [(1.0 / math.sqrt(distance), target) for distance, target in distances]
-    return max(1.0, sum(weight * target for weight, target in weights) / sum(weight for weight, _ in weights))
+    prediction = sum(weight * target for weight, target in weights) / sum(weight for weight, _ in weights)
+    return max(minimum, prediction) if minimum is not None else prediction
+
+
+def probability_metrics(predictions: list[tuple[float, int]]) -> dict[str, Any]:
+    if not predictions:
+        return {"n": 0, "brier": None, "log_loss": None, "auc": None}
+    clipped = [(min(1 - 1e-9, max(1e-9, probability)), actual) for probability, actual in predictions]
+    positives = [probability for probability, actual in clipped if actual == 1]
+    negatives = [probability for probability, actual in clipped if actual == 0]
+    comparisons = sum(
+        1.0 if positive > negative else 0.5 if positive == negative else 0.0
+        for positive in positives for negative in negatives
+    )
+    return {
+        "n": len(clipped), "positive_count": len(positives),
+        "brier": round(statistics.fmean((probability - actual) ** 2 for probability, actual in clipped), 4),
+        "log_loss": round(-statistics.fmean(actual * math.log(probability) + (1 - actual) * math.log(1 - probability) for probability, actual in clipped), 4),
+        "auc": round(comparisons / (len(positives) * len(negatives)), 4) if positives and negatives else None,
+    }
+
+
+def probability_rows(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    return [{**row, "jugg_salary": 1.0 if row["drafted"] else 0.0} for row in rows]
+
+
+def predict_probability(model: dict[str, Any], row: dict[str, Any], family: str) -> float:
+    prediction = predict_ridge(model, row, None) if family == "ridge" else predict_knn(model, row, None)
+    return min(1.0, max(0.0, prediction))
+
+
+def choose_probability_parameter(
+    rows: list[dict[str, Any]], feature_names: tuple[str, ...], family: str
+) -> float | int:
+    seasons = sorted({row["season"] for row in rows})
+    candidates: list[float | int] = [0.1, 1.0, 10.0, 100.0] if family == "ridge" else [5, 15, 30, 60]
+    if len(seasons) < 2:
+        return 1.0 if family == "ridge" else 15
+    validation_season = seasons[-1]
+    training = probability_rows([row for row in rows if row["season"] < validation_season])
+    validation = [row for row in rows if row["season"] == validation_season]
+    scores = []
+    for candidate in candidates:
+        model = fit_ridge(training, feature_names, float(candidate)) if family == "ridge" else fit_knn(training, feature_names, int(candidate))
+        pairs = [(predict_probability(model, row, family), 1 if row["drafted"] else 0) for row in validation]
+        scores.append((probability_metrics(pairs)["brier"], candidate))
+    return min(scores)[1]
+
+
+def draft_probability_tournament(rows: list[dict[str, Any]]) -> dict[str, Any]:
+    pool = [row for row in rows if row.get("espn_salary_cap_value") is not None or row.get("adp_yahoo") is not None]
+    feature_sets = {
+        "adp_only": MODEL_FEATURES["adp_only"],
+        "espn_value_only": MODEL_FEATURES["espn_value_only"],
+        "projection_only": MODEL_FEATURES["projection_only"],
+        "market_without_espn_value": MODEL_FEATURES["market_without_espn_value"],
+        "full": MODEL_FEATURES["full"],
+    }
+    accumulated: dict[str, list[tuple[float, int, dict[str, Any]]]] = {}
+    by_season = {}
+    for season in SEASONS[1:]:
+        training = [row for row in pool if row["season"] < season]
+        test = [row for row in pool if row["season"] == season]
+        by_season[str(season)] = {}
+        for feature_set, features in feature_sets.items():
+            for family in ("ridge", "knn"):
+                name = f"{family}:{feature_set}"
+                parameter = choose_probability_parameter(training, features, family)
+                binary_training = probability_rows(training)
+                model = fit_ridge(binary_training, features, float(parameter)) if family == "ridge" else fit_knn(binary_training, features, int(parameter))
+                predictions = [(predict_probability(model, row, family), 1 if row["drafted"] else 0, row) for row in test]
+                accumulated.setdefault(name, []).extend(predictions)
+                by_season[str(season)][name] = probability_metrics([(p, a) for p, a, _ in predictions])
+    overall = {name: probability_metrics([(p, a) for p, a, _ in values]) for name, values in accumulated.items()}
+    ranking = sorted(({"model": name, **score} for name, score in overall.items()), key=lambda row: (row["brier"], -row["auc"], row["model"]))
+    best = ranking[0]["model"]
+    best_predictions = accumulated[best]
+    top_pool = sorted(best_predictions, key=lambda item: item[0], reverse=True)
+    by_year_top_140 = {}
+    for season in SEASONS[1:]:
+        season_predictions = sorted((item for item in best_predictions if item[2]["season"] == season), key=lambda item: item[0], reverse=True)[:140]
+        hits = sum(actual for _, actual, _ in season_predictions)
+        eligible_actuals = sum(row["drafted"] for row in pool if row["season"] == season)
+        by_year_top_140[str(season)] = {
+            "hits": hits, "precision": round(hits / len(season_predictions), 4),
+            "recall_of_eligible_draftees": round(hits / eligible_actuals, 4),
+        }
+    calibration = []
+    for lower in (0.0, 0.2, 0.4, 0.6, 0.8):
+        bucket = [(p, a) for p, a, _ in best_predictions if lower <= p < lower + 0.2 or (lower == 0.8 and p == 1.0)]
+        if bucket:
+            calibration.append({
+                "range": f"{lower:.1f}-{lower + 0.2:.1f}", "n": len(bucket),
+                "mean_prediction": round(statistics.fmean(p for p, _ in bucket), 4),
+                "actual_draft_rate": round(statistics.fmean(a for _, a in bucket), 4),
+            })
+    return {
+        "cohort": "historical players with an ESPN Salary Cap Value or Yahoo ADP",
+        "training_rule": "forward-only, with time-aware inner tuning",
+        "ranking": ranking, "best_model": best, "by_test_season": by_season,
+        "best_model_top_140_by_season": by_year_top_140,
+        "best_model_calibration": calibration,
+        "row_count": len(best_predictions),
+    }
 
 
 def choose_parameter(
@@ -437,7 +542,8 @@ def neutral_model_tournament(rows: list[dict[str, Any]]) -> dict[str, Any]:
 
 
 def score_2026(
-    historical_rows: list[dict[str, Any]], scoring_rows: list[dict[str, Any]], tournament: dict[str, Any]
+    historical_rows: list[dict[str, Any]], scoring_rows: list[dict[str, Any]], tournament: dict[str, Any],
+    probability_tournament: dict[str, Any],
 ) -> tuple[list[dict[str, Any]], dict[str, Any]]:
     training = [row for row in historical_rows if row["drafted"]]
     feature_names = MODEL_FEATURES["full"]
@@ -479,6 +585,39 @@ def score_2026(
         })
     for rank, row in enumerate(scored, start=1):
         row["jugg_price_rank"] = rank
+
+    probability_pool = [
+        row for row in historical_rows
+        if row.get("espn_salary_cap_value") is not None or row.get("adp_yahoo") is not None
+    ]
+    family, feature_set = probability_tournament["best_model"].split(":", 1)
+    probability_features = MODEL_FEATURES[feature_set]
+    probability_parameter = choose_probability_parameter(probability_pool, probability_features, family)
+    binary_training = probability_rows(probability_pool)
+    probability_model = fit_ridge(binary_training, probability_features, float(probability_parameter)) if family == "ridge" else fit_knn(binary_training, probability_features, int(probability_parameter))
+    raw_probabilities = [min(1 - 1e-6, max(1e-6, predict_probability(probability_model, row, family))) for row in scored]
+    probability_floor, probability_ceiling = 0.005, 0.995
+
+    def calibrate_probability(probability: float, multiplier: float) -> float:
+        adjusted = (multiplier * probability) / (1 - probability + multiplier * probability)
+        return min(probability_ceiling, max(probability_floor, adjusted))
+
+    low, high = 0.0, 1000.0
+    for _ in range(80):
+        multiplier = (low + high) / 2
+        total = sum(calibrate_probability(probability, multiplier) for probability in raw_probabilities)
+        if total < draft_slots:
+            low = multiplier
+        else:
+            high = multiplier
+    odds_multiplier = (low + high) / 2
+    for row, probability in zip(scored, raw_probabilities):
+        calibrated = calibrate_probability(probability, odds_multiplier)
+        row["draft_probability"] = round(calibrated, 4)
+        row["draft_likelihood"] = (
+            "very_likely" if calibrated >= 0.8 else "likely" if calibrated >= 0.6
+            else "bubble" if calibrated >= 0.4 else "long_shot" if calibrated >= 0.2 else "unlikely"
+        )
     metadata = {
         "season": 2026, "model": "ridge:full", "training_seasons": list(SEASONS),
         "training_sale_count": len(training), "selected_ridge_penalty": penalty,
@@ -493,7 +632,14 @@ def score_2026(
         "missing_input_counts": {
             feature: sum(feature in row["missing_inputs"] for row in scored) for feature in feature_names
         },
-        "interpretation": "Expected JUGG sale price conditional on the player being drafted; not a production value or draft probability.",
+        "interpretation": "Price is conditional on being drafted; draft_probability is a separate model output. Neither is a production value.",
+        "draft_probability_model": {
+            "model": probability_tournament["best_model"], "selected_parameter": probability_parameter,
+            "training_pool_count": len(probability_pool), "odds_calibration_multiplier": round(odds_multiplier, 6),
+            "probability_floor": probability_floor, "probability_ceiling": probability_ceiling,
+            "expected_drafted_count": round(sum(row["draft_probability"] for row in scored), 4),
+            "interpretation": "Probability that the player occupies one of the 140 JUGG draft slots, calibrated to sum to 140 across the supported 2026 pool.",
+        },
     }
     return scored, metadata
 
@@ -585,6 +731,7 @@ def evaluate(rows: list[dict[str, Any]]) -> dict[str, Any]:
         "calibration_coefficients_by_held_out_season": coefficients,
         "ablation_study": ablation_study(rows),
         "neutral_model_tournament": neutral_model_tournament(rows),
+        "draft_probability_tournament": draft_probability_tournament(rows),
         "notes": [
             "Sale-price errors are evaluated only for drafted players with an ESPN value.",
             "The calibrated baseline is fit without the evaluated season; it is not a random row split.",
@@ -614,7 +761,9 @@ def run(root: Path) -> Path:
     rows, inputs = build_rows(root)
     report = evaluate(rows)
     scoring_rows, scoring_inputs = build_scoring_rows(root, rows)
-    scores, scoring_metadata = score_2026(rows, scoring_rows, report["neutral_model_tournament"])
+    scores, scoring_metadata = score_2026(
+        rows, scoring_rows, report["neutral_model_tournament"], report["draft_probability_tournament"]
+    )
     inputs.update(scoring_inputs)
     built_at = datetime.now(timezone.utc)
     build_id = built_at.strftime("%Y%m%dT%H%M%SZ")

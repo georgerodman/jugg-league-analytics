@@ -1,0 +1,295 @@
+internal_player_id,player_name,position,nfl_team,draft_probability,expected_jugg_price,price_range_low,price_range_high,projected_points,position_rank,replacement_points,points_above_replacement,production_value,expected_surplus,production_value_low,production_value_high,allocation_value_spread,espn_salary_cap_value,market_missing_inputs,risk_flags,modeled_roster_slot,surplus_rank
+nfl:gsis:00-0036275,D'Andre Swift,RB,CHI,0.995,11.6,6.0,17.3,188.269,20,92.249,96.02,28.85,17.25,27.47,30.52,3.05,8,,wide_market_price_range;allocation_sensitive,True,1
+nfl:gsis:00-0036158,J.K. Dobbins,RB,DEN,0.7289,3.4,1.0,9.1,156.647,26,92.249,64.4,19.68,16.28,18.5,21.38,2.88,2,,,True,2
+nfl:gsis:00-0040719,Bhayshul Tuten,RB,JAX,0.995,9.7,4.1,15.4,178.047,23,92.249,85.8,25.89,16.19,24.57,27.57,3.0,9,prior_jugg_salary,missing_market_inputs;wide_market_price_range;allocation_sensitive,True,3
+nfl:gsis:00-0035261,Tony Pollard,RB,TEN,0.7974,4.6,1.0,10.3,155.888,28,92.249,63.64,19.46,14.86,18.29,21.16,2.87,2,,,True,4
+nfl:gsis:00-0036139,Rico Dowdle,RB,PIT,0.7799,3.5,1.0,9.2,148.47,31,92.249,56.22,17.31,13.81,16.19,19.02,2.83,3,,,True,5
+nfl:gsis:00-0041512,Jadarian Price,RB,SEA,0.995,8.1,2.4,13.7,163.609,25,92.249,71.36,21.7,13.6,20.48,23.39,2.91,8,prior_jugg_salary,missing_market_inputs;wide_market_price_range,True,6
+nfl:gsis:00-0036875,Rhamondre Stevenson,RB,NE,0.95,5.0,1.0,10.6,152.322,30,92.249,60.07,18.43,13.43,17.28,20.13,2.85,7,,,True,7
+nfl:gsis:00-0037228,Jaylen Warren,RB,PIT,0.8099,5.8,1.0,11.4,154.867,29,92.249,62.62,19.16,13.36,18.0,20.87,2.87,2,,wide_market_price_range,True,8
+nfl:gsis:00-0039361,Bucky Irving,RB,TB,0.995,14.7,9.0,20.3,183.782,21,92.249,91.53,27.55,12.85,26.2,29.23,3.03,19,,wide_market_price_range;allocation_sensitive,True,9
+nfl:gsis:00-0040784,Quinshon Judkins,RB,CLE,0.995,15.0,9.3,20.6,182.793,22,92.249,90.54,27.26,12.26,25.92,28.94,3.02,21,,wide_market_price_range;allocation_sensitive,True,10
+nfl:gsis:00-0035685,David Montgomery,RB,HOU,0.995,10.2,4.5,15.8,165.465,24,92.249,73.22,22.24,12.04,21.0,23.93,2.93,9,,wide_market_price_range,True,11
+nfl:gsis:00-0040734,TreVeyon Henderson,RB,NE,0.995,7.9,2.2,13.5,156.609,27,92.249,64.36,19.67,11.77,18.49,21.37,2.88,8,,wide_market_price_range,True,12
+nfl:gsis:00-0040242,Jacory Croskey-Merritt,RB,WAS,0.5582,2.2,1.0,7.9,134.968,33,92.249,42.72,13.39,11.19,12.36,15.11,2.75,2,prior_jugg_salary,missing_market_inputs,True,13
+nfl:gsis:00-0037525,Jordan Mason,RB,MIN,0.5025,1.1,1.0,6.8,130.662,36,92.249,38.41,12.14,11.04,11.14,13.87,2.73,2,,,True,14
+nfl:gsis:00-0036973,Travis Etienne Jr.,RB,NO,0.995,18.3,12.7,24.0,189.663,19,92.249,97.41,29.26,10.96,27.86,30.93,3.07,22,,wide_market_price_range;allocation_sensitive,True,15
+nfl:gsis:00-0040715,Cam Skattebo,RB,NYG,0.995,19.0,13.3,24.6,191.676,18,92.249,99.43,29.84,10.84,28.44,31.51,3.07,20,,wide_market_price_range;allocation_sensitive,True,16
+nfl:gsis:00-0039344,Jonathon Brooks,RB,CAR,0.6814,2.4,1.0,8.0,134.361,34,92.249,42.11,13.22,10.82,12.19,14.94,2.75,2,,,True,17
+nfl:gsis:00-0040236,Kyle Monangai,RB,CHI,0.6194,2.7,1.0,8.3,133.328,35,92.249,41.08,12.92,10.22,11.89,14.64,2.75,2,prior_jugg_salary,missing_market_inputs,True,18
+nfl:gsis:00-0036555,Chuba Hubbard,RB,CAR,0.7437,4.0,1.0,9.7,137.084,32,92.249,44.84,14.01,10.01,12.96,15.72,2.76,2,,,True,19
+nfl:gsis:00-0037840,Kyren Williams,RB,LAR,0.995,24.2,18.5,29.8,206.323,13,92.249,114.07,34.09,9.89,32.59,35.74,3.15,21,,wide_market_price_range;allocation_sensitive,True,20
+nfl:gsis:00-0037256,Rachaad White,RB,WAS,0.5613,1.0,1.0,6.7,125.464,38,92.249,33.22,10.63,9.63,9.66,12.36,2.7,2,,,True,21
+nfl:gsis:00-0036997,Javonte Williams,RB,DAL,0.995,23.3,17.6,28.9,201.141,15,92.249,108.89,32.59,9.29,31.12,34.25,3.13,26,,wide_market_price_range;allocation_sensitive,True,22
+nfl:gsis:00-0039738,Blake Corum,RB,LAR,0.5883,1.7,1.0,7.4,126.627,37,92.249,34.38,10.97,9.27,9.99,12.7,2.71,2,,,True,23
+nfl:gsis:00-0037664,Alec Pierce,WR,IND,0.7739,2.0,1.0,8.2,135.746,29,101.477,34.27,10.94,8.94,9.34,11.05,1.71,6,prior_jugg_salary,missing_market_inputs,True,24
+nfl:gsis:00-0035700,Josh Jacobs,RB,GB,0.995,27.4,21.7,33.1,213.274,11,92.249,121.03,36.11,8.71,34.56,37.75,3.19,27,,wide_market_price_range;allocation_sensitive,True,25
+nfl:gsis:00-0037240,Jameson Williams,WR,DET,0.993,7.5,1.2,13.7,152.828,17,101.477,51.35,15.9,8.4,14.28,16.06,1.78,14,,wide_market_price_range,True,26
+nfl:gsis:00-0038124,Christian Watson,WR,GB,0.8511,3.3,1.0,9.6,137.579,26,101.477,36.1,11.47,8.17,9.87,11.59,1.72,6,,,True,27
+nfl:gsis:00-0034348,Courtland Sutton,WR,DEN,0.8971,1.9,1.0,8.2,131.225,31,101.477,29.75,9.63,7.73,8.03,9.72,1.69,10,,,True,28
+nfl:gsis:00-0035640,DK Metcalf,WR,PIT,0.9198,2.2,1.0,8.5,130.935,32,101.477,29.46,9.54,7.34,7.95,9.64,1.69,7,,,True,29
+nfl:gsis:00-0033293,Aaron Jones Sr.,RB,MIN,0.533,1.9,1.0,7.6,120.422,39,92.249,28.17,9.17,7.27,8.23,10.91,2.68,1,,,True,30
+nfl:gsis:00-0031408,Mike Evans,WR,SF,0.8932,4.4,1.0,10.6,136.414,27,101.477,34.94,11.13,6.73,9.53,11.25,1.72,6,,,True,31
+nfl:gsis:00-0036919,Kenny Gainwell,RB,TB,0.617,2.0,1.0,7.6,118.424,40,92.249,26.18,8.59,6.59,7.67,10.33,2.66,2,prior_jugg_salary,missing_market_inputs,True,32
+nfl:gsis:00-0039849,Marvin Harrison Jr.,WR,ARI,0.9312,3.1,1.0,9.3,129.995,33,101.477,28.52,9.27,6.17,7.68,9.36,1.68,7,,,True,33
+nfl:gsis:00-0038120,Breece Hall,RB,NYJ,0.995,25.9,20.2,31.6,199.048,17,92.249,106.8,31.98,6.08,30.53,33.64,3.11,32,,wide_market_price_range;allocation_sensitive,True,34
+nfl:gsis:00-0040730,RJ Harvey,RB,DEN,0.5699,2.3,1.0,8.0,116.213,41,92.249,23.96,7.95,5.65,7.04,9.69,2.65,1,,,True,35
+nfl:gsis:00-0039919,Rome Odunze,WR,CHI,0.947,7.9,1.7,14.1,142.707,22,101.477,41.23,12.96,5.06,11.35,13.09,1.74,17,,wide_market_price_range,True,36
+nfl:gsis:00-0034827,DJ Moore,WR,BUF,0.995,7.0,1.0,13.2,139.03,25,101.477,37.55,11.89,4.89,10.29,12.01,1.72,11,,wide_market_price_range,True,37
+nfl:gsis:00-0039893,Brian Thomas Jr.,WR,JAX,0.7975,2.6,1.0,8.8,123.049,34,101.477,21.57,7.26,4.66,5.67,7.33,1.66,4,,,True,38
+nfl:gsis:00-0031492,Jason Myers,K,SEA,0.8019,1.6,1.0,3.9,150.42,2,132.62,17.8,6.16,4.56,6.05,6.22,0.17,1,,low_confidence_special_teams_projection,True,39
+nfl:gsis:00-0038606,Parker Washington,WR,JAX,0.8206,2.6,1.0,8.8,121.805,35,101.477,20.33,6.9,4.3,5.31,6.96,1.65,5,prior_jugg_salary,missing_market_inputs,True,40
+nfl:gsis:00-0038544,Quentin Johnston,WR,LAC,0.501,1.0,1.0,7.2,116.289,36,101.477,14.81,5.3,4.3,3.71,5.34,1.63,3,prior_jugg_salary,missing_market_inputs,True,41
+nfl:gsis:00-0038994,Jordan Addison,WR,MIN,0.6129,1.0,1.0,7.2,113.737,37,101.477,12.26,4.56,3.56,2.98,4.6,1.62,4,,,True,42
+nfl:gsis:00-0040735,Luther Burden III,WR,CHI,0.9435,7.4,1.2,13.7,135.363,30,101.477,33.89,10.83,3.43,9.23,10.94,1.71,11,prior_jugg_salary,missing_market_inputs;wide_market_price_range,True,43
+nfl:gsis:00-0039146,Jayden Reed,WR,GB,0.5162,1.0,1.0,7.2,113.246,38,101.477,11.77,4.41,3.41,2.83,4.45,1.62,3,,,True,44
+nfl:gsis:00-0032764,Derrick Henry,RB,BAL,0.9058,45.0,39.3,50.6,255.542,5,92.249,163.29,48.37,3.37,46.54,49.98,3.44,50,,wide_market_price_range;allocation_sensitive,True,45
+nfl:gsis:00-0032726,Ka'imi Fairbairn,K,HOU,0.7594,1.1,1.0,3.4,144.06,3,132.62,11.44,4.32,3.22,4.24,4.35,0.11,1,,low_confidence_special_teams_projection,True,46
+nfl:gsis:00-0039894,Xavier Worthy,WR,KC,0.4303,1.0,1.0,7.2,112.354,40,101.477,10.88,4.16,3.16,2.58,4.19,1.61,3,,,True,47
+nfl:def:DEN,Denver Broncos,DEF,DEN,0.9336,2.4,1.0,4.1,122.26,2,106.65,15.61,5.53,3.13,5.43,5.58,0.15,1,,low_confidence_special_teams_projection,True,48
+nfl:def:MIN,Minnesota Vikings,DEF,MIN,0.88,1.0,1.0,2.7,116.84,3,106.65,10.19,3.96,2.96,3.89,3.99,0.1,,espn_salary_cap_value,missing_market_inputs;low_confidence_special_teams_projection,True,49
+nfl:gsis:00-0035719,Deebo Samuel Sr.,WR,SF,0.3963,1.0,1.0,7.2,110.547,41,101.477,9.07,3.63,2.63,2.05,3.66,1.61,2,,low_draft_probability,True,50
+nfl:gsis:00-0037224,Cameron Dicker,K,LAC,0.8923,1.6,1.0,3.9,143.72,4,132.62,11.1,4.22,2.62,4.15,4.26,0.11,1,,low_confidence_special_teams_projection,True,51
+nfl:gsis:00-0034960,Jakobi Meyers,WR,JAX,0.4717,1.0,1.0,7.2,110.436,42,101.477,8.96,3.6,2.6,2.02,3.63,1.61,3,,,True,52
+nfl:def:HOU,Houston Texans,DEF,HOU,0.995,3.6,1.9,5.4,124.43,1,106.65,17.78,6.16,2.56,6.04,6.21,0.17,1,,low_confidence_special_teams_projection,True,53
+nfl:gsis:00-0035659,Terry McLaurin,WR,WAS,0.995,9.9,3.7,16.1,140.912,24,101.477,39.44,12.44,2.54,10.83,12.56,1.73,17,,wide_market_price_range,True,54
+nfl:gsis:00-0039165,Zach Charbonnet,RB,SEA,0.3162,1.7,1.0,7.4,103.286,42,92.249,11.04,4.2,2.5,3.38,5.95,2.57,1,,low_draft_probability;replacement_boundary,True,55
+nfl:gsis:00-0036252,Michael Pittman Jr.,WR,PIT,0.8007,1.0,1.0,7.2,109.829,43,101.477,8.35,3.42,2.42,1.85,3.45,1.6,5,,,True,56
+nfl:gsis:00-0038559,Michael Wilson,WR,ARI,0.6988,1.0,1.0,7.2,109.089,44,101.477,7.61,3.21,2.21,1.63,3.23,1.6,4,prior_jugg_salary,missing_market_inputs,True,57
+nfl:def:SEA,Seattle Seahawks,DEF,SEA,0.7969,1.2,1.0,2.9,114.86,5,106.65,8.21,3.38,2.18,3.33,3.41,0.08,1,,low_confidence_special_teams_projection,True,58
+nfl:gsis:00-0033921,Chris Godwin Jr.,WR,TB,0.4454,1.1,1.0,7.4,107.943,45,101.477,6.47,2.88,1.78,1.3,2.9,1.6,1,,replacement_boundary,True,59
+nfl:gsis:00-0037692,Brandon Aubrey,K,DAL,0.995,5.3,3.0,7.6,153.03,1,132.62,20.41,6.92,1.62,6.79,6.99,0.2,1,,low_confidence_special_teams_projection,True,60
+nfl:gsis:00-0031381,Davante Adams,WR,LAR,0.9942,14.5,8.3,20.7,153.436,16,101.477,51.96,16.07,1.57,14.46,16.24,1.78,25,,wide_market_price_range,True,61
+nfl:gsis:00-0037545,Rashid Shaheed,WR,SEA,0.2374,1.0,1.0,7.2,106.903,46,101.477,5.43,2.57,1.57,1.0,2.59,1.59,1,prior_jugg_salary,missing_market_inputs;low_draft_probability;replacement_boundary,True,62
+nfl:def:PIT,Pittsburgh Steelers,DEF,PIT,0.4513,2.3,1.0,4.0,115.88,4,106.65,9.23,3.68,1.38,3.62,3.71,0.09,1,,low_confidence_special_teams_projection,True,63
+nfl:gsis:00-0037834,Brock Purdy,QB,SF,0.623,2.7,1.0,7.2,335.213,8,324.987,10.23,3.97,1.27,3.96,8.8,4.84,4,,allocation_sensitive,True,64
+nfl:gsis:00-0040667,Matthew Golden,WR,GB,0.5447,1.0,1.0,7.2,105.596,47,101.477,4.12,2.19,1.19,0.0,2.21,2.21,4,,replacement_boundary,True,65
+nfl:gsis:00-0039064,Zay Flowers,WR,BAL,0.995,17.1,10.9,23.3,160.51,13,101.477,59.03,18.12,1.02,16.5,18.31,1.81,19,,wide_market_price_range,True,66
+nfl:gsis:00-0041438,Carnell Tate,WR,TEN,0.952,3.9,1.0,10.2,113.203,39,101.477,11.73,4.4,0.5,2.82,4.44,1.62,7,prior_jugg_salary,missing_market_inputs,True,67
+nfl:def:DET,Detroit Lions,DEF,DET,0.2644,1.7,1.0,3.4,110.79,8,106.65,4.14,2.2,0.5,2.17,2.21,0.04,1,,low_confidence_special_teams_projection;low_draft_probability;replacement_boundary,True,68
+nfl:gsis:00-0037197,Isiah Pacheco,RB,DET,0.349,1.3,1.0,7.0,94.906,44,92.249,2.66,1.77,0.47,1.0,3.53,2.53,1,,low_draft_probability;replacement_boundary,True,69
+nfl:gsis:00-0041027,Jeremiyah Love,RB,ARI,0.995,32.0,26.4,37.7,200.684,16,92.249,108.44,32.45,0.45,30.99,34.11,3.12,35,prior_jugg_salary,missing_market_inputs;wide_market_price_range;allocation_sensitive,True,70
+nfl:gsis:00-0033873,Patrick Mahomes II,QB,KC,0.6143,2.2,1.0,6.7,330.043,11,324.987,5.06,2.47,0.27,2.46,7.33,4.87,3,,allocation_sensitive,True,71
+nfl:def:NE,New England Patriots,DEF,NE,0.4668,1.0,1.0,2.7,107.4,9,106.65,0.75,1.22,0.22,1.21,1.22,0.01,1,,low_confidence_special_teams_projection;replacement_boundary,True,72
+nfl:gsis:00-0040129,Emeka Egbuka,WR,TB,0.9676,16.4,10.2,22.6,155.113,15,101.477,53.64,16.56,0.16,14.94,16.73,1.79,24,,wide_market_price_range,True,73
+nfl:gsis:00-0040583,Woody Marks,RB,HOU,0.2117,3.3,1.0,9.0,100.575,43,92.249,8.33,3.42,0.12,2.61,5.17,2.56,1,prior_jugg_salary,missing_market_inputs;low_draft_probability;replacement_boundary,True,74
+nfl:def:LAC,Los Angeles Chargers,DEF,LAC,0.206,2.7,1.0,4.4,112.59,6,106.65,5.94,2.72,0.02,2.68,2.74,0.06,0,prior_jugg_salary,missing_market_inputs;low_confidence_special_teams_projection;low_draft_probability,True,75
+nfl:def:BUF,Buffalo Bills,DEF,BUF,0.8645,1.0,1.0,2.7,106.65,10,106.65,0.0,1.0,0.0,1.0,1.0,0.0,,espn_salary_cap_value,missing_market_inputs;low_confidence_special_teams_projection;replacement_boundary,True,76
+nfl:gsis:00-0034837,Calvin Ridley,WR,TEN,0.062,1.0,1.0,7.2,101.477,48,101.477,0.0,1.0,0.0,0.0,1.0,1.0,1,adp_yahoo,missing_market_inputs;low_draft_probability;replacement_boundary,True,77
+nfl:gsis:00-0034351,Dallas Goedert,TE,PHI,0.6071,3.0,1.0,7.6,113.851,7,107.06,6.79,2.97,-0.03,2.78,4.14,1.36,2,,,True,78
+nfl:gsis:00-0039915,Ladd McConkey,WR,LAC,0.995,12.6,6.3,18.8,141.053,23,101.477,39.58,12.48,-0.12,10.87,12.61,1.74,15,,wide_market_price_range,True,79
+nfl:def:LAR,Los Angeles Rams,DEF,LAR,0.8991,2.5,1.0,4.2,111.3,7,106.65,4.65,2.35,-0.15,2.32,2.36,0.04,1,,low_confidence_special_teams_projection;replacement_boundary,True,80
+nfl:gsis:00-0034753,Mark Andrews,TE,BAL,0.4951,1.3,1.0,5.9,107.565,11,107.06,0.5,1.15,-0.15,1.0,2.3,1.3,2,,replacement_boundary,True,81
+nfl:gsis:00-0036613,Jaylen Waddle,WR,DEN,0.995,11.2,5.0,17.5,136.037,28,101.477,34.56,11.02,-0.18,9.42,11.13,1.71,12,,wide_market_price_range,True,82
+nfl:gsis:00-0036410,Tee Higgins,WR,CIN,0.995,16.0,9.8,22.2,150.936,19,101.477,49.46,15.35,-0.65,13.73,15.5,1.77,15,,wide_market_price_range,True,83
+nfl:gsis:00-0039172,Jake Bates,K,DET,0.3306,2.7,1.0,5.0,135.87,6,132.62,3.25,1.94,-0.76,1.92,1.95,0.03,1,,low_confidence_special_teams_projection;low_draft_probability,True,84
+nfl:gsis:00-0036971,Trevor Lawrence,QB,JAX,0.7098,4.2,1.0,8.7,333.204,9,324.987,8.22,3.38,-0.82,3.38,8.23,4.85,4,,allocation_sensitive,True,85
+nfl:gsis:00-0038597,Chase Brown,RB,CIN,0.995,37.4,31.8,43.1,214.782,10,92.249,122.53,36.54,-0.86,34.99,38.19,3.2,33,,wide_market_price_range;allocation_sensitive,True,86
+nfl:gsis:00-0039498,Harrison Mevis,K,LAR,0.4921,3.1,1.0,5.4,136.89,5,132.62,4.27,2.24,-0.86,2.21,2.25,0.04,1,prior_jugg_salary,missing_market_inputs;low_confidence_special_teams_projection,True,87
+nfl:gsis:00-0040124,Tetairoa McMillan,WR,CAR,0.995,16.7,10.4,22.9,152.5,18,101.477,51.02,15.8,-0.9,14.18,15.96,1.78,22,,wide_market_price_range,True,88
+nfl:gsis:00-0033077,Dak Prescott,QB,DAL,0.8102,5.5,1.0,10.0,337.099,7,324.987,12.11,4.51,-0.99,4.5,9.33,4.83,4,,allocation_sensitive,True,89
+nfl:def:DAL,Dallas Cowboys,DEF,DAL,0.995,1.0,1.0,2.7,95.58,23,106.65,0.0,0.0,-1.0,0.0,0.0,0.0,,espn_salary_cap_value,missing_market_inputs;low_confidence_special_teams_projection,False,90
+nfl:gsis:00-0033787,Jake Elliott,K,PHI,0.995,1.0,1.0,3.3,119.81,21,132.62,0.0,0.0,-1.0,0.0,0.0,0.0,,espn_salary_cap_value,missing_market_inputs;low_confidence_special_teams_projection,False,91
+nfl:gsis:00-0025565,Nick Folk,K,ATL,0.995,1.0,1.0,3.3,128.57,16,132.62,0.0,0.0,-1.0,0.0,0.0,0.0,,espn_salary_cap_value;adp_espn,missing_market_inputs;low_confidence_special_teams_projection,False,92
+nfl:def:SF,San Francisco 49ers,DEF,SF,0.995,1.0,1.0,2.7,88.08,31,106.65,0.0,0.0,-1.0,0.0,0.0,0.0,,espn_salary_cap_value,missing_market_inputs;low_confidence_special_teams_projection,False,93
+nfl:def:CHI,Chicago Bears,DEF,CHI,0.954,1.0,1.0,2.7,104.97,13,106.65,0.0,0.0,-1.0,0.0,0.0,0.0,,espn_salary_cap_value,missing_market_inputs;low_confidence_special_teams_projection;replacement_boundary,False,94
+nfl:def:NYG,New York Giants,DEF,NYG,0.8664,1.0,1.0,2.7,95.34,24,106.65,0.0,0.0,-1.0,0.0,0.0,0.0,,espn_salary_cap_value;prior_jugg_salary,missing_market_inputs;low_confidence_special_teams_projection,False,95
+nfl:gsis:00-0040669,Isaac TeSlaa,WR,DET,0.7147,1.0,1.0,7.2,59.716,85,101.477,0.0,0.0,-1.0,0.0,0.0,0.0,,espn_salary_cap_value;adp_espn;prior_jugg_salary,missing_market_inputs,False,96
+nfl:def:PHI,Philadelphia Eagles,DEF,PHI,0.5894,1.0,1.0,2.7,106.62,11,106.65,0.0,0.0,-1.0,0.0,0.0,0.0,1,,low_confidence_special_teams_projection;replacement_boundary,False,97
+nfl:gsis:00-0039409,Cam Little,K,JAX,0.5659,1.0,1.0,3.3,131.47,13,132.62,0.0,0.0,-1.0,0.0,0.0,0.0,1,,low_confidence_special_teams_projection;replacement_boundary,False,98
+nfl:gsis:00-0038997,Josh Downs,WR,IND,0.5546,1.0,1.0,7.2,94.917,59,101.477,0.0,0.0,-1.0,0.0,0.0,0.0,2,,,False,99
+nfl:gsis:00-0031588,Stefon Diggs,WR,WAS,0.5128,1.0,1.0,7.2,99.235,52,101.477,0.0,0.0,-1.0,0.0,0.0,0.0,1,,,False,100
+nfl:gsis:00-0040718,Travis Hunter,WR,JAX,0.4301,1.0,1.0,7.2,70.202,74,101.477,0.0,0.0,-1.0,0.0,0.0,0.0,1,,,False,101
+nfl:gsis:00-0040867,Makai Lemon,WR,PHI,0.4237,1.0,1.0,7.2,98.091,54,101.477,0.0,0.0,-1.0,0.0,0.0,0.0,1,prior_jugg_salary,missing_market_inputs,False,102
+nfl:gsis:00-0038117,Wan'Dale Robinson,WR,TEN,0.3881,1.0,1.0,7.2,99.111,53,101.477,0.0,0.0,-1.0,0.0,0.0,0.0,3,prior_jugg_salary,missing_market_inputs;low_draft_probability,False,103
+nfl:gsis:00-0033906,Alvin Kamara,RB,NO,0.3783,1.0,1.0,6.7,87.729,47,92.249,0.0,0.0,-1.0,0.0,1.45,1.45,1,,low_draft_probability;replacement_boundary,False,104
+nfl:gsis:00-0037261,Khalil Shakir,WR,BUF,0.3162,1.0,1.0,7.2,95.219,58,101.477,0.0,0.0,-1.0,0.0,0.0,0.0,2,,low_draft_probability,False,105
+nfl:gsis:00-0041035,De'Zhaun Stribling,WR,SF,0.3133,1.0,1.0,7.2,100.123,50,101.477,0.0,0.0,-1.0,0.0,0.0,0.0,1,prior_jugg_salary,missing_market_inputs;low_draft_probability;replacement_boundary,False,106
+nfl:gsis:00-0036264,Jordan Love,QB,GB,0.2761,1.0,1.0,5.5,294.312,21,324.987,0.0,0.0,-1.0,0.0,0.0,0.0,0,,low_draft_probability,False,107
+nfl:gsis:00-0033090,Hunter Henry,TE,NE,0.2713,1.0,1.0,5.6,94.764,15,107.06,0.0,0.0,-1.0,0.0,0.0,0.0,2,,low_draft_probability;replacement_boundary,False,108
+nfl:gsis:00-0041562,Fernando Mendoza,QB,LV,0.2672,1.0,1.0,5.5,208.986,30,324.987,0.0,0.0,-1.0,0.0,0.0,0.0,0,prior_jugg_salary,missing_market_inputs;low_draft_probability,False,109
+nfl:gsis:00-0040870,Ja'Kobi Lane,WR,BAL,0.2551,1.0,1.0,7.2,87.902,63,101.477,0.0,0.0,-1.0,0.0,0.0,0.0,0,prior_jugg_salary,missing_market_inputs;low_draft_probability,False,110
+nfl:def:KC,Kansas City Chiefs,DEF,KC,0.2517,1.0,1.0,2.8,93.17,26,106.65,0.0,0.0,-1.0,0.0,0.0,0.0,0,,low_confidence_special_teams_projection;low_draft_probability,False,111
+nfl:gsis:00-0039163,C.J. Stroud,QB,HOU,0.2358,1.0,1.0,5.5,284.335,24,324.987,0.0,0.0,-1.0,0.0,0.0,0.0,0,,low_draft_probability,False,112
+nfl:gsis:00-0033908,Cooper Kupp,WR,SEA,0.229,1.0,1.0,7.2,77.755,69,101.477,0.0,0.0,-1.0,0.0,0.0,0.0,0,,low_draft_probability,False,113
+nfl:gsis:00-0023459,Aaron Rodgers,QB,PIT,0.2125,1.0,1.0,5.5,245.2,29,324.987,0.0,0.0,-1.0,0.0,0.0,0.0,0,,low_draft_probability,False,114
+nfl:gsis:00-0035710,Daniel Jones,QB,IND,0.188,1.0,1.0,5.5,298.074,20,324.987,0.0,0.0,-1.0,0.0,0.0,0.0,1,,low_draft_probability,False,115
+nfl:gsis:00-0040676,Cam Ward,QB,TEN,0.1632,1.0,1.0,5.5,252.263,27,324.987,0.0,0.0,-1.0,0.0,0.0,0.0,0,prior_jugg_salary,missing_market_inputs;low_draft_probability,False,116
+nfl:gsis:00-0038977,Tank Dell,WR,HOU,0.1394,1.0,1.0,7.2,96.617,56,101.477,0.0,0.0,-1.0,0.0,0.0,0.0,1,adp_yahoo,missing_market_inputs;low_draft_probability,False,117
+nfl:gsis:00-0036259,Jauan Jennings,WR,MIN,0.1176,1.0,1.0,7.2,85.326,66,101.477,0.0,0.0,-1.0,0.0,0.0,0.0,0,adp_espn,missing_market_inputs;low_draft_probability,False,118
+nfl:gsis:00-0036407,Jerry Jeudy,WR,CLE,0.1057,1.0,1.0,7.2,90.76,62,101.477,0.0,0.0,-1.0,0.0,0.0,0.0,1,adp_yahoo,missing_market_inputs;low_draft_probability,False,119
+nfl:gsis:00-0030279,Keenan Allen,WR,IND,0.0765,1.0,1.0,7.2,83.185,67,101.477,0.0,0.0,-1.0,0.0,0.0,0.0,0,adp_yahoo,missing_market_inputs;low_draft_probability,False,120
+nfl:gsis:00-0033537,Deshaun Watson,QB,CLE,0.0385,1.0,1.0,5.5,162.508,32,324.987,0.0,0.0,-1.0,0.0,0.0,0.0,0,adp_espn;adp_yahoo,missing_market_inputs;low_draft_probability,False,121
+nfl:gsis:00-0040668,Shedeur Sanders,QB,CLE,0.0289,1.0,1.0,5.5,97.844,33,324.987,0.0,0.0,-1.0,0.0,0.0,0.0,0,adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,122
+nfl:gsis:00-0039917,Michael Penix Jr.,QB,ATL,0.0271,1.0,1.0,5.5,90.641,34,324.987,0.0,0.0,-1.0,0.0,0.0,0.0,0,adp_espn;adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,123
+nfl:gsis:00-0037741,Jahan Dotson,WR,ATL,0.0084,1.0,1.0,7.2,57.33,89,101.477,0.0,0.0,-1.0,0.0,0.0,0.0,0,adp_espn;adp_yahoo,missing_market_inputs;low_draft_probability,False,124
+nfl:gsis:00-0036212,Tua Tagovailoa,QB,ATL,0.0084,1.0,1.0,5.5,180.324,31,324.987,0.0,0.0,-1.0,0.0,0.0,0.0,0,adp_espn;adp_yahoo,missing_market_inputs;low_draft_probability,False,125
+nfl:gsis:00-0039890,Adonai Mitchell,WR,NYJ,0.005,1.0,1.0,7.2,74.125,71,101.477,0.0,0.0,-1.0,0.0,0.0,0.0,1,adp_espn;adp_yahoo,missing_market_inputs;low_draft_probability,False,126
+nfl:gsis:00-0041561,Carson Beck,QB,ARI,0.005,1.0,1.0,5.5,25.434,37,324.987,0.0,0.0,-1.0,0.0,0.0,0.0,0,adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,127
+nfl:gsis:00-0035535,Darius Slayton,WR,NYG,0.005,1.0,1.0,7.2,64.425,82,101.477,0.0,0.0,-1.0,0.0,0.0,0.0,0,adp_espn;adp_yahoo,missing_market_inputs;low_draft_probability,False,128
+nfl:gsis:00-0039923,J.J. McCarthy,QB,MIN,0.005,1.0,1.0,5.5,24.245,38,324.987,0.0,0.0,-1.0,0.0,0.0,0.0,0,adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,129
+nfl:gsis:00-0026158,Joe Flacco,QB,CIN,0.005,1.0,1.0,5.5,11.486,55,324.987,0.0,0.0,-1.0,0.0,0.0,0.0,0,adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,130
+nfl:gsis:00-0036945,Justin Fields,QB,KC,0.005,1.0,1.0,5.5,13.021,43,324.987,0.0,0.0,-1.0,0.0,0.0,0.0,0,adp_yahoo,missing_market_inputs;low_draft_probability,False,131
+nfl:gsis:00-0029604,Kirk Cousins,QB,LV,0.005,1.0,1.0,5.5,52.198,35,324.987,0.0,0.0,-1.0,0.0,0.0,0.0,0,adp_yahoo,missing_market_inputs;low_draft_probability,False,132
+nfl:gsis:00-0040666,Omarion Hampton,RB,LAC,0.995,34.5,28.8,40.1,203.971,14,92.249,111.72,33.41,-1.09,31.92,35.06,3.14,34,,wide_market_price_range;allocation_sensitive,True,133
+nfl:gsis:00-0037746,Brian Robinson Jr.,RB,ATL,0.3524,1.1,1.0,6.8,86.168,48,92.249,0.0,0.0,-1.1,0.0,1.0,1.0,1,,low_draft_probability;replacement_boundary,False,134
+nfl:gsis:00-0040737,Terrance Ferguson,TE,LAR,0.2021,1.1,1.0,5.7,83.135,20,107.06,0.0,0.0,-1.1,0.0,0.0,0.0,2,prior_jugg_salary,missing_market_inputs;low_draft_probability,False,135
+nfl:gsis:00-0040899,Trey Smack,K,GB,0.995,1.2,1.0,3.5,126.86,18,132.62,0.0,0.0,-1.2,0.0,0.0,0.0,,espn_salary_cap_value;prior_jugg_salary,missing_market_inputs;low_confidence_special_teams_projection,False,136
+nfl:def:CLE,Cleveland Browns,DEF,CLE,0.2803,1.2,1.0,2.9,101.11,17,106.65,0.0,0.0,-1.2,0.0,0.0,0.0,1,,low_confidence_special_teams_projection;low_draft_probability,False,137
+nfl:gsis:00-0034855,Baker Mayfield,QB,TB,0.2453,1.2,1.0,5.7,307.711,17,324.987,0.0,0.0,-1.2,0.0,1.0,1.0,1,,low_draft_probability;replacement_boundary,False,138
+nfl:gsis:00-0041547,KC Concepcion,WR,CLE,0.2079,1.2,1.0,7.5,99.637,51,101.477,0.0,0.0,-1.2,0.0,0.0,0.0,1,prior_jugg_salary,missing_market_inputs;low_draft_probability;replacement_boundary,False,139
+nfl:gsis:00-0039855,Jalen McMillan,WR,TB,0.119,1.2,1.0,7.4,87.23,64,101.477,0.0,0.0,-1.2,0.0,0.0,0.0,1,prior_jugg_salary,missing_market_inputs;low_draft_probability,False,140
+nfl:gsis:00-0033119,Jacoby Brissett,QB,ARI,0.005,1.2,1.0,5.7,251.825,28,324.987,0.0,0.0,-1.2,0.0,0.0,0.0,0,adp_espn;adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,141
+nfl:gsis:00-0038134,Kenneth Walker III,RB,KC,0.995,37.0,31.3,42.6,212.193,12,92.249,119.94,35.79,-1.21,34.25,37.44,3.19,37,,wide_market_price_range;allocation_sensitive,True,142
+nfl:gsis:00-0041029,Jordyn Tyson,WR,NO,0.4586,1.3,1.0,7.6,69.001,75,101.477,0.0,0.0,-1.3,0.0,0.0,0.0,1,prior_jugg_salary,missing_market_inputs,False,143
+nfl:gsis:00-0035228,Kyler Murray,QB,MIN,0.3442,1.3,1.0,5.8,303.667,19,324.987,0.0,0.0,-1.3,0.0,0.0,0.0,1,,low_draft_probability,False,144
+nfl:gsis:00-0039150,Bryce Young,QB,CAR,0.1792,1.3,1.0,5.8,278.491,25,324.987,0.0,0.0,-1.3,0.0,0.0,0.0,0,prior_jugg_salary,missing_market_inputs;low_draft_probability,False,145
+nfl:gsis:00-0038128,Malik Willis,QB,MIA,0.1745,1.3,1.0,5.8,287.945,23,324.987,0.0,0.0,-1.3,0.0,0.0,0.0,1,prior_jugg_salary,missing_market_inputs;low_draft_probability,False,146
+nfl:gsis:00-0038563,Tre Tucker,WR,LV,0.0484,1.3,1.0,7.5,92.049,61,101.477,0.0,0.0,-1.3,0.0,0.0,0.0,1,adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,147
+nfl:gsis:00-0039901,Keon Coleman,WR,BUF,0.005,1.3,1.0,7.6,50.213,101,101.477,0.0,0.0,-1.3,0.0,0.0,0.0,0,adp_espn;adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,148
+nfl:gsis:00-0036550,Rashod Bateman,WR,BAL,0.005,1.3,1.0,7.6,95.423,57,101.477,0.0,0.0,-1.3,0.0,0.0,0.0,0,adp_espn;adp_yahoo,missing_market_inputs;low_draft_probability,False,149
+nfl:gsis:00-0041044,Zachariah Branch,WR,ATL,0.005,1.3,1.0,7.6,48.869,102,101.477,0.0,0.0,-1.3,0.0,0.0,0.0,0,adp_espn;adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,150
+nfl:gsis:00-0034869,Sam Darnold,QB,SEA,0.2467,1.4,1.0,5.9,293.605,22,324.987,0.0,0.0,-1.4,0.0,0.0,0.0,0,prior_jugg_salary,missing_market_inputs;low_draft_probability,False,151
+nfl:gsis:00-0041525,Chris Bell,WR,MIA,0.005,1.4,1.0,7.7,59.382,86,101.477,0.0,0.0,-1.4,0.0,0.0,0.0,0,adp_espn;adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,152
+nfl:gsis:00-0037666,Jalen Tolbert,WR,MIA,0.005,1.4,1.0,7.6,51.593,98,101.477,0.0,0.0,-1.4,0.0,0.0,0.0,0,adp_espn;adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,153
+nfl:gsis:00-0039410,Ryan Flournoy,WR,DAL,0.005,1.4,1.0,7.6,55.388,92,101.477,0.0,0.0,-1.4,0.0,0.0,0.0,0,adp_espn;adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,154
+nfl:gsis:00-0040727,Tre' Harris,WR,LAC,0.005,1.4,1.0,7.6,55.234,93,101.477,0.0,0.0,-1.4,0.0,0.0,0.0,0,adp_espn;adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,155
+nfl:gsis:00-0039342,Xavier Legette,WR,CAR,0.005,1.4,1.0,7.6,57.907,88,101.477,0.0,0.0,-1.4,0.0,0.0,0.0,0,adp_espn;adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,156
+nfl:gsis:00-0038041,Jake Ferguson,TE,DAL,0.5082,1.5,1.0,6.1,93.515,16,107.06,0.0,0.0,-1.5,0.0,0.0,0.0,2,,,False,157
+nfl:gsis:00-0033303,Harrison Butker,K,KC,0.4606,1.5,1.0,3.8,131.95,12,132.62,0.0,0.0,-1.5,0.0,0.0,0.0,1,,low_confidence_special_teams_projection;replacement_boundary,False,158
+nfl:gsis:00-0033553,James Conner,RB,ARI,0.2129,1.5,1.0,7.2,43.5,71,92.249,0.0,0.0,-1.5,0.0,0.0,0.0,0,adp_espn,missing_market_inputs;low_draft_probability,False,159
+nfl:gsis:00-0041032,Kenyon Sadiq,TE,NYJ,0.1963,1.5,1.0,6.1,77.521,23,107.06,0.0,0.0,-1.5,0.0,0.0,0.0,2,prior_jugg_salary,missing_market_inputs;low_draft_probability,False,160
+nfl:gsis:00-0041040,Antonio Williams,WR,WAS,0.005,1.5,1.0,7.8,68.731,76,101.477,0.0,0.0,-1.5,0.0,0.0,0.0,0,adp_espn;adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,161
+nfl:gsis:00-0041523,Caleb Douglas,WR,MIA,0.005,1.5,1.0,7.8,71.101,72,101.477,0.0,0.0,-1.5,0.0,0.0,0.0,1,adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,162
+nfl:gsis:00-0038393,Dontayvion Wicks,WR,PHI,0.005,1.5,1.0,7.8,68.415,78,101.477,0.0,0.0,-1.5,0.0,0.0,0.0,0,adp_espn;adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,163
+nfl:gsis:00-0030565,Geno Smith,QB,NYJ,0.005,1.5,1.0,5.9,256.975,26,324.987,0.0,0.0,-1.5,0.0,0.0,0.0,0,adp_espn;adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,164
+nfl:gsis:00-0041489,Germie Bernard,WR,PIT,0.005,1.5,1.0,7.8,67.993,79,101.477,0.0,0.0,-1.5,0.0,0.0,0.0,0,adp_espn;adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,165
+nfl:gsis:00-0039880,Malik Washington,WR,MIA,0.005,1.5,1.0,7.7,66.453,81,101.477,0.0,0.0,-1.5,0.0,0.0,0.0,0,adp_espn;adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,166
+nfl:gsis:00-0038104,Tyquan Thornton,WR,KC,0.005,1.5,1.0,7.8,67.455,80,101.477,0.0,0.0,-1.5,0.0,0.0,0.0,0,adp_espn;adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,167
+nfl:gsis:00-0037740,Garrett Wilson,WR,NYJ,0.995,15.6,9.3,21.8,146.57,21,101.477,45.09,14.08,-1.52,12.47,14.22,1.75,23,,wide_market_price_range,True,168
+nfl:gsis:00-0039032,Tyjae Spears,RB,TEN,0.1705,2.6,1.0,8.3,92.249,45,92.249,0.0,1.0,-1.6,0.0,2.76,2.76,1,,low_draft_probability;replacement_boundary,True,169
+nfl:gsis:00-0041037,Denzel Boston,WR,CLE,0.1041,1.6,1.0,7.8,93.028,60,101.477,0.0,0.0,-1.6,0.0,0.0,0.0,1,prior_jugg_salary,missing_market_inputs;low_draft_probability,False,170
+nfl:gsis:00-0041511,Omar Cooper Jr.,WR,NYJ,0.0419,1.6,1.0,7.9,58.523,87,101.477,0.0,0.0,-1.6,0.0,0.0,0.0,0,adp_espn;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,171
+nfl:gsis:00-0040138,Jaylin Noel,WR,HOU,0.005,1.6,1.0,7.8,70.354,73,101.477,0.0,0.0,-1.6,0.0,0.0,0.0,0,adp_espn;adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,172
+nfl:gsis:00-0038608,Kayshon Boutte,WR,NE,0.005,1.6,1.0,7.9,75.929,70,101.477,0.0,0.0,-1.6,0.0,0.0,0.0,0,adp_espn;adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,173
+nfl:gsis:00-0026498,Matthew Stafford,QB,LAR,0.7515,3.5,1.0,8.0,327.994,13,324.987,3.01,1.87,-1.63,1.87,6.75,4.88,4,,replacement_boundary;allocation_sensitive,True,174
+nfl:def:ATL,Atlanta Falcons,DEF,ATL,0.7165,1.7,1.0,3.4,101.75,16,106.65,0.0,0.0,-1.7,0.0,0.0,0.0,,espn_salary_cap_value;adp_espn;prior_jugg_salary,missing_market_inputs;low_confidence_special_teams_projection,False,175
+nfl:gsis:00-0038933,Dalton Kincaid,TE,BUF,0.4973,1.7,1.0,6.3,103.133,13,107.06,0.0,0.0,-1.7,0.0,1.0,1.0,2,,replacement_boundary,False,176
+nfl:gsis:00-0037816,Romeo Doubs,WR,NE,0.1553,1.7,1.0,7.9,101.25,49,101.477,0.0,0.0,-1.7,0.0,0.0,0.0,1,prior_jugg_salary,missing_market_inputs;low_draft_probability;replacement_boundary,False,177
+nfl:gsis:00-0039424,Devaughn Vele,WR,NO,0.005,1.7,1.0,7.9,78.511,68,101.477,0.0,0.0,-1.7,0.0,0.0,0.0,0,adp_espn;adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,178
+nfl:gsis:00-0039732,Bo Nix,QB,DEN,0.7639,2.8,1.0,7.3,324.987,15,324.987,0.0,1.0,-1.8,1.0,5.9,4.9,4,,replacement_boundary;allocation_sensitive,True,179
+nfl:gsis:00-0035229,T.J. Hockenson,TE,MIN,0.2609,1.8,1.0,6.4,76.727,24,107.06,0.0,0.0,-1.8,0.0,0.0,0.0,1,,low_draft_probability,False,180
+nfl:gsis:00-0036972,Mac Jones,QB,SF,0.005,1.8,1.0,6.3,11.49,54,324.987,0.0,0.0,-1.8,0.0,0.0,0.0,0,adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,181
+nfl:def:BAL,Baltimore Ravens,DEF,BAL,0.3478,1.9,1.0,3.6,106.0,12,106.65,0.0,0.0,-1.9,0.0,0.0,0.0,1,,low_confidence_special_teams_projection;low_draft_probability;replacement_boundary,False,182
+nfl:gsis:00-0031136,Chris Boswell,K,PIT,0.3309,2.0,1.0,4.3,118.33,23,132.62,0.0,0.0,-2.0,0.0,0.0,0.0,0,,low_confidence_special_teams_projection;low_draft_probability,False,183
+nfl:gsis:00-0034383,Dalton Schultz,TE,HOU,0.1136,2.0,1.0,6.6,83.843,19,107.06,0.0,0.0,-2.0,0.0,0.0,0.0,0,,low_draft_probability,False,184
+nfl:gsis:00-0037291,Jalen Nailor,WR,LV,0.0489,2.0,1.0,8.2,86.83,65,101.477,0.0,0.0,-2.0,0.0,0.0,0.0,0,adp_espn;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,185
+nfl:gsis:00-0037838,Isaiah Likely,TE,NYG,0.4669,2.1,1.0,6.7,102.216,14,107.06,0.0,0.0,-2.1,0.0,0.0,0.0,2,prior_jugg_salary,missing_market_inputs;replacement_boundary,False,186
+nfl:gsis:00-0033106,Jared Goff,QB,DET,0.348,2.1,1.0,6.6,319.35,16,324.987,0.0,0.0,-2.1,0.0,4.3,4.3,1,,low_draft_probability;replacement_boundary;allocation_sensitive,False,187
+nfl:gsis:00-0039491,Jalen Coker,WR,CAR,0.1002,2.1,1.0,8.3,97.029,55,101.477,0.0,0.0,-2.1,0.0,0.0,0.0,1,prior_jugg_salary,missing_market_inputs;low_draft_probability,False,188
+nfl:gsis:00-0036223,Jonathan Taylor,RB,IND,0.9737,53.9,48.2,59.5,267.246,3,92.249,175.0,51.76,-2.14,49.86,53.36,3.5,52,,wide_market_price_range;allocation_sensitive,True,189
+nfl:gsis:00-0036162,Tyler Bass,K,BUF,0.8272,2.2,1.0,4.5,123.58,19,132.62,0.0,0.0,-2.2,0.0,0.0,0.0,,espn_salary_cap_value,missing_market_inputs;low_confidence_special_teams_projection,False,190
+nfl:def:TB,Tampa Bay Buccaneers,DEF,TB,0.1488,2.2,1.0,3.9,97.28,22,106.65,0.0,0.0,-2.2,0.0,0.0,0.0,0,adp_yahoo,missing_market_inputs;low_confidence_special_teams_projection;low_draft_probability,False,191
+nfl:gsis:00-0040586,Jaydon Blue,RB,DAL,0.0389,2.2,1.0,7.8,45.873,67,92.249,0.0,0.0,-2.2,0.0,0.0,0.0,0,adp_espn;adp_yahoo,missing_market_inputs;low_draft_probability,False,192
+nfl:gsis:00-0039384,Tyrone Tracy Jr.,RB,NYG,0.1534,2.3,1.0,7.9,78.503,53,92.249,0.0,0.0,-2.3,0.0,0.0,0.0,0,,low_draft_probability,False,193
+nfl:gsis:00-0033885,David Njoku,TE,LAC,0.0945,2.4,1.0,7.0,65.138,29,107.06,0.0,0.0,-2.4,0.0,0.0,0.0,0,,low_draft_probability,False,194
+nfl:gsis:00-0033288,George Kittle,TE,SF,0.6856,4.1,1.0,8.7,109.381,10,107.06,2.32,1.67,-2.43,1.51,2.83,1.32,2,,replacement_boundary,True,195
+nfl:gsis:00-0032569,Wil Lutz,K,DEN,0.8539,2.5,1.0,4.8,128.51,17,132.62,0.0,0.0,-2.5,0.0,0.0,0.0,,espn_salary_cap_value,missing_market_inputs;low_confidence_special_teams_projection,False,196
+nfl:gsis:00-0030506,Travis Kelce,TE,KC,0.6816,3.5,1.0,8.1,107.06,12,107.06,0.0,1.0,-2.5,0.0,2.15,2.15,2,,replacement_boundary,True,197
+nfl:gsis:00-0034173,Eddy Pineiro,K,SF,0.3313,3.5,1.2,5.9,132.62,10,132.62,0.0,1.0,-2.5,1.0,1.0,0.0,1,prior_jugg_salary,missing_market_inputs;low_confidence_special_teams_projection;low_draft_probability;replacement_boundary,True,198
+nfl:gsis:00-0037263,Tyler Allgeier,RB,ARI,0.1947,2.5,1.0,8.1,81.241,51,92.249,0.0,0.0,-2.5,0.0,0.0,0.0,1,prior_jugg_salary,missing_market_inputs;low_draft_probability,False,199
+nfl:def:JAX,Jacksonville Jaguars,DEF,JAX,0.1877,2.5,1.0,4.2,103.87,14,106.65,0.0,0.0,-2.5,0.0,0.0,0.0,0,prior_jugg_salary,missing_market_inputs;low_confidence_special_teams_projection;low_draft_probability,False,200
+nfl:gsis:00-0040162,Dylan Sampson,RB,CLE,0.1133,2.5,1.0,8.2,72.059,57,92.249,0.0,0.0,-2.5,0.0,0.0,0.0,0,adp_espn,missing_market_inputs;low_draft_probability,False,201
+nfl:gsis:00-0033526,Samaje Perine,RB,CIN,0.0575,2.5,1.0,8.1,78.25,55,92.249,0.0,0.0,-2.5,0.0,0.0,0.0,0,adp_espn;adp_yahoo,missing_market_inputs;low_draft_probability,False,202
+nfl:gsis:00-0040691,Jaxson Dart,QB,NYG,0.8194,5.6,1.1,10.1,332.163,10,324.987,7.18,3.08,-2.52,3.08,7.93,4.85,5,prior_jugg_salary,missing_market_inputs;allocation_sensitive,True,203
+nfl:gsis:00-0036040,Juwan Johnson,TE,NO,0.1328,2.6,1.0,7.3,90.045,18,107.06,0.0,0.0,-2.6,0.0,0.0,0.0,0,prior_jugg_salary,missing_market_inputs;low_draft_probability,False,204
+nfl:gsis:00-0040743,Tyler Shough,QB,NO,0.1296,2.6,1.0,7.1,307.556,18,324.987,0.0,0.0,-2.6,0.0,0.0,0.0,1,prior_jugg_salary,missing_market_inputs;low_draft_probability;replacement_boundary,False,205
+nfl:gsis:00-0038555,Tank Bigsby,RB,PHI,0.1173,2.6,1.0,8.2,78.354,54,92.249,0.0,0.0,-2.6,0.0,0.0,0.0,1,,low_draft_probability,False,206
+nfl:def:GB,Green Bay Packers,DEF,GB,0.1563,2.7,1.0,4.4,99.06,20,106.65,0.0,0.0,-2.7,0.0,0.0,0.0,0,prior_jugg_salary,missing_market_inputs;low_confidence_special_teams_projection;low_draft_probability,False,207
+nfl:gsis:00-0031610,Darren Waller,TE,CAR,0.005,2.7,1.0,7.3,70.414,28,107.06,0.0,0.0,-2.7,0.0,0.0,0.0,0,adp_espn;adp_yahoo,missing_market_inputs;low_draft_probability,False,208
+nfl:gsis:00-0036970,Kyle Pitts Sr.,TE,ATL,0.9616,6.4,1.8,11.0,116.185,6,107.06,9.12,3.65,-2.75,3.44,4.83,1.39,6,,,True,209
+nfl:gsis:00-0036894,Pat Freiermuth,TE,PIT,0.1296,2.8,1.0,7.4,81.141,21,107.06,0.0,0.0,-2.8,0.0,0.0,0.0,0,prior_jugg_salary,missing_market_inputs;low_draft_probability,False,210
+nfl:gsis:00-0038797,Emanuel Wilson,RB,SEA,0.036,2.8,1.0,8.5,43.641,69,92.249,0.0,0.0,-2.8,0.0,0.0,0.0,0,adp_espn;adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,211
+nfl:gsis:00-0039874,Jaylen Wright,RB,MIA,0.036,2.8,1.0,8.5,43.558,70,92.249,0.0,0.0,-2.8,0.0,0.0,0.0,0,adp_espn;adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,212
+nfl:gsis:00-0039798,Isaiah Davis,RB,NYJ,0.0302,2.8,1.0,8.5,33.442,75,92.249,0.0,0.0,-2.8,0.0,0.0,0.0,0,adp_espn;adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,213
+nfl:gsis:00-0039299,George Holani,RB,SEA,0.03,2.8,1.0,8.5,33.116,76,92.249,0.0,0.0,-2.8,0.0,0.0,0.0,0,adp_espn;adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,214
+nfl:gsis:00-0031203,Cairo Santos,K,CHI,0.224,4.1,1.8,6.4,133.31,8,132.62,0.69,1.2,-2.9,1.2,1.2,0.0,0,prior_jugg_salary,missing_market_inputs;low_confidence_special_teams_projection;low_draft_probability;replacement_boundary,True,215
+nfl:gsis:00-0039793,AJ Barner,TE,SEA,0.0989,2.9,1.0,7.5,75.809,25,107.06,0.0,0.0,-2.9,0.0,0.0,0.0,0,prior_jugg_salary,missing_market_inputs;low_draft_probability,False,216
+nfl:gsis:00-0038935,Brenton Strange,TE,JAX,0.0872,2.9,1.0,7.5,91.704,17,107.06,0.0,0.0,-2.9,0.0,0.0,0.0,1,prior_jugg_salary,missing_market_inputs;low_draft_probability,False,217
+nfl:gsis:00-0040189,Oronde Gadsden II,TE,LAC,0.0598,2.9,1.0,7.5,63.29,32,107.06,0.0,0.0,-2.9,0.0,0.0,0.0,0,adp_espn;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,218
+nfl:gsis:00-0040888,Adam Randall,RB,BAL,0.0411,2.9,1.0,8.6,56.227,63,92.249,0.0,0.0,-2.9,0.0,0.0,0.0,0,adp_espn;adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,219
+nfl:gsis:00-0038685,Chris Brooks,RB,GB,0.0388,2.9,1.0,8.5,49.821,65,92.249,0.0,0.0,-2.9,0.0,0.0,0.0,0,adp_espn;adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,220
+nfl:gsis:00-0039391,Kimani Vidal,RB,LAC,0.0376,2.9,1.0,8.5,47.15,66,92.249,0.0,0.0,-2.9,0.0,0.0,0.0,0,adp_espn;adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,221
+nfl:gsis:00-0040198,Ollie Gordon II,RB,MIA,0.0284,2.9,1.0,8.5,30.881,80,92.249,0.0,0.0,-2.9,0.0,0.0,0.0,0,adp_espn;adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,222
+nfl:gsis:00-0038951,Sean Tucker,RB,TB,0.0283,2.9,1.0,8.5,30.641,81,92.249,0.0,0.0,-2.9,0.0,0.0,0.0,0,adp_espn;adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,223
+nfl:gsis:00-0041013,Emmett Johnson,RB,KC,0.0274,2.9,1.0,8.5,29.493,82,92.249,0.0,0.0,-2.9,0.0,0.0,0.0,0,adp_espn;adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,224
+nfl:gsis:00-0040238,LeQuint Allen Jr.,RB,JAX,0.0267,2.9,1.0,8.5,28.553,83,92.249,0.0,0.0,-2.9,0.0,0.0,0.0,0,adp_espn;adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,225
+nfl:gsis:00-0040179,DJ Giddens,RB,IND,0.0258,2.9,1.0,8.5,27.397,86,92.249,0.0,0.0,-2.9,0.0,0.0,0.0,0,adp_espn;adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,226
+nfl:gsis:00-0040021,Phil Mafah,RB,DAL,0.0253,2.9,1.0,8.5,26.717,88,92.249,0.0,0.0,-2.9,0.0,0.0,0.0,0,adp_espn;adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,227
+nfl:gsis:00-0039875,Ray Davis,RB,BUF,0.0191,2.9,1.0,8.5,28.108,84,92.249,0.0,0.0,-2.9,0.0,0.0,0.0,1,adp_espn;adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,228
+nfl:gsis:00-0040878,Mike Washington Jr.,RB,LV,0.1521,3.0,1.0,8.7,67.87,60,92.249,0.0,0.0,-3.0,0.0,0.0,0.0,0,prior_jugg_salary,missing_market_inputs;low_draft_probability,False,229
+nfl:gsis:00-0038705,Emari Demercado,RB,KC,0.0437,3.0,1.0,8.7,66.35,61,92.249,0.0,0.0,-3.0,0.0,0.0,0.0,0,adp_espn;adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,230
+nfl:gsis:00-0040177,Jordan James,RB,SF,0.0427,3.0,1.0,8.7,61.913,62,92.249,0.0,0.0,-3.0,0.0,0.0,0.0,0,adp_espn;adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,231
+nfl:gsis:00-0041096,Kaytron Allen,RB,WAS,0.0181,3.0,1.0,8.6,18.497,101,92.249,0.0,0.0,-3.0,0.0,0.0,0.0,0,adp_espn;adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,232
+nfl:gsis:00-0040208,Tahj Brooks,RB,CIN,0.0179,3.0,1.0,8.6,18.242,102,92.249,0.0,0.0,-3.0,0.0,0.0,0.0,0,adp_espn;adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,233
+nfl:gsis:00-0039746,Will Shipley,RB,PHI,0.016,3.0,1.0,8.7,16.283,105,92.249,0.0,0.0,-3.0,0.0,0.0,0.0,0,adp_espn;adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,234
+nfl:gsis:00-0040886,Nicholas Singleton,RB,TEN,0.0151,3.0,1.0,8.7,15.448,106,92.249,0.0,0.0,-3.0,0.0,0.0,0.0,0,adp_espn;adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,235
+nfl:gsis:00-0036355,Justin Herbert,QB,LAC,0.6648,4.3,1.0,8.8,325.801,14,324.987,0.81,1.24,-3.06,1.24,6.13,4.89,3,,replacement_boundary;allocation_sensitive,True,236
+nfl:gsis:00-0035537,Ty Johnson,RB,BUF,0.0444,3.1,1.0,8.8,69.659,58,92.249,0.0,0.0,-3.1,0.0,0.0,0.0,0,adp_espn;adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,237
+nfl:gsis:00-0041104,Demond Claiborne,RB,MIN,0.0117,3.1,1.0,8.7,12.193,108,92.249,0.0,0.0,-3.1,0.0,0.0,0.0,0,adp_espn;adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,238
+nfl:gsis:00-0038611,Chris Rodriguez Jr.,RB,JAX,0.1411,3.2,1.0,8.9,90.219,46,92.249,0.0,0.0,-3.2,0.0,2.17,2.17,1,prior_jugg_salary,missing_market_inputs;low_draft_probability;replacement_boundary,False,239
+nfl:gsis:00-0034975,Justice Hill,RB,BAL,0.0457,3.2,1.0,8.9,79.414,52,92.249,0.0,0.0,-3.2,0.0,0.0,0.0,0,adp_espn;adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,240
+nfl:gsis:00-0041052,Kaelon Black,RB,SF,0.0455,3.2,1.0,8.9,78.065,56,92.249,0.0,0.0,-3.2,0.0,0.0,0.0,0,adp_espn;adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,241
+nfl:gsis:00-0040200,Andy Borregales,K,NE,0.7438,3.3,1.0,5.6,119.37,22,132.62,0.0,0.0,-3.3,0.0,0.0,0.0,,espn_salary_cap_value;adp_espn;prior_jugg_salary,missing_market_inputs;low_confidence_special_teams_projection,False,242
+nfl:gsis:00-0039794,Braelon Allen,RB,NYJ,0.0459,3.3,1.0,9.0,82.68,49,92.249,0.0,0.0,-3.3,0.0,0.0,0.0,0,adp_espn;adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,243
+nfl:gsis:00-0039066,Michael Mayer,TE,LV,0.005,3.3,1.0,7.9,50.138,37,107.06,0.0,0.0,-3.3,0.0,0.0,0.0,0,adp_espn;adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,244
+nfl:gsis:00-0040074,Tyler Loop,K,BAL,0.2808,3.4,1.1,5.7,132.06,11,132.62,0.0,0.0,-3.4,0.0,0.0,0.0,1,prior_jugg_salary,missing_market_inputs;low_confidence_special_teams_projection;low_draft_probability;replacement_boundary,False,245
+nfl:gsis:00-0036244,Colby Parkinson,TE,LAR,0.005,3.4,1.0,8.0,57.858,34,107.06,0.0,0.0,-3.4,0.0,0.0,0.0,0,adp_espn;adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,246
+nfl:gsis:00-0040584,Gunnar Helm,TE,TEN,0.005,3.4,1.0,8.0,62.668,33,107.06,0.0,0.0,-3.4,0.0,0.0,0.0,0,adp_espn;adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,247
+nfl:gsis:00-0034829,Mike Gesicki,TE,CIN,0.005,3.4,1.0,8.0,64.669,30,107.06,0.0,0.0,-3.4,0.0,0.0,0.0,0,adp_espn;adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,248
+nfl:gsis:00-0036854,Evan McPherson,K,CIN,0.2046,3.5,1.2,5.8,128.72,15,132.62,0.0,0.0,-3.5,0.0,0.0,0.0,0,,low_confidence_special_teams_projection;low_draft_probability,False,249
+nfl:gsis:00-0037809,Chig Okonkwo,TE,WAS,0.0615,3.5,1.0,8.1,73.401,27,107.06,0.0,0.0,-3.5,0.0,0.0,0.0,0,prior_jugg_salary,missing_market_inputs;low_draft_probability,False,250
+nfl:gsis:00-0035358,Chase McLaughlin,K,TB,0.1818,4.6,2.3,6.9,132.85,9,132.62,0.23,1.07,-3.53,1.07,1.07,0.0,0,prior_jugg_salary,missing_market_inputs;low_confidence_special_teams_projection;low_draft_probability;replacement_boundary,True,251
+nfl:gsis:00-0039404,Will Reichard,K,MIN,0.26,3.6,1.3,5.9,130.72,14,132.62,0.0,0.0,-3.6,0.0,0.0,0.0,0,prior_jugg_salary,missing_market_inputs;low_confidence_special_teams_projection;low_draft_probability,False,252
+nfl:gsis:00-0038129,Cade Otton,TE,TB,0.005,3.6,1.0,8.2,74.055,26,107.06,0.0,0.0,-3.6,0.0,0.0,0.0,0,adp_espn;adp_yahoo;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,253
+nfl:gsis:00-0037239,Chris Olave,WR,NO,0.995,23.4,17.2,29.6,166.21,12,101.477,64.73,19.78,-3.62,18.15,19.98,1.83,30,,wide_market_price_range,True,254
+nfl:gsis:00-0038996,Tucker Kraft,TE,GB,0.7179,7.5,2.9,12.1,116.94,5,107.06,9.88,3.87,-3.63,3.66,5.05,1.39,2,,,True,255
+nfl:gsis:00-0038454,Keaton Mitchell,RB,LAC,0.071,3.7,1.0,9.3,68.866,59,92.249,0.0,0.0,-3.7,0.0,0.0,0.0,1,prior_jugg_salary,missing_market_inputs;low_draft_probability,False,256
+nfl:gsis:00-0041496,Jonah Coleman,RB,DEN,0.0596,3.7,1.0,9.4,39.222,74,92.249,0.0,0.0,-3.7,0.0,0.0,0.0,1,prior_jugg_salary,missing_market_inputs;low_draft_probability,False,257
+nfl:gsis:00-0039811,MarShawn Lloyd,RB,GB,0.0393,3.7,1.0,9.4,45.485,68,92.249,0.0,0.0,-3.7,0.0,0.0,0.0,0,adp_espn;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,258
+nfl:gsis:00-0040663,Harold Fannin Jr.,TE,CLE,0.8771,6.6,2.0,11.2,112.505,8,107.06,5.44,2.58,-4.02,2.4,3.75,1.35,6,prior_jugg_salary,missing_market_inputs,True,259
+nfl:gsis:00-0040122,Ashton Jeanty,RB,LV,0.995,41.5,35.8,47.2,217.985,9,92.249,125.74,37.47,-4.03,35.89,39.12,3.23,36,,wide_market_price_range;allocation_sensitive,True,260
+nfl:gsis:00-0039918,Caleb Williams,QB,CHI,0.7226,6.3,1.8,10.8,328.841,12,324.987,3.85,2.12,-4.18,2.11,6.99,4.88,3,prior_jugg_salary,missing_market_inputs;replacement_boundary;allocation_sensitive,True,261
+nfl:gsis:00-0036389,Jalen Hurts,QB,PHI,0.995,10.9,6.4,15.4,344.583,5,324.987,19.6,6.68,-4.22,6.67,11.45,4.78,9,,allocation_sensitive,True,262
+nfl:gsis:00-0037252,Greg Dulcich,TE,MIA,0.005,4.4,1.0,9.1,78.94,22,107.06,0.0,0.0,-4.4,0.0,0.0,0.0,0,adp_espn;prior_jugg_salary,missing_market_inputs;low_draft_probability,False,263
+nfl:gsis:00-0039040,De'Von Achane,RB,MIA,0.995,44.6,39.0,50.3,227.129,7,92.249,134.88,40.12,-4.48,38.49,41.76,3.27,45,,wide_market_price_range;allocation_sensitive,True,264
+nfl:gsis:00-0039910,Jayden Daniels,QB,WAS,0.995,11.7,7.2,16.2,346.325,4,324.987,21.34,7.19,-4.51,7.17,11.95,4.78,10,,allocation_sensitive,True,265
+nfl:gsis:00-0039851,Drake Maye,QB,NE,0.9812,13.1,8.6,17.6,350.929,3,324.987,25.94,8.52,-4.58,8.5,13.25,4.75,10,,allocation_sensitive,True,266
+nfl:gsis:00-0036912,DeVonta Smith,WR,PHI,0.995,19.4,13.2,25.6,149.035,20,101.477,47.56,14.79,-4.61,13.18,14.95,1.77,18,,wide_market_price_range,True,267
+nfl:gsis:00-0036442,Joe Burrow,QB,CIN,0.9731,11.4,6.9,15.9,344.229,6,324.987,19.24,6.58,-4.82,6.56,11.35,4.79,5,,allocation_sensitive,True,268
+nfl:gsis:00-0037248,James Cook III,RB,BUF,0.995,47.9,42.3,53.6,237.241,6,92.249,144.99,43.06,-4.84,41.35,44.68,3.33,46,,wide_market_price_range;allocation_sensitive,True,269
+nfl:gsis:00-0039065,Sam LaPorta,TE,DET,0.9702,7.2,2.6,11.8,111.072,9,107.06,4.01,2.16,-5.04,1.99,3.33,1.34,6,,replacement_boundary,True,270
+nfl:gsis:00-0037247,George Pickens,WR,DAL,0.995,26.0,19.8,32.3,169.491,10,101.477,68.01,20.73,-5.27,19.1,20.95,1.85,28,,wide_market_price_range,True,271
+nfl:gsis:00-0039067,Rashee Rice,WR,KC,0.9648,27.8,21.6,34.0,174.945,7,101.477,73.47,22.31,-5.49,20.68,22.54,1.86,40,,wide_market_price_range,True,272
+nfl:gsis:00-0039337,Malik Nabers,WR,NYG,0.995,24.2,18.0,30.5,159.298,14,101.477,57.82,17.77,-6.43,16.15,17.96,1.81,29,,wide_market_price_range,True,273
+nfl:gsis:00-0039139,Jahmyr Gibbs,RB,DET,0.9658,68.7,63.1,74.4,301.624,1,92.249,209.38,61.73,-6.97,59.61,63.3,3.69,57,,wide_market_price_range;allocation_sensitive,True,274
+nfl:gsis:00-0038542,Bijan Robinson,RB,ATL,0.9657,65.8,60.1,71.5,290.24,2,92.249,197.99,58.43,-7.37,56.38,60.01,3.63,56,,wide_market_price_range;allocation_sensitive,True,275
+nfl:gsis:00-0034844,Saquon Barkley,RB,PHI,0.995,46.4,40.7,52.0,222.911,8,92.249,130.66,38.9,-7.5,37.29,40.54,3.25,42,,wide_market_price_range;allocation_sensitive,True,276
+nfl:gsis:00-0035676,A.J. Brown,WR,NE,0.995,27.8,21.6,34.0,167.492,11,101.477,66.01,20.15,-7.65,18.52,20.36,1.84,30,,wide_market_price_range,True,277
+nfl:gsis:00-0040126,Colston Loveland,TE,CHI,0.995,16.2,11.6,20.9,132.327,3,107.06,25.27,8.33,-7.87,8.02,9.56,1.54,13,prior_jugg_salary,missing_market_inputs,True,278
+nfl:gsis:00-0036554,Nico Collins,WR,HOU,0.995,29.0,22.8,35.3,169.779,9,101.477,68.3,20.81,-8.19,19.18,21.03,1.85,31,,wide_market_price_range,True,279
+nfl:gsis:00-0040128,Tyler Warren,TE,IND,0.9921,13.0,8.4,17.6,120.195,4,107.06,13.13,4.81,-8.19,4.58,6.0,1.42,13,,,True,280
+nfl:gsis:00-0034796,Lamar Jackson,QB,BAL,0.995,17.7,13.2,22.2,353.255,2,324.987,28.27,9.2,-8.5,9.17,13.91,4.74,10,,allocation_sensitive,True,281
+nfl:gsis:00-0034857,Josh Allen,QB,BUF,0.995,31.7,27.2,36.2,399.899,1,324.987,74.91,22.73,-8.97,22.66,27.14,4.48,22,,allocation_sensitive,True,282
+nfl:gsis:00-0033280,Christian McCaffrey,RB,SF,0.9784,58.3,52.6,63.9,256.421,4,92.249,164.17,48.62,-9.68,46.79,50.23,3.44,53,,wide_market_price_range;allocation_sensitive,True,283
+nfl:gsis:00-0037238,Drake London,WR,ATL,0.9914,36.6,30.4,42.8,185.376,5,101.477,83.9,25.34,-11.26,23.69,25.6,1.91,43,,wide_market_price_range,True,284
+nfl:gsis:00-0036893,Najee Harris,RB,NYG,0.005,11.7,6.0,17.4,51.293,64,92.249,0.0,0.0,-11.7,0.0,0.0,0.0,0,adp_yahoo,missing_market_inputs;wide_market_price_range;low_draft_probability,False,285
+nfl:gsis:00-0033881,Evan Engram,TE,DEN,0.005,12.3,7.7,16.9,63.692,31,107.06,0.0,0.0,-12.3,0.0,0.0,0.0,0,adp_yahoo,missing_market_inputs;low_draft_probability,False,286
+nfl:gsis:00-0038543,Jaxon Smith-Njigba,WR,SEA,0.9439,51.3,45.1,57.6,213.255,3,101.477,111.78,33.42,-17.88,31.75,33.78,2.03,54,,wide_market_price_range,True,287
+nfl:gsis:00-0039338,Brock Bowers,TE,LV,0.9613,31.5,26.9,36.1,147.446,1,107.06,40.39,12.71,-18.79,12.31,14.0,1.69,32,,,True,288
+nfl:gsis:00-0036963,Amon-Ra St. Brown,WR,DET,0.9262,49.5,43.3,55.7,202.382,4,101.477,100.91,30.27,-19.23,28.61,30.59,1.98,52,,wide_market_price_range,True,289
+nfl:gsis:00-0039075,Puka Nacua,WR,LAR,0.9308,55.8,49.6,62.0,222.78,1,101.477,121.3,36.19,-19.61,34.51,36.57,2.06,55,,wide_market_price_range,True,290
+nfl:gsis:00-0037744,Trey McBride,TE,ARI,0.9701,32.0,27.4,36.6,145.308,2,107.06,38.25,12.09,-19.91,11.7,13.37,1.67,38,,,True,291
+nfl:gsis:00-0036322,Justin Jefferson,WR,MIN,0.9642,43.6,37.3,49.8,173.863,8,101.477,72.39,22.0,-21.6,20.36,22.23,1.87,48,,wide_market_price_range,True,292
+nfl:gsis:00-0036358,CeeDee Lamb,WR,DAL,0.9452,47.0,40.7,53.2,175.539,6,101.477,74.06,22.48,-24.52,20.85,22.72,1.87,51,,wide_market_price_range,True,293
+nfl:gsis:00-0036900,Ja'Marr Chase,WR,CIN,0.9328,59.5,53.3,65.8,214.816,2,101.477,113.34,33.88,-25.62,32.2,34.24,2.04,56,,wide_market_price_range,True,294

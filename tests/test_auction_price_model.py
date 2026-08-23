@@ -3,7 +3,7 @@ import unittest
 
 from scripts.auction_price_model import (
     evaluate, fit_line, fit_ridge, metrics, percentile, position_adjustments,
-    predict_ridge, solve_linear_system,
+    predict_ridge, probability_metrics, solve_linear_system,
 )
 
 
@@ -62,6 +62,11 @@ class AuctionPriceModelTests(unittest.TestCase):
         model = fit_ridge(rows, ("adp_espn",))
         prediction = predict_ridge(model, {"position": "RB", "adp_espn": None})
         self.assertTrue(math.isfinite(prediction))
+
+    def test_probability_metrics_reward_correct_ranking(self):
+        result = probability_metrics([(0.9, 1), (0.8, 1), (0.2, 0), (0.1, 0)])
+        self.assertEqual(result["auc"], 1.0)
+        self.assertLess(result["brier"], 0.05)
 
 
 if __name__ == "__main__":

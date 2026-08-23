@@ -1,0 +1,208 @@
+{
+  "added_players": [],
+  "largest_absolute_surplus_changes": [
+    {
+      "draft_probability_change": 0.0,
+      "expected_price_change": 0.0,
+      "internal_player_id": "nfl:def:ATL",
+      "player_name": "Atlanta Falcons",
+      "production_value_change": 0.0,
+      "surplus_change": 0.0
+    },
+    {
+      "draft_probability_change": 0.0,
+      "expected_price_change": 0.0,
+      "internal_player_id": "nfl:def:BAL",
+      "player_name": "Baltimore Ravens",
+      "production_value_change": 0.0,
+      "surplus_change": 0.0
+    },
+    {
+      "draft_probability_change": 0.0,
+      "expected_price_change": 0.0,
+      "internal_player_id": "nfl:def:BUF",
+      "player_name": "Buffalo Bills",
+      "production_value_change": 0.0,
+      "surplus_change": 0.0
+    },
+    {
+      "draft_probability_change": 0.0,
+      "expected_price_change": 0.0,
+      "internal_player_id": "nfl:def:CHI",
+      "player_name": "Chicago Bears",
+      "production_value_change": 0.0,
+      "surplus_change": 0.0
+    },
+    {
+      "draft_probability_change": 0.0,
+      "expected_price_change": 0.0,
+      "internal_player_id": "nfl:def:CLE",
+      "player_name": "Cleveland Browns",
+      "production_value_change": 0.0,
+      "surplus_change": 0.0
+    },
+    {
+      "draft_probability_change": 0.0,
+      "expected_price_change": 0.0,
+      "internal_player_id": "nfl:def:DAL",
+      "player_name": "Dallas Cowboys",
+      "production_value_change": 0.0,
+      "surplus_change": 0.0
+    },
+    {
+      "draft_probability_change": 0.0,
+      "expected_price_change": 0.0,
+      "internal_player_id": "nfl:def:DEN",
+      "player_name": "Denver Broncos",
+      "production_value_change": 0.0,
+      "surplus_change": 0.0
+    },
+    {
+      "draft_probability_change": 0.0,
+      "expected_price_change": 0.0,
+      "internal_player_id": "nfl:def:DET",
+      "player_name": "Detroit Lions",
+      "production_value_change": 0.0,
+      "surplus_change": 0.0
+    },
+    {
+      "draft_probability_change": 0.0,
+      "expected_price_change": 0.0,
+      "internal_player_id": "nfl:def:GB",
+      "player_name": "Green Bay Packers",
+      "production_value_change": 0.0,
+      "surplus_change": 0.0
+    },
+    {
+      "draft_probability_change": 0.0,
+      "expected_price_change": 0.0,
+      "internal_player_id": "nfl:def:HOU",
+      "player_name": "Houston Texans",
+      "production_value_change": 0.0,
+      "surplus_change": 0.0
+    },
+    {
+      "draft_probability_change": 0.0,
+      "expected_price_change": 0.0,
+      "internal_player_id": "nfl:def:JAX",
+      "player_name": "Jacksonville Jaguars",
+      "production_value_change": 0.0,
+      "surplus_change": 0.0
+    },
+    {
+      "draft_probability_change": 0.0,
+      "expected_price_change": 0.0,
+      "internal_player_id": "nfl:def:KC",
+      "player_name": "Kansas City Chiefs",
+      "production_value_change": 0.0,
+      "surplus_change": 0.0
+    },
+    {
+      "draft_probability_change": 0.0,
+      "expected_price_change": 0.0,
+      "internal_player_id": "nfl:def:LAC",
+      "player_name": "Los Angeles Chargers",
+      "production_value_change": 0.0,
+      "surplus_change": 0.0
+    },
+    {
+      "draft_probability_change": 0.0,
+      "expected_price_change": 0.0,
+      "internal_player_id": "nfl:def:LAR",
+      "player_name": "Los Angeles Rams",
+      "production_value_change": 0.0,
+      "surplus_change": 0.0
+    },
+    {
+      "draft_probability_change": 0.0,
+      "expected_price_change": 0.0,
+      "internal_player_id": "nfl:def:MIN",
+      "player_name": "Minnesota Vikings",
+      "production_value_change": 0.0,
+      "surplus_change": 0.0
+    },
+    {
+      "draft_probability_change": 0.0,
+      "expected_price_change": 0.0,
+      "internal_player_id": "nfl:def:NE",
+      "player_name": "New England Patriots",
+      "production_value_change": 0.0,
+      "surplus_change": 0.0
+    },
+    {
+      "draft_probability_change": 0.0,
+      "expected_price_change": 0.0,
+      "internal_player_id": "nfl:def:NYG",
+      "player_name": "New York Giants",
+      "production_value_change": 0.0,
+      "surplus_change": 0.0
+    },
+    {
+      "draft_probability_change": 0.0,
+      "expected_price_change": 0.0,
+      "internal_player_id": "nfl:def:PHI",
+      "player_name": "Philadelphia Eagles",
+      "production_value_change": 0.0,
+      "surplus_change": 0.0
+    },
+    {
+      "draft_probability_change": 0.0,
+      "expected_price_change": 0.0,
+      "internal_player_id": "nfl:def:PIT",
+      "player_name": "Pittsburgh Steelers",
+      "production_value_change": 0.0,
+      "surplus_change": 0.0
+    },
+    {
+      "draft_probability_change": 0.0,
+      "expected_price_change": 0.0,
+      "internal_player_id": "nfl:def:SEA",
+      "player_name": "Seattle Seahawks",
+      "production_value_change": 0.0,
+      "surplus_change": 0.0
+    },
+    {
+      "draft_probability_change": 0.0,
+      "expected_price_change": 0.0,
+      "internal_player_id": "nfl:def:SF",
+      "player_name": "San Francisco 49ers",
+      "production_value_change": 0.0,
+      "surplus_change": 0.0
+    },
+    {
+      "draft_probability_change": 0.0,
+      "expected_price_change": 0.0,
+      "internal_player_id": "nfl:def:TB",
+      "player_name": "Tampa Bay Buccaneers",
+      "production_value_change": 0.0,
+      "surplus_change": 0.0
+    },
+    {
+      "draft_probability_change": 0.0,
+      "expected_price_change": 0.0,
+      "internal_player_id": "nfl:gsis:00-0023459",
+      "player_name": "Aaron Rodgers",
+      "production_value_change": 0.0,
+      "surplus_change": 0.0
+    },
+    {
+      "draft_probability_change": 0.0,
+      "expected_price_change": 0.0,
+      "internal_player_id": "nfl:gsis:00-0025565",
+      "player_name": "Nick Folk",
+      "production_value_change": 0.0,
+      "surplus_change": 0.0
+    },
+    {
+      "draft_probability_change": 0.0,
+      "expected_price_change": 0.0,
+      "internal_player_id": "nfl:gsis:00-0026158",
+      "player_name": "Joe Flacco",
+      "production_value_change": 0.0,
+      "surplus_change": 0.0
+    }
+  ],
+  "new_count": 294,
+  "previous_count": 294,
+  "removed_players": []
+}

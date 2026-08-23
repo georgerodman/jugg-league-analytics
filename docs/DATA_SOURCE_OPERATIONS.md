@@ -25,6 +25,38 @@ Every provider has a stable lowercase source key such as `fantasypros` or
 Never store credentials in data, manifests, logs, URLs, fixtures, or Git.
 Credentials belong in the ignored `.env` file or process environment.
 
+## Single-command derived rebuild
+
+After changing any existing local input, adapter, identity rule, model, or
+configuration, run:
+
+```sh
+python3 scripts/rebuild_all.py
+```
+
+This deliberately does not fetch network sources. It validates the current
+local inputs and then rebuilds canonical projections, projection review,
+auction identity matches, projection evaluation, auction price and draft
+probability models, production values, historical backtests, and the combined
+decision board. It runs the full test suite and verifies the final board before
+publishing a successful rebuild manifest.
+
+Every stage writes a log under `data/processed/rebuilds/<timestamp>/`. The
+successful manifest records stage results and SHA-256 checksums for every
+published pointer. `board_comparison.json` records added/removed players and
+the largest changes in price, probability, production value, and surplus.
+
+The command snapshots all processed `latest.json` pointers before starting. If
+any stage, test, or integrity check fails, it restores those pointers and writes
+`failure.json`; partial timestamped artifacts may remain for diagnosis but are
+not published as current. Source acquisition remains an explicit operation so
+an incomplete download cannot silently trigger model publication.
+
+When adding a new source, first implement and validate its source-specific
+adapter, identity/provenance contract, fixtures, and comparative evaluation as
+described below. Then add its normalized pointer to `validate_inputs`, wire it
+into the appropriate canonical/model stage, and run the guarded rebuild.
+
 ## Refresh FantasyPros projections
 
 1. Confirm `FANTASYPROS_API_KEY` is available locally.

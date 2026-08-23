@@ -100,9 +100,20 @@ Yahoo and ESPN historical ADP market markers can be refreshed with:
 python3 scripts/fantasypros_adp.py
 ```
 
-The project does not generate homegrown JUGG auction-dollar values. Publicly
-available auction values will be preserved as external market inputs when a
-suitable source is added.
+The project predicts JUGG auction sale prices and separately estimates
+production-based value. Public auction values, ADP, projections, and historical
+league evidence remain independently attributable inputs rather than being
+presented as intrinsic value.
+
+Rebuild all derived artifacts from the current validated local inputs with:
+
+```sh
+python3 scripts/rebuild_all.py
+```
+
+The guarded workflow restores the previous published pointers if any stage or
+test fails. See `docs/DATA_SOURCE_OPERATIONS.md` for refresh, new-source, and
+publication procedures.
 
 ## Refresh historical nflverse data
 

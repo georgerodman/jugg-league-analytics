@@ -108,9 +108,38 @@ The current ranked outputs are `scores_2026.csv` and `scores_2026.json` in the
 versioned directory referenced by
 `data/processed/auction_price_model/latest.json`.
 
+## Draft-probability model
+
+Draft probability is trained separately from conditional sale price. Its
+historical cohort contains players with an ESPN Salary Cap Value or Yahoo ADP,
+matching the supported 2026 scoring population. Forward tests cover 1,416
+player-seasons from 2021–2025, including 697 drafted players. Candidate input
+sets compete under regularized regression and distance-weighted nearest
+neighbors with time-aware tuning.
+
+The selected full regularized model has:
+
+- Brier score: 0.0776 (lower is better);
+- ROC AUC: 0.9594;
+- log loss: 0.3254; and
+- 123–127 correct players among each season's top 140 predictions, or
+  87.9%–90.7% precision.
+
+Its broad calibration is strongest at the extremes: predictions below 20%
+were drafted 4.6% of the time, while predictions above 80% were drafted 98.8%
+of the time. Middle probabilities are less precisely calibrated and should be
+read as tiers rather than exact odds.
+
+For 2026, probability odds are calibrated so the 294 supported candidates sum
+to the league's 140 required draft slots. Individual probabilities are capped
+at 99.5% and floored at 0.5% to avoid false certainty. The output tiers are
+`very_likely` (80%+), `likely` (60–80%), `bubble` (40–60%), `long_shot`
+(20–40%), and `unlikely` (below 20%).
+
 ## Next iteration
 
-1. Fit and backtest drafted-probability separately from conditional sale price.
+1. Improve middle-band probability calibration and evaluate alternative
+   classification models as the dataset grows.
 2. Confirm the small projection and prior-price gains with additional model
    structures and stability checks before retaining them in production.
 3. Improve preliminary position-based ranges with price-tier calibration and
