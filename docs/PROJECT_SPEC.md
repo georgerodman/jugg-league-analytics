@@ -13,13 +13,20 @@ in `docs/DATA_SOURCES_AND_PLAYER_IDENTITY.md`.
 
 ### Historical auction-price model
 
-Estimate what each player is likely to cost in this specific league. Train from prior auction results and relevant player, season, league, and market features. Account for inflation, changing budgets or roster rules, positional scarcity, keeper effects when applicable, and uncertainty. Outputs should include an expected sale price or range and enough provenance to explain the important drivers.
+Use publicly available auction-dollar values when a suitable licensed source is available, and compare them with this league's prior auction results, positional markets, rule changes, and owner behavior. Do not generate a proprietary JUGG auction-dollar valuation from projections. Historical JUGG prices remain evidence for market context, comparables, inflation, and tendencies rather than an internally calculated fair-value price target. Every external dollar value must retain its provider, scoring, roster, team-count, budget, season, and retrieval assumptions.
 
 ### Performance-value model
 
-Estimate each player's fantasy contribution and convert it into draft value under the league's scoring, roster, and replacement-level assumptions. Keep projected performance separate from expected market price so the app can expose bargains, overpays, scarcity, roster fit, and risk rather than collapsing everything into one opaque score.
+Estimate each player's fantasy contribution under the league's scoring and roster assumptions. Do not convert projected contribution into a homegrown JUGG auction-dollar value. Keep projected performance, public auction values, external ADP market signals, and historical JUGG sale evidence separate so the app can show their differences without collapsing them into one opaque score.
 
 Use FantasyPros as the primary source for the preseason player pool and projected counting statistics. Treat FantasyFootballAnalytics (FFA) and future projection or player-data providers as enrichment sources for uncertainty, kicker detail, injuries, biographical attributes, comparison signals, or missing fields. Preserve every provider independently at the raw-data boundary. Merged model inputs must retain field-level source provenance and apply explicit, tested conflict and fallback rules rather than silently blending or overwriting values.
+
+Use Yahoo and ESPN ADP, acquired through FantasyPros, as historical external market markers. Yahoo ADP comes from the FantasyPros half-PPR ADP source and ESPN ADP from its PPR ADP source; preserve those scoring-context differences. ADP is snake-draft position, not an auction-dollar value.
+
+Use ESPN's published non-PPR Salary Cap Values as a public historical auction-
+value input for 2020–2026. Preserve ESPN's stated 10-team, $200-budget context
+and keep these values distinct from ADP, projections, JUGG sale history, and the
+league's own rules. A source value is evidence, not a JUGG-generated target.
 
 Use nflverse as the primary historical NFL outcomes and identifier-enrichment
 source. Preserve nflverse releases as immutable pre-draft snapshots, normalize
@@ -55,7 +62,7 @@ Every completed sale must update the winning roster and budget, remove the playe
 
 ## Nominated-Player Workflow
 
-Optimize the main draft screen around one currently nominated player. Show the information needed to decide whether and how far to pursue that player: projected performance, expected price or price range, value surplus, positional context, roster fit, risks, comparable alternatives, and relevant owner signals.
+Optimize the main draft screen around one currently nominated player. Show the information needed to decide whether and how far to pursue that player: projected performance, publicly sourced auction values when available, historical JUGG prices, external ADP, positional context, roster fit, risks, comparable alternatives, and relevant owner signals.
 
 There is intentionally no live bid-entry stream. The user selects or confirms the nominated player, uses the app for decision support while bidding happens elsewhere, then records the final winner and sale price. The app immediately advances state and recommendations.
 
@@ -105,7 +112,7 @@ Before draft night, verify this with a full replay or simulation of a historical
 
 1. Capture league rules, roster constraints, scoring, budgets, historical auction results, owner identities, and source-data contracts.
 2. Build reproducible Python ingestion and cleaning pipelines; use FantasyPros as the primary projection backbone, nflverse/GSIS as the preferred player-identity backbone, enrich projections from source-isolated FFA and future datasets, and establish stable internal player and owner identifiers.
-3. Create baseline performance-value and historical-price models, evaluation metrics, uncertainty outputs, and versioned runtime artifacts.
+3. Create baseline performance projections, historical market comparisons, public auction-value inputs when available, evaluation metrics, uncertainty outputs, and versioned runtime artifacts without generating a proprietary JUGG auction-dollar value.
 4. Define the domain model and SQLite schema, including event history, state transitions, migrations, and recovery behavior.
 5. Implement and test the deterministic live draft engine: nominations, completed sales, rosters, budgets, availability, inflation, scarcity, and recalculation.
 6. Build the focused Next.js draft-night interface around the nominated-player workflow and fast final-sale entry.

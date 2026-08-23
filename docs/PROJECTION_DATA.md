@@ -131,3 +131,29 @@ FantasyPros seasons contain a much larger long-tail player pool.
 Historical accuracy results and the primary-source decision are recorded in
 `docs/PROJECTION_EVALUATION.md`. Operational instructions for refreshes and new
 providers are in `docs/DATA_SOURCE_OPERATIONS.md`.
+
+## Yahoo and ESPN ADP market markers
+
+FantasyPros historical ADP responses are preserved separately under
+`data/raw/fantasypros_adp/<season>/<timestamp>/`. Normalized platform values are
+written under `data/processed/fantasypros_adp/<season>/<timestamp>/` and joined
+to canonical players by FantasyPros ID.
+
+- Yahoo ADP uses FantasyPros source ID `236` in the half-PPR ADP pool.
+- ESPN ADP uses FantasyPros source ID `79` in the PPR ADP pool.
+
+| Season | Yahoo ADP rows | ESPN ADP rows |
+| ---: | ---: | ---: |
+| 2020 | 199 | 486 |
+| 2021 | 235 | 229 |
+| 2022 | 237 | 227 |
+| 2023 | 235 | 497 |
+| 2024 | 225 | 488 |
+| 2025 | 223 | 490 |
+| 2026 | 222 | 494 |
+
+The API returns the complete scoring-pool response rather than reliably
+honoring a single-source filter. Normalization therefore extracts the named
+source from each player's `experts` map. These values are external snake-draft
+market markers, not auction values and not interchangeable across scoring
+contexts.

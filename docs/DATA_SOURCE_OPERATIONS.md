@@ -65,6 +65,42 @@ position-specific draftable review band (`QB` 20, `RB` 50, `WR` 60, `TE` 20,
 enrichment gaps from the provider's long tail; they do not remove or downgrade
 the FantasyPros primary projection.
 
+## Refresh Yahoo and ESPN ADP
+
+Fetch all supported historical/current seasons or a selected season:
+
+```sh
+python3 scripts/fantasypros_adp.py
+python3 scripts/fantasypros_adp.py --seasons 2026
+```
+
+The importer requests the half-PPR and PPR ADP pools at a rate compatible with
+the API limit, preserves both complete responses, and extracts Yahoo source ID
+`236` and ESPN source ID `79`. Confirm declared/received counts, platform row
+counts, and source IDs before rebuilding canonical projections. Do not relabel
+the scoring context or interpret ADP as auction dollars.
+
+## Import ESPN Salary Cap Value cheat sheets
+
+Place each PDF in `data/raw/espn_cheat_sheets/` as
+`espn_salary_cap_values_<season>_non_ppr.pdf`, then run:
+
+```sh
+python3 -m pip install -r requirements-data.txt
+python3 scripts/espn_salary_cap_values.py
+```
+
+The pipeline extracts embedded PDF coordinates, removes exact duplicate
+rendered rows, validates row counts and rank uniqueness, and matches identities
+against the season canonical pool, cross-season identities, and nflverse/GSIS.
+It publishes per-season and combined CSV/JSON artifacts, a manifest, and
+`validation_flags.csv`/JSON under `data/processed/espn_salary_cap_values/`.
+
+Review every flag before using a new build. Add only verified, source- and
+season-scoped variants to `config/player_aliases.json`. Never overwrite an old
+PDF or processed build; add the new sheet and rerun the pipeline so the last
+validated `latest.json` remains recoverable.
+
 ## Refresh FFA or another file-delivered source
 
 1. Preserve the supplied file unchanged under
