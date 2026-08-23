@@ -38,6 +38,12 @@ CSV_FIELDS = (
     "espn_overall_rank", "espn_position_rank", "adp_espn", "adp_yahoo",
     "projected_points_jugg", "prior_jugg_salary", "player_pool_source",
 )
+SCORE_FIELDS = (
+    "jugg_price_rank", "internal_player_id", "fantasypros_id", "player_name", "position",
+    "nfl_team", "expected_jugg_price_if_drafted", "uncalibrated_model_price", "price_range_low", "price_range_high",
+    "range_basis", "espn_salary_cap_value", "adp_espn", "adp_yahoo",
+    "projected_points_jugg", "prior_jugg_salary", "missing_inputs",
+)
 
 
 class ModelError(RuntimeError):
@@ -108,6 +114,45 @@ def build_rows(root: Path) -> tuple[list[dict[str, Any]], dict[str, str]]:
             })
         for player_id, sale in season_sales.items():
             prior_salary[player_id] = sale["salary"]
+    return rows, inputs
+
+
+def build_scoring_rows(root: Path, historical_rows: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], dict[str, str]]:
+    season = 2026
+    canonical, canonical_path = read_pointer(
+        root, Path(f"data/processed/canonical_projections/{season}/latest.json")
+    )
+    espn, espn_path = read_pointer(
+        root, Path(f"data/processed/espn_salary_cap_values/{season}/latest.json")
+    )
+    espn_by_id = {row["internal_player_id"]: row for row in espn["values"]}
+    latest_prior = {}
+    for row in sorted((row for row in historical_rows if row["drafted"]), key=lambda row: row["season"]):
+        latest_prior[row["internal_player_id"]] = row["jugg_salary"]
+    rows = []
+    for player in canonical["players"]:
+        player_id = player["internal_player_id"]
+        value = espn_by_id.get(player_id)
+        market = player.get("market_signals", {})
+        fp = player.get("fantasypros", {})
+        rows.append({
+            "season": season, "internal_player_id": player_id,
+            "fantasypros_id": player.get("source_ids", {}).get("fantasypros"),
+            "player_name": player["name"], "position": player["position"],
+            "nfl_team": player.get("nfl_team"), "drafted": None, "jugg_salary": None,
+            "jugg_owner": None,
+            "espn_salary_cap_value": value.get("salary_cap_value") if value else None,
+            "espn_overall_rank": value.get("overall_rank") if value else None,
+            "espn_position_rank": value.get("position_rank") if value else None,
+            "adp_espn": market.get("adp_espn"), "adp_yahoo": market.get("adp_yahoo"),
+            "projected_points_jugg": fp.get("league_projected_points"),
+            "prior_jugg_salary": latest_prior.get(player_id),
+            "player_pool_source": "canonical_2026",
+        })
+    inputs = {
+        str(canonical_path.relative_to(root)): checksum(canonical_path),
+        str(espn_path.relative_to(root)): checksum(espn_path),
+    }
     return rows, inputs
 
 
@@ -354,6 +399,17 @@ def neutral_model_tournament(rows: list[dict[str, Any]]) -> dict[str, Any]:
         by_tier[label] = metrics([
             (prediction, actual) for prediction, actual, _ in best_predictions if lower <= actual <= upper
         ])
+    absolute_errors = [abs(prediction - actual) for prediction, actual, _ in best_predictions]
+    error_ranges = {
+        "overall": {"p50": percentile(absolute_errors, 0.50), "p80": percentile(absolute_errors, 0.80), "p90": percentile(absolute_errors, 0.90)},
+        "by_position": {},
+    }
+    for position in POSITIONS:
+        errors = [abs(prediction - actual) for prediction, actual, row in best_predictions if row["position"] == position]
+        error_ranges["by_position"][position] = {
+            "n": len(errors), "p50": percentile(errors, 0.50),
+            "p80": percentile(errors, 0.80), "p90": percentile(errors, 0.90),
+        }
     coverage = {
         feature: {
             "observed": sum(row.get(feature) is not None for row in sold),
@@ -376,7 +432,70 @@ def neutral_model_tournament(rows: list[dict[str, Any]]) -> dict[str, Any]:
         "best_model": best_name,
         "best_model_by_position": by_position,
         "best_model_by_actual_price_tier": by_tier,
+        "best_model_absolute_error": error_ranges,
     }
+
+
+def score_2026(
+    historical_rows: list[dict[str, Any]], scoring_rows: list[dict[str, Any]], tournament: dict[str, Any]
+) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+    training = [row for row in historical_rows if row["drafted"]]
+    feature_names = MODEL_FEATURES["full"]
+    penalty = choose_parameter(training, feature_names, "ridge")
+    model = fit_ridge(training, feature_names, float(penalty))
+    error_ranges = tournament["best_model_absolute_error"]
+    eligible = [
+        row for row in scoring_rows
+        if row.get("espn_salary_cap_value") is not None or row.get("adp_yahoo") is not None
+    ]
+    scored = []
+    for row in eligible:
+        prediction = predict_ridge(model, row)
+        missing = [feature for feature in feature_names if row.get(feature) is None]
+        scored.append({
+            **row,
+            "uncalibrated_model_price": prediction,
+            "missing_inputs": missing,
+        })
+    scored.sort(key=lambda row: (-row["uncalibrated_model_price"], row["player_name"]))
+    draft_slots = 140
+    total_budget = 2000
+    top = scored[:draft_slots]
+    discretionary_prediction = sum(max(0.0, row["uncalibrated_model_price"] - 1.0) for row in top)
+    economy_factor = (total_budget - draft_slots) / discretionary_prediction
+    calibrated_top_total = sum(
+        1.0 + max(0.0, row["uncalibrated_model_price"] - 1.0) * economy_factor for row in top
+    )
+    for row in scored:
+        calibrated = 1.0 + max(0.0, row["uncalibrated_model_price"] - 1.0) * economy_factor
+        position_range = error_ranges["by_position"].get(row["position"], {})
+        radius = (position_range.get("p80") or error_ranges["overall"]["p80"]) * economy_factor
+        row.update({
+            "expected_jugg_price_if_drafted": round(calibrated, 1),
+            "uncalibrated_model_price": round(row["uncalibrated_model_price"], 1),
+            "price_range_low": round(max(1.0, calibrated - radius), 1),
+            "price_range_high": round(calibrated + radius, 1),
+            "range_basis": f"historical_forward_error_p80:{row['position']}",
+        })
+    for rank, row in enumerate(scored, start=1):
+        row["jugg_price_rank"] = rank
+    metadata = {
+        "season": 2026, "model": "ridge:full", "training_seasons": list(SEASONS),
+        "training_sale_count": len(training), "selected_ridge_penalty": penalty,
+        "score_count": len(scored), "excluded_out_of_scope_count": len(scoring_rows) - len(scored),
+        "scoring_eligibility": "Player has a 2026 ESPN Salary Cap Value or Yahoo ADP; deeper canonical players are excluded as outside the historical model's supported sale-price population.",
+        "league_economy_calibration": {
+            "draft_slots": draft_slots, "total_budget": total_budget,
+            "minimum_price": 1, "discretionary_price_factor": round(economy_factor, 6),
+            "unrounded_top_140_total": round(calibrated_top_total, 6),
+        },
+        "complete_input_count": sum(not row["missing_inputs"] for row in scored),
+        "missing_input_counts": {
+            feature: sum(feature in row["missing_inputs"] for row in scored) for feature in feature_names
+        },
+        "interpretation": "Expected JUGG sale price conditional on the player being drafted; not a production value or draft probability.",
+    }
+    return scored, metadata
 
 
 def ablation_study(rows: list[dict[str, Any]]) -> dict[str, Any]:
@@ -481,14 +600,31 @@ def write_csv(path: Path, rows: list[dict[str, Any]]) -> None:
         writer.writerows({field: row.get(field) for field in CSV_FIELDS} for row in rows)
 
 
+def write_scores_csv(path: Path, rows: list[dict[str, Any]]) -> None:
+    with path.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=SCORE_FIELDS)
+        writer.writeheader()
+        for row in rows:
+            output = {field: row.get(field) for field in SCORE_FIELDS}
+            output["missing_inputs"] = ";".join(row["missing_inputs"])
+            writer.writerow(output)
+
+
 def run(root: Path) -> Path:
     rows, inputs = build_rows(root)
     report = evaluate(rows)
+    scoring_rows, scoring_inputs = build_scoring_rows(root, rows)
+    scores, scoring_metadata = score_2026(rows, scoring_rows, report["neutral_model_tournament"])
+    inputs.update(scoring_inputs)
     built_at = datetime.now(timezone.utc)
     build_id = built_at.strftime("%Y%m%dT%H%M%SZ")
     output_dir = root / "data" / "processed" / "auction_price_model" / build_id
     output_dir.mkdir(parents=True, exist_ok=True)
     write_csv(output_dir / "training_rows.csv", rows)
+    write_scores_csv(output_dir / "scores_2026.csv", scores)
+    (output_dir / "scores_2026.json").write_text(json.dumps({
+        "metadata": scoring_metadata, "players": scores,
+    }, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     payload = {
         "metadata": {"schema_version": 1, "build_id": build_id, "built_at": built_at.isoformat(), "seasons": list(SEASONS), "inputs": inputs},
         **report,
@@ -500,6 +636,8 @@ def run(root: Path) -> Path:
         "schema_version": 1, "build_id": build_id,
         "benchmark": str(report_path.relative_to(root)),
         "training_rows": str((output_dir / "training_rows.csv").relative_to(root)),
+        "scores_2026_csv": str((output_dir / "scores_2026.csv").relative_to(root)),
+        "scores_2026_json": str((output_dir / "scores_2026.json").relative_to(root)),
     }, indent=2) + "\n", encoding="utf-8")
     return report_path
 

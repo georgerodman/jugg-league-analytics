@@ -90,15 +90,32 @@ current best model, with ADP carrying more incremental value. The conclusion
 applies to conditional sale price; drafted probability remains a separate
 modeling problem.
 
+## 2026 conditional sale-price scores
+
+The selected full regularized model is retrained on all 840 sales from
+2020–2025 and applied to the 2026 player pool. Scoring is limited to players
+with a 2026 ESPN Salary Cap Value or Yahoo ADP because deeper canonical players
+fall outside the supported historical sale-price population. The resulting 294
+players retain every model input and an explicit missing-input list.
+
+Predictions are calibrated to the fixed JUGG auction economy: 140 required
+draft slots, a $1 minimum, and $2,000 total league budget. The top 140 unrounded
+predictions therefore sum to $2,000. Preliminary ranges use the 80th-percentile
+absolute forward-test error for the player's position. These are conditional
+sale prices and ranges, not production values or draft probabilities.
+
+The current ranked outputs are `scores_2026.csv` and `scores_2026.json` in the
+versioned directory referenced by
+`data/processed/auction_price_model/latest.json`.
+
 ## Next iteration
 
 1. Fit and backtest drafted-probability separately from conditional sale price.
 2. Confirm the small projection and prior-price gains with additional model
    structures and stability checks before retaining them in production.
-3. Add prediction intervals calibrated by position and price tier.
-4. Select the simplest model that produces a material held-out improvement.
-5. Generate a versioned 2026 prediction artifact with feature provenance and
-   uncertainty.
+3. Improve preliminary position-based ranges with price-tier calibration and
+   formal coverage evaluation.
+4. Revisit model selection as new seasons or market sources become available.
 
 Run `python3 scripts/auction_price_model.py` to rebuild the dataset and report.
 The current artifact pointer is

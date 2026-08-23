@@ -91,7 +91,9 @@ python3 scripts/auction_price_model.py
 
 The command writes immutable artifacts beneath
 `data/processed/auction_price_model/<timestamp>/` and advances `latest.json`.
-It evaluates ESPN directly and with JUGG calibration using held-out seasons.
+It runs the neutral forward-only model tournament, rebuilds the historical
+training table, and writes the current-season conditional JUGG price scores in
+CSV and JSON form.
 
 ## Import ESPN Salary Cap Value cheat sheets
 
