@@ -1,0 +1,68 @@
+{
+  "league_config": "config/league.json",
+  "league_config_sha256": "cbe12dad53bb39cbe93bb0b56db48f7058888ca16e4f1a0ecb64038c83c0801b",
+  "projection_type": "preseason_consensus",
+  "requests": [
+    {
+      "file": "qb.json",
+      "position": "QB",
+      "public_api_limited": true,
+      "record_count": 105,
+      "sha256": "734cf1b282deb05bb40910dcf24f9e8cd9413a96f9804400d20b653dd5abbb18",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2023/projections?position=QB&week=0"
+    },
+    {
+      "file": "rb.json",
+      "position": "RB",
+      "public_api_limited": true,
+      "record_count": 176,
+      "sha256": "e9ae8ddd310fb4250e81764416c9147ee05ce7fbbfd5fd2fe8eade94a49c7bf0",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2023/projections?position=RB&week=0"
+    },
+    {
+      "file": "wr.json",
+      "position": "WR",
+      "public_api_limited": true,
+      "record_count": 276,
+      "sha256": "c545b92580388cf6a351cbc5b68bb2ab7515dcbd01929eb9e2adb48648d4edce",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2023/projections?position=WR&week=0"
+    },
+    {
+      "file": "te.json",
+      "position": "TE",
+      "public_api_limited": true,
+      "record_count": 153,
+      "sha256": "76c762d3762d122c8c5b228be2ca1b72ff8ead64914902c944beebe47fb901ce",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2023/projections?position=TE&week=0"
+    },
+    {
+      "file": "k.json",
+      "position": "K",
+      "public_api_limited": true,
+      "record_count": 40,
+      "sha256": "803d1bcd67b7e83011853b3178e9093105e62f7432ae5a14af7461fc54ca76b5",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2023/projections?position=K&week=0"
+    },
+    {
+      "file": "dst.json",
+      "position": "DST",
+      "public_api_limited": true,
+      "record_count": 32,
+      "sha256": "cb32075caabfd52ed9f20406808d1605ece5b0b2c3a9de00b3420c962944cb09",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2023/projections?position=DST&week=0"
+    }
+  ],
+  "retrieved_at": "2026-08-23T16:19:19.427310+00:00",
+  "schema_version": 1,
+  "season": 2023,
+  "snapshot_id": "20260823T161919Z",
+  "source": "fantasypros",
+  "total_players": 782,
+  "week": 0
+}

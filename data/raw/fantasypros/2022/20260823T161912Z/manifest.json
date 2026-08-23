@@ -1,0 +1,68 @@
+{
+  "league_config": "config/league.json",
+  "league_config_sha256": "cbe12dad53bb39cbe93bb0b56db48f7058888ca16e4f1a0ecb64038c83c0801b",
+  "projection_type": "preseason_consensus",
+  "requests": [
+    {
+      "file": "qb.json",
+      "position": "QB",
+      "public_api_limited": true,
+      "record_count": 84,
+      "sha256": "874e44b7708dd273b387bffcaad8421ec983f443c6d76036cbb17a4d17e31277",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2022/projections?position=QB&week=0"
+    },
+    {
+      "file": "rb.json",
+      "position": "RB",
+      "public_api_limited": true,
+      "record_count": 167,
+      "sha256": "50409dd233037675a87b6785ab825ea4c1b8affa34dcf75bf79961a47fbedca7",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2022/projections?position=RB&week=0"
+    },
+    {
+      "file": "wr.json",
+      "position": "WR",
+      "public_api_limited": true,
+      "record_count": 189,
+      "sha256": "c4d104c6815c71d490dcb798dfa9a644df10daa7115ac98ae286f0d7590127ce",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2022/projections?position=WR&week=0"
+    },
+    {
+      "file": "te.json",
+      "position": "TE",
+      "public_api_limited": true,
+      "record_count": 131,
+      "sha256": "e012745cf9ad509fb1c21b77780200a1df946030081daa596b1ce9056ae3e6d5",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2022/projections?position=TE&week=0"
+    },
+    {
+      "file": "k.json",
+      "position": "K",
+      "public_api_limited": true,
+      "record_count": 37,
+      "sha256": "22745fc7579ec587a74bdc104969d6a8078a1bef3cf407ae389afb96ad01aaf3",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2022/projections?position=K&week=0"
+    },
+    {
+      "file": "dst.json",
+      "position": "DST",
+      "public_api_limited": true,
+      "record_count": 32,
+      "sha256": "580e2fdefb51cf1c2cfb6353fb428269a7983887caaff6b46672d8896bb0df38",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2022/projections?position=DST&week=0"
+    }
+  ],
+  "retrieved_at": "2026-08-23T16:19:12.599100+00:00",
+  "schema_version": 1,
+  "season": 2022,
+  "snapshot_id": "20260823T161912Z",
+  "source": "fantasypros",
+  "total_players": 640,
+  "week": 0
+}

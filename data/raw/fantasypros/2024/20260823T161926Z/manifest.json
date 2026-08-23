@@ -1,0 +1,68 @@
+{
+  "league_config": "config/league.json",
+  "league_config_sha256": "cbe12dad53bb39cbe93bb0b56db48f7058888ca16e4f1a0ecb64038c83c0801b",
+  "projection_type": "preseason_consensus",
+  "requests": [
+    {
+      "file": "qb.json",
+      "position": "QB",
+      "public_api_limited": true,
+      "record_count": 86,
+      "sha256": "ed0e432bb0a026e2891c4648a200bf1b9f38ba45d34ffe3be7bd8ef90c220a0b",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2024/projections?position=QB&week=0"
+    },
+    {
+      "file": "rb.json",
+      "position": "RB",
+      "public_api_limited": true,
+      "record_count": 149,
+      "sha256": "ff3aa8680573d35eeba8e8719c20cedfa0c3ce12bacf1cfb7726842233ff766a",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2024/projections?position=RB&week=0"
+    },
+    {
+      "file": "wr.json",
+      "position": "WR",
+      "public_api_limited": true,
+      "record_count": 240,
+      "sha256": "bc9acef32a14a64f040831f3976a54879b044371efc1dd6f8fb276758152f08b",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2024/projections?position=WR&week=0"
+    },
+    {
+      "file": "te.json",
+      "position": "TE",
+      "public_api_limited": true,
+      "record_count": 123,
+      "sha256": "d4a31be6e4524999189c4898dcf576e18977aa41cf51f252a5f1381768649749",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2024/projections?position=TE&week=0"
+    },
+    {
+      "file": "k.json",
+      "position": "K",
+      "public_api_limited": true,
+      "record_count": 32,
+      "sha256": "c167b475de1b6fecb7de118825d0d8ba0709a9d6e6ca6fdd4ebd3615c77667a6",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2024/projections?position=K&week=0"
+    },
+    {
+      "file": "dst.json",
+      "position": "DST",
+      "public_api_limited": true,
+      "record_count": 32,
+      "sha256": "262e323a50eeda96e37f2619aad76f29be849c375a85aefa66fa763b666cdc1c",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2024/projections?position=DST&week=0"
+    }
+  ],
+  "retrieved_at": "2026-08-23T16:19:26.961999+00:00",
+  "schema_version": 1,
+  "season": 2024,
+  "snapshot_id": "20260823T161926Z",
+  "source": "fantasypros",
+  "total_players": 662,
+  "week": 0
+}

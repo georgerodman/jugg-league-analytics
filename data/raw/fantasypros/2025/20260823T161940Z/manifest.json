@@ -1,0 +1,68 @@
+{
+  "league_config": "config/league.json",
+  "league_config_sha256": "cbe12dad53bb39cbe93bb0b56db48f7058888ca16e4f1a0ecb64038c83c0801b",
+  "projection_type": "preseason_consensus",
+  "requests": [
+    {
+      "file": "qb.json",
+      "position": "QB",
+      "public_api_limited": true,
+      "record_count": 124,
+      "sha256": "8703264230b6166bd8e408c2c45707d09cb63be181642159ed878bbf5dae4010",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2025/projections?position=QB&week=0"
+    },
+    {
+      "file": "rb.json",
+      "position": "RB",
+      "public_api_limited": true,
+      "record_count": 199,
+      "sha256": "93f7346566d8f31343f686758fd75754561a085159c8a55da07c58358a7d8ec6",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2025/projections?position=RB&week=0"
+    },
+    {
+      "file": "wr.json",
+      "position": "WR",
+      "public_api_limited": true,
+      "record_count": 222,
+      "sha256": "96e3dd6f2c1b642d73bbe1feb7f0283f10e08841b9572af43c4be4fc8a5c0465",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2025/projections?position=WR&week=0"
+    },
+    {
+      "file": "te.json",
+      "position": "TE",
+      "public_api_limited": true,
+      "record_count": 192,
+      "sha256": "79a29cbcb4b6a9623d17dcf5956f21622ff617cfc1fca4a2f822864ac1c03d29",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2025/projections?position=TE&week=0"
+    },
+    {
+      "file": "k.json",
+      "position": "K",
+      "public_api_limited": true,
+      "record_count": 61,
+      "sha256": "55916a45dac54e0349ae6bf373f013e68fd298a33b8f5857e6d1beea13593a77",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2025/projections?position=K&week=0"
+    },
+    {
+      "file": "dst.json",
+      "position": "DST",
+      "public_api_limited": true,
+      "record_count": 32,
+      "sha256": "364579bee76a5f6c7bfe5661ca11a1d60b18e6d7424fa92dfe6dfbc8ef54dff7",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2025/projections?position=DST&week=0"
+    }
+  ],
+  "retrieved_at": "2026-08-23T16:19:40.577605+00:00",
+  "schema_version": 1,
+  "season": 2025,
+  "snapshot_id": "20260823T161940Z",
+  "source": "fantasypros",
+  "total_players": 830,
+  "week": 0
+}

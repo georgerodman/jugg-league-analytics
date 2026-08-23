@@ -1,0 +1,68 @@
+{
+  "league_config": "config/league.json",
+  "league_config_sha256": "cbe12dad53bb39cbe93bb0b56db48f7058888ca16e4f1a0ecb64038c83c0801b",
+  "projection_type": "preseason_consensus",
+  "requests": [
+    {
+      "file": "qb.json",
+      "position": "QB",
+      "public_api_limited": true,
+      "record_count": 86,
+      "sha256": "bc88e3b072162842d6669bfc95753f5711a10d96778c1f341b5e97cb3c5eb968",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2021/projections?position=QB&week=0"
+    },
+    {
+      "file": "rb.json",
+      "position": "RB",
+      "public_api_limited": true,
+      "record_count": 143,
+      "sha256": "0c37f1b4571a0c383d9c0820100105fbddddf41cc40c7d1f01991e45556fd0be",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2021/projections?position=RB&week=0"
+    },
+    {
+      "file": "wr.json",
+      "position": "WR",
+      "public_api_limited": true,
+      "record_count": 192,
+      "sha256": "7be8bbd5497c8c75308df6f1482a1b48fd501e9a1d12fb354b0235ef308182ea",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2021/projections?position=WR&week=0"
+    },
+    {
+      "file": "te.json",
+      "position": "TE",
+      "public_api_limited": true,
+      "record_count": 118,
+      "sha256": "4271e82e081a23e8b97a6e7970c2078786637c6c089fb7f1bf52703a1467f37e",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2021/projections?position=TE&week=0"
+    },
+    {
+      "file": "k.json",
+      "position": "K",
+      "public_api_limited": true,
+      "record_count": 40,
+      "sha256": "1dd1cdc18a895920f7dd612213894a9513cecabe1d576eecd11d352857c53171",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2021/projections?position=K&week=0"
+    },
+    {
+      "file": "dst.json",
+      "position": "DST",
+      "public_api_limited": true,
+      "record_count": 32,
+      "sha256": "f5fe691fc2b3c0bf8776c14d7a43da0b795840e9ea7a9bc013e53a1c52b4af90",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2021/projections?position=DST&week=0"
+    }
+  ],
+  "retrieved_at": "2026-08-23T16:19:05.791069+00:00",
+  "schema_version": 1,
+  "season": 2021,
+  "snapshot_id": "20260823T161905Z",
+  "source": "fantasypros",
+  "total_players": 611,
+  "week": 0
+}
