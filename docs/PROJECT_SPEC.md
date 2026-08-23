@@ -6,6 +6,9 @@ Build a dependable, offline-first assistant for a live fantasy-football auction 
 
 This document is the durable source of truth for product scope and architecture. Update it whenever the team makes a material product or technical decision.
 
+The consolidated source-authority and player-matching contract is documented
+in `docs/DATA_SOURCES_AND_PLAYER_IDENTITY.md`.
+
 ## Core Models
 
 ### Historical auction-price model
@@ -16,7 +19,7 @@ Estimate what each player is likely to cost in this specific league. Train from 
 
 Estimate each player's fantasy contribution and convert it into draft value under the league's scoring, roster, and replacement-level assumptions. Keep projected performance separate from expected market price so the app can expose bargains, overpays, scarcity, roster fit, and risk rather than collapsing everything into one opaque score.
 
-Use FantasyPros as the primary source for preseason player identity and projected counting statistics. Treat FantasyFootballAnalytics (FFA) and future projection or player-data providers as enrichment sources for uncertainty, kicker detail, injuries, biographical attributes, comparison signals, or missing fields. Preserve every provider independently at the raw-data boundary. Merged model inputs must retain field-level source provenance and apply explicit, tested conflict and fallback rules rather than silently blending or overwriting values.
+Use FantasyPros as the primary source for the preseason player pool and projected counting statistics. Treat FantasyFootballAnalytics (FFA) and future projection or player-data providers as enrichment sources for uncertainty, kicker detail, injuries, biographical attributes, comparison signals, or missing fields. Preserve every provider independently at the raw-data boundary. Merged model inputs must retain field-level source provenance and apply explicit, tested conflict and fallback rules rather than silently blending or overwriting values.
 
 Use nflverse as the primary historical NFL outcomes and identifier-enrichment
 source. Preserve nflverse releases as immutable pre-draft snapshots, normalize
@@ -101,7 +104,7 @@ Before draft night, verify this with a full replay or simulation of a historical
 ## Order of Operations
 
 1. Capture league rules, roster constraints, scoring, budgets, historical auction results, owner identities, and source-data contracts.
-2. Build reproducible Python ingestion and cleaning pipelines; use FantasyPros as the primary projection and player-identity backbone, enrich it from source-isolated FFA and future datasets, and establish stable internal player and owner identifiers.
+2. Build reproducible Python ingestion and cleaning pipelines; use FantasyPros as the primary projection backbone, nflverse/GSIS as the preferred player-identity backbone, enrich projections from source-isolated FFA and future datasets, and establish stable internal player and owner identifiers.
 3. Create baseline performance-value and historical-price models, evaluation metrics, uncertainty outputs, and versioned runtime artifacts.
 4. Define the domain model and SQLite schema, including event history, state transitions, migrations, and recovery behavior.
 5. Implement and test the deterministic live draft engine: nominations, completed sales, rosters, budgets, availability, inflation, scarcity, and recalculation.

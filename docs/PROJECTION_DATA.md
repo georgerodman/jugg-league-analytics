@@ -1,9 +1,14 @@
 # Projection Data Sources
 
+The authoritative cross-source roles and player-identity contract are in
+`docs/DATA_SOURCES_AND_PLAYER_IDENTITY.md`. This document records projection
+provider schemas, provenance, and inventory details.
+
 ## Source roles
 
-FantasyPros is the canonical projection backbone for player identity and
-preseason counting-stat projections. FFA is a complementary enrichment source,
+FantasyPros is the canonical backbone for the preseason player pool and
+counting-stat projections. nflverse/GSIS provides the preferred durable player
+identity. FFA is a complementary enrichment source,
 especially for uncertainty estimates and kicker distance buckets. Additional
 sources may be added behind the same source-specific raw-data boundary. A
 source must not silently overwrite another source's fields; merged artifacts
@@ -110,8 +115,9 @@ The FantasyPros schema is consistent across all seven seasons: the same stat
 fields appear for each position in every year, receptions are present in all
 years, and every row has a FantasyPros player ID. It also supplies projected
 points-allowed buckets for defenses. This makes FantasyPros the cleaner
-candidate for the canonical historical counting-stat input and stable source
-identifier.
+candidate for the canonical historical preseason counting-stat input. Its ID
+is retained as a provider alias, not used as the preferred durable internal
+identity.
 
 The older FFA snapshots still contain information absent from FantasyPros:
 per-stat standard deviations, kicker distance buckets,

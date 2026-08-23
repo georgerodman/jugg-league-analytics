@@ -1,5 +1,9 @@
 # Historical Projection Evaluation
 
+See `docs/DATA_SOURCES_AND_PLAYER_IDENTITY.md` for the authoritative source-role
+and identity-matching contract. This document records the evaluation evidence
+behind the projection-source decision.
+
 ## Decision
 
 Use FantasyPros as the primary preseason projection source. Retain FFA as an
@@ -41,18 +45,17 @@ FFA as an enrichment and validation signal rather than removing it.
 
 ## Identity results
 
-Canonical projections use FantasyPros IDs as the provider-backed identity and
-an internal identifier shaped as `nfl:gsis:<gsis_id>` when a validated nflverse
+Canonical projections retain FantasyPros IDs as provider aliases and use an
+internal identifier shaped as `nfl:gsis:<gsis_id>` when a validated nflverse
 identity is available, with `provisional:fantasypros:<fantasypros_id>` as the
-explicit fallback. FFA matching
-uses normalized name, position, and team evidence with conservative fallbacks.
-Exceptions are emitted rather than guessed.
+explicit fallback. FFA matching uses normalized name, position, and team
+evidence with conservative fallbacks. Exceptions are emitted rather than
+guessed.
 
-839 of 840 historical auction sales now map to an internal player identity. Two
+All 840 historical auction sales now map to an internal player identity. Three
 sales whose players were absent from that season's FantasyPros projection pool
-were resolved through the same unique identity in another season. One reviewed
-nickname alias is stored in `config/player_aliases.json`; the remaining
-unmatched sale stays visible for review rather than being guessed.
+were resolved through the same unique stable identity in another season.
+Reviewed source-scoped aliases are stored in `config/player_aliases.json`.
 
 ## Limitations and next evaluation
 

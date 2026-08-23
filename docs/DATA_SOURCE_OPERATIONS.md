@@ -4,6 +4,10 @@ This runbook governs projection-source onboarding, routine refreshes, rebuilds,
 and publication. `docs/PROJECT_SPEC.md` remains authoritative for product and
 architecture decisions.
 
+Source responsibilities and the complete identity-matching hierarchy are
+defined in `docs/DATA_SOURCES_AND_PLAYER_IDENTITY.md`. This document focuses on
+how to operate those pipelines.
+
 ## Source contract
 
 Every provider has a stable lowercase source key such as `fantasypros` or

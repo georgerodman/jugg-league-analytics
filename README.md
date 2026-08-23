@@ -1,5 +1,8 @@
 # JUGG League Analytics
 
+Data-source responsibilities and the player identity/matching process are
+documented in `docs/DATA_SOURCES_AND_PLAYER_IDENTITY.md`.
+
 A fantasy football analytics, draft preparation, and league management project built for the JUGG League, a long-running private Yahoo Fantasy Football league.
 
 ## Project Goals
