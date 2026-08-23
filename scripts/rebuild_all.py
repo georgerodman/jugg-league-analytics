@@ -20,6 +20,7 @@ STAGES = (
     ("projection_evaluation", "evaluate_projection_sources.py"),
     ("auction_price_and_probability", "auction_price_model.py"),
     ("production_value_and_decision_board", "production_value_model.py"),
+    ("owner_tendencies", "owner_tendencies.py"),
 )
 
 

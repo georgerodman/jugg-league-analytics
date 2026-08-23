@@ -38,7 +38,7 @@ This deliberately does not fetch network sources. It validates the current
 local inputs and then rebuilds canonical projections, projection review,
 auction identity matches, projection evaluation, auction price and draft
 probability models, production values, historical backtests, and the combined
-decision board. It runs the full test suite and verifies the final board before
+decision board, followed by owner-tendency profiles. It runs the full test suite and verifies the final board before
 publishing a successful rebuild manifest.
 
 Every stage writes a log under `data/processed/rebuilds/<timestamp>/`. The
