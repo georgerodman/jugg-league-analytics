@@ -14,6 +14,11 @@
     {"source": "identity", "source_name": "Hollywood Brown", "registry_name": "Marquise Brown", "position": "WR", "seasons": [2020, 2021, 2022, 2023, 2024, 2025, 2026]},
     {"source": "identity", "source_name": "Joshua Palmer", "registry_name": "Josh Palmer", "position": "WR", "seasons": [2021, 2022, 2023, 2024, 2025, 2026]},
     {"source": "identity", "source_name": "Mitch Tinsley", "registry_name": "Mitchell Tinsley", "position": "WR", "seasons": [2023, 2024, 2025, 2026]},
-    {"source": "identity", "source_name": "Drew Ogletree", "registry_name": "Andrew Ogletree", "position": "TE", "seasons": [2022, 2023, 2024, 2025, 2026]}
+    {"source": "identity", "source_name": "Drew Ogletree", "registry_name": "Andrew Ogletree", "position": "TE", "seasons": [2022, 2023, 2024, 2025, 2026]},
+    {"source": "espn_salary_cap_values", "source_name": "Ken Walker III", "registry_name": "Kenneth Walker III", "position": "RB", "seasons": [2022, 2023]},
+    {"source": "espn_salary_cap_values", "source_name": "D'Wayne Eskridge", "registry_name": "Dee Eskridge", "position": "WR", "seasons": [2021]},
+    {"source": "espn_salary_cap_values", "source_name": "Bill Croskey-Merritt", "registry_name": "Jacory Croskey-Merritt", "position": "RB", "seasons": [2025]},
+    {"source": "espn_salary_cap_values", "source_name": "Cameron Ward", "registry_name": "Cam Ward", "position": "QB", "seasons": [2025]},
+    {"source": "espn_salary_cap_values", "source_name": "Robbie Anderson", "fantasypros_name": "Robbie Chosen", "position": "WR", "seasons": [2022]}
   ]
 }

@@ -1,0 +1,3964 @@
+{
+  "metadata": {
+    "combined_player_count": 489,
+    "dataset": "platform_adp",
+    "platforms": {
+      "espn": {
+        "fantasypros_expert_id": 79,
+        "player_count": 486,
+        "scoring_pool": "PPR"
+      },
+      "yahoo": {
+        "fantasypros_expert_id": 236,
+        "player_count": 199,
+        "scoring_pool": "HALF"
+      }
+    },
+    "requests": [
+      {
+        "available_source_ids": "236,30,624",
+        "file": "half.json",
+        "last_updated": "9/10",
+        "last_updated_ts": 1599720300,
+        "public_api_limited": true,
+        "record_count": 391,
+        "scoring": "HALF",
+        "sha256": "2d23de690207d0aca7f3cec653697dfec22f1b3a50ee0fd5ba871cca2baa0518",
+        "tier": "premium",
+        "url": "https://api.fantasypros.com/public/v2/json/nfl/2020/consensus-rankings?position=ALL&type=ADP&scoring=HALF&week=0&experts=show"
+      },
+      {
+        "available_source_ids": "30,439,624,79",
+        "file": "ppr.json",
+        "last_updated": "9/10",
+        "last_updated_ts": 1599745064,
+        "public_api_limited": true,
+        "record_count": 583,
+        "scoring": "PPR",
+        "sha256": "24c5ac547da06a726470c3b6e21c637122c217b04e91985669ffe180179f4962",
+        "tier": "premium",
+        "url": "https://api.fantasypros.com/public/v2/json/nfl/2020/consensus-rankings?position=ALL&type=ADP&scoring=PPR&week=0&experts=show"
+      }
+    ],
+    "retrieved_at": "2026-08-23T17:55:56.742401+00:00",
+    "schema_version": 1,
+    "season": 2020,
+    "snapshot_id": "20260823T175556Z",
+    "source": "fantasypros",
+    "week": 0
+  },
+  "players": [
+    {
+      "adp_espn": 1.0,
+      "adp_yahoo": 1.0,
+      "fantasypros_id": 16393,
+      "name": "Christian McCaffrey",
+      "nfl_team": "SF",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 2.0,
+      "adp_yahoo": 2.0,
+      "fantasypros_id": 17240,
+      "name": "Saquon Barkley",
+      "nfl_team": "PHI",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 3.0,
+      "adp_yahoo": 3.0,
+      "fantasypros_id": 15498,
+      "name": "Ezekiel Elliott",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 5.0,
+      "adp_yahoo": 4.0,
+      "fantasypros_id": 16421,
+      "name": "Alvin Kamara",
+      "nfl_team": "NO",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 4.0,
+      "adp_yahoo": 7.0,
+      "fantasypros_id": 16374,
+      "name": "Dalvin Cook",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 7.0,
+      "adp_yahoo": 5.0,
+      "fantasypros_id": 15514,
+      "name": "Derrick Henry",
+      "nfl_team": "BAL",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 6.0,
+      "adp_yahoo": 6.0,
+      "fantasypros_id": 15528,
+      "name": "Michael Thomas",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 8.0,
+      "adp_yahoo": 8.0,
+      "fantasypros_id": 19325,
+      "name": "Clyde Edwards-Helaire",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 14.0,
+      "adp_yahoo": 9.0,
+      "fantasypros_id": 12123,
+      "name": "Davante Adams",
+      "nfl_team": "LAR",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 9.0,
+      "adp_yahoo": 18.0,
+      "fantasypros_id": 18269,
+      "name": "Josh Jacobs",
+      "nfl_team": "GB",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 10.0,
+      "adp_yahoo": 13.0,
+      "fantasypros_id": 17246,
+      "name": "Nick Chubb",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 11.0,
+      "adp_yahoo": 10.0,
+      "fantasypros_id": 16413,
+      "name": "Patrick Mahomes II",
+      "nfl_team": "KC",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 22.0,
+      "adp_yahoo": 11.0,
+      "fantasypros_id": 16420,
+      "name": "Joe Mixon",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 12.0,
+      "adp_yahoo": 23.0,
+      "fantasypros_id": 18283,
+      "name": "Miles Sanders",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 13.0,
+      "adp_yahoo": 12.0,
+      "fantasypros_id": 15802,
+      "name": "Tyreek Hill",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 15.0,
+      "adp_yahoo": 14.0,
+      "fantasypros_id": 9867,
+      "name": "Julio Jones",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 17.0,
+      "adp_yahoo": 15.0,
+      "fantasypros_id": 17233,
+      "name": "Lamar Jackson",
+      "nfl_team": "BAL",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 23.0,
+      "adp_yahoo": 16.0,
+      "fantasypros_id": 16499,
+      "name": "George Kittle",
+      "nfl_team": "SF",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 16.0,
+      "adp_yahoo": 17.0,
+      "fantasypros_id": 15637,
+      "name": "Kenyan Drake",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 18.0,
+      "adp_yahoo": 21.0,
+      "fantasypros_id": 16673,
+      "name": "Aaron Jones Sr.",
+      "nfl_team": "MIN",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 19.0,
+      "adp_yahoo": 20.0,
+      "fantasypros_id": 11606,
+      "name": "DeAndre Hopkins",
+      "nfl_team": "BAL",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 20.0,
+      "adp_yahoo": 19.0,
+      "fantasypros_id": 11594,
+      "name": "Travis Kelce",
+      "nfl_team": "KC",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 21.0,
+      "adp_yahoo": 22.0,
+      "fantasypros_id": 16483,
+      "name": "Austin Ekeler",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 24.0,
+      "adp_yahoo": 24.0,
+      "fantasypros_id": 16406,
+      "name": "Chris Godwin Jr.",
+      "nfl_team": "TB",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 41.0,
+      "adp_yahoo": 25.0,
+      "fantasypros_id": 16447,
+      "name": "James Conner",
+      "nfl_team": "ARI",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 25.0,
+      "adp_yahoo": 28.0,
+      "fantasypros_id": 12119,
+      "name": "Mike Evans",
+      "nfl_team": "SF",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 26.0,
+      "adp_yahoo": 29.0,
+      "fantasypros_id": 13429,
+      "name": "Adam Thielen",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 34.0,
+      "adp_yahoo": 26.0,
+      "fantasypros_id": 12126,
+      "name": "Allen Robinson II",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 27.0,
+      "adp_yahoo": 27.0,
+      "fantasypros_id": 16488,
+      "name": "Kenny Golladay",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 28.0,
+      "adp_yahoo": 38.0,
+      "fantasypros_id": 13894,
+      "name": "Amari Cooper",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 29.0,
+      "adp_yahoo": 37.0,
+      "fantasypros_id": 17265,
+      "name": "DJ Moore",
+      "nfl_team": "BUF",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 30.0,
+      "adp_yahoo": 34.0,
+      "fantasypros_id": 16427,
+      "name": "JuJu Smith-Schuster",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 33.0,
+      "adp_yahoo": 30.0,
+      "fantasypros_id": 12127,
+      "name": "Odell Beckham Jr.",
+      "nfl_team": "NYG",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 31.0,
+      "adp_yahoo": 31.0,
+      "fantasypros_id": 16754,
+      "name": "Chris Carson",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 32.0,
+      "adp_yahoo": 32.0,
+      "fantasypros_id": 13912,
+      "name": "Todd Gurley II",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 48.0,
+      "adp_yahoo": 33.0,
+      "fantasypros_id": 13903,
+      "name": "Melvin Gordon III",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 35.0,
+      "adp_yahoo": 51.0,
+      "fantasypros_id": 16398,
+      "name": "Deshaun Watson",
+      "nfl_team": "CLE",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 36.0,
+      "adp_yahoo": 35.0,
+      "fantasypros_id": 17269,
+      "name": "Mark Andrews",
+      "nfl_team": "BAL",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 51.0,
+      "adp_yahoo": 36.0,
+      "fantasypros_id": 19217,
+      "name": "Jonathan Taylor",
+      "nfl_team": "IND",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 37.0,
+      "adp_yahoo": 52.0,
+      "fantasypros_id": 13948,
+      "name": "David Johnson",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 38.0,
+      "adp_yahoo": 43.0,
+      "fantasypros_id": 11689,
+      "name": "Zach Ertz",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 44.0,
+      "adp_yahoo": 39.0,
+      "fantasypros_id": 18218,
+      "name": "A.J. Brown",
+      "nfl_team": "NE",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 39.0,
+      "adp_yahoo": 55.0,
+      "fantasypros_id": 17253,
+      "name": "Courtland Sutton",
+      "nfl_team": "DEN",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 40.0,
+      "adp_yahoo": 49.0,
+      "fantasypros_id": 17258,
+      "name": "Calvin Ridley",
+      "nfl_team": "TEN",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 64.0,
+      "adp_yahoo": 40.0,
+      "fantasypros_id": 9872,
+      "name": "Mark Ingram II",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 47.0,
+      "adp_yahoo": 41.0,
+      "fantasypros_id": 11180,
+      "name": "Russell Wilson",
+      "nfl_team": "FA",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 49.0,
+      "adp_yahoo": 42.0,
+      "fantasypros_id": 15600,
+      "name": "Dak Prescott",
+      "nfl_team": "DAL",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 42.0,
+      "adp_yahoo": 48.0,
+      "fantasypros_id": 13971,
+      "name": "Tyler Lockett",
+      "nfl_team": "LV",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 43.0,
+      "adp_yahoo": 44.0,
+      "fantasypros_id": 16433,
+      "name": "Cooper Kupp",
+      "nfl_team": "SEA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 46.0,
+      "adp_yahoo": 45.0,
+      "fantasypros_id": 11645,
+      "name": "Le'Veon Bell",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 45.0,
+      "adp_yahoo": 61.0,
+      "fantasypros_id": 11610,
+      "name": "Robert Woods",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 57.0,
+      "adp_yahoo": 46.0,
+      "fantasypros_id": 18466,
+      "name": "Terry McLaurin",
+      "nfl_team": "WAS",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 65.0,
+      "adp_yahoo": 47.0,
+      "fantasypros_id": 14338,
+      "name": "Raheem Mostert",
+      "nfl_team": "LV",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 50.0,
+      "adp_yahoo": 50.0,
+      "fantasypros_id": 18600,
+      "name": "Kyler Murray",
+      "nfl_team": "MIN",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 52.0,
+      "adp_yahoo": 57.0,
+      "fantasypros_id": 11616,
+      "name": "Keenan Allen",
+      "nfl_team": "IND",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 54.0,
+      "adp_yahoo": 53.0,
+      "fantasypros_id": 18219,
+      "name": "DK Metcalf",
+      "nfl_team": "PIT",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 53.0,
+      "adp_yahoo": 56.0,
+      "fantasypros_id": 14104,
+      "name": "Darren Waller",
+      "nfl_team": "CAR",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 60.0,
+      "adp_yahoo": 54.0,
+      "fantasypros_id": 17292,
+      "name": "DJ Chark Jr.",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 55.0,
+      "adp_yahoo": 64.0,
+      "fantasypros_id": 11206,
+      "name": "T.Y. Hilton",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 56.0,
+      "adp_yahoo": 60.0,
+      "fantasypros_id": 19268,
+      "name": "Cam Akers",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 58.0,
+      "adp_yahoo": 69.0,
+      "fantasypros_id": 16425,
+      "name": "Kareem Hunt",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 68.0,
+      "adp_yahoo": 58.0,
+      "fantasypros_id": 16378,
+      "name": "Leonard Fournette",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 59.0,
+      "adp_yahoo": 89.0,
+      "fantasypros_id": 12128,
+      "name": "Jarvis Landry",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 74.0,
+      "adp_yahoo": 59.0,
+      "fantasypros_id": 15623,
+      "name": "Tyler Higbee",
+      "nfl_team": "LAR",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 61.0,
+      "adp_yahoo": 81.0,
+      "fantasypros_id": 9603,
+      "name": "Tom Brady",
+      "nfl_team": "FA",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 62.0,
+      "adp_yahoo": 84.0,
+      "fantasypros_id": 16411,
+      "name": "Evan Engram",
+      "nfl_team": "DEN",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 83.0,
+      "adp_yahoo": 62.0,
+      "fantasypros_id": 8270,
+      "name": "San Francisco 49ers",
+      "nfl_team": "SF",
+      "position": "DEF"
+    },
+    {
+      "adp_espn": 66.0,
+      "adp_yahoo": 63.0,
+      "fantasypros_id": 18280,
+      "name": "Devin Singletary",
+      "nfl_team": "NYG",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 63.0,
+      "adp_yahoo": 68.0,
+      "fantasypros_id": 13981,
+      "name": "Stefon Diggs",
+      "nfl_team": "WAS",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 82.0,
+      "adp_yahoo": 65.0,
+      "fantasypros_id": 9444,
+      "name": "Matt Ryan",
+      "nfl_team": "FA",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 69.0,
+      "adp_yahoo": 66.0,
+      "fantasypros_id": 19210,
+      "name": "D'Andre Swift",
+      "nfl_team": "CHI",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 71.0,
+      "adp_yahoo": 67.0,
+      "fantasypros_id": 13897,
+      "name": "DeVante Parker",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 67.0,
+      "adp_yahoo": 77.0,
+      "fantasypros_id": 9721,
+      "name": "Rob Gronkowski",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 70.0,
+      "adp_yahoo": 90.0,
+      "fantasypros_id": 9857,
+      "name": "A.J. Green",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 98.0,
+      "adp_yahoo": 70.0,
+      "fantasypros_id": 17298,
+      "name": "Josh Allen",
+      "nfl_team": "BUF",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 86.0,
+      "adp_yahoo": 71.0,
+      "fantasypros_id": 9265,
+      "name": "Jared Cook",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 76.0,
+      "adp_yahoo": 72.0,
+      "fantasypros_id": 9200,
+      "name": "Drew Brees",
+      "nfl_team": "FA",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 72.0,
+      "adp_yahoo": 76.0,
+      "fantasypros_id": 17259,
+      "name": "Michael Gallup",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 73.0,
+      "adp_yahoo": 74.0,
+      "fantasypros_id": 18239,
+      "name": "David Montgomery",
+      "nfl_team": "HOU",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 91.0,
+      "adp_yahoo": 73.0,
+      "fantasypros_id": 15561,
+      "name": "Hunter Henry",
+      "nfl_team": "NE",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 100.0,
+      "adp_yahoo": 75.0,
+      "fantasypros_id": 8020,
+      "name": "Baltimore Ravens",
+      "nfl_team": "BAL",
+      "position": "DEF"
+    },
+    {
+      "adp_espn": 75.0,
+      "adp_yahoo": 79.0,
+      "fantasypros_id": 18226,
+      "name": "Hollywood Brown",
+      "nfl_team": "PHI",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 77.0,
+      "adp_yahoo": 109.0,
+      "fantasypros_id": 19624,
+      "name": "Antonio Gibson",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 90.0,
+      "adp_yahoo": 78.0,
+      "fantasypros_id": 11465,
+      "name": "Justin Tucker",
+      "nfl_team": "FA",
+      "position": "K"
+    },
+    {
+      "adp_espn": 78.0,
+      "adp_yahoo": 85.0,
+      "fantasypros_id": 15547,
+      "name": "Tyler Boyd",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 79.0,
+      "adp_yahoo": 99.0,
+      "fantasypros_id": 9332,
+      "name": "Julian Edelman",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 81.0,
+      "adp_yahoo": 80.0,
+      "fantasypros_id": 8240,
+      "name": "Pittsburgh Steelers",
+      "nfl_team": "PIT",
+      "position": "DEF"
+    },
+    {
+      "adp_espn": 80.0,
+      "adp_yahoo": 95.0,
+      "fantasypros_id": 15629,
+      "name": "William Fuller V",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 97.0,
+      "adp_yahoo": 82.0,
+      "fantasypros_id": 17243,
+      "name": "Ronald Jones II",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 89.0,
+      "adp_yahoo": 83.0,
+      "fantasypros_id": 16712,
+      "name": "Harrison Butker",
+      "nfl_team": "KC",
+      "position": "K"
+    },
+    {
+      "adp_espn": 84.0,
+      "adp_yahoo": 93.0,
+      "fantasypros_id": 8030,
+      "name": "Buffalo Bills",
+      "nfl_team": "BUF",
+      "position": "DEF"
+    },
+    {
+      "adp_espn": 85.0,
+      "adp_yahoo": 98.0,
+      "fantasypros_id": 18244,
+      "name": "Deebo Samuel Sr.",
+      "nfl_team": "SF",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 99.0,
+      "adp_yahoo": 86.0,
+      "fantasypros_id": 19245,
+      "name": "J.K. Dobbins",
+      "nfl_team": "DEN",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 103.0,
+      "adp_yahoo": 87.0,
+      "fantasypros_id": 15585,
+      "name": "Jordan Howard",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 87.0,
+      "adp_yahoo": 128.0,
+      "fantasypros_id": 16450,
+      "name": "Tarik Cohen",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 104.0,
+      "adp_yahoo": 88.0,
+      "fantasypros_id": 15520,
+      "name": "Carson Wentz",
+      "nfl_team": "MIN",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 88.0,
+      "adp_yahoo": 106.0,
+      "fantasypros_id": 11215,
+      "name": "Marvin Jones Jr.",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 299.0,
+      "adp_yahoo": 91.0,
+      "fantasypros_id": 17241,
+      "name": "Derrius Guice",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 92.0,
+      "adp_yahoo": 118.0,
+      "fantasypros_id": 12122,
+      "name": "Brandin Cooks",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 93.0,
+      "adp_yahoo": 96.0,
+      "fantasypros_id": 9001,
+      "name": "Aaron Rodgers",
+      "nfl_team": "PIT",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 94.0,
+      "adp_yahoo": 105.0,
+      "fantasypros_id": 17498,
+      "name": "Phillip Lindsay",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 105.0,
+      "adp_yahoo": 94.0,
+      "fantasypros_id": 16026,
+      "name": "Wil Lutz",
+      "nfl_team": "DEN",
+      "position": "K"
+    },
+    {
+      "adp_espn": 95.0,
+      "adp_yahoo": 135.0,
+      "fantasypros_id": 15569,
+      "name": "Sterling Shepard",
+      "nfl_team": "HOU",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 96.0,
+      "adp_yahoo": 138.0,
+      "fantasypros_id": 17247,
+      "name": "Kerryon Johnson",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 123.0,
+      "adp_yahoo": 97.0,
+      "fantasypros_id": 8050,
+      "name": "Chicago Bears",
+      "nfl_team": "CHI",
+      "position": "DEF"
+    },
+    {
+      "adp_espn": 114.0,
+      "adp_yahoo": 100.0,
+      "fantasypros_id": 17058,
+      "name": "Matt Breida",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 101.0,
+      "adp_yahoo": 107.0,
+      "fantasypros_id": 12195,
+      "name": "James White",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 109.0,
+      "adp_yahoo": 101.0,
+      "fantasypros_id": 19263,
+      "name": "Zack Moss",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 102.0,
+      "adp_yahoo": 108.0,
+      "fantasypros_id": 18615,
+      "name": "Diontae Johnson",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 132.0,
+      "adp_yahoo": 102.0,
+      "fantasypros_id": 11345,
+      "name": "Greg Zuerlein",
+      "nfl_team": "FA",
+      "position": "K"
+    },
+    {
+      "adp_espn": 117.0,
+      "adp_yahoo": 103.0,
+      "fantasypros_id": 9451,
+      "name": "Matthew Stafford",
+      "nfl_team": "LAR",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 115.0,
+      "adp_yahoo": 104.0,
+      "fantasypros_id": 17283,
+      "name": "Hayden Hurst",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 106.0,
+      "adp_yahoo": 114.0,
+      "fantasypros_id": 9869,
+      "name": "Cam Newton",
+      "nfl_team": "FA",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 107.0,
+      "adp_yahoo": 119.0,
+      "fantasypros_id": 8180,
+      "name": "New England Patriots",
+      "nfl_team": "NE",
+      "position": "DEF"
+    },
+    {
+      "adp_espn": 108.0,
+      "adp_yahoo": 127.0,
+      "fantasypros_id": 17527,
+      "name": "Noah Fant",
+      "nfl_team": "NO",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 110.0,
+      "adp_yahoo": 126.0,
+      "fantasypros_id": 13976,
+      "name": "Jamison Crowder",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 144.0,
+      "adp_yahoo": 110.0,
+      "fantasypros_id": 8190,
+      "name": "New Orleans Saints",
+      "nfl_team": "NO",
+      "position": "DEF"
+    },
+    {
+      "adp_espn": 111.0,
+      "adp_yahoo": 141.0,
+      "fantasypros_id": 19207,
+      "name": "Henry Ruggs III",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 148.0,
+      "adp_yahoo": 111.0,
+      "fantasypros_id": 17309,
+      "name": "Sony Michel",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 113.0,
+      "adp_yahoo": 112.0,
+      "fantasypros_id": 19202,
+      "name": "CeeDee Lamb",
+      "nfl_team": "DAL",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 112.0,
+      "adp_yahoo": 164.0,
+      "fantasypros_id": 17268,
+      "name": "Christian Kirk",
+      "nfl_team": "SF",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 130.0,
+      "adp_yahoo": 113.0,
+      "fantasypros_id": 16444,
+      "name": "Marlon Mack",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 176.0,
+      "adp_yahoo": 115.0,
+      "fantasypros_id": 8150,
+      "name": "Kansas City Chiefs",
+      "nfl_team": "KC",
+      "position": "DEF"
+    },
+    {
+      "adp_espn": 116.0,
+      "adp_yahoo": 136.0,
+      "fantasypros_id": 9707,
+      "name": "Emmanuel Sanders",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 134.0,
+      "adp_yahoo": 116.0,
+      "fantasypros_id": 9534,
+      "name": "Robbie Gould",
+      "nfl_team": "FA",
+      "position": "K"
+    },
+    {
+      "adp_espn": 142.0,
+      "adp_yahoo": 117.0,
+      "fantasypros_id": 9039,
+      "name": "Ben Roethlisberger",
+      "nfl_team": "FA",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 118.0,
+      "adp_yahoo": 134.0,
+      "fantasypros_id": 19201,
+      "name": "Jerry Jeudy",
+      "nfl_team": "CLE",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 119.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 8130,
+      "name": "Indianapolis Colts",
+      "nfl_team": "IND",
+      "position": "DEF"
+    },
+    {
+      "adp_espn": 120.0,
+      "adp_yahoo": 124.0,
+      "fantasypros_id": 9443,
+      "name": "Matt Prater",
+      "nfl_team": "FA",
+      "position": "K"
+    },
+    {
+      "adp_espn": 133.0,
+      "adp_yahoo": 120.0,
+      "fantasypros_id": 8170,
+      "name": "Minnesota Vikings",
+      "nfl_team": "MIN",
+      "position": "DEF"
+    },
+    {
+      "adp_espn": 136.0,
+      "adp_yahoo": 121.0,
+      "fantasypros_id": 15581,
+      "name": "Austin Hooper",
+      "nfl_team": "ATL",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 121.0,
+      "adp_yahoo": 179.0,
+      "fantasypros_id": 18612,
+      "name": "Preston Williams",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 122.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 9683,
+      "name": "Golden Tate",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 146.0,
+      "adp_yahoo": 122.0,
+      "fantasypros_id": 19196,
+      "name": "Joe Burrow",
+      "nfl_team": "CIN",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 126.0,
+      "adp_yahoo": 123.0,
+      "fantasypros_id": 12231,
+      "name": "John Brown",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 124.0,
+      "adp_yahoo": 152.0,
+      "fantasypros_id": 18588,
+      "name": "Darrell Henderson Jr.",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": null,
+      "adp_yahoo": 125.0,
+      "fantasypros_id": 19351,
+      "name": "Ke'Shawn Vaughn",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 125.0,
+      "adp_yahoo": 153.0,
+      "fantasypros_id": 18290,
+      "name": "T.J. Hockenson",
+      "nfl_team": "MIN",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 127.0,
+      "adp_yahoo": 137.0,
+      "fantasypros_id": 13926,
+      "name": "Tevin Coleman",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 128.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 15688,
+      "name": "Robbie Chosen",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 129.0,
+      "adp_yahoo": 133.0,
+      "fantasypros_id": 18706,
+      "name": "Darius Slayton",
+      "nfl_team": "NYG",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 203.0,
+      "adp_yahoo": 129.0,
+      "fantasypros_id": 9712,
+      "name": "Jimmy Graham",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 193.0,
+      "adp_yahoo": 130.0,
+      "fantasypros_id": 9906,
+      "name": "Kyle Rudolph",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 204.0,
+      "adp_yahoo": 131.0,
+      "fantasypros_id": 12092,
+      "name": "Derek Carr",
+      "nfl_team": "FA",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 131.0,
+      "adp_yahoo": 142.0,
+      "fantasypros_id": 11821,
+      "name": "Latavius Murray",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 152.0,
+      "adp_yahoo": 132.0,
+      "fantasypros_id": 12208,
+      "name": "Jimmy Garoppolo",
+      "nfl_team": "LAR",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 135.0,
+      "adp_yahoo": 139.0,
+      "fantasypros_id": 18621,
+      "name": "Alexander Mattison",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 137.0,
+      "adp_yahoo": 161.0,
+      "fantasypros_id": 9186,
+      "name": "DeSean Jackson",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 138.0,
+      "adp_yahoo": 184.0,
+      "fantasypros_id": 13939,
+      "name": "Duke Johnson Jr.",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 139.0,
+      "adp_yahoo": 157.0,
+      "fantasypros_id": 18587,
+      "name": "Mecole Hardman Jr.",
+      "nfl_team": "BUF",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 140.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 13029,
+      "name": "Chris Boswell",
+      "nfl_team": "PIT",
+      "position": "K"
+    },
+    {
+      "adp_espn": 143.0,
+      "adp_yahoo": 140.0,
+      "fantasypros_id": 17272,
+      "name": "Mike Gesicki",
+      "nfl_team": "CIN",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 141.0,
+      "adp_yahoo": 144.0,
+      "fantasypros_id": 18232,
+      "name": "Daniel Jones",
+      "nfl_team": "IND",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 200.0,
+      "adp_yahoo": 143.0,
+      "fantasypros_id": 9238,
+      "name": "Greg Olsen",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 145.0,
+      "adp_yahoo": 166.0,
+      "fantasypros_id": 19236,
+      "name": "Justin Jefferson",
+      "nfl_team": "MIN",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 201.0,
+      "adp_yahoo": 145.0,
+      "fantasypros_id": 19198,
+      "name": "Tua Tagovailoa",
+      "nfl_team": "ATL",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 214.0,
+      "adp_yahoo": 146.0,
+      "fantasypros_id": 16380,
+      "name": "O.J. Howard",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 153.0,
+      "adp_yahoo": 147.0,
+      "fantasypros_id": 15501,
+      "name": "Jared Goff",
+      "nfl_team": "DET",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 147.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 18222,
+      "name": "N'Keal Harry",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 165.0,
+      "adp_yahoo": 148.0,
+      "fantasypros_id": 17237,
+      "name": "Baker Mayfield",
+      "nfl_team": "TB",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 149.0,
+      "adp_yahoo": 177.0,
+      "fantasypros_id": 16377,
+      "name": "Mike Williams",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 191.0,
+      "adp_yahoo": 149.0,
+      "fantasypros_id": 12088,
+      "name": "Teddy Bridgewater",
+      "nfl_team": "FA",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 150.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 8090,
+      "name": "Denver Broncos",
+      "nfl_team": "DEN",
+      "position": "DEF"
+    },
+    {
+      "adp_espn": 161.0,
+      "adp_yahoo": 150.0,
+      "fantasypros_id": 9383,
+      "name": "Larry Fitzgerald",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 151.0,
+      "adp_yahoo": 200.0,
+      "fantasypros_id": 13975,
+      "name": "Breshad Perriman",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 221.0,
+      "adp_yahoo": 151.0,
+      "fantasypros_id": 9398,
+      "name": "LeSean McCoy",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 180.0,
+      "adp_yahoo": 154.0,
+      "fantasypros_id": 18225,
+      "name": "Drew Lock",
+      "nfl_team": "SEA",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 154.0,
+      "adp_yahoo": 167.0,
+      "fantasypros_id": 18705,
+      "name": "Tony Pollard",
+      "nfl_team": "TEN",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 155.0,
+      "adp_yahoo": 170.0,
+      "fantasypros_id": 11651,
+      "name": "Chris Thompson",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 187.0,
+      "adp_yahoo": 155.0,
+      "fantasypros_id": 18562,
+      "name": "Gardner Minshew II",
+      "nfl_team": "ARI",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 190.0,
+      "adp_yahoo": 156.0,
+      "fantasypros_id": 9509,
+      "name": "Philip Rivers",
+      "nfl_team": "FA",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 156.0,
+      "adp_yahoo": 159.0,
+      "fantasypros_id": 12118,
+      "name": "Sammy Watkins",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 157.0,
+      "adp_yahoo": 194.0,
+      "fantasypros_id": 16434,
+      "name": "Curtis Samuel",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 202.0,
+      "adp_yahoo": 158.0,
+      "fantasypros_id": 18521,
+      "name": "Ryquell Armstead",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 158.0,
+      "adp_yahoo": 178.0,
+      "fantasypros_id": 16548,
+      "name": "Zane Gonzalez",
+      "nfl_team": "FA",
+      "position": "K"
+    },
+    {
+      "adp_espn": 159.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 17536,
+      "name": "Chris Herndon IV",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 198.0,
+      "adp_yahoo": 160.0,
+      "fantasypros_id": 19219,
+      "name": "Jalen Reagor",
+      "nfl_team": "MIA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 160.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 8290,
+      "name": "Tampa Bay Buccaneers",
+      "nfl_team": "TB",
+      "position": "DEF"
+    },
+    {
+      "adp_espn": 162.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 17255,
+      "name": "Anthony Miller",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 181.0,
+      "adp_yahoo": 162.0,
+      "fantasypros_id": 18230,
+      "name": "Damien Harris",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": null,
+      "adp_yahoo": 163.0,
+      "fantasypros_id": 18345,
+      "name": "Hunter Renfrow",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 163.0,
+      "adp_yahoo": 175.0,
+      "fantasypros_id": 11174,
+      "name": "Ryan Tannehill",
+      "nfl_team": "FA",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 164.0,
+      "adp_yahoo": 172.0,
+      "fantasypros_id": 17496,
+      "name": "Chase Edmonds",
+      "nfl_team": "WAS",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 207.0,
+      "adp_yahoo": 165.0,
+      "fantasypros_id": 17514,
+      "name": "Darrel Williams",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 166.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 11987,
+      "name": "Jack Doyle",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 167.0,
+      "adp_yahoo": 169.0,
+      "fantasypros_id": 12143,
+      "name": "Eric Ebron",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 168.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 16540,
+      "name": "Jake Elliott",
+      "nfl_team": "PHI",
+      "position": "K"
+    },
+    {
+      "adp_espn": 232.0,
+      "adp_yahoo": 168.0,
+      "fantasypros_id": 11692,
+      "name": "Tyler Eifert",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 169.0,
+      "adp_yahoo": 191.0,
+      "fantasypros_id": 17612,
+      "name": "Boston Scott",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 170.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 17297,
+      "name": "Nyheim Miller-Hines",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 171.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 8080,
+      "name": "Dallas Cowboys",
+      "nfl_team": "DAL",
+      "position": "DEF"
+    },
+    {
+      "adp_espn": 215.0,
+      "adp_yahoo": 171.0,
+      "fantasypros_id": 19631,
+      "name": "James Robinson",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 172.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 8260,
+      "name": "Seattle Seahawks",
+      "nfl_team": "SEA",
+      "position": "DEF"
+    },
+    {
+      "adp_espn": 217.0,
+      "adp_yahoo": 173.0,
+      "fantasypros_id": 19358,
+      "name": "AJ Dillon",
+      "nfl_team": "CAR",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 173.0,
+      "adp_yahoo": 176.0,
+      "fantasypros_id": 11177,
+      "name": "Kirk Cousins",
+      "nfl_team": "LV",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 194.0,
+      "adp_yahoo": 174.0,
+      "fantasypros_id": 9006,
+      "name": "Adrian Peterson",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 174.0,
+      "adp_yahoo": 180.0,
+      "fantasypros_id": 18463,
+      "name": "Parris Campbell",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 175.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 16910,
+      "name": "Younghoe Koo",
+      "nfl_team": "FA",
+      "position": "K"
+    },
+    {
+      "adp_espn": 177.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19469,
+      "name": "Rodrigo Blankenship",
+      "nfl_team": "FA",
+      "position": "K"
+    },
+    {
+      "adp_espn": 178.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 17270,
+      "name": "Dallas Goedert",
+      "nfl_team": "PHI",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 179.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 8250,
+      "name": "Los Angeles Chargers",
+      "nfl_team": "LAC",
+      "position": "DEF"
+    },
+    {
+      "adp_espn": 184.0,
+      "adp_yahoo": 181.0,
+      "fantasypros_id": 16638,
+      "name": "Blake Jarwin",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 211.0,
+      "adp_yahoo": 182.0,
+      "fantasypros_id": 18610,
+      "name": "Irv Smith Jr.",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 182.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 8300,
+      "name": "Tennessee Titans",
+      "nfl_team": "TEN",
+      "position": "DEF"
+    },
+    {
+      "adp_espn": 183.0,
+      "adp_yahoo": 187.0,
+      "fantasypros_id": 17301,
+      "name": "Allen Lazard",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": null,
+      "adp_yahoo": 183.0,
+      "fantasypros_id": 12105,
+      "name": "Carlos Hyde",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 218.0,
+      "adp_yahoo": 185.0,
+      "fantasypros_id": 8110,
+      "name": "Green Bay Packers",
+      "nfl_team": "GB",
+      "position": "DEF"
+    },
+    {
+      "adp_espn": 185.0,
+      "adp_yahoo": 190.0,
+      "fantasypros_id": 16460,
+      "name": "Jonnu Smith",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 224.0,
+      "adp_yahoo": 186.0,
+      "fantasypros_id": 12209,
+      "name": "Jerick McKinnon",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 186.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 9902,
+      "name": "Randall Cobb",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 229.0,
+      "adp_yahoo": 188.0,
+      "fantasypros_id": 12108,
+      "name": "Devonta Freeman",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 188.0,
+      "adp_yahoo": 198.0,
+      "fantasypros_id": 17300,
+      "name": "Justin Jackson",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 189.0,
+      "adp_yahoo": 193.0,
+      "fantasypros_id": 9433,
+      "name": "Mason Crosby",
+      "nfl_team": "FA",
+      "position": "K"
+    },
+    {
+      "adp_espn": 205.0,
+      "adp_yahoo": 189.0,
+      "fantasypros_id": 19278,
+      "name": "Michael Pittman Jr.",
+      "nfl_team": "PIT",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 192.0,
+      "adp_yahoo": 197.0,
+      "fantasypros_id": 19252,
+      "name": "Brandon Aiyuk",
+      "nfl_team": "SF",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 322.0,
+      "adp_yahoo": 192.0,
+      "fantasypros_id": 17693,
+      "name": "Michael Badgley",
+      "nfl_team": "FA",
+      "position": "K"
+    },
+    {
+      "adp_espn": 195.0,
+      "adp_yahoo": 195.0,
+      "fantasypros_id": 18545,
+      "name": "Matt Gay",
+      "nfl_team": "LV",
+      "position": "K"
+    },
+    {
+      "adp_espn": 196.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 11199,
+      "name": "Alshon Jeffery",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 226.0,
+      "adp_yahoo": 196.0,
+      "fantasypros_id": 8310,
+      "name": "Washington Commanders",
+      "nfl_team": "WAS",
+      "position": "DEF"
+    },
+    {
+      "adp_espn": 197.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 8280,
+      "name": "Los Angeles Rams",
+      "nfl_team": "LAR",
+      "position": "DEF"
+    },
+    {
+      "adp_espn": 379.0,
+      "adp_yahoo": 199.0,
+      "fantasypros_id": 18634,
+      "name": "Bryan Edwards",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 199.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 8230,
+      "name": "Philadelphia Eagles",
+      "nfl_team": "PHI",
+      "position": "DEF"
+    },
+    {
+      "adp_espn": 206.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 18630,
+      "name": "Devine Ozigbo",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 208.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 9573,
+      "name": "Stephen Gostkowski",
+      "nfl_team": "FA",
+      "position": "K"
+    },
+    {
+      "adp_espn": 209.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 10970,
+      "name": "Dan Bailey",
+      "nfl_team": "FA",
+      "position": "K"
+    },
+    {
+      "adp_espn": 210.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 17115,
+      "name": "Taysom Hill",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 212.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 9549,
+      "name": "Ryan Succop",
+      "nfl_team": "FA",
+      "position": "K"
+    },
+    {
+      "adp_espn": 213.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 15756,
+      "name": "Ka'imi Fairbairn",
+      "nfl_team": "HOU",
+      "position": "K"
+    },
+    {
+      "adp_espn": 216.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 13274,
+      "name": "Brandon McManus",
+      "nfl_team": "FA",
+      "position": "K"
+    },
+    {
+      "adp_espn": 219.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 18609,
+      "name": "Benny Snell Jr.",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 220.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 11459,
+      "name": "Cole Beasley",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 222.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 18689,
+      "name": "Austin Seibert",
+      "nfl_team": "FA",
+      "position": "K"
+    },
+    {
+      "adp_espn": 223.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 14327,
+      "name": "Josh Lambo",
+      "nfl_team": "FA",
+      "position": "K"
+    },
+    {
+      "adp_espn": 225.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 9891,
+      "name": "Colin Kaepernick",
+      "nfl_team": "FA",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 227.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 8040,
+      "name": "Carolina Panthers",
+      "nfl_team": "CAR",
+      "position": "DEF"
+    },
+    {
+      "adp_espn": 228.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 11818,
+      "name": "Dustin Hopkins",
+      "nfl_team": "FA",
+      "position": "K"
+    },
+    {
+      "adp_espn": 230.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 14003,
+      "name": "Jason Myers",
+      "nfl_team": "SEA",
+      "position": "K"
+    },
+    {
+      "adp_espn": 231.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 18049,
+      "name": "Will Dissly",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 233.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 13891,
+      "name": "Jameis Winston",
+      "nfl_team": "NYG",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 234.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 8120,
+      "name": "Houston Texans",
+      "nfl_team": "HOU",
+      "position": "DEF"
+    },
+    {
+      "adp_espn": 235.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 16381,
+      "name": "Mitchell Trubisky",
+      "nfl_team": "TEN",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 236.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 18214,
+      "name": null,
+      "nfl_team": null,
+      "position": null
+    },
+    {
+      "adp_espn": 237.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19229,
+      "name": "Cole Kmet",
+      "nfl_team": "CHI",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 238.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 9275,
+      "name": "Jason Witten",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 239.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 15914,
+      "name": "Mike Thomas",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 240.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 8200,
+      "name": "New York Giants",
+      "nfl_team": "NYG",
+      "position": "DEF"
+    },
+    {
+      "adp_espn": 241.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 17236,
+      "name": "Sam Darnold",
+      "nfl_team": "SEA",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 242.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 8220,
+      "name": "Las Vegas Raiders",
+      "nfl_team": "LV",
+      "position": "DEF"
+    },
+    {
+      "adp_espn": 243.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 9808,
+      "name": "Antonio Brown",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 244.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 8010,
+      "name": "Atlanta Falcons",
+      "nfl_team": "ATL",
+      "position": "DEF"
+    },
+    {
+      "adp_espn": 245.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 9428,
+      "name": "Marshawn Lynch",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 246.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19816,
+      "name": "Justin Rohrwasser",
+      "nfl_team": "FA",
+      "position": "K"
+    },
+    {
+      "adp_espn": 247.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 8000,
+      "name": "Arizona Cardinals",
+      "nfl_team": "ARI",
+      "position": "DEF"
+    },
+    {
+      "adp_espn": 249.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 9491,
+      "name": "Nick Folk",
+      "nfl_team": "ATL",
+      "position": "K"
+    },
+    {
+      "adp_espn": 250.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 9004,
+      "name": "Adam Vinatieri",
+      "nfl_team": "FA",
+      "position": "K"
+    },
+    {
+      "adp_espn": 251.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 16108,
+      "name": "Max McCaffrey",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 252.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 16399,
+      "name": "David Njoku",
+      "nfl_team": "LAC",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 253.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 11699,
+      "name": "Vance McDonald",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 254.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 17420,
+      "name": "Daniel Carlson",
+      "nfl_team": "LV",
+      "position": "K"
+    },
+    {
+      "adp_espn": 255.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 9581,
+      "name": "Stephen Hauschka",
+      "nfl_team": "FA",
+      "position": "K"
+    },
+    {
+      "adp_espn": 256.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 11172,
+      "name": "Andrew Luck",
+      "nfl_team": "FA",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 257.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 17145,
+      "name": "Patrick Ricard",
+      "nfl_team": "NYG",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 258.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19604,
+      "name": "Isaiah Wright",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 259.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 9425,
+      "name": "Mark Sanchez",
+      "nfl_team": "FA",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 260.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 16456,
+      "name": "Jake Butt",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 261.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 11690,
+      "name": "Jordan Reed",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 262.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 8140,
+      "name": "Jacksonville Jaguars",
+      "nfl_team": "JAC",
+      "position": "DEF"
+    },
+    {
+      "adp_espn": 263.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 17533,
+      "name": "Jason Sanders",
+      "nfl_team": "NYJ",
+      "position": "K"
+    },
+    {
+      "adp_espn": 264.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19432,
+      "name": "Javon Leake",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 265.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19275,
+      "name": "Jalen Hurts",
+      "nfl_team": "PHI",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 266.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 17575,
+      "name": "Eddy Pineiro",
+      "nfl_team": "SF",
+      "position": "K"
+    },
+    {
+      "adp_espn": 267.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 16414,
+      "name": "Nathan Peterman",
+      "nfl_team": "FA",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 268.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 18856,
+      "name": "Malik Taylor",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 269.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 18185,
+      "name": "John Wolford",
+      "nfl_team": "FA",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 270.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 9560,
+      "name": "Sebastian Janikowski",
+      "nfl_team": "FA",
+      "position": "K"
+    },
+    {
+      "adp_espn": 272.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 13963,
+      "name": "Nick Boyle",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 273.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 18402,
+      "name": "Tyre Brady",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 274.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 13806,
+      "name": "Cody Parkey",
+      "nfl_team": "FA",
+      "position": "K"
+    },
+    {
+      "adp_espn": 275.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 11173,
+      "name": "Robert Griffin III",
+      "nfl_team": "FA",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 276.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19688,
+      "name": "Noah Togiai",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 277.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 16319,
+      "name": "Sam Ficken",
+      "nfl_team": "FA",
+      "position": "K"
+    },
+    {
+      "adp_espn": 278.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19500,
+      "name": "Cole McDonald",
+      "nfl_team": "FA",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 279.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 11686,
+      "name": "Matt Barkley",
+      "nfl_team": "FA",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 280.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 10081,
+      "name": "Kai Forbath",
+      "nfl_team": "FA",
+      "position": "K"
+    },
+    {
+      "adp_espn": 281.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 13470,
+      "name": "Cameron Brate",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 282.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 15792,
+      "name": "Derek Watt",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 283.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19318,
+      "name": "Anthony Gordon",
+      "nfl_team": "FA",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 285.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19250,
+      "name": "Jared Pinkney",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 286.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 9474,
+      "name": "Mike Nugent",
+      "nfl_team": "FA",
+      "position": "K"
+    },
+    {
+      "adp_espn": 287.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19438,
+      "name": "J.J. Taylor",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 288.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 17732,
+      "name": "J.J. Jones",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 289.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19493,
+      "name": "Xavier Jones",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 290.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 9681,
+      "name": "Dez Bryant",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 291.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19851,
+      "name": "Will Hastings",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 292.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19435,
+      "name": "Devin Asiasi",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 293.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 17603,
+      "name": "Justin Watson",
+      "nfl_team": "HOU",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 295.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19647,
+      "name": "Rico Dowdle",
+      "nfl_team": "PIT",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 296.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19726,
+      "name": "Sean McKeon",
+      "nfl_team": "IND",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 297.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 11798,
+      "name": "Kyle Juszczyk",
+      "nfl_team": "SF",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 298.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 18614,
+      "name": "Jace Sternberger",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 300.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 16757,
+      "name": "David Moore",
+      "nfl_team": "CAR",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 301.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 9972,
+      "name": "Anthony Sherman",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 302.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 13565,
+      "name": "Josh Hill",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 303.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19455,
+      "name": "Darius Anderson",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 304.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 9434,
+      "name": "Matt Bryant",
+      "nfl_team": "FA",
+      "position": "K"
+    },
+    {
+      "adp_espn": 305.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19246,
+      "name": "Jordan Love",
+      "nfl_team": "GB",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 306.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 18370,
+      "name": "Terry Godwin",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 307.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 16730,
+      "name": "Ricky Seals-Jones",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 308.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 16527,
+      "name": "Jacob Hollister",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 309.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 9258,
+      "name": "Jamaal Charles",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 310.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 9232,
+      "name": "Graham Gano",
+      "nfl_team": "FA",
+      "position": "K"
+    },
+    {
+      "adp_espn": 311.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 18591,
+      "name": "Tyree Jackson",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 312.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 11613,
+      "name": "Cordarrelle Patterson",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 313.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19672,
+      "name": "Trishton Jackson",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 314.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19496,
+      "name": "Adrian Killins Jr.",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 315.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 13966,
+      "name": "Blake Bell",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 316.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 9907,
+      "name": "Andy Dalton",
+      "nfl_team": "PHI",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 317.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19622,
+      "name": "Thaddeus Moss",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 318.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 9172,
+      "name": "Delanie Walker",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 319.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 20056,
+      "name": "Dan Chisena",
+      "nfl_team": "CAR",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 320.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 9678,
+      "name": "Sam Bradford",
+      "nfl_team": "FA",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 321.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 9413,
+      "name": "Marcedes Lewis",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 323.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 18590,
+      "name": "Lil'Jordan Humphrey",
+      "nfl_team": "DEN",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 324.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 11176,
+      "name": "Nick Foles",
+      "nfl_team": "FA",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 325.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 9300,
+      "name": "Joe Flacco",
+      "nfl_team": "CIN",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 326.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 9064,
+      "name": "Brandon Marshall",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 327.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 18246,
+      "name": "Albert Okwuegbunam Jr.",
+      "nfl_team": "LV",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 328.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 18771,
+      "name": "Carson Meier",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 329.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 18876,
+      "name": "Deonte Harty",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 330.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19478,
+      "name": "Jeff Thomas",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 331.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19332,
+      "name": "KJ Hill Jr.",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 332.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 17764,
+      "name": "Jordan Chunn",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 333.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19760,
+      "name": "Tyler Bass",
+      "nfl_team": "BUF",
+      "position": "K"
+    },
+    {
+      "adp_espn": 334.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 15586,
+      "name": "Rashard Higgins",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 335.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 18957,
+      "name": "Jon Hilliman",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 336.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 9320,
+      "name": "Jordy Nelson",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 337.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 17349,
+      "name": "Dalton Schultz",
+      "nfl_team": "HOU",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 338.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 17739,
+      "name": "Byron Pringle",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 339.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19389,
+      "name": "Harrison Bryant",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 340.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19298,
+      "name": "Donovan Peoples-Jones",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 341.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19194,
+      "name": "Reggie Begelton",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 342.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 13959,
+      "name": "Jesse James",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 343.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19243,
+      "name": "Jake Fromm",
+      "nfl_team": "FA",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 344.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 18264,
+      "name": "Riley Ridley",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 345.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 9702,
+      "name": "Colt McCoy",
+      "nfl_team": "FA",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 346.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 9508,
+      "name": "Phil Dawson",
+      "nfl_team": "FA",
+      "position": "K"
+    },
+    {
+      "adp_espn": 347.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 16461,
+      "name": "Jeremy Sprinkle",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 348.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 13731,
+      "name": "Cairo Santos",
+      "nfl_team": "CHI",
+      "position": "K"
+    },
+    {
+      "adp_espn": 349.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 16557,
+      "name": "Quincy Adeboyejo",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 350.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19838,
+      "name": "Tommy Stevens",
+      "nfl_team": "FA",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 351.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 9012,
+      "name": "Alex Smith",
+      "nfl_team": "FA",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 352.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 11881,
+      "name": "Demetrius Harris",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 353.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19461,
+      "name": "Nate Stanley",
+      "nfl_team": "FA",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 354.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 16502,
+      "name": "Robert Tonyan",
+      "nfl_team": "PIT",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 356.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 11440,
+      "name": "Josh Gordon",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 357.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 11145,
+      "name": "Giorgio Tavecchio",
+      "nfl_team": "FA",
+      "position": "K"
+    },
+    {
+      "adp_espn": 358.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 14234,
+      "name": "J.J. Nelson",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 359.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 11812,
+      "name": "Luke Willson",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 360.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 12090,
+      "name": "Blake Bortles",
+      "nfl_team": "FA",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 361.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 17530,
+      "name": "Ray-Ray McCloud III",
+      "nfl_team": "CHI",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 362.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 15453,
+      "name": "Bradley Sowell",
+      "nfl_team": "FA",
+      "position": "OL"
+    },
+    {
+      "adp_espn": 363.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 17234,
+      "name": "Mason Rudolph",
+      "nfl_team": "PIT",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 364.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19449,
+      "name": "Salvon Ahmed",
+      "nfl_team": "CHI",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 365.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19590,
+      "name": "Jauan Jennings",
+      "nfl_team": "MIN",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 366.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 9717,
+      "name": "LeGarrette Blount",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 367.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 17893,
+      "name": "Matt McCrane",
+      "nfl_team": "FA",
+      "position": "K"
+    },
+    {
+      "adp_espn": 368.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 18485,
+      "name": "Davion Davis",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 369.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19423,
+      "name": "Adam Trautman",
+      "nfl_team": "DEN",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 370.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 16841,
+      "name": "P.J. Walker",
+      "nfl_team": "FA",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 371.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19844,
+      "name": "Reggie Gilliam",
+      "nfl_team": "NE",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 372.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19753,
+      "name": "Kirk Merritt",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 373.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19627,
+      "name": "JaMycal Hasty",
+      "nfl_team": "NE",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 374.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 18135,
+      "name": "Jaeden Graham",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 375.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 17920,
+      "name": "Dalton Keene",
+      "nfl_team": "FA",
+      "position": "DT"
+    },
+    {
+      "adp_espn": 376.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 16072,
+      "name": "Aldrick Rosas",
+      "nfl_team": "FA",
+      "position": "K"
+    },
+    {
+      "adp_espn": 377.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 9446,
+      "name": "Matthew Slater",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 378.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 11687,
+      "name": "Geno Smith",
+      "nfl_team": "NYJ",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 380.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 18657,
+      "name": "Jazz Ferguson",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 382.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 13941,
+      "name": "T.J. Yeldon",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 383.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 18756,
+      "name": "David Blough",
+      "nfl_team": "FA",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 384.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 15557,
+      "name": "Pharoh Cooper",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 385.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 11830,
+      "name": "Ryan Griffin",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 387.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 18427,
+      "name": "Nick Fitzgerald",
+      "nfl_team": "FA",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 388.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 9858,
+      "name": "Blaine Gabbert",
+      "nfl_team": "FA",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 389.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 17262,
+      "name": "Cedrick Wilson Jr.",
+      "nfl_team": "DET",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 390.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 16556,
+      "name": "Tim Patrick",
+      "nfl_team": "NYJ",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 391.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 18686,
+      "name": "Chandler Cox",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 392.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 9460,
+      "name": "Michael Crabtree",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 393.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 15645,
+      "name": "Nick Vannett",
+      "nfl_team": "SEA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 394.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 13924,
+      "name": "Ameer Abdullah",
+      "nfl_team": "JAC",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 395.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 12378,
+      "name": "Brett Maher",
+      "nfl_team": "FA",
+      "position": "K"
+    },
+    {
+      "adp_espn": 396.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 16417,
+      "name": "Joshua Dobbs",
+      "nfl_team": "DET",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 397.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19048,
+      "name": "Charles Jones",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 398.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 17879,
+      "name": "Deon Yelder",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 399.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 16918,
+      "name": "Marcus Kemp",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 400.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 18397,
+      "name": "Foster Moreau",
+      "nfl_team": "HOU",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 401.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 17869,
+      "name": "Kyle Allen",
+      "nfl_team": "BUF",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 402.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 14383,
+      "name": "DeAndrew White",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 403.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 14014,
+      "name": "Chris Manhertz",
+      "nfl_team": "NYG",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 404.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 16209,
+      "name": "C.J. Ham",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 405.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19345,
+      "name": "LeVante Bellamy",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 406.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 13940,
+      "name": "Jay Ajayi",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 407.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 16443,
+      "name": "Noah Brown",
+      "nfl_team": "LV",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 408.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 17248,
+      "name": "Josh Adams",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 409.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 9101,
+      "name": "Chad Henne",
+      "nfl_team": "FA",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 410.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 13606,
+      "name": "Chandler Catanzaro",
+      "nfl_team": "FA",
+      "position": "K"
+    },
+    {
+      "adp_espn": 411.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19032,
+      "name": "Austin Walter",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 412.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 16131,
+      "name": "Andy Jones",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 413.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 18475,
+      "name": "Trace McSorley",
+      "nfl_team": "FA",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 414.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 17801,
+      "name": "Tim Boyle",
+      "nfl_team": "FA",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 415.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19234,
+      "name": "Brycen Hopkins",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 416.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19641,
+      "name": "Stephen Sullivan",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 417.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 18616,
+      "name": "Travis Homer",
+      "nfl_team": "PIT",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 418.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 11872,
+      "name": "Ryan Griffin",
+      "nfl_team": "FA",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 419.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 17066,
+      "name": "Kendrick Bourne",
+      "nfl_team": "ARI",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 420.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 11815,
+      "name": "Caleb Sturgis",
+      "nfl_team": "FA",
+      "position": "K"
+    },
+    {
+      "adp_espn": 421.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 18690,
+      "name": "Zach Gentry",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 422.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 15771,
+      "name": "Andy Janovich",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 423.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 16423,
+      "name": "Samaje Perine",
+      "nfl_team": "CIN",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 424.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 18864,
+      "name": "Olamide Zaccheaus",
+      "nfl_team": "ATL",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 425.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 9435,
+      "name": "Matt Cassel",
+      "nfl_team": "FA",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 426.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 12018,
+      "name": "Patrick DiMarco",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 427.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 18293,
+      "name": "Kaden Smith",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 428.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19456,
+      "name": "Josiah Deguara",
+      "nfl_team": "SF",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 429.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 8070,
+      "name": "Cleveland Browns",
+      "nfl_team": "CLE",
+      "position": "DEF"
+    },
+    {
+      "adp_espn": 430.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 9894,
+      "name": "Jacquizz Rodgers",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 431.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 17264,
+      "name": "Dante Pettis",
+      "nfl_team": "BUF",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 432.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 18063,
+      "name": "Chad Beebe",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 433.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 16431,
+      "name": "Zay Jones",
+      "nfl_team": "HOU",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 434.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 11186,
+      "name": "Doug Martin",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 435.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 17250,
+      "name": "Kalen Ballage",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 436.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 18406,
+      "name": "Ty Johnson",
+      "nfl_team": "BUF",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 437.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 18713,
+      "name": "Bisi Johnson",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 438.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 15661,
+      "name": "Tyler Ervin",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 439.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 18292,
+      "name": "Elijah Holyfield",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 440.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19063,
+      "name": "Devlin Hodges",
+      "nfl_team": "FA",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 442.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 13960,
+      "name": "Tyler Kroft",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 443.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19674,
+      "name": "Tyrie Cleveland",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 444.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 16407,
+      "name": "D'Onta Foreman",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 445.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 15506,
+      "name": "Corey Coleman",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 446.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19359,
+      "name": "James Proche II",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 447.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 11179,
+      "name": "Brock Osweiler",
+      "nfl_team": "FA",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 448.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 17541,
+      "name": "Ryan Izzo",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 449.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 17490,
+      "name": "Keke Coutee",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 450.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19746,
+      "name": "Malcolm Perry",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 451.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 12091,
+      "name": "AJ McCarron",
+      "nfl_team": "FA",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 452.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 16579,
+      "name": "Mo Alie-Cox",
+      "nfl_team": "IND",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 453.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 18618,
+      "name": "KeeSean Johnson",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 454.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 17470,
+      "name": "DaeSean Hamilton",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 456.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 14103,
+      "name": "DeAndre Carter",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 457.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 9706,
+      "name": "Ed Dickson",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 458.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 16597,
+      "name": "Khalfani Muhammad",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 459.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19045,
+      "name": "Ventell Bryant",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 461.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19398,
+      "name": "Gabe Davis",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 462.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 18241,
+      "name": "Will Grier",
+      "nfl_team": "FA",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 464.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 18726,
+      "name": "Trenton Irwin",
+      "nfl_team": "SF",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 465.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 18561,
+      "name": "Drew Sample",
+      "nfl_team": "CIN",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 466.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 12343,
+      "name": "Kapri Bibbs",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 467.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 16267,
+      "name": "Elijhaa Penny",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 468.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 18289,
+      "name": "Collin Johnson",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 469.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 18332,
+      "name": "Patrick Laird",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 470.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 14191,
+      "name": "Michael Burton",
+      "nfl_team": "CLE",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 471.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 14396,
+      "name": "Rod Smith",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 473.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 18229,
+      "name": "Hakeem Butler",
+      "nfl_team": "DEN",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 474.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 18719,
+      "name": "John Ursua",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 475.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19329,
+      "name": "John Hightower",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 476.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 18154,
+      "name": "Dalyn Dawkins",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 477.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 15813,
+      "name": "Darius Jackson",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 478.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 15850,
+      "name": "Dwayne Washington",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 480.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19729,
+      "name": "Freddie Swain",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 481.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 13919,
+      "name": "Maxx Williams",
+      "nfl_team": "FA",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 482.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 15672,
+      "name": "Wendell Smallwood",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 483.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 11898,
+      "name": "Jaron Brown",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 484.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 9327,
+      "name": "Josh McCown",
+      "nfl_team": "FA",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 485.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 9201,
+      "name": "Drew Stanton",
+      "nfl_team": "FA",
+      "position": "QB"
+    },
+    {
+      "adp_espn": 486.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 18748,
+      "name": "Andrew Beck",
+      "nfl_team": "NYJ",
+      "position": "TE"
+    },
+    {
+      "adp_espn": 488.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19655,
+      "name": "Jason Huntley",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 489.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 9691,
+      "name": "Demaryius Thomas",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 490.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 18626,
+      "name": "Alex Barnes",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 491.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 17289,
+      "name": "Braxton Berrios",
+      "nfl_team": "NYG",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 492.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 12116,
+      "name": "Isaiah Crowell",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 493.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 18460,
+      "name": "Dexter Williams",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 494.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 13505,
+      "name": "Roosevelt Nix",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 495.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19505,
+      "name": "Marquez Callaway",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 496.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 16117,
+      "name": "Jaydon Mickens",
+      "nfl_team": "FA",
+      "position": "WR"
+    },
+    {
+      "adp_espn": 497.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 15691,
+      "name": "D.J. Foster",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 498.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 19613,
+      "name": "Raymond Calais",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 499.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 17538,
+      "name": "Trenton Cannon",
+      "nfl_team": "FA",
+      "position": "RB"
+    },
+    {
+      "adp_espn": 500.0,
+      "adp_yahoo": null,
+      "fantasypros_id": 9078,
+      "name": "Brian Hoyer",
+      "nfl_team": "FA",
+      "position": "QB"
+    }
+  ]
+}

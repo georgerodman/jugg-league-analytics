@@ -1,0 +1,48 @@
+{
+  "combined_player_count": 248,
+  "dataset": "platform_adp",
+  "platforms": {
+    "espn": {
+      "fantasypros_expert_id": 79,
+      "player_count": 227,
+      "scoring_pool": "PPR"
+    },
+    "yahoo": {
+      "fantasypros_expert_id": 236,
+      "player_count": 237,
+      "scoring_pool": "HALF"
+    }
+  },
+  "requests": [
+    {
+      "available_source_ids": "236,4350",
+      "file": "half.json",
+      "last_updated": "9/08",
+      "last_updated_ts": 1662642720,
+      "public_api_limited": true,
+      "record_count": 294,
+      "scoring": "HALF",
+      "sha256": "32c812b15ac94f8ced0c5395a04f62caaa6c531796629bf3a042e83d5445d342",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2022/consensus-rankings?position=ALL&type=ADP&scoring=HALF&week=0&experts=show"
+    },
+    {
+      "available_source_ids": "79,291,439,4350",
+      "file": "ppr.json",
+      "last_updated": "9/08",
+      "last_updated_ts": 1662642720,
+      "public_api_limited": true,
+      "record_count": 353,
+      "scoring": "PPR",
+      "sha256": "cb180a3c924a647b76e2170ee4efb0d31acc31f967499b17d880ce71f478ec36",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2022/consensus-rankings?position=ALL&type=ADP&scoring=PPR&week=0&experts=show"
+    }
+  ],
+  "retrieved_at": "2026-08-23T17:55:59.921530+00:00",
+  "schema_version": 1,
+  "season": 2022,
+  "snapshot_id": "20260823T175559Z",
+  "source": "fantasypros",
+  "week": 0
+}

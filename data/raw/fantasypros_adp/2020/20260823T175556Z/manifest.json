@@ -1,0 +1,48 @@
+{
+  "combined_player_count": 489,
+  "dataset": "platform_adp",
+  "platforms": {
+    "espn": {
+      "fantasypros_expert_id": 79,
+      "player_count": 486,
+      "scoring_pool": "PPR"
+    },
+    "yahoo": {
+      "fantasypros_expert_id": 236,
+      "player_count": 199,
+      "scoring_pool": "HALF"
+    }
+  },
+  "requests": [
+    {
+      "available_source_ids": "236,30,624",
+      "file": "half.json",
+      "last_updated": "9/10",
+      "last_updated_ts": 1599720300,
+      "public_api_limited": true,
+      "record_count": 391,
+      "scoring": "HALF",
+      "sha256": "2d23de690207d0aca7f3cec653697dfec22f1b3a50ee0fd5ba871cca2baa0518",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2020/consensus-rankings?position=ALL&type=ADP&scoring=HALF&week=0&experts=show"
+    },
+    {
+      "available_source_ids": "30,439,624,79",
+      "file": "ppr.json",
+      "last_updated": "9/10",
+      "last_updated_ts": 1599745064,
+      "public_api_limited": true,
+      "record_count": 583,
+      "scoring": "PPR",
+      "sha256": "24c5ac547da06a726470c3b6e21c637122c217b04e91985669ffe180179f4962",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2020/consensus-rankings?position=ALL&type=ADP&scoring=PPR&week=0&experts=show"
+    }
+  ],
+  "retrieved_at": "2026-08-23T17:55:56.742401+00:00",
+  "schema_version": 1,
+  "season": 2020,
+  "snapshot_id": "20260823T175556Z",
+  "source": "fantasypros",
+  "week": 0
+}

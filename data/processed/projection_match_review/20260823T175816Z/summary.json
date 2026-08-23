@@ -1,0 +1,40 @@
+{
+  "action_needed_count": 0,
+  "build_id": "20260823T175816Z",
+  "built_at": "2026-08-23T17:58:16.817980+00:00",
+  "by_season": {
+    "2020": {
+      "unmatched": 436
+    },
+    "2021": {
+      "unmatched": 55
+    },
+    "2022": {
+      "unmatched": 81
+    },
+    "2023": {
+      "unmatched": 210
+    },
+    "2024": {
+      "unmatched": 92
+    },
+    "2025": {
+      "unmatched": 263
+    },
+    "2026": {
+      "unmatched": 104
+    }
+  },
+  "exception_count": 1241,
+  "schema_version": 1,
+  "seasons": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "significant_projection_count": 3
+}

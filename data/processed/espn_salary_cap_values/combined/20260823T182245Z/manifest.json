@@ -1,0 +1,99 @@
+{
+  "build_id": "20260823T182245Z",
+  "built_at": "2026-08-23T18:22:45.608932+00:00",
+  "flag_count": 0,
+  "schema_version": 1,
+  "seasons": [
+    {
+      "match_methods": {
+        "exact_defense_team": 22,
+        "exact_name_position": 276,
+        "nflverse_exact_name": 2
+      },
+      "matched_count": 300,
+      "row_count": 300,
+      "salary_total": 2000,
+      "season": 2020,
+      "source_pdf": "data/raw/espn_cheat_sheets/espn_salary_cap_values_2020_non_ppr.pdf",
+      "source_sha256": "37b8d5e4c29dec132e0e97e3b9a8fdbf9f7a123421d62d50aa280c1439090bc9"
+    },
+    {
+      "match_methods": {
+        "exact_defense_team": 15,
+        "exact_name": 263,
+        "global_exact_name": 1,
+        "nflverse_exact_name": 1
+      },
+      "matched_count": 280,
+      "row_count": 280,
+      "salary_total": 2010,
+      "season": 2021,
+      "source_pdf": "data/raw/espn_cheat_sheets/espn_salary_cap_values_2021_non_ppr.pdf",
+      "source_sha256": "92a00b4d1e894f31ee6c1ba251a0bc58d4e59f66404373b232eee1bb6ce2360b"
+    },
+    {
+      "match_methods": {
+        "exact_defense_team": 15,
+        "exact_name": 264,
+        "nflverse_exact_name": 1
+      },
+      "matched_count": 280,
+      "row_count": 280,
+      "salary_total": 2126,
+      "season": 2022,
+      "source_pdf": "data/raw/espn_cheat_sheets/espn_salary_cap_values_2022_non_ppr.pdf",
+      "source_sha256": "ebb9ea92da343ede916fd77b5a8bfc4495eb05ea9bfd06de2b6f3d6865893ad8"
+    },
+    {
+      "match_methods": {
+        "exact_defense_team": 15,
+        "exact_name": 263,
+        "global_exact_name": 1,
+        "nflverse_exact_name": 1
+      },
+      "matched_count": 280,
+      "row_count": 280,
+      "salary_total": 2000,
+      "season": 2023,
+      "source_pdf": "data/raw/espn_cheat_sheets/espn_salary_cap_values_2023_non_ppr.pdf",
+      "source_sha256": "4f935ce7109b1d28fb868d5cf5d68028cfe0587b9f81d74b8fd636e09ed260b5"
+    },
+    {
+      "match_methods": {
+        "exact_defense_team": 15,
+        "exact_name": 265
+      },
+      "matched_count": 280,
+      "row_count": 280,
+      "salary_total": 2020,
+      "season": 2024,
+      "source_pdf": "data/raw/espn_cheat_sheets/espn_salary_cap_values_2024_non_ppr.pdf",
+      "source_sha256": "922bcb5deda390a123693e0245e7a3219ea09876bf35367bde897c44e69eec1d"
+    },
+    {
+      "match_methods": {
+        "exact_defense_team": 15,
+        "exact_name": 263,
+        "global_exact_name": 2
+      },
+      "matched_count": 280,
+      "row_count": 280,
+      "salary_total": 2020,
+      "season": 2025,
+      "source_pdf": "data/raw/espn_cheat_sheets/espn_salary_cap_values_2025_non_ppr.pdf",
+      "source_sha256": "995fa8f024bbc64b0b5b96280eacbd9373c74c21becee70e5a292ab04b3d34c2"
+    },
+    {
+      "match_methods": {
+        "exact_defense_team": 15,
+        "exact_name": 265
+      },
+      "matched_count": 280,
+      "row_count": 280,
+      "salary_total": 2020,
+      "season": 2026,
+      "source_pdf": "data/raw/espn_cheat_sheets/espn_salary_cap_values_2026_non_ppr.pdf",
+      "source_sha256": "4fce37115139b41fb95478ed922171968758b13c7c64754ae11def24f76c3e4f"
+    }
+  ]
+}
