@@ -1,0 +1,9 @@
+{
+  "name": "JUGG League Analytics",
+  "dockerComposeFile": "../compose.yaml",
+  "service": "dev",
+  "workspaceFolder": "/workspace",
+  "shutdownAction": "stopCompose",
+  "remoteUser": "developer"
+}
+

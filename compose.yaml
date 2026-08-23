@@ -1,0 +1,17 @@
+services:
+  dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    init: true
+    volumes:
+      - .:/workspace
+      - node_modules:/workspace/node_modules
+      - python_venv:/workspace/.venv
+    working_dir: /workspace
+    command: sleep infinity
+
+volumes:
+  node_modules:
+  python_venv:
+

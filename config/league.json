@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "league": {
+    "name": "The Texas Jugg League",
+    "platform": "Yahoo Fantasy Football",
+    "team_count": 10,
+    "scoring_type": "head_to_head",
+    "fractional_points": true,
+    "negative_points": true
+  },
+  "auction": {
+    "budget_per_team": 200,
+    "minimum_bid": 1,
+    "keepers_enabled": false,
+    "must_fill_all_starter_slots": true,
+    "must_fill_all_bench_slots": true,
+    "required_drafted_players_per_team": 14,
+    "ir_is_draftable": false
+  },
+  "roster": {
+    "slots": {
+      "QB": 1,
+      "WR": 2,
+      "RB": 1,
+      "TE": 1,
+      "WR_RB": 1,
+      "WR_RB_TE": 1,
+      "K": 1,
+      "DEF": 1,
+      "BN": 5,
+      "IR": 1
+    },
+    "historical_rules": [
+      {
+        "start_season": 2020,
+        "end_season": 2024,
+        "starter_count": 8,
+        "bench_count": 6,
+        "drafted_player_count": 14,
+        "wr_rb_te_flex_count": 0
+      },
+      {
+        "start_season": 2025,
+        "end_season": null,
+        "starter_count": 9,
+        "bench_count": 5,
+        "drafted_player_count": 14,
+        "wr_rb_te_flex_count": 1
+      }
+    ]
+  },
+  "scoring": {
+    "offense": {
+      "passing_yards_per_point": 25,
+      "passing_touchdown": 5,
+      "interception": -1,
+      "rushing_yards_per_point": 10,
+      "rushing_touchdown": 6,
+      "receiving_yards_per_point": 10,
+      "receiving_touchdown": 6,
+      "return_touchdown": 6,
+      "two_point_conversion": 2,
+      "fumble_lost": -2,
+      "offensive_fumble_return_touchdown": 6
+    },
+    "kicking": {
+      "field_goal_made_0_19": 3,
+      "field_goal_made_20_29": 3,
+      "field_goal_made_30_39": 3,
+      "field_goal_made_40_49": 3,
+      "field_goal_made_50_plus": 4,
+      "field_goal_missed_0_19": -0.5,
+      "field_goal_missed_20_29": -0.5,
+      "field_goal_missed_30_39": -0.5,
+      "field_goal_missed_40_49": -0.5,
+      "extra_point_made": 1,
+      "extra_point_missed": -0.5
+    },
+    "defense_special_teams": {
+      "sack": 1,
+      "interception": 2,
+      "fumble_recovery": 2,
+      "touchdown": 6,
+      "safety": 2,
+      "blocked_kick": 2,
+      "kickoff_or_punt_return_touchdown": 4,
+      "points_allowed_0": 10,
+      "points_allowed_1_6": 7,
+      "points_allowed_7_13": 4,
+      "points_allowed_14_20": 1,
+      "points_allowed_21_27": 0,
+      "points_allowed_28_34": -1,
+      "points_allowed_35_plus": -4,
+      "extra_point_returned": 2
+    }
+  },
+  "source": {
+    "settings_screenshot": "/Users/george.rodman/Downloads/football.fantasysports.yahoo.com_f1_125551_settings.png",
+    "user_confirmed": [
+      "team_count",
+      "budget_per_team",
+      "keepers_enabled",
+      "minimum_bid",
+      "must_fill_all_starter_slots",
+      "must_fill_all_bench_slots"
+    ]
+  }
+}
