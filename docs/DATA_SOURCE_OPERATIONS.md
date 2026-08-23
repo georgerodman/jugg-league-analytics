@@ -1,0 +1,122 @@
+# Projection Data Source Operations
+
+This runbook governs projection-source onboarding, routine refreshes, rebuilds,
+and publication. `docs/PROJECT_SPEC.md` remains authoritative for product and
+architecture decisions.
+
+## Source contract
+
+Every provider has a stable lowercase source key such as `fantasypros` or
+`ffa`. Keep raw, processed, and canonical concerns separate:
+
+- `data/raw/<source>/<season>/<snapshot>/` contains immutable provider output.
+- `data/processed/<source>/<season>/<snapshot>/` contains source-specific,
+  versioned normalization.
+- `data/processed/canonical_projections/<season>/<build>/` contains the merged
+  model input. FantasyPros is primary; enrichment never silently overwrites a
+  populated primary field.
+- Each successful source directory has a `latest.json` pointer. Update it only
+  after the complete dataset validates and publishes successfully.
+
+Never store credentials in data, manifests, logs, URLs, fixtures, or Git.
+Credentials belong in the ignored `.env` file or process environment.
+
+## Refresh FantasyPros projections
+
+1. Confirm `FANTASYPROS_API_KEY` is available locally.
+2. Fetch the requested week 0 season snapshot:
+
+   ```sh
+   python3 scripts/fantasypros_projections.py --season 2026
+   ```
+
+3. Confirm each declared position count equals its received count.
+4. Review schema changes, missing fields, duplicate IDs, and scoring-status
+   labels. Do not publish a changed schema without updating tests and docs.
+5. Rebuild the canonical season:
+
+   ```sh
+   python3 scripts/build_canonical_projections.py --seasons 2026
+   ```
+
+6. Review `match_exceptions.json` and resolve genuine aliases in
+   `config/player_aliases.json`. Do not create aliases merely to increase the
+   match percentage.
+7. Run the test suite and verify the canonical `latest.json` points to the new
+   validated build.
+
+A refresh always creates a new timestamped snapshot. Never edit or replace an
+older raw response. Draft-night code continues using the last locally validated
+canonical artifact if the provider is unavailable.
+
+Interpret match exceptions carefully: `unmatched` normally means the primary
+source contains a player absent from an enrichment source and needs no action.
+`ambiguous_name_position` warrants review. Exact duplicate provider rows are
+collapsed deterministically and counted in canonical build metadata; distinct
+candidates are never selected automatically.
+
+## Refresh FFA or another file-delivered source
+
+1. Preserve the supplied file unchanged under
+   `data/raw/ffa/<season>/` or the equivalent source-key directory.
+2. Record acquisition time, original filename, record count, schema, and
+   SHA-256 checksum in source documentation.
+3. Compare its schema with the prior snapshot. Handle additions and removals
+   explicitly in the source adapter.
+4. Rebuild the affected canonical seasons and inspect match exceptions and
+   provenance changes.
+5. Re-run historical evaluation when projected values, matching rules, or
+   scoring transformations change materially.
+
+## Add a new projection or enrichment source
+
+Before implementation, document:
+
+- provider, license/terms, permitted use, retention, and redistribution rules;
+- source key, authentication method, quotas, rate limits, pagination, and
+  truncation behavior;
+- supported seasons, projection types, positions, stable IDs, update cadence,
+  and expected schema;
+- whether the source is primary, fallback, validation-only, or enrichment;
+- which canonical fields it may populate and the conflict rule for each field;
+- outage behavior and how the last known-good artifact is retained.
+
+Then:
+
+1. Add a source-specific raw directory and adapter. Never put provider logic in
+   the live draft engine.
+2. Capture a sanitized fixture and test authentication failures, rate limits,
+   malformed data, truncation, duplicates, empty results, schema drift, and
+   interrupted publication.
+3. Normalize provider identifiers without treating names as permanent IDs.
+4. Extend canonical matching conservatively. Put reviewed exceptions in a
+   versioned alias file with season scope where necessary.
+5. Add field-level provenance. A merged value must identify its provider and
+   source snapshot.
+6. Compare the provider against actual outcomes on the same player-season
+   cohort before changing primary/fallback policy.
+7. Update `docs/PROJECTION_DATA.md` and `docs/PROJECT_SPEC.md` if source roles or
+   model policy change.
+
+## Historical rebuild and evaluation
+
+After source or matching changes, run:
+
+```sh
+python3 scripts/build_canonical_projections.py
+python3 scripts/projection_match_report.py
+python3 scripts/match_auction_history.py
+python3 scripts/evaluate_projection_sources.py
+python3 -m unittest discover -s tests -v
+```
+
+Historical actual points are refreshed separately because they consume API
+quota and should not change during ordinary projection refreshes:
+
+```sh
+python3 scripts/fantasypros_actual_points.py
+```
+
+Treat evaluation results as evidence, not an automatic promotion mechanism.
+Coverage, MAE, RMSE, bias, missingness, uncertainty quality, and licensing all
+matter when assigning a source role.

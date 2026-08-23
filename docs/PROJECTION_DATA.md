@@ -121,3 +121,7 @@ not discarded. Before changing the model's canonical input, player matching
 and projection accuracy should be evaluated on the overlapping players. Raw
 coverage counts alone do not establish which source is more accurate; some
 FantasyPros seasons contain a much larger long-tail player pool.
+
+Historical accuracy results and the primary-source decision are recorded in
+`docs/PROJECTION_EVALUATION.md`. Operational instructions for refreshes and new
+providers are in `docs/DATA_SOURCE_OPERATIONS.md`.
