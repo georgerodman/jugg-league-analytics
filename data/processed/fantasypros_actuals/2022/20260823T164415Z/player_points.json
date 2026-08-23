@@ -1,0 +1,5865 @@
+{
+  "metadata": {
+    "dataset": "actual_player_points_std",
+    "fetched_at": "2026-08-23T16:44:15.033644+00:00",
+    "player_count": 646,
+    "requests": [
+      {
+        "file": "qb.json",
+        "position": "QB",
+        "public_api_limited": true,
+        "record_count": 88,
+        "sha256": "6e6193e9553d7bacd951dc33b19fd52ad97ee130e1e3eba37d37c74e2a840a8f",
+        "tier": "premium",
+        "url": "https://api.fantasypros.com/public/v2/json/nfl/2022/player-points?position=QB&start=1&end=18"
+      },
+      {
+        "file": "rb.json",
+        "position": "RB",
+        "public_api_limited": true,
+        "record_count": 177,
+        "sha256": "60f96cfa73db897a4fcedce586072ba66726726c6563118a865940684e7c69e3",
+        "tier": "premium",
+        "url": "https://api.fantasypros.com/public/v2/json/nfl/2022/player-points?position=RB&start=1&end=18"
+      },
+      {
+        "file": "wr.json",
+        "position": "WR",
+        "public_api_limited": true,
+        "record_count": 248,
+        "sha256": "d151feea0d4dcba459c339b987137d378f9a35285ed0f3e2feb783399f30bd2a",
+        "tier": "premium",
+        "url": "https://api.fantasypros.com/public/v2/json/nfl/2022/player-points?position=WR&start=1&end=18"
+      },
+      {
+        "file": "te.json",
+        "position": "TE",
+        "public_api_limited": true,
+        "record_count": 133,
+        "sha256": "ac0243159cde6b7658efd64125007a70a5cc9166f0c0307a720912c1592de9c2",
+        "tier": "premium",
+        "url": "https://api.fantasypros.com/public/v2/json/nfl/2022/player-points?position=TE&start=1&end=18"
+      }
+    ],
+    "schema_version": 1,
+    "season": 2022,
+    "snapshot_id": "20260823T164415Z",
+    "source": "fantasypros"
+  },
+  "players": [
+    {
+      "average_std": 9,
+      "fantasypros_id": 19755,
+      "games": 1,
+      "name": "Chris Streveler",
+      "nfl_team": "NYJ",
+      "points_std": 9,
+      "position": "QB"
+    },
+    {
+      "average_std": 11.7,
+      "fantasypros_id": 22679,
+      "games": 9,
+      "name": "Zach Wilson",
+      "nfl_team": "NYJ",
+      "points_std": 104.92000000000002,
+      "position": "QB"
+    },
+    {
+      "average_std": 17.9,
+      "fantasypros_id": 19780,
+      "games": 17,
+      "name": "Trevor Lawrence",
+      "nfl_team": "JAC",
+      "points_std": 303.62,
+      "position": "QB"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 16419,
+      "games": 4,
+      "name": "C.J. Beathard",
+      "nfl_team": "JAC",
+      "points_std": -2.7755575615628914e-17,
+      "position": "QB"
+    },
+    {
+      "average_std": 10.6,
+      "fantasypros_id": 19297,
+      "games": 5,
+      "name": "Tyler Huntley",
+      "nfl_team": "BAL",
+      "points_std": 53.02,
+      "position": "QB"
+    },
+    {
+      "average_std": 9.7,
+      "fantasypros_id": 20080,
+      "games": 4,
+      "name": "Desmond Ridder",
+      "nfl_team": "ATL",
+      "points_std": 38.72,
+      "position": "QB"
+    },
+    {
+      "average_std": 20.5,
+      "fantasypros_id": 19781,
+      "games": 15,
+      "name": "Justin Fields",
+      "nfl_team": "CHI",
+      "points_std": 306.97999999999996,
+      "position": "QB"
+    },
+    {
+      "average_std": 3.1,
+      "fantasypros_id": 16414,
+      "games": 3,
+      "name": "Nathan Peterman",
+      "nfl_team": "CHI",
+      "points_std": 9.26,
+      "position": "QB"
+    },
+    {
+      "average_std": 24.2,
+      "fantasypros_id": 17298,
+      "games": 17,
+      "name": "Josh Allen",
+      "nfl_team": "BUF",
+      "points_std": 412.24000000000007,
+      "position": "QB"
+    },
+    {
+      "average_std": 14.9,
+      "fantasypros_id": 17236,
+      "games": 6,
+      "name": "Sam Darnold",
+      "nfl_team": "CAR",
+      "points_std": 89.32000000000001,
+      "position": "QB"
+    },
+    {
+      "average_std": 17.1,
+      "fantasypros_id": 15501,
+      "games": 17,
+      "name": "Jared Goff",
+      "nfl_team": "DET",
+      "points_std": 290.31999999999994,
+      "position": "QB"
+    },
+    {
+      "average_std": 15.1,
+      "fantasypros_id": 16398,
+      "games": 6,
+      "name": "Deshaun Watson",
+      "nfl_team": "CLE",
+      "points_std": 90.58000000000001,
+      "position": "QB"
+    },
+    {
+      "average_std": 13.1,
+      "fantasypros_id": 9907,
+      "games": 14,
+      "name": "Andy Dalton",
+      "nfl_team": "NO",
+      "points_std": 183.23999999999998,
+      "position": "QB"
+    },
+    {
+      "average_std": 12.9,
+      "fantasypros_id": 20156,
+      "games": 14,
+      "name": "Mac Jones",
+      "nfl_team": "NE",
+      "points_std": 181.07999999999998,
+      "position": "QB"
+    },
+    {
+      "average_std": 21.7,
+      "fantasypros_id": 19196,
+      "games": 17,
+      "name": "Joe Burrow",
+      "nfl_team": "CIN",
+      "points_std": 368.98,
+      "position": "QB"
+    },
+    {
+      "average_std": 18,
+      "fantasypros_id": 11177,
+      "games": 17,
+      "name": "Kirk Cousins",
+      "nfl_team": "MIN",
+      "points_std": 305.5799999999999,
+      "position": "QB"
+    },
+    {
+      "average_std": 18.4,
+      "fantasypros_id": 18232,
+      "games": 16,
+      "name": "Daniel Jones",
+      "nfl_team": "NYG",
+      "points_std": 294,
+      "position": "QB"
+    },
+    {
+      "average_std": 25.2,
+      "fantasypros_id": 16413,
+      "games": 17,
+      "name": "Patrick Mahomes II",
+      "nfl_team": "KC",
+      "points_std": 428.4,
+      "position": "QB"
+    },
+    {
+      "average_std": 18.5,
+      "fantasypros_id": 11687,
+      "games": 17,
+      "name": "Geno Smith",
+      "nfl_team": "SEA",
+      "points_std": 314.87999999999994,
+      "position": "QB"
+    },
+    {
+      "average_std": 3.5,
+      "fantasypros_id": 23499,
+      "games": 7,
+      "name": "Malik Willis",
+      "nfl_team": "TEN",
+      "points_std": 24.340000000000003,
+      "position": "QB"
+    },
+    {
+      "average_std": 13.1,
+      "fantasypros_id": 22799,
+      "games": 15,
+      "name": "Davis Mills",
+      "nfl_team": "HOU",
+      "points_std": 196.48000000000002,
+      "position": "QB"
+    },
+    {
+      "average_std": 2.3,
+      "fantasypros_id": 15615,
+      "games": 7,
+      "name": "Jeff Driskel",
+      "nfl_team": "HOU",
+      "points_std": 16.220000000000002,
+      "position": "QB"
+    },
+    {
+      "average_std": 12.3,
+      "fantasypros_id": 19797,
+      "games": 9,
+      "name": "Brock Purdy",
+      "nfl_team": "SF",
+      "points_std": 110.26000000000002,
+      "position": "QB"
+    },
+    {
+      "average_std": 13.6,
+      "fantasypros_id": 13932,
+      "games": 9,
+      "name": "Taylor Heinicke",
+      "nfl_team": "WAS",
+      "points_std": 121.96,
+      "position": "QB"
+    },
+    {
+      "average_std": 15.2,
+      "fantasypros_id": 15520,
+      "games": 8,
+      "name": "Carson Wentz",
+      "nfl_team": "WAS",
+      "points_std": 121.8,
+      "position": "QB"
+    },
+    {
+      "average_std": 17.8,
+      "fantasypros_id": 15600,
+      "games": 12,
+      "name": "Dak Prescott",
+      "nfl_team": "DAL",
+      "points_std": 213.60000000000002,
+      "position": "QB"
+    },
+    {
+      "average_std": 8,
+      "fantasypros_id": 18562,
+      "games": 5,
+      "name": "Gardner Minshew II",
+      "nfl_team": "PHI",
+      "points_std": 39.82,
+      "position": "QB"
+    },
+    {
+      "average_std": 12.2,
+      "fantasypros_id": 22722,
+      "games": 13,
+      "name": "Kenny Pickett",
+      "nfl_team": "PIT",
+      "points_std": 158.85999999999999,
+      "position": "QB"
+    },
+    {
+      "average_std": 15.5,
+      "fantasypros_id": 12092,
+      "games": 15,
+      "name": "Derek Carr",
+      "nfl_team": "LV",
+      "points_std": 233.08000000000004,
+      "position": "QB"
+    },
+    {
+      "average_std": 18.4,
+      "fantasypros_id": 19198,
+      "games": 13,
+      "name": "Tua Tagovailoa",
+      "nfl_team": "MIA",
+      "points_std": 238.92000000000004,
+      "position": "QB"
+    },
+    {
+      "average_std": 14.8,
+      "fantasypros_id": 9001,
+      "games": 17,
+      "name": "Aaron Rodgers",
+      "nfl_team": "GB",
+      "points_std": 251.2,
+      "position": "QB"
+    },
+    {
+      "average_std": 10.8,
+      "fantasypros_id": 17237,
+      "games": 12,
+      "name": "Baker Mayfield",
+      "nfl_team": "LAR",
+      "points_std": 129.42000000000002,
+      "position": "QB"
+    },
+    {
+      "average_std": 3.5,
+      "fantasypros_id": 19415,
+      "games": 5,
+      "name": "Bryce Perkins",
+      "nfl_team": "LAR",
+      "points_std": 17.44,
+      "position": "QB"
+    },
+    {
+      "average_std": 15.7,
+      "fantasypros_id": 11180,
+      "games": 15,
+      "name": "Russell Wilson",
+      "nfl_team": "DEN",
+      "points_std": 235.76,
+      "position": "QB"
+    },
+    {
+      "average_std": 5.5,
+      "fantasypros_id": 18323,
+      "games": 4,
+      "name": "Brett Rypien",
+      "nfl_team": "DEN",
+      "points_std": 22.020000000000003,
+      "position": "QB"
+    },
+    {
+      "average_std": 2.7,
+      "fantasypros_id": 18475,
+      "games": 5,
+      "name": "Trace McSorley",
+      "nfl_team": "ARI",
+      "points_std": 13.579999999999998,
+      "position": "QB"
+    },
+    {
+      "average_std": 16.5,
+      "fantasypros_id": 9603,
+      "games": 17,
+      "name": "Tom Brady",
+      "nfl_team": "TB",
+      "points_std": 280.65999999999997,
+      "position": "QB"
+    },
+    {
+      "average_std": 2.9,
+      "fantasypros_id": 11176,
+      "games": 2,
+      "name": "Nick Foles",
+      "nfl_team": "IND",
+      "points_std": 5.76,
+      "position": "QB"
+    },
+    {
+      "average_std": 17,
+      "fantasypros_id": 18635,
+      "games": 17,
+      "name": "Justin Herbert",
+      "nfl_team": "LAC",
+      "points_std": 289.25999999999993,
+      "position": "QB"
+    },
+    {
+      "average_std": 12.9,
+      "fantasypros_id": 9451,
+      "games": 9,
+      "name": "Matthew Stafford",
+      "nfl_team": "LAR",
+      "points_std": 116.38000000000001,
+      "position": "QB"
+    },
+    {
+      "average_std": 15.8,
+      "fantasypros_id": 13890,
+      "games": 13,
+      "name": "Marcus Mariota",
+      "nfl_team": "ATL",
+      "points_std": 205.56,
+      "position": "QB"
+    },
+    {
+      "average_std": 16.2,
+      "fantasypros_id": 13891,
+      "games": 3,
+      "name": "Jameis Winston",
+      "nfl_team": "NO",
+      "points_std": 48.72,
+      "position": "QB"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 23028,
+      "games": 2,
+      "name": "Matt Corral",
+      "nfl_team": "CAR",
+      "points_std": 0,
+      "position": "QB"
+    },
+    {
+      "average_std": 12.5,
+      "fantasypros_id": 15642,
+      "games": 14,
+      "name": "Jacoby Brissett",
+      "nfl_team": "CLE",
+      "points_std": 174.61999999999998,
+      "position": "QB"
+    },
+    {
+      "average_std": 4.5,
+      "fantasypros_id": 20082,
+      "games": 3,
+      "name": "Trey Lance",
+      "nfl_team": "SF",
+      "points_std": 13.46,
+      "position": "QB"
+    },
+    {
+      "average_std": 11.3,
+      "fantasypros_id": 16381,
+      "games": 7,
+      "name": "Mitchell Trubisky",
+      "nfl_team": "PIT",
+      "points_std": 78.88,
+      "position": "QB"
+    },
+    {
+      "average_std": 25.6,
+      "fantasypros_id": 19275,
+      "games": 15,
+      "name": "Jalen Hurts",
+      "nfl_team": "PHI",
+      "points_std": 384.03999999999996,
+      "position": "QB"
+    },
+    {
+      "average_std": 14,
+      "fantasypros_id": 9444,
+      "games": 12,
+      "name": "Matt Ryan",
+      "nfl_team": "IND",
+      "points_std": 168.28,
+      "position": "QB"
+    },
+    {
+      "average_std": 10.3,
+      "fantasypros_id": 9300,
+      "games": 5,
+      "name": "Joe Flacco",
+      "nfl_team": "NYJ",
+      "points_std": 51.33999999999999,
+      "position": "QB"
+    },
+    {
+      "average_std": 20.3,
+      "fantasypros_id": 17233,
+      "games": 12,
+      "name": "Lamar Jackson",
+      "nfl_team": "BAL",
+      "points_std": 243.07999999999998,
+      "position": "QB"
+    },
+    {
+      "average_std": 18.9,
+      "fantasypros_id": 18600,
+      "games": 11,
+      "name": "Kyler Murray",
+      "nfl_team": "ARI",
+      "points_std": 207.52,
+      "position": "QB"
+    },
+    {
+      "average_std": -0.2,
+      "fantasypros_id": 9101,
+      "games": 3,
+      "name": "Chad Henne",
+      "nfl_team": "KC",
+      "points_std": -0.5,
+      "position": "QB"
+    },
+    {
+      "average_std": 2.9,
+      "fantasypros_id": 19246,
+      "games": 4,
+      "name": "Jordan Love",
+      "nfl_team": "GB",
+      "points_std": 11.7,
+      "position": "QB"
+    },
+    {
+      "average_std": 13.9,
+      "fantasypros_id": 11174,
+      "games": 12,
+      "name": "Ryan Tannehill",
+      "nfl_team": "TEN",
+      "points_std": 167.23999999999998,
+      "position": "QB"
+    },
+    {
+      "average_std": 7.5,
+      "fantasypros_id": 16477,
+      "games": 8,
+      "name": "Cooper Rush",
+      "nfl_team": "DAL",
+      "points_std": 59.64000000000001,
+      "position": "QB"
+    },
+    {
+      "average_std": 2.1,
+      "fantasypros_id": 9111,
+      "games": 4,
+      "name": "Chase Daniel",
+      "nfl_team": "LAC",
+      "points_std": 8.48,
+      "position": "QB"
+    },
+    {
+      "average_std": 4.1,
+      "fantasypros_id": 10007,
+      "games": 3,
+      "name": "Tyrod Taylor",
+      "nfl_team": "NYG",
+      "points_std": 12.32,
+      "position": "QB"
+    },
+    {
+      "average_std": 15.3,
+      "fantasypros_id": 12208,
+      "games": 11,
+      "name": "Jimmy Garoppolo",
+      "nfl_team": "SF",
+      "points_std": 168.78000000000003,
+      "position": "QB"
+    },
+    {
+      "average_std": 0.2,
+      "fantasypros_id": 11425,
+      "games": 2,
+      "name": "Case Keenum",
+      "nfl_team": "BUF",
+      "points_std": 0.32,
+      "position": "QB"
+    },
+    {
+      "average_std": 8.4,
+      "fantasypros_id": 12088,
+      "games": 5,
+      "name": "Teddy Bridgewater",
+      "nfl_team": "MIA",
+      "points_std": 42.019999999999996,
+      "position": "QB"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 20081,
+      "games": 7,
+      "name": "Feleipe Franks",
+      "nfl_team": "ATL",
+      "points_std": 0,
+      "position": "QB"
+    },
+    {
+      "average_std": 10.4,
+      "fantasypros_id": 24027,
+      "games": 4,
+      "name": "Bailey Zappe",
+      "nfl_team": "NE",
+      "points_std": 41.64,
+      "position": "QB"
+    },
+    {
+      "average_std": 1.5,
+      "fantasypros_id": 9078,
+      "games": 1,
+      "name": "Brian Hoyer",
+      "nfl_team": "NE",
+      "points_std": 1.48,
+      "position": "QB"
+    },
+    {
+      "average_std": 2.9,
+      "fantasypros_id": 24170,
+      "games": 7,
+      "name": "Skylar Thompson",
+      "nfl_team": "MIA",
+      "points_std": 20.459999999999997,
+      "position": "QB"
+    },
+    {
+      "average_std": 7,
+      "fantasypros_id": 16841,
+      "games": 6,
+      "name": "P.J. Walker",
+      "nfl_team": "CAR",
+      "points_std": 42.14,
+      "position": "QB"
+    },
+    {
+      "average_std": 1.4,
+      "fantasypros_id": 19220,
+      "games": 1,
+      "name": "Jacob Eason",
+      "nfl_team": "SF",
+      "points_std": 1.36,
+      "position": "QB"
+    },
+    {
+      "average_std": 5.6,
+      "fantasypros_id": 14142,
+      "games": 2,
+      "name": "Trevor Siemian",
+      "nfl_team": "CHI",
+      "points_std": 11.16,
+      "position": "QB"
+    },
+    {
+      "average_std": 15.2,
+      "fantasypros_id": 18604,
+      "games": 3,
+      "name": "Jarrett Stidham",
+      "nfl_team": "LV",
+      "points_std": 45.64,
+      "position": "QB"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 17239,
+      "games": 1,
+      "name": "Logan Woodside",
+      "nfl_team": "ATL",
+      "points_std": 0,
+      "position": "QB"
+    },
+    {
+      "average_std": 9.7,
+      "fantasypros_id": 19803,
+      "games": 4,
+      "name": "Sam Ehlinger",
+      "nfl_team": "IND",
+      "points_std": 38.62,
+      "position": "QB"
+    },
+    {
+      "average_std": 0.8,
+      "fantasypros_id": 15745,
+      "games": 1,
+      "name": "Brandon Allen",
+      "nfl_team": "CIN",
+      "points_std": 0.78,
+      "position": "QB"
+    },
+    {
+      "average_std": 3.2,
+      "fantasypros_id": 16726,
+      "games": 4,
+      "name": "Nick Mullens",
+      "nfl_team": "MIN",
+      "points_std": 12.760000000000002,
+      "position": "QB"
+    },
+    {
+      "average_std": 6.6,
+      "fantasypros_id": 17869,
+      "games": 3,
+      "name": "Kyle Allen",
+      "nfl_team": "HOU",
+      "points_std": 19.94,
+      "position": "QB"
+    },
+    {
+      "average_std": 8.9,
+      "fantasypros_id": 18185,
+      "games": 2,
+      "name": "John Wolford",
+      "nfl_team": "LAR",
+      "points_std": 17.799999999999997,
+      "position": "QB"
+    },
+    {
+      "average_std": 9,
+      "fantasypros_id": 9702,
+      "games": 4,
+      "name": "Colt McCoy",
+      "nfl_team": "ARI",
+      "points_std": 35.800000000000004,
+      "position": "QB"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 11686,
+      "games": 1,
+      "name": "Matt Barkley",
+      "nfl_team": "BUF",
+      "points_std": 0,
+      "position": "QB"
+    },
+    {
+      "average_std": 15.1,
+      "fantasypros_id": 17447,
+      "games": 4,
+      "name": "Mike White",
+      "nfl_team": "NYJ",
+      "points_std": 60.580000000000005,
+      "position": "QB"
+    },
+    {
+      "average_std": -0.2,
+      "fantasypros_id": 15833,
+      "games": 2,
+      "name": "Nate Sudfeld",
+      "nfl_team": "DET",
+      "points_std": -0.4,
+      "position": "QB"
+    },
+    {
+      "average_std": 3.8,
+      "fantasypros_id": 24113,
+      "games": 2,
+      "name": "Anthony Brown Jr.",
+      "nfl_team": "BAL",
+      "points_std": 7.58,
+      "position": "QB"
+    },
+    {
+      "average_std": 0.7,
+      "fantasypros_id": 9326,
+      "games": 1,
+      "name": "Josh Johnson",
+      "nfl_team": "SF",
+      "points_std": 0.7,
+      "position": "QB"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 24609,
+      "games": 1,
+      "name": "Davis Cheek",
+      "nfl_team": "CAR",
+      "points_std": 0,
+      "position": "QB"
+    },
+    {
+      "average_std": 11.4,
+      "fantasypros_id": 16417,
+      "games": 2,
+      "name": "Joshua Dobbs",
+      "nfl_team": "TEN",
+      "points_std": 22.84,
+      "position": "QB"
+    },
+    {
+      "average_std": 10.3,
+      "fantasypros_id": 18756,
+      "games": 2,
+      "name": "David Blough",
+      "nfl_team": "ARI",
+      "points_std": 20.58,
+      "position": "QB"
+    },
+    {
+      "average_std": 5.2,
+      "fantasypros_id": 9858,
+      "games": 1,
+      "name": "Blaine Gabbert",
+      "nfl_team": "TB",
+      "points_std": 5.16,
+      "position": "QB"
+    },
+    {
+      "average_std": 0.9,
+      "fantasypros_id": 19800,
+      "games": 1,
+      "name": "Kyle Trask",
+      "nfl_team": "TB",
+      "points_std": 0.92,
+      "position": "QB"
+    },
+    {
+      "average_std": -0.9,
+      "fantasypros_id": 17801,
+      "games": 1,
+      "name": "Tim Boyle",
+      "nfl_team": "CHI",
+      "points_std": -0.88,
+      "position": "QB"
+    },
+    {
+      "average_std": 20.8,
+      "fantasypros_id": 16418,
+      "games": 1,
+      "name": "Davis Webb",
+      "nfl_team": "NYG",
+      "points_std": 20.82,
+      "position": "QB"
+    },
+    {
+      "average_std": 19.3,
+      "fantasypros_id": 23045,
+      "games": 1,
+      "name": "Sam Howell",
+      "nfl_team": "WAS",
+      "points_std": 19.26,
+      "position": "QB"
+    },
+    {
+      "average_std": 0.9,
+      "fantasypros_id": 18617,
+      "games": 1,
+      "name": "Damarea Crockett",
+      "nfl_team": "DEN",
+      "points_std": 0.9,
+      "position": "RB"
+    },
+    {
+      "average_std": 5.3,
+      "fantasypros_id": 22728,
+      "games": 16,
+      "name": "Michael Carter",
+      "nfl_team": "NYJ",
+      "points_std": 84.99999999999999,
+      "position": "RB"
+    },
+    {
+      "average_std": 6.6,
+      "fantasypros_id": 24901,
+      "games": 7,
+      "name": "Bam Knight",
+      "nfl_team": "NYJ",
+      "points_std": 46,
+      "position": "RB"
+    },
+    {
+      "average_std": 2.6,
+      "fantasypros_id": 18406,
+      "games": 12,
+      "name": "Ty Johnson",
+      "nfl_team": "NYJ",
+      "points_std": 30.8,
+      "position": "RB"
+    },
+    {
+      "average_std": 10.1,
+      "fantasypros_id": 19231,
+      "games": 17,
+      "name": "Travis Etienne Jr.",
+      "nfl_team": "JAC",
+      "points_std": 172.1,
+      "position": "RB"
+    },
+    {
+      "average_std": 3.5,
+      "fantasypros_id": 19627,
+      "games": 14,
+      "name": "JaMycal Hasty",
+      "nfl_team": "JAC",
+      "points_std": 49.50000000000001,
+      "position": "RB"
+    },
+    {
+      "average_std": 2,
+      "fantasypros_id": 23027,
+      "games": 5,
+      "name": "Snoop Conner",
+      "nfl_team": "JAC",
+      "points_std": 10.2,
+      "position": "RB"
+    },
+    {
+      "average_std": 6.6,
+      "fantasypros_id": 17687,
+      "games": 9,
+      "name": "Gus Edwards",
+      "nfl_team": "BAL",
+      "points_std": 59.30000000000001,
+      "position": "RB"
+    },
+    {
+      "average_std": 9.3,
+      "fantasypros_id": 19245,
+      "games": 8,
+      "name": "J.K. Dobbins",
+      "nfl_team": "BAL",
+      "points_std": 74.2,
+      "position": "RB"
+    },
+    {
+      "average_std": 2,
+      "fantasypros_id": 18256,
+      "games": 15,
+      "name": "Justice Hill",
+      "nfl_team": "BAL",
+      "points_std": 30,
+      "position": "RB"
+    },
+    {
+      "average_std": 9,
+      "fantasypros_id": 24172,
+      "games": 16,
+      "name": "Tyler Allgeier",
+      "nfl_team": "ATL",
+      "points_std": 143.4,
+      "position": "RB"
+    },
+    {
+      "average_std": 1.2,
+      "fantasypros_id": 23279,
+      "games": 17,
+      "name": "Avery Williams",
+      "nfl_team": "ATL",
+      "points_std": 20.999999999999996,
+      "position": "RB"
+    },
+    {
+      "average_std": 10.3,
+      "fantasypros_id": 11613,
+      "games": 13,
+      "name": "Cordarrelle Patterson",
+      "nfl_team": "ATL",
+      "points_std": 133.70000000000002,
+      "position": "RB"
+    },
+    {
+      "average_std": 0.1,
+      "fantasypros_id": 13192,
+      "games": 10,
+      "name": "Keith Smith",
+      "nfl_team": "ATL",
+      "points_std": 1,
+      "position": "RB"
+    },
+    {
+      "average_std": 9,
+      "fantasypros_id": 18239,
+      "games": 16,
+      "name": "David Montgomery",
+      "nfl_team": "CHI",
+      "points_std": 143.7,
+      "position": "RB"
+    },
+    {
+      "average_std": 8.4,
+      "fantasypros_id": 22763,
+      "games": 13,
+      "name": "Khalil Herbert",
+      "nfl_team": "CHI",
+      "points_std": 108.80000000000001,
+      "position": "RB"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 18847,
+      "games": 5,
+      "name": "Khari Blasingame",
+      "nfl_team": "CHI",
+      "points_std": 0,
+      "position": "RB"
+    },
+    {
+      "average_std": 8.2,
+      "fantasypros_id": 18280,
+      "games": 17,
+      "name": "Devin Singletary",
+      "nfl_team": "BUF",
+      "points_std": 140.2,
+      "position": "RB"
+    },
+    {
+      "average_std": 5.1,
+      "fantasypros_id": 22958,
+      "games": 17,
+      "name": "James Cook III",
+      "nfl_team": "BUF",
+      "points_std": 86.49999999999999,
+      "position": "RB"
+    },
+    {
+      "average_std": 1.2,
+      "fantasypros_id": 19844,
+      "games": 11,
+      "name": "Reggie Gilliam",
+      "nfl_team": "BUF",
+      "points_std": 13.600000000000001,
+      "position": "RB"
+    },
+    {
+      "average_std": 3.2,
+      "fantasypros_id": 17297,
+      "games": 16,
+      "name": "Nyheim Miller-Hines",
+      "nfl_team": "BUF",
+      "points_std": 51.4,
+      "position": "RB"
+    },
+    {
+      "average_std": -0.3,
+      "fantasypros_id": 9962,
+      "games": 7,
+      "name": "Taiwan Jones",
+      "nfl_team": "BUF",
+      "points_std": -2,
+      "position": "RB"
+    },
+    {
+      "average_std": 7.4,
+      "fantasypros_id": 16407,
+      "games": 17,
+      "name": "D'Onta Foreman",
+      "nfl_team": "CAR",
+      "points_std": 126,
+      "position": "RB"
+    },
+    {
+      "average_std": 5.3,
+      "fantasypros_id": 19792,
+      "games": 14,
+      "name": "Chuba Hubbard",
+      "nfl_team": "CAR",
+      "points_std": 73.70000000000002,
+      "position": "RB"
+    },
+    {
+      "average_std": 2.5,
+      "fantasypros_id": 20100,
+      "games": 13,
+      "name": "Raheem Blackshear",
+      "nfl_team": "CAR",
+      "points_std": 33,
+      "position": "RB"
+    },
+    {
+      "average_std": 10.2,
+      "fantasypros_id": 19210,
+      "games": 14,
+      "name": "D'Andre Swift",
+      "nfl_team": "DET",
+      "points_std": 143.1,
+      "position": "RB"
+    },
+    {
+      "average_std": 12.6,
+      "fantasypros_id": 16424,
+      "games": 17,
+      "name": "Jamaal Williams",
+      "nfl_team": "DET",
+      "points_std": 213.89999999999998,
+      "position": "RB"
+    },
+    {
+      "average_std": 2.6,
+      "fantasypros_id": 17300,
+      "games": 15,
+      "name": "Justin Jackson",
+      "nfl_team": "DET",
+      "points_std": 39.099999999999994,
+      "position": "RB"
+    },
+    {
+      "average_std": 15,
+      "fantasypros_id": 17246,
+      "games": 17,
+      "name": "Nick Chubb",
+      "nfl_team": "CLE",
+      "points_std": 254.39999999999995,
+      "position": "RB"
+    },
+    {
+      "average_std": 5.4,
+      "fantasypros_id": 16425,
+      "games": 17,
+      "name": "Kareem Hunt",
+      "nfl_team": "CLE",
+      "points_std": 91.80000000000003,
+      "position": "RB"
+    },
+    {
+      "average_std": 0.2,
+      "fantasypros_id": 19111,
+      "games": 10,
+      "name": "D'Ernest Johnson",
+      "nfl_team": "CLE",
+      "points_std": 2.4,
+      "position": "RB"
+    },
+    {
+      "average_std": 0.1,
+      "fantasypros_id": 22921,
+      "games": 13,
+      "name": "Jerome Ford",
+      "nfl_team": "CLE",
+      "points_std": 1.2,
+      "position": "RB"
+    },
+    {
+      "average_std": 10.3,
+      "fantasypros_id": 16421,
+      "games": 15,
+      "name": "Alvin Kamara",
+      "nfl_team": "NO",
+      "points_std": 154.7,
+      "position": "RB"
+    },
+    {
+      "average_std": 1.3,
+      "fantasypros_id": 13948,
+      "games": 4,
+      "name": "David Johnson",
+      "nfl_team": "NO",
+      "points_std": 5.1,
+      "position": "RB"
+    },
+    {
+      "average_std": 0.3,
+      "fantasypros_id": 23451,
+      "games": 7,
+      "name": "Adam Prentice",
+      "nfl_team": "NO",
+      "points_std": 1.7999999999999998,
+      "position": "RB"
+    },
+    {
+      "average_std": 10.6,
+      "fantasypros_id": 22726,
+      "games": 17,
+      "name": "Rhamondre Stevenson",
+      "nfl_team": "NE",
+      "points_std": 180.1,
+      "position": "RB"
+    },
+    {
+      "average_std": 2,
+      "fantasypros_id": 24173,
+      "games": 10,
+      "name": "Pierre Strong Jr.",
+      "nfl_team": "NE",
+      "points_std": 20.2,
+      "position": "RB"
+    },
+    {
+      "average_std": 2.2,
+      "fantasypros_id": 23117,
+      "games": 5,
+      "name": "Kevin Harris",
+      "nfl_team": "NE",
+      "points_std": 11.2,
+      "position": "RB"
+    },
+    {
+      "average_std": 12,
+      "fantasypros_id": 16420,
+      "games": 15,
+      "name": "Joe Mixon",
+      "nfl_team": "CIN",
+      "points_std": 180.7,
+      "position": "RB"
+    },
+    {
+      "average_std": 6.5,
+      "fantasypros_id": 16423,
+      "games": 16,
+      "name": "Samaje Perine",
+      "nfl_team": "CIN",
+      "points_std": 104.10000000000001,
+      "position": "RB"
+    },
+    {
+      "average_std": 0.7,
+      "fantasypros_id": 18607,
+      "games": 9,
+      "name": "Trayveon Williams",
+      "nfl_team": "CIN",
+      "points_std": 6,
+      "position": "RB"
+    },
+    {
+      "average_std": 11.7,
+      "fantasypros_id": 16374,
+      "games": 17,
+      "name": "Dalvin Cook",
+      "nfl_team": "MIN",
+      "points_std": 198.79999999999998,
+      "position": "RB"
+    },
+    {
+      "average_std": 4.3,
+      "fantasypros_id": 18621,
+      "games": 17,
+      "name": "Alexander Mattison",
+      "nfl_team": "MIN",
+      "points_std": 73.4,
+      "position": "RB"
+    },
+    {
+      "average_std": 1.8,
+      "fantasypros_id": 16209,
+      "games": 12,
+      "name": "C.J. Ham",
+      "nfl_team": "MIN",
+      "points_std": 21.3,
+      "position": "RB"
+    },
+    {
+      "average_std": 14.2,
+      "fantasypros_id": 17240,
+      "games": 16,
+      "name": "Saquon Barkley",
+      "nfl_team": "NYG",
+      "points_std": 227,
+      "position": "RB"
+    },
+    {
+      "average_std": 2.3,
+      "fantasypros_id": 17058,
+      "games": 17,
+      "name": "Matt Breida",
+      "nfl_team": "NYG",
+      "points_std": 39.8,
+      "position": "RB"
+    },
+    {
+      "average_std": 1.6,
+      "fantasypros_id": 23293,
+      "games": 15,
+      "name": "Gary Brightwell",
+      "nfl_team": "NYG",
+      "points_std": 23.999999999999996,
+      "position": "RB"
+    },
+    {
+      "average_std": 8.3,
+      "fantasypros_id": 12209,
+      "games": 17,
+      "name": "Jerick McKinnon",
+      "nfl_team": "KC",
+      "points_std": 140.3,
+      "position": "RB"
+    },
+    {
+      "average_std": 7.2,
+      "fantasypros_id": 24333,
+      "games": 17,
+      "name": "Isiah Pacheco",
+      "nfl_team": "KC",
+      "points_std": 122.00000000000001,
+      "position": "RB"
+    },
+    {
+      "average_std": 3,
+      "fantasypros_id": 17243,
+      "games": 5,
+      "name": "Ronald Jones II",
+      "nfl_team": "KC",
+      "points_std": 15.2,
+      "position": "RB"
+    },
+    {
+      "average_std": 11.7,
+      "fantasypros_id": 23021,
+      "games": 15,
+      "name": "Kenneth Walker III",
+      "nfl_team": "SEA",
+      "points_std": 175.5,
+      "position": "RB"
+    },
+    {
+      "average_std": 2,
+      "fantasypros_id": 19521,
+      "games": 15,
+      "name": "DeeJay Dallas",
+      "nfl_team": "SEA",
+      "points_std": 30.200000000000003,
+      "position": "RB"
+    },
+    {
+      "average_std": 0.1,
+      "fantasypros_id": 17352,
+      "games": 5,
+      "name": "Godwin Igwebuike",
+      "nfl_team": "SEA",
+      "points_std": 0.7,
+      "position": "RB"
+    },
+    {
+      "average_std": 2.3,
+      "fantasypros_id": 18616,
+      "games": 12,
+      "name": "Travis Homer",
+      "nfl_team": "SEA",
+      "points_std": 27.1,
+      "position": "RB"
+    },
+    {
+      "average_std": 16.9,
+      "fantasypros_id": 15514,
+      "games": 16,
+      "name": "Derrick Henry",
+      "nfl_team": "TEN",
+      "points_std": 269.76,
+      "position": "RB"
+    },
+    {
+      "average_std": 1.1,
+      "fantasypros_id": 23798,
+      "games": 14,
+      "name": "Hassan Haskins",
+      "nfl_team": "TEN",
+      "points_std": 15.000000000000002,
+      "position": "RB"
+    },
+    {
+      "average_std": 0.8,
+      "fantasypros_id": 19974,
+      "games": 4,
+      "name": "Jonathan Ward",
+      "nfl_team": "TEN",
+      "points_std": 3.2,
+      "position": "RB"
+    },
+    {
+      "average_std": 0.9,
+      "fantasypros_id": 24689,
+      "games": 6,
+      "name": "Julius Chestnut",
+      "nfl_team": "TEN",
+      "points_std": 5.300000000000001,
+      "position": "RB"
+    },
+    {
+      "average_std": 2.6,
+      "fantasypros_id": 17245,
+      "games": 5,
+      "name": "Royce Freeman",
+      "nfl_team": "HOU",
+      "points_std": 12.999999999999998,
+      "position": "RB"
+    },
+    {
+      "average_std": 1.9,
+      "fantasypros_id": 16879,
+      "games": 15,
+      "name": "Dare Ogunbowale",
+      "nfl_team": "HOU",
+      "points_std": 28.700000000000003,
+      "position": "RB"
+    },
+    {
+      "average_std": 2.3,
+      "fantasypros_id": 11655,
+      "games": 15,
+      "name": "Rex Burkhead",
+      "nfl_team": "HOU",
+      "points_std": 34.3,
+      "position": "RB"
+    },
+    {
+      "average_std": 16,
+      "fantasypros_id": 16393,
+      "games": 17,
+      "name": "Christian McCaffrey",
+      "nfl_team": "SF",
+      "points_std": 271.35999999999996,
+      "position": "RB"
+    },
+    {
+      "average_std": 2,
+      "fantasypros_id": 22992,
+      "games": 5,
+      "name": "Tyrion Davis-Price",
+      "nfl_team": "SF",
+      "points_std": 9.9,
+      "position": "RB"
+    },
+    {
+      "average_std": 2.7,
+      "fantasypros_id": 22969,
+      "games": 12,
+      "name": "Jordan Mason",
+      "nfl_team": "SF",
+      "points_std": 31.8,
+      "position": "RB"
+    },
+    {
+      "average_std": 8.6,
+      "fantasypros_id": 20094,
+      "games": 12,
+      "name": "Brian Robinson Jr.",
+      "nfl_team": "WAS",
+      "points_std": 103.7,
+      "position": "RB"
+    },
+    {
+      "average_std": 2.1,
+      "fantasypros_id": 15611,
+      "games": 9,
+      "name": "Jonathan Williams",
+      "nfl_team": "WAS",
+      "points_std": 19.199999999999996,
+      "position": "RB"
+    },
+    {
+      "average_std": 8,
+      "fantasypros_id": 19624,
+      "games": 15,
+      "name": "Antonio Gibson",
+      "nfl_team": "WAS",
+      "points_std": 119.9,
+      "position": "RB"
+    },
+    {
+      "average_std": 11.3,
+      "fantasypros_id": 15498,
+      "games": 15,
+      "name": "Ezekiel Elliott",
+      "nfl_team": "DAL",
+      "points_std": 168.79999999999998,
+      "position": "RB"
+    },
+    {
+      "average_std": 13.1,
+      "fantasypros_id": 18705,
+      "games": 16,
+      "name": "Tony Pollard",
+      "nfl_team": "DAL",
+      "points_std": 209.79999999999998,
+      "position": "RB"
+    },
+    {
+      "average_std": 3.8,
+      "fantasypros_id": 23310,
+      "games": 17,
+      "name": "Kenny Gainwell",
+      "nfl_team": "PHI",
+      "points_std": 64.9,
+      "position": "RB"
+    },
+    {
+      "average_std": 11.6,
+      "fantasypros_id": 18283,
+      "games": 17,
+      "name": "Miles Sanders",
+      "nfl_team": "PHI",
+      "points_std": 196.70000000000005,
+      "position": "RB"
+    },
+    {
+      "average_std": 2.7,
+      "fantasypros_id": 17612,
+      "games": 15,
+      "name": "Boston Scott",
+      "nfl_team": "PHI",
+      "points_std": 41.2,
+      "position": "RB"
+    },
+    {
+      "average_std": 10.7,
+      "fantasypros_id": 19302,
+      "games": 17,
+      "name": "Najee Harris",
+      "nfl_team": "PIT",
+      "points_std": 182.46,
+      "position": "RB"
+    },
+    {
+      "average_std": 4.1,
+      "fantasypros_id": 24209,
+      "games": 16,
+      "name": "Jaylen Warren",
+      "nfl_team": "PIT",
+      "points_std": 65.3,
+      "position": "RB"
+    },
+    {
+      "average_std": 1.9,
+      "fantasypros_id": 18609,
+      "games": 9,
+      "name": "Benny Snell Jr.",
+      "nfl_team": "PIT",
+      "points_std": 16.7,
+      "position": "RB"
+    },
+    {
+      "average_std": 1.3,
+      "fantasypros_id": 15792,
+      "games": 12,
+      "name": "Derek Watt",
+      "nfl_team": "PIT",
+      "points_std": 15.2,
+      "position": "RB"
+    },
+    {
+      "average_std": 16.2,
+      "fantasypros_id": 18269,
+      "games": 17,
+      "name": "Josh Jacobs",
+      "nfl_team": "LV",
+      "points_std": 275.29999999999995,
+      "position": "RB"
+    },
+    {
+      "average_std": 1.8,
+      "fantasypros_id": 13924,
+      "games": 16,
+      "name": "Ameer Abdullah",
+      "nfl_team": "LV",
+      "points_std": 29.099999999999998,
+      "position": "RB"
+    },
+    {
+      "average_std": 1.4,
+      "fantasypros_id": 11410,
+      "games": 13,
+      "name": "Brandon Bolden",
+      "nfl_team": "LV",
+      "points_std": 18.8,
+      "position": "RB"
+    },
+    {
+      "average_std": 8.5,
+      "fantasypros_id": 18026,
+      "games": 16,
+      "name": "Jeff Wilson Jr.",
+      "nfl_team": "MIA",
+      "points_std": 136.5,
+      "position": "RB"
+    },
+    {
+      "average_std": 8.6,
+      "fantasypros_id": 14338,
+      "games": 16,
+      "name": "Raheem Mostert",
+      "nfl_team": "MIA",
+      "points_std": 137.29999999999998,
+      "position": "RB"
+    },
+    {
+      "average_std": 1.8,
+      "fantasypros_id": 18571,
+      "games": 13,
+      "name": "Alec Ingold",
+      "nfl_team": "MIA",
+      "points_std": 23.299999999999997,
+      "position": "RB"
+    },
+    {
+      "average_std": 8.2,
+      "fantasypros_id": 19358,
+      "games": 17,
+      "name": "AJ Dillon",
+      "nfl_team": "GB",
+      "points_std": 139.6,
+      "position": "RB"
+    },
+    {
+      "average_std": 11.2,
+      "fantasypros_id": 16673,
+      "games": 17,
+      "name": "Aaron Jones Sr.",
+      "nfl_team": "GB",
+      "points_std": 189.60000000000005,
+      "position": "RB"
+    },
+    {
+      "average_std": 0.7,
+      "fantasypros_id": 19544,
+      "games": 7,
+      "name": "Patrick Taylor Jr.",
+      "nfl_team": "GB",
+      "points_std": 4.8,
+      "position": "RB"
+    },
+    {
+      "average_std": 8.6,
+      "fantasypros_id": 19268,
+      "games": 15,
+      "name": "Cam Akers",
+      "nfl_team": "LAR",
+      "points_std": 128.3,
+      "position": "RB"
+    },
+    {
+      "average_std": 2.5,
+      "fantasypros_id": 13953,
+      "games": 7,
+      "name": "Malcolm Brown",
+      "nfl_team": "LAR",
+      "points_std": 17.8,
+      "position": "RB"
+    },
+    {
+      "average_std": 2.7,
+      "fantasypros_id": 23059,
+      "games": 8,
+      "name": "Kyren Williams",
+      "nfl_team": "LAR",
+      "points_std": 21.499999999999996,
+      "position": "RB"
+    },
+    {
+      "average_std": 9.1,
+      "fantasypros_id": 11821,
+      "games": 14,
+      "name": "Latavius Murray",
+      "nfl_team": "DEN",
+      "points_std": 127.19999999999999,
+      "position": "RB"
+    },
+    {
+      "average_std": 4.5,
+      "fantasypros_id": 17496,
+      "games": 13,
+      "name": "Chase Edmonds",
+      "nfl_team": "DEN",
+      "points_std": 58.2,
+      "position": "RB"
+    },
+    {
+      "average_std": 3.8,
+      "fantasypros_id": 16444,
+      "games": 8,
+      "name": "Marlon Mack",
+      "nfl_team": "DEN",
+      "points_std": 30.3,
+      "position": "RB"
+    },
+    {
+      "average_std": 11.9,
+      "fantasypros_id": 16447,
+      "games": 13,
+      "name": "James Conner",
+      "nfl_team": "ARI",
+      "points_std": 154.20000000000002,
+      "position": "RB"
+    },
+    {
+      "average_std": 1.3,
+      "fantasypros_id": 23162,
+      "games": 11,
+      "name": "Keaontay Ingram",
+      "nfl_team": "ARI",
+      "points_std": 14.1,
+      "position": "RB"
+    },
+    {
+      "average_std": 9.6,
+      "fantasypros_id": 16378,
+      "games": 16,
+      "name": "Leonard Fournette",
+      "nfl_team": "TB",
+      "points_std": 154.09999999999997,
+      "position": "RB"
+    },
+    {
+      "average_std": 5.2,
+      "fantasypros_id": 23891,
+      "games": 17,
+      "name": "Rachaad White",
+      "nfl_team": "TB",
+      "points_std": 89.1,
+      "position": "RB"
+    },
+    {
+      "average_std": 0.8,
+      "fantasypros_id": 19351,
+      "games": 9,
+      "name": "Ke'Shawn Vaughn",
+      "nfl_team": "TB",
+      "points_std": 7.199999999999999,
+      "position": "RB"
+    },
+    {
+      "average_std": 0.7,
+      "fantasypros_id": 11644,
+      "games": 4,
+      "name": "Giovani Bernard",
+      "nfl_team": "TB",
+      "points_std": 2.7,
+      "position": "RB"
+    },
+    {
+      "average_std": 4.1,
+      "fantasypros_id": 19263,
+      "games": 13,
+      "name": "Zack Moss",
+      "nfl_team": "IND",
+      "points_std": 53.5,
+      "position": "RB"
+    },
+    {
+      "average_std": 4.5,
+      "fantasypros_id": 20097,
+      "games": 12,
+      "name": "Deon Jackson",
+      "nfl_team": "IND",
+      "points_std": 54.50000000000001,
+      "position": "RB"
+    },
+    {
+      "average_std": 2.2,
+      "fantasypros_id": 17497,
+      "games": 4,
+      "name": "Jordan Wilkins",
+      "nfl_team": "IND",
+      "points_std": 8.7,
+      "position": "RB"
+    },
+    {
+      "average_std": 15.6,
+      "fantasypros_id": 16483,
+      "games": 17,
+      "name": "Austin Ekeler",
+      "nfl_team": "LAC",
+      "points_std": 265.7,
+      "position": "RB"
+    },
+    {
+      "average_std": 4.2,
+      "fantasypros_id": 19445,
+      "games": 12,
+      "name": "Joshua Kelley",
+      "nfl_team": "LAC",
+      "points_std": 50.800000000000004,
+      "position": "RB"
+    },
+    {
+      "average_std": 5.6,
+      "fantasypros_id": 18588,
+      "games": 10,
+      "name": "Darrell Henderson Jr.",
+      "nfl_team": "JAC",
+      "points_std": 56.49999999999999,
+      "position": "RB"
+    },
+    {
+      "average_std": 0.2,
+      "fantasypros_id": 12334,
+      "games": 1,
+      "name": "Damien Williams",
+      "nfl_team": "ATL",
+      "points_std": 0.2,
+      "position": "RB"
+    },
+    {
+      "average_std": 3.4,
+      "fantasypros_id": 9872,
+      "games": 10,
+      "name": "Mark Ingram II",
+      "nfl_team": "NO",
+      "points_std": 34.1,
+      "position": "RB"
+    },
+    {
+      "average_std": 0.1,
+      "fantasypros_id": 20105,
+      "games": 6,
+      "name": "Demetric Felton Jr.",
+      "nfl_team": "CLE",
+      "points_std": 0.4,
+      "position": "RB"
+    },
+    {
+      "average_std": 0.4,
+      "fantasypros_id": 24047,
+      "games": 11,
+      "name": "Trestan Ebner",
+      "nfl_team": "CHI",
+      "points_std": 4.199999999999999,
+      "position": "RB"
+    },
+    {
+      "average_std": 8.1,
+      "fantasypros_id": 22813,
+      "games": 5,
+      "name": "Elijah Mitchell",
+      "nfl_team": "SF",
+      "points_std": 40.6,
+      "position": "RB"
+    },
+    {
+      "average_std": 2.7,
+      "fantasypros_id": 11798,
+      "games": 13,
+      "name": "Kyle Juszczyk",
+      "nfl_team": "SF",
+      "points_std": 34.599999999999994,
+      "position": "RB"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 20088,
+      "games": 1,
+      "name": "Jermar Jefferson",
+      "nfl_team": "DET",
+      "points_std": 0,
+      "position": "RB"
+    },
+    {
+      "average_std": 10.5,
+      "fantasypros_id": 22947,
+      "games": 13,
+      "name": "Dameon Pierce",
+      "nfl_team": "HOU",
+      "points_std": 136.4,
+      "position": "RB"
+    },
+    {
+      "average_std": 0.2,
+      "fantasypros_id": 24872,
+      "games": 11,
+      "name": "Troy Hairston II",
+      "nfl_team": "HOU",
+      "points_std": 1.9,
+      "position": "RB"
+    },
+    {
+      "average_std": 9.9,
+      "fantasypros_id": 19217,
+      "games": 12,
+      "name": "Jonathan Taylor",
+      "nfl_team": "IND",
+      "points_std": 118.39999999999999,
+      "position": "RB"
+    },
+    {
+      "average_std": 7.3,
+      "fantasypros_id": 13977,
+      "games": 1,
+      "name": "Ty Montgomery II",
+      "nfl_team": "NE",
+      "points_std": 7.3,
+      "position": "RB"
+    },
+    {
+      "average_std": 6.7,
+      "fantasypros_id": 18230,
+      "games": 11,
+      "name": "Damien Harris",
+      "nfl_team": "NE",
+      "points_std": 73.9,
+      "position": "RB"
+    },
+    {
+      "average_std": 13.7,
+      "fantasypros_id": 22982,
+      "games": 7,
+      "name": "Breece Hall",
+      "nfl_team": "NYJ",
+      "points_std": 96.10000000000001,
+      "position": "RB"
+    },
+    {
+      "average_std": 7.3,
+      "fantasypros_id": 15637,
+      "games": 12,
+      "name": "Kenyan Drake",
+      "nfl_team": "BAL",
+      "points_std": 87.10000000000001,
+      "position": "RB"
+    },
+    {
+      "average_std": 0.7,
+      "fantasypros_id": 17145,
+      "games": 13,
+      "name": "Patrick Ricard",
+      "nfl_team": "BAL",
+      "points_std": 9,
+      "position": "RB"
+    },
+    {
+      "average_std": 0.4,
+      "fantasypros_id": 13943,
+      "games": 5,
+      "name": "Mike Davis",
+      "nfl_team": "BAL",
+      "points_std": 2.2,
+      "position": "RB"
+    },
+    {
+      "average_std": 3.2,
+      "fantasypros_id": 16230,
+      "games": 9,
+      "name": "J.D. McKissic",
+      "nfl_team": "WAS",
+      "points_std": 28.799999999999997,
+      "position": "RB"
+    },
+    {
+      "average_std": 7.1,
+      "fantasypros_id": 19631,
+      "games": 11,
+      "name": "James Robinson",
+      "nfl_team": "NYJ",
+      "points_std": 77.6,
+      "position": "RB"
+    },
+    {
+      "average_std": 5,
+      "fantasypros_id": 19361,
+      "games": 13,
+      "name": "Eno Benjamin",
+      "nfl_team": "NO",
+      "points_std": 64.6,
+      "position": "RB"
+    },
+    {
+      "average_std": 8.1,
+      "fantasypros_id": 19325,
+      "games": 10,
+      "name": "Clyde Edwards-Helaire",
+      "nfl_team": "KC",
+      "points_std": 81.30000000000001,
+      "position": "RB"
+    },
+    {
+      "average_std": 0.2,
+      "fantasypros_id": 14191,
+      "games": 12,
+      "name": "Michael Burton",
+      "nfl_team": "KC",
+      "points_std": 1.7999999999999998,
+      "position": "RB"
+    },
+    {
+      "average_std": 1.7,
+      "fantasypros_id": 23933,
+      "games": 8,
+      "name": "Zander Horvath",
+      "nfl_team": "LAC",
+      "points_std": 13.6,
+      "position": "RB"
+    },
+    {
+      "average_std": 1.6,
+      "fantasypros_id": 17309,
+      "games": 10,
+      "name": "Sony Michel",
+      "nfl_team": "LAC",
+      "points_std": 15.899999999999997,
+      "position": "RB"
+    },
+    {
+      "average_std": 0.1,
+      "fantasypros_id": 18673,
+      "games": 11,
+      "name": "Jakob Johnson",
+      "nfl_team": "LV",
+      "points_std": 1,
+      "position": "RB"
+    },
+    {
+      "average_std": 0.7,
+      "fantasypros_id": 23249,
+      "games": 14,
+      "name": "Kene Nwangwu",
+      "nfl_team": "MIN",
+      "points_std": 9.5,
+      "position": "RB"
+    },
+    {
+      "average_std": 4.7,
+      "fantasypros_id": 18037,
+      "games": 12,
+      "name": "Dontrell Hilliard",
+      "nfl_team": "TEN",
+      "points_std": 56.19999999999999,
+      "position": "RB"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 17538,
+      "games": 2,
+      "name": "Trenton Cannon",
+      "nfl_team": "TEN",
+      "points_std": 0,
+      "position": "RB"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 19647,
+      "games": 3,
+      "name": "Rico Dowdle",
+      "nfl_team": "DAL",
+      "points_std": 0,
+      "position": "RB"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 18480,
+      "games": 3,
+      "name": "Qadree Ollison",
+      "nfl_team": "DAL",
+      "points_std": 0,
+      "position": "RB"
+    },
+    {
+      "average_std": 9.6,
+      "fantasypros_id": 17308,
+      "games": 5,
+      "name": "Rashaad Penny",
+      "nfl_team": "SEA",
+      "points_std": 48.199999999999996,
+      "position": "RB"
+    },
+    {
+      "average_std": 6.5,
+      "fantasypros_id": 22739,
+      "games": 4,
+      "name": "Javonte Williams",
+      "nfl_team": "DEN",
+      "points_std": 26,
+      "position": "RB"
+    },
+    {
+      "average_std": 6.2,
+      "fantasypros_id": 13903,
+      "games": 10,
+      "name": "Melvin Gordon III",
+      "nfl_team": "KC",
+      "points_std": 62.10000000000001,
+      "position": "RB"
+    },
+    {
+      "average_std": 2.2,
+      "fantasypros_id": 17813,
+      "games": 9,
+      "name": "Mike Boone",
+      "nfl_team": "DEN",
+      "points_std": 19.8,
+      "position": "RB"
+    },
+    {
+      "average_std": 3.1,
+      "fantasypros_id": 19074,
+      "games": 7,
+      "name": "Craig Reynolds",
+      "nfl_team": "DET",
+      "points_std": 21.8,
+      "position": "RB"
+    },
+    {
+      "average_std": 1.8,
+      "fantasypros_id": 19482,
+      "games": 3,
+      "name": "Tony Jones Jr.",
+      "nfl_team": "SEA",
+      "points_std": 5.4,
+      "position": "RB"
+    },
+    {
+      "average_std": 0.6,
+      "fantasypros_id": 15850,
+      "games": 7,
+      "name": "Dwayne Washington",
+      "nfl_team": "NO",
+      "points_std": 4.5,
+      "position": "RB"
+    },
+    {
+      "average_std": 3.6,
+      "fantasypros_id": 19368,
+      "games": 12,
+      "name": "Caleb Huntley",
+      "nfl_team": "ATL",
+      "points_std": 42.900000000000006,
+      "position": "RB"
+    },
+    {
+      "average_std": 0.9,
+      "fantasypros_id": 22797,
+      "games": 11,
+      "name": "Chris Evans",
+      "nfl_team": "CIN",
+      "points_std": 9.8,
+      "position": "RB"
+    },
+    {
+      "average_std": 0.6,
+      "fantasypros_id": 20095,
+      "games": 11,
+      "name": "Zamir White",
+      "nfl_team": "LV",
+      "points_std": 7,
+      "position": "RB"
+    },
+    {
+      "average_std": 3.4,
+      "fantasypros_id": 17514,
+      "games": 5,
+      "name": "Darrel Williams",
+      "nfl_team": "ARI",
+      "points_std": 17.099999999999998,
+      "position": "RB"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 16295,
+      "games": 2,
+      "name": "Brandin Bryant",
+      "nfl_team": "BUF",
+      "points_std": 0,
+      "position": "RB"
+    },
+    {
+      "average_std": 1.9,
+      "fantasypros_id": 19425,
+      "games": 1,
+      "name": "Trey Sermon",
+      "nfl_team": "PHI",
+      "points_std": 1.9,
+      "position": "RB"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 11660,
+      "games": 1,
+      "name": "Kenjon Barner",
+      "nfl_team": "TB",
+      "points_std": 0,
+      "position": "RB"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 23190,
+      "games": 1,
+      "name": "Jake Funk",
+      "nfl_team": "IND",
+      "points_std": 0,
+      "position": "RB"
+    },
+    {
+      "average_std": 0.2,
+      "fantasypros_id": 18630,
+      "games": 3,
+      "name": "Devine Ozigbo",
+      "nfl_team": "DEN",
+      "points_std": 0.7,
+      "position": "RB"
+    },
+    {
+      "average_std": 2.9,
+      "fantasypros_id": 17498,
+      "games": 3,
+      "name": "Phillip Lindsay",
+      "nfl_team": "IND",
+      "points_std": 8.8,
+      "position": "RB"
+    },
+    {
+      "average_std": 1,
+      "fantasypros_id": 19471,
+      "games": 2,
+      "name": "Ty Chandler",
+      "nfl_team": "MIN",
+      "points_std": 2,
+      "position": "RB"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 18697,
+      "games": 4,
+      "name": "Cullen Gillaspia",
+      "nfl_team": "SEA",
+      "points_std": 0,
+      "position": "RB"
+    },
+    {
+      "average_std": 2.7,
+      "fantasypros_id": 17251,
+      "games": 2,
+      "name": "Myles Gaskin",
+      "nfl_team": "MIA",
+      "points_std": 5.4,
+      "position": "RB"
+    },
+    {
+      "average_std": 6.3,
+      "fantasypros_id": 13926,
+      "games": 3,
+      "name": "Tevin Coleman",
+      "nfl_team": "SF",
+      "points_std": 19,
+      "position": "RB"
+    },
+    {
+      "average_std": 2.5,
+      "fantasypros_id": 23986,
+      "games": 2,
+      "name": "Ronnie Rivers",
+      "nfl_team": "LAR",
+      "points_std": 5,
+      "position": "RB"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 24603,
+      "games": 1,
+      "name": "John Lovett",
+      "nfl_team": "CAR",
+      "points_std": 0,
+      "position": "RB"
+    },
+    {
+      "average_std": 1.1,
+      "fantasypros_id": 23143,
+      "games": 5,
+      "name": "Isaiah Spiller",
+      "nfl_team": "LAC",
+      "points_std": 5.4,
+      "position": "RB"
+    },
+    {
+      "average_std": 2.7,
+      "fantasypros_id": 23264,
+      "games": 2,
+      "name": "Spencer Brown",
+      "nfl_team": "CAR",
+      "points_std": 5.300000000000001,
+      "position": "RB"
+    },
+    {
+      "average_std": 4.7,
+      "fantasypros_id": 24205,
+      "games": 6,
+      "name": "Malik Davis",
+      "nfl_team": "DAL",
+      "points_std": 28.399999999999995,
+      "position": "RB"
+    },
+    {
+      "average_std": 1.9,
+      "fantasypros_id": 19449,
+      "games": 7,
+      "name": "Salvon Ahmed",
+      "nfl_team": "MIA",
+      "points_std": 13.200000000000001,
+      "position": "RB"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 19333,
+      "games": 1,
+      "name": "La'Mical Perine",
+      "nfl_team": "MIA",
+      "points_std": 0,
+      "position": "RB"
+    },
+    {
+      "average_std": 0.7,
+      "fantasypros_id": 19323,
+      "games": 1,
+      "name": "Kylin Hill",
+      "nfl_team": "GB",
+      "points_std": 0.7,
+      "position": "RB"
+    },
+    {
+      "average_std": 1.7,
+      "fantasypros_id": 19438,
+      "games": 1,
+      "name": "J.J. Taylor",
+      "nfl_team": "NE",
+      "points_std": 1.7,
+      "position": "RB"
+    },
+    {
+      "average_std": 0.4,
+      "fantasypros_id": 13939,
+      "games": 1,
+      "name": "Duke Johnson Jr.",
+      "nfl_team": "BUF",
+      "points_std": 0.4,
+      "position": "RB"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 20166,
+      "games": 1,
+      "name": "Sandro Platzgummer",
+      "nfl_team": "NYG",
+      "points_std": 0,
+      "position": "RB"
+    },
+    {
+      "average_std": 0.1,
+      "fantasypros_id": 15585,
+      "games": 1,
+      "name": "Jordan Howard",
+      "nfl_team": "NO",
+      "points_std": 0.1,
+      "position": "RB"
+    },
+    {
+      "average_std": 1.1,
+      "fantasypros_id": 19537,
+      "games": 3,
+      "name": "Larry Rountree III",
+      "nfl_team": "LAC",
+      "points_std": 3.3,
+      "position": "RB"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 23298,
+      "games": 1,
+      "name": "Ben Mason",
+      "nfl_team": "BAL",
+      "points_std": 0,
+      "position": "RB"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 24572,
+      "games": 1,
+      "name": "Brittain Brown",
+      "nfl_team": "LV",
+      "points_std": 0,
+      "position": "RB"
+    },
+    {
+      "average_std": 3.4,
+      "fantasypros_id": 16446,
+      "games": 5,
+      "name": "Corey Clement",
+      "nfl_team": "ARI",
+      "points_std": 16.900000000000002,
+      "position": "RB"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 22948,
+      "games": 2,
+      "name": "Jashaun Corbin",
+      "nfl_team": "NYG",
+      "points_std": 0,
+      "position": "RB"
+    },
+    {
+      "average_std": 3.2,
+      "fantasypros_id": 19418,
+      "games": 3,
+      "name": "Darrynton Evans",
+      "nfl_team": "CHI",
+      "points_std": 9.700000000000001,
+      "position": "RB"
+    },
+    {
+      "average_std": 4.1,
+      "fantasypros_id": 19366,
+      "games": 1,
+      "name": "Anthony McFarland Jr.",
+      "nfl_team": "PIT",
+      "points_std": 4.1,
+      "position": "RB"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 24211,
+      "games": 2,
+      "name": "Bryant Koback",
+      "nfl_team": "MIN",
+      "points_std": 0,
+      "position": "RB"
+    },
+    {
+      "average_std": 3.9,
+      "fantasypros_id": 20155,
+      "games": 2,
+      "name": "Jaret Patterson",
+      "nfl_team": "WAS",
+      "points_std": 7.8,
+      "position": "RB"
+    },
+    {
+      "average_std": 8.4,
+      "fantasypros_id": 23812,
+      "games": 1,
+      "name": "Tyler Badie",
+      "nfl_team": "DEN",
+      "points_std": 8.4,
+      "position": "RB"
+    },
+    {
+      "average_std": 0.5,
+      "fantasypros_id": 19636,
+      "games": 1,
+      "name": "Ty'Son Williams",
+      "nfl_team": "ARI",
+      "points_std": 0.5,
+      "position": "RB"
+    },
+    {
+      "average_std": 0.8,
+      "fantasypros_id": 17867,
+      "games": 1,
+      "name": "Reggie Bonnafon",
+      "nfl_team": "WAS",
+      "points_std": 0.8,
+      "position": "RB"
+    },
+    {
+      "average_std": 7.8,
+      "fantasypros_id": 23072,
+      "games": 17,
+      "name": "Garrett Wilson",
+      "nfl_team": "NYJ",
+      "points_std": 132.70000000000002,
+      "position": "WR"
+    },
+    {
+      "average_std": 3.2,
+      "fantasypros_id": 20114,
+      "games": 16,
+      "name": "Elijah Moore",
+      "nfl_team": "NYJ",
+      "points_std": 51.1,
+      "position": "WR"
+    },
+    {
+      "average_std": 5,
+      "fantasypros_id": 16385,
+      "games": 13,
+      "name": "Corey Davis",
+      "nfl_team": "NYJ",
+      "points_std": 65.6,
+      "position": "WR"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 16873,
+      "games": 12,
+      "name": "Justin Hardee Sr.",
+      "nfl_team": "NYJ",
+      "points_std": 0,
+      "position": "WR"
+    },
+    {
+      "average_std": 2.3,
+      "fantasypros_id": 17289,
+      "games": 17,
+      "name": "Braxton Berrios",
+      "nfl_team": "NYJ",
+      "points_std": 39.68,
+      "position": "WR"
+    },
+    {
+      "average_std": 9.3,
+      "fantasypros_id": 17268,
+      "games": 17,
+      "name": "Christian Kirk",
+      "nfl_team": "JAC",
+      "points_std": 157.89999999999998,
+      "position": "WR"
+    },
+    {
+      "average_std": 4.4,
+      "fantasypros_id": 11215,
+      "games": 16,
+      "name": "Marvin Jones Jr.",
+      "nfl_team": "JAC",
+      "points_std": 70.9,
+      "position": "WR"
+    },
+    {
+      "average_std": 7.3,
+      "fantasypros_id": 16431,
+      "games": 16,
+      "name": "Zay Jones",
+      "nfl_team": "JAC",
+      "points_std": 116.1,
+      "position": "WR"
+    },
+    {
+      "average_std": 3.3,
+      "fantasypros_id": 16666,
+      "games": 15,
+      "name": "Jamal Agnew",
+      "nfl_team": "JAC",
+      "points_std": 49.29999999999998,
+      "position": "WR"
+    },
+    {
+      "average_std": 0.4,
+      "fantasypros_id": 23438,
+      "games": 7,
+      "name": "Tim Jones",
+      "nfl_team": "JAC",
+      "points_std": 3,
+      "position": "WR"
+    },
+    {
+      "average_std": 3.5,
+      "fantasypros_id": 15665,
+      "games": 16,
+      "name": "Demarcus Robinson",
+      "nfl_team": "BAL",
+      "points_std": 55.800000000000004,
+      "position": "WR"
+    },
+    {
+      "average_std": 3.4,
+      "fantasypros_id": 12118,
+      "games": 9,
+      "name": "Sammy Watkins",
+      "nfl_team": "BAL",
+      "points_std": 30.5,
+      "position": "WR"
+    },
+    {
+      "average_std": 2.2,
+      "fantasypros_id": 9186,
+      "games": 7,
+      "name": "DeSean Jackson",
+      "nfl_team": "BAL",
+      "points_std": 15.3,
+      "position": "WR"
+    },
+    {
+      "average_std": 0.6,
+      "fantasypros_id": 18409,
+      "games": 4,
+      "name": "Andy Isabella",
+      "nfl_team": "BAL",
+      "points_std": 2.2,
+      "position": "WR"
+    },
+    {
+      "average_std": 0.4,
+      "fantasypros_id": 19359,
+      "games": 12,
+      "name": "James Proche II",
+      "nfl_team": "BAL",
+      "points_std": 5.2,
+      "position": "WR"
+    },
+    {
+      "average_std": 6.3,
+      "fantasypros_id": 23163,
+      "games": 17,
+      "name": "Drake London",
+      "nfl_team": "ATL",
+      "points_std": 106.60000000000001,
+      "position": "WR"
+    },
+    {
+      "average_std": 4.1,
+      "fantasypros_id": 18864,
+      "games": 17,
+      "name": "Olamide Zaccheaus",
+      "nfl_team": "ATL",
+      "points_std": 70,
+      "position": "WR"
+    },
+    {
+      "average_std": 3.2,
+      "fantasypros_id": 14222,
+      "games": 12,
+      "name": "Damiere Byrd",
+      "nfl_team": "ATL",
+      "points_std": 38.800000000000004,
+      "position": "WR"
+    },
+    {
+      "average_std": 2,
+      "fantasypros_id": 18166,
+      "games": 14,
+      "name": "KhaDarel Hodge",
+      "nfl_team": "ATL",
+      "points_std": 28.2,
+      "position": "WR"
+    },
+    {
+      "average_std": 2.7,
+      "fantasypros_id": 17264,
+      "games": 17,
+      "name": "Dante Pettis",
+      "nfl_team": "CHI",
+      "points_std": 46.2,
+      "position": "WR"
+    },
+    {
+      "average_std": 2.5,
+      "fantasypros_id": 24214,
+      "games": 11,
+      "name": "Velus Jones Jr.",
+      "nfl_team": "CHI",
+      "points_std": 27.000000000000004,
+      "position": "WR"
+    },
+    {
+      "average_std": 2.6,
+      "fantasypros_id": 17739,
+      "games": 10,
+      "name": "Byron Pringle",
+      "nfl_team": "CHI",
+      "points_std": 25.5,
+      "position": "WR"
+    },
+    {
+      "average_std": 8.2,
+      "fantasypros_id": 19398,
+      "games": 15,
+      "name": "Gabe Davis",
+      "nfl_team": "BUF",
+      "points_std": 123.6,
+      "position": "WR"
+    },
+    {
+      "average_std": 12.4,
+      "fantasypros_id": 13981,
+      "games": 17,
+      "name": "Stefon Diggs",
+      "nfl_team": "BUF",
+      "points_std": 211.19999999999996,
+      "position": "WR"
+    },
+    {
+      "average_std": 2.4,
+      "fantasypros_id": 23748,
+      "games": 10,
+      "name": "Khalil Shakir",
+      "nfl_team": "BUF",
+      "points_std": 24.1,
+      "position": "WR"
+    },
+    {
+      "average_std": 0.7,
+      "fantasypros_id": 11459,
+      "games": 5,
+      "name": "Cole Beasley",
+      "nfl_team": "BUF",
+      "points_std": 3.5,
+      "position": "WR"
+    },
+    {
+      "average_std": 4.9,
+      "fantasypros_id": 16604,
+      "games": 16,
+      "name": "Isaiah McKenzie",
+      "nfl_team": "BUF",
+      "points_std": 77.80000000000001,
+      "position": "WR"
+    },
+    {
+      "average_std": 8,
+      "fantasypros_id": 17265,
+      "games": 17,
+      "name": "DJ Moore",
+      "nfl_team": "CAR",
+      "points_std": 136.1,
+      "position": "WR"
+    },
+    {
+      "average_std": 3.5,
+      "fantasypros_id": 19221,
+      "games": 13,
+      "name": "Laviska Shenault Jr.",
+      "nfl_team": "CAR",
+      "points_std": 45.7,
+      "position": "WR"
+    },
+    {
+      "average_std": 3.9,
+      "fantasypros_id": 23242,
+      "games": 14,
+      "name": "Terrace Marshall Jr.",
+      "nfl_team": "CAR",
+      "points_std": 54.99999999999999,
+      "position": "WR"
+    },
+    {
+      "average_std": 2.3,
+      "fantasypros_id": 20127,
+      "games": 17,
+      "name": "Shi Smith",
+      "nfl_team": "CAR",
+      "points_std": 39.599999999999994,
+      "position": "WR"
+    },
+    {
+      "average_std": 6.2,
+      "fantasypros_id": 17292,
+      "games": 11,
+      "name": "DJ Chark Jr.",
+      "nfl_team": "DET",
+      "points_std": 68.2,
+      "position": "WR"
+    },
+    {
+      "average_std": 10.1,
+      "fantasypros_id": 19799,
+      "games": 16,
+      "name": "Amon-Ra St. Brown",
+      "nfl_team": "DET",
+      "points_std": 161.59999999999997,
+      "position": "WR"
+    },
+    {
+      "average_std": 4.1,
+      "fantasypros_id": 16081,
+      "games": 17,
+      "name": "Kalif Raymond",
+      "nfl_team": "DET",
+      "points_std": 69.2,
+      "position": "WR"
+    },
+    {
+      "average_std": 5.5,
+      "fantasypros_id": 16439,
+      "games": 12,
+      "name": "Josh Reynolds",
+      "nfl_team": "DET",
+      "points_std": 65.89999999999998,
+      "position": "WR"
+    },
+    {
+      "average_std": 2.4,
+      "fantasypros_id": 23677,
+      "games": 6,
+      "name": "Jameson Williams",
+      "nfl_team": "DET",
+      "points_std": 14.1,
+      "position": "WR"
+    },
+    {
+      "average_std": 9.9,
+      "fantasypros_id": 13894,
+      "games": 17,
+      "name": "Amari Cooper",
+      "nfl_team": "CLE",
+      "points_std": 169,
+      "position": "WR"
+    },
+    {
+      "average_std": 1.3,
+      "fantasypros_id": 23108,
+      "games": 16,
+      "name": "David Bell",
+      "nfl_team": "CLE",
+      "points_std": 21.400000000000002,
+      "position": "WR"
+    },
+    {
+      "average_std": 0.5,
+      "fantasypros_id": 23893,
+      "games": 8,
+      "name": "Michael Woods II",
+      "nfl_team": "CLE",
+      "points_std": 4,
+      "position": "WR"
+    },
+    {
+      "average_std": 6.2,
+      "fantasypros_id": 19298,
+      "games": 17,
+      "name": "Donovan Peoples-Jones",
+      "nfl_team": "CLE",
+      "points_std": 106.10000000000001,
+      "position": "WR"
+    },
+    {
+      "average_std": 6,
+      "fantasypros_id": 24687,
+      "games": 12,
+      "name": "Rashid Shaheed",
+      "nfl_team": "NO",
+      "points_std": 72.5,
+      "position": "WR"
+    },
+    {
+      "average_std": 0.6,
+      "fantasypros_id": 17871,
+      "games": 3,
+      "name": "Keith Kirkwood",
+      "nfl_team": "NO",
+      "points_std": 1.7999999999999998,
+      "position": "WR"
+    },
+    {
+      "average_std": 3.3,
+      "fantasypros_id": 17066,
+      "games": 16,
+      "name": "Kendrick Bourne",
+      "nfl_team": "NE",
+      "points_std": 53.300000000000004,
+      "position": "WR"
+    },
+    {
+      "average_std": 8.1,
+      "fantasypros_id": 18598,
+      "games": 14,
+      "name": "Jakobi Meyers",
+      "nfl_team": "NE",
+      "points_std": 113.30000000000003,
+      "position": "WR"
+    },
+    {
+      "average_std": 3.7,
+      "fantasypros_id": 22913,
+      "games": 12,
+      "name": "Tyquan Thornton",
+      "nfl_team": "NE",
+      "points_std": 44.3,
+      "position": "WR"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 9446,
+      "games": 9,
+      "name": "Matthew Slater",
+      "nfl_team": "NE",
+      "points_std": 0,
+      "position": "WR"
+    },
+    {
+      "average_std": 2.9,
+      "fantasypros_id": 13969,
+      "games": 15,
+      "name": "Nelson Agholor",
+      "nfl_team": "NE",
+      "points_std": 44.2,
+      "position": "WR"
+    },
+    {
+      "average_std": 9.9,
+      "fantasypros_id": 19211,
+      "games": 15,
+      "name": "Tee Higgins",
+      "nfl_team": "CIN",
+      "points_std": 148.20000000000002,
+      "position": "WR"
+    },
+    {
+      "average_std": 5.4,
+      "fantasypros_id": 18726,
+      "games": 9,
+      "name": "Trenton Irwin",
+      "nfl_team": "CIN",
+      "points_std": 48.2,
+      "position": "WR"
+    },
+    {
+      "average_std": 12,
+      "fantasypros_id": 19788,
+      "games": 13,
+      "name": "Ja'Marr Chase",
+      "nfl_team": "CIN",
+      "points_std": 155.4,
+      "position": "WR"
+    },
+    {
+      "average_std": 6.9,
+      "fantasypros_id": 15547,
+      "games": 17,
+      "name": "Tyler Boyd",
+      "nfl_team": "CIN",
+      "points_std": 116.52000000000001,
+      "position": "WR"
+    },
+    {
+      "average_std": 0.4,
+      "fantasypros_id": 16505,
+      "games": 16,
+      "name": "Trent Taylor",
+      "nfl_team": "CIN",
+      "points_std": 5.700000000000001,
+      "position": "WR"
+    },
+    {
+      "average_std": 14.2,
+      "fantasypros_id": 19236,
+      "games": 17,
+      "name": "Justin Jefferson",
+      "nfl_team": "MIN",
+      "points_std": 240.66000000000005,
+      "position": "WR"
+    },
+    {
+      "average_std": 5.6,
+      "fantasypros_id": 19708,
+      "games": 17,
+      "name": "K.J. Osborn",
+      "nfl_team": "MIN",
+      "points_std": 95.60000000000002,
+      "position": "WR"
+    },
+    {
+      "average_std": 6.5,
+      "fantasypros_id": 13429,
+      "games": 17,
+      "name": "Adam Thielen",
+      "nfl_team": "MIN",
+      "points_std": 110,
+      "position": "WR"
+    },
+    {
+      "average_std": 1.1,
+      "fantasypros_id": 19219,
+      "games": 17,
+      "name": "Jalen Reagor",
+      "nfl_team": "MIN",
+      "points_std": 18.9,
+      "position": "WR"
+    },
+    {
+      "average_std": 7,
+      "fantasypros_id": 19375,
+      "games": 9,
+      "name": "Isaiah Hodgins",
+      "nfl_team": "NYG",
+      "points_std": 63.2,
+      "position": "WR"
+    },
+    {
+      "average_std": 4.7,
+      "fantasypros_id": 17303,
+      "games": 16,
+      "name": "Richie James Jr.",
+      "nfl_team": "NYG",
+      "points_std": 75.5,
+      "position": "WR"
+    },
+    {
+      "average_std": 5.5,
+      "fantasypros_id": 18706,
+      "games": 15,
+      "name": "Darius Slayton",
+      "nfl_team": "NYG",
+      "points_std": 82.4,
+      "position": "WR"
+    },
+    {
+      "average_std": 1.1,
+      "fantasypros_id": 15814,
+      "games": 9,
+      "name": "Marcus Johnson",
+      "nfl_team": "NYG",
+      "points_std": 9.9,
+      "position": "WR"
+    },
+    {
+      "average_std": 4.6,
+      "fantasypros_id": 20119,
+      "games": 9,
+      "name": "Kadarius Toney",
+      "nfl_team": "KC",
+      "points_std": 41.3,
+      "position": "WR"
+    },
+    {
+      "average_std": 6.7,
+      "fantasypros_id": 16427,
+      "games": 16,
+      "name": "JuJu Smith-Schuster",
+      "nfl_team": "KC",
+      "points_std": 107.3,
+      "position": "WR"
+    },
+    {
+      "average_std": 1.3,
+      "fantasypros_id": 23905,
+      "games": 16,
+      "name": "Skyy Moore",
+      "nfl_team": "KC",
+      "points_std": 21.4,
+      "position": "WR"
+    },
+    {
+      "average_std": 2.6,
+      "fantasypros_id": 17603,
+      "games": 17,
+      "name": "Justin Watson",
+      "nfl_team": "KC",
+      "points_std": 43.5,
+      "position": "WR"
+    },
+    {
+      "average_std": 4.7,
+      "fantasypros_id": 17528,
+      "games": 17,
+      "name": "Marquez Valdes-Scantling",
+      "nfl_team": "KC",
+      "points_std": 80.39999999999999,
+      "position": "WR"
+    },
+    {
+      "average_std": 8,
+      "fantasypros_id": 18219,
+      "games": 17,
+      "name": "DK Metcalf",
+      "nfl_team": "SEA",
+      "points_std": 136.8,
+      "position": "WR"
+    },
+    {
+      "average_std": 1.4,
+      "fantasypros_id": 15495,
+      "games": 3,
+      "name": "Laquon Treadwell",
+      "nfl_team": "SEA",
+      "points_std": 4.2,
+      "position": "WR"
+    },
+    {
+      "average_std": 0.4,
+      "fantasypros_id": 18787,
+      "games": 5,
+      "name": "Penny Hart",
+      "nfl_team": "SEA",
+      "points_std": 2,
+      "position": "WR"
+    },
+    {
+      "average_std": 0.3,
+      "fantasypros_id": 24570,
+      "games": 8,
+      "name": "Dareke Young",
+      "nfl_team": "SEA",
+      "points_std": 2.4,
+      "position": "WR"
+    },
+    {
+      "average_std": 4.9,
+      "fantasypros_id": 11599,
+      "games": 13,
+      "name": "Marquise Goodwin",
+      "nfl_team": "SEA",
+      "points_std": 63.2,
+      "position": "WR"
+    },
+    {
+      "average_std": 3.7,
+      "fantasypros_id": 11610,
+      "games": 17,
+      "name": "Robert Woods",
+      "nfl_team": "TEN",
+      "points_std": 62.7,
+      "position": "WR"
+    },
+    {
+      "average_std": 3.6,
+      "fantasypros_id": 19747,
+      "games": 16,
+      "name": "Nick Westbrook-Ikhine",
+      "nfl_team": "TEN",
+      "points_std": 57.699999999999996,
+      "position": "WR"
+    },
+    {
+      "average_std": 5.6,
+      "fantasypros_id": 22905,
+      "games": 11,
+      "name": "Treylon Burks",
+      "nfl_team": "TEN",
+      "points_std": 61.1,
+      "position": "WR"
+    },
+    {
+      "average_std": 6.8,
+      "fantasypros_id": 12122,
+      "games": 13,
+      "name": "Brandin Cooks",
+      "nfl_team": "HOU",
+      "points_std": 88.6,
+      "position": "WR"
+    },
+    {
+      "average_std": 2.1,
+      "fantasypros_id": 13979,
+      "games": 15,
+      "name": "Phillip Dorsett II",
+      "nfl_team": "HOU",
+      "points_std": 31.7,
+      "position": "WR"
+    },
+    {
+      "average_std": 1.5,
+      "fantasypros_id": 20132,
+      "games": 15,
+      "name": "Amari Rodgers",
+      "nfl_team": "HOU",
+      "points_std": 23.1,
+      "position": "WR"
+    },
+    {
+      "average_std": 4.5,
+      "fantasypros_id": 15654,
+      "games": 15,
+      "name": "Chris Moore",
+      "nfl_team": "HOU",
+      "points_std": 67.1,
+      "position": "WR"
+    },
+    {
+      "average_std": 2.6,
+      "fantasypros_id": 17530,
+      "games": 17,
+      "name": "Ray-Ray McCloud III",
+      "nfl_team": "SF",
+      "points_std": 44.1,
+      "position": "WR"
+    },
+    {
+      "average_std": 8.8,
+      "fantasypros_id": 19252,
+      "games": 17,
+      "name": "Brandon Aiyuk",
+      "nfl_team": "SF",
+      "points_std": 149.8,
+      "position": "WR"
+    },
+    {
+      "average_std": 3,
+      "fantasypros_id": 19590,
+      "games": 16,
+      "name": "Jauan Jennings",
+      "nfl_team": "SF",
+      "points_std": 47.6,
+      "position": "WR"
+    },
+    {
+      "average_std": 0.2,
+      "fantasypros_id": 24178,
+      "games": 8,
+      "name": "Danny Gray",
+      "nfl_team": "SF",
+      "points_std": 1.9,
+      "position": "WR"
+    },
+    {
+      "average_std": 8,
+      "fantasypros_id": 23101,
+      "games": 12,
+      "name": "Jahan Dotson",
+      "nfl_team": "WAS",
+      "points_std": 95.60000000000001,
+      "position": "WR"
+    },
+    {
+      "average_std": 8.9,
+      "fantasypros_id": 18466,
+      "games": 17,
+      "name": "Terry McLaurin",
+      "nfl_team": "WAS",
+      "points_std": 151.99999999999997,
+      "position": "WR"
+    },
+    {
+      "average_std": 6.6,
+      "fantasypros_id": 16434,
+      "games": 17,
+      "name": "Curtis Samuel",
+      "nfl_team": "WAS",
+      "points_std": 112.29999999999998,
+      "position": "WR"
+    },
+    {
+      "average_std": 0.7,
+      "fantasypros_id": 18016,
+      "games": 13,
+      "name": "Cam Sims",
+      "nfl_team": "WAS",
+      "points_std": 8.9,
+      "position": "WR"
+    },
+    {
+      "average_std": 0.6,
+      "fantasypros_id": 22800,
+      "games": 15,
+      "name": "Dax Milne",
+      "nfl_team": "WAS",
+      "points_std": 9.7,
+      "position": "WR"
+    },
+    {
+      "average_std": 11.4,
+      "fantasypros_id": 19202,
+      "games": 17,
+      "name": "CeeDee Lamb",
+      "nfl_team": "DAL",
+      "points_std": 194.6,
+      "position": "WR"
+    },
+    {
+      "average_std": 4.7,
+      "fantasypros_id": 17259,
+      "games": 14,
+      "name": "Michael Gallup",
+      "nfl_team": "DAL",
+      "points_std": 66.4,
+      "position": "WR"
+    },
+    {
+      "average_std": 4,
+      "fantasypros_id": 11206,
+      "games": 3,
+      "name": "T.Y. Hilton",
+      "nfl_team": "DAL",
+      "points_std": 12.1,
+      "position": "WR"
+    },
+    {
+      "average_std": 4.5,
+      "fantasypros_id": 16443,
+      "games": 16,
+      "name": "Noah Brown",
+      "nfl_team": "DAL",
+      "points_std": 71.5,
+      "position": "WR"
+    },
+    {
+      "average_std": -0.1,
+      "fantasypros_id": 18520,
+      "games": 17,
+      "name": "KaVontae Turpin",
+      "nfl_team": "DAL",
+      "points_std": -1.4,
+      "position": "WR"
+    },
+    {
+      "average_std": 9.4,
+      "fantasypros_id": 19222,
+      "games": 17,
+      "name": "DeVonta Smith",
+      "nfl_team": "PHI",
+      "points_std": 159.6,
+      "position": "WR"
+    },
+    {
+      "average_std": 12.4,
+      "fantasypros_id": 18218,
+      "games": 17,
+      "name": "A.J. Brown",
+      "nfl_team": "PHI",
+      "points_std": 211.60000000000002,
+      "position": "WR"
+    },
+    {
+      "average_std": 3,
+      "fantasypros_id": 19715,
+      "games": 17,
+      "name": "Quez Watkins",
+      "nfl_team": "PHI",
+      "points_std": 51.5,
+      "position": "WR"
+    },
+    {
+      "average_std": 1.4,
+      "fantasypros_id": 16972,
+      "games": 15,
+      "name": "Zach Pascal",
+      "nfl_team": "PHI",
+      "points_std": 21,
+      "position": "WR"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 24234,
+      "games": 17,
+      "name": "Britain Covey",
+      "nfl_team": "PHI",
+      "points_std": 0,
+      "position": "WR"
+    },
+    {
+      "average_std": 6.7,
+      "fantasypros_id": 22963,
+      "games": 17,
+      "name": "George Pickens",
+      "nfl_team": "PIT",
+      "points_std": 114.50000000000001,
+      "position": "WR"
+    },
+    {
+      "average_std": 5.6,
+      "fantasypros_id": 18615,
+      "games": 17,
+      "name": "Diontae Johnson",
+      "nfl_team": "PIT",
+      "points_std": 94.7,
+      "position": "WR"
+    },
+    {
+      "average_std": 1.5,
+      "fantasypros_id": 18962,
+      "games": 12,
+      "name": "Steven Sims Jr.",
+      "nfl_team": "PIT",
+      "points_std": 17.400000000000002,
+      "position": "WR"
+    },
+    {
+      "average_std": 4.3,
+      "fantasypros_id": 18345,
+      "games": 10,
+      "name": "Hunter Renfrow",
+      "nfl_team": "LV",
+      "points_std": 43,
+      "position": "WR"
+    },
+    {
+      "average_std": 13.9,
+      "fantasypros_id": 12123,
+      "games": 17,
+      "name": "Davante Adams",
+      "nfl_team": "LV",
+      "points_std": 235.50000000000003,
+      "position": "WR"
+    },
+    {
+      "average_std": 5.7,
+      "fantasypros_id": 16489,
+      "games": 17,
+      "name": "Mack Hollins",
+      "nfl_team": "LV",
+      "points_std": 97.16,
+      "position": "WR"
+    },
+    {
+      "average_std": 1.7,
+      "fantasypros_id": 16864,
+      "games": 12,
+      "name": "Keelan Cole Sr.",
+      "nfl_team": "LV",
+      "points_std": 20.1,
+      "position": "WR"
+    },
+    {
+      "average_std": 10.8,
+      "fantasypros_id": 19790,
+      "games": 17,
+      "name": "Jaylen Waddle",
+      "nfl_team": "MIA",
+      "points_std": 184.20000000000002,
+      "position": "WR"
+    },
+    {
+      "average_std": 13.4,
+      "fantasypros_id": 15802,
+      "games": 17,
+      "name": "Tyreek Hill",
+      "nfl_team": "MIA",
+      "points_std": 228.20000000000002,
+      "position": "WR"
+    },
+    {
+      "average_std": 3.4,
+      "fantasypros_id": 17888,
+      "games": 16,
+      "name": "Trent Sherfield Sr.",
+      "nfl_team": "MIA",
+      "points_std": 53.7,
+      "position": "WR"
+    },
+    {
+      "average_std": 1.1,
+      "fantasypros_id": 17262,
+      "games": 13,
+      "name": "Cedrick Wilson Jr.",
+      "nfl_team": "MIA",
+      "points_std": 14.4,
+      "position": "WR"
+    },
+    {
+      "average_std": 7.7,
+      "fantasypros_id": 17301,
+      "games": 15,
+      "name": "Allen Lazard",
+      "nfl_team": "GB",
+      "points_std": 114.80000000000001,
+      "position": "WR"
+    },
+    {
+      "average_std": 8.8,
+      "fantasypros_id": 23886,
+      "games": 14,
+      "name": "Christian Watson",
+      "nfl_team": "GB",
+      "points_std": 123.1,
+      "position": "WR"
+    },
+    {
+      "average_std": 4.6,
+      "fantasypros_id": 23794,
+      "games": 13,
+      "name": "Romeo Doubs",
+      "nfl_team": "GB",
+      "points_std": 59.599999999999994,
+      "position": "WR"
+    },
+    {
+      "average_std": 3.7,
+      "fantasypros_id": 9902,
+      "games": 13,
+      "name": "Randall Cobb",
+      "nfl_team": "GB",
+      "points_std": 47.7,
+      "position": "WR"
+    },
+    {
+      "average_std": 5.5,
+      "fantasypros_id": 19483,
+      "games": 10,
+      "name": "Van Jefferson",
+      "nfl_team": "LAR",
+      "points_std": 54.900000000000006,
+      "position": "WR"
+    },
+    {
+      "average_std": 1.4,
+      "fantasypros_id": 17793,
+      "games": 17,
+      "name": "Brandon Powell",
+      "nfl_team": "LAR",
+      "points_std": 23.599999999999994,
+      "position": "WR"
+    },
+    {
+      "average_std": 3.5,
+      "fantasypros_id": 20126,
+      "games": 13,
+      "name": "Tutu Atwell",
+      "nfl_team": "LAR",
+      "points_std": 45.2,
+      "position": "WR"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 24812,
+      "games": 4,
+      "name": "Lance McCutcheon",
+      "nfl_team": "LAR",
+      "points_std": 0,
+      "position": "WR"
+    },
+    {
+      "average_std": 9.1,
+      "fantasypros_id": 19201,
+      "games": 15,
+      "name": "Jerry Jeudy",
+      "nfl_team": "DEN",
+      "points_std": 137.2,
+      "position": "WR"
+    },
+    {
+      "average_std": 6.4,
+      "fantasypros_id": 17253,
+      "games": 15,
+      "name": "Courtland Sutton",
+      "nfl_team": "DEN",
+      "points_std": 95.39999999999999,
+      "position": "WR"
+    },
+    {
+      "average_std": 2.5,
+      "fantasypros_id": 19729,
+      "games": 3,
+      "name": "Freddie Swain",
+      "nfl_team": "DEN",
+      "points_std": 7.4,
+      "position": "WR"
+    },
+    {
+      "average_std": 0.1,
+      "fantasypros_id": 24554,
+      "games": 15,
+      "name": "Montrell Washington",
+      "nfl_team": "DEN",
+      "points_std": 1.1999999999999997,
+      "position": "WR"
+    },
+    {
+      "average_std": 1.6,
+      "fantasypros_id": 24218,
+      "games": 7,
+      "name": "Jalen Virgil",
+      "nfl_team": "DEN",
+      "points_std": 11.5,
+      "position": "WR"
+    },
+    {
+      "average_std": 3.8,
+      "fantasypros_id": 18585,
+      "games": 16,
+      "name": "Greg Dortch",
+      "nfl_team": "ARI",
+      "points_std": 61.10000000000001,
+      "position": "WR"
+    },
+    {
+      "average_std": 7.4,
+      "fantasypros_id": 18226,
+      "games": 12,
+      "name": "Hollywood Brown",
+      "nfl_team": "ARI",
+      "points_std": 89,
+      "position": "WR"
+    },
+    {
+      "average_std": 9.7,
+      "fantasypros_id": 11606,
+      "games": 9,
+      "name": "DeAndre Hopkins",
+      "nfl_team": "ARI",
+      "points_std": 87.7,
+      "position": "WR"
+    },
+    {
+      "average_std": 0.4,
+      "fantasypros_id": 15557,
+      "games": 5,
+      "name": "Pharoh Cooper",
+      "nfl_team": "ARI",
+      "points_std": 2.1,
+      "position": "WR"
+    },
+    {
+      "average_std": 7.9,
+      "fantasypros_id": 16406,
+      "games": 15,
+      "name": "Chris Godwin Jr.",
+      "nfl_team": "TB",
+      "points_std": 118.80000000000001,
+      "position": "WR"
+    },
+    {
+      "average_std": 5.6,
+      "fantasypros_id": 17606,
+      "games": 13,
+      "name": "Russell Gage Jr.",
+      "nfl_team": "TB",
+      "points_std": 72.6,
+      "position": "WR"
+    },
+    {
+      "average_std": 9.9,
+      "fantasypros_id": 12119,
+      "games": 15,
+      "name": "Mike Evans",
+      "nfl_team": "TB",
+      "points_std": 148.40000000000003,
+      "position": "WR"
+    },
+    {
+      "average_std": 4.6,
+      "fantasypros_id": 9867,
+      "games": 10,
+      "name": "Julio Jones",
+      "nfl_team": "TB",
+      "points_std": 46.39999999999999,
+      "position": "WR"
+    },
+    {
+      "average_std": 1.6,
+      "fantasypros_id": 18714,
+      "games": 12,
+      "name": "Scotty Miller",
+      "nfl_team": "TB",
+      "points_std": 19.3,
+      "position": "WR"
+    },
+    {
+      "average_std": 1.2,
+      "fantasypros_id": 24134,
+      "games": 5,
+      "name": "Deven Thompkins",
+      "nfl_team": "TB",
+      "points_std": 5.800000000000001,
+      "position": "WR"
+    },
+    {
+      "average_std": 7.3,
+      "fantasypros_id": 19278,
+      "games": 16,
+      "name": "Michael Pittman Jr.",
+      "nfl_team": "IND",
+      "points_std": 117.49999999999997,
+      "position": "WR"
+    },
+    {
+      "average_std": 4.5,
+      "fantasypros_id": 23791,
+      "games": 16,
+      "name": "Alec Pierce",
+      "nfl_team": "IND",
+      "points_std": 71.3,
+      "position": "WR"
+    },
+    {
+      "average_std": 5.1,
+      "fantasypros_id": 18463,
+      "games": 17,
+      "name": "Parris Campbell",
+      "nfl_team": "IND",
+      "points_std": 86.1,
+      "position": "WR"
+    },
+    {
+      "average_std": 2.8,
+      "fantasypros_id": 18656,
+      "games": 10,
+      "name": "Ashton Dulin",
+      "nfl_team": "IND",
+      "points_std": 27.5,
+      "position": "WR"
+    },
+    {
+      "average_std": 9.8,
+      "fantasypros_id": 11616,
+      "games": 10,
+      "name": "Keenan Allen",
+      "nfl_team": "LAC",
+      "points_std": 98,
+      "position": "WR"
+    },
+    {
+      "average_std": 8.7,
+      "fantasypros_id": 16377,
+      "games": 13,
+      "name": "Mike Williams",
+      "nfl_team": "LAC",
+      "points_std": 113.5,
+      "position": "WR"
+    },
+    {
+      "average_std": 6.1,
+      "fantasypros_id": 22845,
+      "games": 16,
+      "name": "Joshua Palmer",
+      "nfl_team": "LAC",
+      "points_std": 97.3,
+      "position": "WR"
+    },
+    {
+      "average_std": 3.9,
+      "fantasypros_id": 14103,
+      "games": 17,
+      "name": "DeAndre Carter",
+      "nfl_team": "LAC",
+      "points_std": 66.3,
+      "position": "WR"
+    },
+    {
+      "average_std": 14,
+      "fantasypros_id": 16433,
+      "games": 9,
+      "name": "Cooper Kupp",
+      "nfl_team": "LAR",
+      "points_std": 126.4,
+      "position": "WR"
+    },
+    {
+      "average_std": 3.2,
+      "fantasypros_id": 22843,
+      "games": 14,
+      "name": "Ben Skowronek",
+      "nfl_team": "LAR",
+      "points_std": 45.3,
+      "position": "WR"
+    },
+    {
+      "average_std": 5.2,
+      "fantasypros_id": 12126,
+      "games": 10,
+      "name": "Allen Robinson II",
+      "nfl_team": "LAR",
+      "points_std": 51.89999999999999,
+      "position": "WR"
+    },
+    {
+      "average_std": 1.5,
+      "fantasypros_id": 13976,
+      "games": 4,
+      "name": "Jamison Crowder",
+      "nfl_team": "BUF",
+      "points_std": 6.000000000000001,
+      "position": "WR"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 18703,
+      "games": 3,
+      "name": "Quinton Bell",
+      "nfl_team": "ATL",
+      "points_std": 0,
+      "position": "WR"
+    },
+    {
+      "average_std": 0.4,
+      "fantasypros_id": 18634,
+      "games": 4,
+      "name": "Bryan Edwards",
+      "nfl_team": "KC",
+      "points_std": 1.5,
+      "position": "WR"
+    },
+    {
+      "average_std": 11.7,
+      "fantasypros_id": 15528,
+      "games": 3,
+      "name": "Michael Thomas",
+      "nfl_team": "NO",
+      "points_std": 35.1,
+      "position": "WR"
+    },
+    {
+      "average_std": 3.9,
+      "fantasypros_id": 12128,
+      "games": 9,
+      "name": "Jarvis Landry",
+      "nfl_team": "NO",
+      "points_std": 35.199999999999996,
+      "position": "WR"
+    },
+    {
+      "average_std": 8.4,
+      "fantasypros_id": 20111,
+      "games": 15,
+      "name": "Chris Olave",
+      "nfl_team": "NO",
+      "points_std": 126.2,
+      "position": "WR"
+    },
+    {
+      "average_std": -0.2,
+      "fantasypros_id": 18876,
+      "games": 4,
+      "name": "Deonte Harty",
+      "nfl_team": "NO",
+      "points_std": -0.7,
+      "position": "WR"
+    },
+    {
+      "average_std": 2.7,
+      "fantasypros_id": 15688,
+      "games": 12,
+      "name": "Robbie Chosen",
+      "nfl_team": "ARI",
+      "points_std": 32.199999999999996,
+      "position": "WR"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 9696,
+      "games": 3,
+      "name": "Andre Roberts",
+      "nfl_team": "CAR",
+      "points_std": 0,
+      "position": "WR"
+    },
+    {
+      "average_std": 2.1,
+      "fantasypros_id": 20125,
+      "games": 7,
+      "name": "Anthony Schwartz",
+      "nfl_team": "CLE",
+      "points_std": 14.8,
+      "position": "WR"
+    },
+    {
+      "average_std": 2.7,
+      "fantasypros_id": 17307,
+      "games": 16,
+      "name": "Equanimeous St. Brown",
+      "nfl_team": "CHI",
+      "points_std": 43.699999999999996,
+      "position": "WR"
+    },
+    {
+      "average_std": 5.6,
+      "fantasypros_id": 19810,
+      "games": 11,
+      "name": "Darnell Mooney",
+      "nfl_team": "CHI",
+      "points_std": 61.50000000000001,
+      "position": "WR"
+    },
+    {
+      "average_std": 8.6,
+      "fantasypros_id": 18244,
+      "games": 13,
+      "name": "Deebo Samuel Sr.",
+      "nfl_team": "SF",
+      "points_std": 112.4,
+      "position": "WR"
+    },
+    {
+      "average_std": 1.2,
+      "fantasypros_id": 15914,
+      "games": 5,
+      "name": "Mike Thomas",
+      "nfl_team": "BAL",
+      "points_std": 5.8,
+      "position": "WR"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 18624,
+      "games": 10,
+      "name": "Stanley Morgan Jr.",
+      "nfl_team": "CIN",
+      "points_std": 0,
+      "position": "WR"
+    },
+    {
+      "average_std": 3.9,
+      "fantasypros_id": 18627,
+      "games": 15,
+      "name": "Chase Claypool",
+      "nfl_team": "CHI",
+      "points_std": 59.04,
+      "position": "WR"
+    },
+    {
+      "average_std": 0.5,
+      "fantasypros_id": 19093,
+      "games": 15,
+      "name": "Gunner Olszewski",
+      "nfl_team": "PIT",
+      "points_std": 7.2,
+      "position": "WR"
+    },
+    {
+      "average_std": 0.1,
+      "fantasypros_id": 18636,
+      "games": 11,
+      "name": "Miles Boykin",
+      "nfl_team": "PIT",
+      "points_std": 1.1,
+      "position": "WR"
+    },
+    {
+      "average_std": 6,
+      "fantasypros_id": 20130,
+      "games": 10,
+      "name": "Nico Collins",
+      "nfl_team": "HOU",
+      "points_std": 60.099999999999994,
+      "position": "WR"
+    },
+    {
+      "average_std": 1.2,
+      "fantasypros_id": 14151,
+      "games": 4,
+      "name": "Chris Conley",
+      "nfl_team": "TEN",
+      "points_std": 4.6,
+      "position": "WR"
+    },
+    {
+      "average_std": 1,
+      "fantasypros_id": 23395,
+      "games": 6,
+      "name": "Michael Strachan",
+      "nfl_team": "IND",
+      "points_std": 5.9,
+      "position": "WR"
+    },
+    {
+      "average_std": 5.5,
+      "fantasypros_id": 13897,
+      "games": 13,
+      "name": "DeVante Parker",
+      "nfl_team": "NE",
+      "points_std": 71.89999999999999,
+      "position": "WR"
+    },
+    {
+      "average_std": 0.4,
+      "fantasypros_id": 18590,
+      "games": 5,
+      "name": "Lil'Jordan Humphrey",
+      "nfl_team": "NE",
+      "points_std": 2,
+      "position": "WR"
+    },
+    {
+      "average_std": 3,
+      "fantasypros_id": 19701,
+      "games": 6,
+      "name": "Lawrence Cager",
+      "nfl_team": "NYG",
+      "points_std": 17.8,
+      "position": "WR"
+    },
+    {
+      "average_std": 5.7,
+      "fantasypros_id": 19270,
+      "games": 14,
+      "name": "Devin Duvernay",
+      "nfl_team": "BAL",
+      "points_std": 79.10000000000001,
+      "position": "WR"
+    },
+    {
+      "average_std": 6.4,
+      "fantasypros_id": 19794,
+      "games": 6,
+      "name": "Rashod Bateman",
+      "nfl_team": "BAL",
+      "points_std": 38.50000000000001,
+      "position": "WR"
+    },
+    {
+      "average_std": 0.4,
+      "fantasypros_id": 19801,
+      "games": 8,
+      "name": "Tylan Wallace",
+      "nfl_team": "BAL",
+      "points_std": 3.3,
+      "position": "WR"
+    },
+    {
+      "average_std": 2.9,
+      "fantasypros_id": 9857,
+      "games": 13,
+      "name": "A.J. Green",
+      "nfl_team": "ARI",
+      "points_std": 37.6,
+      "position": "WR"
+    },
+    {
+      "average_std": 0.6,
+      "fantasypros_id": 20050,
+      "games": 7,
+      "name": "Andre Baccellia",
+      "nfl_team": "ARI",
+      "points_std": 4.5,
+      "position": "WR"
+    },
+    {
+      "average_std": 8.6,
+      "fantasypros_id": 18587,
+      "games": 8,
+      "name": "Mecole Hardman Jr.",
+      "nfl_team": "KC",
+      "points_std": 68.8,
+      "position": "WR"
+    },
+    {
+      "average_std": 3.2,
+      "fantasypros_id": 18941,
+      "games": 2,
+      "name": "Jalen Guyton",
+      "nfl_team": "LAC",
+      "points_std": 6.4,
+      "position": "WR"
+    },
+    {
+      "average_std": 0.6,
+      "fantasypros_id": 18699,
+      "games": 3,
+      "name": "Juwann Winfree",
+      "nfl_team": "GB",
+      "points_std": 1.7,
+      "position": "WR"
+    },
+    {
+      "average_std": 1,
+      "fantasypros_id": 23896,
+      "games": 4,
+      "name": "Kyle Philips",
+      "nfl_team": "TEN",
+      "points_std": 3.8,
+      "position": "WR"
+    },
+    {
+      "average_std": 0.9,
+      "fantasypros_id": 16529,
+      "games": 6,
+      "name": "Cody Hollister",
+      "nfl_team": "TEN",
+      "points_std": 5.4,
+      "position": "WR"
+    },
+    {
+      "average_std": 7.1,
+      "fantasypros_id": 15569,
+      "games": 3,
+      "name": "Sterling Shepard",
+      "nfl_team": "NYG",
+      "points_std": 21.4,
+      "position": "WR"
+    },
+    {
+      "average_std": 2,
+      "fantasypros_id": 16488,
+      "games": 7,
+      "name": "Kenny Golladay",
+      "nfl_team": "NYG",
+      "points_std": 14.1,
+      "position": "WR"
+    },
+    {
+      "average_std": 4.8,
+      "fantasypros_id": 22985,
+      "games": 6,
+      "name": "Wan'Dale Robinson",
+      "nfl_team": "NYG",
+      "points_std": 28.6,
+      "position": "WR"
+    },
+    {
+      "average_std": 0.8,
+      "fantasypros_id": 24857,
+      "games": 2,
+      "name": "Dennis Houston",
+      "nfl_team": "DAL",
+      "points_std": 1.6,
+      "position": "WR"
+    },
+    {
+      "average_std": 0.8,
+      "fantasypros_id": 23196,
+      "games": 3,
+      "name": "Simi Fehoko",
+      "nfl_team": "DAL",
+      "points_std": 2.4,
+      "position": "WR"
+    },
+    {
+      "average_std": 0.2,
+      "fantasypros_id": 22796,
+      "games": 14,
+      "name": "Jaelon Darden",
+      "nfl_team": "CLE",
+      "points_std": 2.8000000000000003,
+      "position": "WR"
+    },
+    {
+      "average_std": 1.8,
+      "fantasypros_id": 13975,
+      "games": 8,
+      "name": "Breshad Perriman",
+      "nfl_team": "TB",
+      "points_std": 14.3,
+      "position": "WR"
+    },
+    {
+      "average_std": 9.6,
+      "fantasypros_id": 13971,
+      "games": 16,
+      "name": "Tyler Lockett",
+      "nfl_team": "SEA",
+      "points_std": 153.30000000000004,
+      "position": "WR"
+    },
+    {
+      "average_std": 0.8,
+      "fantasypros_id": 22785,
+      "games": 9,
+      "name": "Dee Eskridge",
+      "nfl_team": "SEA",
+      "points_std": 6.8,
+      "position": "WR"
+    },
+    {
+      "average_std": 0.6,
+      "fantasypros_id": 19674,
+      "games": 5,
+      "name": "Tyrie Cleveland",
+      "nfl_team": "DEN",
+      "points_std": 2.8,
+      "position": "WR"
+    },
+    {
+      "average_std": 2.7,
+      "fantasypros_id": 19267,
+      "games": 7,
+      "name": "KJ Hamler",
+      "nfl_team": "DEN",
+      "points_std": 18.8,
+      "position": "WR"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 24796,
+      "games": 3,
+      "name": "Raleigh Webb",
+      "nfl_team": "NE",
+      "points_std": 0,
+      "position": "WR"
+    },
+    {
+      "average_std": 2.8,
+      "fantasypros_id": 17224,
+      "games": 8,
+      "name": "River Cracraft",
+      "nfl_team": "MIA",
+      "points_std": 22.2,
+      "position": "WR"
+    },
+    {
+      "average_std": 1.9,
+      "fantasypros_id": 18791,
+      "games": 7,
+      "name": "Jeff Smith",
+      "nfl_team": "NYJ",
+      "points_std": 13.399999999999999,
+      "position": "WR"
+    },
+    {
+      "average_std": 0.5,
+      "fantasypros_id": 19396,
+      "games": 3,
+      "name": "Quintez Cephus",
+      "nfl_team": "DET",
+      "points_std": 1.5,
+      "position": "WR"
+    },
+    {
+      "average_std": 2.4,
+      "fantasypros_id": 19736,
+      "games": 1,
+      "name": "Dezmon Patmon",
+      "nfl_team": "IND",
+      "points_std": 2.4,
+      "position": "WR"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 17490,
+      "games": 7,
+      "name": "Keke Coutee",
+      "nfl_team": "IND",
+      "points_std": 0,
+      "position": "WR"
+    },
+    {
+      "average_std": 2,
+      "fantasypros_id": 19505,
+      "games": 11,
+      "name": "Marquez Callaway",
+      "nfl_team": "NO",
+      "points_std": 21.799999999999997,
+      "position": "WR"
+    },
+    {
+      "average_std": 1.5,
+      "fantasypros_id": 18566,
+      "games": 7,
+      "name": "David Sills V",
+      "nfl_team": "NYG",
+      "points_std": 10.600000000000001,
+      "position": "WR"
+    },
+    {
+      "average_std": 2.9,
+      "fantasypros_id": 19901,
+      "games": 11,
+      "name": "Kendall Hinton",
+      "nfl_team": "DEN",
+      "points_std": 32.4,
+      "position": "WR"
+    },
+    {
+      "average_std": -0.2,
+      "fantasypros_id": 20116,
+      "games": 4,
+      "name": "Ihmir Smith-Marsette",
+      "nfl_team": "KC",
+      "points_std": -0.6,
+      "position": "WR"
+    },
+    {
+      "average_std": 1.3,
+      "fantasypros_id": 14083,
+      "games": 5,
+      "name": "Jake Kumerow",
+      "nfl_team": "BUF",
+      "points_std": 6.4,
+      "position": "WR"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 11440,
+      "games": 1,
+      "name": "Josh Gordon",
+      "nfl_team": "TEN",
+      "points_std": 0,
+      "position": "WR"
+    },
+    {
+      "average_std": -0.7,
+      "fantasypros_id": 16038,
+      "games": 3,
+      "name": "Chester Rogers",
+      "nfl_team": "CLE",
+      "points_std": -2,
+      "position": "WR"
+    },
+    {
+      "average_std": 3.4,
+      "fantasypros_id": 17261,
+      "games": 10,
+      "name": "Tre'Quan Smith",
+      "nfl_team": "NO",
+      "points_std": 33.8,
+      "position": "WR"
+    },
+    {
+      "average_std": 3.1,
+      "fantasypros_id": 20113,
+      "games": 9,
+      "name": "Dyami Brown",
+      "nfl_team": "WAS",
+      "points_std": 27.8,
+      "position": "WR"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 18535,
+      "games": 1,
+      "name": "Cody Thompson",
+      "nfl_team": "SEA",
+      "points_std": 0,
+      "position": "WR"
+    },
+    {
+      "average_std": 0.4,
+      "fantasypros_id": 23770,
+      "games": 3,
+      "name": "Jalen Tolbert",
+      "nfl_team": "DAL",
+      "points_std": 1.2000000000000002,
+      "position": "WR"
+    },
+    {
+      "average_std": 3,
+      "fantasypros_id": 24177,
+      "games": 8,
+      "name": "Jalen Nailor",
+      "nfl_team": "MIN",
+      "points_std": 23.9,
+      "position": "WR"
+    },
+    {
+      "average_std": 2,
+      "fantasypros_id": 19052,
+      "games": 7,
+      "name": "Tom Kennedy",
+      "nfl_team": "DET",
+      "points_std": 14.100000000000001,
+      "position": "WR"
+    },
+    {
+      "average_std": 0.2,
+      "fantasypros_id": 25205,
+      "games": 3,
+      "name": "Maurice Alexander",
+      "nfl_team": "DET",
+      "points_std": 0.7,
+      "position": "WR"
+    },
+    {
+      "average_std": 1,
+      "fantasypros_id": 23531,
+      "games": 9,
+      "name": "Michael Bandy",
+      "nfl_team": "LAC",
+      "points_std": 8.9,
+      "position": "WR"
+    },
+    {
+      "average_std": 0.4,
+      "fantasypros_id": 18804,
+      "games": 2,
+      "name": "Tyron Billy-Johnson",
+      "nfl_team": "CIN",
+      "points_std": 0.8,
+      "position": "WR"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 18168,
+      "games": 2,
+      "name": "Malik Turner",
+      "nfl_team": "HOU",
+      "points_std": 0,
+      "position": "WR"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 16660,
+      "games": 1,
+      "name": "Tanner Gentry",
+      "nfl_team": "BUF",
+      "points_std": 0,
+      "position": "WR"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 20056,
+      "games": 2,
+      "name": "Dan Chisena",
+      "nfl_team": "MIN",
+      "points_std": 0,
+      "position": "WR"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 20112,
+      "games": 1,
+      "name": "Dez Fitzpatrick",
+      "nfl_team": "TEN",
+      "points_std": 0,
+      "position": "WR"
+    },
+    {
+      "average_std": 1.2,
+      "fantasypros_id": 13899,
+      "games": 6,
+      "name": "Kevin White",
+      "nfl_team": "NO",
+      "points_std": 7.4,
+      "position": "WR"
+    },
+    {
+      "average_std": 0.2,
+      "fantasypros_id": 19704,
+      "games": 2,
+      "name": "Mason Kinsey",
+      "nfl_team": "TEN",
+      "points_std": 0.3,
+      "position": "WR"
+    },
+    {
+      "average_std": 3.6,
+      "fantasypros_id": 23883,
+      "games": 4,
+      "name": "Samori Toure",
+      "nfl_team": "GB",
+      "points_std": 14.2,
+      "position": "WR"
+    },
+    {
+      "average_std": 2.1,
+      "fantasypros_id": 19344,
+      "games": 9,
+      "name": "Denzel Mims",
+      "nfl_team": "NYJ",
+      "points_std": 18.599999999999998,
+      "position": "WR"
+    },
+    {
+      "average_std": 0.4,
+      "fantasypros_id": 23423,
+      "games": 6,
+      "name": "DJ Turner",
+      "nfl_team": "LV",
+      "points_std": 2.6,
+      "position": "WR"
+    },
+    {
+      "average_std": 0.5,
+      "fantasypros_id": 18933,
+      "games": 1,
+      "name": "Jason Moore Jr.",
+      "nfl_team": "LAC",
+      "points_std": 0.5,
+      "position": "WR"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 16918,
+      "games": 2,
+      "name": "Marcus Kemp",
+      "nfl_team": "KC",
+      "points_std": 0,
+      "position": "WR"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 19798,
+      "games": 2,
+      "name": "Justyn Ross",
+      "nfl_team": "KC",
+      "points_std": 0,
+      "position": "WR"
+    },
+    {
+      "average_std": 2.9,
+      "fantasypros_id": 18222,
+      "games": 6,
+      "name": "N'Keal Harry",
+      "nfl_team": "CHI",
+      "points_std": 17.6,
+      "position": "WR"
+    },
+    {
+      "average_std": -0.2,
+      "fantasypros_id": 24228,
+      "games": 2,
+      "name": "Braylon Sanders",
+      "nfl_team": "MIA",
+      "points_std": -0.3,
+      "position": "WR"
+    },
+    {
+      "average_std": 0.7,
+      "fantasypros_id": 23296,
+      "games": 1,
+      "name": "Jalen Camp",
+      "nfl_team": "HOU",
+      "points_std": 0.7,
+      "position": "WR"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 15586,
+      "games": 1,
+      "name": "Rashard Higgins",
+      "nfl_team": "CAR",
+      "points_std": 0,
+      "position": "WR"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 17232,
+      "games": 2,
+      "name": "Brandon Zylstra",
+      "nfl_team": "DET",
+      "points_std": 0,
+      "position": "WR"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 12338,
+      "games": 3,
+      "name": "Albert Wilson",
+      "nfl_team": "LV",
+      "points_std": 0,
+      "position": "WR"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 19617,
+      "games": 1,
+      "name": "Binjimen Victor",
+      "nfl_team": "BAL",
+      "points_std": 0,
+      "position": "WR"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 18815,
+      "games": 1,
+      "name": "Trinity Benson",
+      "nfl_team": "DET",
+      "points_std": 0,
+      "position": "WR"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 24217,
+      "games": 1,
+      "name": "Stanley Berryhill III",
+      "nfl_team": "DET",
+      "points_std": 0,
+      "position": "WR"
+    },
+    {
+      "average_std": 0.2,
+      "fantasypros_id": 16834,
+      "games": 4,
+      "name": "C.J. Board",
+      "nfl_team": "TEN",
+      "points_std": 0.6,
+      "position": "WR"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 16215,
+      "games": 1,
+      "name": "Marken Michel",
+      "nfl_team": "WAS",
+      "points_std": 0,
+      "position": "WR"
+    },
+    {
+      "average_std": 1.6,
+      "fantasypros_id": 24233,
+      "games": 5,
+      "name": "Brandon Johnson",
+      "nfl_team": "DEN",
+      "points_std": 8.2,
+      "position": "WR"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 18902,
+      "games": 1,
+      "name": "Alex Bachman",
+      "nfl_team": "HOU",
+      "points_std": 0,
+      "position": "WR"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 15706,
+      "games": 2,
+      "name": "Alex Erickson",
+      "nfl_team": "WAS",
+      "points_std": 0,
+      "position": "WR"
+    },
+    {
+      "average_std": 0.2,
+      "fantasypros_id": 19739,
+      "games": 1,
+      "name": "Cody White",
+      "nfl_team": "PIT",
+      "points_std": 0.2,
+      "position": "WR"
+    },
+    {
+      "average_std": 0.7,
+      "fantasypros_id": 23260,
+      "games": 2,
+      "name": "Austin Trammell",
+      "nfl_team": "LAR",
+      "points_std": 1.3,
+      "position": "WR"
+    },
+    {
+      "average_std": 5.1,
+      "fantasypros_id": 12231,
+      "games": 2,
+      "name": "John Brown",
+      "nfl_team": "BUF",
+      "points_std": 10.2,
+      "position": "WR"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 17254,
+      "games": 1,
+      "name": "James Washington",
+      "nfl_team": "DAL",
+      "points_std": 0,
+      "position": "WR"
+    },
+    {
+      "average_std": 1.1,
+      "fantasypros_id": 23270,
+      "games": 4,
+      "name": "Racey McMath",
+      "nfl_team": "TEN",
+      "points_std": 4.4,
+      "position": "WR"
+    },
+    {
+      "average_std": 2.5,
+      "fantasypros_id": 25211,
+      "games": 1,
+      "name": "Daylen Baldwin",
+      "nfl_team": "CLE",
+      "points_std": 2.5,
+      "position": "WR"
+    },
+    {
+      "average_std": 1.4,
+      "fantasypros_id": 18907,
+      "games": 1,
+      "name": "Nsimba Webster",
+      "nfl_team": "CHI",
+      "points_std": 1.4,
+      "position": "WR"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 23873,
+      "games": 1,
+      "name": "Emeka Emezie",
+      "nfl_team": "ATL",
+      "points_std": 0,
+      "position": "WR"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 19753,
+      "games": 1,
+      "name": "Kirk Merritt",
+      "nfl_team": "NO",
+      "points_std": 0,
+      "position": "WR"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 24029,
+      "games": 1,
+      "name": "Tay Martin",
+      "nfl_team": "SF",
+      "points_std": 0,
+      "position": "WR"
+    },
+    {
+      "average_std": 1.1,
+      "fantasypros_id": 22808,
+      "games": 2,
+      "name": "Cade Johnson",
+      "nfl_team": "SEA",
+      "points_std": 2.1,
+      "position": "WR"
+    },
+    {
+      "average_std": 1.5,
+      "fantasypros_id": 22882,
+      "games": 1,
+      "name": "Frank Darby",
+      "nfl_team": "ATL",
+      "points_std": 1.5,
+      "position": "WR"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 25218,
+      "games": 1,
+      "name": "Josh Ali",
+      "nfl_team": "ATL",
+      "points_std": 0,
+      "position": "WR"
+    },
+    {
+      "average_std": 0.3,
+      "fantasypros_id": 23755,
+      "games": 1,
+      "name": "Erik Ezukanma",
+      "nfl_team": "MIA",
+      "points_std": 0.3,
+      "position": "WR"
+    },
+    {
+      "average_std": 4.3,
+      "fantasypros_id": 17598,
+      "games": 17,
+      "name": "Tyler Conklin",
+      "nfl_team": "NYJ",
+      "points_std": 73.5,
+      "position": "TE"
+    },
+    {
+      "average_std": 2.5,
+      "fantasypros_id": 14084,
+      "games": 14,
+      "name": "C.J. Uzomah",
+      "nfl_team": "NYJ",
+      "points_std": 35.199999999999996,
+      "position": "TE"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 22815,
+      "games": 3,
+      "name": "Kenny Yeboah",
+      "nfl_team": "NYJ",
+      "points_std": 0,
+      "position": "TE"
+    },
+    {
+      "average_std": 6.1,
+      "fantasypros_id": 16411,
+      "games": 17,
+      "name": "Evan Engram",
+      "nfl_team": "JAC",
+      "points_std": 103.9,
+      "position": "TE"
+    },
+    {
+      "average_std": 1.2,
+      "fantasypros_id": 17143,
+      "games": 11,
+      "name": "Dan Arnold",
+      "nfl_team": "JAC",
+      "points_std": 13.500000000000002,
+      "position": "TE"
+    },
+    {
+      "average_std": 7.8,
+      "fantasypros_id": 17269,
+      "games": 15,
+      "name": "Mark Andrews",
+      "nfl_team": "BAL",
+      "points_std": 117.5,
+      "position": "TE"
+    },
+    {
+      "average_std": 2.2,
+      "fantasypros_id": 18487,
+      "games": 12,
+      "name": "Josh Oliver",
+      "nfl_team": "BAL",
+      "points_std": 26.900000000000002,
+      "position": "TE"
+    },
+    {
+      "average_std": 3.7,
+      "fantasypros_id": 23781,
+      "games": 15,
+      "name": "Isaiah Likely",
+      "nfl_team": "BAL",
+      "points_std": 55.3,
+      "position": "TE"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 13963,
+      "games": 3,
+      "name": "Nick Boyle",
+      "nfl_team": "BAL",
+      "points_std": 0,
+      "position": "TE"
+    },
+    {
+      "average_std": 1.1,
+      "fantasypros_id": 16787,
+      "games": 9,
+      "name": "Anthony Firkser",
+      "nfl_team": "ATL",
+      "points_std": 10,
+      "position": "TE"
+    },
+    {
+      "average_std": 0.7,
+      "fantasypros_id": 19067,
+      "games": 12,
+      "name": "Parker Hesse",
+      "nfl_team": "ATL",
+      "points_std": 8.9,
+      "position": "TE"
+    },
+    {
+      "average_std": 3.9,
+      "fantasypros_id": 13964,
+      "games": 10,
+      "name": "MyCole Pruitt",
+      "nfl_team": "ATL",
+      "points_std": 39,
+      "position": "TE"
+    },
+    {
+      "average_std": 5.7,
+      "fantasypros_id": 19229,
+      "games": 17,
+      "name": "Cole Kmet",
+      "nfl_team": "CHI",
+      "points_std": 97.30000000000001,
+      "position": "TE"
+    },
+    {
+      "average_std": 0.3,
+      "fantasypros_id": 11830,
+      "games": 10,
+      "name": "Ryan Griffin",
+      "nfl_team": "CHI",
+      "points_std": 2.6,
+      "position": "TE"
+    },
+    {
+      "average_std": 5.8,
+      "fantasypros_id": 18631,
+      "games": 15,
+      "name": "Dawson Knox",
+      "nfl_team": "BUF",
+      "points_std": 87.69999999999999,
+      "position": "TE"
+    },
+    {
+      "average_std": 1.4,
+      "fantasypros_id": 22820,
+      "games": 9,
+      "name": "Quintin Morris",
+      "nfl_team": "BUF",
+      "points_std": 12.4,
+      "position": "TE"
+    },
+    {
+      "average_std": 2.1,
+      "fantasypros_id": 22795,
+      "games": 16,
+      "name": "Tommy Tremble",
+      "nfl_team": "CAR",
+      "points_std": 33.400000000000006,
+      "position": "TE"
+    },
+    {
+      "average_std": 1.4,
+      "fantasypros_id": 17387,
+      "games": 14,
+      "name": "Ian Thomas",
+      "nfl_team": "CAR",
+      "points_std": 19.7,
+      "position": "TE"
+    },
+    {
+      "average_std": 0.5,
+      "fantasypros_id": 19641,
+      "games": 9,
+      "name": "Stephen Sullivan",
+      "nfl_team": "CAR",
+      "points_std": 4.6,
+      "position": "TE"
+    },
+    {
+      "average_std": 2.7,
+      "fantasypros_id": 23461,
+      "games": 11,
+      "name": "Shane Zylstra",
+      "nfl_team": "DET",
+      "points_std": 30,
+      "position": "TE"
+    },
+    {
+      "average_std": 2.2,
+      "fantasypros_id": 23174,
+      "games": 8,
+      "name": "James Mitchell",
+      "nfl_team": "DET",
+      "points_std": 17.3,
+      "position": "TE"
+    },
+    {
+      "average_std": 2.9,
+      "fantasypros_id": 23341,
+      "games": 16,
+      "name": "Brock Wright",
+      "nfl_team": "DET",
+      "points_std": 45.60000000000001,
+      "position": "TE"
+    },
+    {
+      "average_std": 6,
+      "fantasypros_id": 16399,
+      "games": 14,
+      "name": "David Njoku",
+      "nfl_team": "CLE",
+      "points_std": 84,
+      "position": "TE"
+    },
+    {
+      "average_std": 8.6,
+      "fantasypros_id": 17115,
+      "games": 16,
+      "name": "Taysom Hill",
+      "nfl_team": "NO",
+      "points_std": 136.8,
+      "position": "TE"
+    },
+    {
+      "average_std": 5.8,
+      "fantasypros_id": 19562,
+      "games": 16,
+      "name": "Juwan Johnson",
+      "nfl_team": "NO",
+      "points_std": 92.79999999999998,
+      "position": "TE"
+    },
+    {
+      "average_std": 2.1,
+      "fantasypros_id": 19423,
+      "games": 13,
+      "name": "Adam Trautman",
+      "nfl_team": "NO",
+      "points_std": 26.700000000000003,
+      "position": "TE"
+    },
+    {
+      "average_std": 1.9,
+      "fantasypros_id": 16460,
+      "games": 13,
+      "name": "Jonnu Smith",
+      "nfl_team": "NE",
+      "points_std": 25,
+      "position": "TE"
+    },
+    {
+      "average_std": 2.2,
+      "fantasypros_id": 19510,
+      "games": 9,
+      "name": "Mitchell Wilcox",
+      "nfl_team": "CIN",
+      "points_std": 19.900000000000002,
+      "position": "TE"
+    },
+    {
+      "average_std": 0.1,
+      "fantasypros_id": 19435,
+      "games": 5,
+      "name": "Devin Asiasi",
+      "nfl_team": "CIN",
+      "points_std": 0.5,
+      "position": "TE"
+    },
+    {
+      "average_std": 7.6,
+      "fantasypros_id": 18290,
+      "games": 17,
+      "name": "T.J. Hockenson",
+      "nfl_team": "MIN",
+      "points_std": 129.4,
+      "position": "TE"
+    },
+    {
+      "average_std": 1.5,
+      "fantasypros_id": 16743,
+      "games": 13,
+      "name": "Johnny Mundt",
+      "nfl_team": "MIN",
+      "points_std": 19.999999999999996,
+      "position": "TE"
+    },
+    {
+      "average_std": 3.7,
+      "fantasypros_id": 24238,
+      "games": 12,
+      "name": "Daniel Bellinger",
+      "nfl_team": "NYG",
+      "points_std": 44.99999999999999,
+      "position": "TE"
+    },
+    {
+      "average_std": 0.8,
+      "fantasypros_id": 15645,
+      "games": 7,
+      "name": "Nick Vannett",
+      "nfl_team": "NYG",
+      "points_std": 5.5,
+      "position": "TE"
+    },
+    {
+      "average_std": 12.1,
+      "fantasypros_id": 11594,
+      "games": 17,
+      "name": "Travis Kelce",
+      "nfl_team": "KC",
+      "points_std": 206.29999999999998,
+      "position": "TE"
+    },
+    {
+      "average_std": 2.5,
+      "fantasypros_id": 19539,
+      "games": 17,
+      "name": "Noah Gray",
+      "nfl_team": "KC",
+      "points_std": 42,
+      "position": "TE"
+    },
+    {
+      "average_std": 4.3,
+      "fantasypros_id": 17527,
+      "games": 17,
+      "name": "Noah Fant",
+      "nfl_team": "SEA",
+      "points_std": 72.6,
+      "position": "TE"
+    },
+    {
+      "average_std": 3.2,
+      "fantasypros_id": 19372,
+      "games": 14,
+      "name": "Colby Parkinson",
+      "nfl_team": "SEA",
+      "points_std": 44.20000000000001,
+      "position": "TE"
+    },
+    {
+      "average_std": 3.5,
+      "fantasypros_id": 18049,
+      "games": 15,
+      "name": "Will Dissly",
+      "nfl_team": "SEA",
+      "points_std": 52.900000000000006,
+      "position": "TE"
+    },
+    {
+      "average_std": 3.3,
+      "fantasypros_id": 15581,
+      "games": 17,
+      "name": "Austin Hooper",
+      "nfl_team": "TEN",
+      "points_std": 56.4,
+      "position": "TE"
+    },
+    {
+      "average_std": 3.8,
+      "fantasypros_id": 23982,
+      "games": 17,
+      "name": "Chig Okonkwo",
+      "nfl_team": "TEN",
+      "points_std": 65.2,
+      "position": "TE"
+    },
+    {
+      "average_std": 1,
+      "fantasypros_id": 14164,
+      "games": 12,
+      "name": "Geoff Swaim",
+      "nfl_team": "TEN",
+      "points_std": 11.8,
+      "position": "TE"
+    },
+    {
+      "average_std": 5.3,
+      "fantasypros_id": 17415,
+      "games": 15,
+      "name": "Jordan Akins",
+      "nfl_team": "HOU",
+      "points_std": 79.5,
+      "position": "TE"
+    },
+    {
+      "average_std": 1.4,
+      "fantasypros_id": 20162,
+      "games": 9,
+      "name": "Brevin Jordan",
+      "nfl_team": "HOU",
+      "points_std": 12.799999999999999,
+      "position": "TE"
+    },
+    {
+      "average_std": 3.3,
+      "fantasypros_id": 24182,
+      "games": 7,
+      "name": "Teagan Quitoriano",
+      "nfl_team": "HOU",
+      "points_std": 23.3,
+      "position": "TE"
+    },
+    {
+      "average_std": 9.4,
+      "fantasypros_id": 16499,
+      "games": 15,
+      "name": "George Kittle",
+      "nfl_team": "SF",
+      "points_std": 140.5,
+      "position": "TE"
+    },
+    {
+      "average_std": 0.8,
+      "fantasypros_id": 13960,
+      "games": 7,
+      "name": "Tyler Kroft",
+      "nfl_team": "SF",
+      "points_std": 5.699999999999999,
+      "position": "TE"
+    },
+    {
+      "average_std": 2.9,
+      "fantasypros_id": 12095,
+      "games": 13,
+      "name": "Logan Thomas",
+      "nfl_team": "WAS",
+      "points_std": 38.3,
+      "position": "TE"
+    },
+    {
+      "average_std": 0.3,
+      "fantasypros_id": 23727,
+      "games": 7,
+      "name": "Cole Turner",
+      "nfl_team": "WAS",
+      "points_std": 2.3,
+      "position": "TE"
+    },
+    {
+      "average_std": 5.7,
+      "fantasypros_id": 17349,
+      "games": 15,
+      "name": "Dalton Schultz",
+      "nfl_team": "DAL",
+      "points_std": 85.7,
+      "position": "TE"
+    },
+    {
+      "average_std": 2.3,
+      "fantasypros_id": 22718,
+      "games": 13,
+      "name": "Jake Ferguson",
+      "nfl_team": "DAL",
+      "points_std": 29.399999999999995,
+      "position": "TE"
+    },
+    {
+      "average_std": 7.2,
+      "fantasypros_id": 17270,
+      "games": 12,
+      "name": "Dallas Goedert",
+      "nfl_team": "PHI",
+      "points_std": 86.2,
+      "position": "TE"
+    },
+    {
+      "average_std": 5.7,
+      "fantasypros_id": 20163,
+      "games": 15,
+      "name": "Pat Freiermuth",
+      "nfl_team": "PIT",
+      "points_std": 85.19999999999999,
+      "position": "TE"
+    },
+    {
+      "average_std": 1.4,
+      "fantasypros_id": 24562,
+      "games": 17,
+      "name": "Connor Heyward",
+      "nfl_team": "PIT",
+      "points_std": 23.799999999999997,
+      "position": "TE"
+    },
+    {
+      "average_std": 0.9,
+      "fantasypros_id": 18690,
+      "games": 14,
+      "name": "Zach Gentry",
+      "nfl_team": "PIT",
+      "points_std": 13.200000000000003,
+      "position": "TE"
+    },
+    {
+      "average_std": 6.3,
+      "fantasypros_id": 14104,
+      "games": 9,
+      "name": "Darren Waller",
+      "nfl_team": "LV",
+      "points_std": 56.8,
+      "position": "TE"
+    },
+    {
+      "average_std": 3.7,
+      "fantasypros_id": 18397,
+      "games": 14,
+      "name": "Foster Moreau",
+      "nfl_team": "LV",
+      "points_std": 52.2,
+      "position": "TE"
+    },
+    {
+      "average_std": 3.9,
+      "fantasypros_id": 17272,
+      "games": 17,
+      "name": "Mike Gesicki",
+      "nfl_team": "MIA",
+      "points_std": 66.2,
+      "position": "TE"
+    },
+    {
+      "average_std": 1.9,
+      "fantasypros_id": 17508,
+      "games": 13,
+      "name": "Durham Smythe",
+      "nfl_team": "MIA",
+      "points_std": 25,
+      "position": "TE"
+    },
+    {
+      "average_std": 2.9,
+      "fantasypros_id": 9413,
+      "games": 7,
+      "name": "Marcedes Lewis",
+      "nfl_team": "GB",
+      "points_std": 20.599999999999994,
+      "position": "TE"
+    },
+    {
+      "average_std": 3.5,
+      "fantasypros_id": 16502,
+      "games": 17,
+      "name": "Robert Tonyan",
+      "nfl_team": "GB",
+      "points_std": 58.99999999999999,
+      "position": "TE"
+    },
+    {
+      "average_std": 1.3,
+      "fantasypros_id": 19456,
+      "games": 9,
+      "name": "Josiah Deguara",
+      "nfl_team": "GB",
+      "points_std": 11.4,
+      "position": "TE"
+    },
+    {
+      "average_std": 0.2,
+      "fantasypros_id": 19811,
+      "games": 11,
+      "name": "Tyler Davis",
+      "nfl_team": "GB",
+      "points_std": 2.6,
+      "position": "TE"
+    },
+    {
+      "average_std": 5,
+      "fantasypros_id": 15623,
+      "games": 16,
+      "name": "Tyler Higbee",
+      "nfl_team": "LAR",
+      "points_std": 80,
+      "position": "TE"
+    },
+    {
+      "average_std": 1.6,
+      "fantasypros_id": 19234,
+      "games": 7,
+      "name": "Brycen Hopkins",
+      "nfl_team": "LAR",
+      "points_std": 10.9,
+      "position": "TE"
+    },
+    {
+      "average_std": 5.3,
+      "fantasypros_id": 23153,
+      "games": 10,
+      "name": "Greg Dulcich",
+      "nfl_team": "DEN",
+      "points_std": 53.1,
+      "position": "TE"
+    },
+    {
+      "average_std": 1.5,
+      "fantasypros_id": 16706,
+      "games": 14,
+      "name": "Eric Saubert",
+      "nfl_team": "DEN",
+      "points_std": 20.799999999999997,
+      "position": "TE"
+    },
+    {
+      "average_std": 2.3,
+      "fantasypros_id": 22936,
+      "games": 14,
+      "name": "Trey McBride",
+      "nfl_team": "ARI",
+      "points_std": 32.5,
+      "position": "TE"
+    },
+    {
+      "average_std": 0.1,
+      "fantasypros_id": 15760,
+      "games": 9,
+      "name": "Stephen Anderson",
+      "nfl_team": "ARI",
+      "points_std": 0.8999999999999999,
+      "position": "TE"
+    },
+    {
+      "average_std": 0.6,
+      "fantasypros_id": 13919,
+      "games": 3,
+      "name": "Maxx Williams",
+      "nfl_team": "ARI",
+      "points_std": 1.8,
+      "position": "TE"
+    },
+    {
+      "average_std": 3.2,
+      "fantasypros_id": 23181,
+      "games": 16,
+      "name": "Cade Otton",
+      "nfl_team": "TB",
+      "points_std": 51.099999999999994,
+      "position": "TE"
+    },
+    {
+      "average_std": 0.9,
+      "fantasypros_id": 24568,
+      "games": 15,
+      "name": "Ko Kieft",
+      "nfl_team": "TB",
+      "points_std": 13.999999999999998,
+      "position": "TE"
+    },
+    {
+      "average_std": 3.5,
+      "fantasypros_id": 23829,
+      "games": 14,
+      "name": "Jelani Woods",
+      "nfl_team": "IND",
+      "points_std": 49.199999999999996,
+      "position": "TE"
+    },
+    {
+      "average_std": 2.5,
+      "fantasypros_id": 16579,
+      "games": 14,
+      "name": "Mo Alie-Cox",
+      "nfl_team": "IND",
+      "points_std": 34.9,
+      "position": "TE"
+    },
+    {
+      "average_std": 0.6,
+      "fantasypros_id": 22807,
+      "games": 13,
+      "name": "Tre' McKitty",
+      "nfl_team": "LAC",
+      "points_std": 7.2,
+      "position": "TE"
+    },
+    {
+      "average_std": 3.2,
+      "fantasypros_id": 18835,
+      "games": 6,
+      "name": "Donald Parham Jr.",
+      "nfl_team": "LAC",
+      "points_std": 19,
+      "position": "TE"
+    },
+    {
+      "average_std": 4.8,
+      "fantasypros_id": 20164,
+      "games": 10,
+      "name": "Kyle Pitts Sr.",
+      "nfl_team": "ATL",
+      "points_std": 47.599999999999994,
+      "position": "TE"
+    },
+    {
+      "average_std": 0.9,
+      "fantasypros_id": 19756,
+      "games": 11,
+      "name": "Giovanni Ricci",
+      "nfl_team": "CAR",
+      "points_std": 10,
+      "position": "TE"
+    },
+    {
+      "average_std": 2.2,
+      "fantasypros_id": 19389,
+      "games": 14,
+      "name": "Harrison Bryant",
+      "nfl_team": "CLE",
+      "points_std": 30.699999999999996,
+      "position": "TE"
+    },
+    {
+      "average_std": 2.8,
+      "fantasypros_id": 17886,
+      "games": 6,
+      "name": "Ross Dwelley",
+      "nfl_team": "SF",
+      "points_std": 16.5,
+      "position": "TE"
+    },
+    {
+      "average_std": 4,
+      "fantasypros_id": 17283,
+      "games": 14,
+      "name": "Hayden Hurst",
+      "nfl_team": "CIN",
+      "points_std": 55.900000000000006,
+      "position": "TE"
+    },
+    {
+      "average_std": -0.1,
+      "fantasypros_id": 18561,
+      "games": 2,
+      "name": "Drew Sample",
+      "nfl_team": "CIN",
+      "points_std": -0.2,
+      "position": "TE"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 19688,
+      "games": 1,
+      "name": "Noah Togiai",
+      "nfl_team": "PHI",
+      "points_std": 0,
+      "position": "TE"
+    },
+    {
+      "average_std": 2.4,
+      "fantasypros_id": 16380,
+      "games": 11,
+      "name": "O.J. Howard",
+      "nfl_team": "HOU",
+      "points_std": 26.499999999999996,
+      "position": "TE"
+    },
+    {
+      "average_std": 1.3,
+      "fantasypros_id": 16937,
+      "games": 9,
+      "name": "Pharaoh Brown",
+      "nfl_team": "CLE",
+      "points_std": 11.7,
+      "position": "TE"
+    },
+    {
+      "average_std": 2.3,
+      "fantasypros_id": 22841,
+      "games": 13,
+      "name": "Kylen Granson",
+      "nfl_team": "IND",
+      "points_std": 30.2,
+      "position": "TE"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 16543,
+      "games": 1,
+      "name": "Cethan Carter",
+      "nfl_team": "MIA",
+      "points_std": 0,
+      "position": "TE"
+    },
+    {
+      "average_std": 3.9,
+      "fantasypros_id": 15561,
+      "games": 16,
+      "name": "Hunter Henry",
+      "nfl_team": "NE",
+      "points_std": 62.9,
+      "position": "TE"
+    },
+    {
+      "average_std": 1,
+      "fantasypros_id": 24242,
+      "games": 9,
+      "name": "Armani Rogers",
+      "nfl_team": "WAS",
+      "points_std": 8.999999999999998,
+      "position": "TE"
+    },
+    {
+      "average_std": 1.7,
+      "fantasypros_id": 22833,
+      "games": 10,
+      "name": "John Bates",
+      "nfl_team": "WAS",
+      "points_std": 16.799999999999997,
+      "position": "TE"
+    },
+    {
+      "average_std": 0.8,
+      "fantasypros_id": 19501,
+      "games": 5,
+      "name": "Luke Farrell",
+      "nfl_team": "JAC",
+      "points_std": 4,
+      "position": "TE"
+    },
+    {
+      "average_std": 6.9,
+      "fantasypros_id": 11689,
+      "games": 10,
+      "name": "Zach Ertz",
+      "nfl_team": "ARI",
+      "points_std": 68.6,
+      "position": "TE"
+    },
+    {
+      "average_std": 2.1,
+      "fantasypros_id": 18831,
+      "games": 10,
+      "name": "Jody Fortson Jr.",
+      "nfl_team": "KC",
+      "points_std": 20.800000000000004,
+      "position": "TE"
+    },
+    {
+      "average_std": 5.4,
+      "fantasypros_id": 16459,
+      "games": 15,
+      "name": "Gerald Everett",
+      "nfl_team": "LAC",
+      "points_std": 81.49999999999999,
+      "position": "TE"
+    },
+    {
+      "average_std": 0.1,
+      "fantasypros_id": 12233,
+      "games": 4,
+      "name": "Richard Rodgers",
+      "nfl_team": "LAC",
+      "points_std": 0.4,
+      "position": "TE"
+    },
+    {
+      "average_std": 1.3,
+      "fantasypros_id": 19698,
+      "games": 2,
+      "name": "Ben Ellefson",
+      "nfl_team": "MIN",
+      "points_std": 2.6,
+      "position": "TE"
+    },
+    {
+      "average_std": 3.8,
+      "fantasypros_id": 18610,
+      "games": 8,
+      "name": "Irv Smith Jr.",
+      "nfl_team": "MIN",
+      "points_std": 30.2,
+      "position": "TE"
+    },
+    {
+      "average_std": 1.3,
+      "fantasypros_id": 19098,
+      "games": 10,
+      "name": "Chris Myarick",
+      "nfl_team": "NYG",
+      "points_std": 12.5,
+      "position": "TE"
+    },
+    {
+      "average_std": 1.9,
+      "fantasypros_id": 13470,
+      "games": 9,
+      "name": "Cameron Brate",
+      "nfl_team": "TB",
+      "points_std": 17.4,
+      "position": "TE"
+    },
+    {
+      "average_std": 0.8,
+      "fantasypros_id": 18748,
+      "games": 9,
+      "name": "Andrew Beck",
+      "nfl_team": "DEN",
+      "points_std": 6.9,
+      "position": "TE"
+    },
+    {
+      "average_std": 2.6,
+      "fantasypros_id": 18246,
+      "games": 6,
+      "name": "Albert Okwuegbunam Jr.",
+      "nfl_team": "DEN",
+      "points_std": 15.5,
+      "position": "TE"
+    },
+    {
+      "average_std": 2.2,
+      "fantasypros_id": 14339,
+      "games": 9,
+      "name": "Eric Tomlinson",
+      "nfl_team": "DEN",
+      "points_std": 19.900000000000002,
+      "position": "TE"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 24216,
+      "games": 5,
+      "name": "Tanner Conner",
+      "nfl_team": "MIA",
+      "points_std": 0,
+      "position": "TE"
+    },
+    {
+      "average_std": 0.3,
+      "fantasypros_id": 23742,
+      "games": 3,
+      "name": "Jeremy Ruckert",
+      "nfl_team": "NYJ",
+      "points_std": 0.8,
+      "position": "TE"
+    },
+    {
+      "average_std": 2.2,
+      "fantasypros_id": 17826,
+      "games": 6,
+      "name": "Tanner Hudson",
+      "nfl_team": "CIN",
+      "points_std": 13.200000000000001,
+      "position": "TE"
+    },
+    {
+      "average_std": 0.2,
+      "fantasypros_id": 23251,
+      "games": 4,
+      "name": "Jacob Harris",
+      "nfl_team": "LAR",
+      "points_std": 0.6,
+      "position": "TE"
+    },
+    {
+      "average_std": 0.7,
+      "fantasypros_id": 18567,
+      "games": 7,
+      "name": "Trevon Wesco",
+      "nfl_team": "CHI",
+      "points_std": 4.6,
+      "position": "TE"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 22831,
+      "games": 1,
+      "name": "Miller Forristall",
+      "nfl_team": "CLE",
+      "points_std": 0,
+      "position": "TE"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 24778,
+      "games": 2,
+      "name": "Jake Tonges",
+      "nfl_team": "CHI",
+      "points_std": 0,
+      "position": "TE"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 22783,
+      "games": 3,
+      "name": "Hunter Long",
+      "nfl_team": "MIA",
+      "points_std": 0,
+      "position": "TE"
+    },
+    {
+      "average_std": 0.4,
+      "fantasypros_id": 18482,
+      "games": 5,
+      "name": "Jesper Horsted",
+      "nfl_team": "LV",
+      "points_std": 1.9,
+      "position": "TE"
+    },
+    {
+      "average_std": 1.2,
+      "fantasypros_id": 24180,
+      "games": 7,
+      "name": "Grant Calcaterra",
+      "nfl_team": "PHI",
+      "points_std": 8.1,
+      "position": "TE"
+    },
+    {
+      "average_std": 1.2,
+      "fantasypros_id": 23193,
+      "games": 10,
+      "name": "Jack Stoll",
+      "nfl_team": "PHI",
+      "points_std": 12.299999999999999,
+      "position": "TE"
+    },
+    {
+      "average_std": 1.8,
+      "fantasypros_id": 18431,
+      "games": 2,
+      "name": "Kendall Blanton",
+      "nfl_team": "KC",
+      "points_std": 3.5,
+      "position": "TE"
+    },
+    {
+      "average_std": 1.8,
+      "fantasypros_id": 9906,
+      "games": 5,
+      "name": "Kyle Rudolph",
+      "nfl_team": "TB",
+      "points_std": 8.8,
+      "position": "TE"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 23797,
+      "games": 2,
+      "name": "Austin Allen",
+      "nfl_team": "GB",
+      "points_std": 0,
+      "position": "TE"
+    },
+    {
+      "average_std": 2.4,
+      "fantasypros_id": 22971,
+      "games": 12,
+      "name": "Peyton Hendershot",
+      "nfl_team": "DAL",
+      "points_std": 28.5,
+      "position": "TE"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 16022,
+      "games": 1,
+      "name": "J.P. Holtz",
+      "nfl_team": "NO",
+      "points_std": 0,
+      "position": "TE"
+    },
+    {
+      "average_std": 0.3,
+      "fantasypros_id": 16541,
+      "games": 2,
+      "name": "Mason Schreck",
+      "nfl_team": "HOU",
+      "points_std": 0.6,
+      "position": "TE"
+    },
+    {
+      "average_std": 0.5,
+      "fantasypros_id": 14014,
+      "games": 8,
+      "name": "Chris Manhertz",
+      "nfl_team": "JAC",
+      "points_std": 4.199999999999999,
+      "position": "TE"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 19665,
+      "games": 5,
+      "name": "Charlie Woerner",
+      "nfl_team": "SF",
+      "points_std": 0,
+      "position": "TE"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 17802,
+      "games": 6,
+      "name": "Kevin Rader",
+      "nfl_team": "TEN",
+      "points_std": 0,
+      "position": "TE"
+    },
+    {
+      "average_std": 0.4,
+      "fantasypros_id": 18325,
+      "games": 2,
+      "name": "Tommy Sweeney",
+      "nfl_team": "BUF",
+      "points_std": 0.7,
+      "position": "TE"
+    },
+    {
+      "average_std": 0.4,
+      "fantasypros_id": 19726,
+      "games": 3,
+      "name": "Sean McKeon",
+      "nfl_team": "DAL",
+      "points_std": 1.1,
+      "position": "TE"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 15246,
+      "games": 3,
+      "name": "James Winchester",
+      "nfl_team": "KC",
+      "points_std": 0,
+      "position": "TE"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 19250,
+      "games": 2,
+      "name": "Jared Pinkney",
+      "nfl_team": "LAR",
+      "points_std": 0,
+      "position": "TE"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 15196,
+      "games": 2,
+      "name": "Beau Brinkley",
+      "nfl_team": "ATL",
+      "points_std": 0,
+      "position": "TE"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 18591,
+      "games": 2,
+      "name": "Tyree Jackson",
+      "nfl_team": "PHI",
+      "points_std": 0,
+      "position": "TE"
+    },
+    {
+      "average_std": 0.6,
+      "fantasypros_id": 24621,
+      "games": 3,
+      "name": "Stone Smartt",
+      "nfl_team": "LAC",
+      "points_std": 1.7,
+      "position": "TE"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 24657,
+      "games": 1,
+      "name": "Chris Pierce Jr.",
+      "nfl_team": "ARI",
+      "points_std": 0,
+      "position": "TE"
+    },
+    {
+      "average_std": 4,
+      "fantasypros_id": 13966,
+      "games": 2,
+      "name": "Blake Bell",
+      "nfl_team": "KC",
+      "points_std": 8,
+      "position": "TE"
+    },
+    {
+      "average_std": 0,
+      "fantasypros_id": 24144,
+      "games": 1,
+      "name": "Nikola Kalinic",
+      "nfl_team": "IND",
+      "points_std": 0,
+      "position": "TE"
+    },
+    {
+      "average_std": 6.7,
+      "fantasypros_id": 19706,
+      "games": 1,
+      "name": "Tyler Mabry",
+      "nfl_team": "SEA",
+      "points_std": 6.7,
+      "position": "TE"
+    },
+    {
+      "average_std": 4.9,
+      "fantasypros_id": 22756,
+      "games": 1,
+      "name": "Charlie Kolar",
+      "nfl_team": "BAL",
+      "points_std": 4.9,
+      "position": "TE"
+    }
+  ]
+}

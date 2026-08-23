@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "build_id": "20260823T170029Z",
+  "csv": "data/processed/projection_match_review/20260823T170029Z/match_exceptions.csv",
+  "summary": "data/processed/projection_match_review/20260823T170029Z/summary.json"
+}
