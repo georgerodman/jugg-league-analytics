@@ -45,3 +45,48 @@ Yahoo Fantasy Sports data will not be sold or redistributed.
 ## Status
 
 This project is currently in development.
+
+## Development environment
+
+Development runs in Docker so Python and Node dependencies stay isolated from
+the host machine. Docker Desktop is the only host prerequisite.
+
+Start the environment:
+
+```sh
+docker compose up --detach --build
+```
+
+Open a shell inside it:
+
+```sh
+docker compose exec dev bash
+```
+
+Stop it without deleting its dependency volumes:
+
+```sh
+docker compose down
+```
+
+The container currently includes Python 3.12, Node.js 22, npm, Git, and the
+SQLite command-line tool. Project packages will be added and pinned separately
+when modeling and application work begins. Python's future `.venv` and Node's
+future `node_modules` are stored in Docker volumes rather than on the host.
+
+## Refresh current preseason projections
+
+Save the FantasyPros key as `FANTASYPROS_API_KEY` in an ignored `.env` file,
+then run:
+
+```sh
+python3 scripts/fantasypros_projections.py --season 2026
+```
+
+The command preserves immutable raw responses and writes normalized,
+league-scored JSON and CSV artifacts. See `docs/PROJECTION_DATA.md` for the
+data contract and provenance details.
+
+FantasyPros is the primary projection source. Historical FFA snapshots are
+preserved separately under `data/raw/ffa/<season>/` and will enrich the primary
+dataset with uncertainty, kicker detail, and other source-specific fields.

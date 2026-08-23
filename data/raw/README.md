@@ -25,13 +25,21 @@ Columns:
 Row order must not be interpreted as nomination or purchase order. The file is
 primarily sorted by descending salary.
 
-## `projections/raw_stats_<season>_wk0.csv`
+## `ffa/<season>/raw_stats_<season>_wk0.csv`
 
-- User-provided preseason projection snapshots for 2020 through 2026.
-- Acquired from FantasyFootballAnalytics.net (`https://fantasyfootballanalytics.net/`).
+- User-provided FFA preseason projection snapshots for 2020 through 2026.
+- Acquired from FantasyFootballAnalytics.net (FFA;
+  `https://fantasyfootballanalytics.net/`).
 - `wk0` identifies the preseason snapshot supplied for each season.
 - Preserve these files unchanged; projection cleaning and scoring must write to
   a separate processed-data directory.
 
 Checksums and schema observations are recorded in
 `docs/PROJECTION_DATA.md`.
+
+## `fantasypros/<season>/<timestamp>/`
+
+- Immutable JSON responses fetched from FantasyPros Public API v2.
+- One response per draftable position plus a manifest containing request
+  parameters, response counts, source tier metadata, and SHA-256 checksums.
+- API credentials are never stored in raw or processed data.
