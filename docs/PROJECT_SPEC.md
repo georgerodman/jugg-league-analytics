@@ -13,11 +13,27 @@ in `docs/DATA_SOURCES_AND_PLAYER_IDENTITY.md`.
 
 ### Historical auction-price model
 
-Use publicly available auction-dollar values when a suitable licensed source is available, and compare them with this league's prior auction results, positional markets, rule changes, and owner behavior. Do not generate a proprietary JUGG auction-dollar valuation from projections. Historical JUGG prices remain evidence for market context, comparables, inflation, and tendencies rather than an internally calculated fair-value price target. Every external dollar value must retain its provider, scoring, roster, team-count, budget, season, and retrieval assumptions.
+Predict the expected sale price or price range for each player in the JUGG
+auction. Evaluate publicly available auction-dollar values, ADP, projections,
+prior league results, positional markets, rule changes, and eventually owner
+behavior as competing and complementary inputs. Select features and model
+structure through forward-only historical testing rather than assigning any
+provider a privileged role in advance. ESPN's published Salary Cap Value is an
+external dollar input; the JUGG prediction is a distinct model output and must
+not be presented as ESPN's value or as intrinsic player worth. Every external
+dollar value must retain its provider, scoring, roster, team-count, budget,
+season, and retrieval assumptions. Evaluate the model with season-held-out
+backtests, uncertainty outputs, and transparent baselines.
 
 ### Performance-value model
 
-Estimate each player's fantasy contribution under the league's scoring and roster assumptions. Do not convert projected contribution into a homegrown JUGG auction-dollar value. Keep projected performance, public auction values, external ADP market signals, and historical JUGG sale evidence separate so the app can show their differences without collapsing them into one opaque score.
+Estimate each player's fantasy contribution under the league's scoring and
+roster assumptions, then derive a production-based value that remains separate
+from the expected JUGG sale-price model. Keep projected performance, public
+auction values, external ADP market signals, historical JUGG sale evidence,
+expected JUGG price, and production value separately attributable so the app
+can identify likely bargains and overpays without collapsing the signals into
+one opaque score.
 
 Use FantasyPros as the primary source for the preseason player pool and projected counting statistics. Treat FantasyFootballAnalytics (FFA) and future projection or player-data providers as enrichment sources for uncertainty, kicker detail, injuries, biographical attributes, comparison signals, or missing fields. Preserve every provider independently at the raw-data boundary. Merged model inputs must retain field-level source provenance and apply explicit, tested conflict and fallback rules rather than silently blending or overwriting values.
 
@@ -112,7 +128,7 @@ Before draft night, verify this with a full replay or simulation of a historical
 
 1. Capture league rules, roster constraints, scoring, budgets, historical auction results, owner identities, and source-data contracts.
 2. Build reproducible Python ingestion and cleaning pipelines; use FantasyPros as the primary projection backbone, nflverse/GSIS as the preferred player-identity backbone, enrich projections from source-isolated FFA and future datasets, and establish stable internal player and owner identifiers.
-3. Create baseline performance projections, historical market comparisons, public auction-value inputs when available, evaluation metrics, uncertainty outputs, and versioned runtime artifacts without generating a proprietary JUGG auction-dollar value.
+3. Create the evidence-selected JUGG sale-price model and the separate performance-value model, with historical market comparisons, evaluation metrics, uncertainty outputs, and versioned runtime artifacts.
 4. Define the domain model and SQLite schema, including event history, state transitions, migrations, and recovery behavior.
 5. Implement and test the deterministic live draft engine: nominations, completed sales, rosters, budgets, availability, inflation, scarcity, and recalculation.
 6. Build the focused Next.js draft-night interface around the nominated-player workflow and fast final-sale entry.

@@ -80,6 +80,19 @@ the API limit, preserves both complete responses, and extracts Yahoo source ID
 counts, and source IDs before rebuilding canonical projections. Do not relabel
 the scoring context or interpret ADP as auction dollars.
 
+## Rebuild the JUGG auction-price benchmark
+
+After refreshing canonical projections, ADP, auction-history matches, or ESPN
+Salary Cap Values, rebuild the joined historical modeling table and benchmark:
+
+```bash
+python3 scripts/auction_price_model.py
+```
+
+The command writes immutable artifacts beneath
+`data/processed/auction_price_model/<timestamp>/` and advances `latest.json`.
+It evaluates ESPN directly and with JUGG calibration using held-out seasons.
+
 ## Import ESPN Salary Cap Value cheat sheets
 
 Place each PDF in `data/raw/espn_cheat_sheets/` as

@@ -16,11 +16,6 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-try:
-    import pdfplumber
-except ImportError as exc:  # pragma: no cover - exercised by the CLI environment
-    raise SystemExit("Install data dependencies first: python3 -m pip install -r requirements-data.txt") from exc
-
 from build_canonical_projections import normalize_name, normalize_position, normalize_team
 
 SCHEMA_VERSION = 1
@@ -87,6 +82,11 @@ def extract_rows(path: Path, season: int) -> list[dict[str, Any]]:
                 "salary_cap_value": int(match.group(6)), "bye_week": int(match.group(7)),
             })
         return [by_rank[rank] for rank in sorted(by_rank)]
+
+    try:
+        import pdfplumber
+    except ImportError as exc:  # pragma: no cover - exercised by the CLI environment
+        raise PipelineError("Install data dependencies first: python3 -m pip install -r requirements-data.txt") from exc
 
     with pdfplumber.open(path) as pdf:
         if len(pdf.pages) != 1:

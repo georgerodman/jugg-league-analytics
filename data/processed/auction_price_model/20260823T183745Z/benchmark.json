@@ -1,0 +1,227 @@
+{
+  "baselines": {
+    "by_season": {
+      "2020": {
+        "drafted_players": 140,
+        "drafted_with_espn": 139,
+        "espn_calibrated_held_out": {
+          "bias": 0.171,
+          "mae": 3.876,
+          "n": 139,
+          "rmse": 5.899
+        },
+        "espn_pool_size": 300,
+        "espn_raw": {
+          "bias": -0.158,
+          "mae": 3.928,
+          "n": 139,
+          "rmse": 5.93
+        }
+      },
+      "2021": {
+        "drafted_players": 140,
+        "drafted_with_espn": 136,
+        "espn_calibrated_held_out": {
+          "bias": 0.086,
+          "mae": 4.232,
+          "n": 136,
+          "rmse": 6.35
+        },
+        "espn_pool_size": 280,
+        "espn_raw": {
+          "bias": -0.243,
+          "mae": 4.287,
+          "n": 136,
+          "rmse": 6.371
+        }
+      },
+      "2022": {
+        "drafted_players": 140,
+        "drafted_with_espn": 138,
+        "espn_calibrated_held_out": {
+          "bias": 0.041,
+          "mae": 5.145,
+          "n": 138,
+          "rmse": 7.327
+        },
+        "espn_pool_size": 280,
+        "espn_raw": {
+          "bias": -0.326,
+          "mae": 5.225,
+          "n": 138,
+          "rmse": 7.319
+        }
+      },
+      "2023": {
+        "drafted_players": 140,
+        "drafted_with_espn": 136,
+        "espn_calibrated_held_out": {
+          "bias": 0.115,
+          "mae": 3.676,
+          "n": 136,
+          "rmse": 5.658
+        },
+        "espn_pool_size": 280,
+        "espn_raw": {
+          "bias": -0.25,
+          "mae": 3.779,
+          "n": 136,
+          "rmse": 5.709
+        }
+      },
+      "2024": {
+        "drafted_players": 140,
+        "drafted_with_espn": 136,
+        "espn_calibrated_held_out": {
+          "bias": 0.051,
+          "mae": 3.967,
+          "n": 136,
+          "rmse": 5.777
+        },
+        "espn_pool_size": 280,
+        "espn_raw": {
+          "bias": -0.279,
+          "mae": 4.015,
+          "n": 136,
+          "rmse": 5.768
+        }
+      },
+      "2025": {
+        "drafted_players": 140,
+        "drafted_with_espn": 135,
+        "espn_calibrated_held_out": {
+          "bias": -0.009,
+          "mae": 4.427,
+          "n": 135,
+          "rmse": 6.531
+        },
+        "espn_pool_size": 280,
+        "espn_raw": {
+          "bias": -0.319,
+          "mae": 4.481,
+          "n": 135,
+          "rmse": 6.579
+        }
+      }
+    },
+    "espn_calibrated_leave_one_season_out": {
+      "bias": 0.076,
+      "mae": 4.221,
+      "n": 820,
+      "rmse": 6.284
+    },
+    "espn_raw_by_position": {
+      "DEF": {
+        "bias": -1.333,
+        "mae": 1.333,
+        "n": 51,
+        "rmse": 3.554
+      },
+      "K": {
+        "bias": -1.528,
+        "mae": 1.528,
+        "n": 53,
+        "rmse": 2.975
+      },
+      "QB": {
+        "bias": -4.462,
+        "mae": 5.055,
+        "n": 91,
+        "rmse": 7.626
+      },
+      "RB": {
+        "bias": -1.422,
+        "mae": 4.4,
+        "n": 270,
+        "rmse": 6.2
+      },
+      "TE": {
+        "bias": -2.103,
+        "mae": 3.456,
+        "n": 68,
+        "rmse": 5.169
+      },
+      "WR": {
+        "bias": 3.021,
+        "mae": 5.167,
+        "n": 287,
+        "rmse": 6.985
+      }
+    },
+    "espn_raw_overall": {
+      "bias": -0.262,
+      "mae": 4.287,
+      "n": 820,
+      "rmse": 6.305
+    }
+  },
+  "calibration_coefficients_by_held_out_season": {
+    "2020": {
+      "espn_slope": 1.019524,
+      "intercept": 0.004338
+    },
+    "2021": {
+      "espn_slope": 1.023198,
+      "intercept": -0.064416
+    },
+    "2022": {
+      "espn_slope": 1.030244,
+      "intercept": -0.182626
+    },
+    "2023": {
+      "espn_slope": 1.020512,
+      "intercept": -0.027619
+    },
+    "2024": {
+      "espn_slope": 1.027955,
+      "intercept": -0.139219
+    },
+    "2025": {
+      "espn_slope": 1.013904,
+      "intercept": 0.053317
+    }
+  },
+  "dataset": {
+    "drafted_count": 840,
+    "drafted_with_espn_count": 820,
+    "pool_sources": {
+      "espn": 880,
+      "espn_and_jugg": 820,
+      "jugg_exception": 20
+    },
+    "row_count": 1720
+  },
+  "metadata": {
+    "build_id": "20260823T183745Z",
+    "built_at": "2026-08-23T18:37:45.534736+00:00",
+    "inputs": {
+      "data/processed/auction_history_matches/20260823T175816Z/auction_history_matches.json": "2a8d27ce6abf2d6461848e447244d91a8bb573f8b48fa1977b52c56120950fc8",
+      "data/processed/canonical_projections/2020/20260823T175816Z/projections.json": "5987a848b208a5de90d91b7e4e4ae2871eecd12ca99c108372e4d3d6c7e059ea",
+      "data/processed/canonical_projections/2021/20260823T175816Z/projections.json": "9333bd455208c2a175aa356a982ef9c5c2526797de98334929d9ae1954a09dd4",
+      "data/processed/canonical_projections/2022/20260823T175816Z/projections.json": "8cc1ac0ba5a153e586ce5a28c1c0ea7ee1d50e1df972d116b53fc6154d726b67",
+      "data/processed/canonical_projections/2023/20260823T175816Z/projections.json": "21dc510fcc20d70fc3f3b9b4e34a134a87f02851615fcf6e384bd3e3511d0aa9",
+      "data/processed/canonical_projections/2024/20260823T175816Z/projections.json": "02f0da1325009b93d9f2eb9ab4c1916582f9b29a6ba784df41922aa8fe9dc26e",
+      "data/processed/canonical_projections/2025/20260823T175816Z/projections.json": "d67bd6f8f1d9c76b8ed18529d84d6dba7138b7448edd1e003766d1fffca0b856",
+      "data/processed/espn_salary_cap_values/2020/20260823T182245Z/espn_salary_cap_values.json": "02e7741c721c31db7534bcda7d147991a7db857bda2b91a1491e0bd5d4a25706",
+      "data/processed/espn_salary_cap_values/2021/20260823T182245Z/espn_salary_cap_values.json": "932a58d91a6c4a6c62f0d252b38cb47dfc1db9889780df98ed42e30124400414",
+      "data/processed/espn_salary_cap_values/2022/20260823T182245Z/espn_salary_cap_values.json": "533a2823db953e5421eb7cca80a5a5350b9dbb3f03ed360aa01fec30083004ce",
+      "data/processed/espn_salary_cap_values/2023/20260823T182245Z/espn_salary_cap_values.json": "cd00089a44aa4f493a78fb33131e82019774b53334507ae77a63615874335058",
+      "data/processed/espn_salary_cap_values/2024/20260823T182245Z/espn_salary_cap_values.json": "cd73cbb326c8e821c75f8a0302c118c94079fc60275687b7127f167c444d9d31",
+      "data/processed/espn_salary_cap_values/2025/20260823T182245Z/espn_salary_cap_values.json": "904015fa13168bc59a4a747eea587d171908b9d3f826d4c56e74f1fca3beb355"
+    },
+    "schema_version": 1,
+    "seasons": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ]
+  },
+  "notes": [
+    "Sale-price errors are evaluated only for drafted players with an ESPN value.",
+    "The calibrated baseline is fit without the evaluated season; it is not a random row split.",
+    "Drafted probability and prediction intervals are reserved for the next model iteration."
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "build_id": "20260823T190029Z",
+  "benchmark": "data/processed/auction_price_model/20260823T190029Z/benchmark.json",
+  "training_rows": "data/processed/auction_price_model/20260823T190029Z/training_rows.csv"
+}
