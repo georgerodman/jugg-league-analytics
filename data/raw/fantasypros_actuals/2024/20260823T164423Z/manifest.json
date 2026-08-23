@@ -1,0 +1,47 @@
+{
+  "dataset": "actual_player_points_std",
+  "fetched_at": "2026-08-23T16:44:23.666659+00:00",
+  "player_count": 647,
+  "requests": [
+    {
+      "file": "qb.json",
+      "position": "QB",
+      "public_api_limited": true,
+      "record_count": 88,
+      "sha256": "f9a2888a03269be06e89c26dc36a4f006ec9f26675744c30783154b3e83c6b99",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2024/player-points?position=QB&start=1&end=18"
+    },
+    {
+      "file": "rb.json",
+      "position": "RB",
+      "public_api_limited": true,
+      "record_count": 159,
+      "sha256": "dadf807ccdbb5969a76f65dfaa7a7fd2a872393305d5fd4452178780f5cdd19e",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2024/player-points?position=RB&start=1&end=18"
+    },
+    {
+      "file": "wr.json",
+      "position": "WR",
+      "public_api_limited": true,
+      "record_count": 258,
+      "sha256": "f56b8ca1810e5ef6d936d8d5855aecf190261f7a8346260143e279ad3771f506",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2024/player-points?position=WR&start=1&end=18"
+    },
+    {
+      "file": "te.json",
+      "position": "TE",
+      "public_api_limited": true,
+      "record_count": 143,
+      "sha256": "4bc800d8d7f4a56de80bdcb432af6011792f959f57826a36114808c03c10ac0e",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2024/player-points?position=TE&start=1&end=18"
+    }
+  ],
+  "schema_version": 1,
+  "season": 2024,
+  "snapshot_id": "20260823T164423Z",
+  "source": "fantasypros"
+}
