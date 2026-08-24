@@ -49,6 +49,17 @@
       }
     ]
   },
+  "season_format": {
+    "regular_season_weeks": 15,
+    "playoff_team_count": 4,
+    "playoff_weeks": [16, 17],
+    "playoff_round_length_weeks": 1,
+    "first_round_byes": 0,
+    "seeding_order": ["win_loss_record", "points_scored"],
+    "standings_tiebreaker": "points_scored",
+    "reseed_after_round": false,
+    "divisions": false
+  },
   "scoring": {
     "offense": {
       "passing_yards_per_point": 25,
@@ -102,7 +113,16 @@
       "keepers_enabled",
       "minimum_bid",
       "must_fill_all_starter_slots",
-      "must_fill_all_bench_slots"
+      "must_fill_all_bench_slots",
+      "regular_season_weeks",
+      "playoff_team_count",
+      "playoff_weeks",
+      "playoff_round_length_weeks",
+      "first_round_byes",
+      "seeding_order",
+      "standings_tiebreaker",
+      "reseed_after_round",
+      "divisions"
     ]
   }
 }

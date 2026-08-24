@@ -41,6 +41,17 @@ That is 9 starters, 5 bench spots, and 1 non-draftable IR spot per team.
   capacity.
 - IR does not count toward draftable roster size in any season.
 
+## Regular season and playoffs
+
+- The fantasy regular season runs through Week 15.
+- Four of the ten teams make the playoffs.
+- The semifinal is Week 16 and the championship is Week 17.
+- Each playoff round lasts one week.
+- There are no first-round byes and the bracket does not reseed.
+- Seeds 1–4 are ordered by win/loss record, with total points scored as the
+  tiebreaker.
+- There are no divisions.
+
 ## Offensive scoring
 
 - Passing: 1 point per 25 yards; 5 per touchdown; -1 per interception.

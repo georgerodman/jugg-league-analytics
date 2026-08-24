@@ -20,7 +20,13 @@ jugg-league-analytics/
 │   ├── raw/                Immutable source snapshots
 │   └── processed/          Versioned normalized/model artifacts
 ├── config/                 League rules and reviewed identity overrides
-├── docs/                   Product, architecture, methodology, and runbooks
+├── docs/
+│   ├── README.md           Documentation index and filing guide
+│   ├── PROJECT_SPEC.md     Durable project-wide source of truth
+│   ├── product/            User-facing requirements and decision guidance
+│   ├── studies/            Model methods, experiments, and results
+│   ├── architecture/       Technical boundaries and contracts
+│   └── operations/         Repeatable refresh and maintenance procedures
 ├── tests/
 │   ├── domain/             TypeScript domain/runtime tests
 │   └── test_*.py           Python pipeline and SQLite-schema tests
@@ -73,6 +79,8 @@ Current domain files:
   auditing.
 - `src/domain/importDraftArtifacts.ts` — validated model/owner artifact import
   and 2026 roster-slot initialization.
+- `src/domain/liveDecisionEngine.ts` — offline strategy-neutral roster
+  completions, shadow price ladders, decision bands, and live league outlook.
 
 Current application files:
 
@@ -115,12 +123,23 @@ only validated local artifacts imported before the draft.
   and fast reads.
 - Corrections append compensating events rather than deleting history.
 
-The domain contract is documented in `docs/DRAFT_DOMAIN_AND_SQLITE.md`.
+The domain contract is documented in
+`docs/architecture/draft-domain-and-sqlite.md`.
 The front-facing V1 scope and screen contract are documented in
-`docs/V1_APPLICATION_REQUIREMENTS.md`.
+`docs/product/v1-application-requirements.md`.
 Open ideas and unresolved product questions are collected in
-`docs/PRODUCT_NOTES.md`; they become formal requirements only after a decision
+`docs/product/product-notes.md`; they become formal requirements only after a decision
 is recorded in the project spec or the relevant detailed contract.
+The standalone championship objective and its current pre-integration review
+gate are documented in `docs/studies/championship-equity-method.md` and
+`docs/studies/championship-equity-results.md`.
+The plain-language product interpretation and intended draft-night use are in
+`docs/product/draft-decision-guide.md`.
+The standalone engine lives in `scripts/championship_equity.py`; neutral roster
+completions, historical decision proxies, and decision-band contracts live in
+`scripts/championship_decisions.py`. Their versioned outputs are under
+`data/processed/championship_equity/` and
+`data/processed/championship_decisions/` and are not live UI dependencies.
 
 ## Scripts and operational commands
 
@@ -132,6 +151,8 @@ Important commands:
 ```sh
 python3 scripts/rebuild_all.py       # guarded rebuild of all derived artifacts
 python3 scripts/owner_tendencies.py # owner profiles only
+python3 scripts/championship_equity.py # standalone equity calibration
+python3 scripts/championship_decisions.py # neutral paths and decision bands
 npm run typecheck                   # strict TypeScript verification
 npm run test:domain                 # offline domain-engine tests
 npm run dev                         # local Renegade Draft Room
@@ -140,7 +161,7 @@ python3 -m unittest discover -s tests -q
 ```
 
 The complete source-refresh and rebuild runbook is
-`docs/DATA_SOURCE_OPERATIONS.md`.
+`docs/operations/data-source-operations.md`.
 
 ## Naming conventions
 
@@ -152,7 +173,7 @@ The complete source-refresh and rebuild runbook is
 | General TypeScript utilities | descriptive `camelCase.ts` | `formatPrice.ts` |
 | Python modules and scripts | `snake_case.py` | `production_value_model.py` |
 | SQL migrations | zero-padded number + description | `001_initial.sql` |
-| Documentation | descriptive uppercase Markdown | `OWNER_TENDENCIES.md` |
+| Documentation | descriptive lowercase kebab-case | `owner-tendencies.md` |
 | Generated builds | UTC timestamp directory | `20260823T194952Z/` |
 | Current artifact pointer | `latest.json` | `owner_tendencies/latest.json` |
 

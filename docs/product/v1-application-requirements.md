@@ -84,7 +84,15 @@ The center of the screen is the current nomination. Its default view shows:
 - Rodman Renegades roster fit;
 - only material risk flags;
 - one concise relevant owner-tendency insight, when supported; and
-- up to three nearby alternatives.
+- up to three genuinely comparable alternatives, selected from the same
+  position using both projected production and expected JUGG price rather than
+  simply surfacing the cheapest high-surplus players.
+
+The player list is intentionally narrower than the decision workspace. The
+main workspace does not repeat the Renegades team name or use separate
+"draft because" and "do not draft because" cards. The price ladder shows all
+five decision bands in a fixed order; bands without a supported price range
+remain visibly empty rather than disappearing.
 
 Projected points, production value, draft probability, replacement details,
 allocation sensitivity, ESPN auction value, Yahoo/ESPN ADP, full provenance,
@@ -167,11 +175,34 @@ history:
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
+A secondary **League outlook** drawer or page is available from the header. It
+recalculates all ten partial-roster championship outlooks after every sale,
+highlights the Renegades, shows equity ranges, and treats overlapping ranges as
+close. It does not permanently occupy the main nomination workspace.
+
+The decision workspace uses three horizontal rows:
+
+1. full-width Player Details;
+2. full-width Assistant GM conversation;
+3. Team Roster on the left and League Details on the right.
+
+The Team Roster includes a compact Strength column (`Elite`, `Strong`,
+`Starter`, or `Depth`) derived from positional rank and projected points above
+replacement. This identifies positional strengths and weaknesses without
+mislabeling auction surplus as championship impact. A true equity-at-purchase
+grade requires persisted decision snapshots and is a later enhancement.
+
+The Assistant GM surface accepts questions immediately through deterministic
+offline guidance. A later streaming AI connection may enrich those responses,
+but must not replace or block the local fallback.
+
 ### Available-player region
 
 - Compact, keyboard-friendly list rather than large cards.
 - Search remains visible at all times.
-- The selected row and nominated row have distinct non-color indicators.
+- A selected row means preview only. The nominated row uses a different
+  background/accent plus a persistent `Officially nominated` badge or icon;
+  selection and nomination must never be communicated by color alone.
 - Default columns: player, position, expected price, and a compact value signal.
 - Probability, projections, source values, and full risk detail appear on
   selection or through optional column controls.
@@ -181,9 +212,18 @@ history:
 - Empty state prompts the operator to search or choose a player.
 - Selecting a player previews details without changing authoritative state.
 - `Nominate` is the explicit state-changing action.
+- After `Nominate` succeeds, the player card switches immediately from the
+  neutral preview treatment to a contrasting nominated treatment and displays
+  `Officially nominated` prominently. That treatment persists until the
+  nomination is cancelled or the final sale is recorded.
 - Once nominated, winner and price controls become the dominant action area.
 - The default verdict is plain language. Model facts, source facts, and
   contextual judgment remain distinguishable in the expanded details.
+- In shadow mode, show the championship-based recommendation band, recommended
+  maximum, scenario support, equity effect versus passing, and a compact price
+  ladder identifying where the decision crosses pursue, neutral, and pass
+  tiers. Preserve the existing market/value recommendation for comparison
+  until the shadow review is accepted.
 
 ### Teams region
 
@@ -195,10 +235,11 @@ history:
 
 ### History region
 
-- Keep a compact **Last 5 picks** strip on the main draft screen, newest first.
+- Keep completed picks in the header's **Full History** drawer, newest first,
+  so the main screen height remains available for decision support.
 - Each row shows player, winning team, sale price, and pick number; avoid extra
   model data in this recovery-oriented view.
-- Give each recent sale a clearly labeled correction action that opens the
+- Give each sale a clearly labeled correction action that opens the
   existing `Void sale` confirmation flow. Do not immediately reverse a sale
   from a single click.
 - Make the complete, auditable draft history available in an expanded panel or
@@ -301,14 +342,14 @@ availability, and event history. During that replay:
 
 V1 uses:
 
-- dark, restrained, high-contrast theme suitable for prolonged use;
+- light, restrained, high-contrast theme suitable for prolonged use;
 - **Renegade Draft Room** as the application title;
 - **Rodman Renegades** as the pinned operator team;
 - clean, sparse primary information with detail disclosed on demand;
 - the **Split Focus** desktop layout;
 - sale confirmation as a compact modal or anchored panel; and
-- a compact **Last 5 picks** strip on the main screen, with safe correction
-  controls and full history available on demand.
+- a complete **Full History** drawer with safe correction controls and a pick
+  count in the header.
 
 These choices affect presentation, not domain behavior, and can be changed
 without revising the database or model contracts.

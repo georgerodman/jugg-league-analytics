@@ -6,7 +6,7 @@ This document is the authoritative guide to what each data source is used for
 and how records from different providers are assigned to the same player. The
 product and architecture requirements remain authoritative in
 `docs/PROJECT_SPEC.md`; operational commands remain in
-`docs/DATA_SOURCE_OPERATIONS.md`.
+`docs/operations/data-source-operations.md`.
 
 The central rule is that identity and data authority are separate questions:
 
@@ -173,10 +173,10 @@ seasons allows the league transaction to remain attached to the correct player.
 ## Related documentation
 
 - `docs/PROJECT_SPEC.md`: durable product and architecture decisions
-- `docs/DATA_SOURCE_OPERATIONS.md`: refresh, rebuild, audit, and publication
+- `docs/operations/data-source-operations.md`: refresh, rebuild, audit, and publication
   commands
-- `docs/PROJECTION_DATA.md`: provider schemas, inventories, and projection
+- `docs/studies/projection-data.md`: provider schemas, inventories, and projection
   details
-- `docs/PROJECTION_EVALUATION.md`: evidence supporting the FantasyPros/FFA role
+- `docs/studies/projection-evaluation.md`: evidence supporting the FantasyPros/FFA role
   decision
 - `data/raw/README.md`: raw snapshot inventory and preservation rules

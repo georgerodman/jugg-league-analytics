@@ -1,0 +1,72 @@
+{
+  "bands": [
+    "strong_pursue",
+    "lean_pursue",
+    "neutral",
+    "lean_pass",
+    "strong_pass"
+  ],
+  "examples": {
+    "lean_pass": {
+      "band": "lean_pass",
+      "median_championship_equity_delta": -0.016,
+      "noise_floor": 0.01,
+      "robust_range": [
+        -0.02,
+        -0.01
+      ],
+      "scenario_positive_rate": 0.0
+    },
+    "lean_pursue": {
+      "band": "lean_pursue",
+      "median_championship_equity_delta": 0.016,
+      "noise_floor": 0.01,
+      "robust_range": [
+        0.01,
+        0.02
+      ],
+      "scenario_positive_rate": 1.0
+    },
+    "neutral": {
+      "band": "neutral",
+      "median_championship_equity_delta": 0.005,
+      "noise_floor": 0.01,
+      "robust_range": [
+        -0.01,
+        0.012
+      ],
+      "scenario_positive_rate": 0.6
+    },
+    "strong_pass": {
+      "band": "strong_pass",
+      "median_championship_equity_delta": -0.038,
+      "noise_floor": 0.01,
+      "robust_range": [
+        -0.045,
+        -0.032
+      ],
+      "scenario_positive_rate": 0.0
+    },
+    "strong_pursue": {
+      "band": "strong_pursue",
+      "median_championship_equity_delta": 0.038,
+      "noise_floor": 0.01,
+      "robust_range": [
+        0.032,
+        0.045
+      ],
+      "scenario_positive_rate": 1.0
+    }
+  },
+  "metadata": {
+    "build_id": "20260824T023737Z",
+    "inputs": {
+      "data/processed/auction_history_matches/20260823T201230Z/auction_history_matches.json": "1285e9c93b3a3f339dead23440cf68b1ea0614c577743d92d6a4e895a2b28ea3",
+      "data/processed/nflverse/20260824T014652Z/league_scored_actuals.json": "d3b4f67b1714c563b48df1ced1dcd1493bb6039a5507a77dd7f82f5c3acd8f64",
+      "data/processed/production_value_model/20260823T201328Z/decision_board_2026.json": "a20c97a78694caab009af07e2b63864dc94a0cbb6f2eae290aa8cd5297c48b79"
+    },
+    "schema_version": 1,
+    "strategy_neutral": true
+  },
+  "rule": "Bands require magnitude beyond simulation noise and agreement across reasonable scenarios; neutral is the default."
+}

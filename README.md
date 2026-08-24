@@ -1,10 +1,13 @@
 # JUGG League Analytics
 
+For a guided overview of the project documentation, start with
+[`docs/README.md`](docs/README.md).
+
 Data-source responsibilities and the player identity/matching process are
-documented in `docs/DATA_SOURCES_AND_PLAYER_IDENTITY.md`.
+documented in `docs/architecture/data-sources-and-player-identity.md`.
 
 The folder hierarchy, naming conventions, and architectural ownership
-boundaries are documented in `docs/REPOSITORY_MAP.md`.
+boundaries are documented in `docs/architecture/repository-map.md`.
 
 A fantasy football analytics, draft preparation, and league management project built for the JUGG League, a long-running private Yahoo Fantasy Football league.
 
@@ -112,7 +115,7 @@ python3 scripts/fantasypros_projections.py --season 2026
 ```
 
 The command preserves immutable raw responses and writes normalized,
-league-scored JSON and CSV artifacts. See `docs/PROJECTION_DATA.md` for the
+league-scored JSON and CSV artifacts. See `docs/studies/projection-data.md` for the
 data contract and provenance details.
 
 FantasyPros is the primary projection source. Historical FFA snapshots are
@@ -137,7 +140,7 @@ python3 scripts/rebuild_all.py
 ```
 
 The guarded workflow restores the previous published pointers if any stage or
-test fails. See `docs/DATA_SOURCE_OPERATIONS.md` for refresh, new-source, and
+test fails. See `docs/operations/data-source-operations.md` for refresh, new-source, and
 publication procedures.
 
 ## Refresh historical nflverse data
@@ -150,5 +153,5 @@ python3 scripts/nflverse_pipeline.py --seasons 2020 2021 2022 2023 2024 2025
 ```
 
 The live application never calls nflverse. It consumes only the last validated
-local artifacts. See `docs/DATA_SOURCE_OPERATIONS.md` for refresh, rebuild, and
+local artifacts. See `docs/operations/data-source-operations.md` for refresh, rebuild, and
 review instructions.

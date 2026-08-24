@@ -7,7 +7,7 @@ Build a dependable, offline-first assistant for a live fantasy-football auction 
 This document is the durable source of truth for product scope and architecture. Update it whenever the team makes a material product or technical decision.
 
 The consolidated source-authority and player-matching contract is documented
-in `docs/DATA_SOURCES_AND_PLAYER_IDENTITY.md`.
+in `docs/architecture/data-sources-and-player-identity.md`.
 
 ## Core Models
 
@@ -91,9 +91,27 @@ team, **Rodman Renegades**. The V1 visual direction uses a split-focus desktop
 layout: a restrained searchable player list on the left and a dedicated live
 decision workspace on the right. The current nomination remains compact while
 roster fit, recommendation rationale, likely competition, room pressure,
-owner signals, and alternatives receive the available decision space. A
-compact Last 5 Picks strip stays on the main screen for rapid, confirmed
-corrections; the complete immutable history is available on demand.
+owner signals, and alternatives receive the available decision space.
+Completed picks do not consume a permanent bottom strip; the header's Full
+History drawer shows every active sale and provides rapid, confirmed
+corrections while the immutable audit history remains preserved.
+
+The visual theme is a practical light workspace: white and light-gray surfaces,
+blue interaction accents, larger readable typography, restrained borders, and
+minimal decoration. Green and red are reserved for positive and negative
+decision meaning. Legibility and draft-night scanning speed take priority over
+dark-mode atmosphere or decorative styling.
+
+Within the right-hand decision workspace, information is organized in three
+horizontal rows: full-width Player Details first, full-width Assistant GM
+second, then Team Roster on the lower left and League Details on the lower
+right. Player Details owns projected price, all five price bands, comparable
+alternatives, the recommendation, and draft actions. Team Roster uses a tall
+QB-through-bench table with bye, paid-price, and positional-strength columns,
+totals, remaining max bid, and the largest current need. Strength is based on
+position rank and projected points above replacement; it is not a retrospective
+grade of whether the auction purchase was good or bad. League Details owns likely competition,
+aligned opponent needs, and supported owner tendencies.
 
 The player list includes blended Yahoo/ESPN ADP and bye week and sorts through
 clickable column headers. Renegades-specific strategy is stored separately from
@@ -103,7 +121,16 @@ concentration are bounded advisory inputs: they may adjust Renegades value and
 recommendations but never make a player unavailable or change the market-price
 prediction. Completed sales produce a separate, shrinkage-controlled live
 market estimate while preserving the frozen pre-draft prediction. The detailed
-contract is in `docs/LIVE_MARKET_AND_STRATEGY.md`.
+contract is in `docs/product/live-market-and-strategy.md`.
+
+Player selection is only a private preview and must look unmistakably different
+from an official nomination. After the user confirms `Nominate`, the nominated
+player's decision card and list row switch to a distinct nomination treatment,
+including a persistent **Officially nominated** label and a contrasting accent
+or background. Text, iconography, or border treatment must accompany color so
+the state remains clear for color-vision differences and under draft-night
+glance conditions. The nomination treatment remains until the nomination is
+cancelled or its final sale is recorded.
 
 There is intentionally no live bid-entry stream. The user selects or confirms the nominated player, uses the app for decision support while bidding happens elsewhere, then records the final winner and sale price. The app immediately advances state and recommendations.
 
@@ -115,6 +142,11 @@ The Copilot has two complementary modes:
 - Chat: natural-language questions grounded in current local draft state, model outputs, historical evidence, and the user's roster goals.
 
 Copilot advice must be explainable and clearly distinguish facts, model estimates, and judgment. AI availability must never be required for core draft operation; the deterministic engine and locally available recommendations remain usable offline.
+
+The V1 layout includes the Assistant GM conversation surface before a remote AI
+service is required. Its initial answers are deterministic, local, and labeled
+as offline guidance. Connecting streaming AI responses is a later layer and
+must preserve that offline fallback.
 
 ## Data and Persistence
 
@@ -128,7 +160,7 @@ successful nomination, sale, correction, roster reassignment, or lifecycle
 change must append its event and update local state in one transaction before
 creating retryable remote-sync work. Corrections append compensating events;
 they never rewrite or delete audit history. The initial domain and schema
-contract is documented in `docs/DRAFT_DOMAIN_AND_SQLITE.md` and implemented by
+contract is documented in `docs/architecture/draft-domain-and-sqlite.md` and implemented by
 `db/migrations/001_initial.sql`.
 
 Projection imports must be prepared before draft night. The live application reads the last validated local projection artifact and must not call FantasyPros, FFA, or another projection provider during essential draft operation.
@@ -163,7 +195,57 @@ The TypeScript and Python sides should exchange versioned, validated artifacts o
 
 ## Success Benchmark
 
-The product succeeds when a user can run an entire real auction draft confidently from one local app: recover from a restart without losing a completed action, continue through an internet outage, record a nomination and final sale quickly, see correct budgets and rosters immediately, and receive useful league-specific recommendations fast enough to influence the next decision.
+The product north star is the Rodman Renegades' probability of winning the
+league championship. Playoff probability, expected optimal-lineup points,
+points above league average, roster ceiling, resilience, and auction surplus
+are diagnostic or intermediate measures; none replaces championship equity as
+the final objective.
+
+Before the fantasy schedule exists, use schedule-neutral championship equity:
+average over balanced simulated schedules, weekly player outcomes, and the
+confirmed four-team playoff structure. Keep three scenarios distinct:
+drafted-roster/frozen, conservative replacement access, and (once Yahoo
+transactions are available) historically calibrated active management. Do not
+assume successful trades. During the season, condition the same framework on
+actual rosters, standings, schedule, injuries, and remaining matchups.
+
+Draft recommendations must remain construction-neutral. Do not encode or
+select a named strategy such as concentrated spending, distributed spending,
+or value-first. Generate legal attainable roster completions from the current
+state and allow championship outcomes across price, projection, injury,
+volatility, and replacement-access scenarios to determine the recommendation.
+Named strategies are retrospective descriptions only.
+
+The nomination workflow must present a state-specific price decision ladder
+showing where the recommendation crosses strong pursue, lean pursue, neutral,
+lean pass, and strong pass. Each threshold must explain which roster paths,
+alternatives, or remaining-budget constraints caused the change. The complete
+plain-language presentation contract is in `docs/product/draft-decision-guide.md`.
+The live ladder evaluates a realistic market-aware price window rather than
+extending to the mathematical maximum bid. Prices above the modeled market
+range are progressively downgraded for overpay risk and lost roster
+flexibility. Until the full championship simulator is calibrated for live
+decisions, the interface shows scenario support—not the experimental
+completion-path equity span—as its primary confidence signal.
+
+Maintain a live secondary league-outlook view throughout the auction, ranking
+all ten partial rosters by the same robust, schedule-neutral championship-
+equity benchmark and realistic completion paths. Recalculate it after every
+sale; it may live in a drawer, modal, or separate page rather than occupying the
+primary nomination workspace. The Renegades' explicit draft target is first
+place on this benchmark. Show uncertainty and treat materially overlapping
+teams as close rather than manufacturing precision. At draft completion the
+same view becomes the final draft scorecard. Decision efficiency and equity
+regret remain separate supporting grades and must not alter the common league-
+wide roster-strength benchmark.
+
+The draft-night product succeeds operationally when a user can run an entire
+real auction confidently from one local app: recover from a restart without
+losing a completed action, continue through an internet outage, record a
+nomination and final sale quickly, see correct budgets and rosters immediately,
+and receive useful league-specific recommendations fast enough to influence the
+next decision. Predictive success is evaluated separately through forward-only
+historical calibration, uncertainty, and decision-policy replays.
 
 Before draft night, verify this with a full replay or simulation of a historical draft, including forced network loss, interrupted Sheets synchronization, application restart, and restoration from persisted state. The final state and transaction history must remain correct, and the user must never need live bid-by-bid entry.
 
@@ -174,7 +256,9 @@ Before draft night, verify this with a full replay or simulation of a historical
 3. Create the evidence-selected JUGG sale-price model and the separate performance-value model, with historical market comparisons, evaluation metrics, uncertainty outputs, and versioned runtime artifacts.
 4. Define the domain model and SQLite schema, including event history, state transitions, migrations, and recovery behavior.
 5. Implement and test the deterministic live draft engine: nominations, completed sales, rosters, budgets, availability, inflation, scarcity, and recalculation.
-6. Build the focused Next.js draft-night interface around the nominated-player workflow and fast final-sale entry.
+6. Build the focused Next.js draft-night interface around the nominated-player
+   workflow and fast final-sale entry, including unmistakably different preview,
+   officially nominated, and sold visual states.
 7. Add owner-tendency signals and expose their evidence and uncertainty in recommendations.
 8. Add Google Sheets write-through, retry queues, status visibility, and reconciliation without weakening local authority.
 9. Add proactive Copilot insights and grounded chat on top of stable local state and explainable model outputs.

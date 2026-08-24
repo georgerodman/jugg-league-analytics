@@ -1,7 +1,7 @@
 # Projection Data Sources
 
 The authoritative cross-source roles and player-identity contract are in
-`docs/DATA_SOURCES_AND_PLAYER_IDENTITY.md`. This document records projection
+`docs/architecture/data-sources-and-player-identity.md`. This document records projection
 provider schemas, provenance, and inventory details.
 
 ## Source roles
@@ -129,8 +129,8 @@ coverage counts alone do not establish which source is more accurate; some
 FantasyPros seasons contain a much larger long-tail player pool.
 
 Historical accuracy results and the primary-source decision are recorded in
-`docs/PROJECTION_EVALUATION.md`. Operational instructions for refreshes and new
-providers are in `docs/DATA_SOURCE_OPERATIONS.md`.
+`docs/studies/projection-evaluation.md`. Operational instructions for refreshes and new
+providers are in `docs/operations/data-source-operations.md`.
 
 ## Yahoo and ESPN ADP market markers
 

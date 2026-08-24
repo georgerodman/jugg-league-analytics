@@ -1,6 +1,6 @@
 # Historical Projection Evaluation
 
-See `docs/DATA_SOURCES_AND_PLAYER_IDENTITY.md` for the authoritative source-role
+See `docs/architecture/data-sources-and-player-identity.md` for the authoritative source-role
 and identity-matching contract. This document records the evaluation evidence
 behind the projection-source decision.
 

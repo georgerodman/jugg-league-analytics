@@ -5,7 +5,7 @@ and publication. `docs/PROJECT_SPEC.md` remains authoritative for product and
 architecture decisions.
 
 Source responsibilities and the complete identity-matching hierarchy are
-defined in `docs/DATA_SOURCES_AND_PLAYER_IDENTITY.md`. This document focuses on
+defined in `docs/architecture/data-sources-and-player-identity.md`. This document focuses on
 how to operate those pipelines.
 
 ## Source contract
@@ -188,7 +188,7 @@ Then:
    source snapshot.
 6. Compare the provider against actual outcomes on the same player-season
    cohort before changing primary/fallback policy.
-7. Update `docs/PROJECTION_DATA.md` and `docs/PROJECT_SPEC.md` if source roles or
+7. Update `docs/studies/projection-data.md` and `docs/PROJECT_SPEC.md` if source roles or
    model policy change.
 
 ## Historical rebuild and evaluation

@@ -1,0 +1,652 @@
+{
+  "metadata": {
+    "build_id": "20260824T013502Z",
+    "schema_version": 1
+  },
+  "seasons": [
+    {
+      "owners": [
+        {
+          "actual_regular_optimal_points": 1240.6,
+          "actual_week_16": 63.04,
+          "actual_week_17": 59.44,
+          "owner": "George Rodman",
+          "projected_championship_equity": 0.06,
+          "projected_playoff_equity": 0.3,
+          "projected_regular_points": 1448.63,
+          "top_three_salary_share": 0.89
+        },
+        {
+          "actual_regular_optimal_points": 1295.02,
+          "actual_week_16": 81.42,
+          "actual_week_17": 95.5,
+          "owner": "Joey Breeland",
+          "projected_championship_equity": 0.0267,
+          "projected_playoff_equity": 0.1133,
+          "projected_regular_points": 1381.52,
+          "top_three_salary_share": 0.745
+        },
+        {
+          "actual_regular_optimal_points": 1426.14,
+          "actual_week_16": 95.24,
+          "actual_week_17": 116.6,
+          "owner": "Brad Beissner",
+          "projected_championship_equity": 0.0733,
+          "projected_playoff_equity": 0.5,
+          "projected_regular_points": 1542.95,
+          "top_three_salary_share": 0.66
+        },
+        {
+          "actual_regular_optimal_points": 1515.44,
+          "actual_week_16": 73.0,
+          "actual_week_17": 107.74,
+          "owner": "Ken Moller",
+          "projected_championship_equity": 0.1133,
+          "projected_playoff_equity": 0.36,
+          "projected_regular_points": 1506.88,
+          "top_three_salary_share": 0.72
+        },
+        {
+          "actual_regular_optimal_points": 1270.94,
+          "actual_week_16": 68.1,
+          "actual_week_17": 103.3,
+          "owner": "Lee Krassner",
+          "projected_championship_equity": 0.1067,
+          "projected_playoff_equity": 0.4067,
+          "projected_regular_points": 1495.95,
+          "top_three_salary_share": 0.595
+        },
+        {
+          "actual_regular_optimal_points": 1610.78,
+          "actual_week_16": 99.18,
+          "actual_week_17": 113.08,
+          "owner": "Robbie Bagwell",
+          "projected_championship_equity": 0.0933,
+          "projected_playoff_equity": 0.38,
+          "projected_regular_points": 1489.32,
+          "top_three_salary_share": 0.58
+        },
+        {
+          "actual_regular_optimal_points": 1322.48,
+          "actual_week_16": 145.6,
+          "actual_week_17": 92.62,
+          "owner": "Phil Carr",
+          "projected_championship_equity": 0.0667,
+          "projected_playoff_equity": 0.3333,
+          "projected_regular_points": 1482.48,
+          "top_three_salary_share": 0.61
+        },
+        {
+          "actual_regular_optimal_points": 1408.62,
+          "actual_week_16": 96.72,
+          "actual_week_17": 97.78,
+          "owner": "Julius Berotte",
+          "projected_championship_equity": 0.0867,
+          "projected_playoff_equity": 0.3533,
+          "projected_regular_points": 1469.66,
+          "top_three_salary_share": 0.675
+        },
+        {
+          "actual_regular_optimal_points": 1487.34,
+          "actual_week_16": 145.72,
+          "actual_week_17": 80.96,
+          "owner": "Nate Corbett",
+          "projected_championship_equity": 0.2067,
+          "projected_playoff_equity": 0.66,
+          "projected_regular_points": 1599.52,
+          "top_three_salary_share": 0.635
+        },
+        {
+          "actual_regular_optimal_points": 1607.84,
+          "actual_week_16": 148.7,
+          "actual_week_17": 117.96,
+          "owner": "Brandon Martin",
+          "projected_championship_equity": 0.1667,
+          "projected_playoff_equity": 0.5933,
+          "projected_regular_points": 1582.81,
+          "top_three_salary_share": 0.555
+        }
+      ],
+      "season": 2020
+    },
+    {
+      "owners": [
+        {
+          "actual_regular_optimal_points": 1438.02,
+          "actual_week_16": 109.84,
+          "actual_week_17": 104.58,
+          "owner": "George Rodman",
+          "projected_championship_equity": 0.0467,
+          "projected_playoff_equity": 0.2733,
+          "projected_regular_points": 1571.19,
+          "top_three_salary_share": 0.755
+        },
+        {
+          "actual_regular_optimal_points": 1366.02,
+          "actual_week_16": 59.64,
+          "actual_week_17": 73.04,
+          "owner": "Brandon Martin",
+          "projected_championship_equity": 0.0933,
+          "projected_playoff_equity": 0.4733,
+          "projected_regular_points": 1655.0,
+          "top_three_salary_share": 0.875
+        },
+        {
+          "actual_regular_optimal_points": 1366.04,
+          "actual_week_16": 81.5,
+          "actual_week_17": 89.16,
+          "owner": "Robbie Bagwell",
+          "projected_championship_equity": 0.0667,
+          "projected_playoff_equity": 0.3467,
+          "projected_regular_points": 1593.08,
+          "top_three_salary_share": 0.765
+        },
+        {
+          "actual_regular_optimal_points": 1352.04,
+          "actual_week_16": 99.36,
+          "actual_week_17": 81.7,
+          "owner": "Lee Krassner",
+          "projected_championship_equity": 0.0933,
+          "projected_playoff_equity": 0.48,
+          "projected_regular_points": 1609.05,
+          "top_three_salary_share": 0.66
+        },
+        {
+          "actual_regular_optimal_points": 1525.68,
+          "actual_week_16": 72.3,
+          "actual_week_17": 121.3,
+          "owner": "Joey Breeland",
+          "projected_championship_equity": 0.0533,
+          "projected_playoff_equity": 0.26,
+          "projected_regular_points": 1562.31,
+          "top_three_salary_share": 0.64
+        },
+        {
+          "actual_regular_optimal_points": 1326.18,
+          "actual_week_16": 67.32,
+          "actual_week_17": 80.16,
+          "owner": "Phil Carr",
+          "projected_championship_equity": 0.1133,
+          "projected_playoff_equity": 0.44,
+          "projected_regular_points": 1625.82,
+          "top_three_salary_share": 0.625
+        },
+        {
+          "actual_regular_optimal_points": 1457.4,
+          "actual_week_16": 98.66,
+          "actual_week_17": 75.8,
+          "owner": "Ken Moller",
+          "projected_championship_equity": 0.16,
+          "projected_playoff_equity": 0.4733,
+          "projected_regular_points": 1641.26,
+          "top_three_salary_share": 0.685
+        },
+        {
+          "actual_regular_optimal_points": 1329.66,
+          "actual_week_16": 108.6,
+          "actual_week_17": 97.02,
+          "owner": "Nate Corbett",
+          "projected_championship_equity": 0.06,
+          "projected_playoff_equity": 0.3,
+          "projected_regular_points": 1581.42,
+          "top_three_salary_share": 0.635
+        },
+        {
+          "actual_regular_optimal_points": 1438.0,
+          "actual_week_16": 89.6,
+          "actual_week_17": 98.34,
+          "owner": "Julius Berotte",
+          "projected_championship_equity": 0.1733,
+          "projected_playoff_equity": 0.52,
+          "projected_regular_points": 1657.59,
+          "top_three_salary_share": 0.525
+        },
+        {
+          "actual_regular_optimal_points": 1400.0,
+          "actual_week_16": 69.66,
+          "actual_week_17": 115.56,
+          "owner": "Brad Beissner",
+          "projected_championship_equity": 0.14,
+          "projected_playoff_equity": 0.4333,
+          "projected_regular_points": 1627.49,
+          "top_three_salary_share": 0.53
+        }
+      ],
+      "season": 2021
+    },
+    {
+      "owners": [
+        {
+          "actual_regular_optimal_points": 1164.3,
+          "actual_week_16": 93.78,
+          "actual_week_17": 66.58,
+          "owner": "Brandon Martin",
+          "projected_championship_equity": 0.1867,
+          "projected_playoff_equity": 0.58,
+          "projected_regular_points": 1666.56,
+          "top_three_salary_share": 0.905
+        },
+        {
+          "actual_regular_optimal_points": 1367.12,
+          "actual_week_16": 89.7,
+          "actual_week_17": 88.68,
+          "owner": "Phil Carr",
+          "projected_championship_equity": 0.0667,
+          "projected_playoff_equity": 0.2733,
+          "projected_regular_points": 1536.2,
+          "top_three_salary_share": 0.76
+        },
+        {
+          "actual_regular_optimal_points": 1396.4,
+          "actual_week_16": 84.16,
+          "actual_week_17": 68.22,
+          "owner": "Nate Corbett",
+          "projected_championship_equity": 0.12,
+          "projected_playoff_equity": 0.4267,
+          "projected_regular_points": 1593.81,
+          "top_three_salary_share": 0.645
+        },
+        {
+          "actual_regular_optimal_points": 1231.98,
+          "actual_week_16": 100.74,
+          "actual_week_17": 141.68,
+          "owner": "George Rodman",
+          "projected_championship_equity": 0.08,
+          "projected_playoff_equity": 0.32,
+          "projected_regular_points": 1581.21,
+          "top_three_salary_share": 0.745
+        },
+        {
+          "actual_regular_optimal_points": 1321.72,
+          "actual_week_16": 80.3,
+          "actual_week_17": 83.7,
+          "owner": "Ken Moller",
+          "projected_championship_equity": 0.0067,
+          "projected_playoff_equity": 0.1267,
+          "projected_regular_points": 1473.76,
+          "top_three_salary_share": 0.63
+        },
+        {
+          "actual_regular_optimal_points": 1355.48,
+          "actual_week_16": 96.18,
+          "actual_week_17": 50.1,
+          "owner": "Robbie Bagwell",
+          "projected_championship_equity": 0.1,
+          "projected_playoff_equity": 0.44,
+          "projected_regular_points": 1615.69,
+          "top_three_salary_share": 0.61
+        },
+        {
+          "actual_regular_optimal_points": 1402.22,
+          "actual_week_16": 103.0,
+          "actual_week_17": 101.88,
+          "owner": "Brad Beissner",
+          "projected_championship_equity": 0.12,
+          "projected_playoff_equity": 0.5267,
+          "projected_regular_points": 1646.74,
+          "top_three_salary_share": 0.66
+        },
+        {
+          "actual_regular_optimal_points": 1564.78,
+          "actual_week_16": 73.9,
+          "actual_week_17": 84.5,
+          "owner": "Lee Krassner",
+          "projected_championship_equity": 0.14,
+          "projected_playoff_equity": 0.4533,
+          "projected_regular_points": 1628.11,
+          "top_three_salary_share": 0.58
+        },
+        {
+          "actual_regular_optimal_points": 1532.3,
+          "actual_week_16": 108.8,
+          "actual_week_17": 75.16,
+          "owner": "Julius Berotte",
+          "projected_championship_equity": 0.1133,
+          "projected_playoff_equity": 0.4467,
+          "projected_regular_points": 1622.07,
+          "top_three_salary_share": 0.6
+        },
+        {
+          "actual_regular_optimal_points": 1409.38,
+          "actual_week_16": 61.4,
+          "actual_week_17": 69.0,
+          "owner": "Joey Breeland",
+          "projected_championship_equity": 0.0667,
+          "projected_playoff_equity": 0.4067,
+          "projected_regular_points": 1609.41,
+          "top_three_salary_share": 0.44
+        }
+      ],
+      "season": 2022
+    },
+    {
+      "owners": [
+        {
+          "actual_regular_optimal_points": 1412.66,
+          "actual_week_16": 68.3,
+          "actual_week_17": 75.5,
+          "owner": "George Rodman",
+          "projected_championship_equity": 0.04,
+          "projected_playoff_equity": 0.26,
+          "projected_regular_points": 1425.24,
+          "top_three_salary_share": 0.715
+        },
+        {
+          "actual_regular_optimal_points": 1603.2,
+          "actual_week_16": 134.84,
+          "actual_week_17": 92.98,
+          "owner": "Ken Moller",
+          "projected_championship_equity": 0.2267,
+          "projected_playoff_equity": 0.6667,
+          "projected_regular_points": 1580.85,
+          "top_three_salary_share": 0.605
+        },
+        {
+          "actual_regular_optimal_points": 1307.36,
+          "actual_week_16": 92.78,
+          "actual_week_17": 113.44,
+          "owner": "Joey Breeland",
+          "projected_championship_equity": 0.1267,
+          "projected_playoff_equity": 0.3933,
+          "projected_regular_points": 1471.31,
+          "top_three_salary_share": 0.635
+        },
+        {
+          "actual_regular_optimal_points": 1427.22,
+          "actual_week_16": 114.82,
+          "actual_week_17": 72.0,
+          "owner": "Lee Krassner",
+          "projected_championship_equity": 0.16,
+          "projected_playoff_equity": 0.6,
+          "projected_regular_points": 1550.84,
+          "top_three_salary_share": 0.64
+        },
+        {
+          "actual_regular_optimal_points": 1230.6,
+          "actual_week_16": 110.74,
+          "actual_week_17": 88.18,
+          "owner": "Julius Berotte",
+          "projected_championship_equity": 0.0667,
+          "projected_playoff_equity": 0.2333,
+          "projected_regular_points": 1410.48,
+          "top_three_salary_share": 0.775
+        },
+        {
+          "actual_regular_optimal_points": 1301.54,
+          "actual_week_16": 92.28,
+          "actual_week_17": 89.46,
+          "owner": "Robbie Bagwell",
+          "projected_championship_equity": 0.06,
+          "projected_playoff_equity": 0.3467,
+          "projected_regular_points": 1457.38,
+          "top_three_salary_share": 0.745
+        },
+        {
+          "actual_regular_optimal_points": 1394.26,
+          "actual_week_16": 52.2,
+          "actual_week_17": 72.5,
+          "owner": "Brad Beissner",
+          "projected_championship_equity": 0.06,
+          "projected_playoff_equity": 0.3867,
+          "projected_regular_points": 1456.75,
+          "top_three_salary_share": 0.64
+        },
+        {
+          "actual_regular_optimal_points": 1250.7,
+          "actual_week_16": 104.3,
+          "actual_week_17": 54.5,
+          "owner": "Phil Carr",
+          "projected_championship_equity": 0.04,
+          "projected_playoff_equity": 0.3,
+          "projected_regular_points": 1434.91,
+          "top_three_salary_share": 0.72
+        },
+        {
+          "actual_regular_optimal_points": 1271.04,
+          "actual_week_16": 107.2,
+          "actual_week_17": 106.52,
+          "owner": "Nate Corbett",
+          "projected_championship_equity": 0.12,
+          "projected_playoff_equity": 0.5067,
+          "projected_regular_points": 1494.79,
+          "top_three_salary_share": 0.545
+        },
+        {
+          "actual_regular_optimal_points": 1288.42,
+          "actual_week_16": 80.3,
+          "actual_week_17": 114.3,
+          "owner": "Brandon Martin",
+          "projected_championship_equity": 0.1,
+          "projected_playoff_equity": 0.3067,
+          "projected_regular_points": 1464.9,
+          "top_three_salary_share": 0.595
+        }
+      ],
+      "season": 2023
+    },
+    {
+      "owners": [
+        {
+          "actual_regular_optimal_points": 1355.6,
+          "actual_week_16": 74.58,
+          "actual_week_17": 94.12,
+          "owner": "George Rodman",
+          "projected_championship_equity": 0.1267,
+          "projected_playoff_equity": 0.5,
+          "projected_regular_points": 1614.83,
+          "top_three_salary_share": 0.715
+        },
+        {
+          "actual_regular_optimal_points": 1233.32,
+          "actual_week_16": 99.9,
+          "actual_week_17": 90.3,
+          "owner": "Phil Carr",
+          "projected_championship_equity": 0.06,
+          "projected_playoff_equity": 0.3267,
+          "projected_regular_points": 1521.09,
+          "top_three_salary_share": 0.72
+        },
+        {
+          "actual_regular_optimal_points": 1417.88,
+          "actual_week_16": 109.98,
+          "actual_week_17": 112.18,
+          "owner": "Joey Breeland",
+          "projected_championship_equity": 0.1,
+          "projected_playoff_equity": 0.3867,
+          "projected_regular_points": 1567.78,
+          "top_three_salary_share": 0.67
+        },
+        {
+          "actual_regular_optimal_points": 1413.96,
+          "actual_week_16": 126.52,
+          "actual_week_17": 126.28,
+          "owner": "Ken Moller",
+          "projected_championship_equity": 0.0533,
+          "projected_playoff_equity": 0.3467,
+          "projected_regular_points": 1530.54,
+          "top_three_salary_share": 0.75
+        },
+        {
+          "actual_regular_optimal_points": 1577.68,
+          "actual_week_16": 104.54,
+          "actual_week_17": 72.08,
+          "owner": "Julius Berotte",
+          "projected_championship_equity": 0.08,
+          "projected_playoff_equity": 0.4,
+          "projected_regular_points": 1557.24,
+          "top_three_salary_share": 0.66
+        },
+        {
+          "actual_regular_optimal_points": 1474.44,
+          "actual_week_16": 112.58,
+          "actual_week_17": 80.24,
+          "owner": "Robbie Bagwell",
+          "projected_championship_equity": 0.0733,
+          "projected_playoff_equity": 0.2733,
+          "projected_regular_points": 1521.05,
+          "top_three_salary_share": 0.63
+        },
+        {
+          "actual_regular_optimal_points": 1397.64,
+          "actual_week_16": 97.62,
+          "actual_week_17": 93.78,
+          "owner": "Brandon Martin",
+          "projected_championship_equity": 0.2267,
+          "projected_playoff_equity": 0.6333,
+          "projected_regular_points": 1651.56,
+          "top_three_salary_share": 0.65
+        },
+        {
+          "actual_regular_optimal_points": 1352.2,
+          "actual_week_16": 109.74,
+          "actual_week_17": 83.5,
+          "owner": "Lee Krassner",
+          "projected_championship_equity": 0.0733,
+          "projected_playoff_equity": 0.32,
+          "projected_regular_points": 1526.84,
+          "top_three_salary_share": 0.545
+        },
+        {
+          "actual_regular_optimal_points": 1334.22,
+          "actual_week_16": 95.7,
+          "actual_week_17": 121.3,
+          "owner": "Nate Corbett",
+          "projected_championship_equity": 0.04,
+          "projected_playoff_equity": 0.2933,
+          "projected_regular_points": 1518.39,
+          "top_three_salary_share": 0.57
+        },
+        {
+          "actual_regular_optimal_points": 1395.6,
+          "actual_week_16": 100.76,
+          "actual_week_17": 80.0,
+          "owner": "Brad Beissner",
+          "projected_championship_equity": 0.1667,
+          "projected_playoff_equity": 0.52,
+          "projected_regular_points": 1623.99,
+          "top_three_salary_share": 0.49
+        }
+      ],
+      "season": 2024
+    },
+    {
+      "owners": [
+        {
+          "actual_regular_optimal_points": 1172.56,
+          "actual_week_16": 118.16,
+          "actual_week_17": 133.7,
+          "owner": "Ken Moller",
+          "projected_championship_equity": 0.1133,
+          "projected_playoff_equity": 0.3867,
+          "projected_regular_points": 1684.85,
+          "top_three_salary_share": 0.64
+        },
+        {
+          "actual_regular_optimal_points": 1270.78,
+          "actual_week_16": 72.74,
+          "actual_week_17": 73.7,
+          "owner": "Julius Berotte",
+          "projected_championship_equity": 0.0467,
+          "projected_playoff_equity": 0.3333,
+          "projected_regular_points": 1661.93,
+          "top_three_salary_share": 0.71
+        },
+        {
+          "actual_regular_optimal_points": 1637.46,
+          "actual_week_16": 119.06,
+          "actual_week_17": 86.42,
+          "owner": "Brandon Martin",
+          "projected_championship_equity": 0.2333,
+          "projected_playoff_equity": 0.6667,
+          "projected_regular_points": 1819.5,
+          "top_three_salary_share": 0.755
+        },
+        {
+          "actual_regular_optimal_points": 1241.48,
+          "actual_week_16": 110.1,
+          "actual_week_17": 84.5,
+          "owner": "Brad Beissner",
+          "projected_championship_equity": 0.06,
+          "projected_playoff_equity": 0.2267,
+          "projected_regular_points": 1642.09,
+          "top_three_salary_share": 0.725
+        },
+        {
+          "actual_regular_optimal_points": 1643.82,
+          "actual_week_16": 108.56,
+          "actual_week_17": 111.78,
+          "owner": "Lee Krassner",
+          "projected_championship_equity": 0.1,
+          "projected_playoff_equity": 0.3467,
+          "projected_regular_points": 1706.73,
+          "top_three_salary_share": 0.725
+        },
+        {
+          "actual_regular_optimal_points": 1794.24,
+          "actual_week_16": 86.3,
+          "actual_week_17": 90.04,
+          "owner": "Robbie Bagwell",
+          "projected_championship_equity": 0.14,
+          "projected_playoff_equity": 0.4667,
+          "projected_regular_points": 1735.01,
+          "top_three_salary_share": 0.7
+        },
+        {
+          "actual_regular_optimal_points": 1284.58,
+          "actual_week_16": 118.2,
+          "actual_week_17": 108.54,
+          "owner": "George Rodman",
+          "projected_championship_equity": 0.0867,
+          "projected_playoff_equity": 0.4467,
+          "projected_regular_points": 1744.78,
+          "top_three_salary_share": 0.725
+        },
+        {
+          "actual_regular_optimal_points": 1487.24,
+          "actual_week_16": 104.58,
+          "actual_week_17": 74.78,
+          "owner": "Joey Breeland",
+          "projected_championship_equity": 0.0867,
+          "projected_playoff_equity": 0.3467,
+          "projected_regular_points": 1689.84,
+          "top_three_salary_share": 0.665
+        },
+        {
+          "actual_regular_optimal_points": 1617.14,
+          "actual_week_16": 106.7,
+          "actual_week_17": 79.68,
+          "owner": "Nate Corbett",
+          "projected_championship_equity": 0.0733,
+          "projected_playoff_equity": 0.4267,
+          "projected_regular_points": 1730.67,
+          "top_three_salary_share": 0.58
+        },
+        {
+          "actual_regular_optimal_points": 1112.3,
+          "actual_week_16": 71.7,
+          "actual_week_17": 53.9,
+          "owner": "Phil Carr",
+          "projected_championship_equity": 0.06,
+          "projected_playoff_equity": 0.3533,
+          "projected_regular_points": 1694.12,
+          "top_three_salary_share": 0.62
+        }
+      ],
+      "season": 2025
+    }
+  ],
+  "summary": {
+    "owner_seasons": 60,
+    "position_weekly_cv": {
+      "DEF": 0.6802,
+      "K": 0.5107,
+      "QB": 0.5795,
+      "RB": 0.9672,
+      "TE": 1.0343,
+      "WR": 0.9424
+    },
+    "projected_vs_actual_optimal_points_correlation": 0.3032,
+    "season_count": 6,
+    "simulations_per_season": 150
+  }
+}

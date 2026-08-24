@@ -1,0 +1,1055 @@
+{
+  "metadata": {
+    "build_id": "20260824T024654Z",
+    "schema_version": 1
+  },
+  "seasons": [
+    {
+      "owners": [
+        {
+          "actual_regular_optimal_points": 1240.6,
+          "actual_week_16": 63.04,
+          "actual_week_17": 59.44,
+          "owner": "George Rodman",
+          "projected_championship_equity": 0.0668,
+          "projected_deterministic_regular_points": 1263.68,
+          "projected_playoff_equity": 0.2976,
+          "projected_regular_points": 1465.95,
+          "projection_source_regular_points": {
+            "ensemble": 1291.1,
+            "fantasypros": 1263.68,
+            "ffa_fallback": 1318.69
+          },
+          "top_three_salary_share": 0.89
+        },
+        {
+          "actual_regular_optimal_points": 1295.02,
+          "actual_week_16": 81.42,
+          "actual_week_17": 95.5,
+          "owner": "Joey Breeland",
+          "projected_championship_equity": 0.0224,
+          "projected_deterministic_regular_points": 1144.23,
+          "projected_playoff_equity": 0.118,
+          "projected_regular_points": 1377.2,
+          "projection_source_regular_points": {
+            "ensemble": 1168.43,
+            "fantasypros": 1144.23,
+            "ffa_fallback": 1192.83
+          },
+          "top_three_salary_share": 0.745
+        },
+        {
+          "actual_regular_optimal_points": 1426.14,
+          "actual_week_16": 95.24,
+          "actual_week_17": 116.6,
+          "owner": "Brad Beissner",
+          "projected_championship_equity": 0.1408,
+          "projected_deterministic_regular_points": 1278.01,
+          "projected_playoff_equity": 0.506,
+          "projected_regular_points": 1530.11,
+          "projection_source_regular_points": {
+            "ensemble": 1305.16,
+            "fantasypros": 1278.01,
+            "ffa_fallback": 1333.64
+          },
+          "top_three_salary_share": 0.66
+        },
+        {
+          "actual_regular_optimal_points": 1515.44,
+          "actual_week_16": 73.0,
+          "actual_week_17": 107.74,
+          "owner": "Ken Moller",
+          "projected_championship_equity": 0.1132,
+          "projected_deterministic_regular_points": 1265.62,
+          "projected_playoff_equity": 0.4432,
+          "projected_regular_points": 1512.5,
+          "projection_source_regular_points": {
+            "ensemble": 1289.24,
+            "fantasypros": 1265.62,
+            "ffa_fallback": 1312.87
+          },
+          "top_three_salary_share": 0.72
+        },
+        {
+          "actual_regular_optimal_points": 1270.94,
+          "actual_week_16": 68.1,
+          "actual_week_17": 103.3,
+          "owner": "Lee Krassner",
+          "projected_championship_equity": 0.07,
+          "projected_deterministic_regular_points": 1231.5,
+          "projected_playoff_equity": 0.342,
+          "projected_regular_points": 1478.94,
+          "projection_source_regular_points": {
+            "ensemble": 1256.38,
+            "fantasypros": 1231.5,
+            "ffa_fallback": 1281.25
+          },
+          "top_three_salary_share": 0.595
+        },
+        {
+          "actual_regular_optimal_points": 1610.78,
+          "actual_week_16": 99.18,
+          "actual_week_17": 113.08,
+          "owner": "Robbie Bagwell",
+          "projected_championship_equity": 0.0592,
+          "projected_deterministic_regular_points": 1235.8,
+          "projected_playoff_equity": 0.3008,
+          "projected_regular_points": 1461.83,
+          "projection_source_regular_points": {
+            "ensemble": 1259.33,
+            "fantasypros": 1235.8,
+            "ffa_fallback": 1282.84
+          },
+          "top_three_salary_share": 0.58
+        },
+        {
+          "actual_regular_optimal_points": 1322.48,
+          "actual_week_16": 145.6,
+          "actual_week_17": 92.62,
+          "owner": "Phil Carr",
+          "projected_championship_equity": 0.0644,
+          "projected_deterministic_regular_points": 1213.57,
+          "projected_playoff_equity": 0.3396,
+          "projected_regular_points": 1480.47,
+          "projection_source_regular_points": {
+            "ensemble": 1231.65,
+            "fantasypros": 1213.57,
+            "ffa_fallback": 1249.73
+          },
+          "top_three_salary_share": 0.61
+        },
+        {
+          "actual_regular_optimal_points": 1408.62,
+          "actual_week_16": 96.72,
+          "actual_week_17": 97.78,
+          "owner": "Julius Berotte",
+          "projected_championship_equity": 0.072,
+          "projected_deterministic_regular_points": 1248.55,
+          "projected_playoff_equity": 0.3384,
+          "projected_regular_points": 1470.86,
+          "projection_source_regular_points": {
+            "ensemble": 1268.14,
+            "fantasypros": 1248.55,
+            "ffa_fallback": 1287.74
+          },
+          "top_three_salary_share": 0.675
+        },
+        {
+          "actual_regular_optimal_points": 1487.34,
+          "actual_week_16": 145.72,
+          "actual_week_17": 80.96,
+          "owner": "Nate Corbett",
+          "projected_championship_equity": 0.21,
+          "projected_deterministic_regular_points": 1245.45,
+          "projected_playoff_equity": 0.6824,
+          "projected_regular_points": 1587.0,
+          "projection_source_regular_points": {
+            "ensemble": 1270.89,
+            "fantasypros": 1245.45,
+            "ffa_fallback": 1299.46
+          },
+          "top_three_salary_share": 0.635
+        },
+        {
+          "actual_regular_optimal_points": 1607.84,
+          "actual_week_16": 148.7,
+          "actual_week_17": 117.96,
+          "owner": "Brandon Martin",
+          "projected_championship_equity": 0.1812,
+          "projected_deterministic_regular_points": 1248.25,
+          "projected_playoff_equity": 0.632,
+          "projected_regular_points": 1570.16,
+          "projection_source_regular_points": {
+            "ensemble": 1264.95,
+            "fantasypros": 1248.25,
+            "ffa_fallback": 1281.7
+          },
+          "top_three_salary_share": 0.555
+        }
+      ],
+      "season": 2020
+    },
+    {
+      "owners": [
+        {
+          "actual_regular_optimal_points": 1438.02,
+          "actual_week_16": 109.84,
+          "actual_week_17": 104.58,
+          "owner": "George Rodman",
+          "projected_championship_equity": 0.0696,
+          "projected_deterministic_regular_points": 1395.51,
+          "projected_playoff_equity": 0.2796,
+          "projected_regular_points": 1624.28,
+          "projection_source_regular_points": {
+            "ensemble": 1424.28,
+            "fantasypros": 1395.51,
+            "ffa_fallback": 1453.88
+          },
+          "top_three_salary_share": 0.755
+        },
+        {
+          "actual_regular_optimal_points": 1366.02,
+          "actual_week_16": 59.64,
+          "actual_week_17": 73.04,
+          "owner": "Brandon Martin",
+          "projected_championship_equity": 0.1328,
+          "projected_deterministic_regular_points": 1451.58,
+          "projected_playoff_equity": 0.5032,
+          "projected_regular_points": 1697.4,
+          "projection_source_regular_points": {
+            "ensemble": 1481.67,
+            "fantasypros": 1451.58,
+            "ffa_fallback": 1512.04
+          },
+          "top_three_salary_share": 0.875
+        },
+        {
+          "actual_regular_optimal_points": 1366.04,
+          "actual_week_16": 81.5,
+          "actual_week_17": 89.16,
+          "owner": "Robbie Bagwell",
+          "projected_championship_equity": 0.0576,
+          "projected_deterministic_regular_points": 1311.95,
+          "projected_playoff_equity": 0.3268,
+          "projected_regular_points": 1630.89,
+          "projection_source_regular_points": {
+            "ensemble": 1345.57,
+            "fantasypros": 1311.95,
+            "ffa_fallback": 1379.75
+          },
+          "top_three_salary_share": 0.765
+        },
+        {
+          "actual_regular_optimal_points": 1352.04,
+          "actual_week_16": 99.36,
+          "actual_week_17": 81.7,
+          "owner": "Lee Krassner",
+          "projected_championship_equity": 0.0964,
+          "projected_deterministic_regular_points": 1322.64,
+          "projected_playoff_equity": 0.4232,
+          "projected_regular_points": 1673.86,
+          "projection_source_regular_points": {
+            "ensemble": 1348.75,
+            "fantasypros": 1322.64,
+            "ffa_fallback": 1375.13
+          },
+          "top_three_salary_share": 0.66
+        },
+        {
+          "actual_regular_optimal_points": 1525.68,
+          "actual_week_16": 72.3,
+          "actual_week_17": 121.3,
+          "owner": "Joey Breeland",
+          "projected_championship_equity": 0.048,
+          "projected_deterministic_regular_points": 1311.01,
+          "projected_playoff_equity": 0.2564,
+          "projected_regular_points": 1593.53,
+          "projection_source_regular_points": {
+            "ensemble": 1331.21,
+            "fantasypros": 1311.01,
+            "ffa_fallback": 1351.95
+          },
+          "top_three_salary_share": 0.64
+        },
+        {
+          "actual_regular_optimal_points": 1326.18,
+          "actual_week_16": 67.32,
+          "actual_week_17": 80.16,
+          "owner": "Phil Carr",
+          "projected_championship_equity": 0.0916,
+          "projected_deterministic_regular_points": 1392.15,
+          "projected_playoff_equity": 0.4092,
+          "projected_regular_points": 1665.03,
+          "projection_source_regular_points": {
+            "ensemble": 1420.46,
+            "fantasypros": 1392.15,
+            "ffa_fallback": 1448.77
+          },
+          "top_three_salary_share": 0.625
+        },
+        {
+          "actual_regular_optimal_points": 1457.4,
+          "actual_week_16": 98.66,
+          "actual_week_17": 75.8,
+          "owner": "Ken Moller",
+          "projected_championship_equity": 0.1728,
+          "projected_deterministic_regular_points": 1418.62,
+          "projected_playoff_equity": 0.5264,
+          "projected_regular_points": 1701.13,
+          "projection_source_regular_points": {
+            "ensemble": 1437.15,
+            "fantasypros": 1418.62,
+            "ffa_fallback": 1455.68
+          },
+          "top_three_salary_share": 0.685
+        },
+        {
+          "actual_regular_optimal_points": 1329.66,
+          "actual_week_16": 108.6,
+          "actual_week_17": 97.02,
+          "owner": "Nate Corbett",
+          "projected_championship_equity": 0.0528,
+          "projected_deterministic_regular_points": 1373.42,
+          "projected_playoff_equity": 0.2956,
+          "projected_regular_points": 1613.9,
+          "projection_source_regular_points": {
+            "ensemble": 1384.44,
+            "fantasypros": 1373.42,
+            "ffa_fallback": 1396.32
+          },
+          "top_three_salary_share": 0.635
+        },
+        {
+          "actual_regular_optimal_points": 1438.0,
+          "actual_week_16": 89.6,
+          "actual_week_17": 98.34,
+          "owner": "Julius Berotte",
+          "projected_championship_equity": 0.1936,
+          "projected_deterministic_regular_points": 1313.64,
+          "projected_playoff_equity": 0.5988,
+          "projected_regular_points": 1722.5,
+          "projection_source_regular_points": {
+            "ensemble": 1324.16,
+            "fantasypros": 1313.64,
+            "ffa_fallback": 1337.33
+          },
+          "top_three_salary_share": 0.525
+        },
+        {
+          "actual_regular_optimal_points": 1400.0,
+          "actual_week_16": 69.66,
+          "actual_week_17": 115.56,
+          "owner": "Brad Beissner",
+          "projected_championship_equity": 0.0848,
+          "projected_deterministic_regular_points": 1309.04,
+          "projected_playoff_equity": 0.3808,
+          "projected_regular_points": 1650.56,
+          "projection_source_regular_points": {
+            "ensemble": 1328.04,
+            "fantasypros": 1309.04,
+            "ffa_fallback": 1348.84
+          },
+          "top_three_salary_share": 0.53
+        }
+      ],
+      "season": 2021
+    },
+    {
+      "owners": [
+        {
+          "actual_regular_optimal_points": 1164.3,
+          "actual_week_16": 93.78,
+          "actual_week_17": 66.58,
+          "owner": "Brandon Martin",
+          "projected_championship_equity": 0.1572,
+          "projected_deterministic_regular_points": 1445.83,
+          "projected_playoff_equity": 0.5644,
+          "projected_regular_points": 1707.18,
+          "projection_source_regular_points": {
+            "ensemble": 1449.47,
+            "fantasypros": 1445.83,
+            "ffa_fallback": 1453.65
+          },
+          "top_three_salary_share": 0.905
+        },
+        {
+          "actual_regular_optimal_points": 1367.12,
+          "actual_week_16": 89.7,
+          "actual_week_17": 88.68,
+          "owner": "Phil Carr",
+          "projected_championship_equity": 0.054,
+          "projected_deterministic_regular_points": 1367.19,
+          "projected_playoff_equity": 0.2688,
+          "projected_regular_points": 1593.07,
+          "projection_source_regular_points": {
+            "ensemble": 1366.72,
+            "fantasypros": 1367.19,
+            "ffa_fallback": 1368.09
+          },
+          "top_three_salary_share": 0.76
+        },
+        {
+          "actual_regular_optimal_points": 1396.4,
+          "actual_week_16": 84.16,
+          "actual_week_17": 68.22,
+          "owner": "Nate Corbett",
+          "projected_championship_equity": 0.1932,
+          "projected_deterministic_regular_points": 1306.94,
+          "projected_playoff_equity": 0.6352,
+          "projected_regular_points": 1727.63,
+          "projection_source_regular_points": {
+            "ensemble": 1326.94,
+            "fantasypros": 1306.94,
+            "ffa_fallback": 1347.27
+          },
+          "top_three_salary_share": 0.645
+        },
+        {
+          "actual_regular_optimal_points": 1231.98,
+          "actual_week_16": 100.74,
+          "actual_week_17": 141.68,
+          "owner": "George Rodman",
+          "projected_championship_equity": 0.0744,
+          "projected_deterministic_regular_points": 1365.43,
+          "projected_playoff_equity": 0.3296,
+          "projected_regular_points": 1607.51,
+          "projection_source_regular_points": {
+            "ensemble": 1368.78,
+            "fantasypros": 1365.43,
+            "ffa_fallback": 1372.36
+          },
+          "top_three_salary_share": 0.745
+        },
+        {
+          "actual_regular_optimal_points": 1321.72,
+          "actual_week_16": 80.3,
+          "actual_week_17": 83.7,
+          "owner": "Ken Moller",
+          "projected_championship_equity": 0.0112,
+          "projected_deterministic_regular_points": 1280.57,
+          "projected_playoff_equity": 0.1096,
+          "projected_regular_points": 1501.37,
+          "projection_source_regular_points": {
+            "ensemble": 1304.06,
+            "fantasypros": 1280.57,
+            "ffa_fallback": 1327.81
+          },
+          "top_three_salary_share": 0.63
+        },
+        {
+          "actual_regular_optimal_points": 1355.48,
+          "actual_week_16": 96.18,
+          "actual_week_17": 50.1,
+          "owner": "Robbie Bagwell",
+          "projected_championship_equity": 0.09,
+          "projected_deterministic_regular_points": 1324.23,
+          "projected_playoff_equity": 0.3724,
+          "projected_regular_points": 1633.61,
+          "projection_source_regular_points": {
+            "ensemble": 1340.15,
+            "fantasypros": 1324.23,
+            "ffa_fallback": 1356.55
+          },
+          "top_three_salary_share": 0.61
+        },
+        {
+          "actual_regular_optimal_points": 1402.22,
+          "actual_week_16": 103.0,
+          "actual_week_17": 101.88,
+          "owner": "Brad Beissner",
+          "projected_championship_equity": 0.114,
+          "projected_deterministic_regular_points": 1344.98,
+          "projected_playoff_equity": 0.4632,
+          "projected_regular_points": 1657.11,
+          "projection_source_regular_points": {
+            "ensemble": 1361.73,
+            "fantasypros": 1344.98,
+            "ffa_fallback": 1379.15
+          },
+          "top_three_salary_share": 0.66
+        },
+        {
+          "actual_regular_optimal_points": 1564.78,
+          "actual_week_16": 73.9,
+          "actual_week_17": 84.5,
+          "owner": "Lee Krassner",
+          "projected_championship_equity": 0.118,
+          "projected_deterministic_regular_points": 1319.32,
+          "projected_playoff_equity": 0.4548,
+          "projected_regular_points": 1671.8,
+          "projection_source_regular_points": {
+            "ensemble": 1330.77,
+            "fantasypros": 1319.32,
+            "ffa_fallback": 1343.1
+          },
+          "top_three_salary_share": 0.58
+        },
+        {
+          "actual_regular_optimal_points": 1532.3,
+          "actual_week_16": 108.8,
+          "actual_week_17": 75.16,
+          "owner": "Julius Berotte",
+          "projected_championship_equity": 0.1152,
+          "projected_deterministic_regular_points": 1333.08,
+          "projected_playoff_equity": 0.474,
+          "projected_regular_points": 1658.72,
+          "projection_source_regular_points": {
+            "ensemble": 1350.57,
+            "fantasypros": 1333.08,
+            "ffa_fallback": 1370.4
+          },
+          "top_three_salary_share": 0.6
+        },
+        {
+          "actual_regular_optimal_points": 1409.38,
+          "actual_week_16": 61.4,
+          "actual_week_17": 69.0,
+          "owner": "Joey Breeland",
+          "projected_championship_equity": 0.0728,
+          "projected_deterministic_regular_points": 1306.97,
+          "projected_playoff_equity": 0.328,
+          "projected_regular_points": 1613.04,
+          "projection_source_regular_points": {
+            "ensemble": 1316.37,
+            "fantasypros": 1306.97,
+            "ffa_fallback": 1326.53
+          },
+          "top_three_salary_share": 0.44
+        }
+      ],
+      "season": 2022
+    },
+    {
+      "owners": [
+        {
+          "actual_regular_optimal_points": 1412.66,
+          "actual_week_16": 68.3,
+          "actual_week_17": 75.5,
+          "owner": "George Rodman",
+          "projected_championship_equity": 0.0392,
+          "projected_deterministic_regular_points": 1233.54,
+          "projected_playoff_equity": 0.232,
+          "projected_regular_points": 1439.01,
+          "projection_source_regular_points": {
+            "ensemble": 1261.37,
+            "fantasypros": 1233.54,
+            "ffa_fallback": 1290.54
+          },
+          "top_three_salary_share": 0.715
+        },
+        {
+          "actual_regular_optimal_points": 1603.2,
+          "actual_week_16": 134.84,
+          "actual_week_17": 92.98,
+          "owner": "Ken Moller",
+          "projected_championship_equity": 0.2212,
+          "projected_deterministic_regular_points": 1328.26,
+          "projected_playoff_equity": 0.7012,
+          "projected_regular_points": 1609.29,
+          "projection_source_regular_points": {
+            "ensemble": 1337.89,
+            "fantasypros": 1328.26,
+            "ffa_fallback": 1355.9
+          },
+          "top_three_salary_share": 0.605
+        },
+        {
+          "actual_regular_optimal_points": 1307.36,
+          "actual_week_16": 92.78,
+          "actual_week_17": 113.44,
+          "owner": "Joey Breeland",
+          "projected_championship_equity": 0.0816,
+          "projected_deterministic_regular_points": 1273.03,
+          "projected_playoff_equity": 0.378,
+          "projected_regular_points": 1494.33,
+          "projection_source_regular_points": {
+            "ensemble": 1282.24,
+            "fantasypros": 1273.03,
+            "ffa_fallback": 1297.9
+          },
+          "top_three_salary_share": 0.635
+        },
+        {
+          "actual_regular_optimal_points": 1427.22,
+          "actual_week_16": 114.82,
+          "actual_week_17": 72.0,
+          "owner": "Lee Krassner",
+          "projected_championship_equity": 0.2136,
+          "projected_deterministic_regular_points": 1276.85,
+          "projected_playoff_equity": 0.6452,
+          "projected_regular_points": 1581.49,
+          "projection_source_regular_points": {
+            "ensemble": 1292.94,
+            "fantasypros": 1276.85,
+            "ffa_fallback": 1311.28
+          },
+          "top_three_salary_share": 0.64
+        },
+        {
+          "actual_regular_optimal_points": 1230.6,
+          "actual_week_16": 110.74,
+          "actual_week_17": 88.18,
+          "owner": "Julius Berotte",
+          "projected_championship_equity": 0.0336,
+          "projected_deterministic_regular_points": 1235.56,
+          "projected_playoff_equity": 0.2016,
+          "projected_regular_points": 1426.08,
+          "projection_source_regular_points": {
+            "ensemble": 1270.35,
+            "fantasypros": 1235.56,
+            "ffa_fallback": 1305.14
+          },
+          "top_three_salary_share": 0.775
+        },
+        {
+          "actual_regular_optimal_points": 1301.54,
+          "actual_week_16": 92.28,
+          "actual_week_17": 89.46,
+          "owner": "Robbie Bagwell",
+          "projected_championship_equity": 0.0596,
+          "projected_deterministic_regular_points": 1281.26,
+          "projected_playoff_equity": 0.3188,
+          "projected_regular_points": 1470.24,
+          "projection_source_regular_points": {
+            "ensemble": 1309.44,
+            "fantasypros": 1281.26,
+            "ffa_fallback": 1338.05
+          },
+          "top_three_salary_share": 0.745
+        },
+        {
+          "actual_regular_optimal_points": 1394.26,
+          "actual_week_16": 52.2,
+          "actual_week_17": 72.5,
+          "owner": "Brad Beissner",
+          "projected_championship_equity": 0.072,
+          "projected_deterministic_regular_points": 1172.95,
+          "projected_playoff_equity": 0.3392,
+          "projected_regular_points": 1476.38,
+          "projection_source_regular_points": {
+            "ensemble": 1220.81,
+            "fantasypros": 1172.95,
+            "ffa_fallback": 1269.93
+          },
+          "top_three_salary_share": 0.64
+        },
+        {
+          "actual_regular_optimal_points": 1250.7,
+          "actual_week_16": 104.3,
+          "actual_week_17": 54.5,
+          "owner": "Phil Carr",
+          "projected_championship_equity": 0.0728,
+          "projected_deterministic_regular_points": 1211.39,
+          "projected_playoff_equity": 0.3272,
+          "projected_regular_points": 1478.75,
+          "projection_source_regular_points": {
+            "ensemble": 1258.04,
+            "fantasypros": 1211.39,
+            "ffa_fallback": 1304.7
+          },
+          "top_three_salary_share": 0.72
+        },
+        {
+          "actual_regular_optimal_points": 1271.04,
+          "actual_week_16": 107.2,
+          "actual_week_17": 106.52,
+          "owner": "Nate Corbett",
+          "projected_championship_equity": 0.1244,
+          "projected_deterministic_regular_points": 1193.71,
+          "projected_playoff_equity": 0.5136,
+          "projected_regular_points": 1530.99,
+          "projection_source_regular_points": {
+            "ensemble": 1229.37,
+            "fantasypros": 1193.71,
+            "ffa_fallback": 1279.04
+          },
+          "top_three_salary_share": 0.545
+        },
+        {
+          "actual_regular_optimal_points": 1288.42,
+          "actual_week_16": 80.3,
+          "actual_week_17": 114.3,
+          "owner": "Brandon Martin",
+          "projected_championship_equity": 0.082,
+          "projected_deterministic_regular_points": 1278.77,
+          "projected_playoff_equity": 0.3432,
+          "projected_regular_points": 1481.33,
+          "projection_source_regular_points": {
+            "ensemble": 1315.18,
+            "fantasypros": 1278.77,
+            "ffa_fallback": 1361.69
+          },
+          "top_three_salary_share": 0.595
+        }
+      ],
+      "season": 2023
+    },
+    {
+      "owners": [
+        {
+          "actual_regular_optimal_points": 1355.6,
+          "actual_week_16": 74.58,
+          "actual_week_17": 94.12,
+          "owner": "George Rodman",
+          "projected_championship_equity": 0.1896,
+          "projected_deterministic_regular_points": 1355.57,
+          "projected_playoff_equity": 0.5584,
+          "projected_regular_points": 1645.83,
+          "projection_source_regular_points": {
+            "ensemble": 1360.07,
+            "fantasypros": 1355.57,
+            "ffa_fallback": 1364.68
+          },
+          "top_three_salary_share": 0.715
+        },
+        {
+          "actual_regular_optimal_points": 1233.32,
+          "actual_week_16": 99.9,
+          "actual_week_17": 90.3,
+          "owner": "Phil Carr",
+          "projected_championship_equity": 0.0876,
+          "projected_deterministic_regular_points": 1310.13,
+          "projected_playoff_equity": 0.3448,
+          "projected_regular_points": 1567.69,
+          "projection_source_regular_points": {
+            "ensemble": 1332.0,
+            "fantasypros": 1310.13,
+            "ffa_fallback": 1353.86
+          },
+          "top_three_salary_share": 0.72
+        },
+        {
+          "actual_regular_optimal_points": 1417.88,
+          "actual_week_16": 109.98,
+          "actual_week_17": 112.18,
+          "owner": "Joey Breeland",
+          "projected_championship_equity": 0.094,
+          "projected_deterministic_regular_points": 1288.93,
+          "projected_playoff_equity": 0.414,
+          "projected_regular_points": 1591.58,
+          "projection_source_regular_points": {
+            "ensemble": 1309.6,
+            "fantasypros": 1288.93,
+            "ffa_fallback": 1330.41
+          },
+          "top_three_salary_share": 0.67
+        },
+        {
+          "actual_regular_optimal_points": 1413.96,
+          "actual_week_16": 126.52,
+          "actual_week_17": 126.28,
+          "owner": "Ken Moller",
+          "projected_championship_equity": 0.052,
+          "projected_deterministic_regular_points": 1255.73,
+          "projected_playoff_equity": 0.2684,
+          "projected_regular_points": 1530.87,
+          "projection_source_regular_points": {
+            "ensemble": 1267.41,
+            "fantasypros": 1255.73,
+            "ffa_fallback": 1279.88
+          },
+          "top_three_salary_share": 0.75
+        },
+        {
+          "actual_regular_optimal_points": 1577.68,
+          "actual_week_16": 104.54,
+          "actual_week_17": 72.08,
+          "owner": "Julius Berotte",
+          "projected_championship_equity": 0.0896,
+          "projected_deterministic_regular_points": 1340.1,
+          "projected_playoff_equity": 0.3756,
+          "projected_regular_points": 1583.52,
+          "projection_source_regular_points": {
+            "ensemble": 1358.33,
+            "fantasypros": 1340.1,
+            "ffa_fallback": 1376.56
+          },
+          "top_three_salary_share": 0.66
+        },
+        {
+          "actual_regular_optimal_points": 1474.44,
+          "actual_week_16": 112.58,
+          "actual_week_17": 80.24,
+          "owner": "Robbie Bagwell",
+          "projected_championship_equity": 0.052,
+          "projected_deterministic_regular_points": 1271.3,
+          "projected_playoff_equity": 0.3144,
+          "projected_regular_points": 1559.33,
+          "projection_source_regular_points": {
+            "ensemble": 1291.48,
+            "fantasypros": 1271.3,
+            "ffa_fallback": 1311.84
+          },
+          "top_three_salary_share": 0.63
+        },
+        {
+          "actual_regular_optimal_points": 1397.64,
+          "actual_week_16": 97.62,
+          "actual_week_17": 93.78,
+          "owner": "Brandon Martin",
+          "projected_championship_equity": 0.1636,
+          "projected_deterministic_regular_points": 1386.7,
+          "projected_playoff_equity": 0.5944,
+          "projected_regular_points": 1647.08,
+          "projection_source_regular_points": {
+            "ensemble": 1407.55,
+            "fantasypros": 1386.7,
+            "ffa_fallback": 1428.54
+          },
+          "top_three_salary_share": 0.65
+        },
+        {
+          "actual_regular_optimal_points": 1352.2,
+          "actual_week_16": 109.74,
+          "actual_week_17": 83.5,
+          "owner": "Lee Krassner",
+          "projected_championship_equity": 0.056,
+          "projected_deterministic_regular_points": 1268.16,
+          "projected_playoff_equity": 0.2712,
+          "projected_regular_points": 1541.24,
+          "projection_source_regular_points": {
+            "ensemble": 1284.56,
+            "fantasypros": 1268.16,
+            "ffa_fallback": 1301.59
+          },
+          "top_three_salary_share": 0.545
+        },
+        {
+          "actual_regular_optimal_points": 1334.22,
+          "actual_week_16": 95.7,
+          "actual_week_17": 121.3,
+          "owner": "Nate Corbett",
+          "projected_championship_equity": 0.042,
+          "projected_deterministic_regular_points": 1251.09,
+          "projected_playoff_equity": 0.2296,
+          "projected_regular_points": 1520.23,
+          "projection_source_regular_points": {
+            "ensemble": 1264.19,
+            "fantasypros": 1251.09,
+            "ffa_fallback": 1277.28
+          },
+          "top_three_salary_share": 0.57
+        },
+        {
+          "actual_regular_optimal_points": 1395.6,
+          "actual_week_16": 100.76,
+          "actual_week_17": 80.0,
+          "owner": "Brad Beissner",
+          "projected_championship_equity": 0.1736,
+          "projected_deterministic_regular_points": 1289.01,
+          "projected_playoff_equity": 0.6292,
+          "projected_regular_points": 1659.14,
+          "projection_source_regular_points": {
+            "ensemble": 1313.7,
+            "fantasypros": 1289.01,
+            "ffa_fallback": 1338.39
+          },
+          "top_three_salary_share": 0.49
+        }
+      ],
+      "season": 2024
+    },
+    {
+      "owners": [
+        {
+          "actual_regular_optimal_points": 1172.56,
+          "actual_week_16": 118.16,
+          "actual_week_17": 133.7,
+          "owner": "Ken Moller",
+          "projected_championship_equity": 0.0556,
+          "projected_deterministic_regular_points": 1459.78,
+          "projected_playoff_equity": 0.2772,
+          "projected_regular_points": 1691.99,
+          "projection_source_regular_points": {
+            "ensemble": 1476.98,
+            "fantasypros": 1459.78,
+            "ffa_fallback": 1494.32
+          },
+          "top_three_salary_share": 0.64
+        },
+        {
+          "actual_regular_optimal_points": 1270.78,
+          "actual_week_16": 72.74,
+          "actual_week_17": 73.7,
+          "owner": "Julius Berotte",
+          "projected_championship_equity": 0.0596,
+          "projected_deterministic_regular_points": 1474.43,
+          "projected_playoff_equity": 0.2748,
+          "projected_regular_points": 1684.49,
+          "projection_source_regular_points": {
+            "ensemble": 1487.08,
+            "fantasypros": 1474.43,
+            "ffa_fallback": 1499.9
+          },
+          "top_three_salary_share": 0.71
+        },
+        {
+          "actual_regular_optimal_points": 1637.46,
+          "actual_week_16": 119.06,
+          "actual_week_17": 86.42,
+          "owner": "Brandon Martin",
+          "projected_championship_equity": 0.2008,
+          "projected_deterministic_regular_points": 1577.78,
+          "projected_playoff_equity": 0.6344,
+          "projected_regular_points": 1823.21,
+          "projection_source_regular_points": {
+            "ensemble": 1588.84,
+            "fantasypros": 1577.78,
+            "ffa_fallback": 1599.96
+          },
+          "top_three_salary_share": 0.755
+        },
+        {
+          "actual_regular_optimal_points": 1241.48,
+          "actual_week_16": 110.1,
+          "actual_week_17": 84.5,
+          "owner": "Brad Beissner",
+          "projected_championship_equity": 0.0828,
+          "projected_deterministic_regular_points": 1451.72,
+          "projected_playoff_equity": 0.3712,
+          "projected_regular_points": 1715.83,
+          "projection_source_regular_points": {
+            "ensemble": 1451.95,
+            "fantasypros": 1451.72,
+            "ffa_fallback": 1452.64
+          },
+          "top_three_salary_share": 0.725
+        },
+        {
+          "actual_regular_optimal_points": 1643.82,
+          "actual_week_16": 108.56,
+          "actual_week_17": 111.78,
+          "owner": "Lee Krassner",
+          "projected_championship_equity": 0.1408,
+          "projected_deterministic_regular_points": 1453.41,
+          "projected_playoff_equity": 0.4976,
+          "projected_regular_points": 1767.52,
+          "projection_source_regular_points": {
+            "ensemble": 1466.21,
+            "fantasypros": 1453.41,
+            "ffa_fallback": 1479.25
+          },
+          "top_three_salary_share": 0.725
+        },
+        {
+          "actual_regular_optimal_points": 1794.24,
+          "actual_week_16": 86.3,
+          "actual_week_17": 90.04,
+          "owner": "Robbie Bagwell",
+          "projected_championship_equity": 0.124,
+          "projected_deterministic_regular_points": 1532.4,
+          "projected_playoff_equity": 0.5028,
+          "projected_regular_points": 1772.15,
+          "projection_source_regular_points": {
+            "ensemble": 1546.45,
+            "fantasypros": 1532.4,
+            "ffa_fallback": 1560.58
+          },
+          "top_three_salary_share": 0.7
+        },
+        {
+          "actual_regular_optimal_points": 1284.58,
+          "actual_week_16": 118.2,
+          "actual_week_17": 108.54,
+          "owner": "George Rodman",
+          "projected_championship_equity": 0.0892,
+          "projected_deterministic_regular_points": 1527.55,
+          "projected_playoff_equity": 0.3792,
+          "projected_regular_points": 1735.66,
+          "projection_source_regular_points": {
+            "ensemble": 1543.18,
+            "fantasypros": 1527.55,
+            "ffa_fallback": 1559.56
+          },
+          "top_three_salary_share": 0.725
+        },
+        {
+          "actual_regular_optimal_points": 1487.24,
+          "actual_week_16": 104.58,
+          "actual_week_17": 74.78,
+          "owner": "Joey Breeland",
+          "projected_championship_equity": 0.0676,
+          "projected_deterministic_regular_points": 1449.42,
+          "projected_playoff_equity": 0.3116,
+          "projected_regular_points": 1706.13,
+          "projection_source_regular_points": {
+            "ensemble": 1468.67,
+            "fantasypros": 1449.42,
+            "ffa_fallback": 1487.97
+          },
+          "top_three_salary_share": 0.665
+        },
+        {
+          "actual_regular_optimal_points": 1617.14,
+          "actual_week_16": 106.7,
+          "actual_week_17": 79.68,
+          "owner": "Nate Corbett",
+          "projected_championship_equity": 0.1212,
+          "projected_deterministic_regular_points": 1496.66,
+          "projected_playoff_equity": 0.4816,
+          "projected_regular_points": 1759.68,
+          "projection_source_regular_points": {
+            "ensemble": 1505.52,
+            "fantasypros": 1496.66,
+            "ffa_fallback": 1515.26
+          },
+          "top_three_salary_share": 0.58
+        },
+        {
+          "actual_regular_optimal_points": 1112.3,
+          "actual_week_16": 71.7,
+          "actual_week_17": 53.9,
+          "owner": "Phil Carr",
+          "projected_championship_equity": 0.0584,
+          "projected_deterministic_regular_points": 1485.09,
+          "projected_playoff_equity": 0.2696,
+          "projected_regular_points": 1682.79,
+          "projection_source_regular_points": {
+            "ensemble": 1508.32,
+            "fantasypros": 1485.09,
+            "ffa_fallback": 1531.56
+          },
+          "top_three_salary_share": 0.62
+        }
+      ],
+      "season": 2025
+    }
+  ],
+  "summary": {
+    "construction_note": "Descriptive quartiles of spending concentration only; no named strategy or concentration target enters model decisions.",
+    "owner_seasons": 60,
+    "position_weekly_cv": {
+      "DEF": 0.626,
+      "K": 0.4813,
+      "QB": 0.4321,
+      "RB": 0.7419,
+      "TE": 0.7872,
+      "WR": 0.7468
+    },
+    "projected_vs_actual_optimal_points_correlation": 0.1462,
+    "projection_source_roster_correlations": {
+      "ensemble": 0.1349,
+      "fantasypros": 0.1462,
+      "ffa_fallback": 0.1208
+    },
+    "roster_construction_diagnostics": [
+      {
+        "mean_actual_optimal_points": 1446.39,
+        "mean_projected_championship_equity": 0.1143,
+        "mean_top_three_salary_share": 0.5557,
+        "owner_seasons": 15,
+        "spending_concentration_quartile": 1
+      },
+      {
+        "mean_actual_optimal_points": 1356.71,
+        "mean_projected_championship_equity": 0.0972,
+        "mean_top_three_salary_share": 0.6323,
+        "owner_seasons": 15,
+        "spending_concentration_quartile": 2
+      },
+      {
+        "mean_actual_optimal_points": 1424.13,
+        "mean_projected_championship_equity": 0.1022,
+        "mean_top_three_salary_share": 0.689,
+        "owner_seasons": 15,
+        "spending_concentration_quartile": 3
+      },
+      {
+        "mean_actual_optimal_points": 1348.17,
+        "mean_projected_championship_equity": 0.0862,
+        "mean_top_three_salary_share": 0.776,
+        "owner_seasons": 15,
+        "spending_concentration_quartile": 4
+      }
+    ],
+    "season_count": 6,
+    "simulation_seed_stability": {
+      "max_owner_range": 0.028,
+      "mean_owner_range": 0.0206,
+      "season": 2025,
+      "seeds": 5,
+      "simulations_per_seed": 1000
+    },
+    "simulations_per_season": 2500
+  }
+}

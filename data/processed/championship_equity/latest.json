@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "build_id": "20260824T024654Z",
+  "weekly_projections": "data/processed/championship_equity/20260824T024654Z/weekly_projections_2026.json",
+  "historical_backtest": "data/processed/championship_equity/20260824T024654Z/historical_backtest.json",
+  "replacement_access_backtest": "data/processed/championship_equity/20260824T024654Z/replacement_access_backtest.json"
+}

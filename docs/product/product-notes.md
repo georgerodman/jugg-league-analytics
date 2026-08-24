@@ -3,7 +3,7 @@
 This is the durable working file for ideas, questions, and topics that need
 more discussion. Items here are not settled requirements. When a decision is
 made, move the resulting product or architecture contract into
-`PROJECT_SPEC.md` and the relevant detailed document.
+`docs/PROJECT_SPEC.md` and the relevant detailed document.
 
 ## Recommendation explanation: reasons to draft or pass
 
@@ -83,6 +83,111 @@ This suggests a hierarchy of measures rather than one score:
   represented without creating false precision?
 - Should the live recommendation show the estimated change in playoff and
   championship probability from buying the nominated player versus passing?
+
+## Room notes for the AI situational read
+
+Add a lightweight **Room notes** feature for observations that the application
+cannot infer from nominations and completed sales alone. During the draft, the
+operator could quickly record short notes such as `RB panic`, `room conserving
+money`, `Chris is chasing Cowboys`, or `several owners dropped out early`.
+
+Room notes should:
+
+- be fast to add without creating a live bid-entry workflow;
+- accept free-form notes and a small set of optional quick tags;
+- retain timestamps and, when relevant, links to a player, owner, position, or
+  nomination;
+- be persisted locally and remain available after restart;
+- provide context to the AI Copilot's situational read and explanations;
+- be labeled as operator observations rather than verified draft facts; and
+- never directly change authoritative draft state, hard constraints, market
+  calculations, or deterministic recommendations.
+
+If the Copilot uses a room note to challenge or adjust its advice, it should
+identify the note and explain the effect. The deterministic baseline remains
+visible so the operator can compare the calculated recommendation with the AI's
+room-aware judgment.
+
+### Questions to resolve
+
+- Which quick tags would be useful enough to justify permanent controls?
+- Should notes expire automatically, or should the operator mark them as
+  temporary, persistent, or resolved?
+- Should the AI infer candidate room notes and ask for confirmation?
+- How should contradictory or stale observations affect AI confidence?
+- Where can notes be entered and reviewed without crowding the main draft flow?
+
+## Upcoming Targets and draft roadmap
+
+Add an **Upcoming Targets** view that answers: *Who should the Rodman Renegades
+be preparing to pursue next, in what order, and at what prices to maximize the
+product's current success metric?* This should be a continuously recalculated
+draft roadmap rather than a static player ranking.
+
+For each recommended target, show:
+
+- priority order and the role the player would fill;
+- recommended purchase range, target price, and walk-away ceiling;
+- the expected effect on the current success metric, including championship
+  equity when that model is available;
+- why this player is preferred over realistic alternatives;
+- the next-best replacement and the expected cost of waiting;
+- remaining supply at the position, tier membership, players left in the tier,
+  and the risk that the tier closes before the Renegades can act;
+- roster need, remaining budget, open slots, flexibility, bye-week effects, and
+  opportunity cost across other positions;
+- likely competing owners, their needs and budgets, and relevant supported
+  tendencies; and
+- confidence, important assumptions, and the event that would invalidate or
+  reorder the recommendation.
+
+The roadmap should include conditional branches rather than pretending the
+rest of the auction is predictable. Examples:
+
+- **If acquired at or below the target price:** update the remaining roster
+  plan, budget allocation, and next targets.
+- **If bidding exceeds the ceiling:** pass and promote the named replacement or
+  alternate roster path.
+- **If another owner buys a key player:** recalculate positional supply,
+  competitor needs, and the probability that alternatives reach the Renegades.
+- **If a tier run begins:** show whether to act now, pivot positions, or accept
+  replacement-level production and preserve money elsewhere.
+
+The system should be capable of running a read-only **autopilot simulation**:
+using all locally available projections, expected and live prices, remaining
+players, tiers, replacement costs, roster constraints, opponent states, owner
+tendencies, strategy preferences, and outcome models, simulate the purchases
+and price limits it would choose from the current state through roster
+completion. Present the resulting roster paths, expected spend, and success
+metric so the operator can understand the longer-term consequences of the next
+decision.
+
+Autopilot is advisory only. It may propose nominations, purchases, passes, and
+price ceilings, but it must never nominate a player, record a sale, or otherwise
+mutate authoritative draft state without an explicit user action. Hard roster
+and budget constraints remain deterministic. AI may interpret room conditions,
+room notes, and strategic tradeoffs, but any AI adjustment should appear beside
+the deterministic roadmap baseline with its reasoning and confidence.
+
+The roadmap must refresh after every nomination, completed sale, correction,
+strategy change, or room note that materially changes the situational read. It
+should preserve enough of the prior plan to explain why priorities changed
+instead of presenting an unexplained new list.
+
+### Questions to resolve
+
+- Should the primary view show a short ranked queue, a branching decision tree,
+  or both at different levels of detail?
+- How many future roster paths can be shown without implying false precision?
+- Should target order optimize expected championship equity, a risk-adjusted
+  version of it, or a user-selectable objective?
+- How should nomination strategy differ from acquisition priority—for example,
+  nominating players the Renegades do not want in order to drain opponent
+  budgets?
+- How should the planner model uncertain sale order and prices while remaining
+  fast enough to recalculate during a live auction?
+- Which roadmap changes should trigger a proactive alert rather than silently
+  reordering the queue?
 
 ## Google draft-board integrity and repair
 
