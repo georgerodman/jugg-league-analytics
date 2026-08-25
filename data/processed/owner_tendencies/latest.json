@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "build_id": "20260823T201328Z",
-  "artifact": "data/processed/owner_tendencies/20260823T201328Z/owner_profiles.json",
-  "csv": "data/processed/owner_tendencies/20260823T201328Z/owner_profiles.csv",
-  "markdown": "data/processed/owner_tendencies/20260823T201328Z/owner_profiles.md"
+  "build_id": "20260825T193216Z",
+  "artifact": "data/processed/owner_tendencies/20260825T193216Z/owner_profiles.json",
+  "csv": "data/processed/owner_tendencies/20260825T193216Z/owner_profiles.csv",
+  "markdown": "data/processed/owner_tendencies/20260825T193216Z/owner_profiles.md"
 }
