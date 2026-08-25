@@ -190,3 +190,11 @@ active draft database, and Google Sheets were untouched.
 
 **Review point:** approve this monotonicity repair before proceeding to the
 separate historical-adapter and designed-edge work listed above.
+
+## Follow-up status
+
+The historical adapter, designed-edge coverage, and deterministic packet review
+were completed in the subsequent
+[Deterministic Recommendation Readiness Review](deterministic-readiness-review.md).
+The original baseline and monotonicity artifacts remain unchanged as historical
+evidence; the follow-up used new seeds and did not advance their pointer.

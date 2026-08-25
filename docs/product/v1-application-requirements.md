@@ -195,11 +195,10 @@ The decision workspace uses three horizontal rows:
 2. full-width Assistant GM conversation;
 3. Team Roster on the left and League Details on the right.
 
-The Team Roster includes a compact Strength column (`Elite`, `Strong`,
-`Starter`, or `Depth`) derived from positional rank and projected points above
-replacement. This identifies positional strengths and weaknesses without
-mislabeling auction surplus as championship impact. A true equity-at-purchase
-grade requires persisted decision snapshots and is a later enhancement.
+The Team Roster includes a compact Tier column (`Elite`, `Premium`, `Starter`,
+`Depth`, or `Replacement`) using the same xPAR-derived production label shown
+in the player list and Player Details. It describes projected production
+strength without mislabeling auction surplus as roster impact.
 The roster header can switch among all ten teams. A filled player may be
 dragged to another eligible slot; dropping onto a filled slot swaps the players
 only when both assignments remain legal. These arrangements are committed to

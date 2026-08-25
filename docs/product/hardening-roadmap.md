@@ -2,9 +2,10 @@
 
 ## Current state in one sentence
 
-The full draft-night workflow and its core decision signals are working, but
-some predictive claims still need more historical proof and full-draft testing
-before we should trust them without hesitation.
+The full draft-night workflow and deterministic recommendation packet have
+passed isolated full-draft, edge, and recovery testing. Historical chronology
+and calibrated championship probabilities remain unavailable, so those claims
+must stay narrower than the operational readiness claim.
 
 ## What is already in good shape
 
@@ -114,9 +115,10 @@ and the initial walk-away price. The policy combines:
 5. small, visible personal adjustments.
 
 Production value and production surplus now help explain and test that policy;
-they no longer independently set a competing live action price. This contract still
-needs historical decision-policy replay and calibration before it should be
-treated as fully hardened.
+they no longer independently set a competing live action price. The contract
+has passed generated-order historical-price stress tests and focused decision
+edges. Exact historical decision-policy replay remains impossible without
+nomination chronology and losing bids.
 
 ### What deterministic logic and AI each need
 
@@ -133,12 +135,11 @@ supports the most persuasive story.
 
 ## Highest-value hardening work
 
-### 1. Replay complete historical drafts
+### 1. Extend historical replay evidence
 
-This is the most important next test. Recreate past drafts in order where
-possible and ask: did the app recommend sensible targets and ceilings at each
-decision point? Because historical nomination order is currently missing, we
-may need a new source or carefully labeled simulated order.
+Current-compatible actual prices and buyers now run through carefully labeled
+generated orders. If nomination chronology or losing bids become available,
+add them rather than treating the current stress test as exact replay.
 
 Success looks like:
 
@@ -219,20 +220,20 @@ Before trusting the app on draft night, confirm:
 - [ ] Current projections, actuals, ADP, ESPN values, and JUGG history rebuild
       successfully from the last validated local snapshots.
 - [ ] Material player matches and exceptions have been reviewed.
-- [ ] A complete mock draft finishes with correct rosters, budgets, and history.
-- [ ] Restart, offline, correction, reset, and Sheets-retry drills pass.
-- [ ] Price ranges and walk-away prices have been reviewed against recent historical
+- [x] A complete mock draft finishes with correct rosters, budgets, and history.
+- [x] Restart, offline, correction, reset, and Sheets-retry drills pass in isolated state.
+- [x] Price ranges and walk-away prices have been reviewed against recent historical
       seasons and simple baselines.
 - [ ] Championship advice remains labeled as shadow until its predictive
       separation improves.
-- [ ] Upcoming Targets and personal preferences behave sensibly in several
+- [x] Upcoming Targets and personal preferences behave sensibly in several
       very different draft-room scenarios.
 - [ ] The user can complete the full workflow quickly without needing AI or
       entering every bid.
 
 ## Recommended focus
 
-Do not add many more permanent features yet. The highest return now is to run
-full draft simulations, measure recommendation quality, improve uncertainty,
-and rehearse failure recovery. That work will tell us which existing features
-deserve greater authority and which need to be simplified.
+The next major feature may be a grounded Assistant GM explanation layer, while
+the deterministic packet remains authoritative and fully usable offline.
+Continue improving uncertainty and collecting nomination/bid evidence rather
+than widening AI authority.

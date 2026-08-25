@@ -34,6 +34,12 @@ test("draft-room view and commands run against isolated local state",async()=>{
     assert.equal(withTeamRule.strategy.teamPreferences.length,1);
     const nominated=applyDraftAction({type:"nominate",playerId:player.id});
     assert.equal(nominated.currentNomination?.playerId,player.id);
+    assert.ok(nominated.currentNomination?.championshipDecision?.tiers.length);
+    assert.ok(nominated.currentNomination?.competition.length);
+    assert.ok(nominated.currentNomination?.alternatives.length);
+    assert.ok(nominated.currentNomination?.decisionPlan);
+    assert.ok(nominated.upcomingTargets.length);
+    assert.ok(nominated.leaderboard.length===10);
     const sold=applyDraftAction({type:"sale",winnerTeamId:active.renegades!.id,price:1});
     assert.equal(sold.recentSales.length,1);
     assert.equal(sold.renegades!.remainingBudget,199);

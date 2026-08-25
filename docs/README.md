@@ -47,6 +47,9 @@ question they answer.
   and import assumptions.
 - [Owner tendencies](studies/owner-tendencies.md) — evidence and plain-language
   profiles for each owner.
+- [Deterministic readiness review](studies/deterministic-readiness-review.md) —
+  historical-price adapter coverage, edge and recovery results, source
+  comparisons, limitations, and the gate for Assistant GM integration.
 
 ## Architecture: how the system is organized
 
@@ -65,6 +68,9 @@ question they answer.
 - [Simulation testing task brief](operations/simulation-testing-task-brief.md)
   — isolated full-draft testing scope, scenarios, measures, safety rules, and
   review deliverables for a dedicated testing task.
+- [Change and revalidation workflow](operations/change-revalidation.md) — the
+  required rebuild, comparison, fresh-seed simulation, and approval gates after
+  changing a model, input, data source, league rule, or recommendation policy.
 
 ## Simple rule for future documents
 

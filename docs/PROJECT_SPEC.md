@@ -116,7 +116,7 @@ layout: a restrained searchable player list on the left and a dedicated live
 decision workspace on the right. The current nomination remains compact while
 roster fit, recommendation rationale, likely competition, room pressure,
 owner signals, and alternatives receive the available decision space.
-Completed picks do not consume a permanent bottom strip; the header's Full
+Completed picks do not consume a permanent bottom strip; the header's Draft
 History drawer shows every active sale and provides rapid, confirmed
 corrections while the immutable audit history remains preserved.
 
@@ -126,10 +126,11 @@ minimal decoration. Green and red are reserved for positive and negative
 decision meaning. Legibility and draft-night scanning speed take priority over
 dark-mode atmosphere or decorative styling.
 
-Within the right-hand decision workspace, information is organized in three
-horizontal rows: full-width Player Details first, full-width Assistant GM
-second, then Team Roster on the lower left and League Details on the lower
-right. Player Details owns projected price, all five price bands, comparable
+The left player-list pane includes Team Roster as a collapsed bottom bar that
+expands upward on demand while preserving the selected owner, roster editing,
+and drag-and-drop slot reassignment. Within the right-hand decision workspace,
+full-width Player Details appears first, followed by full-width Assistant GM
+and League Details. Player Details owns projected price, all five price bands, comparable
 alternatives, the recommendation, and draft actions. Immediately below the
 player name it emphasizes four compact, clickable decision cards: live expected
 price and range, points above replacement, scarcity/fallback, and Roster Impact.
@@ -140,10 +141,11 @@ compact, headerless section beneath the cards showing Great, Good, Neutral,
 Poor, and Bad price ranges. The headerless actual/projected stat table follows
 it; the projected season uses an `x` prefix such as `x2026` rather than a
 separate Line column. Team Roster uses a tall
-QB-through-bench table with bye, paid-price, and positional-strength columns,
-totals, and remaining max bid. Strength is based on
-position rank and projected points above replacement; it is not a retrospective
-grade of whether the auction purchase was good or bad. Its team selector can
+QB-through-bench table with bye, paid-price, and production-tier columns,
+totals, and remaining max bid. Tier uses the same xPAR-derived Elite, Premium,
+Starter, Depth, and Replacement labels shown in the player list and Player
+Details; it is not a retrospective grade of whether the auction purchase was
+good or bad. Its team selector can
 inspect any owner's roster. Filled players can be dragged between legal lineup
 slots (or swapped when both resulting assignments are legal); each change is
 saved locally as an auditable roster-reassignment event and then projected to
@@ -380,6 +382,14 @@ next decision. Predictive success is evaluated separately through forward-only
 historical calibration, uncertainty, and decision-policy replays.
 
 Before draft night, verify this with a full replay or simulation of a historical draft, including forced network loss, interrupted Sheets synchronization, application restart, and restoration from persisted state. The final state and transaction history must remain correct, and the user must never need live bid-by-bid entry.
+
+Any accepted change to a model, model input, source dataset, player-identity
+mapping, league rule, or deterministic recommendation policy must rerun its
+affected build and the isolated hardening suite before draft-night release. The
+final evaluation uses deterministic seeds not used to develop the change,
+reports recommendation-level differences and unintended effects, and does not
+advance production pointers until human review. The repeatable procedure is in
+`docs/operations/change-revalidation.md`.
 
 ## Order of Operations
 

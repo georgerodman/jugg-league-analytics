@@ -15,6 +15,7 @@ export type DecisionTeam={
 };
 
 export type DecisionBand="strong_pursue"|"lean_pursue"|"neutral"|"lean_pass"|"strong_pass";
+const decisionBandOrder:Record<DecisionBand,number>={strong_pursue:0,lean_pursue:1,neutral:2,lean_pass:3,strong_pass:4};
 export type RosterCompletion={players:DecisionPlayer[];remainingBudget:number;projectedLineupPoints:number};
 type PriceScenario="favorable"|"expected"|"adverse";
 type Objective="lineup"|"efficiency"|"ceiling";
@@ -198,6 +199,7 @@ export function nominationDecision(teams:DecisionTeam[],renegadesId:string,avail
   const poolWithout=available.filter(row=>row.id!==playerId),baseline=baselineScenarioScores(teams,poolWithout);
   const atPrice=[] as {price:number;band:DecisionBand;medianDelta:number;support:number;equityLow:number;equityHigh:number}[];
   let previousDeltas:number[]|null=null;
+  let previousRecommendation:DecisionBand|null=null;
   for(let purchasePrice=1;purchasePrice<=evaluatedMax;purchasePrice++){
     const deltas:number[]=[],buyEquities:number[]=[];
     for(const row of baseline){
@@ -216,6 +218,8 @@ export function nominationDecision(teams:DecisionTeam[],renegadesId:string,avail
     if(purchasePrice>extremeCeiling||flexibilityRemaining<.15)recommendation="strong_pass";
     else if(purchasePrice>stretchCeiling||flexibilityRemaining<.3)recommendation="lean_pass";
     else if(purchasePrice>marketHigh&&(recommendation==="strong_pursue"||recommendation==="lean_pursue"))recommendation="neutral";
+    if(previousRecommendation&&decisionBandOrder[recommendation]<decisionBandOrder[previousRecommendation])recommendation=previousRecommendation;
+    previousRecommendation=recommendation;
     atPrice.push({price:purchasePrice,band:recommendation,medianDelta:sorted[Math.floor(sorted.length/2)]??0,support:monotonicDeltas.filter(value=>value>0).length/monotonicDeltas.length,equityLow:percentile(buyEquities,.1),equityHigh:percentile(buyEquities,.9)});
   }
   const tiers:{from:number;to:number;band:DecisionBand}[]=[];

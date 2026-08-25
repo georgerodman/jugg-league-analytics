@@ -37,6 +37,16 @@ test("rejects a sale that consumes required one-dollar reserves",()=>{
   assert.equal((svc.db.prepare("SELECT COUNT(*) count FROM draft_events").get() as any).count,2);
 });
 
+test("a rejected sale rolls back the entire action boundary",()=>{
+  const svc=service();svc.startDraft({draftId:"d",expectedVersion:0,idempotencyKey:"start",occurredAt:at});
+  svc.openNomination({draftId:"d",expectedVersion:1,idempotencyKey:"nom",occurredAt:at,playerId:"p"});
+  const before={draft:svc.db.prepare("SELECT state_version FROM drafts WHERE id='d'").get(),nomination:svc.db.prepare("SELECT status FROM nominations WHERE draft_id='d'").get(),pool:svc.db.prepare("SELECT status FROM draft_player_pool WHERE player_id='p'").get(),events:(svc.db.prepare("SELECT COUNT(*) count FROM draft_events").get() as any).count,outbox:(svc.db.prepare("SELECT COUNT(*) count FROM sync_outbox").get() as any).count};
+  assert.throws(()=>svc.recordSale({draftId:"d",expectedVersion:2,idempotencyKey:"interrupted-sale",occurredAt:at,winnerTeamId:"t",price:188}),
+    (error:any)=>error instanceof DomainError&&error.code==="BUDGET_RESERVE");
+  const after={draft:svc.db.prepare("SELECT state_version FROM drafts WHERE id='d'").get(),nomination:svc.db.prepare("SELECT status FROM nominations WHERE draft_id='d'").get(),pool:svc.db.prepare("SELECT status FROM draft_player_pool WHERE player_id='p'").get(),events:(svc.db.prepare("SELECT COUNT(*) count FROM draft_events").get() as any).count,outbox:(svc.db.prepare("SELECT COUNT(*) count FROM sync_outbox").get() as any).count};
+  assert.deepEqual(after,before);assert.deepEqual(svc.recoveryAudit("d"),[]);
+});
+
 test("records a Renegades purchase above the walk-away price without blocking the sale",()=>{
   const svc=service();
   svc.db.prepare("UPDATE teams SET display_name='Rodman Renegades' WHERE id='t'").run();
@@ -86,6 +96,16 @@ test("rejects an ineligible roster reassignment",()=>{
   svc.recordSale({draftId:"d",expectedVersion:2,idempotencyKey:"sale",occurredAt:at,winnerTeamId:"t",price:50});
   assert.throws(()=>svc.reassignRosterSlot({draftId:"d",expectedVersion:3,idempotencyKey:"bad-move",occurredAt:at,teamId:"t",playerId:"p",targetSlotId:"t:QB:1"}),
     (error:any)=>error instanceof DomainError&&error.code==="INELIGIBLE_ROSTER_SLOT");
+});
+
+test("a sale succeeds only for the team with a remaining eligible destination",()=>{
+  const svc=service();svc.startDraft({draftId:"d",expectedVersion:0,idempotencyKey:"start",occurredAt:at});
+  svc.db.prepare("UPDATE roster_slots SET eligible_positions_json='[\"WR\"]' WHERE team_id='t'").run();
+  svc.openNomination({draftId:"d",expectedVersion:1,idempotencyKey:"nom",occurredAt:at,playerId:"p"});
+  assert.throws(()=>svc.recordSale({draftId:"d",expectedVersion:2,idempotencyKey:"wrong-team",occurredAt:at,winnerTeamId:"t",price:1}),
+    (error:any)=>error instanceof DomainError&&error.code==="NO_ELIGIBLE_SLOT");
+  const result=svc.recordSale({draftId:"d",expectedVersion:2,idempotencyKey:"legal-team",occurredAt:at,winnerTeamId:"t2",price:1}) as any;
+  assert.ok(result.saleId);assert.deepEqual(svc.recoveryAudit("d"),[]);
 });
 
 test("records and reverses draft completion for waiver priority",()=>{
