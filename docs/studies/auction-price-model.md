@@ -99,10 +99,40 @@ fall outside the supported historical sale-price population. The resulting 294
 players retain every model input and an explicit missing-input list.
 
 Predictions are calibrated to the fixed JUGG auction economy: 140 required
-draft slots, a $1 minimum, and $2,000 total league budget. The top 140 unrounded
-predictions therefore sum to $2,000. Preliminary ranges use the 80th-percentile
-absolute forward-test error for the player's position. These are conditional
-sale prices and ranges, not production values or draft probabilities.
+draft slots, a $1 minimum, and $2,000 total league budget. Because the model
+does not know which 140 players will be drafted, each conditional sale price is
+weighted by the separately modeled draft probability. Probability-weighted
+expected spending—not the 140 highest conditional prices—sums to $2,000.
+Preliminary ranges use the 80th-percentile absolute forward-test error for the
+player's position. These are conditional sale prices and ranges, not production
+values or draft probabilities.
+
+## League-economy calibration tournament
+
+The former production adjustment forced the 140 highest conditional prices to
+sum to $2,000. Forward testing showed that this reduced overall accuracy and
+systematically compressed premium prices. Competing adjustments were therefore
+replayed across 2021–2025 using only earlier seasons to fit both the price and
+draft-probability models.
+
+| Calibration | Overall MAE | Bias | $50+ MAE | $50+ bias | $60+ MAE | $60+ bias |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| Probability-weighted proportional | $3.138 | +$0.389 | **$4.390** | **-$0.670** | $3.461 | **-$0.196** |
+| Probability-weighted additive | $3.179 | +$0.382 | $4.463 | -$1.475 | **$3.402** | -$1.011 |
+| Premium-preserving top-140 | **$2.985** | -$0.648 | $4.537 | -$1.714 | $3.418 | -$1.223 |
+| Raw, no economy constraint | $3.127 | +$0.152 | $4.537 | -$1.714 | $3.418 | -$1.223 |
+| Additive top-140 | $3.042 | -$0.716 | $4.998 | -$2.820 | $3.850 | -$2.407 |
+| Former proportional top-140 | $3.290 | -$0.855 | $6.885 | -$6.032 | $6.801 | -$6.262 |
+
+The probability-weighted proportional method is the production winner. Its
+overall MAE is within one cent of the unconstrained raw model, it has the best
+$50-plus MAE among economy-coherent methods, and it nearly removes the
+systematic $60-plus underprediction. The former method understated $50-plus
+sales by $6.03 and $60-plus sales by $6.26 on average.
+
+Applied to 2026, the winning adjustment moves probability-weighted expected
+spending to exactly $2,000 and produces a historically plausible premium
+shape: two players at $70-plus, five at $60-plus, and eleven at $50-plus.
 
 The current ranked outputs are `scores_2026.csv` and `scores_2026.json` in the
 versioned directory referenced by

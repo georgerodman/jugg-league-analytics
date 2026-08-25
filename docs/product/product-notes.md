@@ -119,6 +119,15 @@ room-aware judgment.
 
 ## Upcoming Targets and draft roadmap
 
+**Implemented foundation (2026-08-25):** the live draft room exposes an
+eight-player ranked roadmap with role, target price, walk-away price, tier
+supply, fallback, and conditional pivot. It uses nine local roster-completion
+paths, current budgets and rosters, available players, production tiers,
+replacement economics, and bounded saved-strategy adjustments. It recalculates
+after every draft action. Full read-only roster-path autopilot simulation,
+confidence calibration, opponent-tendency scoring, and AI/room-note overlays
+remain future extensions.
+
 Add an **Upcoming Targets** view that answers: *Who should the Rodman Renegades
 be preparing to pursue next, in what order, and at what prices to maximize the
 product's current success metric?* This should be a continuously recalculated
@@ -127,7 +136,7 @@ draft roadmap rather than a static player ranking.
 For each recommended target, show:
 
 - priority order and the role the player would fill;
-- recommended purchase range, target price, and walk-away ceiling;
+- recommended purchase range, target price, and walk-away checkpoint;
 - the expected effect on the current success metric, including championship
   equity when that model is available;
 - why this player is preferred over realistic alternatives;

@@ -16,6 +16,8 @@ Primary aggregates are:
 - **Nomination:** at most one open nomination per draft.
 - **Sale:** final winner and price only; there is no bid stream.
 - **Sync outbox:** retryable projections of committed local events to Sheets.
+- **Decision planning:** immutable decision snapshots, per-nomination committed
+  ceilings, and recorded discipline overrides.
 
 ## Commands and events
 
@@ -44,6 +46,8 @@ returns the prior result. A stale expected version fails without mutation.
 - after purchase, remaining budget can still cover every open slot at $1;
 - an eligible open roster slot exists; and
 - the state version has not changed.
+- purchases above the Renegades walk-away price are recorded for review
+  but are not rejected; only the legal budget and roster rules are hard stops.
 
 The transaction closes the nomination, creates the sale, fills a roster slot,
 marks the player sold, decrements budget/open slots, appends the event, and
@@ -75,7 +79,8 @@ artifact record; they never silently rewrite provenance for an active draft.
 
 ## Migration
 
-The executable initial schema is `db/migrations/001_initial.sql`. Migrations
+The executable initial schema is `db/migrations/001_initial.sql`; decision
+planning is added by `db/migrations/004_decision_planning.sql`. Migrations
 are append-only and run in order against a backup. Application startup must not
 perform an irreversible migration without first verifying a recoverable copy.
 

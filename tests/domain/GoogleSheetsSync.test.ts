@@ -5,7 +5,7 @@ import { readFileSync } from "node:fs";
 import { DraftService, type SlotTemplate } from "../../src/domain/DraftService.js";
 import { buildDraftBoardRequests } from "../../src/server/googleSheetsSync.js";
 
-const migration=readFileSync("db/migrations/001_initial.sql","utf8");
+const migration=["001_initial.sql","002_strategy_and_market_context.sql","003_nomination_and_waiver_order.sql","004_decision_planning.sql"].map(file=>readFileSync(`db/migrations/${file}`,"utf8")).join("\n");
 const slots:SlotTemplate[]=[{slotType:"QB",count:1,eligiblePositions:["QB"]},{slotType:"WR",count:2,eligiblePositions:["WR"]},{slotType:"RB",count:1,eligiblePositions:["RB"]},{slotType:"TE",count:1,eligiblePositions:["TE"]},{slotType:"WR_RB",count:1,eligiblePositions:["WR","RB"]},{slotType:"WR_RB_TE",count:1,eligiblePositions:["WR","RB","TE"]},{slotType:"DEF",count:1,eligiblePositions:["DEF"]},{slotType:"K",count:1,eligiblePositions:["K"]},{slotType:"BN",count:5,eligiblePositions:["QB","RB","WR","TE","K","DEF"]}];
 
 test("draft board projection writes player and price into the owner's matching slot",()=>{

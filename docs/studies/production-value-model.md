@@ -31,6 +31,53 @@ The 2026 replacement projections are QB 324.987, RB 92.249, WR 101.477, TE
 lower confidence because their projection inputs are less complete than the
 offensive sources.
 
+## Position-local tiers
+
+The decision board assigns two independent tiers within each position:
+
+- **Production tier:** ordered by projected JUGG points. A new tier begins at a
+  natural adjacent-player gap or when the tier would span more than 16 season
+  points.
+- **Auction tier:** ordered by expected JUGG sale price. A new tier begins at a
+  natural adjacent-player gap or when the tier would span more than $5.
+
+A natural gap is at least 2.5 times the position's median positive adjacent
+gap, subject to minimum gaps of six projected points or two auction dollars.
+This deterministic rule identifies cliffs while preventing a long, flat pool
+from becoming one oversized tier. Tiers describe similarity, not certainty,
+and remain separate so similarly productive players in cheaper auction tiers
+can be identified.
+
+### Named production labels
+
+The application presents a simpler five-label interpretation of xPAR instead
+of exposing the fine-grained production-tier number in the player list. The
+replacement boundary remains league-specific: a player with zero xPAR is
+**Replacement**. Positive xPAR is compared with the highest xPAR at that
+position:
+
+| Label | Position-relative xPAR |
+| --- | ---: |
+| Elite | 75% or more of the position maximum |
+| Premium | 50% to less than 75% |
+| Starter | 25% to less than 50% |
+| Depth | More than zero to less than 25% |
+| Replacement | Zero |
+
+The label is a readable wrapper around xPAR, not another model input. Internal
+fine-grained tiers remain available to identify local projection cliffs and
+support fallback calculations. Live scarcity is calculated separately from
+the remaining affordable comparable players and therefore can change after
+every sale.
+
+## Player stat lines
+
+The 2026 decision board carries normalized FantasyPros-primary projected
+counting statistics and JUGG points for all supported players. It also aggregates
+2025 nflverse weekly player or team-defense records into prior-season actual
+counting statistics, games, JUGG points, and points per game. Prior-season data
+is absent rather than inferred when no validated 2025 record exists.
+
 ## Historical bargain backtest
 
 For each 2020–2025 season, preseason production value is calculated without
@@ -75,5 +122,6 @@ changing either the market or production estimate.
 
 Run `python3 scripts/production_value_model.py`. Versioned outputs include the
 2026 combined decision board in CSV and JSON plus row-level historical
-backtests. `data/processed/production_value_model/latest.json` points to the
-current build.
+backtests. Decision-board schema version 2 adds production tiers, auction tiers,
+and normalized actual/projected stat lines. `data/processed/production_value_model/latest.json`
+points to the current build.

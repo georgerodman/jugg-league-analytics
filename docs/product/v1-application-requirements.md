@@ -94,11 +94,16 @@ main workspace does not repeat the Renegades team name or use separate
 five decision bands in a fixed order; bands without a supported price range
 remain visibly empty rather than disappearing.
 
-Projected points, production value, draft probability, replacement details,
-allocation sensitivity, ESPN auction value, Yahoo/ESPN ADP, full provenance,
-and the complete owner evidence remain available in an expandable `Details`
-view. Draft probability may appear by default only when it changes the decision,
-such as a bubble player likely to remain available later.
+Player Details shows position rank, production tier, auction tier, projected
+points, points above replacement, the prior-season actual stat line, and the
+current projected stat line. Actual and projected statistics share a compact,
+position-specific season table with traditional football columns and explicit
+dashes for fields the projection source does not provide. Production value,
+draft probability, replacement
+details, allocation sensitivity, ESPN auction value, Yahoo/ESPN ADP, full
+provenance, and complete owner evidence remain available in an expandable
+`Details` view. Draft probability may appear by default only when it changes
+the decision, such as a bubble player likely to remain available later.
 
 There is no bid-entry stream. Bidding happens elsewhere.
 
@@ -210,6 +215,9 @@ but must not replace or block the local fallback.
 ### Available-player region
 
 - Compact, keyboard-friendly list rather than large cards.
+- A compact/expanded toggle widens the player rail. Expanded mode exposes
+  sortable projected points, xPAR, position production tier, position auction
+  tier, and frozen pre-draft projected price without replacing live price.
 - Search remains visible at all times.
 - A selected row means preview only. The nominated row uses a different
   background/accent plus a persistent `Officially nominated` badge or icon;
@@ -237,6 +245,21 @@ but must not replace or block the local fallback.
   until the shadow review is accepted.
 
 ### Teams region
+
+### Decision roadmap and discipline
+
+- Expose Upcoming Targets from the header as a ranked, locally calculated
+  roadmap with target price, walk-away price, tier supply, role, fallback,
+  and conditional pivot.
+- Persist a compact decision snapshot after each authoritative action and show
+  a deterministic What Changed explanation when a prior snapshot exists.
+- Create a walk-away price for every official nomination. Treat it as a
+  warning and reassessment point, not a hard limit. Show the budget, future max
+  bid, and target consequences when a proposed price exceeds it; a note is
+  optional and the sale remains allowed if all league rules are satisfied.
+- Keep a visible count and dollar total of purchases above the walk-away price.
+- Advice and simulations are read-only; only explicit nomination, sale, or
+  correction actions may mutate authoritative state.
 
 - Compact ten-team budget table is always visible.
 - Rodman Renegades are pinned and visually emphasized.

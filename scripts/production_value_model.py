@@ -21,6 +21,32 @@ ALLOCATION_VARIANTS = {
     "qb_heavy_2020": {"QB": 17, "RB": 44, "WR": 48, "TE": 11, "K": 10, "DEF": 10},
 }
 SEASONS = tuple(range(2020, 2026))
+STAT_KEYS = {
+    "QB": ("passing_completions", "passing_attempts", "passing_yards", "passing_tds", "passing_interceptions", "rushing_attempts", "rushing_yards", "rushing_tds", "fumbles_lost"),
+    "RB": ("rushing_attempts", "rushing_yards", "rushing_tds", "targets", "receptions", "receiving_yards", "receiving_tds", "fumbles_lost"),
+    "WR": ("rushing_attempts", "rushing_yards", "rushing_tds", "targets", "receptions", "receiving_yards", "receiving_tds", "fumbles_lost"),
+    "TE": ("targets", "receptions", "receiving_yards", "receiving_tds", "rushing_yards", "rushing_tds", "fumbles_lost"),
+    "K": ("field_goals_made", "field_goals_attempted", "extra_points_made"),
+    "DEF": ("sacks", "interceptions", "fumble_recoveries", "defensive_tds", "safeties", "special_teams_tds"),
+}
+PROJECTED_STAT_ALIASES = {
+    "pass_cmp": "passing_completions", "pass_att": "passing_attempts", "pass_yds": "passing_yards",
+    "pass_tds": "passing_tds", "pass_ints": "passing_interceptions", "rush_att": "rushing_attempts",
+    "rush_yds": "rushing_yards", "rush_tds": "rushing_tds", "rec_rec": "receptions",
+    "rec_yds": "receiving_yards", "rec_tds": "receiving_tds", "fumbles_lost": "fumbles_lost", "fg": "field_goals_made",
+    "fga": "field_goals_attempted", "xpt": "extra_points_made", "def_sack": "sacks",
+    "def_int": "interceptions", "def_fr": "fumble_recoveries", "def_td": "defensive_tds",
+    "def_safety": "safeties", "def_retd": "special_teams_tds",
+}
+ACTUAL_STAT_ALIASES = {
+    "completions": "passing_completions", "attempts": "passing_attempts", "passing_yards": "passing_yards",
+    "passing_tds": "passing_tds", "passing_interceptions": "passing_interceptions", "carries": "rushing_attempts",
+    "rushing_yards": "rushing_yards", "rushing_tds": "rushing_tds", "targets": "targets", "receptions": "receptions",
+    "receiving_yards": "receiving_yards", "receiving_tds": "receiving_tds", "fg_made": "field_goals_made",
+    "fumbles_lost_total": "fumbles_lost", "fg_att": "field_goals_attempted", "pat_made": "extra_points_made", "def_sacks": "sacks",
+    "def_interceptions": "interceptions", "fumble_recovery_opp": "fumble_recoveries", "def_tds": "defensive_tds",
+    "def_safeties": "safeties", "special_teams_tds": "special_teams_tds",
+}
 
 
 class ValueErrorModel(RuntimeError):
@@ -51,6 +77,79 @@ def production_values(players: list[dict[str, Any]], points_key: str, allocation
     for row in valued:
         row["production_value"] = round(1.0 + row["points_above_replacement"] * dollars_per_point, 2) if row["modeled_roster_slot"] else 0.0
     return valued
+
+
+def assign_position_tiers(rows: list[dict[str, Any]], value_key: str, prefix: str,
+                          maximum_span: float, minimum_natural_gap: float) -> None:
+    """Assign deterministic, position-local tiers from natural gaps and bounded spans."""
+    for position in ALLOCATION:
+        ordered = sorted((row for row in rows if row["position"] == position and row.get(value_key) is not None),
+                         key=lambda row: (-float(row[value_key]), row["player_name"]))
+        if not ordered:
+            continue
+        gaps = [max(0.0, float(left[value_key])-float(right[value_key])) for left, right in zip(ordered, ordered[1:])]
+        positive_gaps = [gap for gap in gaps if gap > 0]
+        typical_gap = statistics.median(positive_gaps) if positive_gaps else 0.0
+        natural_break = max(minimum_natural_gap, typical_gap * 2.5)
+        tier = 1; tier_leader = float(ordered[0][value_key])
+        for index, row in enumerate(ordered):
+            if index:
+                prior = float(ordered[index-1][value_key]); current = float(row[value_key])
+                if prior-current >= natural_break or tier_leader-current > maximum_span:
+                    tier += 1; tier_leader = current
+            row[f"{prefix}_tier"] = tier
+        for tier_number in range(1, tier+1):
+            members = [row for row in ordered if row[f"{prefix}_tier"] == tier_number]
+            high=max(float(row[value_key]) for row in members);low=min(float(row[value_key]) for row in members)
+            for row in members:
+                row[f"{prefix}_tier_size"] = len(members)
+                row[f"{prefix}_tier_high"] = round(high, 2)
+                row[f"{prefix}_tier_low"] = round(low, 2)
+
+
+def number(value: Any) -> float:
+    try:
+        return float(value or 0)
+    except (TypeError, ValueError):
+        return 0.0
+
+
+def normalized_projected_stat_lines(root: Path, season: int) -> tuple[dict[str, dict[str, Any]], Path]:
+    payload, path = load_pointer(root, f"data/processed/canonical_projections/{season}/latest.json")
+    lines = {}
+    for player in payload["players"]:
+        position=player["position"]; normalized={}
+        for source_key, target_key in PROJECTED_STAT_ALIASES.items():
+            if source_key in player.get("stats", {}) and target_key in STAT_KEYS[position]:
+                normalized[target_key]=round(number(player["stats"][source_key]), 2)
+        lines[player["internal_player_id"]]={"season":season,"games":None,"fantasy_points":round(number(player.get("fantasypros",{}).get("league_projected_points")),2),"stats":normalized,"source":"FantasyPros consensus projection"}
+    return lines, path
+
+
+def normalized_actual_stat_lines(root: Path, season: int, nfl_pointer: dict[str, Any]) -> tuple[dict[str, dict[str, Any]], list[Path]]:
+    directory=(root/nfl_pointer["manifest"]).parent
+    actual_path=directory/"league_scored_actuals.json"; actual=json.loads(actual_path.read_text())
+    summaries={row["internal_player_id"]:row for row in actual["seasons"] if row["season"]==season}
+    aggregates:dict[str,dict[str,float]]={}
+    player_path=directory/f"player_stats_{season}.csv"
+    with player_path.open(newline="",encoding="utf-8") as handle:
+        for row in csv.DictReader(handle):
+            player_id=f"nfl:gsis:{row['player_id']}"; values=aggregates.setdefault(player_id,{})
+            position=row["position"]
+            if position not in STAT_KEYS: continue
+            for source_key,target_key in ACTUAL_STAT_ALIASES.items():
+                if source_key in row and target_key in STAT_KEYS[position]: values[target_key]=values.get(target_key,0)+number(row[source_key])
+    team_path=directory/f"team_stats_{season}.csv"
+    with team_path.open(newline="",encoding="utf-8") as handle:
+        for row in csv.DictReader(handle):
+            player_id=f"nfl:def:{row['team']}";values=aggregates.setdefault(player_id,{})
+            for source_key,target_key in ACTUAL_STAT_ALIASES.items():
+                if source_key in row and target_key in STAT_KEYS["DEF"]: values[target_key]=values.get(target_key,0)+number(row[source_key])
+    lines={}
+    for player_id,summary in summaries.items():
+        if player_id not in aggregates: continue
+        lines[player_id]={"season":season,"games":int(summary["games"]),"fantasy_points":round(number(summary["league_points"]),2),"points_per_game":round(number(summary["points_per_game"]),2),"stats":{key:round(value,2) for key,value in aggregates[player_id].items()},"source":"nflverse weekly player and team statistics"}
+    return lines,[actual_path,player_path,team_path]
 
 
 def projected_players(root: Path, season: int) -> tuple[list[dict[str, Any]], Path]:
@@ -122,6 +221,11 @@ def run(root: Path) -> Path:
 
     projections_2026, projection_path = projected_players(root, 2026)
     inputs[str(projection_path.relative_to(root))] = hashlib.sha256(projection_path.read_bytes()).hexdigest()
+    projected_stat_lines, projected_stat_path = normalized_projected_stat_lines(root, 2026)
+    actual_stat_lines, actual_stat_paths = normalized_actual_stat_lines(root, 2025, nfl_pointer)
+    inputs[str(projected_stat_path.relative_to(root))] = hashlib.sha256(projected_stat_path.read_bytes()).hexdigest()
+    for stat_path in actual_stat_paths:
+        inputs[str(stat_path.relative_to(root))] = hashlib.sha256(stat_path.read_bytes()).hexdigest()
     values_2026 = {row["internal_player_id"]: row for row in production_values(projections_2026,"projected_points")}
     variant_values = {
         name: {row["internal_player_id"]: row for row in production_values(projections_2026, "projected_points", allocation)}
@@ -158,7 +262,11 @@ def run(root: Path) -> Path:
             "adp_espn":market.get("adp_espn"),"adp_yahoo":market.get("adp_yahoo"),
             "market_missing_inputs":";".join(core_missing),"prior_price_missing":"prior_jugg_salary" in missing_inputs,
             "risk_flags":";".join(flags),
-            "modeled_roster_slot":value["modeled_roster_slot"]})
+            "modeled_roster_slot":value["modeled_roster_slot"],
+            "last_season_stat_line":actual_stat_lines.get(market["internal_player_id"]),
+            "projected_stat_line":projected_stat_lines.get(market["internal_player_id"])})
+    assign_position_tiers(board,"projected_points","production",maximum_span=16.0,minimum_natural_gap=6.0)
+    assign_position_tiers(board,"expected_jugg_price","auction",maximum_span=5.0,minimum_natural_gap=2.0)
     board.sort(key=lambda r:(-r["expected_surplus"],-r["draft_probability"],r["player_name"]))
     for rank,row in enumerate(board,1): row["surplus_rank"]=rank
     built=datetime.now(timezone.utc); build_id=built.strftime("%Y%m%dT%H%M%SZ")
@@ -170,7 +278,8 @@ def run(root: Path) -> Path:
         "allocation_sensitive_count":sum("allocation_sensitive" in row["risk_flags"] for row in board),
         "risk_flag_counts":{flag:sum(flag in row["risk_flags"].split(";") for row in board) for flag in ["missing_market_inputs","low_confidence_special_teams_projection","wide_market_price_range","low_draft_probability","replacement_boundary","allocation_sensitive"]},
         "top_20_bargain_positions":{position:sum(row["position"]==position for row in board[:20]) for position in ALLOCATION}}
-    (out/"decision_board_2026.json").write_text(json.dumps({"metadata":{"schema_version":1,"build_id":build_id,"allocation":ALLOCATION,"inputs":inputs,"hardening":hardening},"players":board},indent=2,sort_keys=True)+"\n")
+    tier_contract={"scope":"position","production":{"value":"projected_points","maximum_within_tier_span":16.0,"minimum_natural_gap":6.0,"natural_gap_multiplier":2.5},"auction":{"value":"expected_jugg_price","maximum_within_tier_span":5.0,"minimum_natural_gap":2.0,"natural_gap_multiplier":2.5}}
+    (out/"decision_board_2026.json").write_text(json.dumps({"metadata":{"schema_version":2,"build_id":build_id,"allocation":ALLOCATION,"tier_contract":tier_contract,"stat_line_contract":{"actual_season":2025,"projection_season":2026},"inputs":inputs,"hardening":hardening},"players":board},indent=2,sort_keys=True)+"\n")
     (out/"backtest.json").write_text(json.dumps({"metadata":{"schema_version":1,"build_id":build_id},"summary":backtest,"rows":backtest_rows},indent=2,sort_keys=True)+"\n")
     latest=root/"data/processed/production_value_model/latest.json"
     latest.write_text(json.dumps({"schema_version":1,"build_id":build_id,"decision_board_json":str((out/"decision_board_2026.json").relative_to(root)),"decision_board_csv":str((out/"decision_board_2026.csv").relative_to(root)),"backtest":str((out/"backtest.json").relative_to(root))},indent=2)+"\n")

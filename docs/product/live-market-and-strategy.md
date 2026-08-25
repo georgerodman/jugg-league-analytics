@@ -2,7 +2,7 @@
 
 ## Separation of values
 
-Renegade Draft Room keeps four values distinct:
+Renegade Draft Room keeps three evidence values and one action price distinct:
 
 1. **Pre-draft expected JUGG price** is the frozen model prediction produced
    before the draft.
@@ -10,9 +10,13 @@ Renegade Draft Room keeps four values distinct:
    JUGG sales. It estimates what the room may pay; it is not intrinsic value.
 3. **Production value** estimates the player's fantasy contribution under JUGG
    scoring and roster rules.
-4. **Renegades value** applies bounded roster and preference adjustments to
-   production value. It drives the recommendation and ceiling but never changes
-   the market model.
+4. **Shared walk-away price** comes from the live buy-versus-pass roster-path
+   evaluation, then applies any bounded, visible Renegades preference
+   adjustment. It is the only actionable willingness-to-pay dollar amount used
+   by the nomination ladder, Upcoming Targets, plan edge, and draft checkpoint.
+
+The former Renegades/strategy dollar value remains only as supporting model
+context during migration. It does not independently set an action price.
 
 The interface must label these values separately and give a short reason for
 material adjustments.
@@ -55,10 +59,11 @@ The Renegades Strategy drawer stores:
 - a bounded dollar adjustment for each team rule;
 - free-form preferred situations and notes.
 
-Every preference is advisory. Player and team preferences adjust Renegades
-value within bounded limits, appear in the recommendation explanation, and
-help order alternatives. They never remove a player, change the pre-draft or
-live market estimate, or prevent an explicit nomination or sale.
+Every preference is advisory. Player and team preferences make a bounded,
+visible adjustment to the shared baseline checkpoint, appear in the recommendation
+explanation, and help order alternatives. They never remove a player, change
+the pre-draft or live market estimate, or prevent an explicit nomination or
+sale.
 
 Free-form situation notes are persisted for planning and future grounded
 Copilot use. Only structured preferences affect deterministic dollar values;

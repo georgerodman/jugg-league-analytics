@@ -3,7 +3,11 @@ export type Position="QB"|"RB"|"WR"|"TE"|"K"|"DEF";
 export type DecisionPlayer={
   id:string;name:string;position:Position;projectedPoints:number;
   expectedPrice:number;priceLow:number;priceHigh:number;
+  productionTier?:number;auctionTier?:number;pointsAboveReplacement?:number;replacementPoints?:number;
+  strategyValue?:number;strategyAdjustment?:number;preference?:"target"|"avoid"|null;strategyReasons?:string[];
 };
+export type UpcomingTarget={rank:number;playerId:string;name:string;position:Position;role:string;targetPrice:number;walkawayCeiling:number;expectedEquityDelta:number;scenarioSupport:number;productionTier:number|null;tierRemaining:number;tierDropPoints:number;replacementPlayer:string|null;replacementPrice:number|null;why:string;conditionalPlan:string;strategyReasons:string[]};
+export type DraftImpact={playerId:string;price:number;band:DecisionBand;label:"Great Add"|"Good Add"|"Neutral"|"Poor Add"|"Bad Add";expectedEquityDelta:number;scenarioSupport:number;role:string;summary:string};
 
 export type DecisionTeam={
   id:string;name:string;owner:string;remainingBudget:number;openSlots:number;
@@ -99,6 +103,69 @@ function baselineScenarioScores(teams:DecisionTeam[],available:DecisionPlayer[])
   return result;
 }
 
+function median(values:number[]){const ordered=[...values].sort((a,b)=>a-b);return ordered[Math.floor(ordered.length/2)]??0;}
+
+function rosterRole(team:DecisionTeam,position:Position){
+  const count=team.roster.filter(player=>player.position===position).length;
+  if(count<(REQUIRED[position]??0))return `Fill starting ${position}`;
+  if(["RB","WR","TE"].includes(position)&&team.roster.filter(player=>["RB","WR","TE"].includes(player.position)).length<6)return "Build flex options";
+  return `Add ${position} depth`;
+}
+
+const impactLabels:Record<DecisionBand,DraftImpact["label"]>={strong_pursue:"Great Add",lean_pursue:"Good Add",neutral:"Neutral",lean_pass:"Poor Add",strong_pass:"Bad Add"};
+
+export function draftRoadmap(teams:DecisionTeam[],renegadesId:string,available:DecisionPlayer[],maxBid:number):{targets:UpcomingTarget[];impacts:DraftImpact[]}{
+  const renegades=teams.find(team=>team.id===renegadesId);if(!renegades)return{targets:[],impacts:[]};
+  const baseline=baselineScenarioScores(teams,available);
+  const tierCounts=new Map<string,number>();
+  for(const player of available)if(player.productionTier)tierCounts.set(`${player.position}:${player.productionTier}`,(tierCounts.get(`${player.position}:${player.productionTier}`)??0)+1);
+  const evaluated=available.filter(player=>player.expectedPrice<=maxBid).map(player=>{
+    const poolWithout=available.filter(row=>row.id!==player.id),deltas:number[]=[];
+    const purchasePrice=Math.max(1,Math.round(player.expectedPrice));
+    for(const row of baseline){
+      const passEquity=equity(row.scores)[renegadesId]??0;
+      const buyingTeam={...renegades,remainingBudget:renegades.remainingBudget-purchasePrice,openSlots:renegades.openSlots-1,roster:[...renegades.roster,player]};
+      const completion=completeRoster(buyingTeam,poolWithout,row.scenario,row.objective);
+      const buyScores={...row.scores,[renegadesId]:completion?.projectedLineupPoints??lineupPoints(buyingTeam.roster)};
+      deltas.push((equity(buyScores)[renegadesId]??0)-passEquity);
+    }
+    const productionTier=player.productionTier??null,tierRemaining=productionTier?tierCounts.get(`${player.position}:${productionTier}`)??0:0;
+    const nextTierPlayer=productionTier?available.filter(row=>row.position===player.position&&(row.productionTier??0)>productionTier).sort((a,b)=>(a.productionTier??999)-(b.productionTier??999)||b.projectedPoints-a.projectedPoints)[0]:undefined;
+    const tierDropPoints=nextTierPlayer?Math.max(0,player.projectedPoints-nextTierPlayer.projectedPoints):0;
+    const strategyAdjustment=player.strategyAdjustment??0;
+    const strategyOutcomeAdjustment=Math.max(-.01,Math.min(.01,strategyAdjustment*.001));
+    const scarcityOutcomeAdjustment=tierDropPoints>=5&&tierRemaining<=3?.003:0;
+    const adjustedDeltas=deltas.map(value=>value+strategyOutcomeAdjustment+scarcityOutcomeAdjustment);
+    const scenarioSupport=adjustedDeltas.filter(value=>value>0).length/adjustedDeltas.length,expectedEquityDelta=median(adjustedDeltas);
+    const preferenceBoost=player.preference==="target"?1.5:player.preference==="avoid"?-2:0;
+    const priorityScore=expectedEquityDelta*1000+scenarioSupport+Math.min(2,tierDropPoints/12)+Math.min(2,Math.max(0,4-tierRemaining)*.4)+strategyAdjustment*.08+preferenceBoost;
+    const targetPrice=purchasePrice,walkawayCeiling=Math.max(1,Math.min(maxBid,Math.round(Math.max(targetPrice,player.strategyValue??targetPrice))));
+    const impactBand=band(adjustedDeltas);
+    return {player,priorityScore,targetPrice,walkawayCeiling,expectedEquityDelta,scenarioSupport,productionTier,tierRemaining,tierDropPoints,nextTierPlayer,impactBand};
+  }).sort((a,b)=>b.priorityScore-a.priorityScore||b.expectedEquityDelta-a.expectedEquityDelta||b.player.projectedPoints-a.player.projectedPoints);
+  const impacts:DraftImpact[]=evaluated.map(row=>{
+    const supportCount=Math.round(row.scenarioSupport*9),role=rosterRole(renegades,row.player.position);
+    const scarcity=row.productionTier?`${row.tierRemaining} ${row.player.position} Tier ${row.productionTier} player${row.tierRemaining===1?"":"s"} remain`:`${row.player.position} supply is included`;
+    const strategy=row.player.strategyReasons?.[0];
+    return {playerId:row.player.id,price:row.targetPrice,band:row.impactBand,label:impactLabels[row.impactBand],expectedEquityDelta:row.expectedEquityDelta,scenarioSupport:row.scenarioSupport,role,
+      summary:`At $${row.targetPrice}, buying creates a better projected final roster in ${supportCount} of 9 tested draft paths. ${role}. ${scarcity}.${strategy?` ${strategy}.`:""}`};
+  });
+  for(const player of available.filter(player=>player.expectedPrice>maxBid))impacts.push({playerId:player.id,price:Math.round(player.expectedPrice),band:"strong_pass",label:"Bad Add",expectedEquityDelta:0,scenarioSupport:0,role:rosterRole(renegades,player.position),summary:`At $${Math.round(player.expectedPrice)}, this player is above the Renegades' current maximum legal bid of $${maxBid}.`});
+  const targets=evaluated.slice(0,8).map((row,index)=>{
+    const fallback=evaluated.slice(index+1).find(item=>item.player.position===row.player.position);
+    const strategyReasons=row.player.strategyReasons??[];
+    const priceDecision=nominationDecision(teams,renegadesId,available,row.player.id,maxBid);
+    const walkawayCeiling=priceDecision?.recommendedMax??row.targetPrice;
+    const why=[`${Math.round(row.scenarioSupport*9)} of 9 roster paths support the target price`,row.productionTier?`${row.tierRemaining} ${row.player.position}${row.productionTier} player${row.tierRemaining===1?"":"s"} remain`:null,row.tierDropPoints>=5?`${row.tierDropPoints.toFixed(1)}-point drop to the next tier`:null,strategyReasons[0]??null].filter(Boolean).join(" · ");
+    return {rank:index+1,playerId:row.player.id,name:row.player.name,position:row.player.position,role:rosterRole(renegades,row.player.position),targetPrice:row.targetPrice,walkawayCeiling,expectedEquityDelta:row.expectedEquityDelta,scenarioSupport:row.scenarioSupport,productionTier:row.productionTier,tierRemaining:row.tierRemaining,tierDropPoints:Number(row.tierDropPoints.toFixed(1)),replacementPlayer:fallback?.player.name??row.nextTierPlayer?.name??null,replacementPrice:fallback?.targetPrice??(row.nextTierPlayer?Math.round(row.nextTierPlayer.expectedPrice):null),why,conditionalPlan:`The plan is supported through $${walkawayCeiling}; above that, reassess the remaining roster${fallback?` against ${fallback.player.name} around $${fallback.targetPrice}`:" and the value of preserving budget flexibility"}.`,strategyReasons};
+  });
+  return {targets,impacts};
+}
+
+export function upcomingTargets(teams:DecisionTeam[],renegadesId:string,available:DecisionPlayer[],maxBid:number):UpcomingTarget[]{
+  return draftRoadmap(teams,renegadesId,available,maxBid).targets;
+}
+
 export function liveLeaderboard(teams:DecisionTeam[],available:DecisionPlayer[]){
   const values:Record<string,number[]>={};for(const team of teams)values[team.id]=[];
   for(const row of baselineScenarioScores(teams,available)){
@@ -111,10 +178,11 @@ export function liveLeaderboard(teams:DecisionTeam[],available:DecisionPlayer[])
   }).sort((a,b)=>b.championshipEquity-a.championshipEquity).map((row,index)=>({...row,rank:index+1}));
 }
 
-function rationale(player:DecisionPlayer,currentPrice:number,recommendation:DecisionBand,recommendedMax:number|null){
+function rationale(player:DecisionPlayer,currentPrice:number,recommendation:DecisionBand,recommendedMax:number|null,tierRemaining:number){
   const pursue=recommendation==="strong_pursue"||recommendation==="lean_pursue";
+  const tierRead=player.productionTier?` He is production Tier ${player.productionTier}, with ${tierRemaining} player${tierRemaining===1?"":"s"} from that tier still available.`:"";
   return {
-    draftBecause:pursue?`At $${currentPrice}, ${player.name} improves most tested ways to complete the Renegades roster without exhausting later flexibility.`:`If the room stops below $${recommendedMax??currentPrice}, ${player.name}'s projected lineup impact can justify the opportunity cost.`,
+    draftBecause:(pursue?`At $${currentPrice}, ${player.name} improves most tested ways to complete the Renegades roster without exhausting later flexibility.`:`If the room stops below $${recommendedMax??currentPrice}, ${player.name}'s projected lineup impact can justify the opportunity cost.`)+tierRead,
     dontDraftBecause:pursue?`Above $${recommendedMax??currentPrice}, later roster paths lose too much budget and comparable alternatives become stronger.`:`At $${currentPrice}, keeping the money creates stronger or statistically indistinguishable completion paths.`,
   };
 }
@@ -152,8 +220,15 @@ export function nominationDecision(teams:DecisionTeam[],renegadesId:string,avail
   }
   const tiers:{from:number;to:number;band:DecisionBand}[]=[];
   for(const row of atPrice){const previous=tiers.at(-1);if(previous?.band===row.band)previous.to=row.price;else tiers.push({from:row.price,to:row.price,band:row.band});}
-  const recommendedMax=Math.max(0,...atPrice.filter(row=>row.band==="strong_pursue"||row.band==="lean_pursue").map(row=>row.price))||null;
+  const baselineRecommendedMax=Math.max(0,...atPrice.filter(row=>row.band==="strong_pursue"||row.band==="lean_pursue").map(row=>row.price))||null;
+  const preferenceAdjustment=Math.round(player.strategyAdjustment??0);
+  const recommendedMax=baselineRecommendedMax==null?null:Math.max(1,Math.min(maxBid,evaluatedMax,baselineRecommendedMax+preferenceAdjustment));
   const currentPrice=Math.max(1,Math.round(player.expectedPrice)),current=atPrice[Math.min(atPrice.length-1,currentPrice-1)]??atPrice.at(-1)!;
-  return {...current,recommendedMax,tiers,evaluatedMax,marketHigh,stretchCeiling,extremeCeiling,rationale:rationale(player,currentPrice,current.band,recommendedMax),modelStatus:"shadow" as const,
+  const productionTierRemaining=player.productionTier?available.filter(row=>row.position===player.position&&row.productionTier===player.productionTier).length:0;
+  const auctionTierRemaining=player.auctionTier?available.filter(row=>row.position===player.position&&row.auctionTier===player.auctionTier).length:0;
+  const nextProductionTier=player.productionTier?available.filter(row=>row.position===player.position&&(row.productionTier??0)>player.productionTier!).sort((a,b)=>(a.productionTier??999)-(b.productionTier??999)||b.projectedPoints-a.projectedPoints)[0]:undefined;
+  return {...current,recommendedMax,baselineRecommendedMax,preferenceAdjustment,tiers,evaluatedMax,marketHigh,stretchCeiling,extremeCeiling,
+    tierContext:{productionTier:player.productionTier??null,productionTierRemaining,auctionTier:player.auctionTier??null,auctionTierRemaining,nextProductionTierPlayer:nextProductionTier?.name??null,nextProductionTier:nextProductionTier?.productionTier??null},
+    rationale:rationale(player,currentPrice,current.band,recommendedMax,productionTierRemaining),modelStatus:"shadow" as const,
     explanation:"Market-aware read across nine roster-completion paths. Prices above the expected market range are downgraded to protect budget flexibility."};
 }

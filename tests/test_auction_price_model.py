@@ -2,7 +2,8 @@ import math
 import unittest
 
 from scripts.auction_price_model import (
-    evaluate, fit_line, fit_ridge, metrics, percentile, position_adjustments,
+    calibrate_draft_probabilities, economy_calibrate_prices, evaluate, fit_line,
+    fit_ridge, metrics, percentile, position_adjustments,
     predict_ridge, probability_metrics, solve_linear_system,
 )
 
@@ -67,6 +68,26 @@ class AuctionPriceModelTests(unittest.TestCase):
         result = probability_metrics([(0.9, 1), (0.8, 1), (0.2, 0), (0.1, 0)])
         self.assertEqual(result["auc"], 1.0)
         self.assertLess(result["brier"], 0.05)
+
+    def test_probability_weighted_price_calibration_reconciles_expected_budget(self):
+        prices = [float(200 - index) for index in range(150)]
+        probabilities = calibrate_draft_probabilities([0.5] * 150, 140)
+        calibrated, metadata = economy_calibrate_prices(
+            prices, probabilities, "probability_weighted_proportional",
+        )
+        self.assertAlmostEqual(sum(
+            price * probability for price, probability in zip(calibrated, probabilities)
+        ), 2000.0, places=6)
+        self.assertEqual(metadata["method"], "probability_weighted_proportional")
+
+    def test_top_140_and_probability_weighted_calibrations_are_distinct(self):
+        prices = [float(200 - index) for index in range(150)]
+        probabilities = calibrate_draft_probabilities([0.5] * 150, 140)
+        top_prices, _ = economy_calibrate_prices(prices, probabilities, "top_140_proportional")
+        expected_prices, _ = economy_calibrate_prices(
+            prices, probabilities, "probability_weighted_proportional"
+        )
+        self.assertNotAlmostEqual(top_prices[0], expected_prices[0])
 
 
 if __name__ == "__main__":

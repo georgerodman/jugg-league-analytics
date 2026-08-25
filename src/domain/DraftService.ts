@@ -71,11 +71,11 @@ export class DraftService {
     });
   }
 
-  recordSale(command: Command & { winnerTeamId:string; price:number }): unknown {
-    return this.execute(command,"sale_recorded","sale",command.draftId,{winnerTeamId:command.winnerTeamId,price:command.price},eventId=>{
+  recordSale(command: Command & { winnerTeamId:string; price:number; ceilingOverrideReason?:string }): unknown {
+    return this.execute(command,"sale_recorded","sale",command.draftId,{winnerTeamId:command.winnerTeamId,price:command.price,ceilingOverrideReason:command.ceilingOverrideReason??null},eventId=>{
       const nomination=this.openNominationRow(command.draftId);
       const draft=this.db.prepare("SELECT minimum_bid FROM drafts WHERE id=?").get(command.draftId) as {minimum_bid:number};
-      const team=this.db.prepare("SELECT s.remaining_budget,s.open_slot_count,p.position FROM team_draft_state s JOIN teams t ON t.id=s.team_id JOIN players p ON p.id=? WHERE s.team_id=? AND t.draft_id=?").get(nomination.player_id,command.winnerTeamId,command.draftId) as {remaining_budget:number;open_slot_count:number;position:Position}|undefined;
+      const team=this.db.prepare("SELECT s.remaining_budget,s.open_slot_count,p.position,t.display_name team_name FROM team_draft_state s JOIN teams t ON t.id=s.team_id JOIN players p ON p.id=? WHERE s.team_id=? AND t.draft_id=?").get(nomination.player_id,command.winnerTeamId,command.draftId) as {remaining_budget:number;open_slot_count:number;position:Position;team_name:string}|undefined;
       if (!team) throw new DomainError("TEAM_NOT_IN_DRAFT","Winner is not in this draft");
       if (!Number.isInteger(command.price)||command.price<draft.minimum_bid) throw new DomainError("INVALID_PRICE","Sale price is below the minimum bid");
       const maximum=team.remaining_budget-(team.open_slot_count-1)*draft.minimum_bid;
@@ -83,12 +83,15 @@ export class DraftService {
       const slots=this.db.prepare("SELECT id,slot_type,eligible_positions_json FROM roster_slots WHERE team_id=? AND player_id IS NULL").all(command.winnerTeamId) as {id:string;slot_type:string;eligible_positions_json:string}[];
       const slot=slots.filter(row=>(JSON.parse(row.eligible_positions_json) as Position[]).includes(team.position)).sort((a,b)=>(a.slot_type==="BN"?1:0)-(b.slot_type==="BN"?1:0))[0];
       if (!slot) throw new DomainError("NO_ELIGIBLE_SLOT","No eligible roster slot remains");
+      const plan=this.db.prepare("SELECT recommended_ceiling,committed_ceiling FROM nomination_decision_plans WHERE nomination_id=?").get(nomination.id) as {recommended_ceiling:number;committed_ceiling:number}|undefined;
+      const overrideReason=command.ceilingOverrideReason?.trim();
       const saleId=randomUUID();
       this.db.prepare("UPDATE nominations SET status='sold',closed_event_id=?,closed_at=? WHERE id=?").run(eventId,command.occurredAt,nomination.id);
       this.db.prepare("INSERT INTO sales(id,draft_id,nomination_id,player_id,winner_team_id,price,recorded_event_id,roster_slot_id,recorded_at) VALUES(?,?,?,?,?,?,?,?,?)").run(saleId,command.draftId,nomination.id,nomination.player_id,command.winnerTeamId,command.price,eventId,slot.id,command.occurredAt);
       this.db.prepare("UPDATE roster_slots SET player_id=?,filled_sale_id=? WHERE id=?").run(nomination.player_id,saleId,slot.id);
       this.db.prepare("UPDATE draft_player_pool SET status='sold' WHERE draft_id=? AND player_id=?").run(command.draftId,nomination.player_id);
       this.db.prepare("UPDATE team_draft_state SET remaining_budget=remaining_budget-?,open_slot_count=open_slot_count-1,rostered_player_count=rostered_player_count+1,version=version+1,updated_at=? WHERE team_id=?").run(command.price,command.occurredAt,command.winnerTeamId);
+      if(team.team_name==="Rodman Renegades"&&plan&&command.price>plan.committed_ceiling)this.db.prepare("INSERT INTO discipline_overrides(id,draft_id,nomination_id,sale_id,recommended_ceiling,committed_ceiling,actual_price,reason,created_at) VALUES(?,?,?,?,?,?,?,?,?)").run(randomUUID(),command.draftId,nomination.id,saleId,plan.recommended_ceiling,plan.committed_ceiling,command.price,overrideReason||"No reason recorded",command.occurredAt);
       const completion=this.db.prepare(`SELECT s.open_slot_count,d.required_players_per_team FROM team_draft_state s JOIN teams t ON t.id=s.team_id JOIN drafts d ON d.id=t.draft_id WHERE s.team_id=? AND d.id=?`).get(command.winnerTeamId,command.draftId) as {open_slot_count:number;required_players_per_team:number};
       if(completion.open_slot_count===0)this.db.prepare("INSERT INTO team_draft_completions(id,draft_id,team_id,completed_event_id,completed_at) VALUES(?,?,?,?,?)").run(randomUUID(),command.draftId,command.winnerTeamId,eventId,command.occurredAt);
       return {saleId,rosterSlotId:slot.id};

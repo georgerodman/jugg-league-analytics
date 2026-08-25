@@ -461,6 +461,168 @@ def choose_parameter(
     return min(scores)[1]
 
 
+def calibrate_draft_probabilities(probabilities: list[float], draft_slots: int) -> list[float]:
+    """Adjust probability odds so expected drafted players equal the league slots."""
+    probability_floor, probability_ceiling = 0.005, 0.995
+
+    def calibrated(probability: float, multiplier: float) -> float:
+        adjusted = (multiplier * probability) / (1 - probability + multiplier * probability)
+        return min(probability_ceiling, max(probability_floor, adjusted))
+
+    low, high = 0.0, 1000.0
+    for _ in range(80):
+        multiplier = (low + high) / 2
+        if sum(calibrated(probability, multiplier) for probability in probabilities) < draft_slots:
+            low = multiplier
+        else:
+            high = multiplier
+    multiplier = (low + high) / 2
+    return [calibrated(probability, multiplier) for probability in probabilities]
+
+
+def economy_calibrate_prices(
+    prices: list[float], probabilities: list[float], method: str,
+    draft_slots: int = 140, total_budget: int = 2000,
+) -> tuple[list[float], dict[str, Any]]:
+    """Reconcile conditional prices to the league economy without using outcomes."""
+    if len(prices) != len(probabilities):
+        raise ModelError("Price and probability counts differ")
+    if len(prices) < draft_slots:
+        raise ModelError("Not enough supported players for league economy calibration")
+    ranked_indexes = sorted(range(len(prices)), key=lambda index: (-prices[index], index))
+    top_indexes = ranked_indexes[:draft_slots]
+    minimum_total = sum(probabilities)
+
+    if method == "raw_unconstrained":
+        calibrated = list(prices)
+        adjustment = 1.0
+    elif method == "top_140_proportional":
+        denominator = sum(max(0.0, prices[index] - 1.0) for index in top_indexes)
+        adjustment = (total_budget - draft_slots) / denominator
+        calibrated = [1.0 + adjustment * max(0.0, price - 1.0) for price in prices]
+    elif method == "top_140_additive":
+        low, high = -100.0, 100.0
+        for _ in range(80):
+            delta = (low + high) / 2
+            if sum(max(1.0, prices[index] + delta) for index in top_indexes) < total_budget:
+                low = delta
+            else:
+                high = delta
+        adjustment = (low + high) / 2
+        calibrated = [max(1.0, price + adjustment) for price in prices]
+    elif method == "top_140_premium_preserving":
+        protected = {index for index in top_indexes if prices[index] >= 30.0}
+        protected_total = sum(prices[index] for index in protected)
+        adjustable = [index for index in top_indexes if index not in protected]
+        low, high = -100.0, 100.0
+        for _ in range(80):
+            delta = (low + high) / 2
+            if protected_total + sum(max(1.0, prices[index] + delta) for index in adjustable) < total_budget:
+                low = delta
+            else:
+                high = delta
+        adjustment = (low + high) / 2
+        calibrated = [price if price >= 30.0 else max(1.0, price + adjustment) for price in prices]
+    elif method == "probability_weighted_additive":
+        low, high = -100.0, 100.0
+        for _ in range(80):
+            delta = (low + high) / 2
+            expected = sum(
+                probability * max(1.0, price + delta)
+                for price, probability in zip(prices, probabilities)
+            )
+            if expected < total_budget:
+                low = delta
+            else:
+                high = delta
+        adjustment = (low + high) / 2
+        calibrated = [max(1.0, price + adjustment) for price in prices]
+    elif method == "probability_weighted_proportional":
+        denominator = sum(
+            probability * max(0.0, price - 1.0)
+            for price, probability in zip(prices, probabilities)
+        )
+        adjustment = (total_budget - minimum_total) / denominator
+        calibrated = [1.0 + adjustment * max(0.0, price - 1.0) for price in prices]
+    else:
+        raise ModelError(f"Unknown economy calibration method: {method}")
+
+    return calibrated, {
+        "method": method,
+        "adjustment": round(adjustment, 6),
+        "top_140_total": round(sum(calibrated[index] for index in top_indexes), 3),
+        "probability_weighted_total": round(sum(
+            probability * price for price, probability in zip(calibrated, probabilities)
+        ), 3),
+    }
+
+
+def economy_calibration_tournament(rows: list[dict[str, Any]]) -> dict[str, Any]:
+    """Forward-test competing ways to reconcile conditional prices to $2,000."""
+    sold = [row for row in rows if row["drafted"]]
+    pool = [
+        row for row in rows
+        if row.get("espn_salary_cap_value") is not None or row.get("adp_yahoo") is not None
+    ]
+    if any(sum(row["season"] == season for row in pool) < 140 for season in SEASONS[1:]):
+        return {
+            "status": "insufficient_pool",
+            "required_supported_players_per_test_season": 140,
+        }
+    methods = (
+        "raw_unconstrained", "top_140_proportional", "top_140_additive",
+        "top_140_premium_preserving", "probability_weighted_additive",
+        "probability_weighted_proportional",
+    )
+    predictions: dict[str, list[tuple[float, float]]] = {method: [] for method in methods}
+    by_season: dict[str, dict[str, Any]] = {}
+    for season in SEASONS[1:]:
+        price_training = [row for row in sold if row["season"] < season]
+        probability_training = [row for row in pool if row["season"] < season]
+        test = [row for row in pool if row["season"] == season]
+        price_penalty = choose_parameter(price_training, MODEL_FEATURES["full"], "ridge")
+        price_model = fit_ridge(price_training, MODEL_FEATURES["full"], float(price_penalty))
+        prices = [predict_ridge(price_model, row) for row in test]
+        probability_penalty = choose_probability_parameter(
+            probability_training, MODEL_FEATURES["full"], "ridge"
+        )
+        probability_model = fit_ridge(
+            probability_rows(probability_training), MODEL_FEATURES["full"],
+            float(probability_penalty),
+        )
+        raw_probabilities = [
+            min(1 - 1e-6, max(1e-6, predict_probability(probability_model, row, "ridge")))
+            for row in test
+        ]
+        probabilities = calibrate_draft_probabilities(raw_probabilities, 140)
+        by_season[str(season)] = {}
+        for method in methods:
+            calibrated, economy = economy_calibrate_prices(prices, probabilities, method)
+            pairs = [
+                (prediction, float(row["jugg_salary"]))
+                for prediction, row in zip(calibrated, test) if row["drafted"]
+            ]
+            predictions[method].extend(pairs)
+            by_season[str(season)][method] = {**metrics(pairs), **economy}
+
+    ranking = []
+    for method, pairs in predictions.items():
+        ranking.append({
+            "method": method, **metrics(pairs),
+            "price_50_plus": metrics([(p, a) for p, a in pairs if a >= 50]),
+            "price_60_plus": metrics([(p, a) for p, a in pairs if a >= 60]),
+        })
+    ranking.sort(key=lambda row: (row["price_50_plus"]["mae"], row["mae"], row["method"]))
+    return {
+        "training_rule": "forward-only price and draft-probability models; no evaluated season informs its calibration",
+        "selection_rule": "among economy-coherent methods, prioritize $50+ MAE while requiring overall MAE to remain within 1% of the raw model",
+        "production_method": "probability_weighted_proportional",
+        "ranking_by_premium_mae": ranking,
+        "by_test_season": by_season,
+        "interpretation": "Conditional prices are reconciled so probability-weighted expected spending equals $2,000; the identities of the 140 drafted players are not assumed known.",
+    }
+
+
 def neutral_model_tournament(rows: list[dict[str, Any]]) -> dict[str, Any]:
     sold = [row for row in rows if row["drafted"]]
     test_seasons = SEASONS[1:]
@@ -563,29 +725,8 @@ def score_2026(
             "uncalibrated_model_price": prediction,
             "missing_inputs": missing,
         })
-    scored.sort(key=lambda row: (-row["uncalibrated_model_price"], row["player_name"]))
     draft_slots = 140
     total_budget = 2000
-    top = scored[:draft_slots]
-    discretionary_prediction = sum(max(0.0, row["uncalibrated_model_price"] - 1.0) for row in top)
-    economy_factor = (total_budget - draft_slots) / discretionary_prediction
-    calibrated_top_total = sum(
-        1.0 + max(0.0, row["uncalibrated_model_price"] - 1.0) * economy_factor for row in top
-    )
-    for row in scored:
-        calibrated = 1.0 + max(0.0, row["uncalibrated_model_price"] - 1.0) * economy_factor
-        position_range = error_ranges["by_position"].get(row["position"], {})
-        radius = (position_range.get("p80") or error_ranges["overall"]["p80"]) * economy_factor
-        row.update({
-            "expected_jugg_price_if_drafted": round(calibrated, 1),
-            "uncalibrated_model_price": round(row["uncalibrated_model_price"], 1),
-            "price_range_low": round(max(1.0, calibrated - radius), 1),
-            "price_range_high": round(calibrated + radius, 1),
-            "range_basis": f"historical_forward_error_p80:{row['position']}",
-        })
-    for rank, row in enumerate(scored, start=1):
-        row["jugg_price_rank"] = rank
-
     probability_pool = [
         row for row in historical_rows
         if row.get("espn_salary_cap_value") is not None or row.get("adp_yahoo") is not None
@@ -596,28 +737,30 @@ def score_2026(
     binary_training = probability_rows(probability_pool)
     probability_model = fit_ridge(binary_training, probability_features, float(probability_parameter)) if family == "ridge" else fit_knn(binary_training, probability_features, int(probability_parameter))
     raw_probabilities = [min(1 - 1e-6, max(1e-6, predict_probability(probability_model, row, family))) for row in scored]
-    probability_floor, probability_ceiling = 0.005, 0.995
-
-    def calibrate_probability(probability: float, multiplier: float) -> float:
-        adjusted = (multiplier * probability) / (1 - probability + multiplier * probability)
-        return min(probability_ceiling, max(probability_floor, adjusted))
-
-    low, high = 0.0, 1000.0
-    for _ in range(80):
-        multiplier = (low + high) / 2
-        total = sum(calibrate_probability(probability, multiplier) for probability in raw_probabilities)
-        if total < draft_slots:
-            low = multiplier
-        else:
-            high = multiplier
-    odds_multiplier = (low + high) / 2
-    for row, probability in zip(scored, raw_probabilities):
-        calibrated = calibrate_probability(probability, odds_multiplier)
+    calibrated_probabilities = calibrate_draft_probabilities(raw_probabilities, draft_slots)
+    for row, calibrated in zip(scored, calibrated_probabilities):
         row["draft_probability"] = round(calibrated, 4)
         row["draft_likelihood"] = (
             "very_likely" if calibrated >= 0.8 else "likely" if calibrated >= 0.6
             else "bubble" if calibrated >= 0.4 else "long_shot" if calibrated >= 0.2 else "unlikely"
         )
+    calibrated_prices, economy = economy_calibrate_prices(
+        [row["uncalibrated_model_price"] for row in scored], calibrated_probabilities,
+        "probability_weighted_proportional", draft_slots, total_budget,
+    )
+    for row, calibrated in zip(scored, calibrated_prices):
+        position_range = error_ranges["by_position"].get(row["position"], {})
+        radius = (position_range.get("p80") or error_ranges["overall"]["p80"]) * economy["adjustment"]
+        row.update({
+            "expected_jugg_price_if_drafted": round(calibrated, 1),
+            "uncalibrated_model_price": round(row["uncalibrated_model_price"], 1),
+            "price_range_low": round(max(1.0, calibrated - radius), 1),
+            "price_range_high": round(calibrated + radius, 1),
+            "range_basis": f"historical_forward_error_p80:{row['position']}",
+        })
+    scored.sort(key=lambda row: (-row["expected_jugg_price_if_drafted"], row["player_name"]))
+    for rank, row in enumerate(scored, start=1):
+        row["jugg_price_rank"] = rank
     metadata = {
         "season": 2026, "model": "ridge:full", "training_seasons": list(SEASONS),
         "training_sale_count": len(training), "selected_ridge_penalty": penalty,
@@ -625,8 +768,8 @@ def score_2026(
         "scoring_eligibility": "Player has a 2026 ESPN Salary Cap Value or Yahoo ADP; deeper canonical players are excluded as outside the historical model's supported sale-price population.",
         "league_economy_calibration": {
             "draft_slots": draft_slots, "total_budget": total_budget,
-            "minimum_price": 1, "discretionary_price_factor": round(economy_factor, 6),
-            "unrounded_top_140_total": round(calibrated_top_total, 6),
+            "minimum_price": 1, **economy,
+            "interpretation": "Draft probabilities weight conditional prices so expected league spending equals the fixed budget without assuming which 140 players are drafted.",
         },
         "complete_input_count": sum(not row["missing_inputs"] for row in scored),
         "missing_input_counts": {
@@ -635,8 +778,8 @@ def score_2026(
         "interpretation": "Price is conditional on being drafted; draft_probability is a separate model output. Neither is a production value.",
         "draft_probability_model": {
             "model": probability_tournament["best_model"], "selected_parameter": probability_parameter,
-            "training_pool_count": len(probability_pool), "odds_calibration_multiplier": round(odds_multiplier, 6),
-            "probability_floor": probability_floor, "probability_ceiling": probability_ceiling,
+            "training_pool_count": len(probability_pool),
+            "probability_floor": 0.005, "probability_ceiling": 0.995,
             "expected_drafted_count": round(sum(row["draft_probability"] for row in scored), 4),
             "interpretation": "Probability that the player occupies one of the 140 JUGG draft slots, calibrated to sum to 140 across the supported 2026 pool.",
         },
@@ -731,6 +874,7 @@ def evaluate(rows: list[dict[str, Any]]) -> dict[str, Any]:
         "calibration_coefficients_by_held_out_season": coefficients,
         "ablation_study": ablation_study(rows),
         "neutral_model_tournament": neutral_model_tournament(rows),
+        "economy_calibration_tournament": economy_calibration_tournament(rows),
         "draft_probability_tournament": draft_probability_tournament(rows),
         "notes": [
             "Sale-price errors are evaluated only for drafted players with an ESPN value.",

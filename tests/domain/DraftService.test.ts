@@ -5,7 +5,7 @@ import { readFileSync } from "node:fs";
 import { DraftService, DomainError, type SlotTemplate } from "../../src/domain/DraftService.js";
 import { initializeFromArtifacts, JUGG_SLOTS } from "../../src/domain/importDraftArtifacts.js";
 
-const migration=readFileSync("db/migrations/001_initial.sql","utf8")+readFileSync("db/migrations/002_strategy_and_market_context.sql","utf8")+readFileSync("db/migrations/003_nomination_and_waiver_order.sql","utf8");
+const migration=readFileSync("db/migrations/001_initial.sql","utf8")+readFileSync("db/migrations/002_strategy_and_market_context.sql","utf8")+readFileSync("db/migrations/003_nomination_and_waiver_order.sql","utf8")+readFileSync("db/migrations/004_decision_planning.sql","utf8");
 const slots:SlotTemplate[]=[
   {slotType:"QB",count:1,eligiblePositions:["QB"]},{slotType:"RB",count:1,eligiblePositions:["RB"]},
   {slotType:"WR",count:2,eligiblePositions:["WR"]},{slotType:"TE",count:1,eligiblePositions:["TE"]},
@@ -35,6 +35,18 @@ test("rejects a sale that consumes required one-dollar reserves",()=>{
     (error:any)=>error instanceof DomainError&&error.code==="BUDGET_RESERVE");
   assert.equal((svc.db.prepare("SELECT COUNT(*) count FROM sales").get() as any).count,0);
   assert.equal((svc.db.prepare("SELECT COUNT(*) count FROM draft_events").get() as any).count,2);
+});
+
+test("records a Renegades purchase above the walk-away price without blocking the sale",()=>{
+  const svc=service();
+  svc.db.prepare("UPDATE teams SET display_name='Rodman Renegades' WHERE id='t'").run();
+  svc.startDraft({draftId:"d",expectedVersion:0,idempotencyKey:"start",occurredAt:at});
+  svc.openNomination({draftId:"d",expectedVersion:1,idempotencyKey:"nom",occurredAt:at,playerId:"p"});
+  const nomination=svc.db.prepare("SELECT id FROM nominations WHERE draft_id='d' AND status='open'").get() as {id:string};
+  svc.db.prepare("INSERT INTO nomination_decision_plans(nomination_id,draft_id,player_id,recommended_ceiling,committed_ceiling) VALUES(?,?,?,?,?)").run(nomination.id,"d","p",30,35);
+  svc.recordSale({draftId:"d",expectedVersion:2,idempotencyKey:"sale-no-reason",occurredAt:at,winnerTeamId:"t",price:40});
+  const override=svc.db.prepare("SELECT actual_price actualPrice,committed_ceiling committedCeiling,reason FROM discipline_overrides").get() as any;
+  assert.deepEqual(override,{actualPrice:40,committedCeiling:35,reason:"No reason recorded"});
 });
 
 test("idempotency replays and stale versions fail",()=>{

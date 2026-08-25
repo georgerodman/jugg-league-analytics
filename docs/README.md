@@ -10,6 +10,11 @@ question they answer.
 
 ## Product: what we are building and how to use it
 
+- [Simple system overview](product/system-overview.md) — the short, plain-
+  language explanation of how data, stats, models, rankings, live state, and
+  recommendations fit together.
+- [Hardening guide](product/hardening-roadmap.md) — what is solid, what remains
+  provisional, and the highest-value work before draft night.
 - [Draft decision guide](product/draft-decision-guide.md) — plain-language
   explanation of the success benchmark, nomination recommendations, price
   tiers, and end-of-draft scorecard.
@@ -65,4 +70,3 @@ question they answer.
 - Technical structure or contract → `architecture/`
 - Repeatable maintenance procedure → `operations/`
 - Durable project-wide decision → update `PROJECT_SPEC.md`
-
