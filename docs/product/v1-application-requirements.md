@@ -117,6 +117,10 @@ There is no bid-entry stream. Bidding happens elsewhere.
 ### Corrections
 
 - Cancel an open nomination without changing budgets or rosters.
+- Preselect the next nominator from an editable owner rotation, advancing from
+  the owner actually recorded and skipping owners whose rosters are complete.
+- Record roster-completion order as waiver tiebreaker priority (#1 through #10)
+  and reverse that completion if its final sale is corrected.
 - Void an incorrect completed sale from the history view with a reason and
   explicit confirmation.
 - Restore the player, budget, and roster slot through a compensating event.
@@ -191,6 +195,13 @@ The Team Roster includes a compact Strength column (`Elite`, `Strong`,
 replacement. This identifies positional strengths and weaknesses without
 mislabeling auction surplus as championship impact. A true equity-at-purchase
 grade requires persisted decision snapshots and is a later enhancement.
+The roster header can switch among all ten teams. A filled player may be
+dragged to another eligible slot; dropping onto a filled slot swaps the players
+only when both assignments remain legal. These arrangements are committed to
+the local event history first, survive refresh/restart, and then trigger the
+same retryable full-board Google Sheets projection used by completed sales.
+The shared sheet therefore mirrors the locally selected lineup slots without
+becoming the authoritative draft state.
 
 The Assistant GM surface accepts questions immediately through deterministic
 offline guidance. A later streaming AI connection may enrich those responses,

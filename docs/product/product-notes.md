@@ -136,6 +136,10 @@ For each recommended target, show:
   and the risk that the tier closes before the Renegades can act;
 - roster need, remaining budget, open slots, flexibility, bye-week effects, and
   opportunity cost across other positions;
+- the operator's personal draft strategy, including players to target or avoid,
+  NFL teams and team-position situations to target or avoid, roster-construction
+  preferences, risk tolerance, bye-week philosophy, and any documented strategy
+  notes;
 - likely competing owners, their needs and budgets, and relevant supported
   tendencies; and
 - confidence, important assumptions, and the event that would invalidate or
@@ -156,11 +160,22 @@ rest of the auction is predictable. Examples:
 The system should be capable of running a read-only **autopilot simulation**:
 using all locally available projections, expected and live prices, remaining
 players, tiers, replacement costs, roster constraints, opponent states, owner
-tendencies, strategy preferences, and outcome models, simulate the purchases
-and price limits it would choose from the current state through roster
-completion. Present the resulting roster paths, expected spend, and success
-metric so the operator can understand the longer-term consequences of the next
-decision.
+tendencies, the operator's complete personal draft strategy, and outcome models,
+simulate the purchases and price limits it would choose from the current state
+through roster completion. Present the resulting roster paths, expected spend,
+and success metric so the operator can understand the longer-term consequences
+of the next decision.
+
+Personal strategy inputs should influence target order, acceptable price,
+replacement paths, and the explanation for each recommendation. The roadmap
+must identify material strategy adjustments explicitly—for example, `moved up
+because this player is a target` or `excluded from the primary path because this
+team-position combination is marked avoid`. Preferences remain bounded advisory
+inputs: they may change the Renegades-specific plan but must not alter objective
+market-price evidence, make an available player unavailable, or override hard
+roster and budget constraints. The operator should be able to distinguish a
+model-driven recommendation from one materially influenced by personal
+strategy.
 
 Autopilot is advisory only. It may propose nominations, purchases, passes, and
 price ceilings, but it must never nominate a player, record a sale, or otherwise
@@ -181,6 +196,9 @@ instead of presenting an unexplained new list.
 - How many future roster paths can be shown without implying false precision?
 - Should target order optimize expected championship equity, a risk-adjusted
   version of it, or a user-selectable objective?
+- How strongly should each personal strategy preference influence target order
+  and price ceilings, and should the roadmap offer a comparison with those
+  preferences temporarily disabled?
 - How should nomination strategy differ from acquisition priority—for example,
   nominating players the Renegades do not want in order to drain opponent
   budgets?

@@ -5,7 +5,7 @@ import { readFileSync } from "node:fs";
 import { DraftService, DomainError, type SlotTemplate } from "../../src/domain/DraftService.js";
 import { initializeFromArtifacts, JUGG_SLOTS } from "../../src/domain/importDraftArtifacts.js";
 
-const migration=readFileSync("db/migrations/001_initial.sql","utf8")+readFileSync("db/migrations/002_strategy_and_market_context.sql","utf8");
+const migration=readFileSync("db/migrations/001_initial.sql","utf8")+readFileSync("db/migrations/002_strategy_and_market_context.sql","utf8")+readFileSync("db/migrations/003_nomination_and_waiver_order.sql","utf8");
 const slots:SlotTemplate[]=[
   {slotType:"QB",count:1,eligiblePositions:["QB"]},{slotType:"RB",count:1,eligiblePositions:["RB"]},
   {slotType:"WR",count:2,eligiblePositions:["WR"]},{slotType:"TE",count:1,eligiblePositions:["TE"]},
@@ -14,7 +14,7 @@ const slots:SlotTemplate[]=[
   {slotType:"BN",count:5,eligiblePositions:["QB","RB","WR","TE","K","DEF"]},
 ];
 
-function service(){const db=new Database(":memory:");db.exec(migration);const svc=new DraftService(db);svc.initializeDraft({id:"d",season:2026,name:"JUGG",teams:[{id:"t",ownerId:"o",ownerName:"Owner",name:"Team"},{id:"t2",ownerId:"o2",ownerName:"Owner 2",name:"Team 2"}],players:[{id:"p",name:"Runner",position:"RB",identityStatus:"stable"}],slots});return svc;}
+function service(){const db=new Database(":memory:");db.exec(migration);const svc=new DraftService(db);svc.initializeDraft({id:"d",season:2026,name:"JUGG",teams:[{id:"t",ownerId:"o",ownerName:"Owner",name:"Team"},{id:"t2",ownerId:"o2",ownerName:"Owner 2",name:"Team 2"}],players:[{id:"p",name:"Runner",position:"RB",identityStatus:"stable"},{id:"w",name:"Receiver",position:"WR",identityStatus:"stable"}],slots});return svc;}
 const at="2026-08-23T20:00:00Z";
 
 test("records a sale atomically and preserves budget reserves",()=>{
@@ -54,6 +54,36 @@ test("voiding a sale restores roster, budget, and availability",()=>{
   assert.equal(state.remaining_budget,200);assert.equal(state.open_slot_count,14);assert.equal(state.rostered_player_count,0);
   assert.equal((svc.db.prepare("SELECT status FROM draft_player_pool WHERE player_id='p'").get() as any).status,"available");
   assert.deepEqual(svc.recoveryAudit("d"),[]);
+});
+
+test("reassigns a player to a legal slot and keeps corrections consistent",()=>{
+  const svc=service();svc.startDraft({draftId:"d",expectedVersion:0,idempotencyKey:"start",occurredAt:at});
+  svc.openNomination({draftId:"d",expectedVersion:1,idempotencyKey:"nom",occurredAt:at,playerId:"p"});
+  const sale=svc.recordSale({draftId:"d",expectedVersion:2,idempotencyKey:"sale",occurredAt:at,winnerTeamId:"t",price:50}) as any;
+  svc.reassignRosterSlot({draftId:"d",expectedVersion:3,idempotencyKey:"move",occurredAt:at,teamId:"t",playerId:"p",targetSlotId:"t:WR_RB:1"});
+  assert.equal((svc.db.prepare("SELECT player_id playerId FROM roster_slots WHERE id='t:WR_RB:1'").get() as any).playerId,"p");
+  assert.equal((svc.db.prepare("SELECT roster_slot_id slotId FROM sales WHERE id=?").get(sale.saleId) as any).slotId,"t:WR_RB:1");
+  svc.voidSale({draftId:"d",expectedVersion:4,idempotencyKey:"void",occurredAt:at,saleId:sale.saleId});
+  assert.equal((svc.db.prepare("SELECT player_id playerId FROM roster_slots WHERE id='t:WR_RB:1'").get() as any).playerId,null);
+  assert.deepEqual(svc.recoveryAudit("d"),[]);
+});
+
+test("rejects an ineligible roster reassignment",()=>{
+  const svc=service();svc.startDraft({draftId:"d",expectedVersion:0,idempotencyKey:"start",occurredAt:at});
+  svc.openNomination({draftId:"d",expectedVersion:1,idempotencyKey:"nom",occurredAt:at,playerId:"p"});
+  svc.recordSale({draftId:"d",expectedVersion:2,idempotencyKey:"sale",occurredAt:at,winnerTeamId:"t",price:50});
+  assert.throws(()=>svc.reassignRosterSlot({draftId:"d",expectedVersion:3,idempotencyKey:"bad-move",occurredAt:at,teamId:"t",playerId:"p",targetSlotId:"t:QB:1"}),
+    (error:any)=>error instanceof DomainError&&error.code==="INELIGIBLE_ROSTER_SLOT");
+});
+
+test("records and reverses draft completion for waiver priority",()=>{
+  const svc=service();svc.startDraft({draftId:"d",expectedVersion:0,idempotencyKey:"start",occurredAt:at});
+  svc.db.prepare("UPDATE team_draft_state SET open_slot_count=1,rostered_player_count=13 WHERE team_id='t'").run();
+  svc.openNomination({draftId:"d",expectedVersion:1,idempotencyKey:"nom",occurredAt:at,playerId:"p",nominatedByTeamId:"t"});
+  const sale=svc.recordSale({draftId:"d",expectedVersion:2,idempotencyKey:"sale",occurredAt:at,winnerTeamId:"t",price:50}) as any;
+  assert.equal((svc.db.prepare("SELECT COUNT(*) count FROM team_draft_completions WHERE team_id='t' AND voided_event_id IS NULL").get() as any).count,1);
+  svc.voidSale({draftId:"d",expectedVersion:3,idempotencyKey:"void",occurredAt:at,saleId:sale.saleId});
+  assert.equal((svc.db.prepare("SELECT COUNT(*) count FROM team_draft_completions WHERE team_id='t' AND voided_event_id IS NULL").get() as any).count,0);
 });
 
 test("the production slot template contains fourteen draftable slots",()=>{

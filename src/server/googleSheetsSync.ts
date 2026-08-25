@@ -43,9 +43,9 @@ export function buildDraftBoardRequests(db:Database.Database,draftId:string,conf
 
 export function sheetSyncStatus(db:Database.Database,draftId:string){
   const accountConfigured=Boolean(process.env.GOOGLE_SHEETS_SERVICE_ACCOUNT_JSON||process.env.GOOGLE_SHEETS_SERVICE_ACCOUNT_FILE);
-  const counts=db.prepare(`SELECT o.status,COUNT(*) count FROM sync_outbox o JOIN draft_events e ON e.id=o.event_id WHERE o.draft_id=? AND o.destination='google_sheets' AND e.event_type IN ('sale_recorded','sale_voided') GROUP BY o.status`).all(draftId) as {status:string;count:number}[];
+  const counts=db.prepare(`SELECT o.status,COUNT(*) count FROM sync_outbox o JOIN draft_events e ON e.id=o.event_id WHERE o.draft_id=? AND o.destination='google_sheets' AND e.event_type IN ('sale_recorded','sale_voided','roster_slot_reassigned') GROUP BY o.status`).all(draftId) as {status:string;count:number}[];
   const map=Object.fromEntries(counts.map(row=>[row.status,row.count]));
-  const failure=db.prepare(`SELECT o.last_error lastError FROM sync_outbox o JOIN draft_events e ON e.id=o.event_id WHERE o.draft_id=? AND o.destination='google_sheets' AND o.status='failed' AND e.event_type IN ('sale_recorded','sale_voided') ORDER BY o.updated_at DESC LIMIT 1`).get(draftId) as {lastError:string}|undefined;
+  const failure=db.prepare(`SELECT o.last_error lastError FROM sync_outbox o JOIN draft_events e ON e.id=o.event_id WHERE o.draft_id=? AND o.destination='google_sheets' AND o.status='failed' AND e.event_type IN ('sale_recorded','sale_voided','roster_slot_reassigned') ORDER BY o.updated_at DESC LIMIT 1`).get(draftId) as {lastError:string}|undefined;
   return {configured:accountConfigured,pending:(map.pending??0)+(map.in_flight??0),failed:map.failed??0,succeeded:map.succeeded??0,lastError:failure?.lastError??null};
 }
 
@@ -53,7 +53,7 @@ export async function syncGoogleSheetsOutbox(db:Database.Database,draftId:string
   const account=credentials();if(!account)return;
   const work=db.prepare(`SELECT id,event_id eventId FROM sync_outbox WHERE draft_id=? AND destination='google_sheets' AND status IN ('pending','failed') ORDER BY created_at`).all(draftId) as {id:string;eventId:string}[];
   if(!work.length)return;
-  const relevant=work.filter(item=>(db.prepare("SELECT event_type eventType FROM draft_events WHERE id=?").get(item.eventId) as {eventType:string}).eventType.match(/^sale_(recorded|voided)$/));
+  const relevant=work.filter(item=>["sale_recorded","sale_voided","roster_slot_reassigned"].includes((db.prepare("SELECT event_type eventType FROM draft_events WHERE id=?").get(item.eventId) as {eventType:string}).eventType));
   const skipped=work.filter(item=>!relevant.includes(item));
   const markSucceeded=db.prepare("UPDATE sync_outbox SET status='succeeded',attempt_count=attempt_count+1,last_error=NULL,updated_at=CURRENT_TIMESTAMP,succeeded_at=CURRENT_TIMESTAMP WHERE id=?");
   db.transaction(()=>{for(const item of skipped)markSucceeded.run(item.id);})();

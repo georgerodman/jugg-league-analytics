@@ -21,6 +21,8 @@ STAGES = (
     ("auction_price_and_probability", "auction_price_model.py"),
     ("production_value_and_decision_board", "production_value_model.py"),
     ("owner_tendencies", "owner_tendencies.py"),
+    ("championship_equity_standalone", "championship_equity.py"),
+    ("championship_decisions_standalone", "championship_decisions.py"),
 )
 
 

@@ -154,7 +154,8 @@ def normalize_sources(root: Path, raw_dir: Path, manifest: dict[str, Any], seaso
     write_csv(out_dir / "players.csv", players, player_fields)
     schedules = csv_rows((raw_dir / "schedules.csv").read_bytes(), "schedules")
     schedule_fields = ["season", "week", "game_type", "game_id", "home_team", "away_team", "home_score", "away_score"]
-    selected_schedules = [row for row in schedules if int(row["season"]) in seasons]
+    selected_schedule_seasons = set(seasons) | set(identity_seasons)
+    selected_schedules = [row for row in schedules if int(row["season"]) in selected_schedule_seasons]
     write_csv(out_dir / "schedules.csv", selected_schedules, schedule_fields)
     counts: dict[str, int] = {"players": len(players), "schedules": len(selected_schedules)}
     for season in seasons:

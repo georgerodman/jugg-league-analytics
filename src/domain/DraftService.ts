@@ -89,6 +89,8 @@ export class DraftService {
       this.db.prepare("UPDATE roster_slots SET player_id=?,filled_sale_id=? WHERE id=?").run(nomination.player_id,saleId,slot.id);
       this.db.prepare("UPDATE draft_player_pool SET status='sold' WHERE draft_id=? AND player_id=?").run(command.draftId,nomination.player_id);
       this.db.prepare("UPDATE team_draft_state SET remaining_budget=remaining_budget-?,open_slot_count=open_slot_count-1,rostered_player_count=rostered_player_count+1,version=version+1,updated_at=? WHERE team_id=?").run(command.price,command.occurredAt,command.winnerTeamId);
+      const completion=this.db.prepare(`SELECT s.open_slot_count,d.required_players_per_team FROM team_draft_state s JOIN teams t ON t.id=s.team_id JOIN drafts d ON d.id=t.draft_id WHERE s.team_id=? AND d.id=?`).get(command.winnerTeamId,command.draftId) as {open_slot_count:number;required_players_per_team:number};
+      if(completion.open_slot_count===0)this.db.prepare("INSERT INTO team_draft_completions(id,draft_id,team_id,completed_event_id,completed_at) VALUES(?,?,?,?,?)").run(randomUUID(),command.draftId,command.winnerTeamId,eventId,command.occurredAt);
       return {saleId,rosterSlotId:slot.id};
     });
   }
@@ -101,7 +103,32 @@ export class DraftService {
       this.db.prepare("UPDATE roster_slots SET player_id=NULL,filled_sale_id=NULL WHERE id=? AND filled_sale_id=?").run(sale.roster_slot_id,sale.id);
       this.db.prepare("UPDATE draft_player_pool SET status='available' WHERE draft_id=? AND player_id=?").run(command.draftId,sale.player_id);
       this.db.prepare("UPDATE team_draft_state SET remaining_budget=remaining_budget+?,open_slot_count=open_slot_count+1,rostered_player_count=rostered_player_count-1,version=version+1,updated_at=? WHERE team_id=?").run(sale.price,command.occurredAt,sale.winner_team_id);
+      this.db.prepare("UPDATE team_draft_completions SET voided_event_id=? WHERE draft_id=? AND team_id=? AND voided_event_id IS NULL").run(eventId,command.draftId,sale.winner_team_id);
       return {saleId:sale.id};
+    });
+  }
+
+  reassignRosterSlot(command: Command & { teamId:string; playerId:string; targetSlotId:string }): unknown {
+    return this.execute(command,"roster_slot_reassigned","roster",command.teamId,{teamId:command.teamId,playerId:command.playerId,targetSlotId:command.targetSlotId},()=>{
+      const source=this.db.prepare(`SELECT rs.id,rs.player_id,rs.filled_sale_id,rs.eligible_positions_json,p.position
+        FROM roster_slots rs JOIN teams t ON t.id=rs.team_id JOIN players p ON p.id=rs.player_id
+        WHERE rs.team_id=? AND rs.player_id=? AND t.draft_id=?`).get(command.teamId,command.playerId,command.draftId) as any;
+      const target=this.db.prepare(`SELECT rs.id,rs.player_id,rs.filled_sale_id,rs.eligible_positions_json,p.position
+        FROM roster_slots rs JOIN teams t ON t.id=rs.team_id LEFT JOIN players p ON p.id=rs.player_id
+        WHERE rs.id=? AND rs.team_id=? AND t.draft_id=?`).get(command.targetSlotId,command.teamId,command.draftId) as any;
+      if(!source)throw new DomainError("ROSTERED_PLAYER_NOT_FOUND","Player is not on this team");
+      if(!target)throw new DomainError("ROSTER_SLOT_NOT_FOUND","Roster slot is not on this team");
+      if(source.id===target.id)return {sourceSlotId:source.id,targetSlotId:target.id,swappedPlayerId:null};
+      if(!(JSON.parse(target.eligible_positions_json) as Position[]).includes(source.position))throw new DomainError("INELIGIBLE_ROSTER_SLOT","Player is not eligible for that roster slot");
+      if(target.player_id&&!(JSON.parse(source.eligible_positions_json) as Position[]).includes(target.position))throw new DomainError("INELIGIBLE_ROSTER_SWAP","The player already in that slot cannot move to the vacated slot");
+      this.db.prepare("UPDATE roster_slots SET player_id=NULL,filled_sale_id=NULL WHERE id IN (?,?)").run(source.id,target.id);
+      this.db.prepare("UPDATE roster_slots SET player_id=?,filled_sale_id=? WHERE id=?").run(source.player_id,source.filled_sale_id,target.id);
+      if(source.filled_sale_id)this.db.prepare("UPDATE sales SET roster_slot_id=? WHERE id=? AND voided_event_id IS NULL").run(target.id,source.filled_sale_id);
+      if(target.player_id){
+        this.db.prepare("UPDATE roster_slots SET player_id=?,filled_sale_id=? WHERE id=?").run(target.player_id,target.filled_sale_id,source.id);
+        if(target.filled_sale_id)this.db.prepare("UPDATE sales SET roster_slot_id=? WHERE id=? AND voided_event_id IS NULL").run(source.id,target.filled_sale_id);
+      }
+      return {sourceSlotId:source.id,targetSlotId:target.id,swappedPlayerId:target.player_id??null};
     });
   }
 

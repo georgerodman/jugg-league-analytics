@@ -13,12 +13,16 @@ test("draft-room view and commands run against isolated local state",async()=>{
     assert.equal(setup.players.length,294);
     assert.equal(setup.teams.length,10);
     assert.equal(setup.renegades?.name,"Rodman Renegades");
+    assert.deepEqual(setup.nominationOrder.teams.map(row=>row.owner),[...setup.nominationOrder.teams.map(row=>row.owner)].sort((a,b)=>a.localeCompare(b,undefined,{sensitivity:"base"})));
+    assert.equal(setup.nominationOrder.nextTeamId,setup.nominationOrder.teams[0]?.teamId);
     assert.ok(setup.players.some(row=>row.marketAdp!==null));
     assert.ok(setup.players.some(row=>row.byeWeek!==null));
     assert.deepEqual(setup.draft.recoveryIssues,[]);
 
     const active=applyDraftAction({type:"start"});
     assert.equal(active.draft.status,"active");
+    const reversed=applyDraftAction({type:"updateNominationOrder",teamIds:[...active.nominationOrder.teams.map(row=>row.teamId)].reverse()});
+    assert.equal(reversed.nominationOrder.teams[0]?.teamId,active.nominationOrder.teams.at(-1)?.teamId);
     const player=active.players.find(row=>row.status==="available");
     assert.ok(player);
     const preferred=applyDraftAction({type:"playerPreference",playerId:player.id,preference:"avoid",premium:0,note:"test preference"});

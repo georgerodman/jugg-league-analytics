@@ -106,11 +106,18 @@ Within the right-hand decision workspace, information is organized in three
 horizontal rows: full-width Player Details first, full-width Assistant GM
 second, then Team Roster on the lower left and League Details on the lower
 right. Player Details owns projected price, all five price bands, comparable
-alternatives, the recommendation, and draft actions. Team Roster uses a tall
+alternatives, the recommendation, and draft actions. It uses a compact player
+header followed by four readable decision cards—projected price, buy-through,
+pass-above, and alternatives—with the complete five-band price ladder beneath
+them. Team Roster uses a tall
 QB-through-bench table with bye, paid-price, and positional-strength columns,
-totals, remaining max bid, and the largest current need. Strength is based on
+totals, and remaining max bid. Strength is based on
 position rank and projected points above replacement; it is not a retrospective
-grade of whether the auction purchase was good or bad. League Details owns likely competition,
+grade of whether the auction purchase was good or bad. Its team selector can
+inspect any owner's roster. Filled players can be dragged between legal lineup
+slots (or swapped when both resulting assignments are legal); each change is
+saved locally as an auditable roster-reassignment event and then projected to
+the matching fixed slot in Google Sheets. League Details owns likely competition,
 aligned opponent needs, and supported owner tendencies.
 
 The player list includes blended Yahoo/ESPN ADP and bye week and sorts through
@@ -133,6 +140,15 @@ glance conditions. The nomination treatment remains until the nomination is
 cancelled or its final sale is recorded.
 
 There is intentionally no live bid-entry stream. The user selects or confirms the nominated player, uses the app for decision support while bidding happens elsewhere, then records the final winner and sale price. The app immediately advances state and recommendations.
+
+Nomination order defaults to owner first-name alphabetical order for 2026 and
+is editable in the application. The nominated-by control preselects the next
+active owner, while allowing a manual correction; rotation continues from the
+owner actually recorded. Owners whose fourteen roster slots are filled are
+skipped. The event that fills an owner's final slot creates a persisted draft-
+completion record. Active completion order determines waiver tiebreaker order
+from first finisher (#1) through last finisher (#10); voiding the completing
+sale invalidates that completion and recalculates the active order.
 
 ## AI Copilot
 
