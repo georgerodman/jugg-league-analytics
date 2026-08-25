@@ -62,6 +62,9 @@ question they answer.
 - [Data-source operations](operations/data-source-operations.md) — refreshing
   sources, adding providers, rebuilding artifacts, auditing changes, and
   recovery behavior.
+- [Simulation testing task brief](operations/simulation-testing-task-brief.md)
+  — isolated full-draft testing scope, scenarios, measures, safety rules, and
+  review deliverables for a dedicated testing task.
 
 ## Simple rule for future documents
 

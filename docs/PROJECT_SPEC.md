@@ -131,14 +131,15 @@ horizontal rows: full-width Player Details first, full-width Assistant GM
 second, then Team Roster on the lower left and League Details on the lower
 right. Player Details owns projected price, all five price bands, comparable
 alternatives, the recommendation, and draft actions. Immediately below the
-player name it emphasizes five primary decision cards: live expected price and
-range, points above replacement, scarcity/fallback, Roster Impact with its
-walk-away price, and the five-band price ladder. The fourth card is the current
-price verdict and action boundary; the fifth shows one row each for Great,
-Good, Neutral, Poor, and Bad price ranges. A quieter supporting
-row contains projected points/rank, production-model context, auction context,
-ADP, bye week, and data/risk flags. The traditional actual/projected stat table
-follows beneath them. Team Roster uses a tall
+player name it emphasizes four compact, clickable decision cards: live expected
+price and range, points above replacement, scarcity/fallback, and Roster Impact.
+Each card uses one primary-result line and two useful supporting lines. A small
+expand indicator communicates that clicking opens deeper evidence without
+making the dashboard row taller. The five-band price ladder spans a separate
+compact, headerless section beneath the cards showing Great, Good, Neutral,
+Poor, and Bad price ranges. The headerless actual/projected stat table follows
+it; the projected season uses an `x` prefix such as `x2026` rather than a
+separate Line column. Team Roster uses a tall
 QB-through-bench table with bye, paid-price, and positional-strength columns,
 totals, and remaining max bid. Strength is based on
 position rank and projected points above replacement; it is not a retrospective
@@ -352,6 +353,12 @@ range are progressively downgraded for overpay risk and lost roster
 flexibility. Until the full championship simulator is calibrated for live
 decisions, the interface shows scenario support—not the experimental
 completion-path equity span—as its primary confidence signal.
+
+The displayed price ladder is a one-way policy: after scenario scoring,
+market-range adjustments, and budget-flexibility adjustments are composed, a
+higher price may retain or worsen the prior recommendation but may never make
+it more favorable. This invariant applies to the final recommendation shown to
+the user, not only to its underlying scenario deltas.
 
 Maintain a live secondary league-outlook view throughout the auction, ranking
 all ten partial rosters by the same robust, schedule-neutral championship-

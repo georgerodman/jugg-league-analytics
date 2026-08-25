@@ -6,6 +6,7 @@
     "build": "next build",
     "start": "next start",
     "test:domain": "tsx --test tests/domain/*.test.ts",
+    "test:simulation": "tsx scripts/run_draft_simulations.ts",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {

@@ -8,6 +8,15 @@ for(const [position,count] of Object.entries({QB:20,RB:45,WR:55,TE:25,K:15,DEF:1
     expectedPrice:Math.max(1,35-index),priceLow:Math.max(1,30-index),priceHigh:Math.max(1,40-index),productionTier:Math.floor(index/5)+1,auctionTier:Math.floor(index/5)+1});
 }
 const teams:DecisionTeam[]=Array.from({length:10},(_,index)=>({id:`team-${index}`,name:index===0?"Rodman Renegades":`Team ${index}`,owner:`Owner ${index}`,remainingBudget:200,openSlots:14,roster:[]}));
+const decisionBandOrder={strong_pursue:0,lean_pursue:1,neutral:2,lean_pass:3,strong_pass:4} as const;
+
+function assertMonotonicPriceLadder(decision:NonNullable<ReturnType<typeof nominationDecision>>){
+  for(let index=1;index<decision.tiers.length;index++){
+    const previous=decision.tiers[index-1]!,current=decision.tiers[index]!;
+    assert.ok(decisionBandOrder[current.band]>=decisionBandOrder[previous.band],
+      `${previous.band} at $${previous.from}-$${previous.to} became ${current.band} at $${current.from}-$${current.to}`);
+  }
+}
 
 test("neutral completion creates a full affordable roster",()=>{
   const result=completeRoster(teams[0]!,players,"expected","lineup");
@@ -25,6 +34,21 @@ test("nomination decision evaluates a realistic market range and protects agains
   assert.ok(decision.evaluatedMax<187);assert.equal(decision.tiers.at(-1)!.band,"strong_pass");
   assert.ok(decision.support>=0&&decision.support<=1);
   assert.equal(decision.tierContext.productionTier,1);assert.equal(decision.tierContext.productionTierRemaining,5);
+});
+
+test("final recommendation never becomes more favorable as price increases",()=>{
+  for(const player of players){
+    const decision=nominationDecision(teams,"team-0",players,player.id,187);
+    assert.ok(decision);assertMonotonicPriceLadder(decision);
+  }
+});
+
+test("final recommendation stays monotonic under reduced budget flexibility",()=>{
+  const constrainedTeams=teams.map((team,index)=>index===0?{...team,remainingBudget:72,openSlots:10}:team);
+  for(const player of players.filter(player=>player.position==="RB"||player.position==="WR"||player.position==="TE")){
+    const decision=nominationDecision(constrainedTeams,"team-0",players,player.id,63);
+    assert.ok(decision);assertMonotonicPriceLadder(decision);
+  }
 });
 
 test("upcoming targets rank affordable paths and preserve fallbacks",()=>{
