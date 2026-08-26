@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260826T234500Z",
+    "built_at": "2026-08-26T23:45:00Z",
+    "season": 2026,
+    "takeaway_count": 2
+  },
+  "source": {
+    "source_key": "fantasypros",
+    "season": 2026,
+    "id": "fantasypros:shepardson:2026-late-rb",
+    "title": "3 Late-Round Running Backs to Draft",
+    "author": "Josh Shepardson",
+    "url": "https://www.fantasypros.com/2026/08/fantasy-football-3-late-round-running-backs-to-draft-2026/",
+    "published_at": "2026-08-26",
+    "content_type": "late_round_targets",
+    "summary": "Three half-PPR running backs available after pick 120 who offer usable roles or contingent upside."
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0038454",
+      "player_name": "Keaton Mitchell",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Mitchell's explosiveness and fit in Mike McDaniel's offense can support standalone value plus injury-contingent upside.",
+      "rationale": "Mitchell's explosiveness and fit in Mike McDaniel's offense can support standalone value plus injury-contingent upside.",
+      "risks": [
+        "He is not expected to overtake Omarion Hampton."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "ADP 146 / RB47",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041096",
+      "player_name": "Kaytron Allen",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Allen is a final-round bet to win Washington's early-down and goal-line work.",
+      "rationale": "Allen is a final-round bet to win Washington's early-down and goal-line work.",
+      "risks": [
+        "Jonah Coleman is favored to finish higher and Allen offers little receiving production."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "ADP 200 / RB60",
+      "assumptions": []
+    }
+  ]
+}

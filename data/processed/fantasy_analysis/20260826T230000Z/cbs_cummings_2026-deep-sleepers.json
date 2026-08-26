@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260826T230000Z",
+    "built_at": "2026-08-26T23:00:00Z",
+    "season": 2026,
+    "takeaway_count": 6
+  },
+  "source": {
+    "source_key": "cbs",
+    "season": 2026,
+    "id": "cbs:cummings:2026-deep-sleepers",
+    "title": "2026 Fantasy football deep sleepers: Tyler Shough and Tre Tucker are steals",
+    "author": "Heath Cummings",
+    "url": "https://secure-www.cbssports.com/fantasy/football/news/2026-fantasy-football-deep-sleepers-projections/",
+    "published_at": "2026-08-26",
+    "content_type": "deep_sleepers",
+    "summary": "Uses projection-versus-ADP gaps and plausible upside scenarios to identify players available outside the top 150."
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0040743",
+      "player_name": "Tyler Shough",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Cummings projects Shough near QB14 with substantial touchdown growth and sees additional second-half upside if Jordyn Tyson returns healthy.",
+      "rationale": "Cummings projects Shough near QB14 with substantial touchdown growth and sees additional second-half upside if Jordyn Tyson returns healthy.",
+      "risks": [
+        "Touchdown improvement and Tyson's health are assumptions."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Round 13 / QB21",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0039491",
+      "player_name": "Jalen Coker",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Coker projects as Cummings' WR31 despite a Round 13 cost, supported by strong efficiency and more planned slot usage.",
+      "rationale": "Coker projects as Cummings' WR31 despite a Round 13 cost, supported by strong efficiency and more planned slot usage.",
+      "risks": [
+        "Carolina still has competition for targets."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Rounds 10-13",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038128",
+      "player_name": "Malik Willis",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Willis' rushing projection gives him upside well beyond QB23 even if Miami remains a weak offense.",
+      "rationale": "Willis' rushing projection gives him upside well beyond QB23 even if Miami remains a weak offense.",
+      "risks": [
+        "Passing environment may be among the league's weakest."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Late QB2",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0034383",
+      "player_name": "Dalton Schultz",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Schultz is projected for another 100-plus targets and sits only a few points behind the TE9 projection despite a TE13 price.",
+      "rationale": "Schultz is projected for another 100-plus targets and sits only a few points behind the TE9 projection despite a TE13 price.",
+      "risks": [
+        "A top-eight outcome requires improved touchdown luck."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "TE13 / ADP 173",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038563",
+      "player_name": "Tre Tucker",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Tucker appears established as Las Vegas' WR1 and projects roughly 50 picks ahead of his ADP.",
+      "rationale": "Tucker appears established as Las Vegas' WR1 and projects roughly 50 picks ahead of his ADP.",
+      "risks": [
+        "The Raiders' passing environment remains a concern."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "ADP 186",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041525",
+      "player_name": "Chris Bell",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "If fully recovered from his ACL tear, Bell may be Miami's most talented receiver and a final-round upside play.",
+      "rationale": "If fully recovered from his ACL tear, Bell may be Miami's most talented receiver and a final-round upside play.",
+      "risks": [
+        "ACL recovery and an unsettled offense."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Final round",
+      "assumptions": []
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260826T234500Z",
+    "built_at": "2026-08-26T23:45:00Z",
+    "season": 2026,
+    "takeaway_count": 4
+  },
+  "source": {
+    "source_key": "fantasypros",
+    "season": 2026,
+    "id": "fantasypros:iacona:2026-breakout-te",
+    "title": "4 Breakout Tight Ends to Target",
+    "author": "Lawrence Iacona",
+    "url": "https://www.fantasypros.com/2026/08/4-breakout-tight-ends-to-target-2026-fantasy-football/",
+    "published_at": "2026-08-26",
+    "content_type": "breakouts",
+    "summary": "Four tight ends with expanding usage, favorable environments, or high-end efficiency."
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0038935",
+      "player_name": "Brenton Strange",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "Strange's 2025 foundation and potential target-share growth give him a path to consistent TE1 production.",
+      "rationale": "Strange's 2025 foundation and potential target-share growth give him a path to consistent TE1 production.",
+      "risks": [
+        "He was only Jacksonville's fourth passing option last season."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Mid rounds",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0039793",
+      "player_name": "AJ Barner",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "Barner's reliable 2025 receiving line and Seattle's early backfield uncertainty could increase passing and red-zone opportunity.",
+      "rationale": "Barner's reliable 2025 receiving line and Seattle's early backfield uncertainty could increase passing and red-zone opportunity.",
+      "risks": [
+        "The projected passing shift and red-zone growth are assumptions."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Late rounds",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040584",
+      "player_name": "Gunnar Helm",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "Helm's contested-catch and red-zone traits create touchdown upside as Tennessee modernizes its passing game.",
+      "rationale": "Helm's contested-catch and red-zone traits create touchdown upside as Tennessee modernizes its passing game.",
+      "risks": [
+        "His rookie volume was modest and Cam Ward must improve."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Late rounds",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038996",
+      "player_name": "Tucker Kraft",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "Kraft's elite pre-injury pace and central Green Bay role give him top-five tight-end potential when healthy.",
+      "rationale": "Kraft's elite pre-injury pace and central Green Bay role give him top-five tight-end potential when healthy.",
+      "risks": [
+        "The case depends on a durable return from his Week 9 injury."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Mid rounds",
+      "assumptions": []
+    }
+  ]
+}

@@ -1,0 +1,447 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260826T234500Z",
+    "built_at": "2026-08-26T23:45:00Z",
+    "season": 2026,
+    "takeaway_count": 25
+  },
+  "source": {
+    "source_key": "fantasypros",
+    "season": 2026,
+    "id": "fantasypros:ecr:2026-wr-sleepers",
+    "title": "2026 Fantasy Football WR Sleepers Rankings",
+    "author": "FantasyPros Expert Consensus",
+    "url": "https://www.fantasypros.com/nfl/rankings/wr-sleepers.php",
+    "published_at": "2026-08-26",
+    "content_type": "sleeper_rankings",
+    "summary": "A dated half-PPR sleeper ranking aggregated from 25 experts, with player-level expert counts, ECR, and ADP."
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0031588",
+      "player_name": "Stefon Diggs",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "FantasyPros' half-PPR sleeper board ranks Stefon Diggs No. 1, based on 13 contributing experts, with WR ECR 44 and ADP 45.",
+      "rationale": "FantasyPros' half-PPR sleeper board ranks Stefon Diggs No. 1, based on 13 contributing experts, with WR ECR 44 and ADP 45.",
+      "risks": [
+        "Expert participation varies substantially by player and this is half-PPR context."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Sleeper rank 1; WR ECR 44",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0035719",
+      "player_name": "Deebo Samuel Sr.",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "FantasyPros' half-PPR sleeper board ranks Deebo Samuel Sr. No. 2, based on 10 contributing experts, with WR ECR 54 and ADP 52.",
+      "rationale": "FantasyPros' half-PPR sleeper board ranks Deebo Samuel Sr. No. 2, based on 10 contributing experts, with WR ECR 54 and ADP 52.",
+      "risks": [
+        "Expert participation varies substantially by player and this is half-PPR context."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Sleeper rank 2; WR ECR 54",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041035",
+      "player_name": "De'Zhaun Stribling",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "FantasyPros' half-PPR sleeper board ranks De'Zhaun Stribling No. 3, based on 9 contributing experts, with WR ECR 56 and ADP 47.",
+      "rationale": "FantasyPros' half-PPR sleeper board ranks De'Zhaun Stribling No. 3, based on 9 contributing experts, with WR ECR 56 and ADP 47.",
+      "risks": [
+        "Expert participation varies substantially by player and this is half-PPR context."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Sleeper rank 3; WR ECR 56",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0037545",
+      "player_name": "Rashid Shaheed",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "FantasyPros' half-PPR sleeper board ranks Rashid Shaheed No. 4, based on 6 contributing experts, with WR ECR 57 and ADP 53.",
+      "rationale": "FantasyPros' half-PPR sleeper board ranks Rashid Shaheed No. 4, based on 6 contributing experts, with WR ECR 57 and ADP 53.",
+      "risks": [
+        "Expert participation varies substantially by player and this is half-PPR context."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Sleeper rank 4; WR ECR 57",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041037",
+      "player_name": "Denzel Boston",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "FantasyPros' half-PPR sleeper board ranks Denzel Boston No. 5, based on 5 contributing experts, with WR ECR 58 and ADP 60.",
+      "rationale": "FantasyPros' half-PPR sleeper board ranks Denzel Boston No. 5, based on 5 contributing experts, with WR ECR 58 and ADP 60.",
+      "risks": [
+        "Expert participation varies substantially by player and this is half-PPR context."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Sleeper rank 5; WR ECR 58",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0039855",
+      "player_name": "Jalen McMillan",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "FantasyPros' half-PPR sleeper board ranks Jalen McMillan No. 6, based on 5 contributing experts, with WR ECR 63 and ADP 64.",
+      "rationale": "FantasyPros' half-PPR sleeper board ranks Jalen McMillan No. 6, based on 5 contributing experts, with WR ECR 63 and ADP 64.",
+      "risks": [
+        "Expert participation varies substantially by player and this is half-PPR context."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Sleeper rank 6; WR ECR 63",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0037291",
+      "player_name": "Jalen Nailor",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "FantasyPros' half-PPR sleeper board ranks Jalen Nailor No. 7, based on 5 contributing experts, with WR ECR 73 and ADP 59.",
+      "rationale": "FantasyPros' half-PPR sleeper board ranks Jalen Nailor No. 7, based on 5 contributing experts, with WR ECR 73 and ADP 59.",
+      "risks": [
+        "Expert participation varies substantially by player and this is half-PPR context."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Sleeper rank 7; WR ECR 73",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0039410",
+      "player_name": "Ryan Flournoy",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "FantasyPros' half-PPR sleeper board ranks Ryan Flournoy No. 8, based on 6 contributing experts, with WR ECR 68 and ADP 84.",
+      "rationale": "FantasyPros' half-PPR sleeper board ranks Ryan Flournoy No. 8, based on 6 contributing experts, with WR ECR 68 and ADP 84.",
+      "risks": [
+        "Expert participation varies substantially by player and this is half-PPR context."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Sleeper rank 8; WR ECR 68",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041511",
+      "player_name": "Omar Cooper Jr.",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "FantasyPros' half-PPR sleeper board ranks Omar Cooper Jr. No. 9, based on 2 contributing experts, with WR ECR 65 and ADP 71.",
+      "rationale": "FantasyPros' half-PPR sleeper board ranks Omar Cooper Jr. No. 9, based on 2 contributing experts, with WR ECR 65 and ADP 71.",
+      "risks": [
+        "Expert participation varies substantially by player and this is half-PPR context."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Sleeper rank 9; WR ECR 65",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040727",
+      "player_name": "Tre' Harris",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "FantasyPros' half-PPR sleeper board ranks Tre' Harris No. 10, based on 2 contributing experts, with WR ECR 70 and ADP 74.",
+      "rationale": "FantasyPros' half-PPR sleeper board ranks Tre' Harris No. 10, based on 2 contributing experts, with WR ECR 70 and ADP 74.",
+      "risks": [
+        "Expert participation varies substantially by player and this is half-PPR context."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Sleeper rank 10; WR ECR 70",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040138",
+      "player_name": "Jaylin Noel",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "FantasyPros' half-PPR sleeper board ranks Jaylin Noel No. 11, based on 2 contributing experts, with WR ECR 67 and ADP 97.",
+      "rationale": "FantasyPros' half-PPR sleeper board ranks Jaylin Noel No. 11, based on 2 contributing experts, with WR ECR 67 and ADP 97.",
+      "risks": [
+        "Expert participation varies substantially by player and this is half-PPR context."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Sleeper rank 11; WR ECR 67",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038393",
+      "player_name": "Dontayvion Wicks",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "FantasyPros' half-PPR sleeper board ranks Dontayvion Wicks No. 12, based on 3 contributing experts, with WR ECR 69 and ADP 77.",
+      "rationale": "FantasyPros' half-PPR sleeper board ranks Dontayvion Wicks No. 12, based on 3 contributing experts, with WR ECR 69 and ADP 77.",
+      "risks": [
+        "Expert participation varies substantially by player and this is half-PPR context."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Sleeper rank 12; WR ECR 69",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038608",
+      "player_name": "Kayshon Boutte",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "FantasyPros' half-PPR sleeper board ranks Kayshon Boutte No. 13, based on 1 contributing expert, with WR ECR 64 and ADP 75.",
+      "rationale": "FantasyPros' half-PPR sleeper board ranks Kayshon Boutte No. 13, based on 1 contributing expert, with WR ECR 64 and ADP 75.",
+      "risks": [
+        "Expert participation varies substantially by player and this is half-PPR context."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Sleeper rank 13; WR ECR 64",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0030279",
+      "player_name": "Keenan Allen",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "FantasyPros' half-PPR sleeper board ranks Keenan Allen No. 14, based on 2 contributing experts, with WR ECR 75 and ADP 61.",
+      "rationale": "FantasyPros' half-PPR sleeper board ranks Keenan Allen No. 14, based on 2 contributing experts, with WR ECR 75 and ADP 61.",
+      "risks": [
+        "Expert participation varies substantially by player and this is half-PPR context."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Sleeper rank 14; WR ECR 75",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038977",
+      "player_name": "Tank Dell",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "FantasyPros' half-PPR sleeper board ranks Tank Dell No. 15, based on 2 contributing experts, with WR ECR 77 and ADP 70.",
+      "rationale": "FantasyPros' half-PPR sleeper board ranks Tank Dell No. 15, based on 2 contributing experts, with WR ECR 77 and ADP 70.",
+      "risks": [
+        "Expert participation varies substantially by player and this is half-PPR context."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Sleeper rank 15; WR ECR 77",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041040",
+      "player_name": "Antonio Williams",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "FantasyPros' half-PPR sleeper board ranks Antonio Williams No. 16, based on 3 contributing experts, with WR ECR 82 and ADP 85.",
+      "rationale": "FantasyPros' half-PPR sleeper board ranks Antonio Williams No. 16, based on 3 contributing experts, with WR ECR 82 and ADP 85.",
+      "risks": [
+        "Expert participation varies substantially by player and this is half-PPR context."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Sleeper rank 16; WR ECR 82",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038563",
+      "player_name": "Tre Tucker",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "FantasyPros' half-PPR sleeper board ranks Tre Tucker No. 17, based on 1 contributing expert, with WR ECR 62 and ADP 73.",
+      "rationale": "FantasyPros' half-PPR sleeper board ranks Tre Tucker No. 17, based on 1 contributing expert, with WR ECR 62 and ADP 73.",
+      "risks": [
+        "Expert participation varies substantially by player and this is half-PPR context."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Sleeper rank 17; WR ECR 62",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0039424",
+      "player_name": "Devaughn Vele",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "FantasyPros' half-PPR sleeper board ranks Devaughn Vele No. 18, based on 1 contributing expert, with WR ECR 88 and ADP 88.",
+      "rationale": "FantasyPros' half-PPR sleeper board ranks Devaughn Vele No. 18, based on 1 contributing expert, with WR ECR 88 and ADP 88.",
+      "risks": [
+        "Expert participation varies substantially by player and this is half-PPR context."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Sleeper rank 18; WR ECR 88",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040669",
+      "player_name": "Isaac TeSlaa",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "FantasyPros' half-PPR sleeper board ranks Isaac TeSlaa No. 19, based on 1 contributing expert, with WR ECR 78 and ADP 66.",
+      "rationale": "FantasyPros' half-PPR sleeper board ranks Isaac TeSlaa No. 19, based on 1 contributing expert, with WR ECR 78 and ADP 66.",
+      "risks": [
+        "Expert participation varies substantially by player and this is half-PPR context."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Sleeper rank 19; WR ECR 78",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0039880",
+      "player_name": "Malik Washington",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "FantasyPros' half-PPR sleeper board ranks Malik Washington No. 20, based on 1 contributing expert, with WR ECR 72 and ADP 69.",
+      "rationale": "FantasyPros' half-PPR sleeper board ranks Malik Washington No. 20, based on 1 contributing expert, with WR ECR 72 and ADP 69.",
+      "risks": [
+        "Expert participation varies substantially by player and this is half-PPR context."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Sleeper rank 20; WR ECR 72",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0036407",
+      "player_name": "Jerry Jeudy",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "FantasyPros' half-PPR sleeper board ranks Jerry Jeudy No. 24, based on 1 contributing expert, with WR ECR 60 and ADP 72.",
+      "rationale": "FantasyPros' half-PPR sleeper board ranks Jerry Jeudy No. 24, based on 1 contributing expert, with WR ECR 60 and ADP 72.",
+      "risks": [
+        "Expert participation varies substantially by player and this is half-PPR context."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Sleeper rank 24; WR ECR 60",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0036550",
+      "player_name": "Rashod Bateman",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "FantasyPros' half-PPR sleeper board ranks Rashod Bateman No. 25, based on 1 contributing expert, with WR ECR 80.",
+      "rationale": "FantasyPros' half-PPR sleeper board ranks Rashod Bateman No. 25, based on 1 contributing expert, with WR ECR 80.",
+      "risks": [
+        "Expert participation varies substantially by player and this is half-PPR context."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Sleeper rank 25; WR ECR 80",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0039890",
+      "player_name": "Adonai Mitchell",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "FantasyPros' half-PPR sleeper board ranks Adonai Mitchell No. 26, based on 1 contributing expert, with WR ECR 61 and ADP 81.",
+      "rationale": "FantasyPros' half-PPR sleeper board ranks Adonai Mitchell No. 26, based on 1 contributing expert, with WR ECR 61 and ADP 81.",
+      "risks": [
+        "Expert participation varies substantially by player and this is half-PPR context."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Sleeper rank 26; WR ECR 61",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040718",
+      "player_name": "Travis Hunter",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "FantasyPros' half-PPR sleeper board ranks Travis Hunter No. 27, based on 1 contributing expert, with WR ECR 66 and ADP 63.",
+      "rationale": "FantasyPros' half-PPR sleeper board ranks Travis Hunter No. 27, based on 1 contributing expert, with WR ECR 66 and ADP 63.",
+      "risks": [
+        "Expert participation varies substantially by player and this is half-PPR context."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Sleeper rank 27; WR ECR 66",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041523",
+      "player_name": "Caleb Douglas",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "FantasyPros' half-PPR sleeper board ranks Caleb Douglas No. 30, based on 1 contributing expert, with WR ECR 97 and ADP 76.",
+      "rationale": "FantasyPros' half-PPR sleeper board ranks Caleb Douglas No. 30, based on 1 contributing expert, with WR ECR 97 and ADP 76.",
+      "risks": [
+        "Expert participation varies substantially by player and this is half-PPR context."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Sleeper rank 30; WR ECR 97",
+      "assumptions": []
+    }
+  ]
+}

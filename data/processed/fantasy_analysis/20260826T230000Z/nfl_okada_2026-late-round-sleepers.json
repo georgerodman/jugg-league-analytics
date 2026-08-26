@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260826T230000Z",
+    "built_at": "2026-08-26T23:00:00Z",
+    "season": 2026,
+    "takeaway_count": 3
+  },
+  "source": {
+    "source_key": "nfl",
+    "season": 2026,
+    "id": "nfl:okada:2026-late-round-sleepers",
+    "title": "2026 NFL fantasy football: Six late-round sleepers to target",
+    "author": "Matt Okada",
+    "url": "https://www.nfl.com/news/2026-nfl-fantasy-football-six-late-round-sleepers-to-target",
+    "published_at": "2026-08-12",
+    "content_type": "late_round_sleepers",
+    "summary": "Identifies six mostly double-digit-round targets using role, efficiency, and ESPN ADP."
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0031588",
+      "player_name": "Stefon Diggs",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Diggs' 2025 efficiency and new role as Washington's 1B make him a potential inexpensive WR2.",
+      "rationale": "Diggs' 2025 efficiency and new role as Washington's 1B make him a potential inexpensive WR2.",
+      "risks": [
+        "Age and target competition with Terry McLaurin."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Rounds 9-10",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038611",
+      "player_name": "Chris Rodriguez Jr.",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Rodriguez has strong tackle-breaking metrics, comparable camp reps, and a plausible red-zone advantage over Bhayshul Tuten.",
+      "rationale": "Rodriguez has strong tackle-breaking metrics, comparable camp reps, and a plausible red-zone advantage over Bhayshul Tuten.",
+      "risks": [
+        "Jacksonville may still favor Tuten or use a committee."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Round 10",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038933",
+      "player_name": "Dalton Kincaid",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Kincaid is a late tight-end target with a path to a larger Buffalo receiving role.",
+      "rationale": "Kincaid is a late tight-end target with a path to a larger Buffalo receiving role.",
+      "risks": [
+        "He has yet to consistently convert opportunity into elite production."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Round 11 or later",
+      "assumptions": []
+    }
+  ]
+}

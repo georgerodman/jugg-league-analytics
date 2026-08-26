@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260826T234500Z",
+    "built_at": "2026-08-26T23:45:00Z",
+    "season": 2026,
+    "takeaway_count": 4
+  },
+  "source": {
+    "source_key": "fantasypros",
+    "season": 2026,
+    "id": "fantasypros:tarracciano:2026-wr-busts-aug26",
+    "title": "4 Fantasy Football Busts to Avoid: Wide Receivers",
+    "author": "Evan Tarracciano",
+    "url": "https://www.fantasypros.com/2026/08/4-fantasy-football-busts-to-avoid-wide-receivers-2026-2/",
+    "published_at": "2026-08-26",
+    "content_type": "busts",
+    "summary": "Four receivers whose current draft prices do not sufficiently account for health, role, or offensive uncertainty."
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0039067",
+      "player_name": "Rashee Rice",
+      "label": "bust",
+      "sentiment": "negative",
+      "summary": "Rice's WR13 cost does not adequately discount knee recovery, availability, off-field, and changing offensive-balance risks.",
+      "rationale": "Rice's WR13 cost does not adequately discount knee recovery, availability, off-field, and changing offensive-balance risks.",
+      "risks": [
+        "He remains Kansas City's most physically imposing receiver when active."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "WR13",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0031381",
+      "player_name": "Davante Adams",
+      "label": "bust",
+      "sentiment": "negative",
+      "summary": "Adams' WR8 finish leaned heavily on 14 touchdowns, making age, lower-body injuries, and likely red-zone regression dangerous at his price.",
+      "rationale": "Adams' WR8 finish leaned heavily on 14 touchdowns, making age, lower-body injuries, and likely red-zone regression dangerous at his price.",
+      "risks": [
+        "His route skill and established Rams role preserve upside."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Premium WR cost",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038124",
+      "player_name": "Christian Watson",
+      "label": "bust",
+      "sentiment": "negative",
+      "summary": "Watson's talent and expanded opportunity are outweighed by a long injury history and uncertainty that he can sustain lead-receiver volume.",
+      "rationale": "Watson's talent and expanded opportunity are outweighed by a long injury history and uncertainty that he can sustain lead-receiver volume.",
+      "risks": [
+        "Green Bay extended him and lost two competing receivers."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "WR3 range",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041438",
+      "player_name": "Carnell Tate",
+      "label": "bust",
+      "sentiment": "negative",
+      "summary": "Tate's rookie price assumes a quick breakout in an offense with quarterback, line, and target-competition concerns.",
+      "rationale": "Tate's rookie price assumes a quick breakout in an offense with quarterback, line, and target-competition concerns.",
+      "risks": [
+        "He can become Tennessee's focal point later in the season."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Premium rookie WR cost",
+      "assumptions": []
+    }
+  ]
+}

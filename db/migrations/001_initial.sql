@@ -105,7 +105,7 @@ CREATE TABLE draft_events (
   draft_id TEXT NOT NULL REFERENCES drafts(id),
   sequence INTEGER NOT NULL CHECK (sequence > 0),
   event_type TEXT NOT NULL CHECK (event_type IN (
-    'draft_created','draft_started','nomination_opened','nomination_cancelled',
+    'draft_created','draft_started','nomination_opened','nomination_cancelled','nomination_owner_changed',
     'sale_recorded','sale_voided','roster_slot_reassigned','draft_completed'
   )),
   aggregate_type TEXT NOT NULL,

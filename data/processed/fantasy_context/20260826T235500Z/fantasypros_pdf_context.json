@@ -1,0 +1,6772 @@
+{
+  "metadata": {
+    "schema_version": 1,
+    "build_id": "20260826T235500Z",
+    "built_at": "2026-08-26T23:55:00Z"
+  },
+  "datasets": {
+    "player_targets_2025": {
+      "source_id": "fantasypros:pdf:player_targets:2026-08-26",
+      "rows": [
+        {
+          "player": "Ja'Marr Chase",
+          "position": "WR",
+          "team": "CIN",
+          "targets": 185,
+          "targets_per_game": 11.6
+        },
+        {
+          "player": "Amon-Ra St. Brown",
+          "position": "WR",
+          "team": "DET",
+          "targets": 172,
+          "targets_per_game": 10.1
+        },
+        {
+          "player": "Trey McBride",
+          "position": "TE",
+          "team": "ARI",
+          "targets": 169,
+          "targets_per_game": 9.9
+        },
+        {
+          "player": "Puka Nacua",
+          "position": "WR",
+          "team": "LAR",
+          "targets": 166,
+          "targets_per_game": 10.4
+        },
+        {
+          "player": "Jaxon Smith-Njigba",
+          "position": "WR",
+          "team": "SEA",
+          "targets": 163,
+          "targets_per_game": 9.6
+        },
+        {
+          "player": "Chris Olave",
+          "position": "WR",
+          "team": "NO",
+          "targets": 156,
+          "targets_per_game": 9.8
+        },
+        {
+          "player": "Justin Jefferson",
+          "position": "WR",
+          "team": "MIN",
+          "targets": 141,
+          "targets_per_game": 8.3
+        },
+        {
+          "player": "Wan'Dale Robinson",
+          "position": "WR",
+          "team": "NYG",
+          "targets": 140,
+          "targets_per_game": 8.8
+        },
+        {
+          "player": "George Pickens",
+          "position": "WR",
+          "team": "DAL",
+          "targets": 137,
+          "targets_per_game": 8.1
+        },
+        {
+          "player": "Christian McCaffrey",
+          "position": "RB",
+          "team": "SF",
+          "targets": 129,
+          "targets_per_game": 7.6
+        },
+        {
+          "player": "Emeka Egbuka",
+          "position": "WR",
+          "team": "TB",
+          "targets": 127,
+          "targets_per_game": 7.5
+        },
+        {
+          "player": "Michael Wilson",
+          "position": "WR",
+          "team": "ARI",
+          "targets": 126,
+          "targets_per_game": 7.4
+        },
+        {
+          "player": "Courtland Sutton",
+          "position": "WR",
+          "team": "DEN",
+          "targets": 124,
+          "targets_per_game": 7.3
+        },
+        {
+          "player": "Keenan Allen",
+          "position": "WR",
+          "team": "LAC",
+          "targets": 122,
+          "targets_per_game": 7.2
+        },
+        {
+          "player": "Tetairoa McMillan",
+          "position": "WR",
+          "team": "CAR",
+          "targets": 122,
+          "targets_per_game": 7.2
+        },
+        {
+          "player": "A.J. Brown",
+          "position": "WR",
+          "team": "PHI",
+          "targets": 121,
+          "targets_per_game": 8.1
+        },
+        {
+          "player": "Nico Collins",
+          "position": "WR",
+          "team": "HOU",
+          "targets": 120,
+          "targets_per_game": 8.0
+        },
+        {
+          "player": "Kyle Pitts Sr.",
+          "position": "TE",
+          "team": "ATL",
+          "targets": 118,
+          "targets_per_game": 6.9
+        },
+        {
+          "player": "Zay Flowers",
+          "position": "WR",
+          "team": "BAL",
+          "targets": 118,
+          "targets_per_game": 6.9
+        },
+        {
+          "player": "CeeDee Lamb",
+          "position": "WR",
+          "team": "DAL",
+          "targets": 117,
+          "targets_per_game": 8.4
+        },
+        {
+          "player": "Davante Adams",
+          "position": "WR",
+          "team": "LAR",
+          "targets": 114,
+          "targets_per_game": 8.1
+        },
+        {
+          "player": "DeVonta Smith",
+          "position": "WR",
+          "team": "PHI",
+          "targets": 113,
+          "targets_per_game": 6.6
+        },
+        {
+          "player": "Drake London",
+          "position": "WR",
+          "team": "ATL",
+          "targets": 112,
+          "targets_per_game": 9.3
+        },
+        {
+          "player": "Tyler Warren",
+          "position": "TE",
+          "team": "IND",
+          "targets": 112,
+          "targets_per_game": 6.6
+        },
+        {
+          "player": "Michael Pittman Jr.",
+          "position": "WR",
+          "team": "IND",
+          "targets": 111,
+          "targets_per_game": 6.5
+        },
+        {
+          "player": "Jakobi Meyers",
+          "position": "WR",
+          "team": "JAC",
+          "targets": 110,
+          "targets_per_game": 6.9
+        },
+        {
+          "player": "Travis Kelce",
+          "position": "TE",
+          "team": "KC",
+          "targets": 108,
+          "targets_per_game": 6.4
+        },
+        {
+          "player": "Harold Fannin Jr.",
+          "position": "TE",
+          "team": "CLE",
+          "targets": 107,
+          "targets_per_game": 6.7
+        },
+        {
+          "player": "Dalton Schultz",
+          "position": "TE",
+          "team": "HOU",
+          "targets": 106,
+          "targets_per_game": 6.2
+        },
+        {
+          "player": "Jerry Jeudy",
+          "position": "WR",
+          "team": "CLE",
+          "targets": 106,
+          "targets_per_game": 6.2
+        },
+        {
+          "player": "Ladd McConkey",
+          "position": "WR",
+          "team": "LAC",
+          "targets": 106,
+          "targets_per_game": 6.6
+        },
+        {
+          "player": "Troy Franklin",
+          "position": "WR",
+          "team": "DEN",
+          "targets": 104,
+          "targets_per_game": 6.1
+        },
+        {
+          "player": "Bijan Robinson",
+          "position": "RB",
+          "team": "ATL",
+          "targets": 103,
+          "targets_per_game": 6.1
+        },
+        {
+          "player": "Jake Ferguson",
+          "position": "TE",
+          "team": "DAL",
+          "targets": 102,
+          "targets_per_game": 6.0
+        },
+        {
+          "player": "Jameson Williams",
+          "position": "WR",
+          "team": "DET",
+          "targets": 102,
+          "targets_per_game": 6.0
+        },
+        {
+          "player": "Juwan Johnson",
+          "position": "TE",
+          "team": "NO",
+          "targets": 102,
+          "targets_per_game": 6.0
+        },
+        {
+          "player": "Stefon Diggs",
+          "position": "WR",
+          "team": "NE",
+          "targets": 102,
+          "targets_per_game": 6.0
+        },
+        {
+          "player": "Jaylen Waddle",
+          "position": "WR",
+          "team": "MIA",
+          "targets": 100,
+          "targets_per_game": 6.3
+        },
+        {
+          "player": "DK Metcalf",
+          "position": "WR",
+          "team": "PIT",
+          "targets": 99,
+          "targets_per_game": 6.6
+        },
+        {
+          "player": "Deebo Samuel Sr.",
+          "position": "WR",
+          "team": "WAS",
+          "targets": 99,
+          "targets_per_game": 6.2
+        },
+        {
+          "player": "Tee Higgins",
+          "position": "WR",
+          "team": "CIN",
+          "targets": 98,
+          "targets_per_game": 6.5
+        },
+        {
+          "player": "Khalil Shakir",
+          "position": "WR",
+          "team": "BUF",
+          "targets": 95,
+          "targets_per_game": 5.9
+        },
+        {
+          "player": "Parker Washington",
+          "position": "WR",
+          "team": "JAC",
+          "targets": 95,
+          "targets_per_game": 5.9
+        },
+        {
+          "player": "Jahmyr Gibbs",
+          "position": "RB",
+          "team": "DET",
+          "targets": 94,
+          "targets_per_game": 5.5
+        },
+        {
+          "player": "Rashid Shaheed",
+          "position": "WR",
+          "team": "SEA",
+          "targets": 92,
+          "targets_per_game": 5.1
+        },
+        {
+          "player": "Tre Tucker",
+          "position": "WR",
+          "team": "LV",
+          "targets": 92,
+          "targets_per_game": 5.4
+        },
+        {
+          "player": "Brian Thomas Jr.",
+          "position": "WR",
+          "team": "JAC",
+          "targets": 91,
+          "targets_per_game": 6.5
+        },
+        {
+          "player": "Jauan Jennings",
+          "position": "WR",
+          "team": "SF",
+          "targets": 90,
+          "targets_per_game": 6.0
+        },
+        {
+          "player": "Rome Odunze",
+          "position": "WR",
+          "team": "CHI",
+          "targets": 90,
+          "targets_per_game": 7.5
+        },
+        {
+          "player": "Elic Ayomanor",
+          "position": "WR",
+          "team": "TEN",
+          "targets": 89,
+          "targets_per_game": 5.6
+        },
+        {
+          "player": "Chase Brown",
+          "position": "RB",
+          "team": "CIN",
+          "targets": 88,
+          "targets_per_game": 5.2
+        },
+        {
+          "player": "Josh Downs",
+          "position": "WR",
+          "team": "IND",
+          "targets": 88,
+          "targets_per_game": 5.5
+        },
+        {
+          "player": "Hunter Henry",
+          "position": "TE",
+          "team": "NE",
+          "targets": 87,
+          "targets_per_game": 5.1
+        },
+        {
+          "player": "Brock Bowers",
+          "position": "TE",
+          "team": "LV",
+          "targets": 86,
+          "targets_per_game": 7.2
+        },
+        {
+          "player": "DJ Moore",
+          "position": "WR",
+          "team": "CHI",
+          "targets": 85,
+          "targets_per_game": 5.0
+        },
+        {
+          "player": "De'Von Achane",
+          "position": "RB",
+          "team": "MIA",
+          "targets": 85,
+          "targets_per_game": 5.3
+        },
+        {
+          "player": "Kenny Gainwell",
+          "position": "RB",
+          "team": "PIT",
+          "targets": 85,
+          "targets_per_game": 5.0
+        },
+        {
+          "player": "Quentin Johnston",
+          "position": "WR",
+          "team": "LAC",
+          "targets": 85,
+          "targets_per_game": 6.1
+        },
+        {
+          "player": "Romeo Doubs",
+          "position": "WR",
+          "team": "GB",
+          "targets": 85,
+          "targets_per_game": 5.3
+        },
+        {
+          "player": "Alec Pierce",
+          "position": "WR",
+          "team": "IND",
+          "targets": 84,
+          "targets_per_game": 5.6
+        },
+        {
+          "player": "Colston Loveland",
+          "position": "TE",
+          "team": "CHI",
+          "targets": 82,
+          "targets_per_game": 5.1
+        },
+        {
+          "player": "Dallas Goedert",
+          "position": "TE",
+          "team": "PHI",
+          "targets": 82,
+          "targets_per_game": 5.5
+        },
+        {
+          "player": "Cade Otton",
+          "position": "TE",
+          "team": "TB",
+          "targets": 81,
+          "targets_per_game": 5.1
+        },
+        {
+          "player": "Chig Okonkwo",
+          "position": "TE",
+          "team": "TEN",
+          "targets": 79,
+          "targets_per_game": 4.6
+        },
+        {
+          "player": "Jordan Addison",
+          "position": "WR",
+          "team": "MIN",
+          "targets": 79,
+          "targets_per_game": 5.6
+        },
+        {
+          "player": "Rashee Rice",
+          "position": "WR",
+          "team": "KC",
+          "targets": 78,
+          "targets_per_game": 9.8
+        },
+        {
+          "player": "Evan Engram",
+          "position": "TE",
+          "team": "DEN",
+          "targets": 76,
+          "targets_per_game": 4.8
+        },
+        {
+          "player": "Adonai Mitchell",
+          "position": "WR",
+          "team": "NYJ",
+          "targets": 74,
+          "targets_per_game": 4.6
+        },
+        {
+          "player": "Chimere Dike",
+          "position": "WR",
+          "team": "TEN",
+          "targets": 74,
+          "targets_per_game": 4.4
+        },
+        {
+          "player": "Hollywood Brown",
+          "position": "WR",
+          "team": "KC",
+          "targets": 74,
+          "targets_per_game": 4.6
+        },
+        {
+          "player": "Theo Johnson",
+          "position": "TE",
+          "team": "NYG",
+          "targets": 74,
+          "targets_per_game": 4.9
+        },
+        {
+          "player": "Ashton Jeanty",
+          "position": "RB",
+          "team": "LV",
+          "targets": 73,
+          "targets_per_game": 4.3
+        },
+        {
+          "player": "Marvin Harrison Jr.",
+          "position": "WR",
+          "team": "ARI",
+          "targets": 73,
+          "targets_per_game": 6.1
+        },
+        {
+          "player": "Xavier Worthy",
+          "position": "WR",
+          "team": "KC",
+          "targets": 73,
+          "targets_per_game": 5.2
+        },
+        {
+          "player": "Darnell Mooney",
+          "position": "WR",
+          "team": "ATL",
+          "targets": 72,
+          "targets_per_game": 4.8
+        },
+        {
+          "player": "Zach Ertz",
+          "position": "TE",
+          "team": "WAS",
+          "targets": 72,
+          "targets_per_game": 5.5
+        },
+        {
+          "player": "Cooper Kupp",
+          "position": "WR",
+          "team": "SEA",
+          "targets": 70,
+          "targets_per_game": 4.4
+        },
+        {
+          "player": "Mark Andrews",
+          "position": "TE",
+          "team": "BAL",
+          "targets": 70,
+          "targets_per_game": 4.1
+        },
+        {
+          "player": "George Kittle",
+          "position": "TE",
+          "team": "SF",
+          "targets": 69,
+          "targets_per_game": 6.3
+        },
+        {
+          "player": "Oronde Gadsden II",
+          "position": "TE",
+          "team": "LAC",
+          "targets": 69,
+          "targets_per_game": 4.6
+        },
+        {
+          "player": "AJ Barner",
+          "position": "TE",
+          "team": "SEA",
+          "targets": 68,
+          "targets_per_game": 4.0
+        },
+        {
+          "player": "Jayden Higgins",
+          "position": "WR",
+          "team": "HOU",
+          "targets": 68,
+          "targets_per_game": 4.0
+        },
+        {
+          "player": "T.J. Hockenson",
+          "position": "TE",
+          "team": "MIN",
+          "targets": 66,
+          "targets_per_game": 4.4
+        },
+        {
+          "player": "Mack Hollins",
+          "position": "WR",
+          "team": "NE",
+          "targets": 65,
+          "targets_per_game": 4.3
+        },
+        {
+          "player": "Malik Washington",
+          "position": "WR",
+          "team": "MIA",
+          "targets": 65,
+          "targets_per_game": 3.8
+        },
+        {
+          "player": "Mason Taylor",
+          "position": "TE",
+          "team": "NYJ",
+          "targets": 65,
+          "targets_per_game": 5.0
+        },
+        {
+          "player": "Olamide Zaccheaus",
+          "position": "WR",
+          "team": "CHI",
+          "targets": 65,
+          "targets_per_game": 4.1
+        },
+        {
+          "player": "Xavier Legette",
+          "position": "WR",
+          "team": "CAR",
+          "targets": 64,
+          "targets_per_game": 4.3
+        },
+        {
+          "player": "Darius Slayton",
+          "position": "WR",
+          "team": "NYG",
+          "targets": 63,
+          "targets_per_game": 4.5
+        },
+        {
+          "player": "Mike Evans",
+          "position": "WR",
+          "team": "TB",
+          "targets": 61,
+          "targets_per_game": 7.6
+        },
+        {
+          "player": "Brenton Strange",
+          "position": "TE",
+          "team": "JAC",
+          "targets": 60,
+          "targets_per_game": 5.0
+        },
+        {
+          "player": "Luther Burden III",
+          "position": "WR",
+          "team": "CHI",
+          "targets": 60,
+          "targets_per_game": 4.0
+        },
+        {
+          "player": "Terry McLaurin",
+          "position": "WR",
+          "team": "WAS",
+          "targets": 60,
+          "targets_per_game": 6.0
+        },
+        {
+          "player": "Garrett Wilson",
+          "position": "WR",
+          "team": "NYJ",
+          "targets": 59,
+          "targets_per_game": 8.4
+        },
+        {
+          "player": "Keon Coleman",
+          "position": "WR",
+          "team": "BUF",
+          "targets": 59,
+          "targets_per_game": 4.5
+        },
+        {
+          "player": "Andrei Iosivas",
+          "position": "WR",
+          "team": "CIN",
+          "targets": 58,
+          "targets_per_game": 3.4
+        },
+        {
+          "player": "RJ Harvey",
+          "position": "RB",
+          "team": "DEN",
+          "targets": 58,
+          "targets_per_game": 3.4
+        },
+        {
+          "player": "Xavier Hutchinson",
+          "position": "WR",
+          "team": "HOU",
+          "targets": 57,
+          "targets_per_game": 3.4
+        },
+        {
+          "player": "Colby Parkinson",
+          "position": "TE",
+          "team": "LAR",
+          "targets": 56,
+          "targets_per_game": 3.7
+        },
+        {
+          "player": "Ryan Flournoy",
+          "position": "WR",
+          "team": "DAL",
+          "targets": 56,
+          "targets_per_game": 3.7
+        },
+        {
+          "player": "Calvin Austin III",
+          "position": "WR",
+          "team": "PIT",
+          "targets": 55,
+          "targets_per_game": 3.9
+        },
+        {
+          "player": "Christian Watson",
+          "position": "WR",
+          "team": "GB",
+          "targets": 55,
+          "targets_per_game": 5.5
+        },
+        {
+          "player": "Gunnar Helm",
+          "position": "TE",
+          "team": "TEN",
+          "targets": 55,
+          "targets_per_game": 3.4
+        },
+        {
+          "player": "Jonathan Taylor",
+          "position": "RB",
+          "team": "IND",
+          "targets": 55,
+          "targets_per_game": 3.2
+        },
+        {
+          "player": "Tyler Lockett",
+          "position": "WR",
+          "team": "LV",
+          "targets": 55,
+          "targets_per_game": 3.2
+        },
+        {
+          "player": "Jonnu Smith",
+          "position": "TE",
+          "team": "PIT",
+          "targets": 54,
+          "targets_per_game": 3.2
+        },
+        {
+          "player": "Pat Freiermuth",
+          "position": "TE",
+          "team": "PIT",
+          "targets": 54,
+          "targets_per_game": 3.2
+        },
+        {
+          "player": "Jalen Nailor",
+          "position": "WR",
+          "team": "MIN",
+          "targets": 53,
+          "targets_per_game": 3.1
+        },
+        {
+          "player": "Kendrick Bourne",
+          "position": "WR",
+          "team": "SF",
+          "targets": 53,
+          "targets_per_game": 3.3
+        },
+        {
+          "player": "Ricky Pearsall",
+          "position": "WR",
+          "team": "SF",
+          "targets": 53,
+          "targets_per_game": 5.3
+        },
+        {
+          "player": "Sterling Shepard",
+          "position": "WR",
+          "team": "TB",
+          "targets": 53,
+          "targets_per_game": 4.1
+        },
+        {
+          "player": "Christian Kirk",
+          "position": "WR",
+          "team": "HOU",
+          "targets": 52,
+          "targets_per_game": 4.0
+        },
+        {
+          "player": "Travis Etienne Jr.",
+          "position": "RB",
+          "team": "JAC",
+          "targets": 52,
+          "targets_per_game": 3.1
+        },
+        {
+          "player": "Van Jefferson",
+          "position": "WR",
+          "team": "TEN",
+          "targets": 52,
+          "targets_per_game": 3.3
+        },
+        {
+          "player": "Chris Godwin Jr.",
+          "position": "WR",
+          "team": "TB",
+          "targets": 51,
+          "targets_per_game": 5.7
+        },
+        {
+          "player": "Javonte Williams",
+          "position": "RB",
+          "team": "DAL",
+          "targets": 51,
+          "targets_per_game": 3.2
+        },
+        {
+          "player": "Marvin Mims Jr.",
+          "position": "WR",
+          "team": "DEN",
+          "targets": 51,
+          "targets_per_game": 3.2
+        },
+        {
+          "player": "Kyren Williams",
+          "position": "RB",
+          "team": "LAR",
+          "targets": 50,
+          "targets_per_game": 2.9
+        },
+        {
+          "player": "Michael Mayer",
+          "position": "TE",
+          "team": "LV",
+          "targets": 50,
+          "targets_per_game": 3.8
+        },
+        {
+          "player": "Rico Dowdle",
+          "position": "RB",
+          "team": "CAR",
+          "targets": 50,
+          "targets_per_game": 2.9
+        },
+        {
+          "player": "Saquon Barkley",
+          "position": "RB",
+          "team": "PHI",
+          "targets": 50,
+          "targets_per_game": 3.1
+        },
+        {
+          "player": "Tyjae Spears",
+          "position": "RB",
+          "team": "TEN",
+          "targets": 50,
+          "targets_per_game": 3.8
+        },
+        {
+          "player": "Dalton Kincaid",
+          "position": "TE",
+          "team": "BUF",
+          "targets": 49,
+          "targets_per_game": 4.1
+        },
+        {
+          "player": "Dawson Knox",
+          "position": "TE",
+          "team": "BUF",
+          "targets": 49,
+          "targets_per_game": 2.9
+        },
+        {
+          "player": "Pat Bryant",
+          "position": "WR",
+          "team": "DEN",
+          "targets": 49,
+          "targets_per_game": 3.3
+        },
+        {
+          "player": "Sam LaPorta",
+          "position": "TE",
+          "team": "DET",
+          "targets": 49,
+          "targets_per_game": 5.4
+        },
+        {
+          "player": "Breece Hall",
+          "position": "RB",
+          "team": "NYJ",
+          "targets": 48,
+          "targets_per_game": 3.0
+        },
+        {
+          "player": "Cole Kmet",
+          "position": "TE",
+          "team": "CHI",
+          "targets": 48,
+          "targets_per_game": 3.0
+        },
+        {
+          "player": "D'Andre Swift",
+          "position": "RB",
+          "team": "CHI",
+          "targets": 48,
+          "targets_per_game": 3.0
+        },
+        {
+          "player": "David Njoku",
+          "position": "TE",
+          "team": "CLE",
+          "targets": 48,
+          "targets_per_game": 4.0
+        },
+        {
+          "player": "John Metchie III",
+          "position": "WR",
+          "team": "NYJ",
+          "targets": 48,
+          "targets_per_game": 3.0
+        },
+        {
+          "player": "Tyrone Tracy Jr.",
+          "position": "RB",
+          "team": "NYG",
+          "targets": 48,
+          "targets_per_game": 3.2
+        },
+        {
+          "player": "DeMario Douglas",
+          "position": "WR",
+          "team": "NE",
+          "targets": 46,
+          "targets_per_game": 2.7
+        },
+        {
+          "player": "Dontayvion Wicks",
+          "position": "WR",
+          "team": "GB",
+          "targets": 46,
+          "targets_per_game": 3.3
+        },
+        {
+          "player": "Jake Tonges",
+          "position": "TE",
+          "team": "SF",
+          "targets": 46,
+          "targets_per_game": 2.9
+        },
+        {
+          "player": "Kayshon Boutte",
+          "position": "WR",
+          "team": "NE",
+          "targets": 46,
+          "targets_per_game": 3.3
+        },
+        {
+          "player": "Jaylen Warren",
+          "position": "RB",
+          "team": "PIT",
+          "targets": 45,
+          "targets_per_game": 2.8
+        },
+        {
+          "player": "JuJu Smith-Schuster",
+          "position": "WR",
+          "team": "KC",
+          "targets": 45,
+          "targets_per_game": 2.6
+        },
+        {
+          "player": "Michael Carter",
+          "position": "RB",
+          "team": "ARI",
+          "targets": 45,
+          "targets_per_game": 3.5
+        },
+        {
+          "player": "Rachaad White",
+          "position": "RB",
+          "team": "TB",
+          "targets": 45,
+          "targets_per_game": 2.6
+        },
+        {
+          "player": "Travis Hunter",
+          "position": "WR",
+          "team": "JAC",
+          "targets": 45,
+          "targets_per_game": 6.4
+        },
+        {
+          "player": "Isaiah Bond",
+          "position": "WR",
+          "team": "CLE",
+          "targets": 44,
+          "targets_per_game": 2.8
+        },
+        {
+          "player": "Josh Jacobs",
+          "position": "RB",
+          "team": "GB",
+          "targets": 44,
+          "targets_per_game": 2.9
+        },
+        {
+          "player": "Matthew Golden",
+          "position": "WR",
+          "team": "GB",
+          "targets": 44,
+          "targets_per_game": 3.1
+        },
+        {
+          "player": "Tez Johnson",
+          "position": "WR",
+          "team": "TB",
+          "targets": 44,
+          "targets_per_game": 2.8
+        },
+        {
+          "player": "Tucker Kraft",
+          "position": "TE",
+          "team": "GB",
+          "targets": 44,
+          "targets_per_game": 5.5
+        },
+        {
+          "player": "Darnell Washington",
+          "position": "TE",
+          "team": "PIT",
+          "targets": 43,
+          "targets_per_game": 2.7
+        },
+        {
+          "player": "Jalen Coker",
+          "position": "WR",
+          "team": "CAR",
+          "targets": 43,
+          "targets_per_game": 3.9
+        },
+        {
+          "player": "Tre' Harris",
+          "position": "WR",
+          "team": "LAC",
+          "targets": 43,
+          "targets_per_game": 2.5
+        },
+        {
+          "player": "Mike Gesicki",
+          "position": "TE",
+          "team": "CIN",
+          "targets": 42,
+          "targets_per_game": 3.2
+        },
+        {
+          "player": "TreVeyon Henderson",
+          "position": "RB",
+          "team": "NE",
+          "targets": 42,
+          "targets_per_game": 2.5
+        },
+        {
+          "player": "Aaron Jones Sr.",
+          "position": "RB",
+          "team": "MIN",
+          "targets": 41,
+          "targets_per_game": 3.4
+        },
+        {
+          "player": "Noah Fant",
+          "position": "TE",
+          "team": "CIN",
+          "targets": 41,
+          "targets_per_game": 2.7
+        },
+        {
+          "player": "Tony Pollard",
+          "position": "RB",
+          "team": "TEN",
+          "targets": 41,
+          "targets_per_game": 2.4
+        },
+        {
+          "player": "Dylan Sampson",
+          "position": "RB",
+          "team": "CLE",
+          "targets": 40,
+          "targets_per_game": 2.7
+        },
+        {
+          "player": "James Cook III",
+          "position": "RB",
+          "team": "BUF",
+          "targets": 40,
+          "targets_per_game": 2.4
+        },
+        {
+          "player": "Alvin Kamara",
+          "position": "RB",
+          "team": "NO",
+          "targets": 39,
+          "targets_per_game": 3.5
+        },
+        {
+          "player": "Cedric Tillman",
+          "position": "WR",
+          "team": "CLE",
+          "targets": 39,
+          "targets_per_game": 3.0
+        },
+        {
+          "player": "Chuba Hubbard",
+          "position": "RB",
+          "team": "CAR",
+          "targets": 39,
+          "targets_per_game": 2.6
+        },
+        {
+          "player": "DeAndre Hopkins",
+          "position": "WR",
+          "team": "BAL",
+          "targets": 39,
+          "targets_per_game": 2.3
+        },
+        {
+          "player": "Devaughn Vele",
+          "position": "WR",
+          "team": "NO",
+          "targets": 39,
+          "targets_per_game": 3.0
+        },
+        {
+          "player": "KaVontae Turpin",
+          "position": "WR",
+          "team": "DAL",
+          "targets": 38,
+          "targets_per_game": 2.5
+        },
+        {
+          "player": "Rashod Bateman",
+          "position": "WR",
+          "team": "BAL",
+          "targets": 38,
+          "targets_per_game": 2.9
+        },
+        {
+          "player": "Dyami Brown",
+          "position": "WR",
+          "team": "JAC",
+          "targets": 37,
+          "targets_per_game": 2.5
+        },
+        {
+          "player": "Elijah Higgins",
+          "position": "TE",
+          "team": "ARI",
+          "targets": 37,
+          "targets_per_game": 2.2
+        },
+        {
+          "player": "Joshua Palmer",
+          "position": "WR",
+          "team": "BUF",
+          "targets": 37,
+          "targets_per_game": 3.1
+        },
+        {
+          "player": "Noah Gray",
+          "position": "TE",
+          "team": "KC",
+          "targets": 37,
+          "targets_per_game": 2.3
+        },
+        {
+          "player": "Rhamondre Stevenson",
+          "position": "RB",
+          "team": "NE",
+          "targets": 37,
+          "targets_per_game": 2.6
+        },
+        {
+          "player": "Tommy Tremble",
+          "position": "TE",
+          "team": "CAR",
+          "targets": 37,
+          "targets_per_game": 2.2
+        },
+        {
+          "player": "Tyquan Thornton",
+          "position": "WR",
+          "team": "KC",
+          "targets": 37,
+          "targets_per_game": 2.6
+        },
+        {
+          "player": "Brandin Cooks",
+          "position": "WR",
+          "team": "BUF",
+          "targets": 36,
+          "targets_per_game": 2.4
+        },
+        {
+          "player": "Calvin Ridley",
+          "position": "WR",
+          "team": "TEN",
+          "targets": 36,
+          "targets_per_game": 5.1
+        },
+        {
+          "player": "David Sills V",
+          "position": "WR",
+          "team": "ATL",
+          "targets": 36,
+          "targets_per_game": 2.1
+        },
+        {
+          "player": "Isaiah Likely",
+          "position": "TE",
+          "team": "BAL",
+          "targets": 36,
+          "targets_per_game": 2.6
+        },
+        {
+          "player": "Isaiah Williams",
+          "position": "WR",
+          "team": "NYJ",
+          "targets": 36,
+          "targets_per_game": 2.4
+        },
+        {
+          "player": "Jahan Dotson",
+          "position": "WR",
+          "team": "PHI",
+          "targets": 36,
+          "targets_per_game": 2.1
+        },
+        {
+          "player": "Kenneth Walker III",
+          "position": "RB",
+          "team": "SEA",
+          "targets": 36,
+          "targets_per_game": 2.1
+        },
+        {
+          "player": "Quinshon Judkins",
+          "position": "RB",
+          "team": "CLE",
+          "targets": 36,
+          "targets_per_game": 2.6
+        },
+        {
+          "player": "Tyler Higbee",
+          "position": "TE",
+          "team": "LAR",
+          "targets": 36,
+          "targets_per_game": 3.6
+        },
+        {
+          "player": "Woody Marks",
+          "position": "RB",
+          "team": "HOU",
+          "targets": 36,
+          "targets_per_game": 2.3
+        },
+        {
+          "player": "Adam Thielen",
+          "position": "WR",
+          "team": "PIT",
+          "targets": 35,
+          "targets_per_game": 2.2
+        },
+        {
+          "player": "Brashard Smith",
+          "position": "RB",
+          "team": "KC",
+          "targets": 35,
+          "targets_per_game": 2.1
+        },
+        {
+          "player": "Bucky Irving",
+          "position": "RB",
+          "team": "TB",
+          "targets": 35,
+          "targets_per_game": 3.5
+        },
+        {
+          "player": "Demarcus Robinson",
+          "position": "WR",
+          "team": "SF",
+          "targets": 35,
+          "targets_per_game": 2.5
+        },
+        {
+          "player": "Jaylin Noel",
+          "position": "WR",
+          "team": "HOU",
+          "targets": 35,
+          "targets_per_game": 2.1
+        },
+        {
+          "player": "Malik Nabers",
+          "position": "WR",
+          "team": "NYG",
+          "targets": 35,
+          "targets_per_game": 8.8
+        },
+        {
+          "player": "Omarion Hampton",
+          "position": "RB",
+          "team": "LAC",
+          "targets": 35,
+          "targets_per_game": 3.9
+        },
+        {
+          "player": "Darren Waller",
+          "position": "TE",
+          "team": "MIA",
+          "targets": 34,
+          "targets_per_game": 3.8
+        },
+        {
+          "player": "Ja'Tavion Sanders",
+          "position": "TE",
+          "team": "CAR",
+          "targets": 34,
+          "targets_per_game": 2.6
+        },
+        {
+          "player": "Jalen Tolbert",
+          "position": "WR",
+          "team": "DAL",
+          "targets": 34,
+          "targets_per_game": 2.6
+        },
+        {
+          "player": "Davis Allen",
+          "position": "TE",
+          "team": "LAR",
+          "targets": 33,
+          "targets_per_game": 1.9
+        },
+        {
+          "player": "Greg Dortch",
+          "position": "WR",
+          "team": "ARI",
+          "targets": 33,
+          "targets_per_game": 2.8
+        },
+        {
+          "player": "Greg Dulcich",
+          "position": "TE",
+          "team": "MIA",
+          "targets": 33,
+          "targets_per_game": 3.3
+        },
+        {
+          "player": "Ty Johnson",
+          "position": "RB",
+          "team": "BUF",
+          "targets": 33,
+          "targets_per_game": 1.9
+        },
+        {
+          "player": "Cam Skattebo",
+          "position": "RB",
+          "team": "NYG",
+          "targets": 32,
+          "targets_per_game": 4.0
+        },
+        {
+          "player": "Jaylin Lane",
+          "position": "WR",
+          "team": "WAS",
+          "targets": 32,
+          "targets_per_game": 2.1
+        },
+        {
+          "player": "Jerome Ford",
+          "position": "RB",
+          "team": "CLE",
+          "targets": 32,
+          "targets_per_game": 2.5
+        },
+        {
+          "player": "Bam Knight",
+          "position": "RB",
+          "team": "ARI",
+          "targets": 31,
+          "targets_per_game": 2.6
+        },
+        {
+          "player": "Jeremy McNichols",
+          "position": "RB",
+          "team": "WAS",
+          "targets": 31,
+          "targets_per_game": 1.8
+        },
+        {
+          "player": "Luke Musgrave",
+          "position": "TE",
+          "team": "GB",
+          "targets": 31,
+          "targets_per_game": 1.8
+        },
+        {
+          "player": "Tyler Badie",
+          "position": "RB",
+          "team": "DEN",
+          "targets": 31,
+          "targets_per_game": 1.9
+        },
+        {
+          "player": "Dont'e Thornton Jr.",
+          "position": "WR",
+          "team": "LV",
+          "targets": 30,
+          "targets_per_game": 2.0
+        },
+        {
+          "player": "Kalif Raymond",
+          "position": "WR",
+          "team": "DET",
+          "targets": 30,
+          "targets_per_game": 2.0
+        },
+        {
+          "player": "Kyle Monangai",
+          "position": "RB",
+          "team": "CHI",
+          "targets": 30,
+          "targets_per_game": 1.8
+        },
+        {
+          "player": "David Montgomery",
+          "position": "RB",
+          "team": "DET",
+          "targets": 29,
+          "targets_per_game": 1.7
+        },
+        {
+          "player": "Jack Bech",
+          "position": "WR",
+          "team": "LV",
+          "targets": 29,
+          "targets_per_game": 1.8
+        },
+        {
+          "player": "Jeremy Ruckert",
+          "position": "TE",
+          "team": "NYJ",
+          "targets": 29,
+          "targets_per_game": 1.7
+        },
+        {
+          "player": "Marquez Valdes-Scantling",
+          "position": "WR",
+          "team": "PIT",
+          "targets": 29,
+          "targets_per_game": 2.9
+        },
+        {
+          "player": "Tyreek Hill",
+          "position": "WR",
+          "team": "MIA",
+          "targets": 29,
+          "targets_per_game": 7.3
+        },
+        {
+          "player": "Isaiah Davis",
+          "position": "RB",
+          "team": "NYJ",
+          "targets": 28,
+          "targets_per_game": 1.8
+        },
+        {
+          "player": "Kyle Juszczyk",
+          "position": "RB",
+          "team": "SF",
+          "targets": 28,
+          "targets_per_game": 1.6
+        },
+        {
+          "player": "Isaac TeSlaa",
+          "position": "WR",
+          "team": "DET",
+          "targets": 27,
+          "targets_per_game": 1.6
+        },
+        {
+          "player": "Justice Hill",
+          "position": "RB",
+          "team": "BAL",
+          "targets": 27,
+          "targets_per_game": 2.7
+        },
+        {
+          "player": "Austin Hooper",
+          "position": "TE",
+          "team": "NE",
+          "targets": 26,
+          "targets_per_game": 1.6
+        },
+        {
+          "player": "Daniel Bellinger",
+          "position": "TE",
+          "team": "NYG",
+          "targets": 26,
+          "targets_per_game": 1.6
+        },
+        {
+          "player": "Elijah Arroyo",
+          "position": "TE",
+          "team": "SEA",
+          "targets": 26,
+          "targets_per_game": 2.0
+        },
+        {
+          "player": "Hunter Renfrow",
+          "position": "WR",
+          "team": "CAR",
+          "targets": 26,
+          "targets_per_game": 4.3
+        },
+        {
+          "player": "Isiah Pacheco",
+          "position": "RB",
+          "team": "KC",
+          "targets": 26,
+          "targets_per_game": 2.0
+        },
+        {
+          "player": "Jordan Whittington",
+          "position": "WR",
+          "team": "LAR",
+          "targets": 25,
+          "targets_per_game": 1.5
+        },
+        {
+          "player": "Kareem Hunt",
+          "position": "RB",
+          "team": "KC",
+          "targets": 25,
+          "targets_per_game": 1.5
+        },
+        {
+          "player": "Lil'Jordan Humphrey",
+          "position": "WR",
+          "team": "DEN",
+          "targets": 25,
+          "targets_per_game": 2.5
+        },
+        {
+          "player": "Mitchell Evans",
+          "position": "TE",
+          "team": "CAR",
+          "targets": 25,
+          "targets_per_game": 1.5
+        },
+        {
+          "player": "Terrance Ferguson",
+          "position": "TE",
+          "team": "LAR",
+          "targets": 25,
+          "targets_per_game": 1.9
+        },
+        {
+          "player": "Mitch Tinsley",
+          "position": "WR",
+          "team": "CIN",
+          "targets": 24,
+          "targets_per_game": 1.4
+        },
+        {
+          "player": "Tanner Hudson",
+          "position": "TE",
+          "team": "CIN",
+          "targets": 24,
+          "targets_per_game": 1.8
+        },
+        {
+          "player": "Tim Patrick",
+          "position": "WR",
+          "team": "JAC",
+          "targets": 24,
+          "targets_per_game": 1.5
+        },
+        {
+          "player": "Xavier Smith",
+          "position": "WR",
+          "team": "LAR",
+          "targets": 24,
+          "targets_per_game": 1.5
+        },
+        {
+          "player": "Zach Charbonnet",
+          "position": "RB",
+          "team": "SEA",
+          "targets": 24,
+          "targets_per_game": 1.5
+        },
+        {
+          "player": "Adam Trautman",
+          "position": "TE",
+          "team": "DEN",
+          "targets": 23,
+          "targets_per_game": 1.4
+        },
+        {
+          "player": "Chris Moore",
+          "position": "WR",
+          "team": "WAS",
+          "targets": 23,
+          "targets_per_game": 1.6
+        },
+        {
+          "player": "Kevin Austin Jr.",
+          "position": "WR",
+          "team": "NO",
+          "targets": 23,
+          "targets_per_game": 2.9
+        },
+        {
+          "player": "Konata Mumpfield",
+          "position": "WR",
+          "team": "LAR",
+          "targets": 23,
+          "targets_per_game": 1.4
+        },
+        {
+          "player": "Luke Schoonmaker",
+          "position": "TE",
+          "team": "DAL",
+          "targets": 23,
+          "targets_per_game": 1.4
+        },
+        {
+          "player": "Tyrell Shavers",
+          "position": "WR",
+          "team": "BUF",
+          "targets": 23,
+          "targets_per_game": 1.4
+        },
+        {
+          "player": "Brock Wright",
+          "position": "TE",
+          "team": "DET",
+          "targets": 22,
+          "targets_per_game": 2.0
+        },
+        {
+          "player": "Jayden Reed",
+          "position": "WR",
+          "team": "GB",
+          "targets": 22,
+          "targets_per_game": 3.1
+        },
+        {
+          "player": "Kimani Vidal",
+          "position": "RB",
+          "team": "LAC",
+          "targets": 22,
+          "targets_per_game": 1.7
+        },
+        {
+          "player": "Tory Horton",
+          "position": "WR",
+          "team": "SEA",
+          "targets": 22,
+          "targets_per_game": 2.8
+        },
+        {
+          "player": "Treylon Burks",
+          "position": "WR",
+          "team": "WAS",
+          "targets": 22,
+          "targets_per_game": 2.8
+        },
+        {
+          "player": "Derrick Henry",
+          "position": "RB",
+          "team": "BAL",
+          "targets": 21,
+          "targets_per_game": 1.2
+        },
+        {
+          "player": "Josh Reynolds",
+          "position": "WR",
+          "team": "NYJ",
+          "targets": 21,
+          "targets_per_game": 4.2
+        },
+        {
+          "player": "Kyle Williams",
+          "position": "WR",
+          "team": "NE",
+          "targets": 21,
+          "targets_per_game": 1.2
+        },
+        {
+          "player": "Roman Wilson",
+          "position": "WR",
+          "team": "PIT",
+          "targets": 21,
+          "targets_per_game": 1.5
+        },
+        {
+          "player": "Samaje Perine",
+          "position": "RB",
+          "team": "CIN",
+          "targets": 21,
+          "targets_per_game": 1.4
+        },
+        {
+          "player": "Drew Sample",
+          "position": "TE",
+          "team": "CIN",
+          "targets": 20,
+          "targets_per_game": 1.2
+        },
+        {
+          "player": "Emari Demercado",
+          "position": "RB",
+          "team": "ARI",
+          "targets": 20,
+          "targets_per_game": 1.5
+        },
+        {
+          "player": "Julian Hill",
+          "position": "TE",
+          "team": "MIA",
+          "targets": 20,
+          "targets_per_game": 1.4
+        },
+        {
+          "player": "Mo Alie-Cox",
+          "position": "TE",
+          "team": "IND",
+          "targets": 20,
+          "targets_per_game": 1.2
+        },
+        {
+          "player": "Nick Chubb",
+          "position": "RB",
+          "team": "HOU",
+          "targets": 20,
+          "targets_per_game": 1.3
+        },
+        {
+          "player": "Nick Westbrook-Ikhine",
+          "position": "WR",
+          "team": "MIA",
+          "targets": 20,
+          "targets_per_game": 1.3
+        },
+        {
+          "player": "Devin Neal",
+          "position": "RB",
+          "team": "NO",
+          "targets": 19,
+          "targets_per_game": 2.1
+        },
+        {
+          "player": "Devin Singletary",
+          "position": "RB",
+          "team": "NYG",
+          "targets": 19,
+          "targets_per_game": 1.1
+        },
+        {
+          "player": "Isaiah Hodgins",
+          "position": "WR",
+          "team": "NYG",
+          "targets": 19,
+          "targets_per_game": 2.7
+        },
+        {
+          "player": "Jackson Hawes",
+          "position": "TE",
+          "team": "BUF",
+          "targets": 19,
+          "targets_per_game": 1.1
+        },
+        {
+          "player": "Johnny Mundt",
+          "position": "TE",
+          "team": "JAC",
+          "targets": 19,
+          "targets_per_game": 1.2
+        },
+        {
+          "player": "Josh Oliver",
+          "position": "TE",
+          "team": "MIN",
+          "targets": 19,
+          "targets_per_game": 1.3
+        },
+        {
+          "player": "Allen Lazard",
+          "position": "WR",
+          "team": "NYJ",
+          "targets": 18,
+          "targets_per_game": 1.8
+        },
+        {
+          "player": "Brycen Tremayne",
+          "position": "WR",
+          "team": "CAR",
+          "targets": 18,
+          "targets_per_game": 1.1
+        },
+        {
+          "player": "Gabe Davis",
+          "position": "WR",
+          "team": "BUF",
+          "targets": 18,
+          "targets_per_game": 3.0
+        },
+        {
+          "player": "Tyler Johnson",
+          "position": "WR",
+          "team": "NYJ",
+          "targets": 18,
+          "targets_per_game": 1.5
+        },
+        {
+          "player": "Zay Jones",
+          "position": "WR",
+          "team": "ARI",
+          "targets": 18,
+          "targets_per_game": 2.3
+        },
+        {
+          "player": "Ameer Abdullah",
+          "position": "RB",
+          "team": "IND",
+          "targets": 17,
+          "targets_per_game": 1.3
+        },
+        {
+          "player": "Chris Brooks",
+          "position": "RB",
+          "team": "GB",
+          "targets": 17,
+          "targets_per_game": 1.0
+        },
+        {
+          "player": "Elijah Moore",
+          "position": "WR",
+          "team": "BUF",
+          "targets": 17,
+          "targets_per_game": 1.9
+        },
+        {
+          "player": "Emanuel Wilson",
+          "position": "RB",
+          "team": "GB",
+          "targets": 17,
+          "targets_per_game": 1.0
+        },
+        {
+          "player": "Hunter Long",
+          "position": "TE",
+          "team": "JAC",
+          "targets": 17,
+          "targets_per_game": 1.9
+        },
+        {
+          "player": "Mason Tipton",
+          "position": "WR",
+          "team": "NO",
+          "targets": 17,
+          "targets_per_game": 1.3
+        },
+        {
+          "player": "Arian Smith",
+          "position": "WR",
+          "team": "NYJ",
+          "targets": 16,
+          "targets_per_game": 1.0
+        },
+        {
+          "player": "Cade Stover",
+          "position": "TE",
+          "team": "HOU",
+          "targets": 16,
+          "targets_per_game": 1.8
+        },
+        {
+          "player": "John Bates",
+          "position": "TE",
+          "team": "WAS",
+          "targets": 16,
+          "targets_per_game": 1.1
+        },
+        {
+          "player": "Jordan Mason",
+          "position": "RB",
+          "team": "MIN",
+          "targets": 16,
+          "targets_per_game": 1.0
+        },
+        {
+          "player": "Taysom Hill",
+          "position": "TE",
+          "team": "NO",
+          "targets": 16,
+          "targets_per_game": 1.2
+        },
+        {
+          "player": "Trey Benson",
+          "position": "RB",
+          "team": "ARI",
+          "targets": 16,
+          "targets_per_game": 3.2
+        },
+        {
+          "player": "Tyler Allgeier",
+          "position": "RB",
+          "team": "ATL",
+          "targets": 16,
+          "targets_per_game": 0.9
+        },
+        {
+          "player": "Will Dissly",
+          "position": "TE",
+          "team": "LAC",
+          "targets": 16,
+          "targets_per_game": 1.8
+        },
+        {
+          "player": "Zavier Scott",
+          "position": "RB",
+          "team": "MIN",
+          "targets": 16,
+          "targets_per_game": 1.5
+        },
+        {
+          "player": "Charlie Kolar",
+          "position": "TE",
+          "team": "BAL",
+          "targets": 15,
+          "targets_per_game": 0.9
+        },
+        {
+          "player": "Hunter Luepke",
+          "position": "RB",
+          "team": "DAL",
+          "targets": 15,
+          "targets_per_game": 0.9
+        },
+        {
+          "player": "Jalen McMillan",
+          "position": "WR",
+          "team": "TB",
+          "targets": 15,
+          "targets_per_game": 3.8
+        },
+        {
+          "player": "Jamari Thrash",
+          "position": "WR",
+          "team": "CLE",
+          "targets": 15,
+          "targets_per_game": 1.7
+        },
+        {
+          "player": "Jimmy Horn Jr.",
+          "position": "WR",
+          "team": "CAR",
+          "targets": 15,
+          "targets_per_game": 1.2
+        },
+        {
+          "player": "John FitzPatrick",
+          "position": "TE",
+          "team": "GB",
+          "targets": 15,
+          "targets_per_game": 1.0
+        },
+        {
+          "player": "Luke McCaffrey",
+          "position": "WR",
+          "team": "WAS",
+          "targets": 15,
+          "targets_per_game": 1.7
+        },
+        {
+          "player": "Ray-Ray McCloud III",
+          "position": "WR",
+          "team": "NYG",
+          "targets": 15,
+          "targets_per_game": 2.5
+        },
+        {
+          "player": "Tanner Conner",
+          "position": "TE",
+          "team": "MIA",
+          "targets": 15,
+          "targets_per_game": 1.7
+        },
+        {
+          "player": "Tutu Atwell",
+          "position": "WR",
+          "team": "LAR",
+          "targets": 15,
+          "targets_per_game": 1.5
+        },
+        {
+          "player": "Bhayshul Tuten",
+          "position": "RB",
+          "team": "JAC",
+          "targets": 14,
+          "targets_per_game": 0.9
+        },
+        {
+          "player": "Blake Corum",
+          "position": "RB",
+          "team": "LAR",
+          "targets": 14,
+          "targets_per_game": 0.8
+        },
+        {
+          "player": "Casey Washington",
+          "position": "WR",
+          "team": "ATL",
+          "targets": 14,
+          "targets_per_game": 2.0
+        },
+        {
+          "player": "Gage Larvadain",
+          "position": "WR",
+          "team": "CLE",
+          "targets": 14,
+          "targets_per_game": 1.1
+        },
+        {
+          "player": "J.K. Dobbins",
+          "position": "RB",
+          "team": "DEN",
+          "targets": 14,
+          "targets_per_game": 1.4
+        },
+        {
+          "player": "Jalin Hyatt",
+          "position": "WR",
+          "team": "NYG",
+          "targets": 14,
+          "targets_per_game": 1.8
+        },
+        {
+          "player": "Luke Farrell",
+          "position": "TE",
+          "team": "SF",
+          "targets": 14,
+          "targets_per_game": 0.8
+        },
+        {
+          "player": "Malachi Corley",
+          "position": "WR",
+          "team": "CLE",
+          "targets": 14,
+          "targets_per_game": 1.1
+        },
+        {
+          "player": "Scotty Miller",
+          "position": "WR",
+          "team": "PIT",
+          "targets": 14,
+          "targets_per_game": 1.1
+        },
+        {
+          "player": "Audric Estime",
+          "position": "RB",
+          "team": "NO",
+          "targets": 13,
+          "targets_per_game": 1.9
+        },
+        {
+          "player": "Ben Sinnott",
+          "position": "TE",
+          "team": "WAS",
+          "targets": 13,
+          "targets_per_game": 0.8
+        },
+        {
+          "player": "Bo Melton",
+          "position": "WR",
+          "team": "GB",
+          "targets": 13,
+          "targets_per_game": 0.8
+        },
+        {
+          "player": "Brevyn Spann-Ford",
+          "position": "TE",
+          "team": "DAL",
+          "targets": 13,
+          "targets_per_game": 0.8
+        },
+        {
+          "player": "Dare Ogunbowale",
+          "position": "RB",
+          "team": "HOU",
+          "targets": 13,
+          "targets_per_game": 0.8
+        },
+        {
+          "player": "Grant Calcaterra",
+          "position": "TE",
+          "team": "PHI",
+          "targets": 13,
+          "targets_per_game": 0.9
+        },
+        {
+          "player": "Gunner Olszewski",
+          "position": "WR",
+          "team": "NYG",
+          "targets": 13,
+          "targets_per_game": 0.8
+        },
+        {
+          "player": "Ian Thomas",
+          "position": "TE",
+          "team": "LV",
+          "targets": 13,
+          "targets_per_game": 0.9
+        },
+        {
+          "player": "Jacory Croskey-Merritt",
+          "position": "RB",
+          "team": "WAS",
+          "targets": 13,
+          "targets_per_game": 0.8
+        },
+        {
+          "player": "Ray Davis",
+          "position": "RB",
+          "team": "BUF",
+          "targets": 13,
+          "targets_per_game": 0.8
+        },
+        {
+          "player": "Xavier Weaver",
+          "position": "WR",
+          "team": "ARI",
+          "targets": 13,
+          "targets_per_game": 1.4
+        },
+        {
+          "player": "Brian Robinson Jr.",
+          "position": "RB",
+          "team": "SF",
+          "targets": 12,
+          "targets_per_game": 0.7
+        },
+        {
+          "player": "James Proche II",
+          "position": "WR",
+          "team": "TEN",
+          "targets": 12,
+          "targets_per_game": 1.3
+        },
+        {
+          "player": "KeAndre Lambert-Smith",
+          "position": "WR",
+          "team": "LAC",
+          "targets": 12,
+          "targets_per_game": 1.2
+        },
+        {
+          "player": "Keaton Mitchell",
+          "position": "RB",
+          "team": "BAL",
+          "targets": 12,
+          "targets_per_game": 0.9
+        },
+        {
+          "player": "Raheem Mostert",
+          "position": "RB",
+          "team": "LV",
+          "targets": 12,
+          "targets_per_game": 1.0
+        },
+        {
+          "player": "Will Shipley",
+          "position": "RB",
+          "team": "PHI",
+          "targets": 12,
+          "targets_per_game": 0.8
+        },
+        {
+          "player": "Alec Ingold",
+          "position": "RB",
+          "team": "MIA",
+          "targets": 11,
+          "targets_per_game": 0.6
+        },
+        {
+          "player": "Dante Pettis",
+          "position": "WR",
+          "team": "NO",
+          "targets": 11,
+          "targets_per_game": 1.4
+        },
+        {
+          "player": "Darius Cooper",
+          "position": "WR",
+          "team": "PHI",
+          "targets": 11,
+          "targets_per_game": 0.8
+        },
+        {
+          "player": "Dylan Drummond",
+          "position": "WR",
+          "team": "ATL",
+          "targets": 11,
+          "targets_per_game": 1.2
+        },
+        {
+          "player": "Jack Stoll",
+          "position": "TE",
+          "team": "NO",
+          "targets": 11,
+          "targets_per_game": 0.7
+        },
+        {
+          "player": "LeQuint Allen Jr.",
+          "position": "RB",
+          "team": "JAC",
+          "targets": 11,
+          "targets_per_game": 0.6
+        },
+        {
+          "player": "Nate Adkins",
+          "position": "TE",
+          "team": "DEN",
+          "targets": 11,
+          "targets_per_game": 1.2
+        },
+        {
+          "player": "Rasheen Ali",
+          "position": "RB",
+          "team": "BAL",
+          "targets": 11,
+          "targets_per_game": 0.7
+        },
+        {
+          "player": "Sean Tucker",
+          "position": "RB",
+          "team": "TB",
+          "targets": 11,
+          "targets_per_game": 0.6
+        },
+        {
+          "player": "Anthony Firkser",
+          "position": "TE",
+          "team": "DET",
+          "targets": 10,
+          "targets_per_game": 1.4
+        },
+        {
+          "player": "Ashton Dulin",
+          "position": "WR",
+          "team": "IND",
+          "targets": 10,
+          "targets_per_game": 0.8
+        },
+        {
+          "player": "Austin Trammell",
+          "position": "WR",
+          "team": "JAC",
+          "targets": 10,
+          "targets_per_game": 1.7
+        },
+        {
+          "player": "Foster Moreau",
+          "position": "TE",
+          "team": "NO",
+          "targets": 10,
+          "targets_per_game": 0.9
+        },
+        {
+          "player": "Jahdae Walker",
+          "position": "WR",
+          "team": "CHI",
+          "targets": 10,
+          "targets_per_game": 1.4
+        },
+        {
+          "player": "KhaDarel Hodge",
+          "position": "WR",
+          "team": "ATL",
+          "targets": 10,
+          "targets_per_game": 0.8
+        },
+        {
+          "player": "Noah Brown",
+          "position": "WR",
+          "team": "WAS",
+          "targets": 10,
+          "targets_per_game": 2.5
+        },
+        {
+          "player": "Savion Williams",
+          "position": "WR",
+          "team": "GB",
+          "targets": 10,
+          "targets_per_game": 0.8
+        },
+        {
+          "player": "Theo Wease Jr.",
+          "position": "WR",
+          "team": "MIA",
+          "targets": 10,
+          "targets_per_game": 3.3
+        },
+        {
+          "player": "Tyler Conklin",
+          "position": "TE",
+          "team": "LAC",
+          "targets": 10,
+          "targets_per_game": 1.0
+        },
+        {
+          "player": "Andrew Beck",
+          "position": "TE",
+          "team": "NYJ",
+          "targets": 9,
+          "targets_per_game": 0.5
+        },
+        {
+          "player": "Cedrick Wilson Jr.",
+          "position": "WR",
+          "team": "MIA",
+          "targets": 9,
+          "targets_per_game": 0.9
+        },
+        {
+          "player": "Charlie Woerner",
+          "position": "TE",
+          "team": "ATL",
+          "targets": 9,
+          "targets_per_game": 0.5
+        },
+        {
+          "player": "Curtis Samuel",
+          "position": "WR",
+          "team": "BUF",
+          "targets": 9,
+          "targets_per_game": 1.5
+        },
+        {
+          "player": "James Conner",
+          "position": "RB",
+          "team": "ARI",
+          "targets": 9,
+          "targets_per_game": 2.3
+        },
+        {
+          "player": "Jaylen Wright",
+          "position": "RB",
+          "team": "MIA",
+          "targets": 9,
+          "targets_per_game": 0.8
+        },
+        {
+          "player": "Kylen Granson",
+          "position": "TE",
+          "team": "PHI",
+          "targets": 9,
+          "targets_per_game": 0.5
+        },
+        {
+          "player": "Ollie Gordon II",
+          "position": "RB",
+          "team": "MIA",
+          "targets": 9,
+          "targets_per_game": 0.5
+        },
+        {
+          "player": "Quintin Morris",
+          "position": "TE",
+          "team": "JAC",
+          "targets": 9,
+          "targets_per_game": 0.7
+        },
+        {
+          "player": "Robbie Chosen",
+          "position": "WR",
+          "team": "WAS",
+          "targets": 9,
+          "targets_per_game": 3.0
+        },
+        {
+          "player": "Stone Smartt",
+          "position": "TE",
+          "team": "NYJ",
+          "targets": 9,
+          "targets_per_game": 1.0
+        },
+        {
+          "player": "Trayveon Williams",
+          "position": "RB",
+          "team": "CLE",
+          "targets": 9,
+          "targets_per_game": 1.3
+        },
+        {
+          "player": "Adam Prentice",
+          "position": "RB",
+          "team": "DEN",
+          "targets": 8,
+          "targets_per_game": 0.5
+        },
+        {
+          "player": "Braxton Berrios",
+          "position": "WR",
+          "team": "HOU",
+          "targets": 8,
+          "targets_per_game": 2.0
+        },
+        {
+          "player": "Devontez Walker",
+          "position": "WR",
+          "team": "BAL",
+          "targets": 8,
+          "targets_per_game": 0.7
+        },
+        {
+          "player": "Miles Sanders",
+          "position": "RB",
+          "team": "DAL",
+          "targets": 8,
+          "targets_per_game": 2.0
+        },
+        {
+          "player": "Tylan Wallace",
+          "position": "WR",
+          "team": "BAL",
+          "targets": 8,
+          "targets_per_game": 0.6
+        },
+        {
+          "player": "Austin Ekeler",
+          "position": "RB",
+          "team": "WAS",
+          "targets": 7,
+          "targets_per_game": 2.3
+        },
+        {
+          "player": "Dee Eskridge",
+          "position": "WR",
+          "team": "MIA",
+          "targets": 7,
+          "targets_per_game": 0.5
+        },
+        {
+          "player": "Eric Saubert",
+          "position": "TE",
+          "team": "SEA",
+          "targets": 7,
+          "targets_per_game": 0.6
+        },
+        {
+          "player": "Jawhar Jordan",
+          "position": "RB",
+          "team": "HOU",
+          "targets": 7,
+          "targets_per_game": 1.8
+        },
+        {
+          "player": "Kameron Johnson",
+          "position": "WR",
+          "team": "TB",
+          "targets": 7,
+          "targets_per_game": 0.4
+        },
+        {
+          "player": "Malik Heath",
+          "position": "WR",
+          "team": "GB",
+          "targets": 7,
+          "targets_per_game": 0.6
+        },
+        {
+          "player": "Skyy Moore",
+          "position": "WR",
+          "team": "SF",
+          "targets": 7,
+          "targets_per_game": 0.4
+        },
+        {
+          "player": "Xavier Restrepo",
+          "position": "WR",
+          "team": "TEN",
+          "targets": 7,
+          "targets_per_game": 3.5
+        },
+        {
+          "player": "Albert Okwuegbunam Jr.",
+          "position": "TE",
+          "team": "LV",
+          "targets": 6,
+          "targets_per_game": 6.0
+        },
+        {
+          "player": "Beaux Collins",
+          "position": "WR",
+          "team": "NYG",
+          "targets": 6,
+          "targets_per_game": 0.7
+        },
+        {
+          "player": "Ben Sims",
+          "position": "TE",
+          "team": "MIN",
+          "targets": 6,
+          "targets_per_game": 0.7
+        },
+        {
+          "player": "Ben Skowronek",
+          "position": "WR",
+          "team": "PIT",
+          "targets": 6,
+          "targets_per_game": 0.4
+        },
+        {
+          "player": "Blake Whiteheart",
+          "position": "TE",
+          "team": "CLE",
+          "targets": 6,
+          "targets_per_game": 0.4
+        },
+        {
+          "player": "David Martin-Robinson",
+          "position": "TE",
+          "team": "TEN",
+          "targets": 6,
+          "targets_per_game": 0.4
+        },
+        {
+          "player": "Drew Ogletree",
+          "position": "TE",
+          "team": "IND",
+          "targets": 6,
+          "targets_per_game": 0.4
+        },
+        {
+          "player": "Durham Smythe",
+          "position": "TE",
+          "team": "CHI",
+          "targets": 6,
+          "targets_per_game": 0.4
+        },
+        {
+          "player": "Harrison Bryant",
+          "position": "TE",
+          "team": "HOU",
+          "targets": 6,
+          "targets_per_game": 0.5
+        },
+        {
+          "player": "Jaleel McLaughlin",
+          "position": "RB",
+          "team": "DEN",
+          "targets": 6,
+          "targets_per_game": 0.8
+        },
+        {
+          "player": "Jalen Brooks",
+          "position": "WR",
+          "team": "ARI",
+          "targets": 6,
+          "targets_per_game": 1.0
+        },
+        {
+          "player": "Josh Whyle",
+          "position": "TE",
+          "team": "GB",
+          "targets": 6,
+          "targets_per_game": 0.8
+        },
+        {
+          "player": "Zamir White",
+          "position": "RB",
+          "team": "LV",
+          "targets": 6,
+          "targets_per_game": 1.2
+        },
+        {
+          "player": "Brenden Bates",
+          "position": "TE",
+          "team": "CLE",
+          "targets": 5,
+          "targets_per_game": 0.6
+        },
+        {
+          "player": "Devin Duvernay",
+          "position": "WR",
+          "team": "CHI",
+          "targets": 5,
+          "targets_per_game": 0.3
+        },
+        {
+          "player": "Jonathan Mingo",
+          "position": "WR",
+          "team": "DAL",
+          "targets": 5,
+          "targets_per_game": 0.8
+        },
+        {
+          "player": "Josiah Deguara",
+          "position": "TE",
+          "team": "ARI",
+          "targets": 5,
+          "targets_per_game": 0.4
+        },
+        {
+          "player": "Kendre Miller",
+          "position": "RB",
+          "team": "NO",
+          "targets": 5,
+          "targets_per_game": 0.7
+        },
+        {
+          "player": "Malik Davis",
+          "position": "RB",
+          "team": "DAL",
+          "targets": 5,
+          "targets_per_game": 0.5
+        },
+        {
+          "player": "Ross Dwelley",
+          "position": "TE",
+          "team": "DET",
+          "targets": 5,
+          "targets_per_game": 0.5
+        },
+        {
+          "player": "Sal Cannella",
+          "position": "TE",
+          "team": "CLE",
+          "targets": 5,
+          "targets_per_game": 2.5
+        },
+        {
+          "player": "Shane Zylstra",
+          "position": "TE",
+          "team": "DET",
+          "targets": 5,
+          "targets_per_game": 1.0
+        },
+        {
+          "player": "Shedrick Jackson",
+          "position": "WR",
+          "team": "LV",
+          "targets": 5,
+          "targets_per_game": 1.0
+        },
+        {
+          "player": "Tahj Washington",
+          "position": "WR",
+          "team": "MIA",
+          "targets": 5,
+          "targets_per_game": 0.8
+        },
+        {
+          "player": "Tip Reiman",
+          "position": "TE",
+          "team": "ARI",
+          "targets": 5,
+          "targets_per_game": 1.0
+        },
+        {
+          "player": "Trent Sherfield Sr.",
+          "position": "WR",
+          "team": "ARI",
+          "targets": 5,
+          "targets_per_game": 0.4
+        },
+        {
+          "player": "Andre Baccellia",
+          "position": "WR",
+          "team": "ARI",
+          "targets": 4,
+          "targets_per_game": 0.8
+        },
+        {
+          "player": "Britain Covey",
+          "position": "WR",
+          "team": "PHI",
+          "targets": 4,
+          "targets_per_game": 0.7
+        },
+        {
+          "player": "Chris Rodriguez Jr.",
+          "position": "RB",
+          "team": "WAS",
+          "targets": 4,
+          "targets_per_game": 0.3
+        },
+        {
+          "player": "Cody White",
+          "position": "WR",
+          "team": "SEA",
+          "targets": 4,
+          "targets_per_game": 0.4
+        },
+        {
+          "player": "Connor Heyward",
+          "position": "TE",
+          "team": "PIT",
+          "targets": 4,
+          "targets_per_game": 0.3
+        },
+        {
+          "player": "Dylan Laube",
+          "position": "RB",
+          "team": "LV",
+          "targets": 4,
+          "targets_per_game": 0.2
+        },
+        {
+          "player": "Hassan Haskins",
+          "position": "RB",
+          "team": "LAC",
+          "targets": 4,
+          "targets_per_game": 0.3
+        },
+        {
+          "player": "Jaret Patterson",
+          "position": "RB",
+          "team": "LAC",
+          "targets": 4,
+          "targets_per_game": 0.7
+        },
+        {
+          "player": "Jelani Woods",
+          "position": "TE",
+          "team": "NYJ",
+          "targets": 4,
+          "targets_per_game": 0.7
+        },
+        {
+          "player": "Justin Watson",
+          "position": "WR",
+          "team": "HOU",
+          "targets": 4,
+          "targets_per_game": 1.3
+        },
+        {
+          "player": "Keleki Latu",
+          "position": "TE",
+          "team": "BUF",
+          "targets": 4,
+          "targets_per_game": 0.8
+        },
+        {
+          "player": "Khalil Herbert",
+          "position": "RB",
+          "team": "NYJ",
+          "targets": 4,
+          "targets_per_game": 0.8
+        },
+        {
+          "player": "Lucas Krull",
+          "position": "TE",
+          "team": "DEN",
+          "targets": 4,
+          "targets_per_game": 1.0
+        },
+        {
+          "player": "Mason Kinsey",
+          "position": "WR",
+          "team": "TEN",
+          "targets": 4,
+          "targets_per_game": 0.4
+        },
+        {
+          "player": "Michael Bandy",
+          "position": "WR",
+          "team": "DEN",
+          "targets": 4,
+          "targets_per_game": 1.0
+        },
+        {
+          "player": "Payne Durham",
+          "position": "TE",
+          "team": "TB",
+          "targets": 4,
+          "targets_per_game": 0.2
+        },
+        {
+          "player": "Raheim Sanders",
+          "position": "RB",
+          "team": "CLE",
+          "targets": 4,
+          "targets_per_game": 0.8
+        },
+        {
+          "player": "Ronnie Bell",
+          "position": "WR",
+          "team": "NO",
+          "targets": 4,
+          "targets_per_game": 2.0
+        },
+        {
+          "player": "Ryan Miller",
+          "position": "WR",
+          "team": "TB",
+          "targets": 4,
+          "targets_per_game": 0.3
+        },
+        {
+          "player": "Tank Bigsby",
+          "position": "RB",
+          "team": "PHI",
+          "targets": 4,
+          "targets_per_game": 0.3
+        },
+        {
+          "player": "Tom Kennedy",
+          "position": "WR",
+          "team": "DET",
+          "targets": 4,
+          "targets_per_game": 0.7
+        },
+        {
+          "player": "Tucker Fisk",
+          "position": "TE",
+          "team": "LAC",
+          "targets": 4,
+          "targets_per_game": 0.4
+        },
+        {
+          "player": "Ty Chandler",
+          "position": "RB",
+          "team": "MIN",
+          "targets": 4,
+          "targets_per_game": 1.3
+        },
+        {
+          "player": "AJ Dillon",
+          "position": "RB",
+          "team": "PHI",
+          "targets": 3,
+          "targets_per_game": 0.4
+        },
+        {
+          "player": "Alex Bachman",
+          "position": "WR",
+          "team": "LV",
+          "targets": 3,
+          "targets_per_game": 0.2
+        },
+        {
+          "player": "Antonio Gibson",
+          "position": "RB",
+          "team": "NE",
+          "targets": 3,
+          "targets_per_game": 0.6
+        },
+        {
+          "player": "Ben Yurosek",
+          "position": "TE",
+          "team": "MIN",
+          "targets": 3,
+          "targets_per_game": 0.3
+        },
+        {
+          "player": "Braelon Allen",
+          "position": "RB",
+          "team": "NYJ",
+          "targets": 3,
+          "targets_per_game": 0.8
+        },
+        {
+          "player": "Colson Yankoff",
+          "position": "TE",
+          "team": "WAS",
+          "targets": 3,
+          "targets_per_game": 0.2
+        },
+        {
+          "player": "Corey Kiner",
+          "position": "RB",
+          "team": "ARI",
+          "targets": 3,
+          "targets_per_game": 0.8
+        },
+        {
+          "player": "Dareke Young",
+          "position": "WR",
+          "team": "SEA",
+          "targets": 3,
+          "targets_per_game": 0.3
+        },
+        {
+          "player": "Derius Davis",
+          "position": "WR",
+          "team": "LAC",
+          "targets": 3,
+          "targets_per_game": 0.3
+        },
+        {
+          "player": "Deven Thompkins",
+          "position": "WR",
+          "team": "ATL",
+          "targets": 3,
+          "targets_per_game": 0.4
+        },
+        {
+          "player": "Efton Chism III",
+          "position": "WR",
+          "team": "NE",
+          "targets": 3,
+          "targets_per_game": 0.4
+        },
+        {
+          "player": "Jalen Royals",
+          "position": "WR",
+          "team": "KC",
+          "targets": 3,
+          "targets_per_game": 0.4
+        },
+        {
+          "player": "James Mitchell",
+          "position": "TE",
+          "team": "CAR",
+          "targets": 3,
+          "targets_per_game": 0.6
+        },
+        {
+          "player": "Jordan Watkins",
+          "position": "WR",
+          "team": "SF",
+          "targets": 3,
+          "targets_per_game": 0.6
+        },
+        {
+          "player": "Najee Harris",
+          "position": "RB",
+          "team": "LAC",
+          "targets": 3,
+          "targets_per_game": 1.0
+        },
+        {
+          "player": "Samori Toure",
+          "position": "WR",
+          "team": "NO",
+          "targets": 3,
+          "targets_per_game": 3.0
+        },
+        {
+          "player": "Tai Felton",
+          "position": "WR",
+          "team": "MIN",
+          "targets": 3,
+          "targets_per_game": 0.2
+        },
+        {
+          "player": "Trevor Etienne",
+          "position": "RB",
+          "team": "CAR",
+          "targets": 3,
+          "targets_per_game": 0.2
+        },
+        {
+          "player": "Tyler Goodson",
+          "position": "RB",
+          "team": "IND",
+          "targets": 3,
+          "targets_per_game": 0.3
+        },
+        {
+          "player": "Zaire Mitchell-Paden",
+          "position": "TE",
+          "team": "NO",
+          "targets": 3,
+          "targets_per_game": 0.4
+        },
+        {
+          "player": "Anthony Gould",
+          "position": "WR",
+          "team": "IND",
+          "targets": 2,
+          "targets_per_game": 0.2
+        },
+        {
+          "player": "C.J. Ham",
+          "position": "RB",
+          "team": "MIN",
+          "targets": 2,
+          "targets_per_game": 0.2
+        },
+        {
+          "player": "Cam Grandy",
+          "position": "TE",
+          "team": "CIN",
+          "targets": 2,
+          "targets_per_game": 0.4
+        },
+        {
+          "player": "Chris Manhertz",
+          "position": "TE",
+          "team": "NYG",
+          "targets": 2,
+          "targets_per_game": 0.1
+        },
+        {
+          "player": "Clyde Edwards-Helaire",
+          "position": "RB",
+          "team": "KC",
+          "targets": 2,
+          "targets_per_game": 1.0
+        },
+        {
+          "player": "DJ Giddens",
+          "position": "RB",
+          "team": "IND",
+          "targets": 2,
+          "targets_per_game": 0.2
+        },
+        {
+          "player": "Drake Dabney",
+          "position": "TE",
+          "team": "GB",
+          "targets": 2,
+          "targets_per_game": 1.0
+        },
+        {
+          "player": "George Holani",
+          "position": "RB",
+          "team": "SEA",
+          "targets": 2,
+          "targets_per_game": 0.2
+        },
+        {
+          "player": "Jack Westover",
+          "position": "TE",
+          "team": "NE",
+          "targets": 2,
+          "targets_per_game": 0.1
+        },
+        {
+          "player": "Jake Bobo",
+          "position": "WR",
+          "team": "SEA",
+          "targets": 2,
+          "targets_per_game": 0.2
+        },
+        {
+          "player": "Jakobie Keeney-James",
+          "position": "WR",
+          "team": "GB",
+          "targets": 2,
+          "targets_per_game": 2.0
+        },
+        {
+          "player": "Jared Wayne",
+          "position": "WR",
+          "team": "HOU",
+          "targets": 2,
+          "targets_per_game": 2.0
+        },
+        {
+          "player": "Julius Chestnut",
+          "position": "RB",
+          "team": "TEN",
+          "targets": 2,
+          "targets_per_game": 0.1
+        },
+        {
+          "player": "Kaleb Johnson",
+          "position": "RB",
+          "team": "PIT",
+          "targets": 2,
+          "targets_per_game": 0.2
+        },
+        {
+          "player": "Moliki Matavao",
+          "position": "TE",
+          "team": "NO",
+          "targets": 2,
+          "targets_per_game": 0.3
+        },
+        {
+          "player": "Patrick Ricard",
+          "position": "RB",
+          "team": "BAL",
+          "targets": 2,
+          "targets_per_game": 0.2
+        },
+        {
+          "player": "Pharaoh Brown",
+          "position": "TE",
+          "team": "ARI",
+          "targets": 2,
+          "targets_per_game": 0.3
+        },
+        {
+          "player": "Phil Mafah",
+          "position": "RB",
+          "team": "DAL",
+          "targets": 2,
+          "targets_per_game": 2.0
+        },
+        {
+          "player": "Reggie Gilliam",
+          "position": "RB",
+          "team": "BUF",
+          "targets": 2,
+          "targets_per_game": 0.1
+        },
+        {
+          "player": "Tahj Brooks",
+          "position": "RB",
+          "team": "CIN",
+          "targets": 2,
+          "targets_per_game": 0.2
+        },
+        {
+          "player": "Tay Martin",
+          "position": "WR",
+          "team": "WAS",
+          "targets": 2,
+          "targets_per_game": 0.7
+        },
+        {
+          "player": "Xavier Gipson",
+          "position": "WR",
+          "team": "PHI",
+          "targets": 2,
+          "targets_per_game": 0.3
+        },
+        {
+          "player": "Amar Johnson",
+          "position": "RB",
+          "team": "LAC",
+          "targets": 1,
+          "targets_per_game": 1.0
+        },
+        {
+          "player": "Brady Russell",
+          "position": "TE",
+          "team": "SEA",
+          "targets": 1,
+          "targets_per_game": 0.1
+        },
+        {
+          "player": "Brayden Willis",
+          "position": "TE",
+          "team": "SF",
+          "targets": 1,
+          "targets_per_game": 0.2
+        },
+        {
+          "player": "Brittain Brown",
+          "position": "RB",
+          "team": "CHI",
+          "targets": 1,
+          "targets_per_game": 0.5
+        },
+        {
+          "player": "Bryce Oliver",
+          "position": "WR",
+          "team": "TEN",
+          "targets": 1,
+          "targets_per_game": 0.3
+        },
+        {
+          "player": "Cam Akers",
+          "position": "RB",
+          "team": "SEA",
+          "targets": 1,
+          "targets_per_game": 0.3
+        },
+        {
+          "player": "Carter Runyon",
+          "position": "TE",
+          "team": "LV",
+          "targets": 1,
+          "targets_per_game": 0.1
+        },
+        {
+          "player": "Charlie Jones",
+          "position": "WR",
+          "team": "CIN",
+          "targets": 1,
+          "targets_per_game": 0.1
+        },
+        {
+          "player": "Coleman Owen",
+          "position": "WR",
+          "team": "IND",
+          "targets": 1,
+          "targets_per_game": 0.5
+        },
+        {
+          "player": "Dameon Pierce",
+          "position": "RB",
+          "team": "KC",
+          "targets": 1,
+          "targets_per_game": 0.2
+        },
+        {
+          "player": "David Moore",
+          "position": "WR",
+          "team": "CAR",
+          "targets": 1,
+          "targets_per_game": 0.3
+        },
+        {
+          "player": "DeeJay Dallas",
+          "position": "RB",
+          "team": "JAC",
+          "targets": 1,
+          "targets_per_game": 0.2
+        },
+        {
+          "player": "Devin Culp",
+          "position": "TE",
+          "team": "TB",
+          "targets": 1,
+          "targets_per_game": 0.1
+        },
+        {
+          "player": "Elijah Mitchell",
+          "position": "RB",
+          "team": "KC",
+          "targets": 1,
+          "targets_per_game": 1.0
+        },
+        {
+          "player": "Evan Hull",
+          "position": "RB",
+          "team": "NO",
+          "targets": 1,
+          "targets_per_game": 0.2
+        },
+        {
+          "player": "Giovanni Ricci",
+          "position": "TE",
+          "team": "DET",
+          "targets": 1,
+          "targets_per_game": 0.3
+        },
+        {
+          "player": "Jared Wiley",
+          "position": "TE",
+          "team": "KC",
+          "targets": 1,
+          "targets_per_game": 0.3
+        },
+        {
+          "player": "Jason Brownlee",
+          "position": "WR",
+          "team": "KC",
+          "targets": 1,
+          "targets_per_game": 0.2
+        },
+        {
+          "player": "Jaydon Blue",
+          "position": "RB",
+          "team": "DAL",
+          "targets": 1,
+          "targets_per_game": 0.2
+        },
+        {
+          "player": "Ke'Shawn Williams",
+          "position": "WR",
+          "team": "CIN",
+          "targets": 1,
+          "targets_per_game": 0.1
+        },
+        {
+          "player": "Kene Nwangwu",
+          "position": "RB",
+          "team": "NYJ",
+          "targets": 1,
+          "targets_per_game": 0.1
+        },
+        {
+          "player": "Malik Turner",
+          "position": "WR",
+          "team": "SF",
+          "targets": 1,
+          "targets_per_game": 0.3
+        },
+        {
+          "player": "Mecole Hardman Jr.",
+          "position": "WR",
+          "team": "BUF",
+          "targets": 1,
+          "targets_per_game": 0.5
+        },
+        {
+          "player": "Nick Kallerup",
+          "position": "TE",
+          "team": "SEA",
+          "targets": 1,
+          "targets_per_game": 0.1
+        },
+        {
+          "player": "Nikko Remigio",
+          "position": "WR",
+          "team": "KC",
+          "targets": 1,
+          "targets_per_game": 0.1
+        },
+        {
+          "player": "Quentin Skinner",
+          "position": "WR",
+          "team": "NYJ",
+          "targets": 1,
+          "targets_per_game": 1.0
+        },
+        {
+          "player": "Robert Tonyan",
+          "position": "TE",
+          "team": "KC",
+          "targets": 1,
+          "targets_per_game": 0.1
+        },
+        {
+          "player": "Steven Sims Jr.",
+          "position": "WR",
+          "team": "ARI",
+          "targets": 1,
+          "targets_per_game": 0.3
+        },
+        {
+          "player": "Terrell Jennings",
+          "position": "RB",
+          "team": "NE",
+          "targets": 1,
+          "targets_per_game": 0.2
+        },
+        {
+          "player": "Tim Jones",
+          "position": "WR",
+          "team": "JAC",
+          "targets": 1,
+          "targets_per_game": 0.3
+        },
+        {
+          "player": "Will Mallory",
+          "position": "TE",
+          "team": "IND",
+          "targets": 1,
+          "targets_per_game": 0.5
+        },
+        {
+          "player": "Alexander Mattison",
+          "position": "RB",
+          "team": "MIA",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Avery Williams",
+          "position": "RB",
+          "team": "NYJ",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Brandon Smith",
+          "position": "WR",
+          "team": "NYJ",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "British Brooks",
+          "position": "RB",
+          "team": "HOU",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Bryson Green",
+          "position": "WR",
+          "team": "ARI",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "CJ Dippre",
+          "position": "TE",
+          "team": "NE",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Cade McDonald",
+          "position": "WR",
+          "team": "CLE",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Cameron Latu",
+          "position": "TE",
+          "team": "PHI",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Chandler Brayboy",
+          "position": "WR",
+          "team": "JAC",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Chase Edmonds",
+          "position": "RB",
+          "team": "WAS",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Chris Blair",
+          "position": "WR",
+          "team": "ATL",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Chris Collier",
+          "position": "RB",
+          "team": "LV",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Craig Reynolds",
+          "position": "RB",
+          "team": "DET",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "D'Ernest Johnson",
+          "position": "RB",
+          "team": "NE",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "DJ Turner",
+          "position": "WR",
+          "team": "LV",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Dalen Cambre",
+          "position": "WR",
+          "team": "NYG",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Dalevon Campbell",
+          "position": "WR",
+          "team": "CAR",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Dan Chisena",
+          "position": "WR",
+          "team": "CAR",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "DeAndre Carter",
+          "position": "WR",
+          "team": "CLE",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Deion Hankins",
+          "position": "RB",
+          "team": "CHI",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Dominic Lovett",
+          "position": "WR",
+          "team": "DET",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "E.J. Jenkins",
+          "position": "TE",
+          "team": "PHI",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Eric Gray",
+          "position": "RB",
+          "team": "NYG",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Gary Brightwell",
+          "position": "RB",
+          "team": "CIN",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Hayden Rucci",
+          "position": "TE",
+          "team": "MIA",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Isaac Guerendo",
+          "position": "RB",
+          "team": "SF",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Ja'Corey Brooks",
+          "position": "WR",
+          "team": "WAS",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Jacardia Wright",
+          "position": "RB",
+          "team": "SEA",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Jackson Meeks",
+          "position": "WR",
+          "team": "DET",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Jacob Cowing",
+          "position": "WR",
+          "team": "SF",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Jacob Saylors",
+          "position": "RB",
+          "team": "DET",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Jakob Johnson",
+          "position": "RB",
+          "team": "HOU",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Jalen Moreno-Cropper",
+          "position": "WR",
+          "team": "DAL",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Jamal Agnew",
+          "position": "WR",
+          "team": "ATL",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "James Winchester",
+          "position": "TE",
+          "team": "KC",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Jashaun Corbin",
+          "position": "RB",
+          "team": "NE",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Jeff Wilson Jr.",
+          "position": "RB",
+          "team": "MIA",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Jeremiah Webb",
+          "position": "WR",
+          "team": "NE",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Jeshaun Jones",
+          "position": "WR",
+          "team": "MIN",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Jimmy Holiday",
+          "position": "WR",
+          "team": "KC",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Jordan James",
+          "position": "RB",
+          "team": "SF",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Jordan Mims",
+          "position": "RB",
+          "team": "TEN",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Jordan Moore",
+          "position": "WR",
+          "team": "CIN",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Josh Williams",
+          "position": "RB",
+          "team": "TB",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Justin Shorter",
+          "position": "WR",
+          "team": "LV",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Kaden Davis",
+          "position": "WR",
+          "team": "CLE",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Kalel Mullings",
+          "position": "RB",
+          "team": "TEN",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Keaontay Ingram",
+          "position": "RB",
+          "team": "KC",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Keilan Robinson",
+          "position": "RB",
+          "team": "NYJ",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Kendall Milton",
+          "position": "RB",
+          "team": "CIN",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Kenny Yeboah",
+          "position": "TE",
+          "team": "DET",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Ko Kieft",
+          "position": "TE",
+          "team": "TB",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Kristian Wilkerson",
+          "position": "WR",
+          "team": "TEN",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Kye Robichaux",
+          "position": "RB",
+          "team": "DET",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "LaJohntay Wester",
+          "position": "WR",
+          "team": "BAL",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Laquon Treadwell",
+          "position": "WR",
+          "team": "IND",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Lawrence Cager",
+          "position": "WR",
+          "team": "WAS",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Lew Nichols III",
+          "position": "RB",
+          "team": "PIT",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Marcedes Lewis",
+          "position": "TE",
+          "team": "DEN",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Maurice Alexander",
+          "position": "WR",
+          "team": "CHI",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Michael Burton",
+          "position": "RB",
+          "team": "DEN",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Myles Gaskin",
+          "position": "RB",
+          "team": "SEA",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Myles Price",
+          "position": "WR",
+          "team": "MIN",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Nathan Carter",
+          "position": "RB",
+          "team": "ATL",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Nick Vannett",
+          "position": "TE",
+          "team": "LAR",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Nikola Kalinic",
+          "position": "TE",
+          "team": "CHI",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Nyheim Miller-Hines",
+          "position": "RB",
+          "team": "NO",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Owen Wright",
+          "position": "RB",
+          "team": "TB",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Parris Campbell",
+          "position": "WR",
+          "team": "DAL",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Patrick Murtagh",
+          "position": "TE",
+          "team": "DEN",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Princeton Fant",
+          "position": "TE",
+          "team": "DAL",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Quinton Bell",
+          "position": "WR",
+          "team": "MIA",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Raheem Blackshear",
+          "position": "RB",
+          "team": "PIT",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Ricky White III",
+          "position": "WR",
+          "team": "SEA",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "River Cracraft",
+          "position": "WR",
+          "team": "WAS",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Robbie Ouzts",
+          "position": "TE",
+          "team": "SEA",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Ronnie Rivers",
+          "position": "RB",
+          "team": "LAR",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Roschon Johnson",
+          "position": "RB",
+          "team": "CHI",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Russell Gage Jr.",
+          "position": "WR",
+          "team": "SF",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Sean McKeon",
+          "position": "TE",
+          "team": "IND",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Simi Fehoko",
+          "position": "WR",
+          "team": "ARI",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Sincere McCormick",
+          "position": "RB",
+          "team": "SF",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Sione Vaki",
+          "position": "RB",
+          "team": "DET",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Stephen Carlson",
+          "position": "TE",
+          "team": "CHI",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Teagan Quitoriano",
+          "position": "TE",
+          "team": "ATL",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Tejhaun Palmer",
+          "position": "WR",
+          "team": "ARI",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Thomas Fidone II",
+          "position": "TE",
+          "team": "NYG",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Travis Homer",
+          "position": "RB",
+          "team": "CHI",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Travis Vokolek",
+          "position": "TE",
+          "team": "ARI",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Trey Sermon",
+          "position": "RB",
+          "team": "PIT",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Treyton Welch",
+          "position": "TE",
+          "team": "NO",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Ulysses Bentley IV",
+          "position": "RB",
+          "team": "IND",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Velus Jones Jr.",
+          "position": "WR",
+          "team": "SEA",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Xazavian Valladay",
+          "position": "RB",
+          "team": "MIN",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Zach Davidson",
+          "position": "TE",
+          "team": "NYG",
+          "targets": 0,
+          "targets_per_game": 0.0
+        },
+        {
+          "player": "Zach Horton",
+          "position": "TE",
+          "team": "DET",
+          "targets": 0,
+          "targets_per_game": 0.0
+        }
+      ]
+    },
+    "team_targets_2025": {
+      "source_id": "fantasypros:pdf:team_targets:2026-08-26",
+      "rows": [
+        {
+          "team": "Arizona Cardinals",
+          "wr_targets": 275,
+          "wr_share": "44.6%",
+          "rb_targets": 124,
+          "rb_share": "20.1%",
+          "te_targets": 218,
+          "te_share": "35.3%",
+          "total_targets": 617
+        },
+        {
+          "team": "Cincinnati Bengals",
+          "wr_targets": 367,
+          "wr_share": "60.5%",
+          "rb_targets": 111,
+          "rb_share": "18.3%",
+          "te_targets": 129,
+          "te_share": "21.3%",
+          "total_targets": 607
+        },
+        {
+          "team": "Dallas Cowboys",
+          "wr_targets": 387,
+          "wr_share": "63.8%",
+          "rb_targets": 82,
+          "rb_share": "13.5%",
+          "te_targets": 138,
+          "te_share": "22.7%",
+          "total_targets": 607
+        },
+        {
+          "team": "Denver Broncos",
+          "wr_targets": 351,
+          "wr_share": "60.3%",
+          "rb_targets": 117,
+          "rb_share": "20.1%",
+          "te_targets": 114,
+          "te_share": "19.6%",
+          "total_targets": 582
+        },
+        {
+          "team": "Los Angeles Rams",
+          "wr_targets": 367,
+          "wr_share": "63.2%",
+          "rb_targets": 64,
+          "rb_share": "11.0%",
+          "te_targets": 150,
+          "te_share": "25.8%",
+          "total_targets": 581
+        },
+        {
+          "team": "New Orleans Saints",
+          "wr_targets": 344,
+          "wr_share": "61.1%",
+          "rb_targets": 77,
+          "rb_share": "13.7%",
+          "te_targets": 142,
+          "te_share": "25.2%",
+          "total_targets": 563
+        },
+        {
+          "team": "Houston Texans",
+          "wr_targets": 346,
+          "wr_share": "62.6%",
+          "rb_targets": 77,
+          "rb_share": "13.9%",
+          "te_targets": 130,
+          "te_share": "23.5%",
+          "total_targets": 553
+        },
+        {
+          "team": "Detroit Lions",
+          "wr_targets": 335,
+          "wr_share": "60.9%",
+          "rb_targets": 123,
+          "rb_share": "22.4%",
+          "te_targets": 92,
+          "te_share": "16.7%",
+          "total_targets": 550
+        },
+        {
+          "team": "San Francisco 49ers",
+          "wr_targets": 250,
+          "wr_share": "45.5%",
+          "rb_targets": 169,
+          "rb_share": "30.8%",
+          "te_targets": 130,
+          "te_share": "23.7%",
+          "total_targets": 549
+        },
+        {
+          "team": "Kansas City Chiefs",
+          "wr_targets": 312,
+          "wr_share": "56.9%",
+          "rb_targets": 89,
+          "rb_share": "16.2%",
+          "te_targets": 147,
+          "te_share": "26.8%",
+          "total_targets": 548
+        },
+        {
+          "team": "Jacksonville Jaguars",
+          "wr_targets": 364,
+          "wr_share": "66.5%",
+          "rb_targets": 78,
+          "rb_share": "14.3%",
+          "te_targets": 105,
+          "te_share": "19.2%",
+          "total_targets": 547
+        },
+        {
+          "team": "Los Angeles Chargers",
+          "wr_targets": 371,
+          "wr_share": "68.7%",
+          "rb_targets": 70,
+          "rb_share": "13.0%",
+          "te_targets": 99,
+          "te_share": "18.3%",
+          "total_targets": 540
+        },
+        {
+          "team": "Tampa Bay Buccaneers",
+          "wr_targets": 362,
+          "wr_share": "67.2%",
+          "rb_targets": 91,
+          "rb_share": "16.9%",
+          "te_targets": 86,
+          "te_share": "16.0%",
+          "total_targets": 539
+        },
+        {
+          "team": "Chicago Bears",
+          "wr_targets": 315,
+          "wr_share": "59.4%",
+          "rb_targets": 79,
+          "rb_share": "14.9%",
+          "te_targets": 136,
+          "te_share": "25.7%",
+          "total_targets": 530
+        },
+        {
+          "team": "Tennessee Titans",
+          "wr_targets": 296,
+          "wr_share": "56.0%",
+          "rb_targets": 93,
+          "rb_share": "17.6%",
+          "te_targets": 140,
+          "te_share": "26.5%",
+          "total_targets": 529
+        },
+        {
+          "team": "Indianapolis Colts",
+          "wr_targets": 312,
+          "wr_share": "59.1%",
+          "rb_targets": 77,
+          "rb_share": "14.6%",
+          "te_targets": 139,
+          "te_share": "26.3%",
+          "total_targets": 528
+        },
+        {
+          "team": "Cleveland Browns",
+          "wr_targets": 232,
+          "wr_share": "44.5%",
+          "rb_targets": 120,
+          "rb_share": "23.0%",
+          "te_targets": 169,
+          "te_share": "32.4%",
+          "total_targets": 521
+        },
+        {
+          "team": "Pittsburgh Steelers",
+          "wr_targets": 233,
+          "wr_share": "44.8%",
+          "rb_targets": 132,
+          "rb_share": "25.4%",
+          "te_targets": 155,
+          "te_share": "29.8%",
+          "total_targets": 520
+        },
+        {
+          "team": "Atlanta Falcons",
+          "wr_targets": 272,
+          "wr_share": "52.5%",
+          "rb_targets": 119,
+          "rb_share": "23.0%",
+          "te_targets": 127,
+          "te_share": "24.5%",
+          "total_targets": 518
+        },
+        {
+          "team": "New York Giants",
+          "wr_targets": 301,
+          "wr_share": "60.0%",
+          "rb_targets": 99,
+          "rb_share": "19.7%",
+          "te_targets": 102,
+          "te_share": "20.3%",
+          "total_targets": 502
+        },
+        {
+          "team": "Las Vegas Raiders",
+          "wr_targets": 242,
+          "wr_share": "49.1%",
+          "rb_targets": 95,
+          "rb_share": "19.3%",
+          "te_targets": 156,
+          "te_share": "31.6%",
+          "total_targets": 493
+        },
+        {
+          "team": "New England Patriots",
+          "wr_targets": 283,
+          "wr_share": "58.8%",
+          "rb_targets": 83,
+          "rb_share": "17.3%",
+          "te_targets": 115,
+          "te_share": "23.9%",
+          "total_targets": 481
+        },
+        {
+          "team": "Carolina Panthers",
+          "wr_targets": 289,
+          "wr_share": "60.2%",
+          "rb_targets": 92,
+          "rb_share": "19.2%",
+          "te_targets": 99,
+          "te_share": "20.6%",
+          "total_targets": 480
+        },
+        {
+          "team": "Buffalo Bills",
+          "wr_targets": 270,
+          "wr_share": "56.4%",
+          "rb_targets": 88,
+          "rb_share": "18.4%",
+          "te_targets": 121,
+          "te_share": "25.3%",
+          "total_targets": 479
+        },
+        {
+          "team": "New York Jets",
+          "wr_targets": 271,
+          "wr_share": "57.5%",
+          "rb_targets": 84,
+          "rb_share": "17.8%",
+          "te_targets": 116,
+          "te_share": "24.6%",
+          "total_targets": 471
+        },
+        {
+          "team": "Minnesota Vikings",
+          "wr_targets": 294,
+          "wr_share": "62.8%",
+          "rb_targets": 80,
+          "rb_share": "17.1%",
+          "te_targets": 94,
+          "te_share": "20.1%",
+          "total_targets": 468
+        },
+        {
+          "team": "Philadelphia Eagles",
+          "wr_targets": 291,
+          "wr_share": "62.7%",
+          "rb_targets": 69,
+          "rb_share": "14.9%",
+          "te_targets": 104,
+          "te_share": "22.4%",
+          "total_targets": 464
+        },
+        {
+          "team": "Miami Dolphins",
+          "wr_targets": 245,
+          "wr_share": "53.1%",
+          "rb_targets": 114,
+          "rb_share": "24.7%",
+          "te_targets": 102,
+          "te_share": "22.1%",
+          "total_targets": 461
+        },
+        {
+          "team": "Green Bay Packers",
+          "wr_targets": 284,
+          "wr_share": "61.7%",
+          "rb_targets": 78,
+          "rb_share": "17.0%",
+          "te_targets": 98,
+          "te_share": "21.3%",
+          "total_targets": 460
+        },
+        {
+          "team": "Seattle Seahawks",
+          "wr_targets": 290,
+          "wr_share": "63.7%",
+          "rb_targets": 62,
+          "rb_share": "13.6%",
+          "te_targets": 103,
+          "te_share": "22.6%",
+          "total_targets": 455
+        },
+        {
+          "team": "Washington Commanders",
+          "wr_targets": 272,
+          "wr_share": "63.1%",
+          "rb_targets": 55,
+          "rb_share": "12.8%",
+          "te_targets": 104,
+          "te_share": "24.1%",
+          "total_targets": 431
+        },
+        {
+          "team": "Baltimore Ravens",
+          "wr_targets": 211,
+          "wr_share": "51.8%",
+          "rb_targets": 73,
+          "rb_share": "17.9%",
+          "te_targets": 123,
+          "te_share": "30.2%",
+          "total_targets": 407
+        }
+      ]
+    },
+    "expert_accuracy_2025": {
+      "source_id": "fantasypros:pdf:expert_accuracy:2026-08-26",
+      "rows": [
+        {
+          "overall_rank": 1,
+          "expert": "Justin Boone - Yahoo",
+          "qb_rank": 6,
+          "rb_rank": 5,
+          "wr_rank": 1,
+          "te_rank": 18,
+          "k_rank": 11,
+          "dst_rank": 28,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 2,
+          "expert": "Patrick Thorman - Establish the Run",
+          "qb_rank": 8,
+          "rb_rank": 2,
+          "wr_rank": 2,
+          "te_rank": 30,
+          "k_rank": 7,
+          "dst_rank": 53,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 3,
+          "expert": "Jamie Calandro - RotoBaller",
+          "qb_rank": 1,
+          "rb_rank": 25,
+          "wr_rank": 7,
+          "te_rank": 19,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 4,
+          "expert": "Christopher Gimino - RotoGrinders",
+          "qb_rank": 23,
+          "rb_rank": 18,
+          "wr_rank": 8,
+          "te_rank": 1,
+          "k_rank": 32,
+          "dst_rank": 20,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 5,
+          "expert": "Jeff Ratcliffe - FTN",
+          "qb_rank": 3,
+          "rb_rank": 16,
+          "wr_rank": 12,
+          "te_rank": 23,
+          "k_rank": 29,
+          "dst_rank": 32,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 6,
+          "expert": "Dalton Del Don - The Deep Shot",
+          "qb_rank": 9,
+          "rb_rank": 12,
+          "wr_rank": 13,
+          "te_rank": 10,
+          "k_rank": 31,
+          "dst_rank": 30,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 7,
+          "expert": "Kevin Hanson - EDSFootball",
+          "qb_rank": 13,
+          "rb_rank": 13,
+          "wr_rank": 4,
+          "te_rank": 31,
+          "k_rank": 25,
+          "dst_rank": 19,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 8,
+          "expert": "Rob Waziak - Fantasy Life",
+          "qb_rank": 19,
+          "rb_rank": 6,
+          "wr_rank": 17,
+          "te_rank": 24,
+          "k_rank": 28,
+          "dst_rank": 22,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 9,
+          "expert": "Tyler Orginski - FTN",
+          "qb_rank": 15,
+          "rb_rank": 27,
+          "wr_rank": 9,
+          "te_rank": 9,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 10,
+          "expert": "Nick Zylak - Fantasy Football Advice",
+          "qb_rank": 22,
+          "rb_rank": 11,
+          "wr_rank": 22,
+          "te_rank": 15,
+          "k_rank": 70,
+          "dst_rank": 15,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 11,
+          "expert": "Joe Bond - Fantasy Six Pack",
+          "qb_rank": 4,
+          "rb_rank": 23,
+          "wr_rank": 21,
+          "te_rank": 20,
+          "k_rank": 21,
+          "dst_rank": 8,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 12,
+          "expert": "Nick Spencer - Fantasy Six Pack",
+          "qb_rank": 11,
+          "rb_rank": 32,
+          "wr_rank": 5,
+          "te_rank": 36,
+          "k_rank": 14,
+          "dst_rank": 12,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 13,
+          "expert": "Mike Maher - BettingPros",
+          "qb_rank": 29,
+          "rb_rank": 4,
+          "wr_rank": 29,
+          "te_rank": 14,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 14,
+          "expert": "Sean Koerner - The Action Network",
+          "qb_rank": 7,
+          "rb_rank": 7,
+          "wr_rank": 27,
+          "te_rank": 44,
+          "k_rank": 20,
+          "dst_rank": 23,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 15,
+          "expert": "Jared Smola - Draft Sharks",
+          "qb_rank": 24,
+          "rb_rank": 10,
+          "wr_rank": 24,
+          "te_rank": 16,
+          "k_rank": 1,
+          "dst_rank": 27,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 16,
+          "expert": "Nathan Jahnke - Pro Football Focus",
+          "qb_rank": 18,
+          "rb_rank": 17,
+          "wr_rank": 19,
+          "te_rank": 43,
+          "k_rank": 24,
+          "dst_rank": 35,
+          "idp_rank": 7
+        },
+        {
+          "overall_rank": 17,
+          "expert": "Chris Kennedy - Dr. Roto",
+          "qb_rank": 28,
+          "rb_rank": 35,
+          "wr_rank": 14,
+          "te_rank": 13,
+          "k_rank": 41,
+          "dst_rank": 10,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 18,
+          "expert": "Matthew Freedman - Fantasy Life",
+          "qb_rank": 16,
+          "rb_rank": 33,
+          "wr_rank": 18,
+          "te_rank": 25,
+          "k_rank": 22,
+          "dst_rank": 26,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 19,
+          "expert": "Jody Smith - Draft Sharks",
+          "qb_rank": 39,
+          "rb_rank": 15,
+          "wr_rank": 15,
+          "te_rank": 22,
+          "k_rank": 15,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 20,
+          "expert": "Kev Wheeler - Wheel Route FF",
+          "qb_rank": 14,
+          "rb_rank": 24,
+          "wr_rank": 34,
+          "te_rank": 21,
+          "k_rank": 57,
+          "dst_rank": 42,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 21,
+          "expert": "Ben Wasley - Hashtag Football",
+          "qb_rank": 21,
+          "rb_rank": 28,
+          "wr_rank": 23,
+          "te_rank": 45,
+          "k_rank": 27,
+          "dst_rank": 21,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 22,
+          "expert": "Chet Gresham - SB Nation",
+          "qb_rank": 27,
+          "rb_rank": 62,
+          "wr_rank": 10,
+          "te_rank": 8,
+          "k_rank": 46,
+          "dst_rank": 66,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 23,
+          "expert": "Tim Jablonski - The Hateful 8",
+          "qb_rank": 32,
+          "rb_rank": 37,
+          "wr_rank": 26,
+          "te_rank": 11,
+          "k_rank": 53,
+          "dst_rank": 24,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 24,
+          "expert": "James Emrick-Wilson - Armchair Scouting",
+          "qb_rank": 12,
+          "rb_rank": 39,
+          "wr_rank": 48,
+          "te_rank": 5,
+          "k_rank": 34,
+          "dst_rank": 18,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 25,
+          "expert": "Dennis Sosic - Fantasy Six Pack",
+          "qb_rank": 49,
+          "rb_rank": 19,
+          "wr_rank": 30,
+          "te_rank": 4,
+          "k_rank": 30,
+          "dst_rank": 58,
+          "idp_rank": 9
+        },
+        {
+          "overall_rank": 26,
+          "expert": "Ted Chmyz - Fantasy Football Blueprint",
+          "qb_rank": 63,
+          "rb_rank": 64,
+          "wr_rank": 3,
+          "te_rank": 2,
+          "k_rank": 2,
+          "dst_rank": 1,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 27,
+          "expert": "Nick Mariano - RotoBaller",
+          "qb_rank": 2,
+          "rb_rank": 20,
+          "wr_rank": 60,
+          "te_rank": 58,
+          "k_rank": 38,
+          "dst_rank": 9,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 28,
+          "expert": "Joe Pepe - Beyond the Gridiron",
+          "qb_rank": 10,
+          "rb_rank": 94,
+          "wr_rank": 11,
+          "te_rank": 6,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 29,
+          "expert": "Chris Raybon - The Action Network",
+          "qb_rank": 25,
+          "rb_rank": 3,
+          "wr_rank": 64,
+          "te_rank": 57,
+          "k_rank": null,
+          "dst_rank": 11,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 30,
+          "expert": "Elisha Twerski - USA Today",
+          "qb_rank": 52,
+          "rb_rank": 40,
+          "wr_rank": 16,
+          "te_rank": 29,
+          "k_rank": 42,
+          "dst_rank": 57,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 31,
+          "expert": "Pat Fitzmaurice - FantasyPros",
+          "qb_rank": 42,
+          "rb_rank": 45,
+          "wr_rank": 20,
+          "te_rank": 47,
+          "k_rank": 35,
+          "dst_rank": 37,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 32,
+          "expert": "Justin Jaksa - ProFootballIntel",
+          "qb_rank": 20,
+          "rb_rank": 41,
+          "wr_rank": 52,
+          "te_rank": 34,
+          "k_rank": 5,
+          "dst_rank": 17,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 33,
+          "expert": "Kyle Krajewski - First Seed Sports",
+          "qb_rank": 5,
+          "rb_rank": 21,
+          "wr_rank": 72,
+          "te_rank": 50,
+          "k_rank": 79,
+          "dst_rank": 3,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 34,
+          "expert": "Mick Ciallela - Fantrax",
+          "qb_rank": 75,
+          "rb_rank": 14,
+          "wr_rank": 41,
+          "te_rank": 12,
+          "k_rank": 3,
+          "dst_rank": 2,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 35,
+          "expert": "Frank Ammirante - OTC Fantasy",
+          "qb_rank": 88,
+          "rb_rank": 9,
+          "wr_rank": 47,
+          "te_rank": 3,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 36,
+          "expert": "Tommy Garrett - SharpLinkHQ",
+          "qb_rank": 56,
+          "rb_rank": 66,
+          "wr_rank": 6,
+          "te_rank": 35,
+          "k_rank": 33,
+          "dst_rank": 25,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 37,
+          "expert": "Zach Brunner - FlurrySports",
+          "qb_rank": 53,
+          "rb_rank": 43,
+          "wr_rank": 36,
+          "te_rank": 38,
+          "k_rank": 12,
+          "dst_rank": 4,
+          "idp_rank": 4
+        },
+        {
+          "overall_rank": 38,
+          "expert": "Scott Smith - RotoViz",
+          "qb_rank": 33,
+          "rb_rank": 59,
+          "wr_rank": 54,
+          "te_rank": 32,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 39,
+          "expert": "Marc Shannep - Fantasy Knockout",
+          "qb_rank": 35,
+          "rb_rank": 48,
+          "wr_rank": 61,
+          "te_rank": 33,
+          "k_rank": null,
+          "dst_rank": 7,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 40,
+          "expert": "Bill Enright - Sports Illustrated",
+          "qb_rank": 69,
+          "rb_rank": 26,
+          "wr_rank": 46,
+          "te_rank": 49,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 41,
+          "expert": "Lee Wehry - FantasyPros",
+          "qb_rank": 71,
+          "rb_rank": 38,
+          "wr_rank": 49,
+          "te_rank": 28,
+          "k_rank": 77,
+          "dst_rank": 31,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 42,
+          "expert": "Justin Sablich - 5th Down Fantasy",
+          "qb_rank": 48,
+          "rb_rank": 55,
+          "wr_rank": 39,
+          "te_rank": 55,
+          "k_rank": 37,
+          "dst_rank": 16,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 43,
+          "expert": "Andrew Erickson - FantasyPros",
+          "qb_rank": 66,
+          "rb_rank": 50,
+          "wr_rank": 53,
+          "te_rank": 17,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 44,
+          "expert": "David Biggs - Drink Five",
+          "qb_rank": 30,
+          "rb_rank": 89,
+          "wr_rank": 38,
+          "te_rank": 27,
+          "k_rank": 23,
+          "dst_rank": 44,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 45,
+          "expert": "Derek Brown - FantasyPros",
+          "qb_rank": 43,
+          "rb_rank": 31,
+          "wr_rank": 71,
+          "te_rank": 41,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 46,
+          "expert": "Andrew Scott - Fantasy In Frames",
+          "qb_rank": 38,
+          "rb_rank": 80,
+          "wr_rank": 28,
+          "te_rank": 65,
+          "k_rank": 16,
+          "dst_rank": 36,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 47,
+          "expert": "Alex Korff - Draft Sharks",
+          "qb_rank": 51,
+          "rb_rank": 30,
+          "wr_rank": 70,
+          "te_rank": 46,
+          "k_rank": 13,
+          "dst_rank": 39,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 48,
+          "expert": "Fantasy BR - Staff Rankings",
+          "qb_rank": 31,
+          "rb_rank": 29,
+          "wr_rank": 84,
+          "te_rank": 63,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": 13
+        },
+        {
+          "overall_rank": 49,
+          "expert": "Clayton Cadieux - Fantasy Football From Up North",
+          "qb_rank": 26,
+          "rb_rank": 34,
+          "wr_rank": 81,
+          "te_rank": 78,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 50,
+          "expert": "Richard Savill - Fantasy Six Pack",
+          "qb_rank": 17,
+          "rb_rank": 84,
+          "wr_rank": 43,
+          "te_rank": 88,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 51,
+          "expert": "Derek Dennington - The Good Old Boys",
+          "qb_rank": 74,
+          "rb_rank": 49,
+          "wr_rank": 37,
+          "te_rank": 53,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 52,
+          "expert": "Bart Wheeler - Hail to Fantasy Football",
+          "qb_rank": 118,
+          "rb_rank": 1,
+          "wr_rank": 50,
+          "te_rank": 76,
+          "k_rank": 4,
+          "dst_rank": 48,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 53,
+          "expert": "Bradley Stalder - Player Profiler",
+          "qb_rank": 107,
+          "rb_rank": 8,
+          "wr_rank": 56,
+          "te_rank": 81,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 54,
+          "expert": "Dakota Legg - BetLegg",
+          "qb_rank": 46,
+          "rb_rank": 54,
+          "wr_rank": 63,
+          "te_rank": 62,
+          "k_rank": 19,
+          "dst_rank": 38,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 55,
+          "expert": "Jeremy Popielarz - FTN",
+          "qb_rank": 50,
+          "rb_rank": 75,
+          "wr_rank": 66,
+          "te_rank": 26,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 56,
+          "expert": "Jacob Gibbs - SportsLine",
+          "qb_rank": 78,
+          "rb_rank": 68,
+          "wr_rank": 69,
+          "te_rank": 7,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 57,
+          "expert": "Ryan Noonan - 4for4",
+          "qb_rank": 83,
+          "rb_rank": 47,
+          "wr_rank": 32,
+          "te_rank": 109,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": 8
+        },
+        {
+          "overall_rank": 58,
+          "expert": "David Heilman - Dynasty Trade Calculator",
+          "qb_rank": 89,
+          "rb_rank": 53,
+          "wr_rank": 31,
+          "te_rank": 92,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 59,
+          "expert": "Matthew Hill - DataForce Fantasy Football",
+          "qb_rank": 94,
+          "rb_rank": 42,
+          "wr_rank": 45,
+          "te_rank": 89,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 60,
+          "expert": "Francisco (Chato) Romero - Estadio Fantasy",
+          "qb_rank": 65,
+          "rb_rank": 93,
+          "wr_rank": 42,
+          "te_rank": 37,
+          "k_rank": 71,
+          "dst_rank": 41,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 61,
+          "expert": "Justin Lampkin - Clock Management FF",
+          "qb_rank": 59,
+          "rb_rank": 61,
+          "wr_rank": 40,
+          "te_rank": 110,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 62,
+          "expert": "Jacob Piccolo - TrueRGM",
+          "qb_rank": 40,
+          "rb_rank": 73,
+          "wr_rank": 73,
+          "te_rank": 56,
+          "k_rank": 74,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 63,
+          "expert": "Kevin English - Draft Sharks",
+          "qb_rank": 62,
+          "rb_rank": 67,
+          "wr_rank": 51,
+          "te_rank": 83,
+          "k_rank": 85,
+          "dst_rank": 68,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 64,
+          "expert": "Wyatt Bertolone - Player Profiler",
+          "qb_rank": 70,
+          "rb_rank": 70,
+          "wr_rank": 62,
+          "te_rank": 52,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 65,
+          "expert": "Matt De Lima - Dr. Roto",
+          "qb_rank": 47,
+          "rb_rank": 46,
+          "wr_rank": 96,
+          "te_rank": 69,
+          "k_rank": 17,
+          "dst_rank": null,
+          "idp_rank": 5
+        },
+        {
+          "overall_rank": 66,
+          "expert": "Wolf of Roto Street - Roto Street Journal",
+          "qb_rank": 37,
+          "rb_rank": 114,
+          "wr_rank": 35,
+          "te_rank": 91,
+          "k_rank": 49,
+          "dst_rank": 63,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 67,
+          "expert": "Chris Dell - The Fantasy Edge",
+          "qb_rank": 57,
+          "rb_rank": 76,
+          "wr_rank": 82,
+          "te_rank": 40,
+          "k_rank": 78,
+          "dst_rank": 82,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 68,
+          "expert": "Joey Wright - Footballguys",
+          "qb_rank": 114,
+          "rb_rank": 86,
+          "wr_rank": 25,
+          "te_rank": 59,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 69,
+          "expert": "Aaron St Denis - Fantasy Sports Advice Network",
+          "qb_rank": 36,
+          "rb_rank": 87,
+          "wr_rank": 91,
+          "te_rank": 75,
+          "k_rank": 9,
+          "dst_rank": 6,
+          "idp_rank": 6
+        },
+        {
+          "overall_rank": 70,
+          "expert": "Dan Larocca - Rotoballer",
+          "qb_rank": 87,
+          "rb_rank": 72,
+          "wr_rank": 85,
+          "te_rank": 39,
+          "k_rank": 43,
+          "dst_rank": 14,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 71,
+          "expert": "Andy Behrens - The Deep Shot",
+          "qb_rank": 102,
+          "rb_rank": 52,
+          "wr_rank": 58,
+          "te_rank": 106,
+          "k_rank": 64,
+          "dst_rank": 72,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 72,
+          "expert": "Dylan Licciardo - FF Gamers",
+          "qb_rank": 82,
+          "rb_rank": 51,
+          "wr_rank": 76,
+          "te_rank": 108,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 73,
+          "expert": "Shane Hallam - Draft Sharks",
+          "qb_rank": 72,
+          "rb_rank": 77,
+          "wr_rank": 86,
+          "te_rank": 72,
+          "k_rank": 65,
+          "dst_rank": 46,
+          "idp_rank": 11
+        },
+        {
+          "overall_rank": 74,
+          "expert": "Daniel Mader - Fantasy Football Advice Network",
+          "qb_rank": 97,
+          "rb_rank": 58,
+          "wr_rank": 79,
+          "te_rank": 71,
+          "k_rank": 8,
+          "dst_rank": 29,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 75,
+          "expert": "Scott Pianowski - Yahoo",
+          "qb_rank": 79,
+          "rb_rank": 101,
+          "wr_rank": 57,
+          "te_rank": 70,
+          "k_rank": 55,
+          "dst_rank": 77,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 76,
+          "expert": "Matt Harmon - Yahoo",
+          "qb_rank": 41,
+          "rb_rank": 110,
+          "wr_rank": 55,
+          "te_rank": 124,
+          "k_rank": 69,
+          "dst_rank": 88,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 77,
+          "expert": "Matthew Korn - DFS Dashboard",
+          "qb_rank": 44,
+          "rb_rank": 108,
+          "wr_rank": 67,
+          "te_rank": 103,
+          "k_rank": null,
+          "dst_rank": 54,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 78,
+          "expert": "Michael Bobal - The 33rd Team",
+          "qb_rank": 129,
+          "rb_rank": 78,
+          "wr_rank": 33,
+          "te_rank": 68,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 79,
+          "expert": "Mauricio Gutierrez - Estadio Fantasy",
+          "qb_rank": 76,
+          "rb_rank": 56,
+          "wr_rank": 103,
+          "te_rank": 79,
+          "k_rank": 84,
+          "dst_rank": 43,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 80,
+          "expert": "Joe Beldner - The Fantasy Footballers",
+          "qb_rank": 137,
+          "rb_rank": 44,
+          "wr_rank": 59,
+          "te_rank": 73,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 81,
+          "expert": "John Hesterman - Dynasty League Football",
+          "qb_rank": 77,
+          "rb_rank": 83,
+          "wr_rank": 78,
+          "te_rank": 98,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 82,
+          "expert": "Matt Schauf - Draft Sharks",
+          "qb_rank": 100,
+          "rb_rank": 57,
+          "wr_rank": 100,
+          "te_rank": 48,
+          "k_rank": 44,
+          "dst_rank": 56,
+          "idp_rank": 14
+        },
+        {
+          "overall_rank": 83,
+          "expert": "Kelly Kirby - FantasyPros",
+          "qb_rank": 106,
+          "rb_rank": 22,
+          "wr_rank": 113,
+          "te_rank": 64,
+          "k_rank": 76,
+          "dst_rank": 33,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 84,
+          "expert": "Brandon Murchison - RotoBaller",
+          "qb_rank": 64,
+          "rb_rank": 97,
+          "wr_rank": 75,
+          "te_rank": 104,
+          "k_rank": 6,
+          "dst_rank": 52,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 85,
+          "expert": "Tera Roberts - FantasyPros",
+          "qb_rank": 67,
+          "rb_rank": 91,
+          "wr_rank": 68,
+          "te_rank": 123,
+          "k_rank": 67,
+          "dst_rank": 75,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 86,
+          "expert": "Kev Mahserejian - Razzball",
+          "qb_rank": 80,
+          "rb_rank": 127,
+          "wr_rank": 44,
+          "te_rank": 87,
+          "k_rank": 10,
+          "dst_rank": 61,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 87,
+          "expert": "Drew DeLuca - QB List",
+          "qb_rank": 98,
+          "rb_rank": 74,
+          "wr_rank": 102,
+          "te_rank": 54,
+          "k_rank": 26,
+          "dst_rank": 55,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 88,
+          "expert": "Rich Piazza - Fantasy Shed",
+          "qb_rank": 115,
+          "rb_rank": 71,
+          "wr_rank": 90,
+          "te_rank": 80,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 89,
+          "expert": "Brad Beatson - Bandit Football",
+          "qb_rank": 45,
+          "rb_rank": 115,
+          "wr_rank": 106,
+          "te_rank": 93,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 90,
+          "expert": "Dave Kluge - Footballguys",
+          "qb_rank": 84,
+          "rb_rank": 98,
+          "wr_rank": 95,
+          "te_rank": 96,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 91,
+          "expert": "Chris Welsh - FantasyPros",
+          "qb_rank": 133,
+          "rb_rank": 90,
+          "wr_rank": 65,
+          "te_rank": 66,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 92,
+          "expert": "Jesse Moeller - Fantasy Football Universe",
+          "qb_rank": 111,
+          "rb_rank": 100,
+          "wr_rank": 94,
+          "te_rank": 61,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 93,
+          "expert": "Kevin Steele - The Fantasy Authority",
+          "qb_rank": 54,
+          "rb_rank": 85,
+          "wr_rank": 119,
+          "te_rank": 119,
+          "k_rank": 59,
+          "dst_rank": 81,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 94,
+          "expert": "Tom Strachan - NFL Best Ball",
+          "qb_rank": 96,
+          "rb_rank": 69,
+          "wr_rank": 115,
+          "te_rank": 111,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 95,
+          "expert": "C.H. Herms - FTN",
+          "qb_rank": 73,
+          "rb_rank": 119,
+          "wr_rank": 77,
+          "te_rank": 129,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 96,
+          "expert": "Jeremy Shulman - Fantasy Football Universe",
+          "qb_rank": 104,
+          "rb_rank": 63,
+          "wr_rank": 80,
+          "te_rank": 154,
+          "k_rank": 68,
+          "dst_rank": 70,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 97,
+          "expert": "Ellis Johnson - FantasyPros",
+          "qb_rank": 34,
+          "rb_rank": 139,
+          "wr_rank": 89,
+          "te_rank": 126,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 98,
+          "expert": "Pete Nova - FF Faceoff",
+          "qb_rank": 120,
+          "rb_rank": 99,
+          "wr_rank": 87,
+          "te_rank": 113,
+          "k_rank": null,
+          "dst_rank": 59,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 99,
+          "expert": "Jaime Eisner - The Draft Network",
+          "qb_rank": 131,
+          "rb_rank": 81,
+          "wr_rank": 107,
+          "te_rank": 84,
+          "k_rank": 82,
+          "dst_rank": 60,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 100,
+          "expert": "Site Rankings - The FF Ghost",
+          "qb_rank": 127,
+          "rb_rank": 111,
+          "wr_rank": 83,
+          "te_rank": 95,
+          "k_rank": 52,
+          "dst_rank": 40,
+          "idp_rank": 10
+        },
+        {
+          "overall_rank": 101,
+          "expert": "Trevor Land - FlurrySports",
+          "qb_rank": 95,
+          "rb_rank": 128,
+          "wr_rank": 99,
+          "te_rank": 101,
+          "k_rank": 45,
+          "dst_rank": 67,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 102,
+          "expert": "Adrian Alpanseque - Estadio Fantasy",
+          "qb_rank": 112,
+          "rb_rank": 65,
+          "wr_rank": 123,
+          "te_rank": 121,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 103,
+          "expert": "Elliot Berkovits - Packer Report",
+          "qb_rank": 60,
+          "rb_rank": 121,
+          "wr_rank": 109,
+          "te_rank": 130,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 104,
+          "expert": "Coach Craig Sports - True North Fantasy Football",
+          "qb_rank": 117,
+          "rb_rank": 92,
+          "wr_rank": 110,
+          "te_rank": 105,
+          "k_rank": 56,
+          "dst_rank": 78,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 105,
+          "expert": "Dan Yanotchko - EDSFootball",
+          "qb_rank": 81,
+          "rb_rank": 113,
+          "wr_rank": 122,
+          "te_rank": 94,
+          "k_rank": 18,
+          "dst_rank": 69,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 106,
+          "expert": "Adam Murfet - 5 Yard Rush",
+          "qb_rank": 105,
+          "rb_rank": 104,
+          "wr_rank": 97,
+          "te_rank": 128,
+          "k_rank": null,
+          "dst_rank": 34,
+          "idp_rank": 16
+        },
+        {
+          "overall_rank": 107,
+          "expert": "Steve DeAngelo - FF Faceoff",
+          "qb_rank": 108,
+          "rb_rank": 124,
+          "wr_rank": 104,
+          "te_rank": 86,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 108,
+          "expert": "Ryan Weisse - Club Fantasy FFL",
+          "qb_rank": 103,
+          "rb_rank": 36,
+          "wr_rank": 135,
+          "te_rank": 134,
+          "k_rank": 54,
+          "dst_rank": 62,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 109,
+          "expert": "Nate Marcum - Fantasy In Frames",
+          "qb_rank": 110,
+          "rb_rank": 132,
+          "wr_rank": 101,
+          "te_rank": 67,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 110,
+          "expert": "Todd D Clark - The Fantasy Fix",
+          "qb_rank": 124,
+          "rb_rank": 107,
+          "wr_rank": 111,
+          "te_rank": 82,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 111,
+          "expert": "Steven Pintado - QB List",
+          "qb_rank": 93,
+          "rb_rank": 106,
+          "wr_rank": 117,
+          "te_rank": 118,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 112,
+          "expert": "Michael Tomlin - Fantasy Six Pack",
+          "qb_rank": 68,
+          "rb_rank": 130,
+          "wr_rank": 98,
+          "te_rank": 143,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 113,
+          "expert": "Steve Falco - Front Office Pros",
+          "qb_rank": 145,
+          "rb_rank": 60,
+          "wr_rank": 116,
+          "te_rank": 100,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 114,
+          "expert": "Jeff Bell - Footballguys",
+          "qb_rank": 125,
+          "rb_rank": 102,
+          "wr_rank": 92,
+          "te_rank": 139,
+          "k_rank": 48,
+          "dst_rank": 71,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 115,
+          "expert": "Adam Dove - The Fantasy Couriers",
+          "qb_rank": 141,
+          "rb_rank": 116,
+          "wr_rank": 74,
+          "te_rank": 122,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 116,
+          "expert": "Scott Engel - RotoBaller",
+          "qb_rank": 121,
+          "rb_rank": 131,
+          "wr_rank": 118,
+          "te_rank": 42,
+          "k_rank": 47,
+          "dst_rank": 73,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 117,
+          "expert": "Andrew Leduc - That Sports Podcast Network",
+          "qb_rank": 113,
+          "rb_rank": 82,
+          "wr_rank": 126,
+          "te_rank": 142,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 118,
+          "expert": "Justin Fuhr - Pro Football Mania",
+          "qb_rank": 109,
+          "rb_rank": 105,
+          "wr_rank": 120,
+          "te_rank": 127,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 119,
+          "expert": "Matthew Mutchler - Fantasy Sports Advice Network",
+          "qb_rank": 91,
+          "rb_rank": 118,
+          "wr_rank": 93,
+          "te_rank": 159,
+          "k_rank": 63,
+          "dst_rank": 83,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 120,
+          "expert": "MasterIDP - RPO Football",
+          "qb_rank": 86,
+          "rb_rank": 122,
+          "wr_rank": 130,
+          "te_rank": 115,
+          "k_rank": 51,
+          "dst_rank": 47,
+          "idp_rank": 1
+        },
+        {
+          "overall_rank": 121,
+          "expert": "Mike Fanelli - FantasyPros",
+          "qb_rank": 99,
+          "rb_rank": 146,
+          "wr_rank": 114,
+          "te_rank": 77,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 122,
+          "expert": "Benjamin Klotz - Touchdown Squad",
+          "qb_rank": 58,
+          "rb_rank": 117,
+          "wr_rank": 144,
+          "te_rank": 60,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 123,
+          "expert": "Kyle Cunningham-Rhoads - The Analyst",
+          "qb_rank": 61,
+          "rb_rank": 109,
+          "wr_rank": 146,
+          "te_rank": 74,
+          "k_rank": 75,
+          "dst_rank": 5,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 124,
+          "expert": "Kyle Senra - Going For 2",
+          "qb_rank": 143,
+          "rb_rank": 88,
+          "wr_rank": 121,
+          "te_rank": 114,
+          "k_rank": 39,
+          "dst_rank": 45,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 125,
+          "expert": "Nathan Polvogt - Optimus Fantasy Football",
+          "qb_rank": 90,
+          "rb_rank": 133,
+          "wr_rank": 125,
+          "te_rank": 133,
+          "k_rank": 61,
+          "dst_rank": 76,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 126,
+          "expert": "Joe Pisapia - FantasyPros",
+          "qb_rank": 132,
+          "rb_rank": 136,
+          "wr_rank": 105,
+          "te_rank": 107,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 127,
+          "expert": "Scott Gerhardt - The Sports Affiliation",
+          "qb_rank": 139,
+          "rb_rank": 141,
+          "wr_rank": 88,
+          "te_rank": 112,
+          "k_rank": 58,
+          "dst_rank": 90,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 128,
+          "expert": "Guilherme Gianni - Fantasy Futebolista",
+          "qb_rank": 146,
+          "rb_rank": 112,
+          "wr_rank": 129,
+          "te_rank": 51,
+          "k_rank": 60,
+          "dst_rank": 49,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 129,
+          "expert": "Scott Bogman - FantasyPros",
+          "qb_rank": 92,
+          "rb_rank": 145,
+          "wr_rank": 137,
+          "te_rank": 85,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": 12
+        },
+        {
+          "overall_rank": 130,
+          "expert": "Aaron Larson - FantasyPros",
+          "qb_rank": 150,
+          "rb_rank": 95,
+          "wr_rank": 108,
+          "te_rank": 97,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 131,
+          "expert": "Nic Bodiford - NerdBall Fantasy Football",
+          "qb_rank": 119,
+          "rb_rank": 142,
+          "wr_rank": 124,
+          "te_rank": 125,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 132,
+          "expert": "Brian Hartman - QB List",
+          "qb_rank": 148,
+          "rb_rank": 79,
+          "wr_rank": 128,
+          "te_rank": 132,
+          "k_rank": 81,
+          "dst_rank": 87,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 133,
+          "expert": "Freeman Smith - FAAB Lab",
+          "qb_rank": 134,
+          "rb_rank": 125,
+          "wr_rank": 142,
+          "te_rank": 99,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 134,
+          "expert": "Ed Birdsall - Talking Points Sports",
+          "qb_rank": 123,
+          "rb_rank": 147,
+          "wr_rank": 127,
+          "te_rank": 116,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 135,
+          "expert": "Mike Harmon - Swollen Dome",
+          "qb_rank": 126,
+          "rb_rank": 123,
+          "wr_rank": 131,
+          "te_rank": 148,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 136,
+          "expert": "Joe Sheffield - Front Office Pros",
+          "qb_rank": 116,
+          "rb_rank": 137,
+          "wr_rank": 141,
+          "te_rank": 117,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 137,
+          "expert": "Jeff Paur - RTSports",
+          "qb_rank": 122,
+          "rb_rank": 126,
+          "wr_rank": 138,
+          "te_rank": 141,
+          "k_rank": 40,
+          "dst_rank": 79,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 138,
+          "expert": "Jorge B. Edwards - Fantasy In Frames",
+          "qb_rank": 138,
+          "rb_rank": 144,
+          "wr_rank": 136,
+          "te_rank": 102,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": 15
+        },
+        {
+          "overall_rank": 139,
+          "expert": "Lou Brunson - Optimus Fantasy Football",
+          "qb_rank": 128,
+          "rb_rank": 138,
+          "wr_rank": 140,
+          "te_rank": 144,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 140,
+          "expert": "Kyle Soppe - Pro Football Network",
+          "qb_rank": 147,
+          "rb_rank": 96,
+          "wr_rank": 143,
+          "te_rank": 140,
+          "k_rank": 73,
+          "dst_rank": 89,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 141,
+          "expert": "Eric Romoff - QB List",
+          "qb_rank": 101,
+          "rb_rank": 148,
+          "wr_rank": 133,
+          "te_rank": 158,
+          "k_rank": 88,
+          "dst_rank": 50,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 142,
+          "expert": "Jeff Boggis - Fantasy Football Empire",
+          "qb_rank": 135,
+          "rb_rank": 156,
+          "wr_rank": 132,
+          "te_rank": 90,
+          "k_rank": 50,
+          "dst_rank": 13,
+          "idp_rank": 18
+        },
+        {
+          "overall_rank": 143,
+          "expert": "Tal Malachovsky - The Fantasy Scout",
+          "qb_rank": 136,
+          "rb_rank": 120,
+          "wr_rank": 145,
+          "te_rank": 145,
+          "k_rank": 36,
+          "dst_rank": 85,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 144,
+          "expert": "Joe Serpico - Pressbox",
+          "qb_rank": 149,
+          "rb_rank": 140,
+          "wr_rank": 134,
+          "te_rank": 131,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 145,
+          "expert": "Community Consensus - r/fantasyfootball",
+          "qb_rank": 142,
+          "rb_rank": 158,
+          "wr_rank": 112,
+          "te_rank": 137,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 146,
+          "expert": "Jay Felicio - QB List",
+          "qb_rank": 85,
+          "rb_rank": 153,
+          "wr_rank": 150,
+          "te_rank": 149,
+          "k_rank": null,
+          "dst_rank": 74,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 147,
+          "expert": "Site Rankings - Gridiron Experts",
+          "qb_rank": 140,
+          "rb_rank": 135,
+          "wr_rank": 151,
+          "te_rank": 138,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 148,
+          "expert": "Smitty - TheFantasyFootballShow",
+          "qb_rank": 130,
+          "rb_rank": 154,
+          "wr_rank": 148,
+          "te_rank": 136,
+          "k_rank": 86,
+          "dst_rank": 64,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 149,
+          "expert": "Justin Herrera - TSS Fantasy",
+          "qb_rank": 151,
+          "rb_rank": 103,
+          "wr_rank": 155,
+          "te_rank": 151,
+          "k_rank": null,
+          "dst_rank": 84,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 150,
+          "expert": "Michael Hauff - FF Faceoff",
+          "qb_rank": 153,
+          "rb_rank": 150,
+          "wr_rank": 152,
+          "te_rank": 120,
+          "k_rank": 80,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 151,
+          "expert": "Joe Orrico - No Expert Fantasy Football",
+          "qb_rank": 156,
+          "rb_rank": 129,
+          "wr_rank": 153,
+          "te_rank": 150,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 152,
+          "expert": "Gary Davenport - Footballguys",
+          "qb_rank": 154,
+          "rb_rank": 143,
+          "wr_rank": 154,
+          "te_rank": 146,
+          "k_rank": 83,
+          "dst_rank": 80,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 153,
+          "expert": "Tim Heaney - Sporting News",
+          "qb_rank": 144,
+          "rb_rank": 157,
+          "wr_rank": 159,
+          "te_rank": 157,
+          "k_rank": 89,
+          "dst_rank": 91,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 154,
+          "expert": "Mark Ringo - Sleepers and Busts",
+          "qb_rank": 152,
+          "rb_rank": 159,
+          "wr_rank": 149,
+          "te_rank": 160,
+          "k_rank": 72,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 155,
+          "expert": "Raju Byfield - WinMyFantasyLeague",
+          "qb_rank": 157,
+          "rb_rank": 149,
+          "wr_rank": 158,
+          "te_rank": 155,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": 17
+        },
+        {
+          "overall_rank": 156,
+          "expert": "Joshua Kimmel - FantasyNow+",
+          "qb_rank": 158,
+          "rb_rank": 152,
+          "wr_rank": 157,
+          "te_rank": 153,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 157,
+          "expert": "Jacob Hubman - The Fantasy Headliners",
+          "qb_rank": 155,
+          "rb_rank": 155,
+          "wr_rank": 156,
+          "te_rank": 156,
+          "k_rank": 66,
+          "dst_rank": 65,
+          "idp_rank": null
+        },
+        {
+          "overall_rank": 158,
+          "expert": "Michelle Magdziuk - BallBlast Podcast",
+          "qb_rank": 159,
+          "rb_rank": 151,
+          "wr_rank": 160,
+          "te_rank": 152,
+          "k_rank": null,
+          "dst_rank": null,
+          "idp_rank": null
+        }
+      ]
+    },
+    "strength_of_schedule_2026": {
+      "source_id": "fantasypros:pdf:strength_of_schedule:2026-08-26",
+      "rows": [
+        {
+          "team": "Arizona Cardinals",
+          "positions": [
+            "QB",
+            "RB",
+            "WR",
+            "TE",
+            "K",
+            "DST"
+          ],
+          "encoding": "visual five-segment difficulty scale retained in source PDF"
+        },
+        {
+          "team": "Atlanta Falcons",
+          "positions": [
+            "QB",
+            "RB",
+            "WR",
+            "TE",
+            "K",
+            "DST"
+          ],
+          "encoding": "visual five-segment difficulty scale retained in source PDF"
+        },
+        {
+          "team": "Baltimore Ravens",
+          "positions": [
+            "QB",
+            "RB",
+            "WR",
+            "TE",
+            "K",
+            "DST"
+          ],
+          "encoding": "visual five-segment difficulty scale retained in source PDF"
+        },
+        {
+          "team": "Buffalo Bills",
+          "positions": [
+            "QB",
+            "RB",
+            "WR",
+            "TE",
+            "K",
+            "DST"
+          ],
+          "encoding": "visual five-segment difficulty scale retained in source PDF"
+        },
+        {
+          "team": "Carolina Panthers",
+          "positions": [
+            "QB",
+            "RB",
+            "WR",
+            "TE",
+            "K",
+            "DST"
+          ],
+          "encoding": "visual five-segment difficulty scale retained in source PDF"
+        },
+        {
+          "team": "Chicago Bears",
+          "positions": [
+            "QB",
+            "RB",
+            "WR",
+            "TE",
+            "K",
+            "DST"
+          ],
+          "encoding": "visual five-segment difficulty scale retained in source PDF"
+        },
+        {
+          "team": "Cincinnati Bengals",
+          "positions": [
+            "QB",
+            "RB",
+            "WR",
+            "TE",
+            "K",
+            "DST"
+          ],
+          "encoding": "visual five-segment difficulty scale retained in source PDF"
+        },
+        {
+          "team": "Cleveland Browns",
+          "positions": [
+            "QB",
+            "RB",
+            "WR",
+            "TE",
+            "K",
+            "DST"
+          ],
+          "encoding": "visual five-segment difficulty scale retained in source PDF"
+        },
+        {
+          "team": "Dallas Cowboys",
+          "positions": [
+            "QB",
+            "RB",
+            "WR",
+            "TE",
+            "K",
+            "DST"
+          ],
+          "encoding": "visual five-segment difficulty scale retained in source PDF"
+        },
+        {
+          "team": "Denver Broncos",
+          "positions": [
+            "QB",
+            "RB",
+            "WR",
+            "TE",
+            "K",
+            "DST"
+          ],
+          "encoding": "visual five-segment difficulty scale retained in source PDF"
+        },
+        {
+          "team": "Detroit Lions",
+          "positions": [
+            "QB",
+            "RB",
+            "WR",
+            "TE",
+            "K",
+            "DST"
+          ],
+          "encoding": "visual five-segment difficulty scale retained in source PDF"
+        },
+        {
+          "team": "Green Bay Packers",
+          "positions": [
+            "QB",
+            "RB",
+            "WR",
+            "TE",
+            "K",
+            "DST"
+          ],
+          "encoding": "visual five-segment difficulty scale retained in source PDF"
+        },
+        {
+          "team": "Houston Texans",
+          "positions": [
+            "QB",
+            "RB",
+            "WR",
+            "TE",
+            "K",
+            "DST"
+          ],
+          "encoding": "visual five-segment difficulty scale retained in source PDF"
+        },
+        {
+          "team": "Indianapolis Colts",
+          "positions": [
+            "QB",
+            "RB",
+            "WR",
+            "TE",
+            "K",
+            "DST"
+          ],
+          "encoding": "visual five-segment difficulty scale retained in source PDF"
+        },
+        {
+          "team": "Jacksonville Jaguars",
+          "positions": [
+            "QB",
+            "RB",
+            "WR",
+            "TE",
+            "K",
+            "DST"
+          ],
+          "encoding": "visual five-segment difficulty scale retained in source PDF"
+        },
+        {
+          "team": "Kansas City Chiefs",
+          "positions": [
+            "QB",
+            "RB",
+            "WR",
+            "TE",
+            "K",
+            "DST"
+          ],
+          "encoding": "visual five-segment difficulty scale retained in source PDF"
+        },
+        {
+          "team": "Los Angeles Chargers",
+          "positions": [
+            "QB",
+            "RB",
+            "WR",
+            "TE",
+            "K",
+            "DST"
+          ],
+          "encoding": "visual five-segment difficulty scale retained in source PDF"
+        },
+        {
+          "team": "Los Angeles Rams",
+          "positions": [
+            "QB",
+            "RB",
+            "WR",
+            "TE",
+            "K",
+            "DST"
+          ],
+          "encoding": "visual five-segment difficulty scale retained in source PDF"
+        },
+        {
+          "team": "Las Vegas Raiders",
+          "positions": [
+            "QB",
+            "RB",
+            "WR",
+            "TE",
+            "K",
+            "DST"
+          ],
+          "encoding": "visual five-segment difficulty scale retained in source PDF"
+        },
+        {
+          "team": "Miami Dolphins",
+          "positions": [
+            "QB",
+            "RB",
+            "WR",
+            "TE",
+            "K",
+            "DST"
+          ],
+          "encoding": "visual five-segment difficulty scale retained in source PDF"
+        },
+        {
+          "team": "Minnesota Vikings",
+          "positions": [
+            "QB",
+            "RB",
+            "WR",
+            "TE",
+            "K",
+            "DST"
+          ],
+          "encoding": "visual five-segment difficulty scale retained in source PDF"
+        },
+        {
+          "team": "New England Patriots",
+          "positions": [
+            "QB",
+            "RB",
+            "WR",
+            "TE",
+            "K",
+            "DST"
+          ],
+          "encoding": "visual five-segment difficulty scale retained in source PDF"
+        },
+        {
+          "team": "New Orleans Saints",
+          "positions": [
+            "QB",
+            "RB",
+            "WR",
+            "TE",
+            "K",
+            "DST"
+          ],
+          "encoding": "visual five-segment difficulty scale retained in source PDF"
+        },
+        {
+          "team": "New York Giants",
+          "positions": [
+            "QB",
+            "RB",
+            "WR",
+            "TE",
+            "K",
+            "DST"
+          ],
+          "encoding": "visual five-segment difficulty scale retained in source PDF"
+        },
+        {
+          "team": "New York Jets",
+          "positions": [
+            "QB",
+            "RB",
+            "WR",
+            "TE",
+            "K",
+            "DST"
+          ],
+          "encoding": "visual five-segment difficulty scale retained in source PDF"
+        },
+        {
+          "team": "Philadelphia Eagles",
+          "positions": [
+            "QB",
+            "RB",
+            "WR",
+            "TE",
+            "K",
+            "DST"
+          ],
+          "encoding": "visual five-segment difficulty scale retained in source PDF"
+        },
+        {
+          "team": "Pittsburgh Steelers",
+          "positions": [
+            "QB",
+            "RB",
+            "WR",
+            "TE",
+            "K",
+            "DST"
+          ],
+          "encoding": "visual five-segment difficulty scale retained in source PDF"
+        },
+        {
+          "team": "Seattle Seahawks",
+          "positions": [
+            "QB",
+            "RB",
+            "WR",
+            "TE",
+            "K",
+            "DST"
+          ],
+          "encoding": "visual five-segment difficulty scale retained in source PDF"
+        },
+        {
+          "team": "San Francisco 49ers",
+          "positions": [
+            "QB",
+            "RB",
+            "WR",
+            "TE",
+            "K",
+            "DST"
+          ],
+          "encoding": "visual five-segment difficulty scale retained in source PDF"
+        },
+        {
+          "team": "Tampa Bay Buccaneers",
+          "positions": [
+            "QB",
+            "RB",
+            "WR",
+            "TE",
+            "K",
+            "DST"
+          ],
+          "encoding": "visual five-segment difficulty scale retained in source PDF"
+        },
+        {
+          "team": "Tennessee Titans",
+          "positions": [
+            "QB",
+            "RB",
+            "WR",
+            "TE",
+            "K",
+            "DST"
+          ],
+          "encoding": "visual five-segment difficulty scale retained in source PDF"
+        },
+        {
+          "team": "Washington Commanders",
+          "positions": [
+            "QB",
+            "RB",
+            "WR",
+            "TE",
+            "K",
+            "DST"
+          ],
+          "encoding": "visual five-segment difficulty scale retained in source PDF"
+        }
+      ]
+    },
+    "rb_handcuffs_2026": {
+      "source_id": "fantasypros:pdf:rb_handcuffs:2026-08-26",
+      "rows": [
+        {
+          "team": "Arizona Cardinals",
+          "projected_starter": "Jeremiyah Love",
+          "starter_ecr": 17,
+          "handcuff": "Tyler Allgeier",
+          "handcuff_ecr": 44,
+          "adp": null
+        },
+        {
+          "team": "Atlanta Falcons",
+          "projected_starter": "Bijan Robinson",
+          "starter_ecr": 2,
+          "handcuff": "Brian Robinson Jr.",
+          "handcuff_ecr": 53,
+          "adp": null
+        },
+        {
+          "team": "Baltimore Ravens",
+          "projected_starter": "Derrick Henry",
+          "starter_ecr": 11,
+          "handcuff": "Justice Hill",
+          "handcuff_ecr": 71,
+          "adp": null
+        },
+        {
+          "team": "Buffalo Bills",
+          "projected_starter": "James Cook III",
+          "starter_ecr": 5,
+          "handcuff": "Ray Davis",
+          "handcuff_ecr": 58,
+          "adp": null
+        },
+        {
+          "team": "Carolina Panthers",
+          "projected_starter": "Jonathon Brooks",
+          "starter_ecr": 31,
+          "handcuff": "Chuba Hubbard",
+          "handcuff_ecr": 33,
+          "adp": null
+        },
+        {
+          "team": "Chicago Bears",
+          "projected_starter": "D'Andre Swift",
+          "starter_ecr": 19,
+          "handcuff": "Kyle Monangai",
+          "handcuff_ecr": 39,
+          "adp": null
+        },
+        {
+          "team": "Cincinnati Bengals",
+          "projected_starter": "Chase Brown",
+          "starter_ecr": 6,
+          "handcuff": "Samaje Perine",
+          "handcuff_ecr": 72,
+          "adp": null
+        },
+        {
+          "team": "Cleveland Browns",
+          "projected_starter": "Quinshon Judkins",
+          "starter_ecr": 22,
+          "handcuff": "Dylan Sampson",
+          "handcuff_ecr": 50,
+          "adp": null
+        },
+        {
+          "team": "Dallas Cowboys",
+          "projected_starter": "Javonte Williams",
+          "starter_ecr": 14,
+          "handcuff": "Jaydon Blue",
+          "handcuff_ecr": 63,
+          "adp": null
+        },
+        {
+          "team": "Denver Broncos",
+          "projected_starter": "J.K. Dobbins",
+          "starter_ecr": 32,
+          "handcuff": "RJ Harvey",
+          "handcuff_ecr": 36,
+          "adp": null
+        },
+        {
+          "team": "Detroit Lions",
+          "projected_starter": "Jahmyr Gibbs",
+          "starter_ecr": 1,
+          "handcuff": "Isiah Pacheco",
+          "handcuff_ecr": 52,
+          "adp": null
+        },
+        {
+          "team": "Green Bay Packers",
+          "projected_starter": "Josh Jacobs",
+          "starter_ecr": 16,
+          "handcuff": "MarShawn Lloyd",
+          "handcuff_ecr": 56,
+          "adp": null
+        },
+        {
+          "team": "Houston Texans",
+          "projected_starter": "David Montgomery",
+          "starter_ecr": 23,
+          "handcuff": "Woody Marks",
+          "handcuff_ecr": 43,
+          "adp": null
+        },
+        {
+          "team": "Indianapolis Colts",
+          "projected_starter": "Jonathan Taylor",
+          "starter_ecr": 3,
+          "handcuff": "Seth McGowan",
+          "handcuff_ecr": 83,
+          "adp": null
+        },
+        {
+          "team": "Jacksonville Jaguars",
+          "projected_starter": "Bhayshul Tuten",
+          "starter_ecr": 24,
+          "handcuff": "Chris Rodriguez Jr.",
+          "handcuff_ecr": 42,
+          "adp": null
+        },
+        {
+          "team": "Kansas City Chiefs",
+          "projected_starter": "Kenneth Walker III",
+          "starter_ecr": 10,
+          "handcuff": "Emmett Johnson",
+          "handcuff_ecr": 59,
+          "adp": null
+        },
+        {
+          "team": "Los Angeles Chargers",
+          "projected_starter": "Omarion Hampton",
+          "starter_ecr": 9,
+          "handcuff": "Kimani Vidal",
+          "handcuff_ecr": 60,
+          "adp": null
+        },
+        {
+          "team": "Los Angeles Rams",
+          "projected_starter": "Kyren Williams",
+          "starter_ecr": 13,
+          "handcuff": "Blake Corum",
+          "handcuff_ecr": 34,
+          "adp": null
+        },
+        {
+          "team": "Las Vegas Raiders",
+          "projected_starter": "Ashton Jeanty",
+          "starter_ecr": 12,
+          "handcuff": "Mike Washington Jr.",
+          "handcuff_ecr": 57,
+          "adp": null
+        },
+        {
+          "team": "Miami Dolphins",
+          "projected_starter": "De'Von Achane",
+          "starter_ecr": 8,
+          "handcuff": "Jaylen Wright",
+          "handcuff_ecr": 68,
+          "adp": null
+        },
+        {
+          "team": "Minnesota Vikings",
+          "projected_starter": "Jordan Mason",
+          "starter_ecr": 37,
+          "handcuff": "Aaron Jones Sr.",
+          "handcuff_ecr": 41,
+          "adp": null
+        },
+        {
+          "team": "New England Patriots",
+          "projected_starter": "Rhamondre Stevenson",
+          "starter_ecr": 27,
+          "handcuff": "TreVeyon Henderson",
+          "handcuff_ecr": 26,
+          "adp": null
+        },
+        {
+          "team": "New Orleans Saints",
+          "projected_starter": "Travis Etienne Jr.",
+          "starter_ecr": 18,
+          "handcuff": "Alvin Kamara",
+          "handcuff_ecr": 54,
+          "adp": null
+        },
+        {
+          "team": "New York Giants",
+          "projected_starter": "Cam Skattebo",
+          "starter_ecr": 20,
+          "handcuff": null,
+          "handcuff_ecr": null,
+          "adp": null
+        },
+        {
+          "team": "New York Jets",
+          "projected_starter": "Breece Hall",
+          "starter_ecr": 15,
+          "handcuff": "Braelon Allen",
+          "handcuff_ecr": 55,
+          "adp": null
+        },
+        {
+          "team": "Philadelphia Eagles",
+          "projected_starter": "Saquon Barkley",
+          "starter_ecr": 7,
+          "handcuff": "Tank Bigsby",
+          "handcuff_ecr": 48,
+          "adp": null
+        },
+        {
+          "team": "Pittsburgh Steelers",
+          "projected_starter": "Rico Dowdle",
+          "starter_ecr": 30,
+          "handcuff": "Jaylen Warren",
+          "handcuff_ecr": 28,
+          "adp": null
+        },
+        {
+          "team": "Seattle Seahawks",
+          "projected_starter": "Jadarian Price",
+          "starter_ecr": 25,
+          "handcuff": "Emanuel Wilson",
+          "handcuff_ecr": 66,
+          "adp": null
+        },
+        {
+          "team": "San Francisco 49ers",
+          "projected_starter": "Christian McCaffrey",
+          "starter_ecr": 4,
+          "handcuff": "Kaelon Black",
+          "handcuff_ecr": 70,
+          "adp": null
+        },
+        {
+          "team": "Tampa Bay Buccaneers",
+          "projected_starter": "Bucky Irving",
+          "starter_ecr": 21,
+          "handcuff": "Kenny Gainwell",
+          "handcuff_ecr": 38,
+          "adp": null
+        },
+        {
+          "team": "Tennessee Titans",
+          "projected_starter": "Tony Pollard",
+          "starter_ecr": 29,
+          "handcuff": "Tyjae Spears",
+          "handcuff_ecr": 45,
+          "adp": null
+        },
+        {
+          "team": "Washington Commanders",
+          "projected_starter": "Rachaad White",
+          "starter_ecr": 40,
+          "handcuff": "Jacory Croskey-Merritt",
+          "handcuff_ecr": 35,
+          "adp": null
+        }
+      ]
+    }
+  },
+  "source_files": {
+    "player_targets": {
+      "path": "/Users/george.rodman/Desktop/2025 Most Targeted Players _ FantasyPros.pdf",
+      "sha256": "6a3ab16ba311376f60dd53a3811c0ea3992226001eaa22f751f0a753d4640de2"
+    },
+    "team_targets": {
+      "path": "/Users/george.rodman/Desktop/2025 NFL Targets By Team _ FantasyPros.pdf",
+      "sha256": "ec26bd38ce636dc1a6712e48231ef511d818b34951d8d21a6843781ee04b244d"
+    },
+    "expert_accuracy": {
+      "path": "/Users/george.rodman/Desktop/2025 Fantasy Football Accuracy Scores _ FantasyPros.pdf",
+      "sha256": "1862011e38ec10bade495361301da871d137cfbe65aa400e6b976fcc11a73a02"
+    },
+    "strength_of_schedule": {
+      "path": "/Users/george.rodman/Desktop/Fantasy Football Strength of Schedule (SOS) _ FantasyPros.pdf",
+      "sha256": "65dc6a547e63416a81670e8316c374004387196e2b869f40b2c3e58a8a68a71c"
+    },
+    "rb_handcuffs": {
+      "path": "/Users/george.rodman/Desktop/2026 Fantasy Football Handcuffs (Running Backs) _ FantasyPros.pdf",
+      "sha256": "681d5956fb06abceb52dbf624f87642c9d369b0168b1d68917ca1ebddaf0750d"
+    }
+  }
+}

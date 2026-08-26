@@ -152,6 +152,17 @@ def normalized_actual_stat_lines(root: Path, season: int, nfl_pointer: dict[str,
     return lines,[actual_path,player_path,team_path]
 
 
+def player_biographies(root: Path, nfl_pointer: dict[str, Any]) -> tuple[dict[str, dict[str, Any]], Path]:
+    path=(root/nfl_pointer["manifest"]).parent/"players.csv"
+    with path.open(newline="",encoding="utf-8") as handle: rows=list(csv.DictReader(handle))
+    biographies={}
+    for row in rows:
+        if not row.get("gsis_id"): continue
+        experience=row.get("years_of_experience")
+        biographies[f"nfl:gsis:{row['gsis_id']}"]={"birth_date":row.get("birth_date") or None,"years_of_experience":int(float(experience)) if experience else None}
+    return biographies,path
+
+
 def projected_players(root: Path, season: int) -> tuple[list[dict[str, Any]], Path]:
     payload, path = load_pointer(root, f"data/processed/canonical_projections/{season}/latest.json")
     rows = []
@@ -222,10 +233,16 @@ def run(root: Path) -> Path:
     projections_2026, projection_path = projected_players(root, 2026)
     inputs[str(projection_path.relative_to(root))] = hashlib.sha256(projection_path.read_bytes()).hexdigest()
     projected_stat_lines, projected_stat_path = normalized_projected_stat_lines(root, 2026)
-    actual_stat_lines, actual_stat_paths = normalized_actual_stat_lines(root, 2025, nfl_pointer)
+    historical_stat_lines={};actual_stat_paths=[]
+    for actual_season in (2024,2025):
+        season_lines,season_paths=normalized_actual_stat_lines(root,actual_season,nfl_pointer)
+        historical_stat_lines[actual_season]=season_lines;actual_stat_paths.extend(season_paths)
+    actual_stat_lines=historical_stat_lines[2025]
+    biographies, biographies_path = player_biographies(root, nfl_pointer)
     inputs[str(projected_stat_path.relative_to(root))] = hashlib.sha256(projected_stat_path.read_bytes()).hexdigest()
     for stat_path in actual_stat_paths:
         inputs[str(stat_path.relative_to(root))] = hashlib.sha256(stat_path.read_bytes()).hexdigest()
+    inputs[str(biographies_path.relative_to(root))] = hashlib.sha256(biographies_path.read_bytes()).hexdigest()
     values_2026 = {row["internal_player_id"]: row for row in production_values(projections_2026,"projected_points")}
     variant_values = {
         name: {row["internal_player_id"]: row for row in production_values(projections_2026, "projected_points", allocation)}
@@ -248,8 +265,10 @@ def run(root: Path) -> Path:
         if market["draft_probability"] < 0.4: flags.append("low_draft_probability")
         if abs(value["position_rank"] - ALLOCATION[value["position"]]) <= 3: flags.append("replacement_boundary")
         if max(variants)-min(variants) >= 3: flags.append("allocation_sensitive")
+        biography=biographies.get(market["internal_player_id"],{})
         board.append({"internal_player_id":market["internal_player_id"],"player_name":market["player_name"],
             "position":market["position"],"nfl_team":market.get("nfl_team"),
+            "birth_date":biography.get("birth_date"),"years_of_experience":biography.get("years_of_experience"),
             "draft_probability":market["draft_probability"],"expected_jugg_price":market["expected_jugg_price_if_drafted"],
             "price_range_low":market["price_range_low"],"price_range_high":market["price_range_high"],
             "projected_points":value["projected_points"],"position_rank":value["position_rank"],
@@ -264,6 +283,7 @@ def run(root: Path) -> Path:
             "risk_flags":";".join(flags),
             "modeled_roster_slot":value["modeled_roster_slot"],
             "last_season_stat_line":actual_stat_lines.get(market["internal_player_id"]),
+            "historical_stat_lines":[historical_stat_lines[season][market["internal_player_id"]] for season in (2024,2025) if market["internal_player_id"] in historical_stat_lines[season]],
             "projected_stat_line":projected_stat_lines.get(market["internal_player_id"])})
     assign_position_tiers(board,"projected_points","production",maximum_span=16.0,minimum_natural_gap=6.0)
     assign_position_tiers(board,"expected_jugg_price","auction",maximum_span=5.0,minimum_natural_gap=2.0)
@@ -279,7 +299,7 @@ def run(root: Path) -> Path:
         "risk_flag_counts":{flag:sum(flag in row["risk_flags"].split(";") for row in board) for flag in ["missing_market_inputs","low_confidence_special_teams_projection","wide_market_price_range","low_draft_probability","replacement_boundary","allocation_sensitive"]},
         "top_20_bargain_positions":{position:sum(row["position"]==position for row in board[:20]) for position in ALLOCATION}}
     tier_contract={"scope":"position","production":{"value":"projected_points","maximum_within_tier_span":16.0,"minimum_natural_gap":6.0,"natural_gap_multiplier":2.5},"auction":{"value":"expected_jugg_price","maximum_within_tier_span":5.0,"minimum_natural_gap":2.0,"natural_gap_multiplier":2.5}}
-    (out/"decision_board_2026.json").write_text(json.dumps({"metadata":{"schema_version":2,"build_id":build_id,"allocation":ALLOCATION,"tier_contract":tier_contract,"stat_line_contract":{"actual_season":2025,"projection_season":2026},"inputs":inputs,"hardening":hardening},"players":board},indent=2,sort_keys=True)+"\n")
+    (out/"decision_board_2026.json").write_text(json.dumps({"metadata":{"schema_version":2,"build_id":build_id,"allocation":ALLOCATION,"tier_contract":tier_contract,"stat_line_contract":{"actual_seasons":[2024,2025],"projection_season":2026},"inputs":inputs,"hardening":hardening},"players":board},indent=2,sort_keys=True)+"\n")
     (out/"backtest.json").write_text(json.dumps({"metadata":{"schema_version":1,"build_id":build_id},"summary":backtest,"rows":backtest_rows},indent=2,sort_keys=True)+"\n")
     latest=root/"data/processed/production_value_model/latest.json"
     latest.write_text(json.dumps({"schema_version":1,"build_id":build_id,"decision_board_json":str((out/"decision_board_2026.json").relative_to(root)),"decision_board_csv":str((out/"decision_board_2026.csv").relative_to(root)),"backtest":str((out/"backtest.json").relative_to(root))},indent=2)+"\n")

@@ -1,0 +1,379 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260826T234500Z",
+    "built_at": "2026-08-26T23:45:00Z",
+    "season": 2026,
+    "takeaway_count": 21
+  },
+  "source": {
+    "source_key": "fantasypros",
+    "season": 2026,
+    "id": "fantasypros:featured-pros:2026-wr-sleepers-breakouts",
+    "title": "21 WR Sleepers & Breakouts Experts Love",
+    "author": "FantasyPros Featured Pros",
+    "url": "https://www.fantasypros.com/2026/08/21-wide-receiver-sleepers-breakouts-experts-love-2026-fantasy-football/",
+    "published_at": "2026-08-26",
+    "content_type": "expert_roundup",
+    "summary": "Featured analysts identify breakout and sleeper receivers at current half-PPR prices."
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0038606",
+      "player_name": "Parker Washington",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "Multiple featured experts see a sixth-round WR30 price as conservative after his elite late-2025 usage and production, with a path to leading Jacksonville's ambiguous receiver room.",
+      "rationale": "Multiple featured experts see a sixth-round WR30 price as conservative after his elite late-2025 usage and production, with a path to leading Jacksonville's ambiguous receiver room.",
+      "risks": [
+        "Brian Thomas Jr. and Travis Hunter can keep the target hierarchy crowded."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "WR30 / pick 69",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040735",
+      "player_name": "Luther Burden III",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "Burden's rookie efficiency and expected Year 2 role in Ben Johnson's offense create major upside at WR25 cost.",
+      "rationale": "Burden's rookie efficiency and expected Year 2 role in Ben Johnson's offense create major upside at WR25 cost.",
+      "risks": [
+        "A groin injury could linger and Chicago has several strong target competitors."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "WR25",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038124",
+      "player_name": "Christian Watson",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Watson's efficiency, expanded opportunity after receiver departures, and WR28-WR29 cost give him WR1/WR2 upside.",
+      "rationale": "Watson's efficiency, expanded opportunity after receiver departures, and WR28-WR29 cost give him WR1/WR2 upside.",
+      "risks": [
+        "His extensive injury history remains the central concern."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "WR28-WR29",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0039919",
+      "player_name": "Rome Odunze",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "Odunze's strong pre-injury 2025 start and DJ Moore's departure create a cleaner path to a full-season breakout.",
+      "rationale": "Odunze's strong pre-injury 2025 start and DJ Moore's departure create a cleaner path to a full-season breakout.",
+      "risks": [
+        "Luther Burden and Colston Loveland still compete for targets."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "WR29",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040129",
+      "player_name": "Emeka Egbuka",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "Egbuka's early-2025 production and Mike Evans' vacated role support top-12 upside if he establishes himself as Tampa Bay's lead receiver.",
+      "rationale": "Egbuka's early-2025 production and Mike Evans' vacated role support top-12 upside if he establishes himself as Tampa Bay's lead receiver.",
+      "risks": [
+        "A current toe injury and target hierarchy introduce uncertainty."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": null,
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0034827",
+      "player_name": "DJ Moore",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Moore is priced as WR26 despite stepping into a plausible lead-receiver role with Josh Allen in Buffalo.",
+      "rationale": "Moore is priced as WR26 despite stepping into a plausible lead-receiver role with Josh Allen in Buffalo.",
+      "risks": [
+        "His exact share in a new offense is projected rather than established."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "WR26",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0039849",
+      "player_name": "Marvin Harrison Jr.",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "A new McVay-influenced offense and WR32 price create a post-hype rebound case for Harrison.",
+      "rationale": "A new McVay-influenced offense and WR32 price create a post-hype rebound case for Harrison.",
+      "risks": [
+        "His first two seasons and Arizona's target competition leave the rebound unproven."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "WR32",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0037239",
+      "player_name": "Chris Olave",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "Olave already owns alpha usage, and even modest quarterback improvement could turn his WR11-WR13 cost into a top-five outcome.",
+      "rationale": "Olave already owns alpha usage, and even modest quarterback improvement could turn his WR11-WR13 cost into a top-five outcome.",
+      "risks": [
+        "This is a premium-cost breakout case rather than a late sleeper."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "WR11-WR13",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0031381",
+      "player_name": "Davante Adams",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Adams' dominant red-zone role gives him half-PPR value despite expected touchdown regression.",
+      "rationale": "Adams' dominant red-zone role gives him half-PPR value despite expected touchdown regression.",
+      "risks": [
+        "Age, health, and a relatively rich WR23 price reduce the margin for error."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "WR23",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0037240",
+      "player_name": "Jameson Williams",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "Williams combines established 1,100-yard production, vertical usage, and possible touchdown growth at a WR25 price.",
+      "rationale": "Williams combines established 1,100-yard production, vertical usage, and possible touchdown growth at a WR25 price.",
+      "risks": [
+        "The case still depends on consistent volume and scoring progression."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "WR25",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041547",
+      "player_name": "KC Concepcion",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Concepcion offers a late chance to capture Cleveland's lead-receiver role because of his separation and after-catch ability.",
+      "rationale": "Concepcion offers a late chance to capture Cleveland's lead-receiver role because of his separation and after-catch ability.",
+      "risks": [
+        "Cleveland's quarterback play and overall offense can cap the ceiling."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "WR49 / double-digit rounds",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040870",
+      "player_name": "Ja'Kobi Lane",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Lane's camp momentum and opportunity opposite Zay Flowers make him a near-free rookie upside bet.",
+      "rationale": "Lane's camp momentum and opportunity opposite Zay Flowers make him a near-free rookie upside bet.",
+      "risks": [
+        "The role is based on camp reports and an unsettled Baltimore target tree."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "WR92 / final rounds",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038563",
+      "player_name": "Tre Tucker",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Tucker already owns heavy playing time and can convert more designed touches into a breakout at WR60 cost.",
+      "rationale": "Tucker already owns heavy playing time and can convert more designed touches into a breakout at WR60 cost.",
+      "risks": [
+        "Las Vegas still must create a productive passing environment."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "WR60",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0035719",
+      "player_name": "Deebo Samuel Sr.",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Samuel's return to Kyle Shanahan creates a plausible manufactured-touch role and WR3 output at WR55 cost.",
+      "rationale": "Samuel's return to Kyle Shanahan creates a plausible manufactured-touch role and WR3 output at WR55 cost.",
+      "risks": [
+        "Age and whether San Francisco restores his former usage are material assumptions."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "WR55",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041035",
+      "player_name": "De'Zhaun Stribling",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Stribling's preseason production, draft capital, and San Francisco's injuries give him an inexpensive path to early targets.",
+      "rationale": "Stribling's preseason production, draft capital, and San Francisco's injuries give him an inexpensive path to early targets.",
+      "risks": [
+        "Deebo Samuel's return and recovering veterans can compress the role."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Outside WR50",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038117",
+      "player_name": "Wan'Dale Robinson",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Robinson's prior volume and continuity with Brian Daboll make WR48 a potentially favorable price in Tennessee.",
+      "rationale": "Robinson's prior volume and continuity with Brian Daboll make WR48 a potentially favorable price in Tennessee.",
+      "risks": [
+        "Carnell Tate and Calvin Ridley create meaningful target competition."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "WR48",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038997",
+      "player_name": "Josh Downs",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Downs' strong target-earning rate and Indianapolis' vacated volume give him a path to beat WR41.",
+      "rationale": "Downs' strong target-earning rate and Indianapolis' vacated volume give him a path to beat WR41.",
+      "risks": [
+        "Keenan Allen adds competition and the case is strongest in reception formats."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "WR41",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040667",
+      "player_name": "Matthew Golden",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Green Bay's departures and a potentially tighter rotation give Golden a path to lead the team in targets at WR50.",
+      "rationale": "Green Bay's departures and a potentially tighter rotation give Golden a path to lead the team in targets at WR50.",
+      "risks": [
+        "His NFL production remains limited and the Packers retain other established options."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "WR50",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038393",
+      "player_name": "Dontayvion Wicks",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Wicks has a path to Philadelphia's WR2 job and substantial playing time at a WR64 price.",
+      "rationale": "Wicks has a path to Philadelphia's WR2 job and substantial playing time at a WR64 price.",
+      "risks": [
+        "Rookie Makai Lemon can challenge him once healthy."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "WR64",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0037291",
+      "player_name": "Jalen Nailor",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Nailor's open-field ability and reunion with Kirk Cousins create a nearly free upside case in Las Vegas.",
+      "rationale": "Nailor's open-field ability and reunion with Kirk Cousins create a nearly free upside case in Las Vegas.",
+      "risks": [
+        "Tre Tucker may be the clearer lead receiver and Fernando Mendoza could eventually change the offense."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "WR68",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038608",
+      "player_name": "Kayshon Boutte",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Boutte's move to Houston opens a path to the No. 2 receiver role at a final-round price.",
+      "rationale": "Boutte's move to Houston opens a path to the No. 2 receiver role at a final-round price.",
+      "risks": [
+        "The new role is not secured and his ADP may rise quickly."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "WR79 / pick 160",
+      "assumptions": []
+    }
+  ]
+}

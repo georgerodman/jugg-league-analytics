@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260826T235500Z",
+    "built_at": "2026-08-26T23:55:00Z",
+    "season": 2026,
+    "takeaway_count": 0
+  },
+  "source": {
+    "id": "fantasypros:pdf:strength_of_schedule:2026-08-26",
+    "source_key": "fantasypros",
+    "title": "Fantasy Football Strength of Schedule (SOS)",
+    "author": "FantasyPros",
+    "url": "https://www.fantasypros.com/nfl/strength-of-schedule.php",
+    "published_at": "2026-08-26",
+    "season": 2026,
+    "content_type": "strength_of_schedule",
+    "summary": "FantasyPros' visual 2026 position-by-position strength-of-schedule chart; preserved as contextual evidence, not a player vote."
+  },
+  "takeaways": []
+}

@@ -1,0 +1,396 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260826T234500Z",
+    "built_at": "2026-08-26T23:45:00Z",
+    "season": 2026,
+    "takeaway_count": 22
+  },
+  "source": {
+    "source_key": "fantasypros",
+    "season": 2026,
+    "id": "fantasypros:ecr:2026-dynasty-rookies",
+    "title": "2026 Dynasty Rookie Rankings",
+    "author": "FantasyPros Expert Consensus",
+    "url": "https://www.fantasypros.com/nfl/rankings/dynasty-rookies-overall.php",
+    "published_at": "2026-08-26",
+    "content_type": "dynasty_rankings",
+    "summary": "Consensus dynasty rookie ranks. Stored as format context and excluded from the redraft positive/negative vote by using mixed sentiment."
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0041027",
+      "player_name": "Jeremiyah Love",
+      "label": "target",
+      "sentiment": "mixed",
+      "summary": "FantasyPros dynasty rookie consensus ranks Jeremiyah Love No. 1 overall (RB1) in tier 1.",
+      "rationale": "FantasyPros dynasty rookie consensus ranks Jeremiyah Love No. 1 overall (RB1) in tier 1.",
+      "risks": [
+        "Dynasty rookie value should not be treated as a 2026 redraft recommendation."
+      ],
+      "formats": [
+        "dynasty",
+        "rookie"
+      ],
+      "price_condition": "Dynasty rookie rank 1; tier 1",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041438",
+      "player_name": "Carnell Tate",
+      "label": "target",
+      "sentiment": "mixed",
+      "summary": "FantasyPros dynasty rookie consensus ranks Carnell Tate No. 2 overall (WR1) in tier 1.",
+      "rationale": "FantasyPros dynasty rookie consensus ranks Carnell Tate No. 2 overall (WR1) in tier 1.",
+      "risks": [
+        "Dynasty rookie value should not be treated as a 2026 redraft recommendation."
+      ],
+      "formats": [
+        "dynasty",
+        "rookie"
+      ],
+      "price_condition": "Dynasty rookie rank 2; tier 1",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041029",
+      "player_name": "Jordyn Tyson",
+      "label": "target",
+      "sentiment": "mixed",
+      "summary": "FantasyPros dynasty rookie consensus ranks Jordyn Tyson No. 3 overall (WR2) in tier 1.",
+      "rationale": "FantasyPros dynasty rookie consensus ranks Jordyn Tyson No. 3 overall (WR2) in tier 1.",
+      "risks": [
+        "Dynasty rookie value should not be treated as a 2026 redraft recommendation."
+      ],
+      "formats": [
+        "dynasty",
+        "rookie"
+      ],
+      "price_condition": "Dynasty rookie rank 3; tier 1",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040867",
+      "player_name": "Makai Lemon",
+      "label": "target",
+      "sentiment": "mixed",
+      "summary": "FantasyPros dynasty rookie consensus ranks Makai Lemon No. 4 overall (WR3) in tier 1.",
+      "rationale": "FantasyPros dynasty rookie consensus ranks Makai Lemon No. 4 overall (WR3) in tier 1.",
+      "risks": [
+        "Dynasty rookie value should not be treated as a 2026 redraft recommendation."
+      ],
+      "formats": [
+        "dynasty",
+        "rookie"
+      ],
+      "price_condition": "Dynasty rookie rank 4; tier 1",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041512",
+      "player_name": "Jadarian Price",
+      "label": "target",
+      "sentiment": "mixed",
+      "summary": "FantasyPros dynasty rookie consensus ranks Jadarian Price No. 5 overall (RB2) in tier 1.",
+      "rationale": "FantasyPros dynasty rookie consensus ranks Jadarian Price No. 5 overall (RB2) in tier 1.",
+      "risks": [
+        "Dynasty rookie value should not be treated as a 2026 redraft recommendation."
+      ],
+      "formats": [
+        "dynasty",
+        "rookie"
+      ],
+      "price_condition": "Dynasty rookie rank 5; tier 1",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041547",
+      "player_name": "KC Concepcion",
+      "label": "target",
+      "sentiment": "mixed",
+      "summary": "FantasyPros dynasty rookie consensus ranks KC Concepcion No. 6 overall (WR4) in tier 2.",
+      "rationale": "FantasyPros dynasty rookie consensus ranks KC Concepcion No. 6 overall (WR4) in tier 2.",
+      "risks": [
+        "Dynasty rookie value should not be treated as a 2026 redraft recommendation."
+      ],
+      "formats": [
+        "dynasty",
+        "rookie"
+      ],
+      "price_condition": "Dynasty rookie rank 6; tier 2",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041511",
+      "player_name": "Omar Cooper Jr.",
+      "label": "target",
+      "sentiment": "mixed",
+      "summary": "FantasyPros dynasty rookie consensus ranks Omar Cooper Jr. No. 7 overall (WR5) in tier 2.",
+      "rationale": "FantasyPros dynasty rookie consensus ranks Omar Cooper Jr. No. 7 overall (WR5) in tier 2.",
+      "risks": [
+        "Dynasty rookie value should not be treated as a 2026 redraft recommendation."
+      ],
+      "formats": [
+        "dynasty",
+        "rookie"
+      ],
+      "price_condition": "Dynasty rookie rank 7; tier 2",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041562",
+      "player_name": "Fernando Mendoza",
+      "label": "target",
+      "sentiment": "mixed",
+      "summary": "FantasyPros dynasty rookie consensus ranks Fernando Mendoza No. 8 overall (QB1) in tier 2.",
+      "rationale": "FantasyPros dynasty rookie consensus ranks Fernando Mendoza No. 8 overall (QB1) in tier 2.",
+      "risks": [
+        "Dynasty rookie value should not be treated as a 2026 redraft recommendation."
+      ],
+      "formats": [
+        "dynasty",
+        "rookie"
+      ],
+      "price_condition": "Dynasty rookie rank 8; tier 2",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041037",
+      "player_name": "Denzel Boston",
+      "label": "target",
+      "sentiment": "mixed",
+      "summary": "FantasyPros dynasty rookie consensus ranks Denzel Boston No. 9 overall (WR6) in tier 2.",
+      "rationale": "FantasyPros dynasty rookie consensus ranks Denzel Boston No. 9 overall (WR6) in tier 2.",
+      "risks": [
+        "Dynasty rookie value should not be treated as a 2026 redraft recommendation."
+      ],
+      "formats": [
+        "dynasty",
+        "rookie"
+      ],
+      "price_condition": "Dynasty rookie rank 9; tier 2",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041032",
+      "player_name": "Kenyon Sadiq",
+      "label": "target",
+      "sentiment": "mixed",
+      "summary": "FantasyPros dynasty rookie consensus ranks Kenyon Sadiq No. 10 overall (TE1) in tier 2.",
+      "rationale": "FantasyPros dynasty rookie consensus ranks Kenyon Sadiq No. 10 overall (TE1) in tier 2.",
+      "risks": [
+        "Dynasty rookie value should not be treated as a 2026 redraft recommendation."
+      ],
+      "formats": [
+        "dynasty",
+        "rookie"
+      ],
+      "price_condition": "Dynasty rookie rank 10; tier 2",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041496",
+      "player_name": "Jonah Coleman",
+      "label": "target",
+      "sentiment": "mixed",
+      "summary": "FantasyPros dynasty rookie consensus ranks Jonah Coleman No. 11 overall (RB3) in tier 2.",
+      "rationale": "FantasyPros dynasty rookie consensus ranks Jonah Coleman No. 11 overall (RB3) in tier 2.",
+      "risks": [
+        "Dynasty rookie value should not be treated as a 2026 redraft recommendation."
+      ],
+      "formats": [
+        "dynasty",
+        "rookie"
+      ],
+      "price_condition": "Dynasty rookie rank 11; tier 2",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041035",
+      "player_name": "De'Zhaun Stribling",
+      "label": "target",
+      "sentiment": "mixed",
+      "summary": "FantasyPros dynasty rookie consensus ranks De'Zhaun Stribling No. 13 overall (WR7) in tier 3.",
+      "rationale": "FantasyPros dynasty rookie consensus ranks De'Zhaun Stribling No. 13 overall (WR7) in tier 3.",
+      "risks": [
+        "Dynasty rookie value should not be treated as a 2026 redraft recommendation."
+      ],
+      "formats": [
+        "dynasty",
+        "rookie"
+      ],
+      "price_condition": "Dynasty rookie rank 13; tier 3",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040870",
+      "player_name": "Ja'Kobi Lane",
+      "label": "target",
+      "sentiment": "mixed",
+      "summary": "FantasyPros dynasty rookie consensus ranks Ja'Kobi Lane No. 14 overall (WR8) in tier 3.",
+      "rationale": "FantasyPros dynasty rookie consensus ranks Ja'Kobi Lane No. 14 overall (WR8) in tier 3.",
+      "risks": [
+        "Dynasty rookie value should not be treated as a 2026 redraft recommendation."
+      ],
+      "formats": [
+        "dynasty",
+        "rookie"
+      ],
+      "price_condition": "Dynasty rookie rank 14; tier 3",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041489",
+      "player_name": "Germie Bernard",
+      "label": "target",
+      "sentiment": "mixed",
+      "summary": "FantasyPros dynasty rookie consensus ranks Germie Bernard No. 15 overall (WR9) in tier 3.",
+      "rationale": "FantasyPros dynasty rookie consensus ranks Germie Bernard No. 15 overall (WR9) in tier 3.",
+      "risks": [
+        "Dynasty rookie value should not be treated as a 2026 redraft recommendation."
+      ],
+      "formats": [
+        "dynasty",
+        "rookie"
+      ],
+      "price_condition": "Dynasty rookie rank 15; tier 3",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041013",
+      "player_name": "Emmett Johnson",
+      "label": "target",
+      "sentiment": "mixed",
+      "summary": "FantasyPros dynasty rookie consensus ranks Emmett Johnson No. 16 overall (RB4) in tier 3.",
+      "rationale": "FantasyPros dynasty rookie consensus ranks Emmett Johnson No. 16 overall (RB4) in tier 3.",
+      "risks": [
+        "Dynasty rookie value should not be treated as a 2026 redraft recommendation."
+      ],
+      "formats": [
+        "dynasty",
+        "rookie"
+      ],
+      "price_condition": "Dynasty rookie rank 16; tier 3",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041040",
+      "player_name": "Antonio Williams",
+      "label": "target",
+      "sentiment": "mixed",
+      "summary": "FantasyPros dynasty rookie consensus ranks Antonio Williams No. 17 overall (WR10) in tier 3.",
+      "rationale": "FantasyPros dynasty rookie consensus ranks Antonio Williams No. 17 overall (WR10) in tier 3.",
+      "risks": [
+        "Dynasty rookie value should not be treated as a 2026 redraft recommendation."
+      ],
+      "formats": [
+        "dynasty",
+        "rookie"
+      ],
+      "price_condition": "Dynasty rookie rank 17; tier 3",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041525",
+      "player_name": "Chris Bell",
+      "label": "target",
+      "sentiment": "mixed",
+      "summary": "FantasyPros dynasty rookie consensus ranks Chris Bell No. 18 overall (WR11) in tier 3.",
+      "rationale": "FantasyPros dynasty rookie consensus ranks Chris Bell No. 18 overall (WR11) in tier 3.",
+      "risks": [
+        "Dynasty rookie value should not be treated as a 2026 redraft recommendation."
+      ],
+      "formats": [
+        "dynasty",
+        "rookie"
+      ],
+      "price_condition": "Dynasty rookie rank 18; tier 3",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040886",
+      "player_name": "Nicholas Singleton",
+      "label": "target",
+      "sentiment": "mixed",
+      "summary": "FantasyPros dynasty rookie consensus ranks Nicholas Singleton No. 19 overall (RB5) in tier 4.",
+      "rationale": "FantasyPros dynasty rookie consensus ranks Nicholas Singleton No. 19 overall (RB5) in tier 4.",
+      "risks": [
+        "Dynasty rookie value should not be treated as a 2026 redraft recommendation."
+      ],
+      "formats": [
+        "dynasty",
+        "rookie"
+      ],
+      "price_condition": "Dynasty rookie rank 19; tier 4",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040878",
+      "player_name": "Mike Washington Jr.",
+      "label": "target",
+      "sentiment": "mixed",
+      "summary": "FantasyPros dynasty rookie consensus ranks Mike Washington Jr. No. 23 overall (RB6) in tier 4.",
+      "rationale": "FantasyPros dynasty rookie consensus ranks Mike Washington Jr. No. 23 overall (RB6) in tier 4.",
+      "risks": [
+        "Dynasty rookie value should not be treated as a 2026 redraft recommendation."
+      ],
+      "formats": [
+        "dynasty",
+        "rookie"
+      ],
+      "price_condition": "Dynasty rookie rank 23; tier 4",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041052",
+      "player_name": "Kaelon Black",
+      "label": "target",
+      "sentiment": "mixed",
+      "summary": "FantasyPros dynasty rookie consensus ranks Kaelon Black No. 24 overall (RB7) in tier 4.",
+      "rationale": "FantasyPros dynasty rookie consensus ranks Kaelon Black No. 24 overall (RB7) in tier 4.",
+      "risks": [
+        "Dynasty rookie value should not be treated as a 2026 redraft recommendation."
+      ],
+      "formats": [
+        "dynasty",
+        "rookie"
+      ],
+      "price_condition": "Dynasty rookie rank 24; tier 4",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041096",
+      "player_name": "Kaytron Allen",
+      "label": "target",
+      "sentiment": "mixed",
+      "summary": "FantasyPros dynasty rookie consensus ranks Kaytron Allen No. 26 overall (RB8) in tier 4.",
+      "rationale": "FantasyPros dynasty rookie consensus ranks Kaytron Allen No. 26 overall (RB8) in tier 4.",
+      "risks": [
+        "Dynasty rookie value should not be treated as a 2026 redraft recommendation."
+      ],
+      "formats": [
+        "dynasty",
+        "rookie"
+      ],
+      "price_condition": "Dynasty rookie rank 26; tier 4",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041044",
+      "player_name": "Zachariah Branch",
+      "label": "target",
+      "sentiment": "mixed",
+      "summary": "FantasyPros dynasty rookie consensus ranks Zachariah Branch No. 27 overall (WR15) in tier 4.",
+      "rationale": "FantasyPros dynasty rookie consensus ranks Zachariah Branch No. 27 overall (WR15) in tier 4.",
+      "risks": [
+        "Dynasty rookie value should not be treated as a 2026 redraft recommendation."
+      ],
+      "formats": [
+        "dynasty",
+        "rookie"
+      ],
+      "price_condition": "Dynasty rookie rank 27; tier 4",
+      "assumptions": []
+    }
+  ]
+}

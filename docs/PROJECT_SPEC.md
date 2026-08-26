@@ -52,12 +52,27 @@ identify comparable production available in a cheaper auction tier. Recalculate
 remaining tier supply after every completed sale and expose it to nomination
 recommendations and future draft-roadmap planning.
 
-The runtime player contract also carries a normalized prior-season actual stat
-line from nflverse and a current-season projected stat line from the canonical
+The runtime player contract also carries normalized 2024 and 2025 actual stat
+lines from nflverse when available and a current-season projected stat line from the canonical
 FantasyPros-primary projection artifact. Preserve season, games, fantasy points,
 counting statistics, and source. Missing prior-season history is explicit for
 rookies and other players without a valid prior NFL record; it must never be
 filled by guessing or confused with a projection.
+
+The board comparison table shows player age and actual 2025 fantasy points when
+available, keeping historical production visibly distinct from projected xPTS.
+The expanded player details also carry nflverse birth date and NFL experience
+when matched through the durable GSIS identity. Age is calculated from the
+birth date at display time; unavailable biography fields remain explicit rather
+than being inferred from names or roster status.
+
+Curated fantasy-analysis writeups are supplemental, attributed evidence. Each
+source is preserved as a versioned local artifact with author, URL, publication
+date, season, and concise player-level paraphrases matched to the canonical
+player registry. The runtime imports those takeaways into SQLite and exposes
+them in expanded Player Details while remaining fully offline. Analyst labels
+and opinions do not silently modify projections, market price, production
+value, or the shared walk-away price.
 
 Use FantasyPros as the primary source for the preseason player pool and projected counting statistics. Treat FantasyFootballAnalytics (FFA) and future projection or player-data providers as enrichment sources for uncertainty, kicker detail, injuries, biographical attributes, comparison signals, or missing fields. Preserve every provider independently at the raw-data boundary. Merged model inputs must retain field-level source provenance and apply explicit, tested conflict and fallback rules rather than silently blending or overwriting values.
 
@@ -117,20 +132,63 @@ points above replacement (`xPAR`), the drop to the next-best available player
 at the same position (`DROP`), expected JUGG sale price (`xPRICE`), and the
 expected sale-price range. `xRANK` is the cross-position ordering of xPAR.
 `DROP` recalculates locally as players leave the available pool. During board
-validation, the table also exposes production value, production tier, and live
-scarcity so their usefulness can be evaluated. Production value remains an
-analytical conversion of xPAR into league-economy dollars and must be clearly
-labeled so it is not mistaken for the market-facing xPRICE.
+validation, the table also exposes production tier and the number of players
+remaining in that position-tier. Production value remains an internal
+analytical conversion of xPAR into league-economy dollars and is not displayed
+beside the market-facing xPRICE.
 
 The interface is a full-width sortable player table with a compact sticky
 nomination bar. Clicking a player row expands supporting player information in
-place without leaving the board. A collapsible bottom workspace provides three
+place without leaving the board. The expanded view uses a compact identity and
+action header, a larger readable fantasy-analyst consensus section, and a
+full-width actual-versus-projected stat table. It does not repeat board metrics
+in large summary tiles or show comparable alternatives. A collapsible bottom workspace provides three
 tables: League Strength, Team Rosters, and Draft History. Team Rosters preserves
 the authoritative roster-slot reassignment workflow and Google Sheets outbox
 synchronization. Draft History preserves confirmed sale reversal and the
 immutable audit trail. The existing local draft engine, SQLite persistence,
 recovery behavior, and Google Sheets adapter remain authoritative and are not
 forked for the new interface.
+
+External fantasy analysis is retained as versioned, source-attributed research
+with an article-level summary and optional player-level takeaways. It remains
+available to the local data layer and is summarized on the draft board using a
+simple two-layer vocabulary. `Target`, `Avoid`, or `Watch` is the normalized
+action signal; `Sleeper`, `Breakout`, `Value`, and `Bust` are descriptive tags
+that explain the kind of argument. Repeated opinions from the same analyst count
+once in the displayed positive/negative split. The operator can force Target,
+force Avoid, hide the flag, or restore the automatic classification without
+changing projections, prices, or recommendation calculations.
+
+Player-level aggregate summaries are generated during the repeatable research
+build, not during draft-night page rendering. The build uses the stored
+takeaways, deduplicated analyst opinions, format and price context, risks, and
+source provenance to create a concise grounded synthesis. Each summary is
+cached by an input hash and retains its source IDs, prompt version, model, and
+generation time. SQLite imports the completed artifact so the board remains
+fast and fully functional offline; if a summary is unavailable, the interface
+falls back to deterministic evidence already stored locally.
+
+The same structured takeaways generate a longer preseason research brief in
+Markdown and PDF. This report is a derived, reproducible view rather than a
+second research store. Team-level articles are retained as context and may
+inform opportunity or environment assumptions, but they do not create a
+player-level analyst vote unless the source makes an attributable player claim.
+
+Research ingestion and AI synthesis are separate operations. New articles and
+rankings may be imported without calling an AI model or replacing existing
+summaries. The board derives a pending-summary notice by comparing each cached
+summary's retained source IDs with current player evidence, showing affected
+sources, takeaways, and players until the next explicit batch synthesis. A
+dynasty-only ranking is stored as format context and must not create a redraft
+positive or negative vote.
+
+Factual research tables such as prior-year player targets, team positional
+target shares, analyst accuracy ranks, strength of schedule, and running-back
+depth charts are retained in a separate versioned fantasy-context artifact.
+They may later support weighting or explanatory context, but ingestion alone
+does not convert them into Target/Avoid votes or invalidate player summaries
+that do not quote them.
 
 Setup and administrative controls are grouped under a Draft settings control
 beside the application identity. Nomination order and the recoverable full-draft

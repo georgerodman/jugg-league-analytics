@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260826T235500Z",
+    "built_at": "2026-08-26T23:55:00Z",
+    "season": 2026,
+    "takeaway_count": 0
+  },
+  "source": {
+    "id": "fantasypros:pdf:rb_handcuffs:2026-08-26",
+    "source_key": "fantasypros",
+    "title": "2026 Fantasy Football Handcuffs (Running Backs)",
+    "author": "FantasyPros",
+    "url": "https://www.fantasypros.com/nfl/running-back-handcuffs.php",
+    "published_at": "2026-08-26",
+    "season": 2026,
+    "content_type": "depth_chart",
+    "summary": "Projected starting running back and primary handcuff for every NFL team, with ECR and ADP columns."
+  },
+  "takeaways": []
+}

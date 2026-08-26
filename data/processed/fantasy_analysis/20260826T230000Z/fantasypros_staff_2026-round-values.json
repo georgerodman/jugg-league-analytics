@@ -1,0 +1,141 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260826T230000Z",
+    "built_at": "2026-08-26T23:00:00Z",
+    "season": 2026,
+    "takeaway_count": 7
+  },
+  "source": {
+    "source_key": "fantasypros",
+    "season": 2026,
+    "id": "fantasypros:staff:2026-round-values",
+    "title": "Best Fantasy Football Draft Values in Every Round (2026)",
+    "author": "FantasyPros Staff",
+    "url": "https://www.fantasypros.com/2026/07/best-fantasy-football-draft-values-in-every-round-2026/",
+    "published_at": "2026-07",
+    "content_type": "round_values",
+    "summary": "Selects the best value in each round of a 12-team, one-quarterback PPR draft."
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0037248",
+      "player_name": "James Cook III",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Cook's three-year rushing growth and consecutive 16-point PPR seasons make him a strong late-first value.",
+      "rationale": "Cook's three-year rushing growth and consecutive 16-point PPR seasons make him a strong late-first value.",
+      "risks": [
+        "First-round acquisition cost."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Round 1 / ADP 10.8",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038597",
+      "player_name": "Chase Brown",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Brown has consecutive top-10-caliber seasons, stable featured usage, and a high-scoring offense.",
+      "rationale": "Brown has consecutive top-10-caliber seasons, stable featured usage, and a high-scoring offense.",
+      "risks": [
+        "Requires another efficient, touchdown-heavy season."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Round 2 / ADP 19.8",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0039067",
+      "player_name": "Rashee Rice",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Rice's on-field production supports a third-round value if legal, suspension, and knee issues clear.",
+      "rationale": "Rice's on-field production supports a third-round value if legal, suspension, and knee issues clear.",
+      "risks": [
+        "Possible suspension, knee recovery, and off-field risk."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Round 3 / ADP 26.3",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040715",
+      "player_name": "Cam Skattebo",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Skattebo's healthy 2025 stretch showed RB1 production at a fourth-round price.",
+      "rationale": "Skattebo's healthy 2025 stretch showed RB1 production at a fourth-round price.",
+      "risks": [
+        "Recovery from a major ankle injury."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Round 4 / ADP 44.3",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0034827",
+      "player_name": "DJ Moore",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Moore gains Josh Allen and a path to become Buffalo's first true go-to receiver since Stefon Diggs.",
+      "rationale": "Moore gains Josh Allen and a path to become Buffalo's first true go-to receiver since Stefon Diggs.",
+      "risks": [
+        "Role projection in a new offense."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Round 5 / ADP 56.5",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0039919",
+      "player_name": "Rome Odunze",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Odunze's hot 2025 start and DJ Moore's departure create a path to top-12 production.",
+      "rationale": "Odunze's hot 2025 start and DJ Moore's departure create a path to top-12 production.",
+      "risks": [
+        "Luther Burden and Colston Loveland still compete for targets."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Round 6 / ADP 61.8",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038996",
+      "player_name": "Tucker Kraft",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Kraft's pre-injury TE1 scoring rate and Green Bay's vacated targets support an elite ceiling.",
+      "rationale": "Kraft's pre-injury TE1 scoring rate and Green Bay's vacated targets support an elite ceiling.",
+      "risks": [
+        "ACL recovery must hold through Week 1."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Round 7 / ADP 80.3",
+      "assumptions": []
+    }
+  ]
+}

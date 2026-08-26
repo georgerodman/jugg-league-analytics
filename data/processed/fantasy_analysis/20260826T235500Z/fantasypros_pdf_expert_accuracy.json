@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260826T235500Z",
+    "built_at": "2026-08-26T23:55:00Z",
+    "season": 2026,
+    "takeaway_count": 0
+  },
+  "source": {
+    "id": "fantasypros:pdf:expert_accuracy:2026-08-26",
+    "source_key": "fantasypros",
+    "title": "2025 Fantasy Football Accuracy Scores",
+    "author": "FantasyPros",
+    "url": "https://www.fantasypros.com/nfl/accuracy/",
+    "published_at": "2025-12-31",
+    "season": 2026,
+    "content_type": "analyst_accuracy",
+    "summary": "2025 overall and position-level expert accuracy ranks used as source-quality context."
+  },
+  "takeaways": []
+}

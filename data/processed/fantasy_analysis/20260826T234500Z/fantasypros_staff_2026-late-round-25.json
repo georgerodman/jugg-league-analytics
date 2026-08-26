@@ -1,0 +1,447 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260826T234500Z",
+    "built_at": "2026-08-26T23:45:00Z",
+    "season": 2026,
+    "takeaway_count": 25
+  },
+  "source": {
+    "source_key": "fantasypros",
+    "season": 2026,
+    "id": "fantasypros:staff:2026-late-round-25",
+    "title": "Fantasy Football: 25 Late-Round Draft Picks Experts Love",
+    "author": "FantasyPros Staff",
+    "url": "https://www.fantasypros.com/2026/08/fantasy-football-25-late-round-draft-picks-experts-love-2026/",
+    "published_at": "2026-08-26",
+    "content_type": "ranking_values",
+    "summary": "Twenty-five late-round players whose expert consensus rank is ahead of average draft position."
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0038611",
+      "player_name": "Chris Rodriguez Jr.",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "FantasyPros ranks Chris Rodriguez Jr. overall No. 123 (RB43), 23 spots ahead of ADP, identifying a late-round value.",
+      "rationale": "FantasyPros ranks Chris Rodriguez Jr. overall No. 123 (RB43), 23 spots ahead of ADP, identifying a late-round value.",
+      "risks": [
+        "Ranking gaps are market signals, not standalone role analysis."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Overall ECR 123; 23 spots ahead of ADP",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0039491",
+      "player_name": "Jalen Coker",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "FantasyPros ranks Jalen Coker overall No. 125 (WR51), 33 spots ahead of ADP, identifying a late-round value.",
+      "rationale": "FantasyPros ranks Jalen Coker overall No. 125 (WR51), 33 spots ahead of ADP, identifying a late-round value.",
+      "risks": [
+        "Ranking gaps are market signals, not standalone role analysis."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Overall ECR 125; 33 spots ahead of ADP",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0037261",
+      "player_name": "Khalil Shakir",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "FantasyPros ranks Khalil Shakir overall No. 127 (WR52), 27 spots ahead of ADP, identifying a late-round value.",
+      "rationale": "FantasyPros ranks Khalil Shakir overall No. 127 (WR52), 27 spots ahead of ADP, identifying a late-round value.",
+      "risks": [
+        "Ranking gaps are market signals, not standalone role analysis."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Overall ECR 127; 27 spots ahead of ADP",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0036264",
+      "player_name": "Jordan Love",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "FantasyPros ranks Jordan Love overall No. 130 (QB19), 12 spots ahead of ADP, identifying a late-round value.",
+      "rationale": "FantasyPros ranks Jordan Love overall No. 130 (QB19), 12 spots ahead of ADP, identifying a late-round value.",
+      "risks": [
+        "Ranking gaps are market signals, not standalone role analysis."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Overall ECR 130; 12 spots ahead of ADP",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040743",
+      "player_name": "Tyler Shough",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "FantasyPros ranks Tyler Shough overall No. 133 (QB20), 22 spots ahead of ADP, identifying a late-round value.",
+      "rationale": "FantasyPros ranks Tyler Shough overall No. 133 (QB20), 22 spots ahead of ADP, identifying a late-round value.",
+      "risks": [
+        "Ranking gaps are market signals, not standalone role analysis."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Overall ECR 133; 22 spots ahead of ADP",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0039032",
+      "player_name": "Tyjae Spears",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "FantasyPros ranks Tyjae Spears overall No. 135 (RB46), 25 spots ahead of ADP, identifying a late-round value.",
+      "rationale": "FantasyPros ranks Tyjae Spears overall No. 135 (RB46), 25 spots ahead of ADP, identifying a late-round value.",
+      "risks": [
+        "Ranking gaps are market signals, not standalone role analysis."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Overall ECR 135; 25 spots ahead of ADP",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0036040",
+      "player_name": "Juwan Johnson",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "FantasyPros ranks Juwan Johnson overall No. 137 (TE16), 16 spots ahead of ADP, identifying a late-round value.",
+      "rationale": "FantasyPros ranks Juwan Johnson overall No. 137 (TE16), 16 spots ahead of ADP, identifying a late-round value.",
+      "risks": [
+        "Ranking gaps are market signals, not standalone role analysis."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Overall ECR 137; 16 spots ahead of ADP",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038128",
+      "player_name": "Malik Willis",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "FantasyPros ranks Malik Willis overall No. 138 (QB21), 14 spots ahead of ADP, identifying a late-round value.",
+      "rationale": "FantasyPros ranks Malik Willis overall No. 138 (QB21), 14 spots ahead of ADP, identifying a late-round value.",
+      "risks": [
+        "Ranking gaps are market signals, not standalone role analysis."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Overall ECR 138; 14 spots ahead of ADP",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038454",
+      "player_name": "Keaton Mitchell",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "FantasyPros ranks Keaton Mitchell overall No. 139 (RB47), 25 spots ahead of ADP, identifying a late-round value.",
+      "rationale": "FantasyPros ranks Keaton Mitchell overall No. 139 (RB47), 25 spots ahead of ADP, identifying a late-round value.",
+      "risks": [
+        "Ranking gaps are market signals, not standalone role analysis."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Overall ECR 139; 25 spots ahead of ADP",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038555",
+      "player_name": "Tank Bigsby",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "FantasyPros ranks Tank Bigsby overall No. 140 (RB48), 23 spots ahead of ADP, identifying a late-round value.",
+      "rationale": "FantasyPros ranks Tank Bigsby overall No. 140 (RB48), 23 spots ahead of ADP, identifying a late-round value.",
+      "risks": [
+        "Ranking gaps are market signals, not standalone role analysis."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Overall ECR 140; 23 spots ahead of ADP",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0039163",
+      "player_name": "C.J. Stroud",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "FantasyPros ranks C.J. Stroud overall No. 146 (QB22), 23 spots ahead of ADP, identifying a late-round value.",
+      "rationale": "FantasyPros ranks C.J. Stroud overall No. 146 (QB22), 23 spots ahead of ADP, identifying a late-round value.",
+      "risks": [
+        "Ranking gaps are market signals, not standalone role analysis."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Overall ECR 146; 23 spots ahead of ADP",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0037809",
+      "player_name": "Chig Okonkwo",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "FantasyPros ranks Chig Okonkwo overall No. 147 (TE18), 14 spots ahead of ADP, identifying a late-round value.",
+      "rationale": "FantasyPros ranks Chig Okonkwo overall No. 147 (TE18), 14 spots ahead of ADP, identifying a late-round value.",
+      "risks": [
+        "Ranking gaps are market signals, not standalone role analysis."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Overall ECR 147; 14 spots ahead of ADP",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040162",
+      "player_name": "Dylan Sampson",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "FantasyPros ranks Dylan Sampson overall No. 150 (RB52), 49 spots ahead of ADP, identifying a late-round value.",
+      "rationale": "FantasyPros ranks Dylan Sampson overall No. 150 (RB52), 49 spots ahead of ADP, identifying a late-round value.",
+      "risks": [
+        "Ranking gaps are market signals, not standalone role analysis."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Overall ECR 150; 49 spots ahead of ADP",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041037",
+      "player_name": "Denzel Boston",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "FantasyPros ranks Denzel Boston overall No. 152 (WR57), 14 spots ahead of ADP, identifying a late-round value.",
+      "rationale": "FantasyPros ranks Denzel Boston overall No. 152 (WR57), 14 spots ahead of ADP, identifying a late-round value.",
+      "risks": [
+        "Ranking gaps are market signals, not standalone role analysis."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Overall ECR 152; 14 spots ahead of ADP",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0035710",
+      "player_name": "Daniel Jones",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "FantasyPros ranks Daniel Jones overall No. 154 (QB24), 21 spots ahead of ADP, identifying a late-round value.",
+      "rationale": "FantasyPros ranks Daniel Jones overall No. 154 (QB24), 21 spots ahead of ADP, identifying a late-round value.",
+      "risks": [
+        "Ranking gaps are market signals, not standalone role analysis."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Overall ECR 154; 21 spots ahead of ADP",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0039890",
+      "player_name": "Adonai Mitchell",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "FantasyPros ranks Adonai Mitchell overall No. 155 (WR59), 82 spots ahead of ADP, identifying a late-round value.",
+      "rationale": "FantasyPros ranks Adonai Mitchell overall No. 155 (WR59), 82 spots ahead of ADP, identifying a late-round value.",
+      "risks": [
+        "Ranking gaps are market signals, not standalone role analysis."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Overall ECR 155; 82 spots ahead of ADP",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0034383",
+      "player_name": "Dalton Schultz",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "FantasyPros ranks Dalton Schultz overall No. 156 (TE20), 26 spots ahead of ADP, identifying a late-round value.",
+      "rationale": "FantasyPros ranks Dalton Schultz overall No. 156 (TE20), 26 spots ahead of ADP, identifying a late-round value.",
+      "risks": [
+        "Ranking gaps are market signals, not standalone role analysis."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Overall ECR 156; 26 spots ahead of ADP",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040676",
+      "player_name": "Cam Ward",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "FantasyPros ranks Cam Ward overall No. 157 (QB25), 15 spots ahead of ADP, identifying a late-round value.",
+      "rationale": "FantasyPros ranks Cam Ward overall No. 157 (QB25), 15 spots ahead of ADP, identifying a late-round value.",
+      "risks": [
+        "Ranking gaps are market signals, not standalone role analysis."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Overall ECR 157; 15 spots ahead of ADP",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038563",
+      "player_name": "Tre Tucker",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "FantasyPros ranks Tre Tucker overall No. 160 (WR60), 59 spots ahead of ADP, identifying a late-round value.",
+      "rationale": "FantasyPros ranks Tre Tucker overall No. 160 (WR60), 59 spots ahead of ADP, identifying a late-round value.",
+      "risks": [
+        "Ranking gaps are market signals, not standalone role analysis."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Overall ECR 160; 59 spots ahead of ADP",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0036259",
+      "player_name": "Jauan Jennings",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "FantasyPros ranks Jauan Jennings overall No. 161 (WR61), 13 spots ahead of ADP, identifying a late-round value.",
+      "rationale": "FantasyPros ranks Jauan Jennings overall No. 161 (WR61), 13 spots ahead of ADP, identifying a late-round value.",
+      "risks": [
+        "Ranking gaps are market signals, not standalone role analysis."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Overall ECR 161; 13 spots ahead of ADP",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0039855",
+      "player_name": "Jalen McMillan",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "FantasyPros ranks Jalen McMillan overall No. 162 (WR62), 23 spots ahead of ADP, identifying a late-round value.",
+      "rationale": "FantasyPros ranks Jalen McMillan overall No. 162 (WR62), 23 spots ahead of ADP, identifying a late-round value.",
+      "risks": [
+        "Ranking gaps are market signals, not standalone role analysis."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Overall ECR 162; 23 spots ahead of ADP",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0039794",
+      "player_name": "Braelon Allen",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "FantasyPros ranks Braelon Allen overall No. 164 (RB56), 43 spots ahead of ADP, identifying a late-round value.",
+      "rationale": "FantasyPros ranks Braelon Allen overall No. 164 (RB56), 43 spots ahead of ADP, identifying a late-round value.",
+      "risks": [
+        "Ranking gaps are market signals, not standalone role analysis."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Overall ECR 164; 43 spots ahead of ADP",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0039793",
+      "player_name": "AJ Barner",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "FantasyPros ranks AJ Barner overall No. 166 (TE22), 18 spots ahead of ADP, identifying a late-round value.",
+      "rationale": "FantasyPros ranks AJ Barner overall No. 166 (TE22), 18 spots ahead of ADP, identifying a late-round value.",
+      "risks": [
+        "Ranking gaps are market signals, not standalone role analysis."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Overall ECR 166; 18 spots ahead of ADP",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038393",
+      "player_name": "Dontayvion Wicks",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "FantasyPros ranks Dontayvion Wicks overall No. 170 (WR65), 52 spots ahead of ADP, identifying a late-round value.",
+      "rationale": "FantasyPros ranks Dontayvion Wicks overall No. 170 (WR65), 52 spots ahead of ADP, identifying a late-round value.",
+      "risks": [
+        "Ranking gaps are market signals, not standalone role analysis."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Overall ECR 170; 52 spots ahead of ADP",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040727",
+      "player_name": "Tre' Harris",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "FantasyPros ranks Tre' Harris overall No. 172 (WR66), 54 spots ahead of ADP, identifying a late-round value.",
+      "rationale": "FantasyPros ranks Tre' Harris overall No. 172 (WR66), 54 spots ahead of ADP, identifying a late-round value.",
+      "risks": [
+        "Ranking gaps are market signals, not standalone role analysis."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Overall ECR 172; 54 spots ahead of ADP",
+      "assumptions": []
+    }
+  ]
+}

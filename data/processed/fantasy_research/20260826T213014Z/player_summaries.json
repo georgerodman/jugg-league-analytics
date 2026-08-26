@@ -1,0 +1,1551 @@
+{
+  "metadata": {
+    "schema_version": 1,
+    "build_id": "20260826T213014Z",
+    "built_at": "2026-08-26T21:30:14.753065+00:00",
+    "summary_count": 120,
+    "prompt_version": "fantasy-player-synthesis-v1",
+    "model": "gpt-5.6-luna"
+  },
+  "summaries": [
+    {
+      "player_id": "nfl:gsis:00-0035676",
+      "player_name": "A.J. Brown",
+      "summary": "The available view is to avoid A.J. Brown as a top-10 receiver because of perceived decline and a difficult schedule. This is especially price-sensitive, with role, health, team context, and draft cost still capable of changing the outlook.",
+      "source_ids": [
+        "espn:karabell:2026-do-not-draft"
+      ],
+      "input_hash": "78a823268e75668964c25d53064770ecdbfdf6dafe2f29542e17b6a9382383dd",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0039793",
+      "player_name": "AJ Barner",
+      "summary": "AJ Barner is a sleeper who could retain a significant Seattle passing-game role and take a Year 3 step after multiple top-15 weeks in 2025. Shoulder and ankle recovery, plus his still-inconsistent production and coordinator change, make the breakout less certain.",
+      "source_ids": [
+        "yahoo:justin-boone:2026-te-sleepers"
+      ],
+      "input_hash": "d150a57b65e767695c58eb93e91a20f0e5521c059843b1ff9266920c26fde517",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0041040",
+      "player_name": "Antonio Williams",
+      "summary": "Antonio Williams is viewed as a dynasty receiver stash in Washington, but the supporting analysis is limited to that broad designation. His value remains dependent on earning a meaningful role, while health, team context, and price can shift the assessment.",
+      "source_ids": [
+        "espn:florio:2026-rookie-late-rounds"
+      ],
+      "input_hash": "04248eb1f5152485dec082c0d67743868b8d4341e7c9a50299dc6b28dcad57d3",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0040122",
+      "player_name": "Ashton Jeanty",
+      "summary": "Ashton Jeanty has breakout appeal because improved Raiders infrastructure could better unlock his elite talent. The positive case remains dependent on role, health, team context, and an appropriate draft price.",
+      "source_ids": [
+        "espn:staff:2026-sleepers-busts-breakouts"
+      ],
+      "input_hash": "060e66340b3dfa17c94de2cd64a0c50834f2f73ae2152fd48eacfefd711c38fc",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0034855",
+      "player_name": "Baker Mayfield",
+      "summary": "Baker Mayfield is a post-hype quarterback candidate worth considering at a discount, supported by his prior production. The case is less player-specific than the article\u2019s support for Kyler Murray, so the discount is important.",
+      "source_ids": [
+        "yahoo:chris-allen:2026-post-hype-sleepers"
+      ],
+      "input_hash": "1e0e9fe569b9a4176c1977c09b6d8db20d41b71f79a7e13f850e6bed2dc5a027",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0040719",
+      "player_name": "Bhayshul Tuten",
+      "summary": "Bhayshul Tuten has a clear path to high-end RB2 value and is projected to lead Jacksonville\u2019s backfield in touches after Travis Etienne\u2019s departure. The opportunity-based case still depends on his actual role, health, team context, and draft cost.",
+      "source_ids": [
+        "espn:moody:2026-vacated-opportunity",
+        "espn:staff:2026-sleepers-busts-breakouts"
+      ],
+      "input_hash": "a0e2256b5c6c362ac5b710ea9360c040f5cd0fc77d27d7480b6bc868f0ae1472",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0038542",
+      "player_name": "Bijan Robinson",
+      "summary": "Bijan Robinson is viewed as an early-pick, league-winning target because of his elite all-purpose profile and Atlanta\u2019s reinforced commitment. His high acquisition cost leaves little room for disappointment.",
+      "source_ids": [
+        "yahoo:scott-pianowski:2026-targets-fades"
+      ],
+      "input_hash": "d14c942f5a5d469fab191dd9c00c0b156c85d81804943d1ec25b970d21f4af5c",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0039738",
+      "player_name": "Blake Corum",
+      "summary": "Blake Corum offers immediate flex value through an expected weekly role, with RB1 upside if Kyren Williams misses time. Much of the ceiling is contingent on an injury ahead of him, so his price should reflect that uncertainty.",
+      "source_ids": [
+        "espn:moody:2026-draft-targets",
+        "espn:moody:2026-rb-insurance",
+        "yahoo:scott-pianowski:2026-targets-fades"
+      ],
+      "input_hash": "90a40e376e04cd9b91e2894fcf2d8fad8083e0070ac431f0a1e33889f1a52244",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0038120",
+      "player_name": "Breece Hall",
+      "summary": "Breece Hall is a rebound target based on a projected workload and the expected benefit of Geno Smith. The case remains subject to role, health, team context, and draft price.",
+      "source_ids": [
+        "espn:moody:2026-draft-targets"
+      ],
+      "input_hash": "257f65721c6d4ea7760dd93d4cac88a3c929b94ffa1a5860802cf3ef20dadd09",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0037746",
+      "player_name": "Brian Robinson Jr.",
+      "summary": "Brian Robinson Jr. is primarily valuable as contingency depth: despite a limited receiving role, he could have RB1 upside if Bijan Robinson misses time. That upside is highly dependent on the injury scenario and should be weighed against his ordinary standalone role.",
+      "source_ids": [
+        "espn:moody:2026-rb-insurance"
+      ],
+      "input_hash": "69ee676001b8ebe8841bdaa8a27f6e232ece05bb516318b7650fff51fb4c7f14",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0039338",
+      "player_name": "Brock Bowers",
+      "summary": "Brock Bowers is a positive rebound candidate if his knee is healthy and quarterback play improves, potentially restoring elite tight-end production. The outlook remains dependent on health, role, team context, and draft price.",
+      "source_ids": [
+        "espn:karabell:2026-bounce-backs"
+      ],
+      "input_hash": "ac3e07eb6fea9d698ee2ea4d1d6cd5ab7e84df4650096f6a6d87a97bedab9d3d",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0037834",
+      "player_name": "Brock Purdy",
+      "summary": "Brock Purdy offers a potentially low-cost route to strong passing efficiency after an injury-shortened season, with a proven downfield receiver further supporting his outlook. His value still depends on returning healthy and acquiring him at a reasonable price.",
+      "source_ids": [
+        "espn:karabell:2026-bounce-backs",
+        "espn:karabell:2026-do-draft"
+      ],
+      "input_hash": "22dd585d281dee7dfa89bf691d0211d54b21fb990f8ce61d85bc21503945a654",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0039361",
+      "player_name": "Bucky Irving",
+      "summary": "Bucky Irving remains a rebound buy at a discounted price because he retained the lead role and has demonstrated rushing and receiving ability, especially if Tampa Bay\u2019s health and line improve. However, his sharp efficiency decline, shoulder concern, and Kenneth Gainwell\u2019s threat create substantial workload and performance risk.",
+      "source_ids": [
+        "espn:karabell:2026-do-not-draft",
+        "yahoo:chris-allen:2026-post-hype-sleepers",
+        "yahoo:scott-pianowski:2026-targets-fades"
+      ],
+      "input_hash": "6ad457b50b5d51c2b798c6a7af16da1d88df152852ec43231fac1fc816cbd1ca",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0039163",
+      "player_name": "C.J. Stroud",
+      "summary": "C.J. Stroud is a late-round rebound candidate with QB1 upside if improved receiving depth, backfield balance, and line play restore his rhythm. Recent injuries, supporting-cast inconsistency, and the offensive line\u2019s uncertainty make the bounce-back assumption important.",
+      "source_ids": [
+        "espn:staff:2026-sleepers-busts-breakouts",
+        "yahoo:justin-boone:2026-qb-sleepers"
+      ],
+      "input_hash": "b4ee155563ce4b560e49115bf068e5dd5be513df05d142f50f1942727e7bedd2",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0041523",
+      "player_name": "Caleb Douglas",
+      "summary": "Caleb Douglas is a late-round sleeper because Miami\u2019s remade receiver room creates an immediate opportunity. His fantasy value is highly dependent on earning a meaningful role, along with health and price.",
+      "source_ids": [
+        "espn:florio:2026-rookie-late-rounds"
+      ],
+      "input_hash": "3e6c3cc0e847720b1f8012e9349ea004e7eeae51e88a084e9c767374344b13d6",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0040715",
+      "player_name": "Cam Skattebo",
+      "summary": "Cam Skattebo has meaningful volume and RB1 upside in a run-heavy, improved Giants offense, particularly at the cited Round 4/ADP 44.3 price in redraft PPR. The bullish case conflicts with an avoid view centered on ankle recovery, health, violent style, role uncertainty, and Tyrone Tracy\u2019s presence.",
+      "source_ids": [
+        "espn:karabell:2026-do-not-draft",
+        "espn:moody:2026-draft-targets",
+        "fantasypros:staff:2026-round-values",
+        "nfl:okada:2026-breakouts"
+      ],
+      "input_hash": "faa9e6ff0786df738a79b21a9823e0489628842395a7da4bbc0fbe7e3d39789d",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0040676",
+      "player_name": "Cam Ward",
+      "summary": "Cam Ward is a strong late-round QB2 sleeper with low-end QB1 potential if Tennessee\u2019s upgraded weapons and new offensive structure click; multiple sources highlight his post-bye improvement. His ceiling is limited by uncertain line play, modest rushing production, and the need for a substantial second-year adjustment.",
+      "source_ids": [
+        "espn:moody:2026-draft-targets",
+        "espn:staff:2026-sleepers-busts-breakouts",
+        "nfl:okada:2026-breakouts",
+        "yahoo:justin-boone:2026-qb-sleepers"
+      ],
+      "input_hash": "b12b9af5a4befa750d0e6cb6ad68a24c9290abb8be95ddade4444d1d9a12e638",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0041438",
+      "player_name": "Carnell Tate",
+      "summary": "Carnell Tate is an avoid for 2026 redraft because Wan\u2019Dale Robinson\u2019s familiarity with Brian Daboll\u2019s offense could give him the earlier role. Tate\u2019s long-term prospect appeal and ability to develop quickly provide a counterpoint, but not necessarily immediate value.",
+      "source_ids": [
+        "yahoo:scott-pianowski:2026-targets-fades"
+      ],
+      "input_hash": "ae4365038e511e88aa7a7d90790ce0b0a18f60acf133baa0db5eec54ab030979",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0041561",
+      "player_name": "Carson Beck",
+      "summary": "Carson Beck is a deep superflex stash with a plausible path to Arizona starts and potential late value. The appeal is entirely contingent on a starting opportunity, with role and team context able to change.",
+      "source_ids": [
+        "espn:cockcroft:2026-deep-sleepers",
+        "espn:florio:2026-rookie-late-rounds"
+      ],
+      "input_hash": "98e571bff1b088e88ea255091a655cdfb17a893256ee4ce12a275cfe0ef50a54",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0038597",
+      "player_name": "Chase Brown",
+      "summary": "Chase Brown profiles as a dependable early-round target with featured, across-package usage, consecutive strong seasons, and a high-scoring offense supporting his redraft PPR case at Round 2/ADP 19.8. That price leaves less margin for role or efficiency regression and assumes another efficient, touchdown-heavy season.",
+      "source_ids": [
+        "espn:karabell:2026-do-draft",
+        "fantasypros:staff:2026-round-values",
+        "yahoo:scott-pianowski:2026-targets-fades"
+      ],
+      "input_hash": "de00eb1748f21aa94feeb8a92bfb5d53d3d5bd782aeb16f1a4cace96224b1808",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0037809",
+      "player_name": "Chig Okonkwo",
+      "summary": "Eric Moody views Okonkwo as a potential larger-role target following Zach Ertz\u2019s exit and Washington\u2019s contract signal, but the case remains dependent on role, health, team context, and draft price.",
+      "source_ids": [
+        "espn:moody:2026-vacated-opportunity"
+      ],
+      "input_hash": "291d5a8f5fb6bc0b87f5f0729d359271c60e0c2868c1560975c497cd9366619a",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0041525",
+      "player_name": "Chris Bell",
+      "summary": "Bell is an inexpensive Miami-target sleeper with final-round PPR upside if he has fully recovered from his ACL tear. His outlook is tempered by recovery uncertainty and an unsettled offense.",
+      "source_ids": [
+        "cbs:cummings:2026-deep-sleepers",
+        "espn:florio:2026-rookie-late-rounds"
+      ],
+      "input_hash": "b7dcc50100451268b09ecf065d7d630c0af9a05114ba9f00a535aabb34af37e9",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0033921",
+      "player_name": "Chris Godwin Jr.",
+      "summary": "Godwin profiles as a low-price rebound candidate who could regain slot volume and benefit from Mike Evans\u2019 departure if healthy. The upside depends heavily on his health and role.",
+      "source_ids": [
+        "espn:karabell:2026-bounce-backs",
+        "espn:moody:2026-draft-targets"
+      ],
+      "input_hash": "25e17de8ecb46cf4a691e42fdfa377731f9055b542cd7c52ce0360d1fdc9cacd",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0038611",
+      "player_name": "Chris Rodriguez Jr.",
+      "summary": "Rodriguez is a late early-down and possible red-zone value whose tackle-breaking ability and comparable camp reps give him a path past Tuten, though receiving upside is limited and Jacksonville could use a committee. He is most appealing around Round 10.",
+      "source_ids": [
+        "espn:moody:2026-rb-insurance",
+        "nfl:okada:2026-late-round-sleepers"
+      ],
+      "input_hash": "ae76fa5d98d331f076b9e3bc5a9f7e9cf0d45af94d81d8e7cfd033f7e81eb9ed",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0033280",
+      "player_name": "Christian McCaffrey",
+      "summary": "The supplied analysis strongly fades McCaffrey at a top-six or first-round price because of age, declining rushing efficiency, and a 413-plus-touch workload. His receiving volume still supports an elite outcome, but the investment is viewed as unusually fragile.",
+      "source_ids": [
+        "cbs:eisenberg:2026-august-risers-fallers",
+        "espn:karabell:2026-do-not-draft",
+        "espn:loza:2026-big-name-avoids",
+        "espn:staff:2026-sleepers-busts-breakouts",
+        "nfl:kownack:2026-riskiest",
+        "yahoo:scott-pianowski:2026-targets-fades"
+      ],
+      "input_hash": "27f2b7dadce5169d16c92b03d941846d6863c9abc914907cbb5de96feabaa523",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0036555",
+      "player_name": "Chuba Hubbard",
+      "summary": "Hubbard is viewed as a discounted, volume-based running back with useful post-hype value and a productive 2024 profile. The tradeoff is a relatively modest ceiling and less player-specific support than some alternatives.",
+      "source_ids": [
+        "yahoo:chris-allen:2026-post-hype-sleepers",
+        "yahoo:scott-pianowski:2026-targets-fades"
+      ],
+      "input_hash": "00f8f00f4dee33f9636c79577ca97205aa58ad5d00e10e4d8eec059e9c206253",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0034827",
+      "player_name": "DJ Moore",
+      "summary": "Moore is a bounce-back WR2 candidate and a Round 5 value at roughly ADP 56.5, with Josh Allen and a chance to become Buffalo\u2019s primary established receiver supporting the upside. The projection remains dependent on his fit in the new offense.",
+      "source_ids": [
+        "espn:karabell:2026-bounce-backs",
+        "fantasypros:staff:2026-round-values"
+      ],
+      "input_hash": "fc054f8d503cd56dbbb6dd3b60ebe4e9d56dc4b44c7cd2bb0aaa1b3c6acecdba",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0033077",
+      "player_name": "Dak Prescott",
+      "summary": "Prescott is a target for likely passing volume in a Dallas offense with two star receivers, a weak defense, and shootout potential. The recommendation assumes Dallas again sustains frequent high-volume games.",
+      "source_ids": [
+        "espn:moody:2026-draft-targets",
+        "yahoo:scott-pianowski:2026-targets-fades"
+      ],
+      "input_hash": "a37d781a0e5c7e8973cc47ef4b6be88debfa83e0d1d9d1a196702ee2bb729de4",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0034351",
+      "player_name": "Dallas Goedert",
+      "summary": "The supplied analysts uniformly view Goedert as an avoid because his 2025 touchdown rate is unlikely to repeat, his yards per catch declined, and durability is a concern. Philadelphia\u2019s red-zone role offers some residual upside, but the case is weak at an elevated price.",
+      "source_ids": [
+        "espn:karabell:2026-do-not-draft",
+        "espn:loza:2026-big-name-avoids",
+        "yahoo:scott-pianowski:2026-targets-fades"
+      ],
+      "input_hash": "3ce4bb441e80fc262426fd2853f55856084b08c55e1069d03f53569ba0b9a785",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0038933",
+      "player_name": "Dalton Kincaid",
+      "summary": "Kincaid remains a reduced-price breakout sleeper with a path to a larger Buffalo receiving role, particularly in Round 11 or later. He has not yet consistently converted opportunity into elite production, making price and role important.",
+      "source_ids": [
+        "espn:karabell:2026-do-draft",
+        "nfl:okada:2026-late-round-sleepers"
+      ],
+      "input_hash": "7a719f2c4c13f48e716f14f19f66d5e7e3dcacd244ba8a4cca668584802ffa25",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0034383",
+      "player_name": "Dalton Schultz",
+      "summary": "Dalton Schultz profiles as a high-end TE2 with TE1 upside, supported by a strong 2025 finish, a projected 100-plus targets, and increased opportunity after Jayden Higgins\u2019 injury. He is attractive around TE13/ADP 173 in PPR, but touchdown variance, Jaylin Noel\u2019s emergence, and a lower ceiling limit the upside.",
+      "source_ids": [
+        "cbs:cummings:2026-deep-sleepers",
+        "yahoo:justin-boone:2026-te-sleepers"
+      ],
+      "input_hash": "e69191a179935ddce84e4f04ea1effd6db72180077ec11a879abe520a2e0916e",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0035710",
+      "player_name": "Daniel Jones",
+      "summary": "Daniel Jones is an avoid based on Achilles-recovery concerns and lingering efficiency questions. The view is especially price-sensitive, with role, health, team context, and draft cost still capable of changing his outlook.",
+      "source_ids": [
+        "espn:karabell:2026-do-not-draft"
+      ],
+      "input_hash": "7492e496559aa8c176f760ed983f526a075e7a6fe4968e9d71cbe0f3c98c3fbf",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0031381",
+      "player_name": "Davante Adams",
+      "summary": "Davante Adams is a fade because his 2025 production leaned heavily on touchdowns, creating regression risk at age 33. His value depends on role, health, team context, and draft price, which remain uncertain.",
+      "source_ids": [
+        "espn:loza:2026-big-name-avoids"
+      ],
+      "input_hash": "87f28b05c7b09f903c86d71b639b35c83484a6352be758cc54c69a82adfb7da0",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0035685",
+      "player_name": "David Montgomery",
+      "summary": "David Montgomery is a target to lead Houston\u2019s backfield and regain meaningful touchdown volume, giving him a strong bounce-back case. The outlook remains dependent on his role, health, team context, and acquisition cost.",
+      "source_ids": [
+        "espn:karabell:2026-bounce-backs",
+        "espn:karabell:2026-do-draft"
+      ],
+      "input_hash": "5b3ed87e698433e6d17148eafc4131069d52b0904971acde09c8c56d8ed59dc6",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0033885",
+      "player_name": "David Njoku",
+      "summary": "David Njoku is a discounted post-hype rebound candidate whose athletic receiving profile could benefit from an improved ecosystem. However, the supporting case is relatively thin, and his outcome depends heavily on price and a genuine environment rebound.",
+      "source_ids": [
+        "yahoo:chris-allen:2026-post-hype-sleepers"
+      ],
+      "input_hash": "2eb2d9909a6b7d665e2ebf94ac1bcb41825eb20931bd8f61c9b4c74555404eb9",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0039040",
+      "player_name": "De'Von Achane",
+      "summary": "De\u2019Von Achane is a fade at cost because Miami\u2019s quarterback, receiving corps, and coaching changes could reduce his receiving efficiency, space, and workload value. His exceptional talent could overcome those conditions, making the recommendation primarily price-dependent.",
+      "source_ids": [
+        "espn:loza:2026-big-name-avoids",
+        "yahoo:scott-pianowski:2026-targets-fades"
+      ],
+      "input_hash": "02440fc0eb7e2ae119990b844f159641fdefe486a24c14ebf8402b1981dfba7a",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0041035",
+      "player_name": "De'Zhaun Stribling",
+      "summary": "De\u2019Zhaun Stribling has late-round sleeper appeal, with camp/preseason usage and San Francisco\u2019s changing, depleted receiver group creating a path to snaps. The Round 9 redraft/PPR case carries uncertainty because veterans ahead of him were absent from the evaluated game.",
+      "source_ids": [
+        "cbs:eisenberg:2026-august-risers-fallers",
+        "espn:florio:2026-rookie-late-rounds"
+      ],
+      "input_hash": "bada62a3137126f1c2807ba2f359464a6760beec818eb58fec16db9099d24726",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0032764",
+      "player_name": "Derrick Henry",
+      "summary": "Derrick Henry remains an attractive target for his elite rushing and touchdown profile despite age concerns. The positive case still depends on maintaining his role and health at an acceptable draft price.",
+      "source_ids": [
+        "espn:karabell:2026-do-draft"
+      ],
+      "input_hash": "efb77d7b379e60da336dc346c38d298aca5022ddf3a443ad05270b0937136877",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0039851",
+      "player_name": "Drake Maye",
+      "summary": "Drake Maye is viewed as an avoid at an elevated cost because of regression risk, a harder schedule, and the availability of cheaper quarterback alternatives. Individual growth could offset the schedule, but the current case is primarily a price fade.",
+      "source_ids": [
+        "espn:karabell:2026-do-not-draft",
+        "yahoo:scott-pianowski:2026-targets-fades"
+      ],
+      "input_hash": "155afb67f7bd961a38b214a94f609dc66b2d655e3816e10582734a10598c57c6",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0040129",
+      "player_name": "Emeka Egbuka",
+      "summary": "Emeka Egbuka has breakout appeal as a potential Tampa Bay target leader following Mike Evans\u2019 departure, with veteran competition less obstructive as Chris Godwin ages. A toe injury and remaining competition warrant monitoring, and the outlook depends on his health and draft price.",
+      "source_ids": [
+        "espn:staff:2026-sleepers-busts-breakouts",
+        "yahoo:scott-pianowski:2026-targets-fades"
+      ],
+      "input_hash": "9f84a0531bffa48d9aae00500a229f5d1d0697f9a3dcaef35e4a78cfa0dd8f04",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0041013",
+      "player_name": "Emmett Johnson",
+      "summary": "Emmett Johnson is a late-round sleeper who could earn passing-down work in Kansas City. His value remains dependent on role, health, team context, and draft price.",
+      "source_ids": [
+        "espn:florio:2026-rookie-late-rounds"
+      ],
+      "input_hash": "4c1940e35abed594ae7e8850a4aa520b81b99657d5fe007ed2b54ffad73281c0",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0037740",
+      "player_name": "Garrett Wilson",
+      "summary": "Garrett Wilson is viewed positively as a volume target with Geno Smith. His outlook still depends on role, health, team context, and price.",
+      "source_ids": [
+        "espn:moody:2026-draft-targets"
+      ],
+      "input_hash": "86c3b689d1bb4ddecccc761084b419a7e305f48ffe929aa16772a432663791d1",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0030565",
+      "player_name": "Geno Smith",
+      "summary": "Geno Smith is a deep-sleeper rebound candidate because of his prior fantasy success and a potentially stronger Jets offense. The poor Las Vegas season and uncertainty of returning to his peak make the rebound far from assured.",
+      "source_ids": [
+        "yahoo:justin-boone:2026-qb-sleepers"
+      ],
+      "input_hash": "66f0e409ba443d6e04bcb930e22bf610d9cbe57f8c9ce4e301ac6a2bdc30c22a",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0033288",
+      "player_name": "George Kittle",
+      "summary": "George Kittle is appealing late in PPR redraft leagues, but should be avoided if Achilles optimism pushes him materially above Round 9. A Week 1 return and continued elite chemistry with Brock Purdy remain the upside case.",
+      "source_ids": [
+        "nfl:kownack:2026-riskiest"
+      ],
+      "input_hash": "29d564fc142a4a0696183e08980767249170c44cd883bcf93e9d61d523fe12ae",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0037252",
+      "player_name": "Greg Dulcich",
+      "summary": "Greg Dulcich is a near-free sleeper with a plausible every-down role and outside top-12 tight-end upside, supported by Miami's thin pass-catcher group. Injury history, a potentially low-volume offense, and the long odds of weekly-starting production keep him speculative.",
+      "source_ids": [
+        "espn:cockcroft:2026-deep-sleepers",
+        "espn:moody:2026-vacated-opportunity",
+        "yahoo:justin-boone:2026-te-sleepers"
+      ],
+      "input_hash": "522e122002615531209905c870c5d791b01812d5dbc027d955e9d15c3f60f2de",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0040663",
+      "player_name": "Harold Fannin Jr.",
+      "summary": "Harold Fannin Jr. has proven receiving talent and benefits from David Njoku's departure, but the evidence leans cautious because his price is aggressive amid Cleveland's crowded, unsettled offense. New impact receivers and quarterback uncertainty support the fade, creating meaningful disagreement.",
+      "source_ids": [
+        "espn:moody:2026-draft-targets",
+        "espn:staff:2026-sleepers-busts-breakouts",
+        "yahoo:scott-pianowski:2026-targets-fades"
+      ],
+      "input_hash": "02324b4b7f9288dd7dad5fbc3ca29a6b8c3774c941f2ab391c4608aa1bbd69cc",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0033090",
+      "player_name": "Hunter Henry",
+      "summary": "Hunter Henry is an affordable late-round tight end target based on his stable role. His value remains sensitive to role, health, team context, and price.",
+      "source_ids": [
+        "espn:karabell:2026-do-draft"
+      ],
+      "input_hash": "fa6f4ab622348452731bb29bcc989dc8f7a6f6e4fc225ae1489f1ea3d5c8920e",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0040870",
+      "player_name": "Ja'Kobi Lane",
+      "summary": "Ja'Kobi Lane is a late-round sleeper with size-driven red-zone and touchdown upside, particularly for dynasty formats. His opportunity and eventual role remain uncertain.",
+      "source_ids": [
+        "espn:cockcroft:2026-deep-sleepers",
+        "espn:florio:2026-rookie-late-rounds"
+      ],
+      "input_hash": "4518ce1fcc165d7b40cb03025b6345f412a20780015a0a5af7c40e6d884f199c",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0040242",
+      "player_name": "Jacory Croskey-Merritt",
+      "summary": "Jacory Croskey-Merritt offers inexpensive lead-back upside after entering atop Washington's depth chart, flashing late in 2025 and reportedly improving as a receiver. The committee remains unsettled, with Rachaad White handling passing downs and Kaytron Allen competing for work.",
+      "source_ids": [
+        "espn:moody:2026-rb-insurance",
+        "yahoo:justin-boone:2026-rb-sleepers"
+      ],
+      "input_hash": "e8261309e1c2550e5d0aa7cc85f557e1ff9fcb7a81cc1b0663b0130a3fc57978",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0041512",
+      "player_name": "Jadarian Price",
+      "summary": "Jadarian Price is a discounted breakout target with a relatively clear path to Seattle's vacated backfield work. The recommendation depends on that role materializing, along with his health and price.",
+      "source_ids": [
+        "espn:karabell:2026-do-draft",
+        "espn:staff:2026-sleepers-busts-breakouts"
+      ],
+      "input_hash": "ffdd9655e531646d944dea4274de61e7bc4edebeb44e80079f394464fd1a249c",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0034960",
+      "player_name": "Jakobi Meyers",
+      "summary": "Jakobi Meyers is viewed as a steady producer who offers value at a discount. His outlook remains dependent on role, health, team context, and draft price.",
+      "source_ids": [
+        "espn:moody:2026-draft-targets"
+      ],
+      "input_hash": "b9760a59fc439f581e87c5fd67fc9f9979659af33d089f88d81a0e695d337d12",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0039491",
+      "player_name": "Jalen Coker",
+      "summary": "Jalen Coker is a strong late-round target, with improving efficiency, planned slot usage, and Carolina\u2019s extension suggesting a larger role. Competition for targets remains the primary concern, particularly in the Round 10-13 range for redraft PPR.",
+      "source_ids": [
+        "cbs:cummings:2026-deep-sleepers",
+        "espn:moody:2026-draft-targets",
+        "yahoo:scott-pianowski:2026-targets-fades"
+      ],
+      "input_hash": "31df53f9231e3ab288a4d9ff3e01aac1dea3de255c0c527f9332ab98628d2934",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0036389",
+      "player_name": "Jalen Hurts",
+      "summary": "Jalen Hurts is a fade after a significant decline in rushing production and possible development time for Philadelphia\u2019s new receivers. His established goal-line role still preserves a high ceiling, creating risk if drafted at a premium.",
+      "source_ids": [
+        "yahoo:scott-pianowski:2026-targets-fades"
+      ],
+      "input_hash": "943c02dce439c0cf118a6aa07e511d10596e42a6e3db9a6f28db89a42ffd0abb",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0039855",
+      "player_name": "Jalen McMillan",
+      "summary": "Jalen McMillan offers major late-round upside after flashing league-winning production and returning strongly from a serious neck injury. Emeka Egbuka and Chris Godwin remain ahead of him, while his limited 2025 season adds uncertainty.",
+      "source_ids": [
+        "yahoo:justin-boone:2026-wr-sleepers"
+      ],
+      "input_hash": "79417de1fdec485775fa4b75b1a1be698b2eaf17b1e67f4bdaee12c81bf63c67",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0037248",
+      "player_name": "James Cook III",
+      "summary": "James Cook is considered a strong late-first-round PPR value based on sustained rushing growth and consecutive 16-point seasons. The main risk is paying a first-round price for that production.",
+      "source_ids": [
+        "espn:karabell:2026-do-draft",
+        "fantasypros:staff:2026-round-values"
+      ],
+      "input_hash": "82e1bbe59db58605496eceb994ac110d979cb746748d31bea7599d83d17218ad",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0037240",
+      "player_name": "Jameson Williams",
+      "summary": "Jameson Williams is a fade as an inconsistent name-brand receiver whose late-season spike may not repeat with Sam LaPorta healthy. His game-breaking efficiency and weekly upside remain meaningful counterpoints.",
+      "source_ids": [
+        "yahoo:scott-pianowski:2026-targets-fades"
+      ],
+      "input_hash": "be15e16202989b7787004eaeef8159c999e6c7df5696aa59ce6adbba5861bfa7",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0033106",
+      "player_name": "Jared Goff",
+      "summary": "Jared Goff is an attractive late-ADP target after four years of strong touchdown and yardage production plus an easy indoor-heavy schedule. His ceiling depends heavily on passing efficiency because he offers limited rushing value.",
+      "source_ids": [
+        "yahoo:scott-pianowski:2026-targets-fades"
+      ],
+      "input_hash": "6bf76c96a0a5fc6726ec861a2cd16bedb774ccabd9c3a4385d8e3374f64528a3",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0036997",
+      "player_name": "Javonte Williams",
+      "summary": "Javonte Williams is viewed as a dependable-volume target following a strong 2025 season. The outlook still depends on his role, health, team context, and draft cost.",
+      "source_ids": [
+        "espn:karabell:2026-do-draft"
+      ],
+      "input_hash": "2055a6b4f9e20c0bba6107583ff643dbae4918b054db9b124a9b3991f3fcf9c9",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0040691",
+      "player_name": "Jaxson Dart",
+      "summary": "Jaxson Dart has substantial upside from rushing production, Malik Nabers\u2019 connection, and improved surrounding conditions, but the evidence is divided on whether his price already assumes too much. At a Round 7/8 QB9 cost, concussion exposure, passing development, weapon health, and coaching stability make him risky; the upside assumes Nabers and Cam Skattebo return effectively.",
+      "source_ids": [
+        "espn:karabell:2026-do-not-draft",
+        "espn:moody:2026-draft-targets",
+        "nfl:kownack:2026-riskiest",
+        "nfl:okada:2026-breakouts"
+      ],
+      "input_hash": "9294a0de804eb125f263d85702f1c3ec9de8586a58574f875c047f37f4c42817",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0039910",
+      "player_name": "Jayden Daniels",
+      "summary": "Jayden Daniels is an avoid at a premium cost because of multi-injury risk. His evaluation is therefore highly price- and health-dependent.",
+      "source_ids": [
+        "espn:karabell:2026-do-not-draft"
+      ],
+      "input_hash": "a643ecfa927427370dd140a2cb77ec8582eefad98ff645741c34bd99a613d1fd",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0039146",
+      "player_name": "Jayden Reed",
+      "summary": "Jayden Reed is a viable WR4/flex sleeper with upside from clearer opportunity behind Christian Watson, receiver departures, and Tucker Kraft\u2019s recovery. His sporadic production, uncertain two-receiver role, and Matthew Golden competition make him format- and price-dependent.",
+      "source_ids": [
+        "yahoo:justin-boone:2026-wr-sleepers"
+      ],
+      "input_hash": "1f75652c68468800ddc96b620e7db84624cf98a63310c7d5c122e518c40df8f7",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0041027",
+      "player_name": "Jeremiyah Love",
+      "summary": "Jeremiyah Love has exciting three-down upside based on elite speed, but the overall view is cautious because of his high-ankle sprain, committee risk, difficult schedule, and crowded backfield. He is an avoid at a Round 2 premium in redraft PPR, with Round 3 becoming more reasonable if fully healthy.",
+      "source_ids": [
+        "cbs:eisenberg:2026-august-risers-fallers",
+        "espn:staff:2026-sleepers-busts-breakouts",
+        "nfl:kownack:2026-riskiest"
+      ],
+      "input_hash": "43bca60d9c1bb29423b012ca9a78e722ce837f1f488da4ebab723f2453b598ac",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0036442",
+      "player_name": "Joe Burrow",
+      "summary": "Joe Burrow is a fade at QB5 cost because Cincinnati\u2019s offensive line, limited rushing, and injury history weaken his value. The recommendation remains sensitive to his health, team context, and draft price.",
+      "source_ids": [
+        "espn:loza:2026-big-name-avoids"
+      ],
+      "input_hash": "3817155f569d5da0487f7703b38f1531f6008c2ce93d988dc40297ef3cb22b29",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0041496",
+      "player_name": "Jonah Coleman",
+      "summary": "Jonah Coleman is a late-round sleeper with a path to Denver touches, including designed work and contingent upside behind injury-prone veterans. He may still open as the RB3, so the case is strongest around a Round 10 price in redraft PPR.",
+      "source_ids": [
+        "cbs:eisenberg:2026-august-risers-fallers",
+        "espn:florio:2026-rookie-late-rounds"
+      ],
+      "input_hash": "8882ab531e4421d4b5a072776ba9156c2ece9435af6af180196f0ffb37cd59ab",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0036223",
+      "player_name": "Jonathan Taylor",
+      "summary": "Jonathan Taylor is a target if Daniel Jones is healthy, as his prior elite production benefited from that offensive setup. The recommendation is explicitly conditional on Jones being cleared.",
+      "source_ids": [
+        "yahoo:scott-pianowski:2026-targets-fades"
+      ],
+      "input_hash": "37d828dd207a2b23e11d347deccfc67755a97c8a96f383af6d7efaa26ff1a8ee",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0039344",
+      "player_name": "Jonathon Brooks",
+      "summary": "Jonathon Brooks is a strong late-value and second-half upside play, with potential three-down and receiving work if his knee holds and he regains explosiveness. Two ACL tears and a potentially cautious early workload require patience, especially in redraft PPR.",
+      "source_ids": [
+        "espn:karabell:2026-bounce-backs",
+        "espn:moody:2026-rb-insurance",
+        "espn:staff:2026-sleepers-busts-breakouts",
+        "nfl:okada:2026-breakouts"
+      ],
+      "input_hash": "5810f6bc52743864cb674e4b9251c6aa61195b66fc592a7dfafa4341ae3bfb91",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0036264",
+      "player_name": "Jordan Love",
+      "summary": "Jordan Love is viewed as a fantasy avoid because low passing volume and limited rushing constrain his ceiling. This assessment is tied to the expected offensive role and could change with different team or usage conditions.",
+      "source_ids": [
+        "espn:karabell:2026-do-not-draft"
+      ],
+      "input_hash": "283099d8f057bcaa83684114a99f310dcd438fad0e90c436fbbe2b0cf23a467e",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0037525",
+      "player_name": "Jordan Mason",
+      "summary": "Jordan Mason is an appealing RB sleeper and breakout candidate who could lead Minnesota\u2019s tandem or gain major value if Aaron Jones misses time, supported by efficient rushing and explosive-play metrics. Uncertain receiving work, Jones\u2019 involvement, and possible Demond Claiborne competition make his Round 7 price more important, particularly in PPR.",
+      "source_ids": [
+        "cbs:eisenberg:2026-august-risers-fallers",
+        "nfl:okada:2026-breakouts",
+        "yahoo:justin-boone:2026-rb-sleepers"
+      ],
+      "input_hash": "a5d28b41207b1cc4208f3dba4ef354c054345323a9aba97a625f042d56faa955",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0034857",
+      "player_name": "Josh Allen",
+      "summary": "Josh Allen is considered an avoid at a second-round cost in a one-quarterback league because the price sacrifices too much value. The view is primarily a format- and draft-price critique rather than a broad role assessment.",
+      "source_ids": [
+        "espn:karabell:2026-do-not-draft"
+      ],
+      "input_hash": "17ff67b96630c6fdab06e73f09a4229d3bef961daa16f4ff9d1fc0b68be40044",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0038997",
+      "player_name": "Josh Downs",
+      "summary": "Josh Downs is a strong undervalued target and breakout candidate after Michael Pittman\u2019s departure, with efficient target and catch rates supporting increased routes and volume. His smaller frame, competition from Alec Pierce, Tyler Warren, and Keenan Allen, and greater appeal in reception-heavy formats create some floor risk.",
+      "source_ids": [
+        "espn:karabell:2026-do-draft",
+        "espn:moody:2026-draft-targets",
+        "nfl:okada:2026-breakouts",
+        "yahoo:justin-boone:2026-wr-sleepers"
+      ],
+      "input_hash": "225e660a1c7d708d42bc3a4c096531db7ef0d54aac6b9fdb9068807c78f365cb",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0035700",
+      "player_name": "Josh Jacobs",
+      "summary": "Jacobs is a price-sensitive player with a clear split: Karabell sees a discounted workhorse, while Moody flags age, accumulated touches, knee concerns, and declining efficiency. The outlook depends heavily on health, role, team context, and cost.",
+      "source_ids": [
+        "espn:karabell:2026-do-draft",
+        "espn:staff:2026-sleepers-busts-breakouts"
+      ],
+      "input_hash": "76c803c4caf8cfd00c99e6984eebba175ca37c7f32a6f7cc48b98fce5bba2211",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0036355",
+      "player_name": "Justin Herbert",
+      "summary": "Herbert is a target based on expected offseason improvement under coordinator Mike McDaniel. The positive view depends on that coordinator transition successfully repairing the 2025 offense.",
+      "source_ids": [
+        "yahoo:scott-pianowski:2026-targets-fades"
+      ],
+      "input_hash": "04987f799e3a8e024f5f9b7c0ddf2fc1e68d25e1e7ef171f80be79fadb607614",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0036322",
+      "player_name": "Justin Jefferson",
+      "summary": "Jefferson remains a strong value target because of his elite talent, particularly if he falls to Round 2. The rebound depends on Kyler Murray fitting effectively with Minnesota\u2019s offense, along with normal health and price considerations.",
+      "source_ids": [
+        "espn:karabell:2026-do-draft",
+        "yahoo:scott-pianowski:2026-targets-fades"
+      ],
+      "input_hash": "4ccb4143573e2b7ed951d47c8a4ab7ff1fbe7249019d3482a4c9ac56ab17a211",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0036040",
+      "player_name": "Juwan Johnson",
+      "summary": "Johnson is an overlooked tight end value after a breakout season and new contract, especially at his light draft cost. The main risk is whether that production repeats, which may explain the market discount.",
+      "source_ids": [
+        "yahoo:scott-pianowski:2026-targets-fades"
+      ],
+      "input_hash": "6317db9074277c4cc52db473f273ddb00f428b94090af3fd7b2812d3288bf5b3",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0041547",
+      "player_name": "KC Concepcion",
+      "summary": "Concepcion is a promising Round 9\u201311 PPR sleeper, with Cleveland designing touches that could support weekly use in three-receiver leagues. Poor quarterback play remains a meaningful threat to his consistency.",
+      "source_ids": [
+        "cbs:eisenberg:2026-august-risers-fallers"
+      ],
+      "input_hash": "0b55c27675bf9c88a5097894b132794e7795a7735ee6b377b161a3838777ff55",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0041052",
+      "player_name": "Kaelon Black",
+      "summary": "Black is viewed as a deep San Francisco backfield stash. His usefulness is highly dependent on earning a meaningful role, with health, team context, and draft price still important uncertainties.",
+      "source_ids": [
+        "espn:florio:2026-rookie-late-rounds"
+      ],
+      "input_hash": "4f851eb753341d3dc714e79c885a217dffe201dc2d7ac5cac67fc5ad997b0828",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0038134",
+      "player_name": "Kenneth Walker III",
+      "summary": "Walker has sharply mixed evidence: Karabell views him as overpriced in Round 3 without an RB1 season, while Moody expects expanded early-down, receiving, and goal-line work in Kansas City\u2019s open backfield. His value therefore hinges on actual role, workload, health, and draft cost.",
+      "source_ids": [
+        "espn:karabell:2026-do-not-draft",
+        "espn:moody:2026-vacated-opportunity"
+      ],
+      "input_hash": "b3de6a0e686f6a98902f83ee6a133ae46908b7deeff93fe8bd65ea60f2cb64ff",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0036919",
+      "player_name": "Kenny Gainwell",
+      "summary": "Gainwell is broadly supported as a value with stand-alone flex/RB3 usefulness and substantial upside if Bucky Irving misses time, including potential RB1 production. The main risks are his current backup role and possible competition from Sean Tucker, though a more even split improves the case.",
+      "source_ids": [
+        "espn:karabell:2026-do-draft",
+        "espn:moody:2026-draft-targets",
+        "espn:moody:2026-rb-insurance",
+        "espn:staff:2026-sleepers-busts-breakouts",
+        "yahoo:justin-boone:2026-rb-sleepers"
+      ],
+      "input_hash": "0a1a037812b4776f70a5ffce0c1fe07ccf7105a3be6b20051fbad58ec1752815",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0041032",
+      "player_name": "Kenyon Sadiq",
+      "summary": "Sadiq is a low-cost rookie sleeper whose hybrid wide receiver/tight end profile offers intriguing upside. His fantasy value remains dependent on receiving a meaningful role.",
+      "source_ids": [
+        "espn:staff:2026-sleepers-busts-breakouts"
+      ],
+      "input_hash": "3576cf4d999d1f8794cb561691648e899fb9325c0a0f43a7d3e6ede531247fd4",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0040236",
+      "player_name": "Kyle Monangai",
+      "summary": "Monangai has flex appeal behind D\u2019Andre Swift and could become an RB1 if opportunity opens in Chicago\u2019s favorable line environment. The projection is primarily contingent on workload, with role, health, team context, and price still risks.",
+      "source_ids": [
+        "espn:moody:2026-rb-insurance"
+      ],
+      "input_hash": "69111845e7f1886ddf9be9d383588c3919adb10e840a4fbf50113953135a1273",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0036970",
+      "player_name": "Kyle Pitts Sr.",
+      "summary": "Pitts is viewed as a reasonable target around TE8 because Atlanta\u2019s narrow target tree supports his breakout potential, though another analyst fades him at a top-five price after one huge week. The outlook is highly price-dependent, as the market may already reflect his 2025 improvement.",
+      "source_ids": [
+        "espn:karabell:2026-do-not-draft",
+        "yahoo:scott-pianowski:2026-targets-fades"
+      ],
+      "input_hash": "c05d03fee7258b935a6fcb0a28542563a5748c3d09e40c2833968e0283fe3ce4",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0035228",
+      "player_name": "Kyler Murray",
+      "summary": "Murray is a strong value rebound candidate around QB16, with rushing ability, improved pressure avoidance, Kevin O\u2019Connell\u2019s offense, and strong pass catchers creating top-12 upside. Passing efficiency, offensive-line stability, and a potentially rising ADP remain the main risks.",
+      "source_ids": [
+        "cbs:eisenberg:2026-august-risers-fallers",
+        "espn:karabell:2026-bounce-backs",
+        "espn:karabell:2026-do-draft",
+        "espn:moody:2026-draft-targets",
+        "yahoo:chris-allen:2026-post-hype-sleepers"
+      ],
+      "input_hash": "6657526873ca182cafb71c5433a6cdbf966a9ccee8ad59856f3afaf0eea9269d",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0039915",
+      "player_name": "Ladd McConkey",
+      "summary": "McConkey is a rebound target if 2025 was an aberration, with Mike McDaniel\u2019s arrival offering a better offensive environment. The case depends on that assumption rather than last season representing his true level.",
+      "source_ids": [
+        "yahoo:scott-pianowski:2026-targets-fades"
+      ],
+      "input_hash": "0ab68b2ae9ddf7d4be31576324bf3e062594a17a6730c1159ce2731213af9583",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0040735",
+      "player_name": "Luther Burden III",
+      "summary": "Burden is a breakout sleeper based on vacated targets and elite per-route production. His value still depends on earning a substantial role while avoiding health, team-context, and price risks.",
+      "source_ids": [
+        "espn:staff:2026-sleepers-busts-breakouts"
+      ],
+      "input_hash": "be76282f9341c2a80df902f5b381a03e204dcc885e70c7ae96064bc6ab352ee0",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0039337",
+      "player_name": "Malik Nabers",
+      "summary": "Nabers is broadly viewed as too risky at a third-round or similarly high price because of ACL/meniscus recovery and limited work with Jaxson Dart. His elite talent could still produce a dominant target share, but the early-round health and timing uncertainty outweighs that upside.",
+      "source_ids": [
+        "espn:karabell:2026-do-not-draft",
+        "espn:loza:2026-big-name-avoids",
+        "espn:staff:2026-sleepers-busts-breakouts",
+        "yahoo:scott-pianowski:2026-targets-fades"
+      ],
+      "input_hash": "200949cea4f50cff505566f76e973b1032bdfec123fbfcbb2050fd428bacd509",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0038128",
+      "player_name": "Malik Willis",
+      "summary": "Willis offers upside beyond QB23 because of his rushing projection, making him an appealing late-QB2 option even in a weak Miami offense. His fantasy ceiling is limited if the passing environment remains among the league\u2019s worst.",
+      "source_ids": [
+        "cbs:cummings:2026-deep-sleepers"
+      ],
+      "input_hash": "602d5efffa69687b1a927f4452e9a04f61ecdb302ecfcd4be4166a169ecd0eea",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0039811",
+      "player_name": "MarShawn Lloyd",
+      "summary": "Lloyd is an appealing contingency-back sleeper around Round 10, with talent and a path to RB2 value if Josh Jacobs misses time. His major risks are severe injury history, limited NFL experience, and uncertainty over maintaining the RB2 role.",
+      "source_ids": [
+        "cbs:eisenberg:2026-august-risers-fallers",
+        "espn:cockcroft:2026-deep-sleepers"
+      ],
+      "input_hash": "cc487cca78192938d3b2c89bf3236d3613fc8dc6d7d8eff97cbae32cbd1b1875",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0034753",
+      "player_name": "Mark Andrews",
+      "summary": "Andrews is considered a value target because his established scoring profile is available inexpensively. The positive view remains contingent on his role, health, team context, and eventual price.",
+      "source_ids": [
+        "espn:karabell:2026-do-draft"
+      ],
+      "input_hash": "f8061b5ca0eaef8d15c4837506776d438f6bf803e542ac178600f884743cab00",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0039849",
+      "player_name": "Marvin Harrison Jr.",
+      "summary": "Harrison has a rebound path through improved health and a more balanced Arizona offense, but he has not yet justified a WR2 price. The disagreement makes him attractive only if his cost reflects uncertainty rather than assuming a breakout.",
+      "source_ids": [
+        "espn:karabell:2026-bounce-backs",
+        "espn:karabell:2026-do-not-draft"
+      ],
+      "input_hash": "661fa497e9bc19eae3937c429b35307b71e83cc7f6988663f2a807cb2b09f0f4",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0026498",
+      "player_name": "Matthew Stafford",
+      "summary": "Stafford is a fade at QB9 because career-best production is expected to regress and he offers little rushing floor. The negative view is primarily a draft-price concern, since his role and context could change.",
+      "source_ids": [
+        "espn:staff:2026-sleepers-busts-breakouts"
+      ],
+      "input_hash": "4fb63a54cf615a7554117dff15a7cd9007c03b9b4a2eee303938cc373c196177",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0036252",
+      "player_name": "Michael Pittman Jr.",
+      "summary": "Pittman is a positive volume target whose possession skills fit Aaron Rodgers and Pittsburgh\u2019s vacated opportunities. The outlook depends on his role, health, team context, and eventual draft price.",
+      "source_ids": [
+        "espn:moody:2026-draft-targets",
+        "espn:moody:2026-vacated-opportunity"
+      ],
+      "input_hash": "0ebd8a4063e32f00f0985d0e146e0e199148eb01d02ec2e51e1dcc6f68328375",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0031408",
+      "player_name": "Mike Evans",
+      "summary": "Evans offers post-hype rebound and touchdown upside in San Francisco, supported by his prior usage and the new offensive setting. Age 33, declining efficiency, injury concerns, and reliance on scoring make him a riskier price-sensitive play; ESPN\u2019s Clay specifically flags bust potential.",
+      "source_ids": [
+        "espn:karabell:2026-bounce-backs",
+        "espn:staff:2026-sleepers-busts-breakouts",
+        "yahoo:chris-allen:2026-post-hype-sleepers",
+        "yahoo:scott-pianowski:2026-targets-fades"
+      ],
+      "input_hash": "af7c05a789ec7e01c21290714e57badf8c8c90df51e4e5c63708c2dcfd2078b4",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0040878",
+      "player_name": "Mike Washington Jr.",
+      "summary": "Washington is viewed as a high-upside late-round Raiders contingency back. His value depends heavily on a path to meaningful opportunity, plus role, health, team context, and price.",
+      "source_ids": [
+        "espn:florio:2026-rookie-late-rounds"
+      ],
+      "input_hash": "357a73669d75be1d73a9524ebfa85a66eccd0001c6b909ab404ee070e39901ec",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0040886",
+      "player_name": "Nicholas Singleton",
+      "summary": "Singleton is an appealing late-round sleeper because his athleticism could translate into a reachable role on Tennessee\u2019s depth chart. The upside remains contingent on role, health, team context, and draft price.",
+      "source_ids": [
+        "espn:cockcroft:2026-deep-sleepers",
+        "espn:florio:2026-rookie-late-rounds"
+      ],
+      "input_hash": "bb6b23349c6b4cb262e691ca0cf7bdb82113a1988d36903e5fc35b06109c722b",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0040666",
+      "player_name": "Omarion Hampton",
+      "summary": "Hampton profiles as a strong early-round target with volume, receiving upside, a healthier line, and Mike McDaniel\u2019s scheme supporting an RB1 ceiling. The case still depends on role, health, team context, and draft price.",
+      "source_ids": [
+        "espn:karabell:2026-do-draft",
+        "espn:moody:2026-draft-targets",
+        "espn:staff:2026-sleepers-busts-breakouts"
+      ],
+      "input_hash": "334e9025f4fe94b6af3d1aacb74a3344b8366fbe71b0f5374aebacd94f55e748",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0038606",
+      "player_name": "Parker Washington",
+      "summary": "Washington\u2019s late-2025 pace and elite target rate suggest breakout potential and a chance to lead Jacksonville in targets, particularly in redraft PPR. A crowded receiver room is the main obstacle.",
+      "source_ids": [
+        "nfl:okada:2026-breakouts"
+      ],
+      "input_hash": "f4a11fc28093f17fc5105e3f26d93a656f7f6348ad03c62d9cf35706d581e5e6",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0033873",
+      "player_name": "Patrick Mahomes II",
+      "summary": "Mahomes is a price-dependent rebound target: his reduced cost can justify the upside, but one analyst fades him at market price because of the knee injury, likely rushing regression, and recent offensive underperformance. Elite quarterback talent leaves a rebound path, but health and price are central assumptions.",
+      "source_ids": [
+        "espn:karabell:2026-do-draft",
+        "yahoo:scott-pianowski:2026-targets-fades"
+      ],
+      "input_hash": "f82428cdf58c98b2d1502aabc5567dc8626cbe8c61df17104448f49dc189ee90",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0040784",
+      "player_name": "Quinshon Judkins",
+      "summary": "Judkins has an elite three-down ceiling if Cleveland\u2019s rebuilt line and offense improve, but another analyst fades him because of limited receiving impact, negative game scripts, and team quality. His appeal is therefore highly dependent on workload, offensive stabilization, and price.",
+      "source_ids": [
+        "nfl:okada:2026-breakouts",
+        "yahoo:scott-pianowski:2026-targets-fades"
+      ],
+      "input_hash": "50413433aa0f34430d4044dc8b06e38f4105ff567b2d002f305c9e7a10f2470b",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0040730",
+      "player_name": "RJ Harvey",
+      "summary": "Harvey is a fade at cost because his rookie touchdown rate may regress and Denver\u2019s backfield could become a three-player committee. Sean Payton may still create useful scoring chances, preserving some upside.",
+      "source_ids": [
+        "yahoo:scott-pianowski:2026-targets-fades"
+      ],
+      "input_hash": "8ea6b07f90a26d5a8f65d4ec9928f950fb39c76fb0579468fd50f2efffa5f507",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0037256",
+      "player_name": "Rachaad White",
+      "summary": "White is an inexpensive target whose receiving ability and thin Washington competition support an attractive opportunity profile. The recommendation remains dependent on his role, health, team context, and final ADP.",
+      "source_ids": [
+        "espn:karabell:2026-bounce-backs",
+        "espn:karabell:2026-do-draft"
+      ],
+      "input_hash": "3c9c3d8c0b043264f15f5220bafd9777faacd0be8072013dff98638af23503f6",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0039067",
+      "player_name": "Rashee Rice",
+      "summary": "Rice is a high-upside but difficult-to-price player: his production could support a Round 3 PPR value if his legal, suspension, health, and knee issues clear. Multiple analysts view him as too risky at the Round 2/3 turn because availability and role remain uncertain.",
+      "source_ids": [
+        "espn:karabell:2026-do-not-draft",
+        "fantasypros:staff:2026-round-values",
+        "nfl:kownack:2026-riskiest",
+        "yahoo:scott-pianowski:2026-targets-fades"
+      ],
+      "input_hash": "1c7d5b744966d7fbddbb3d8edd8f3ea752a02ddc00c2520b31acfce89a7deb44",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0037545",
+      "player_name": "Rashid Shaheed",
+      "summary": "Shaheed is an appealing late-round sleeper with WR3/flex and spike-week upside if he earns Seattle\u2019s No. 2 receiver role. His value is limited by Jaxon Smith-Njigba\u2019s dominance and competition from Cooper Kupp and Tory Horton.",
+      "source_ids": [
+        "yahoo:justin-boone:2026-wr-sleepers"
+      ],
+      "input_hash": "aa1a5eaa4d9b375b8465a12accbba52f06bcaa70af4c62591cc0c6c8b243c7ab",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0039919",
+      "player_name": "Rome Odunze",
+      "summary": "Odunze is a strong Round 6 PPR value with a path to top-12 production after a hot 2025 start and DJ Moore\u2019s departure. Target competition from Luther Burden and Colston Loveland remains the main constraint.",
+      "source_ids": [
+        "fantasypros:staff:2026-round-values"
+      ],
+      "input_hash": "b8f2531aca5389fef55f5aa342a06869144680f4e000c3164f705c75aa95fdae",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0031588",
+      "player_name": "Stefon Diggs",
+      "summary": "Diggs profiles as an inexpensive WR2 in Washington after efficient 2025 play and a 1B role, particularly at a Round 9-10 price. Age and competition with Terry McLaurin create meaningful uncertainty.",
+      "source_ids": [
+        "nfl:okada:2026-late-round-sleepers"
+      ],
+      "input_hash": "7d2f3d95d29b46a06456bf07aa1a425614c3861306c739e8891f253d88210c45",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0035229",
+      "player_name": "T.J. Hockenson",
+      "summary": "Hockenson is a strong rebound target as improved health and Kyler Murray\u2019s tight-end-friendly usage could restore prior efficiency. The outlook depends on Minnesota\u2019s quarterback transition, and his multiyear target-share decline makes the rebound assumption material.",
+      "source_ids": [
+        "espn:karabell:2026-bounce-backs",
+        "espn:karabell:2026-do-draft",
+        "yahoo:chris-allen:2026-post-hype-sleepers"
+      ],
+      "input_hash": "9f588d02272aed7a6e6f364422787616b3b07d22dd1b071056229058b45d5a87",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0038555",
+      "player_name": "Tank Bigsby",
+      "summary": "Bigsby has little standalone value but would project as an RB2 if Saquon Barkley is unavailable. His usefulness is therefore primarily contingent on Barkley\u2019s health and the resulting role change.",
+      "source_ids": [
+        "espn:moody:2026-rb-insurance"
+      ],
+      "input_hash": "3c8711d4bf64c39120201bb0e099ff992e5f6a1d44ca700ca6e52f6a48a53513",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0035659",
+      "player_name": "Terry McLaurin",
+      "summary": "McLaurin is viewed positively as a healthy bounce-back candidate with more available Washington targets and a path back to consistent 1,000-yard production. However, Diggs\u2019 arrival creates enough competition to make McLaurin risky at a WR21 price despite his higher ceiling.",
+      "source_ids": [
+        "cbs:eisenberg:2026-august-risers-fallers",
+        "espn:karabell:2026-bounce-backs",
+        "espn:moody:2026-draft-targets",
+        "espn:moody:2026-vacated-opportunity"
+      ],
+      "input_hash": "5d630ad10073aeaabc7bbbe093461f6dc85c8852da6655a56a79fb5ba104d151",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0040124",
+      "player_name": "Tetairoa McMillan",
+      "summary": "McMillan has breakout-level upside based on rookie production, expected volume, and potential quarterback improvement. The view is split: Jalen Coker and Carolina\u2019s offensive ceiling could suppress his market share, making his value dependent on Bryce Young\u2019s continued progress.",
+      "source_ids": [
+        "nfl:okada:2026-breakouts",
+        "yahoo:scott-pianowski:2026-targets-fades"
+      ],
+      "input_hash": "3a7ba96b05780c62ec7fd5466e0eaf7d8ff2decf417c17293efcab5e10b79ee9",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0038563",
+      "player_name": "Tre Tucker",
+      "summary": "Tucker is an attractive deep PPR value if he is established as Las Vegas\u2019 WR1, with one projection placing him well ahead of his ADP of 186. The Raiders\u2019 passing environment remains a significant risk.",
+      "source_ids": [
+        "cbs:cummings:2026-deep-sleepers"
+      ],
+      "input_hash": "6ea6f8d2c7f2393b1965a797f02d2cd80e4139b23d5809dd20a024e74382bb09",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0040727",
+      "player_name": "Tre' Harris",
+      "summary": "Harris is a late-round sleeper who could earn a larger Chargers role after an uneven rookie season. His outlook remains speculative because role, health, team context, and draft price can change.",
+      "source_ids": [
+        "espn:cockcroft:2026-deep-sleepers"
+      ],
+      "input_hash": "3d9e66a7e2aed4f718731a560b5d156121ba74cf4888d521e8da3b2c6142352b",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0038996",
+      "player_name": "Tucker Kraft",
+      "summary": "Kraft offers elite TE1 upside at around Round 7 in PPR if his ACL recovery stays on schedule, supported by pre-injury scoring and vacated Green Bay targets. However, his uncertain return timetable creates substantial risk, making him price- and health-dependent; analysts disagree between targeting and avoiding him.",
+      "source_ids": [
+        "espn:karabell:2026-do-draft",
+        "fantasypros:staff:2026-round-values",
+        "yahoo:scott-pianowski:2026-targets-fades"
+      ],
+      "input_hash": "37ca27f02c96c48828c6a90d0a40b509a2980e0d0bcca3b88d6309d1b5869cd6",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0040743",
+      "player_name": "Tyler Shough",
+      "summary": "Shough is an appealing late QB sleeper around Round 13/QB21 after strong late-2025 scoring, added weapons, rushing potential, and projected touchdown growth. The outlook assumes continued role security and a healthy Jordyn Tyson, with meaningful upside if those conditions hold.",
+      "source_ids": [
+        "cbs:cummings:2026-deep-sleepers",
+        "espn:staff:2026-sleepers-busts-breakouts"
+      ],
+      "input_hash": "e56fca87d7c42804bbfdfc55359a8cadc488448b916f02b8dc1dede895087bfc",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0040128",
+      "player_name": "Tyler Warren",
+      "summary": "Warren is a favorable-price target for a sophomore jump, with upside comparable to Colston Loveland. The case is primarily dependent on that second-year leap materializing.",
+      "source_ids": [
+        "yahoo:scott-pianowski:2026-targets-fades"
+      ],
+      "input_hash": "6b3cff9449533f14ac74ae71a6cb8bf94c333bc734095fe9dc0dac8f42617a52",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0039384",
+      "player_name": "Tyrone Tracy Jr.",
+      "summary": "Tracy provides useful dual-threat bench value and could become an RB2 if Cam Skattebo is unavailable. His appeal is primarily contingent upside rather than a secure standalone role.",
+      "source_ids": [
+        "espn:moody:2026-rb-insurance"
+      ],
+      "input_hash": "625c492c1772b2aa91653fc94d5ba7d6aba627a5bf92c8eb45dbcc4be2f3bbec",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0038117",
+      "player_name": "Wan'Dale Robinson",
+      "summary": "Robinson is a reasonable late target because his familiarity with the role and short-area volume could provide dependable value. The recommendation remains sensitive to his role, health, team context, and draft price.",
+      "source_ids": [
+        "espn:karabell:2026-do-draft"
+      ],
+      "input_hash": "3a547726fb29892924b2d336a78ae30bcde2eb989415f8f10a4e7ebe004b4225",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0040583",
+      "player_name": "Woody Marks",
+      "summary": "Marks is a Year 2 contingency stash with potential RB2 value if David Montgomery misses time. His usefulness depends heavily on that absence and an expanded role.",
+      "source_ids": [
+        "espn:moody:2026-rb-insurance"
+      ],
+      "input_hash": "85031441a65b81982596ffe6844d6617ccc2418be2676df9b2074a70861e3d54",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0039894",
+      "player_name": "Xavier Worthy",
+      "summary": "Worthy has post-hype upside as a talented receiver whose price has fallen after outside circumstances limited production. The case is promising but less specifically supported than the article\u2019s stronger recommendations.",
+      "source_ids": [
+        "yahoo:chris-allen:2026-post-hype-sleepers"
+      ],
+      "input_hash": "136c24c7404ce977919644f9c25ee0e7df1cfca07b52fc7017f1355256eb84b4",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0039165",
+      "player_name": "Zach Charbonnet",
+      "summary": "Charbonnet could regain committee and touchdown value, but his ACL recovery may delay his return into October. He is therefore a speculative insurance play whose value depends on rehabilitation and eventual role.",
+      "source_ids": [
+        "espn:moody:2026-rb-insurance"
+      ],
+      "input_hash": "068253db3eca83bb3050b14b3e121e758b71a9f2e9c11449e3e85042a7036f56",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0041044",
+      "player_name": "Zachariah Branch",
+      "summary": "Branch is a worthwhile dynasty stash because his playmaking ability could earn designed touches. His fantasy impact remains uncertain and depends on role development, health, context, and price.",
+      "source_ids": [
+        "espn:florio:2026-rookie-late-rounds"
+      ],
+      "input_hash": "b97320ed4cd2cfb3ca5dfb788a99c0f18e7266567f16514c30619e3dc49a6a76",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    },
+    {
+      "player_id": "nfl:gsis:00-0039064",
+      "player_name": "Zay Flowers",
+      "summary": "Flowers has a credible path to the true WR1 tier through elite yards per route run and expected touchdown growth. The breakout case depends on improved scoring and more consistent weekly production, particularly in redraft PPR.",
+      "source_ids": [
+        "nfl:okada:2026-breakouts"
+      ],
+      "input_hash": "4ac4a6a1365aa06599681e023a43788c6b70dbe6089075a8624088e2dfb5d287",
+      "prompt_version": "fantasy-player-synthesis-v1",
+      "model": "gpt-5.6-luna",
+      "generated_at": "2026-08-26T21:28:58.083447+00:00"
+    }
+  ]
+}

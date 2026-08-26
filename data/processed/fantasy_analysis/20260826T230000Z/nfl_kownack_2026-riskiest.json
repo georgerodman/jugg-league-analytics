@@ -1,0 +1,107 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260826T230000Z",
+    "built_at": "2026-08-26T23:00:00Z",
+    "season": 2026,
+    "takeaway_count": 5
+  },
+  "source": {
+    "source_key": "nfl",
+    "season": 2026,
+    "id": "nfl:kownack:2026-riskiest",
+    "title": "2026 NFL fantasy football: 7 riskiest players to draft",
+    "author": "Bobby Kownack",
+    "url": "https://www.nfl.com/news/2026-nfl-fantasy-football-seven-riskiest-players-to-draft",
+    "published_at": "2026-08-04",
+    "content_type": "riskiest_players",
+    "summary": "Flags premium-cost players whose workload, age, injury, role, or situation creates unusually wide downside."
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0033280",
+      "player_name": "Christian McCaffrey",
+      "label": "avoid",
+      "sentiment": "negative",
+      "summary": "McCaffrey's 413 touches, declining rushing efficiency, and age-30 season make another first-round investment unusually fragile.",
+      "rationale": "McCaffrey's 413 touches, declining rushing efficiency, and age-30 season make another first-round investment unusually fragile.",
+      "risks": [
+        "Receiving volume still preserves an elite outcome."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Round 1 / RB3",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041027",
+      "player_name": "Jeremiyah Love",
+      "label": "avoid",
+      "sentiment": "negative",
+      "summary": "Love's talent is offset by a crowded backfield and little incentive for Arizona to give a rookie workhorse usage.",
+      "rationale": "Love's talent is offset by a crowded backfield and little incentive for Arizona to give a rookie workhorse usage.",
+      "risks": [
+        "Preseason performance could move the role."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Premium rookie cost",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0039067",
+      "player_name": "Rashee Rice",
+      "label": "avoid",
+      "sentiment": "negative",
+      "summary": "Rice's production is strong, but legal, suspension, knee, and role uncertainty create excessive risk at the Round 2/3 turn.",
+      "rationale": "Rice's production is strong, but legal, suspension, knee, and role uncertainty create excessive risk at the Round 2/3 turn.",
+      "risks": [
+        "He can still be Kansas City's top target when active."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Round 2/3 turn",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040691",
+      "player_name": "Jaxson Dart",
+      "label": "avoid",
+      "sentiment": "negative",
+      "summary": "Dart has elite rushing upside but carries concussion, passing-development, Nabers-health, and coaching risks at QB9 cost.",
+      "rationale": "Dart has elite rushing upside but carries concussion, passing-development, Nabers-health, and coaching risks at QB9 cost.",
+      "risks": [
+        "A safer rushing approach could lower his fantasy ceiling."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Round 7/8 / QB9",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0033288",
+      "player_name": "George Kittle",
+      "label": "avoid",
+      "sentiment": "negative",
+      "summary": "Kittle is appealing late but becomes an avoid if Achilles optimism pushes a 33-year-old tight end too far up boards.",
+      "rationale": "Kittle is appealing late but becomes an avoid if Achilles optimism pushes a 33-year-old tight end too far up boards.",
+      "risks": [
+        "He could return for Week 1 and retain an elite connection with Brock Purdy."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Avoid if price rises materially above Round 9",
+      "assumptions": []
+    }
+  ]
+}

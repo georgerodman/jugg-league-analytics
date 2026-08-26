@@ -17,6 +17,15 @@ test("draft-room view and commands run against isolated local state",async()=>{
     assert.equal(setup.nominationOrder.nextTeamId,setup.nominationOrder.teams[0]?.teamId);
     assert.ok(setup.players.some(row=>row.marketAdp!==null));
     assert.ok(setup.players.some(row=>row.byeWeek!==null));
+    for(const playerId of ["nfl:gsis:00-0039163","nfl:gsis:00-0040676","nfl:gsis:00-0030565"]){
+      const player=setup.players.find(row=>row.id===playerId);
+      assert.ok(player?.fantasyAnalysis.some((row:{label:string;author:string|null})=>row.label==="sleeper"&&row.author==="Justin Boone"));
+    }
+    const bucky=setup.players.find(row=>row.id==="nfl:gsis:00-0039361");
+    assert.deepEqual(new Set(bucky?.fantasyAnalysis.map((row:{label:string})=>row.label)),new Set(["sleeper","avoid"]));
+    assert.equal(setup.players.reduce((count,row)=>count+row.fantasyAnalysis.length,0),325);
+    assert.equal(setup.players.filter(row=>row.analystConsensus.aiSummary).length,120);
+    assert.deepEqual(setup.researchStatus,{summaryRefreshNeeded:true,pendingPlayerCount:79,pendingTakeawayCount:106,pendingSourceCount:8,lastSummaryGeneratedAt:setup.researchStatus.lastSummaryGeneratedAt});
     assert.deepEqual(setup.draft.recoveryIssues,[]);
 
     const active=applyDraftAction({type:"start"});
@@ -30,6 +39,13 @@ test("draft-room view and commands run against isolated local state",async()=>{
     assert.equal(avoided.status,"available");
     assert.equal(avoided.preference,"avoid");
     assert.ok(avoided.strategyValue!<avoided.productionValue!);
+    const analystPlayerId="nfl:gsis:00-0039163";
+    const forcedAvoid=applyDraftAction({type:"fantasyAnalysisOverride",playerId:analystPlayerId,override:"avoid"});
+    assert.equal(forcedAvoid.players.find(row=>row.id===analystPlayerId)?.analystConsensus.action,"avoid");
+    const hidden=applyDraftAction({type:"fantasyAnalysisOverride",playerId:analystPlayerId,override:"off"});
+    assert.equal(hidden.players.find(row=>row.id===analystPlayerId)?.analystConsensus.action,null);
+    const automatic=applyDraftAction({type:"fantasyAnalysisOverride",playerId:analystPlayerId,override:"auto"});
+    assert.equal(automatic.players.find(row=>row.id===analystPlayerId)?.analystConsensus.action,"target");
     const withTeamRule=applyDraftAction({type:"updateStrategy",strategy:{buildStyle:"balanced",riskTolerance:"balanced",byeWeekMode:"soft",maxSameBye:2,targetPremium:3,situations:[],teamPreferences:[{team:player.nflTeam!,position:player.position,preference:"prefer",adjustment:2,note:"test team preference"}],notes:""}});
     assert.equal(withTeamRule.strategy.teamPreferences.length,1);
     const nominated=applyDraftAction({type:"nominate",playerId:player.id});
@@ -40,6 +56,8 @@ test("draft-room view and commands run against isolated local state",async()=>{
     assert.ok(nominated.currentNomination?.decisionPlan);
     assert.ok(nominated.upcomingTargets.length);
     assert.ok(nominated.leaderboard.length===10);
+    const corrected=applyDraftAction({type:"changeNominationOwner",nominatedByTeamId:active.renegades!.id});
+    assert.equal(corrected.currentNomination?.nominatorTeamId,active.renegades!.id);
     const sold=applyDraftAction({type:"sale",winnerTeamId:active.renegades!.id,price:1});
     assert.equal(sold.recentSales.length,1);
     assert.equal(sold.renegades!.remainingBudget,199);

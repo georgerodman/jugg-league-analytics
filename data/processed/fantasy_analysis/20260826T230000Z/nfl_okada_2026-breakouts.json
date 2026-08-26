@@ -1,0 +1,196 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260826T230000Z",
+    "built_at": "2026-08-26T23:00:00Z",
+    "season": 2026,
+    "takeaway_count": 10
+  },
+  "source": {
+    "source_key": "nfl",
+    "season": 2026,
+    "id": "nfl:okada:2026-breakouts",
+    "title": "2026 NFL fantasy football: Breakout candidates at QB, RB, WR and TE",
+    "author": "Matt Okada",
+    "url": "https://www.nfl.com/news/2026-nfl-fantasy-football-breakout-candidates-at-qb-rb-wr-and-te",
+    "published_at": "2026-08-07",
+    "content_type": "breakouts",
+    "summary": "Uses Next Gen Stats, role changes, and ESPN ADP to identify 14 breakout candidates in PPR formats."
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0040691",
+      "player_name": "Jaxson Dart",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "Dart already produced QB4-level scoring in his starts and regains key weapons behind an improved line.",
+      "rationale": "Dart already produced QB4-level scoring in his starts and regains key weapons behind an improved line.",
+      "risks": [
+        "Concussion exposure and continued development as a passer."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": null,
+      "assumptions": [
+        "Malik Nabers and Cam Skattebo return effectively."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0040676",
+      "player_name": "Cam Ward",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "Ward improved markedly after the 2025 bye and now has a much stronger receiver group.",
+      "rationale": "Ward improved markedly after the 2025 bye and now has a much stronger receiver group.",
+      "risks": [
+        "The offense still depends on a substantial second-year leap."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": null,
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040715",
+      "player_name": "Cam Skattebo",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "Skattebo produced like an elite back when healthy and now runs behind an improved, Harbaugh-shaped offense.",
+      "rationale": "Skattebo produced like an elite back when healthy and now runs behind an improved, Harbaugh-shaped offense.",
+      "risks": [
+        "Violent style, prior injury, and Tyrone Tracy's presence."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": null,
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0037525",
+      "player_name": "Jordan Mason",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "League-leading missed-tackle and explosive-run rates create major upside as Aaron Jones declines.",
+      "rationale": "League-leading missed-tackle and explosive-run rates create major upside as Aaron Jones declines.",
+      "risks": [
+        "Receiving work and exact backfield split remain uncertain."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": null,
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0039344",
+      "player_name": "Jonathon Brooks",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "Brooks' pedigree and late cost create upside if he becomes Carolina's needed second offensive playmaker.",
+      "rationale": "Brooks' pedigree and late cost create upside if he becomes Carolina's needed second offensive playmaker.",
+      "risks": [
+        "Two ACL tears and uncertain return of explosiveness."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": null,
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040784",
+      "player_name": "Quinshon Judkins",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "A rebuilt Cleveland line and Judkins' three-down profile create an elite ceiling if the offense stabilizes.",
+      "rationale": "A rebuilt Cleveland line and Judkins' three-down profile create an elite ceiling if the offense stabilizes.",
+      "risks": [
+        "Cleveland's quarterback and overall offensive quality."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": null,
+      "assumptions": [
+        "The rebuilt line improves materially."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0038606",
+      "player_name": "Parker Washington",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "Washington's late-2025 pace and elite target rate with Jacksonville's starters suggest he can challenge for the team lead.",
+      "rationale": "Washington's late-2025 pace and elite target rate with Jacksonville's starters suggest he can challenge for the team lead.",
+      "risks": [
+        "Jacksonville's receiver room is crowded."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": null,
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0039064",
+      "player_name": "Zay Flowers",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "Elite yards per route run plus potential touchdown growth could lift Flowers into the true WR1 tier.",
+      "rationale": "Elite yards per route run plus potential touchdown growth could lift Flowers into the true WR1 tier.",
+      "risks": [
+        "The breakout depends on improved scoring and weekly consistency."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": null,
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040124",
+      "player_name": "Tetairoa McMillan",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "McMillan's rookie production, likely target floor, and Bryce Young's upward trajectory support high-end upside.",
+      "rationale": "McMillan's rookie production, likely target floor, and Bryce Young's upward trajectory support high-end upside.",
+      "risks": [
+        "His ceiling depends on continued quarterback improvement."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": null,
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038997",
+      "player_name": "Josh Downs",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "Elite target and catch rates plus Michael Pittman's departure point to a major increase in routes and volume.",
+      "rationale": "Elite target and catch rates plus Michael Pittman's departure point to a major increase in routes and volume.",
+      "risks": [
+        "The case is more valuable in reception-heavy formats."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": null,
+      "assumptions": []
+    }
+  ]
+}

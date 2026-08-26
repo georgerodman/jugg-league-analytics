@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260826T234500Z",
+    "built_at": "2026-08-26T23:45:00Z",
+    "season": 2026,
+    "takeaway_count": 3
+  },
+  "source": {
+    "source_key": "fantasypros",
+    "season": 2026,
+    "id": "fantasypros:ammirante:2026-wr-sleepers",
+    "title": "3 Fantasy Football Sleepers: Wide Receivers",
+    "author": "Frank Ammirante",
+    "url": "https://www.fantasypros.com/2026/08/3-fantasy-football-sleepers-wide-receivers-2026/",
+    "published_at": "2026-08-26",
+    "content_type": "sleepers",
+    "summary": "Three final-round receiver bets based primarily on paths to volume."
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0038563",
+      "player_name": "Tre Tucker",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Tucker has emerged as Las Vegas' lead receiver and has rapport with Kirk Cousins, creating a clear path to late-round volume.",
+      "rationale": "Tucker has emerged as Las Vegas' lead receiver and has rapport with Kirk Cousins, creating a clear path to late-round volume.",
+      "risks": [
+        "The offense and quarterback transition still limit certainty."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Final rounds",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038608",
+      "player_name": "Kayshon Boutte",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Boutte's trade to Houston gives him a plausible No. 2 role and deep-target opportunity with C.J. Stroud.",
+      "rationale": "Boutte's trade to Houston gives him a plausible No. 2 role and deep-target opportunity with C.J. Stroud.",
+      "risks": [
+        "His ADP may rise and the role must be confirmed."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Final rounds",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0039880",
+      "player_name": "Malik Washington",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Washington is a PPR-oriented bet to lead Miami in receptions because of limited established target competition.",
+      "rationale": "Washington is a PPR-oriented bet to lead Miami in receptions because of limited established target competition.",
+      "risks": [
+        "Miami may be run-heavy and the underneath role is less valuable in non-PPR."
+      ],
+      "formats": [
+        "redraft",
+        "half-PPR"
+      ],
+      "price_condition": "Final rounds",
+      "assumptions": []
+    }
+  ]
+}

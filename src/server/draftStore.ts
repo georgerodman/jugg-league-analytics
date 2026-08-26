@@ -4,6 +4,8 @@ import { randomUUID } from "node:crypto";
 import { z } from "zod";
 import { DraftService, DomainError } from "../domain/DraftService";
 import { initializeFromArtifacts } from "../domain/importDraftArtifacts";
+import { importFantasyAnalysis } from "../domain/importFantasyAnalysis";
+import { importFantasyResearchSynthesis } from "../domain/importFantasyResearchSynthesis";
 import { sheetSyncStatus } from "./googleSheetsSync";
 import { draftRoadmap, liveLeaderboard, nominationDecision, type DecisionPlayer, type DecisionTeam, type Position } from "../domain/liveDecisionEngine";
 
@@ -55,6 +57,8 @@ export function getDraftService():DraftService{
     service.db.transaction(()=>{for(const row of board.players as any[])update.run(row.adp_espn,row.adp_yahoo,byeByPlayer.get(row.internal_player_id)??byeByTeam.get(row.nfl_team)??null,DRAFT_ID,row.internal_player_id);})();
     service.db.prepare("INSERT OR IGNORE INTO draft_strategy(draft_id,strategy_json) VALUES(?,?)").run(DRAFT_ID,JSON.stringify(DEFAULT_STRATEGY));
   }
+  importFantasyAnalysis(service,ROOT);
+  importFantasyResearchSynthesis(service,ROOT);
   globalThis.__renegadeDraftService=service;
   return service;
 }
@@ -113,6 +117,25 @@ export function readDraftRoom(){
   const byeCounts=new Map<number,number>();
   for(const row of service.db.prepare(`SELECT pool.bye_week byeWeek FROM roster_slots rs JOIN draft_player_pool pool ON pool.draft_id=? AND pool.player_id=rs.player_id WHERE rs.team_id=? AND rs.player_id IS NOT NULL`).all(DRAFT_ID,renegadeId) as {byeWeek:number|null}[])if(row.byeWeek)byeCounts.set(row.byeWeek,(byeCounts.get(row.byeWeek)??0)+1);
   const rawPlayers=service.db.prepare(`SELECT p.id,p.display_name name,p.position,p.nfl_team nflTeam,pool.status,pool.expected_price expectedPrice,pool.price_low priceLow,pool.price_high priceHigh,pool.production_value productionValue,pool.expected_surplus edge,pool.draft_probability draftProbability,pool.risk_flags_json riskFlags,pool.adp_espn adpEspn,pool.adp_yahoo adpYahoo,pool.bye_week byeWeek,pref.preference,pref.premium preferencePremium,pref.note preferenceNote,s.price salePrice,winner_owner.display_name draftedBy FROM draft_player_pool pool JOIN players p ON p.id=pool.player_id LEFT JOIN player_preferences pref ON pref.draft_id=pool.draft_id AND pref.player_id=pool.player_id LEFT JOIN sales s ON s.draft_id=pool.draft_id AND s.player_id=pool.player_id AND s.voided_event_id IS NULL LEFT JOIN teams winner ON winner.id=s.winner_team_id LEFT JOIN owners winner_owner ON winner_owner.id=winner.owner_id WHERE pool.draft_id=? ORDER BY pool.expected_price DESC,p.display_name`).all(DRAFT_ID) as any[];
+  const fantasyAnalysisRows=service.db.prepare(`SELECT t.player_id playerId,t.label,t.sentiment,t.summary,t.rationale,t.risks_json risksJson,s.id sourceId,s.source_key sourceKey,s.title sourceTitle,s.author,s.url,s.published_at publishedAt FROM fantasy_player_takeaways t JOIN fantasy_analysis_sources s ON s.id=t.source_id WHERE s.season=? ORDER BY s.published_at DESC,s.title`).all(2026) as any[];
+  const fantasyAnalysisByPlayer=new Map<string,any[]>();
+  for(const row of fantasyAnalysisRows){const entries=fantasyAnalysisByPlayer.get(row.playerId)??[];entries.push({...row,risks:parseJson<string[]>(row.risksJson,[]),risksJson:undefined});fantasyAnalysisByPlayer.set(row.playerId,entries);}
+  const analysisOverrides=new Map((service.db.prepare("SELECT player_id playerId,override_value overrideValue FROM fantasy_analysis_overrides WHERE draft_id=?").all(DRAFT_ID) as {playerId:string;overrideValue:"target"|"avoid"|"off"}[]).map(row=>[row.playerId,row.overrideValue]));
+  const aiSummaries=new Map((service.db.prepare("SELECT player_id playerId,summary,source_ids_json sourceIdsJson,input_hash inputHash,prompt_version promptVersion,model,generated_at generatedAt FROM fantasy_player_summaries").all() as any[]).map(row=>[row.playerId,{summary:row.summary,sourceIds:parseJson<string[]>(row.sourceIdsJson,[]),inputHash:row.inputHash,promptVersion:row.promptVersion,model:row.model,generatedAt:row.generatedAt}]));
+  const pendingSummaryPlayers=new Set<string>(),pendingSummarySources=new Set<string>();let pendingSummaryTakeaways=0;
+  for(const [playerId,entries] of fantasyAnalysisByPlayer){const included=new Set(aiSummaries.get(playerId)?.sourceIds??[]);for(const entry of entries){if(included.has(entry.sourceId))continue;pendingSummaryPlayers.add(playerId);pendingSummarySources.add(entry.sourceId);pendingSummaryTakeaways++;}}
+  const summaryGeneratedAt=[...aiSummaries.values()].map(row=>row.generatedAt).sort().at(-1)??null;
+  const analysisConsensus=(playerId:string)=>{
+    const entries=fantasyAnalysisByPlayer.get(playerId)??[],seen=new Set<string>(),independent:any[]=[];
+    for(const entry of entries){const analyst=(entry.author||entry.sourceId).trim().toLowerCase();if(seen.has(analyst))continue;seen.add(analyst);independent.push(entry);}
+    const positive=independent.filter(entry=>entry.sentiment==="positive"),negative=independent.filter(entry=>entry.sentiment==="negative");
+    const derivedAction=positive.length>negative.length?"target":negative.length>positive.length?"avoid":positive.length||negative.length?"watch":null;
+    const override=analysisOverrides.get(playerId)??null,action=override==="off"?null:override??derivedAction;
+    const tags=[...new Set(entries.map(entry=>entry.label).filter(label=>["sleeper","breakout","value","bust"].includes(label)))];
+    const sourceNames=[...new Set(entries.map(entry=>entry.sourceKey==="yahoo_sports"?"Yahoo Sports":entry.sourceKey==="espn"?"ESPN":entry.sourceKey))];
+    const firstRisk=entries.flatMap(entry=>entry.risks)[0]??null;
+    return {action,derivedAction,override,tags,positiveCount:positive.length,negativeCount:negative.length,independentOpinionCount:independent.length,commonCase:positive[0]?.summary??null,mainConcern:negative[0]?.summary??firstRisk,sources:sourceNames,aiSummary:aiSummaries.get(playerId)??null};
+  };
   const players=rawPlayers.map(row=>{
     const production=productionById.get(row.id) as any;
     const multiplier=market.positions[row.position]?.multiplier??market.globalMultiplier,liveExpected=row.expectedPrice==null?null:rounded(row.expectedPrice*multiplier);
@@ -127,12 +150,19 @@ export function readDraftRoom(){
     adjustment=clamp(adjustment,-12,12);
     const strategyValue=rounded(Math.max(0,(row.productionValue??0)+adjustment));
     return {...row,projectedPoints:projectedById.get(row.id)??0,expectedPrice:rounded(row.expectedPrice),priceLow:rounded(row.priceLow),priceHigh:rounded(row.priceHigh),liveExpectedPrice:liveExpected,livePriceLow:row.priceLow==null?null:rounded(row.priceLow*multiplier),livePriceHigh:row.priceHigh==null?null:rounded(row.priceHigh*multiplier),marketMultiplier:Number(multiplier.toFixed(3)),marketAdp:rounded(([row.adpEspn,row.adpYahoo].filter(Number.isFinite) as number[]).reduce((sum,value)=>sum+value,0)/([row.adpEspn,row.adpYahoo].filter(Number.isFinite).length||1))||null,productionValue:rounded(row.productionValue),edge:rounded(row.edge),liveEdge:strategyValue==null||liveExpected==null?null:strategyValue-liveExpected,strategyValue,strategyReasons:reasons,riskFlags,
-      positionRank:production?.position_rank??null,replacementPoints:production?.replacement_points??null,pointsAboveReplacement:production?.points_above_replacement??null,
+      positionRank:production?.position_rank??null,replacementPoints:production?.replacement_points??null,pointsAboveReplacement:production?.points_above_replacement??null,birthDate:production?.birth_date??null,yearsOfExperience:production?.years_of_experience??null,
       productionLabel:productionLabel(production?.points_above_replacement,maximumXparByPosition.get(row.position)??0),
       productionTier:production?.production_tier??null,productionTierSize:production?.production_tier_size??null,productionTierHigh:production?.production_tier_high??null,productionTierLow:production?.production_tier_low??null,
       auctionTier:production?.auction_tier??null,auctionTierSize:production?.auction_tier_size??null,auctionTierHigh:production?.auction_tier_high??null,auctionTierLow:production?.auction_tier_low??null,
-      lastSeasonStatLine:production?.last_season_stat_line??null,projectedStatLine:production?.projected_stat_line??null};
+      lastSeasonStatLine:production?.last_season_stat_line??null,historicalStatLines:production?.historical_stat_lines??(production?.last_season_stat_line?[production.last_season_stat_line]:[]),projectedStatLine:production?.projected_stat_line??null,
+      fantasyAnalysis:fantasyAnalysisByPlayer.get(row.id)??[],analystConsensus:analysisConsensus(row.id)};
   });
+  const comparableAlternatives=(focus:any)=>{
+    const focusPrice=Math.max(1,focus.liveExpectedPrice??focus.expectedPrice??1),focusPoints=Math.max(1,focus.projectedPoints??1);
+    const score=(candidate:any)=>.3*Math.abs((candidate.productionTier??99)-(focus.productionTier??99))+Math.abs(Math.log(Math.max(1,candidate.liveExpectedPrice??candidate.expectedPrice??1)/focusPrice))+.65*Math.abs(Math.log(Math.max(1,candidate.projectedPoints??1)/focusPoints));
+    return players.filter(player=>player.status==="available"&&player.id!==focus.id&&player.position===focus.position).sort((a,b)=>score(a)-score(b)||(b.liveExpectedPrice??0)-(a.liveExpectedPrice??0)).slice(0,3).map(player=>({id:player.id,name:player.name,nflTeam:player.nflTeam,projectedPoints:player.projectedPoints,pointsAboveReplacement:player.pointsAboveReplacement,productionTier:player.productionTier,liveExpectedPrice:player.liveExpectedPrice??player.expectedPrice,productionLabel:player.productionLabel}));
+  };
+  const boardPlayers=players.map(player=>({...player,alternatives:player.status==="sold"?[]:comparableAlternatives(player)}));
   const teams=(service.db.prepare(`SELECT t.id,t.display_name name,o.display_name owner,s.remaining_budget remainingBudget,s.open_slot_count openSlots,s.rostered_player_count rosteredCount,d.minimum_bid minimumBid,o.profile_json profileJson FROM teams t JOIN owners o ON o.id=t.owner_id JOIN team_draft_state s ON s.team_id=t.id JOIN drafts d ON d.id=t.draft_id WHERE t.draft_id=? ORDER BY CASE WHEN t.display_name='Rodman Renegades' THEN 0 ELSE 1 END,s.remaining_budget DESC`).all(DRAFT_ID) as any[]).map(row=>({...row,maxBid:row.remainingBudget-(row.openSlots-1)*row.minimumBid,profile:parseJson<OwnerProfile|null>(row.profileJson,null),profileJson:undefined}));
   const nominationOrderCount=(service.db.prepare("SELECT COUNT(*) count FROM draft_nomination_order WHERE draft_id=?").get(DRAFT_ID) as {count:number}).count;
   if(nominationOrderCount===0){const alphabetical=[...teams].sort((a,b)=>a.owner.localeCompare(b.owner,undefined,{sensitivity:"base"}));const insert=service.db.prepare("INSERT INTO draft_nomination_order(draft_id,team_id,ordinal) VALUES(?,?,?)");service.db.transaction(()=>alphabetical.forEach((team,index)=>insert.run(DRAFT_ID,team.id,index+1)))();}
@@ -146,19 +176,8 @@ export function readDraftRoom(){
     const nominatorTeam=teams.find(team=>team.id===nomination.nominatorTeamId);
     const enriched=players.find(player=>player.id===nomination.playerId)!;
     const competition=teams.filter(team=>team.name!=="Rodman Renegades"&&team.maxBid>=Math.max(1,enriched.liveExpectedPrice??enriched.expectedPrice??1)).slice(0,4).map(team=>({id:team.id,name:team.owner,maxBid:team.maxBid,signal:ownerSignal(team.profile,nomination.position,nomination.playerId)}));
-    const nominatedPrice=Math.max(1,enriched.liveExpectedPrice??enriched.expectedPrice??1);
-    const nominatedPoints=Math.max(1,enriched.projectedPoints??1);
-    const comparableScore=(player:any)=>{
-      const candidatePrice=Math.max(1,player.liveExpectedPrice??player.expectedPrice??1);
-      const candidatePoints=Math.max(1,player.projectedPoints??1);
-      const tierDistance=Math.abs((player.productionTier??99)-(enriched.productionTier??99));
-      return .3*tierDistance+Math.abs(Math.log(candidatePrice/nominatedPrice))+.65*Math.abs(Math.log(candidatePoints/nominatedPoints));
-    };
-    const alternatives=players
-      .filter(player=>player.status==="available"&&player.id!==nomination.playerId&&player.position===nomination.position)
-      .sort((a,b)=>comparableScore(a)-comparableScore(b)||(b.liveExpectedPrice??0)-(a.liveExpectedPrice??0))
-      .slice(0,3);
-    currentNomination={...enriched,nominationId:nomination.nominationId,playerId:nomination.playerId,nominator:nomination.nominator,ownerSignal:ownerSignal(nominatorTeam?.profile??null,nomination.position,nomination.playerId),competition,alternatives};
+    const alternatives=comparableAlternatives(enriched);
+    currentNomination={...enriched,nominationId:nomination.nominationId,playerId:nomination.playerId,nominator:nomination.nominator,nominatorTeamId:nomination.nominatorTeamId,ownerSignal:ownerSignal(nominatorTeam?.profile??null,nomination.position,nomination.playerId),competition,alternatives};
   }
   const recentSales=service.db.prepare(`SELECT s.id,ROW_NUMBER() OVER (ORDER BY e.sequence) pick,p.display_name player,o.display_name team,s.price,s.recorded_at recordedAt FROM sales s JOIN draft_events e ON e.id=s.recorded_event_id JOIN players p ON p.id=s.player_id JOIN teams t ON t.id=s.winner_team_id JOIN owners o ON o.id=t.owner_id WHERE s.draft_id=? AND s.voided_event_id IS NULL ORDER BY e.sequence DESC`).all(DRAFT_ID);
   const renegades=teams.find(team=>team.name==="Rodman Renegades")??teams[0];
@@ -205,7 +224,7 @@ export function readDraftRoom(){
     decisionPlan=service.db.prepare("SELECT recommended_ceiling recommendedCeiling,committed_ceiling committedCeiling,adjustment_reason adjustmentReason,created_at createdAt,updated_at updatedAt FROM nomination_decision_plans WHERE nomination_id=?").get(currentNomination.nominationId);
   }
   const discipline=(service.db.prepare("SELECT COUNT(*) count,COALESCE(SUM(actual_price-committed_ceiling),0) dollarsAbovePlan FROM discipline_overrides WHERE draft_id=?").get(DRAFT_ID) as any)??{count:0,dollarsAbovePlan:0};
-  return {draft:{...draft,recoveryIssues:service.recoveryAudit(DRAFT_ID)},players,teams:teams.map(({profile,...team})=>team),renegades:renegades?(({profile,...team})=>team)(renegades):null,roster,teamRosters,nominationOrder:{teams:nominationOrder,nextTeamId:nextNominatorTeamId},currentNomination:currentNomination?{...currentNomination,championshipDecision,decisionPlan}:null,leaderboard,recentSales,strategy,market:{...market,globalMultiplier:Number(market.globalMultiplier.toFixed(3))},upcomingTargets:targets,whatChanged:latestDecisionChange(service),discipline,sheetSync:sheetSyncStatus(service.db,DRAFT_ID),localSaved:true};
+  return {draft:{...draft,recoveryIssues:service.recoveryAudit(DRAFT_ID)},players:boardPlayers,teams:teams.map(({profile,...team})=>team),renegades:renegades?(({profile,...team})=>team)(renegades):null,roster,teamRosters,nominationOrder:{teams:nominationOrder,nextTeamId:nextNominatorTeamId},currentNomination:currentNomination?{...currentNomination,championshipDecision,decisionPlan}:null,leaderboard,recentSales,strategy,market:{...market,globalMultiplier:Number(market.globalMultiplier.toFixed(3))},upcomingTargets:targets,whatChanged:latestDecisionChange(service),discipline,sheetSync:sheetSyncStatus(service.db,DRAFT_ID),researchStatus:{summaryRefreshNeeded:pendingSummaryPlayers.size>0,pendingPlayerCount:pendingSummaryPlayers.size,pendingTakeawayCount:pendingSummaryTakeaways,pendingSourceCount:pendingSummarySources.size,lastSummaryGeneratedAt:summaryGeneratedAt},localSaved:true};
 }
 
 export const draftRuntime={draftId:DRAFT_ID,root:ROOT};
@@ -214,6 +233,7 @@ export function resetDraftRoom(options:{preservePreferences:boolean}){
   const service=getDraftService();
   const strategy=(service.db.prepare("SELECT strategy_json strategyJson FROM draft_strategy WHERE draft_id=?").get(DRAFT_ID) as {strategyJson:string}|undefined)?.strategyJson;
   const preferences=service.db.prepare("SELECT player_id playerId,preference,premium,note FROM player_preferences WHERE draft_id=?").all(DRAFT_ID) as {playerId:string;preference:string;premium:number;note:string}[];
+  const analysisOverrides=service.db.prepare("SELECT player_id playerId,override_value overrideValue FROM fantasy_analysis_overrides WHERE draft_id=?").all(DRAFT_ID) as {playerId:string;overrideValue:string}[];
   service.db.pragma("wal_checkpoint(TRUNCATE)");
   service.db.close();globalThis.__renegadeDraftService=undefined;decisionCache=null;
   const backupDirectory=join(DATA_DIR,"backups");mkdirSync(backupDirectory,{recursive:true});
@@ -226,6 +246,8 @@ export function resetDraftRoom(options:{preservePreferences:boolean}){
     if(strategy)fresh.db.prepare("UPDATE draft_strategy SET strategy_json=?,updated_at=CURRENT_TIMESTAMP WHERE draft_id=?").run(strategy,DRAFT_ID);
     const insert=fresh.db.prepare("INSERT INTO player_preferences(draft_id,player_id,preference,premium,note,updated_at) VALUES(?,?,?,?,?,CURRENT_TIMESTAMP)");
     fresh.db.transaction(()=>{for(const row of preferences)insert.run(DRAFT_ID,row.playerId,row.preference,row.premium,row.note);})();
+    const insertAnalysisOverride=fresh.db.prepare("INSERT INTO fantasy_analysis_overrides(draft_id,player_id,override_value,updated_at) VALUES(?,?,?,CURRENT_TIMESTAMP)");
+    fresh.db.transaction(()=>{for(const row of analysisOverrides)insertAnalysisOverride.run(DRAFT_ID,row.playerId,row.overrideValue);})();
   }
   return {backupPath};
 }
@@ -234,6 +256,7 @@ const actionSchema=z.discriminatedUnion("type",[
   z.object({type:z.literal("start")}),z.object({type:z.literal("nominate"),playerId:z.string().min(1),nominatedByTeamId:z.string().optional()}),z.object({type:z.literal("cancelNomination")}),z.object({type:z.literal("sale"),winnerTeamId:z.string().min(1),price:z.number().int().positive(),ceilingOverrideReason:z.string().max(300).optional()}),z.object({type:z.literal("voidSale"),saleId:z.string().min(1)}),z.object({type:z.literal("reassignRosterSlot"),teamId:z.string().min(1),playerId:z.string().min(1),targetSlotId:z.string().min(1)})
   ,z.object({type:z.literal("updateStrategy"),strategy:z.object({buildStyle:z.enum(["balanced","stars_and_scrubs","value_first"]),riskTolerance:z.enum(["conservative","balanced","aggressive"]),byeWeekMode:z.enum(["ignore","soft","strict"]),maxSameBye:z.number().int().min(1).max(6),targetPremium:z.number().int().min(0).max(20),situations:z.array(z.string().max(80)).max(12),teamPreferences:z.array(z.object({team:z.string().min(2).max(3),position:z.enum(["ALL","QB","RB","WR","TE","K","DEF"]),preference:z.enum(["prefer","avoid"]),adjustment:z.number().int().min(1).max(5),note:z.string().max(120)})).max(24),notes:z.string().max(1000)})})
   ,z.object({type:z.literal("playerPreference"),playerId:z.string().min(1),preference:z.enum(["target","avoid","neutral"]),premium:z.number().int().min(-50).max(50).default(0),note:z.string().max(300).default("")})
+  ,z.object({type:z.literal("fantasyAnalysisOverride"),playerId:z.string().min(1),override:z.enum(["auto","target","avoid","off"])})
   ,z.object({type:z.literal("updateNominationOrder"),teamIds:z.array(z.string().min(1)).min(2).max(20)})
   ,z.object({type:z.literal("changeNominationOwner"),nominatedByTeamId:z.string().min(1)})
   ,z.object({type:z.literal("commitCeiling"),nominationId:z.string().min(1),ceiling:z.number().int().positive(),reason:z.string().max(300).optional()})
@@ -254,6 +277,10 @@ export function applyDraftAction(raw:unknown){
   if(action.type==="playerPreference"){
     if(action.preference==="neutral")service.db.prepare("DELETE FROM player_preferences WHERE draft_id=? AND player_id=?").run(DRAFT_ID,action.playerId);
     else service.db.prepare("INSERT INTO player_preferences(draft_id,player_id,preference,premium,note,updated_at) VALUES(?,?,?,?,?,?) ON CONFLICT(draft_id,player_id) DO UPDATE SET preference=excluded.preference,premium=excluded.premium,note=excluded.note,updated_at=excluded.updated_at").run(DRAFT_ID,action.playerId,action.preference,action.premium,action.note,command.occurredAt);
+  }
+  if(action.type==="fantasyAnalysisOverride"){
+    if(action.override==="auto")service.db.prepare("DELETE FROM fantasy_analysis_overrides WHERE draft_id=? AND player_id=?").run(DRAFT_ID,action.playerId);
+    else service.db.prepare("INSERT INTO fantasy_analysis_overrides(draft_id,player_id,override_value,updated_at) VALUES(?,?,?,?) ON CONFLICT(draft_id,player_id) DO UPDATE SET override_value=excluded.override_value,updated_at=excluded.updated_at").run(DRAFT_ID,action.playerId,action.override,command.occurredAt);
   }
   if(action.type==="updateNominationOrder"){
     const draftTeamIds=(service.db.prepare("SELECT id FROM teams WHERE draft_id=?").all(DRAFT_ID) as {id:string}[]).map(row=>row.id);

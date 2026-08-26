@@ -1,0 +1,175 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260826T230000Z",
+    "built_at": "2026-08-26T23:00:00Z",
+    "season": 2026,
+    "takeaway_count": 9
+  },
+  "source": {
+    "source_key": "cbs",
+    "season": 2026,
+    "id": "cbs:eisenberg:2026-august-risers-fallers",
+    "title": "Jamey Eisenberg's mid-August risers and fallers",
+    "author": "Jamey Eisenberg",
+    "url": "https://www.cbssports.com/fantasy/football/news/fantasy-football-rankings-risers-fallers-jamey-eisenberg-august/",
+    "published_at": "2026-08-17",
+    "content_type": "risers_and_fallers",
+    "summary": "Updates rankings for preseason injuries, depth-chart movement, and changing roles."
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0035228",
+      "player_name": "Kyler Murray",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Murray's confirmed Minnesota starting job, Kevin O'Connell, strong weapons, and rushing history create top-12 upside.",
+      "rationale": "Murray's confirmed Minnesota starting job, Kevin O'Connell, strong weapons, and rushing history create top-12 upside.",
+      "risks": [
+        "His ADP may rise quickly."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Round 12",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0037525",
+      "player_name": "Jordan Mason",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Mason may be taking Minnesota's lead job and has produced efficiently when given double-digit carries.",
+      "rationale": "Mason may be taking Minnesota's lead job and has produced efficiently when given double-digit carries.",
+      "risks": [
+        "Limited receiving work lowers his floor."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Round 7",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041547",
+      "player_name": "KC Concepcion",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Cleveland is designing touches for Concepcion, making him a possible weekly three-receiver-league starter despite poor quarterback play.",
+      "rationale": "Cleveland is designing touches for Concepcion, making him a possible weekly three-receiver-league starter despite poor quarterback play.",
+      "risks": [
+        "Cleveland's quarterback situation may cap consistency."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Rounds 9-11",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041035",
+      "player_name": "De'Zhaun Stribling",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Strong camp and preseason usage inside and outside give Stribling a path into San Francisco's depleted receiver rotation.",
+      "rationale": "Strong camp and preseason usage inside and outside give Stribling a path into San Francisco's depleted receiver rotation.",
+      "risks": [
+        "Veterans ahead of him missed the evaluated game."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Round 9",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0039811",
+      "player_name": "MarShawn Lloyd",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Lloyd is tracking as Green Bay's RB2 and could become an RB2 if Josh Jacobs misses time.",
+      "rationale": "Lloyd is tracking as Green Bay's RB2 and could become an RB2 if Josh Jacobs misses time.",
+      "risks": [
+        "Lloyd has played only one NFL game because of injuries."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Round 10",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041496",
+      "player_name": "Jonah Coleman",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Coleman is Denver's RB3 but has contingent upside behind injury-prone veterans and could earn designed work.",
+      "rationale": "Coleman is Denver's RB3 but has contingent upside behind injury-prone veterans and could earn designed work.",
+      "risks": [
+        "He may open the season third on the depth chart."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Round 10",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0033280",
+      "player_name": "Christian McCaffrey",
+      "label": "avoid",
+      "sentiment": "negative",
+      "summary": "A vague camp injury, age 30, and 450 touches make McCaffrey too risky near pick six.",
+      "rationale": "A vague camp injury, age 30, and 450 touches make McCaffrey too risky near pick six.",
+      "risks": [
+        "San Francisco has downplayed the current tightness."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Top six",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041027",
+      "player_name": "Jeremiyah Love",
+      "label": "avoid",
+      "sentiment": "negative",
+      "summary": "A high-ankle sprain, difficult schedule, and committee risk move Love from Round 2 into Round 3.",
+      "rationale": "A high-ankle sprain, difficult schedule, and committee risk move Love from Round 2 into Round 3.",
+      "risks": [
+        "The recommendation could improve if he returns fully before Week 1."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Avoid Round 2; consider Round 3",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0035659",
+      "player_name": "Terry McLaurin",
+      "label": "avoid",
+      "sentiment": "negative",
+      "summary": "Stefon Diggs' arrival creates meaningful target competition and makes McLaurin risky at WR21 cost.",
+      "rationale": "Stefon Diggs' arrival creates meaningful target competition and makes McLaurin risky at WR21 cost.",
+      "risks": [
+        "McLaurin retains the higher individual ceiling."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "WR21",
+      "assumptions": []
+    }
+  ]
+}
