@@ -137,3 +137,10 @@ html,body,.draft-app{background:var(--bg);color:var(--text)}
 @container(max-width:700px){
   .assistant-roadmap-row{grid-template-columns:minmax(0,1fr);grid-template-rows:minmax(220px,1fr) minmax(180px,auto)}
 }
+
+/* Draft-night readability for the compact decision evidence. */
+.primary-decision-card p{font-size:11px;line-height:1.35}
+.compact-impact-row{font-size:11px;line-height:1.2}
+.compact-impact-row>strong{font-size:11px}
+.season-stats th{padding:7px;font-size:10px}
+.season-stats td{padding:8px 7px;font-size:12px}

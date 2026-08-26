@@ -71,6 +71,16 @@ export class DraftService {
     });
   }
 
+  changeNominationOwner(command: Command & { nominatedByTeamId:string }): unknown {
+    const nomination=this.openNominationRow(command.draftId);
+    return this.execute(command,"nomination_owner_changed","nomination",nomination.id,{nominationId:nomination.id,previousTeamId:nomination.nominated_by_team_id??null,nominatedByTeamId:command.nominatedByTeamId},()=>{
+      const team=this.db.prepare("SELECT id FROM teams WHERE id=? AND draft_id=?").get(command.nominatedByTeamId,command.draftId);
+      if(!team)throw new DomainError("TEAM_NOT_IN_DRAFT","Nominator is not in this draft");
+      this.db.prepare("UPDATE nominations SET nominated_by_team_id=? WHERE id=? AND draft_id=? AND status='open'").run(command.nominatedByTeamId,nomination.id,command.draftId);
+      return {nominationId:nomination.id,nominatedByTeamId:command.nominatedByTeamId};
+    });
+  }
+
   recordSale(command: Command & { winnerTeamId:string; price:number; ceilingOverrideReason?:string }): unknown {
     return this.execute(command,"sale_recorded","sale",command.draftId,{winnerTeamId:command.winnerTeamId,price:command.price,ceilingOverrideReason:command.ceilingOverrideReason??null},eventId=>{
       const nomination=this.openNominationRow(command.draftId);

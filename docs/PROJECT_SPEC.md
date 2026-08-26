@@ -108,6 +108,41 @@ preserved by default but can be reset explicitly from the confirmation dialog.
 
 ## Nominated-Player Workflow
 
+### Simplified board redesign
+
+The next draft-night interface is developed at `/board` while the existing
+home screen remains available during validation. The board is the primary
+workspace and uses five first-class metrics: projected JUGG points (`xPTS`),
+points above replacement (`xPAR`), the drop to the next-best available player
+at the same position (`DROP`), expected JUGG sale price (`xPRICE`), and the
+expected sale-price range. `xRANK` is the cross-position ordering of xPAR.
+`DROP` recalculates locally as players leave the available pool. During board
+validation, the table also exposes production value, production tier, and live
+scarcity so their usefulness can be evaluated. Production value remains an
+analytical conversion of xPAR into league-economy dollars and must be clearly
+labeled so it is not mistaken for the market-facing xPRICE.
+
+The interface is a full-width sortable player table with a compact sticky
+nomination bar. Clicking a player row expands supporting player information in
+place without leaving the board. A collapsible bottom workspace provides three
+tables: League Strength, Team Rosters, and Draft History. Team Rosters preserves
+the authoritative roster-slot reassignment workflow and Google Sheets outbox
+synchronization. Draft History preserves confirmed sale reversal and the
+immutable audit trail. The existing local draft engine, SQLite persistence,
+recovery behavior, and Google Sheets adapter remain authoritative and are not
+forked for the new interface.
+
+Setup and administrative controls are grouped under a Draft settings control
+beside the application identity. Nomination order and the recoverable full-draft
+reset live there, separate from the live Up Next, budget, and max-bid status.
+Strategy preferences will use the same settings surface when exposed on the
+simplified board.
+
+During this redesign, scenario paths, championship equity, Assistant GM,
+owner-tendency guidance, roadmap recommendations, and tier labels are not
+first-class board outputs. They may remain implemented behind the existing
+interface while the simpler workflow is validated.
+
 Optimize the main draft screen around one currently nominated player. Show the information needed to decide whether and how far to pursue that player: projected performance, publicly sourced auction values when available, historical JUGG prices, external ADP, positional context, roster fit, risks, comparable alternatives, and relevant owner signals.
 
 The application is named **Renegade Draft Room** and highlights the operator's
@@ -136,7 +171,9 @@ player name it emphasizes four compact, clickable decision cards: live expected
 price and range, points above replacement, scarcity/fallback, and Roster Impact.
 Each card uses one primary-result line and two useful supporting lines. A small
 expand indicator communicates that clicking opens deeper evidence without
-making the dashboard row taller. The five-band price ladder spans a separate
+making the dashboard row taller. Supporting text, price-ladder labels and
+ranges, and actual/projected season statistics use a draft-night-readable type
+scale. The five-band price ladder spans a separate
 compact, headerless section beneath the cards showing Great, Good, Neutral,
 Poor, and Bad price ranges. The headerless actual/projected stat table follows
 it; the projected season uses an `x` prefix such as `x2026` rather than a
