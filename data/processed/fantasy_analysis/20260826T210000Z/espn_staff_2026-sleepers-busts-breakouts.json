@@ -1,0 +1,231 @@
+{
+  "metadata": {
+    "schema_version": 1,
+    "build_id": "20260826T210000Z",
+    "built_at": "2026-08-26T21:00:00Z",
+    "season": 2026,
+    "takeaway_count": 19
+  },
+  "source": {
+    "id": "espn:staff:2026-sleepers-busts-breakouts",
+    "source_key": "espn",
+    "title": "Fantasy football sleepers, busts and breakouts for 2026",
+    "author": "ESPN Fantasy staff",
+    "url": "https://www.espn.com/fantasy/football/story/_/page/FFSleepBustBreak26-49030808/fantasy-football-2026-rankings-nfl-sleepers-breakouts-busts",
+    "published_at": "2026-08-19",
+    "season": 2026,
+    "content_type": "sleepers_busts_breakouts",
+    "summary": "ESPN analysts each select a sleeper, bust, or breakout based on draft cost, expected role, health, and offensive environment."
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0040743",
+      "player_name": "Tyler Shough",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Bell cites Shough's strong late-2025 scoring, added weapons, and goal-line rushing.",
+      "rationale": "Bell cites Shough's strong late-2025 scoring, added weapons, and goal-line rushing.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0039163",
+      "player_name": "C.J. Stroud",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Bowen expects line and backfield upgrades to restore Stroud's rhythm and weekly QB1 upside.",
+      "rationale": "Bowen expects line and backfield upgrades to restore Stroud's rhythm and weekly QB1 upside.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0041032",
+      "player_name": "Kenyon Sadiq",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Dopp likes the low-cost rookie's hybrid WR/TE profile.",
+      "rationale": "Dopp likes the low-cost rookie's hybrid WR/TE profile.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0039344",
+      "player_name": "Jonathon Brooks",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Loza sees three-down upside at a deep discount if Brooks' knee holds.",
+      "rationale": "Loza sees three-down upside at a deep discount if Brooks' knee holds.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0036919",
+      "player_name": "Kenny Gainwell",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Moody sees stand-alone value after Gainwell averaged 17.8 points from Week 8 onward.",
+      "rationale": "Moody sees stand-alone value after Gainwell averaged 17.8 points from Week 8 onward.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0040676",
+      "player_name": "Cam Ward",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Yates is bullish after Tennessee upgraded Ward's supporting cast.",
+      "rationale": "Yates is bullish after Tennessee upgraded Ward's supporting cast.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0031408",
+      "player_name": "Mike Evans",
+      "label": "bust",
+      "sentiment": "negative",
+      "summary": "Clay flags age, injuries, and the touchdown fortune Evans may need to pay off.",
+      "rationale": "Clay flags age, injuries, and the touchdown fortune Evans may need to pay off.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0040663",
+      "player_name": "Harold Fannin Jr.",
+      "label": "bust",
+      "sentiment": "negative",
+      "summary": "Cockcroft views Fannin's price as aggressive after a historic rookie season and major offensive changes.",
+      "rationale": "Cockcroft views Fannin's price as aggressive after a historic rookie season and major offensive changes.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0033280",
+      "player_name": "Christian McCaffrey",
+      "label": "bust",
+      "sentiment": "negative",
+      "summary": "Dopp fades McCaffrey after an extreme workload.",
+      "rationale": "Dopp fades McCaffrey after an extreme workload.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0026498",
+      "player_name": "Matthew Stafford",
+      "label": "bust",
+      "sentiment": "negative",
+      "summary": "Fulghum expects regression from career highs and sees little rushing floor at QB9 cost.",
+      "rationale": "Fulghum expects regression from career highs and sees little rushing floor at QB9 cost.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0039337",
+      "player_name": "Malik Nabers",
+      "label": "bust",
+      "sentiment": "negative",
+      "summary": "Karabell prefers healthier early-round wideouts while Nabers recovers.",
+      "rationale": "Karabell prefers healthier early-round wideouts while Nabers recovers.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0035700",
+      "player_name": "Josh Jacobs",
+      "label": "bust",
+      "sentiment": "negative",
+      "summary": "Moody cites age, accumulated touches, knee concerns, and declining efficiency.",
+      "rationale": "Moody cites age, accumulated touches, knee concerns, and declining efficiency.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0040666",
+      "player_name": "Omarion Hampton",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "Bell sees a healthy line, Mike McDaniel, and dual-threat usage creating RB1 potential.",
+      "rationale": "Bell sees a healthy line, Mike McDaniel, and dual-threat usage creating RB1 potential.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0040129",
+      "player_name": "Emeka Egbuka",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "Bowen expects Egbuka to become Tampa Bay's top target after Mike Evans' exit.",
+      "rationale": "Bowen expects Egbuka to become Tampa Bay's top target after Mike Evans' exit.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0041027",
+      "player_name": "Jeremiyah Love",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "Clay expects elite speed and three-down rookie volume.",
+      "rationale": "Clay expects elite speed and three-down rookie volume.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0040719",
+      "player_name": "Bhayshul Tuten",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "Cockcroft sees a clear high-end RB2 path after Travis Etienne's departure.",
+      "rationale": "Cockcroft sees a clear high-end RB2 path after Travis Etienne's departure.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0040735",
+      "player_name": "Luther Burden III",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "Fulghum cites vacated targets and elite per-route production.",
+      "rationale": "Fulghum cites vacated targets and elite per-route production.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0041512",
+      "player_name": "Jadarian Price",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "Karabell likes Price's clearer Seattle path and large discount versus other rookies.",
+      "rationale": "Karabell likes Price's clearer Seattle path and large discount versus other rookies.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0040122",
+      "player_name": "Ashton Jeanty",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "Yates expects improved Raiders infrastructure to unlock Jeanty's elite talent.",
+      "rationale": "Yates expects improved Raiders infrastructure to unlock Jeanty's elite talent.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    }
+  ]
+}

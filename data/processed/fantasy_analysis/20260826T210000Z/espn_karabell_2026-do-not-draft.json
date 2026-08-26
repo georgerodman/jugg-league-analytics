@@ -1,0 +1,198 @@
+{
+  "metadata": {
+    "schema_version": 1,
+    "build_id": "20260826T210000Z",
+    "built_at": "2026-08-26T21:00:00Z",
+    "season": 2026,
+    "takeaway_count": 16
+  },
+  "source": {
+    "id": "espn:karabell:2026-do-not-draft",
+    "source_key": "espn",
+    "title": "Fantasy Football 'Do Not Draft' list: Giants' young trio among players being overvalued",
+    "author": "Eric Karabell",
+    "url": "https://www.espn.com/fantasy/football/story/_/id/49529494/2026-fantasy-football-busts-overvalued-do-not-draft-karabell",
+    "published_at": "2026-08-05",
+    "season": 2026,
+    "content_type": "do_not_draft",
+    "summary": "Karabell fades prominent players whose ADP assumes health, volume, efficiency, or immediate rookie impact that he does not trust."
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0039337",
+      "player_name": "Malik Nabers",
+      "label": "avoid",
+      "sentiment": "negative",
+      "summary": "Nabers' knee recovery and high ADP create too much early-round uncertainty.",
+      "rationale": "Nabers' knee recovery and high ADP create too much early-round uncertainty.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0040691",
+      "player_name": "Jaxson Dart",
+      "label": "avoid",
+      "sentiment": "negative",
+      "summary": "Dart's price assumes a step forward despite an unstable Giants offense.",
+      "rationale": "Dart's price assumes a step forward despite an unstable Giants offense.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0040715",
+      "player_name": "Cam Skattebo",
+      "label": "avoid",
+      "sentiment": "negative",
+      "summary": "Skattebo's health and role uncertainty make his draft price aggressive.",
+      "rationale": "Skattebo's health and role uncertainty make his draft price aggressive.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0034857",
+      "player_name": "Josh Allen",
+      "label": "avoid",
+      "sentiment": "negative",
+      "summary": "Allen's second-round cost sacrifices too much value in a one-quarterback league.",
+      "rationale": "Allen's second-round cost sacrifices too much value in a one-quarterback league.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0039851",
+      "player_name": "Drake Maye",
+      "label": "avoid",
+      "sentiment": "negative",
+      "summary": "Maye faces a harder schedule at an elevated price.",
+      "rationale": "Maye faces a harder schedule at an elevated price.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0039910",
+      "player_name": "Jayden Daniels",
+      "label": "avoid",
+      "sentiment": "negative",
+      "summary": "Daniels carries multi-injury risk at a premium cost.",
+      "rationale": "Daniels carries multi-injury risk at a premium cost.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0035710",
+      "player_name": "Daniel Jones",
+      "label": "avoid",
+      "sentiment": "negative",
+      "summary": "Achilles recovery and efficiency questions reduce Jones' appeal.",
+      "rationale": "Achilles recovery and efficiency questions reduce Jones' appeal.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0036264",
+      "player_name": "Jordan Love",
+      "label": "avoid",
+      "sentiment": "negative",
+      "summary": "Low passing volume and little rushing cap Love's fantasy ceiling.",
+      "rationale": "Low passing volume and little rushing cap Love's fantasy ceiling.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0033280",
+      "player_name": "Christian McCaffrey",
+      "label": "avoid",
+      "sentiment": "negative",
+      "summary": "Age and a 400-plus-touch history create unacceptable first-round risk.",
+      "rationale": "Age and a 400-plus-touch history create unacceptable first-round risk.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0038134",
+      "player_name": "Kenneth Walker III",
+      "label": "avoid",
+      "sentiment": "negative",
+      "summary": "Walker has not delivered an RB1 season and is too expensive in Round 3.",
+      "rationale": "Walker has not delivered an RB1 season and is too expensive in Round 3.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0039361",
+      "player_name": "Bucky Irving",
+      "label": "avoid",
+      "sentiment": "negative",
+      "summary": "Poor 2025 efficiency and Kenny Gainwell's presence threaten Irving's workload.",
+      "rationale": "Poor 2025 efficiency and Kenny Gainwell's presence threaten Irving's workload.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0039067",
+      "player_name": "Rashee Rice",
+      "label": "avoid",
+      "sentiment": "negative",
+      "summary": "Availability, injury, and suspension uncertainty make Rice difficult to price.",
+      "rationale": "Availability, injury, and suspension uncertainty make Rice difficult to price.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0035676",
+      "player_name": "A.J. Brown",
+      "label": "avoid",
+      "sentiment": "negative",
+      "summary": "Karabell sees decline and a difficult schedule, not a top-10 receiver.",
+      "rationale": "Karabell sees decline and a difficult schedule, not a top-10 receiver.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0039849",
+      "player_name": "Marvin Harrison Jr.",
+      "label": "avoid",
+      "sentiment": "negative",
+      "summary": "Harrison has not yet justified a WR2 price.",
+      "rationale": "Harrison has not yet justified a WR2 price.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0036970",
+      "player_name": "Kyle Pitts Sr.",
+      "label": "avoid",
+      "sentiment": "negative",
+      "summary": "One huge 2025 week and a top-five price make Pitts easy to pass.",
+      "rationale": "One huge 2025 week and a top-five price make Pitts easy to pass.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0034351",
+      "player_name": "Dallas Goedert",
+      "label": "avoid",
+      "sentiment": "negative",
+      "summary": "Touchdown regression and durability concerns weaken Goedert's case.",
+      "rationale": "Touchdown regression and durability concerns weaken Goedert's case.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    }
+  ]
+}

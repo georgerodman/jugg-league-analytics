@@ -1,0 +1,154 @@
+{
+  "metadata": {
+    "schema_version": 1,
+    "build_id": "20260826T210000Z",
+    "built_at": "2026-08-26T21:00:00Z",
+    "season": 2026,
+    "takeaway_count": 12
+  },
+  "source": {
+    "id": "espn:florio:2026-rookie-late-rounds",
+    "source_key": "espn",
+    "title": "2026 NFL rookies to pick in later rounds of fantasy football drafts",
+    "author": "Michael F. Florio",
+    "url": "https://www.espn.com/fantasy/football/story/_/id/49702808/2026-fantasy-football-sleepers-nfl-rookie-dynasty-leagues",
+    "published_at": "2026-08-25",
+    "season": 2026,
+    "content_type": "rookie_sleepers",
+    "summary": "Organizes late-round rookies by league depth, separating redraft bench targets, deep-league fliers, dynasty stashes, and superflex quarterbacks."
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0041496",
+      "player_name": "Jonah Coleman",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Coleman has a path to Denver touches and is viable in 10-team leagues.",
+      "rationale": "Coleman has a path to Denver touches and is viable in 10-team leagues.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0040878",
+      "player_name": "Mike Washington Jr.",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Washington is a high-upside Raiders contingency back.",
+      "rationale": "Washington is a high-upside Raiders contingency back.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0041013",
+      "player_name": "Emmett Johnson",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Johnson can earn passing-down work in Kansas City.",
+      "rationale": "Johnson can earn passing-down work in Kansas City.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0041523",
+      "player_name": "Caleb Douglas",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Douglas has an immediate opportunity in Miami's remade receiver room.",
+      "rationale": "Douglas has an immediate opportunity in Miami's remade receiver room.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0041525",
+      "player_name": "Chris Bell",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Bell is another inexpensive route to Miami targets.",
+      "rationale": "Bell is another inexpensive route to Miami targets.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0041035",
+      "player_name": "De'Zhaun Stribling",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Stribling has a path to snaps in San Francisco's changing receiver group.",
+      "rationale": "Stribling has a path to snaps in San Francisco's changing receiver group.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0040870",
+      "player_name": "Ja'Kobi Lane",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Lane offers size and touchdown upside in Baltimore.",
+      "rationale": "Lane offers size and touchdown upside in Baltimore.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0041052",
+      "player_name": "Kaelon Black",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Black is a deep San Francisco backfield stash.",
+      "rationale": "Black is a deep San Francisco backfield stash.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0040886",
+      "player_name": "Nicholas Singleton",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Singleton combines athletic upside with a reachable Tennessee role.",
+      "rationale": "Singleton combines athletic upside with a reachable Tennessee role.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0041044",
+      "player_name": "Zachariah Branch",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Branch is a dynasty stash whose playmaking can earn designed touches.",
+      "rationale": "Branch is a dynasty stash whose playmaking can earn designed touches.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0041040",
+      "player_name": "Antonio Williams",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Williams is a dynasty receiver stash in Washington.",
+      "rationale": "Williams is a dynasty receiver stash in Washington.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0041561",
+      "player_name": "Carson Beck",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Beck is a late superflex option with potential starting opportunity.",
+      "rationale": "Beck is a late superflex option with potential starting opportunity.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    }
+  ]
+}

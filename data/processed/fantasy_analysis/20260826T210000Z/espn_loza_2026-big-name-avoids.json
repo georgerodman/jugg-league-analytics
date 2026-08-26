@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "schema_version": 1,
+    "build_id": "20260826T210000Z",
+    "built_at": "2026-08-26T21:00:00Z",
+    "season": 2026,
+    "takeaway_count": 6
+  },
+  "source": {
+    "id": "espn:loza:2026-big-name-avoids",
+    "source_key": "espn",
+    "title": "You can have 'em: Six big-name players I'll be passing on in drafts",
+    "author": "Liz Loza",
+    "url": "https://www.espn.com/fantasy/football/story/_/id/49347450/fantasy-football-rankings-top-players-avoid-2026-drafts",
+    "published_at": "2026-08-06",
+    "season": 2026,
+    "content_type": "players_to_avoid",
+    "summary": "Identifies six expensive veterans or stars whose injury, efficiency, role, or touchdown risks outweigh their current draft prices."
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0036442",
+      "player_name": "Joe Burrow",
+      "label": "avoid",
+      "sentiment": "negative",
+      "summary": "Loza is passing at QB5 cost because Cincinnati's line, Burrow's limited rushing, and his injury history weaken the value.",
+      "rationale": "Loza is passing at QB5 cost because Cincinnati's line, Burrow's limited rushing, and his injury history weaken the value.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0033280",
+      "player_name": "Christian McCaffrey",
+      "label": "avoid",
+      "sentiment": "negative",
+      "summary": "A 413-touch season, age-30 curve, efficiency concerns, and first-round cost make McCaffrey too fragile at price.",
+      "rationale": "A 413-touch season, age-30 curve, efficiency concerns, and first-round cost make McCaffrey too fragile at price.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0039040",
+      "player_name": "De'Von Achane",
+      "label": "avoid",
+      "sentiment": "negative",
+      "summary": "Miami's changed quarterback, receivers, and coaching environment could reduce Achane's receiving efficiency and space.",
+      "rationale": "Miami's changed quarterback, receivers, and coaching environment could reduce Achane's receiving efficiency and space.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0039337",
+      "player_name": "Malik Nabers",
+      "label": "avoid",
+      "sentiment": "negative",
+      "summary": "ACL and meniscus recovery plus limited work with Jaxson Dart make Nabers risky at a third-round price.",
+      "rationale": "ACL and meniscus recovery plus limited work with Jaxson Dart make Nabers risky at a third-round price.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0031381",
+      "player_name": "Davante Adams",
+      "label": "avoid",
+      "sentiment": "negative",
+      "summary": "Adams relied heavily on end-zone production in 2025, creating touchdown-regression risk at age 33.",
+      "rationale": "Adams relied heavily on end-zone production in 2025, creating touchdown-regression risk at age 33.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0034351",
+      "player_name": "Dallas Goedert",
+      "label": "avoid",
+      "sentiment": "negative",
+      "summary": "Goedert's unusually high catch-to-touchdown rate and declining yards per catch make a repeat unlikely.",
+      "rationale": "Goedert's unusually high catch-to-touchdown rate and declining yards per catch make a repeat unlikely.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    }
+  ]
+}

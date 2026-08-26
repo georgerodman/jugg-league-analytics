@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "schema_version": 1,
+    "build_id": "20260826T210000Z",
+    "built_at": "2026-08-26T21:00:00Z",
+    "season": 2026,
+    "takeaway_count": 6
+  },
+  "source": {
+    "id": "espn:cockcroft:2026-deep-sleepers",
+    "source_key": "espn",
+    "title": "Carson Beck, Tre' Harris among deep fantasy football sleepers in 2026",
+    "author": "Tristan H. Cockcroft",
+    "url": "https://www.espn.com/fantasy/football/story/_/id/49652186/2026-fantasy-football-sleepers-nfl-deep-leagues",
+    "published_at": "2026-08-20",
+    "season": 2026,
+    "content_type": "deep_sleepers",
+    "summary": "Surfaces players generally available late or undrafted whose paths to snaps, targets, or contingency roles matter in deep leagues."
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0041561",
+      "player_name": "Carson Beck",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Beck is a deep superflex stash with a plausible path to Arizona starts.",
+      "rationale": "Beck is a deep superflex stash with a plausible path to Arizona starts.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0037252",
+      "player_name": "Greg Dulcich",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Miami's depleted pass-catcher room gives Dulcich a route to every-down work.",
+      "rationale": "Miami's depleted pass-catcher room gives Dulcich a route to every-down work.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0040727",
+      "player_name": "Tre' Harris",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Harris can earn a larger Chargers role after an uneven rookie season.",
+      "rationale": "Harris can earn a larger Chargers role after an uneven rookie season.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0040870",
+      "player_name": "Ja'Kobi Lane",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Lane's size and opportunity give him red-zone and dynasty appeal.",
+      "rationale": "Lane's size and opportunity give him red-zone and dynasty appeal.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0039811",
+      "player_name": "MarShawn Lloyd",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Lloyd remains a talented contingency back if he can stay healthy.",
+      "rationale": "Lloyd remains a talented contingency back if he can stay healthy.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0040886",
+      "player_name": "Nicholas Singleton",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Singleton's athletic profile and Tennessee depth chart create late upside.",
+      "rationale": "Singleton's athletic profile and Tennessee depth chart create late upside.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    }
+  ]
+}

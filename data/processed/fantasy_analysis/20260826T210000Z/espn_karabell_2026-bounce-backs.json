@@ -1,0 +1,154 @@
+{
+  "metadata": {
+    "schema_version": 1,
+    "build_id": "20260826T210000Z",
+    "built_at": "2026-08-26T21:00:00Z",
+    "season": 2026,
+    "takeaway_count": 12
+  },
+  "source": {
+    "id": "espn:karabell:2026-bounce-backs",
+    "source_key": "espn",
+    "title": "Fantasy football: 12 players who will bounce back this season",
+    "author": "Eric Karabell",
+    "url": "https://www.espn.com/fantasy/football/story/_/id/49290760/fantasy-football-players-bounce-back-season",
+    "published_at": "2026-07-07",
+    "season": 2026,
+    "content_type": "bounce_back",
+    "summary": "Targets established players whose 2025 results were depressed by injury or situation and whose health, role, or supporting cast improved for 2026."
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0031408",
+      "player_name": "Mike Evans",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Evans is healthy in San Francisco and still showed late-2025 scoring ability.",
+      "rationale": "Evans is healthy in San Francisco and still showed late-2025 scoring ability.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0037834",
+      "player_name": "Brock Purdy",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Purdy is healthy after an injury-shortened year and gains a proven downfield receiver.",
+      "rationale": "Purdy is healthy after an injury-shortened year and gains a proven downfield receiver.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0035228",
+      "player_name": "Kyler Murray",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Murray is a cheap rebound bet after a lost Arizona season and now joins Minnesota.",
+      "rationale": "Murray is a cheap rebound bet after a lost Arizona season and now joins Minnesota.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0035685",
+      "player_name": "David Montgomery",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Montgomery should lead Houston's backfield with volume and touchdown upside.",
+      "rationale": "Montgomery should lead Houston's backfield with volume and touchdown upside.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0037256",
+      "player_name": "Rachaad White",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "White's receiving skill and thin Washington competition make his ADP attractive.",
+      "rationale": "White's receiving skill and thin Washington competition make his ADP attractive.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0039344",
+      "player_name": "Jonathon Brooks",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Carolina believes Brooks is healthy and capable of challenging for passing-game work.",
+      "rationale": "Carolina believes Brooks is healthy and capable of challenging for passing-game work.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0034827",
+      "player_name": "DJ Moore",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Moore can return to WR2 form as Buffalo's best established receiver.",
+      "rationale": "Moore can return to WR2 form as Buffalo's best established receiver.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0035659",
+      "player_name": "Terry McLaurin",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "A healthy McLaurin can resume his consistent 1,000-yard profile.",
+      "rationale": "A healthy McLaurin can resume his consistent 1,000-yard profile.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0033921",
+      "player_name": "Chris Godwin Jr.",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Late-2025 flashes support a healthy rebound at a low price.",
+      "rationale": "Late-2025 flashes support a healthy rebound at a low price.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0039849",
+      "player_name": "Marvin Harrison Jr.",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Improved health and a more balanced Arizona offense create a third-year rebound path.",
+      "rationale": "Improved health and a more balanced Arizona offense create a third-year rebound path.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0039338",
+      "player_name": "Brock Bowers",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "A healthy knee and upgraded quarterback play can restore elite tight end production.",
+      "rationale": "A healthy knee and upgraded quarterback play can restore elite tight end production.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0035229",
+      "player_name": "T.J. Hockenson",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Improved health and Kyler Murray support a return to prominence.",
+      "rationale": "Improved health and Kyler Murray support a return to prominence.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    }
+  ]
+}

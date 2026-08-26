@@ -1,0 +1,253 @@
+{
+  "metadata": {
+    "schema_version": 1,
+    "build_id": "20260826T210000Z",
+    "built_at": "2026-08-26T21:00:00Z",
+    "season": 2026,
+    "takeaway_count": 21
+  },
+  "source": {
+    "id": "espn:karabell:2026-do-draft",
+    "source_key": "espn",
+    "title": "Fantasy Football 'Do Draft' list: Derrick Henry, Patrick Mahomes among undervalued players to pick",
+    "author": "Eric Karabell",
+    "url": "https://www.espn.com/fantasy/football/story/_/id/49556816/2026-fantasy-football-sleepers-value-picks-undervalued-karabell",
+    "published_at": "2026-08-12",
+    "season": 2026,
+    "content_type": "do_draft",
+    "summary": "Karabell highlights proven veterans and discounted role winners whose prices leave room for useful fantasy returns."
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0037248",
+      "player_name": "James Cook III",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Cook remains a reliable early-round back whose role and production are being undervalued.",
+      "rationale": "Cook remains a reliable early-round back whose role and production are being undervalued.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0032764",
+      "player_name": "Derrick Henry",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Henry's elite touchdown and rushing profile remains attractive despite age concerns.",
+      "rationale": "Henry's elite touchdown and rushing profile remains attractive despite age concerns.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0040666",
+      "player_name": "Omarion Hampton",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Hampton has early-round volume and receiving upside in an upgraded offense.",
+      "rationale": "Hampton has early-round volume and receiving upside in an upgraded offense.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0035700",
+      "player_name": "Josh Jacobs",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Karabell views Jacobs as a discounted workhorse.",
+      "rationale": "Karabell views Jacobs as a discounted workhorse.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0038597",
+      "player_name": "Chase Brown",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Brown's every-down usage supports his early-round price.",
+      "rationale": "Brown's every-down usage supports his early-round price.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0036997",
+      "player_name": "Javonte Williams",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Williams offers dependable volume after a strong 2025 season.",
+      "rationale": "Williams offers dependable volume after a strong 2025 season.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0035685",
+      "player_name": "David Montgomery",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Montgomery should lead Houston's backfield and regain touchdown volume.",
+      "rationale": "Montgomery should lead Houston's backfield and regain touchdown volume.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0041512",
+      "player_name": "Jadarian Price",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Price is a discounted route to Seattle's vacated backfield work.",
+      "rationale": "Price is a discounted route to Seattle's vacated backfield work.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0036919",
+      "player_name": "Kenny Gainwell",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Gainwell offers stand-alone touches and contingency upside.",
+      "rationale": "Gainwell offers stand-alone touches and contingency upside.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0037256",
+      "player_name": "Rachaad White",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "White's receiving profile and Washington opportunity are inexpensive.",
+      "rationale": "White's receiving profile and Washington opportunity are inexpensive.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0037834",
+      "player_name": "Brock Purdy",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Purdy is a low-cost path to strong passing efficiency.",
+      "rationale": "Purdy is a low-cost path to strong passing efficiency.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0033873",
+      "player_name": "Patrick Mahomes II",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Mahomes' price has fallen far enough to make the rebound worth targeting.",
+      "rationale": "Mahomes' price has fallen far enough to make the rebound worth targeting.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0035228",
+      "player_name": "Kyler Murray",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Murray offers inexpensive passing and rushing upside in Minnesota.",
+      "rationale": "Murray offers inexpensive passing and rushing upside in Minnesota.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0036322",
+      "player_name": "Justin Jefferson",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Jefferson remains an elite talent available at a relative discount.",
+      "rationale": "Jefferson remains an elite talent available at a relative discount.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0038997",
+      "player_name": "Josh Downs",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Downs can absorb meaningful vacated volume.",
+      "rationale": "Downs can absorb meaningful vacated volume.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0038117",
+      "player_name": "Wan'Dale Robinson",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Robinson's role knowledge and short-area volume create late value.",
+      "rationale": "Robinson's role knowledge and short-area volume create late value.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0038996",
+      "player_name": "Tucker Kraft",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Kraft offers a discounted ceiling if his ACL recovery stays on schedule.",
+      "rationale": "Kraft offers a discounted ceiling if his ACL recovery stays on schedule.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0034753",
+      "player_name": "Mark Andrews",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Andrews' established scoring profile is inexpensive.",
+      "rationale": "Andrews' established scoring profile is inexpensive.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0035229",
+      "player_name": "T.J. Hockenson",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Hockenson is healthy and benefits from improved quarterback play.",
+      "rationale": "Hockenson is healthy and benefits from improved quarterback play.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0038933",
+      "player_name": "Dalton Kincaid",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Kincaid retains breakout potential at a reduced price.",
+      "rationale": "Kincaid retains breakout potential at a reduced price.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0033090",
+      "player_name": "Hunter Henry",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Henry is an affordable late tight end with a stable role.",
+      "rationale": "Henry is an affordable late tight end with a stable role.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    }
+  ]
+}

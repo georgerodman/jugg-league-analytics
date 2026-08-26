@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "schema_version": 1,
+    "build_id": "20260826T210000Z",
+    "built_at": "2026-08-26T21:00:00Z",
+    "season": 2026,
+    "takeaway_count": 6
+  },
+  "source": {
+    "id": "espn:moody:2026-vacated-opportunity",
+    "source_key": "espn",
+    "title": "Fantasy football: Six players who benefit most from vacated targets and touches",
+    "author": "Eric Moody",
+    "url": "https://www.espn.com/fantasy/football/story/_/id/49401787/espn-nfl-fantasy-football-advice-players-benefit-vacated-targets",
+    "published_at": "2026-07-21",
+    "season": 2026,
+    "content_type": "vacated_opportunity",
+    "summary": "Uses offseason departures and projected volume to identify players positioned to inherit meaningful touches or targets."
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0038134",
+      "player_name": "Kenneth Walker III",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Kansas City's investment and open backfield point to more early-down, receiving, and goal-line work.",
+      "rationale": "Kansas City's investment and open backfield point to more early-down, receiving, and goal-line work.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0035659",
+      "player_name": "Terry McLaurin",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Washington has the third-most vacated targets and little competition for its healthy No. 1 receiver.",
+      "rationale": "Washington has the third-most vacated targets and little competition for its healthy No. 1 receiver.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0036252",
+      "player_name": "Michael Pittman Jr.",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Pittsburgh's vacated targets and Aaron Rodgers' short-area preferences fit Pittman's volume profile.",
+      "rationale": "Pittsburgh's vacated targets and Aaron Rodgers' short-area preferences fit Pittman's volume profile.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0040719",
+      "player_name": "Bhayshul Tuten",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Travis Etienne's departure leaves Tuten projected to lead Jacksonville's backfield touches.",
+      "rationale": "Travis Etienne's departure leaves Tuten projected to lead Jacksonville's backfield touches.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0037809",
+      "player_name": "Chig Okonkwo",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Zach Ertz's exit and Washington's contract signal a larger role behind McLaurin.",
+      "rationale": "Zach Ertz's exit and Washington's contract signal a larger role behind McLaurin.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0037252",
+      "player_name": "Greg Dulcich",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Miami's vacated tight-end targets and thin receiver room give Dulcich an every-down path.",
+      "rationale": "Miami's vacated tight-end targets and thin receiver room give Dulcich an every-down path.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    }
+  ]
+}

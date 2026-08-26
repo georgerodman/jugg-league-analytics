@@ -1,0 +1,209 @@
+{
+  "metadata": {
+    "schema_version": 1,
+    "build_id": "20260826T210000Z",
+    "built_at": "2026-08-26T21:00:00Z",
+    "season": 2026,
+    "takeaway_count": 17
+  },
+  "source": {
+    "id": "espn:moody:2026-draft-targets",
+    "source_key": "espn",
+    "title": "Eric Moody's draft-day targets: Kyler Murray, Kenny Gainwell among top values",
+    "author": "Eric Moody",
+    "url": "https://www.espn.com/fantasy/football/story/_/id/49639036/fantasy-football-targets-draft-values-sleepers-breakouts",
+    "published_at": "2026-08-18",
+    "season": 2026,
+    "content_type": "draft_targets",
+    "summary": "Moody identifies values across positions plus five late fliers, emphasizing volume, offensive upgrades, and prices below projected roles."
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0040691",
+      "player_name": "Jaxson Dart",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Dart's rushing and connection with Malik Nabers create upside.",
+      "rationale": "Dart's rushing and connection with Malik Nabers create upside.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0033077",
+      "player_name": "Dak Prescott",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Prescott has an elite receiver duo and likely passing volume.",
+      "rationale": "Prescott has an elite receiver duo and likely passing volume.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0035228",
+      "player_name": "Kyler Murray",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Murray gains Kevin O'Connell and a strong set of pass catchers.",
+      "rationale": "Murray gains Kevin O'Connell and a strong set of pass catchers.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0040666",
+      "player_name": "Omarion Hampton",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Hampton pairs volume with Mike McDaniel's scheme.",
+      "rationale": "Hampton pairs volume with Mike McDaniel's scheme.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0038120",
+      "player_name": "Breece Hall",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Hall's projected workload and Geno Smith improve the rebound case.",
+      "rationale": "Hall's projected workload and Geno Smith improve the rebound case.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0040715",
+      "player_name": "Cam Skattebo",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "A run-heavy Giants approach gives Skattebo volume upside.",
+      "rationale": "A run-heavy Giants approach gives Skattebo volume upside.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0036919",
+      "player_name": "Kenny Gainwell",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "A more even Tampa Bay split makes Gainwell a value.",
+      "rationale": "A more even Tampa Bay split makes Gainwell a value.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0037740",
+      "player_name": "Garrett Wilson",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Wilson should command volume with Geno Smith.",
+      "rationale": "Wilson should command volume with Geno Smith.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0035659",
+      "player_name": "Terry McLaurin",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "A healthy McLaurin has room for more targets.",
+      "rationale": "A healthy McLaurin has room for more targets.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0036252",
+      "player_name": "Michael Pittman Jr.",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Pittman's possession skills fit Aaron Rodgers and Pittsburgh's vacated volume.",
+      "rationale": "Pittman's possession skills fit Aaron Rodgers and Pittsburgh's vacated volume.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0034960",
+      "player_name": "Jakobi Meyers",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Meyers remains a steady producer at a discount.",
+      "rationale": "Meyers remains a steady producer at a discount.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0040663",
+      "player_name": "Harold Fannin Jr.",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Fannin's record-setting rookie year and David Njoku's exit support the price.",
+      "rationale": "Fannin's record-setting rookie year and David Njoku's exit support the price.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0039738",
+      "player_name": "Blake Corum",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Corum has a weekly role plus high-value insurance upside.",
+      "rationale": "Corum has a weekly role plus high-value insurance upside.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0038997",
+      "player_name": "Josh Downs",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Downs can capture a large share of Indianapolis' vacated targets.",
+      "rationale": "Downs can capture a large share of Indianapolis' vacated targets.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0033921",
+      "player_name": "Chris Godwin Jr.",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "A healthy Godwin can regain slot volume after Mike Evans' departure.",
+      "rationale": "A healthy Godwin can regain slot volume after Mike Evans' departure.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0039491",
+      "player_name": "Jalen Coker",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Carolina's extension signals trust and a larger role.",
+      "rationale": "Carolina's extension signals trust and a larger role.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0040676",
+      "player_name": "Cam Ward",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Ward's post-bye improvement and upgraded weapons make him a late target.",
+      "rationale": "Ward's post-bye improvement and upgraded weapons make him a late target.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    }
+  ]
+}

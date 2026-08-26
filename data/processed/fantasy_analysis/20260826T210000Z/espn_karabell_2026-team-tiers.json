@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "schema_version": 1,
+    "build_id": "20260826T210000Z",
+    "built_at": "2026-08-26T21:00:00Z",
+    "season": 2026,
+    "takeaway_count": 0
+  },
+  "source": {
+    "id": "espn:karabell:2026-team-tiers",
+    "source_key": "espn",
+    "title": "Fantasy team tiers: Which NFL squad has the most fantasy value?",
+    "author": "Eric Karabell",
+    "url": "https://www.espn.com/fantasy/football/story/_/id/49250055/espn-nfl-fantasy-football-team-rankings-value",
+    "published_at": "2026-07-02",
+    "season": 2026,
+    "content_type": "team_value_tiers",
+    "summary": "Ranks entire NFL fantasy ecosystems by the number, quality, and reliability of draftable players. The article is retained as team-level context rather than converted into player target labels."
+  },
+  "takeaways": []
+}

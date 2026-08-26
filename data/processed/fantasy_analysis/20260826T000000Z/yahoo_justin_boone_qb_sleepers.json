@@ -1,0 +1,29 @@
+{
+  "metadata": {"schema_version": 1, "build_id": "20260826T000000Z", "built_at": "2026-08-26T00:00:00Z", "season": 2026, "takeaway_count": 3},
+  "source": {
+    "id": "yahoo:justin-boone:2026-qb-sleepers", "source_key": "yahoo_sports",
+    "title": "2026 Fantasy Football: C.J. Stroud among Justin Boone's top sleeper picks at QB",
+    "author": "Justin Boone", "url": "https://sports.yahoo.com/fantasy/article/2026-fantasy-football-cj-stroud-among-justin-boones-top-sleeper-picks-at-qb-154419727.html",
+    "published_at": "2026-08-17", "season": 2026, "content_type": "positional_sleeper_list"
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0039163", "player_name": "C.J. Stroud", "label": "sleeper", "sentiment": "positive",
+      "summary": "Boone sees Stroud as a late-round rebound candidate with a credible path back toward his rookie-season fantasy level.",
+      "rationale": "A healthier and deeper receiving group, improved backfield balance, a secure starting job, and a favorable quarterback schedule support a bounce-back case.",
+      "risks": ["The offensive line may remain a work in progress", "Recent seasons were disrupted by injuries and inconsistent supporting-cast health"]
+    },
+    {
+      "player_id": "nfl:gsis:00-0040676", "player_name": "Cam Ward", "label": "sleeper", "sentiment": "positive",
+      "summary": "Boone views Ward as an ascending fantasy QB2 who could approach low-end QB1 production if Tennessee's overhaul works.",
+      "rationale": "Brian Daboll's arrival, a substantially upgraded group of pass catchers and backs, and a favorable quarterback schedule create a better second-year environment.",
+      "risks": ["The offensive line remains uncertain", "Limited rushing production constrains the ceiling", "He must adjust to a new offense and receiving group"]
+    },
+    {
+      "player_id": "nfl:gsis:00-0030565", "player_name": "Geno Smith", "label": "sleeper", "sentiment": "positive",
+      "summary": "Boone identifies Smith as a deep sleeper whose prior fantasy success makes a rebound plausible in New York.",
+      "rationale": "The Jets offer better offensive depth and a potentially solid line, while Smith has previously produced useful fantasy seasons and top-12 weekly finishes.",
+      "risks": ["He is coming off a poor season in Las Vegas", "Recent performance makes a return to his earlier peak uncertain"]
+    }
+  ]
+}

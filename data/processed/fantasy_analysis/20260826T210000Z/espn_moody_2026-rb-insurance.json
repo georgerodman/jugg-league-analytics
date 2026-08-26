@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "schema_version": 1,
+    "build_id": "20260826T210000Z",
+    "built_at": "2026-08-26T21:00:00Z",
+    "season": 2026,
+    "takeaway_count": 11
+  },
+  "source": {
+    "id": "espn:moody:2026-rb-insurance",
+    "source_key": "espn",
+    "title": "Fantasy football insurance RB rankings: Which backups are must-drafts?",
+    "author": "Eric Moody",
+    "url": "https://www.espn.com/fantasy/football/story/_/id/49517475/nfl-fantasy-football-rankings-running-back-handcuffs-insurance",
+    "published_at": "2026-08-04",
+    "season": 2026,
+    "content_type": "running_back_insurance",
+    "summary": "Ranks backup running backs by stand-alone usability and the upside they would gain if the starter missed time."
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0036919",
+      "player_name": "Kenny Gainwell",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Moody ranks Gainwell first: usable in deeper leagues now and an RB1 candidate if Bucky Irving misses time.",
+      "rationale": "Moody ranks Gainwell first: usable in deeper leagues now and an RB1 candidate if Bucky Irving misses time.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0039738",
+      "player_name": "Blake Corum",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Corum projects for roughly a 40% share and flex value, with RB1 upside if Kyren Williams is out.",
+      "rationale": "Corum projects for roughly a 40% share and flex value, with RB1 upside if Kyren Williams is out.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0039344",
+      "player_name": "Jonathon Brooks",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Brooks offers second-half and receiving upside but requires patience after two ACL tears.",
+      "rationale": "Brooks offers second-half and receiving upside but requires patience after two ACL tears.",
+      "risks": [
+        "Two ACL tears and a potentially cautious early-season workload."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0040236",
+      "player_name": "Kyle Monangai",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Monangai has flex appeal behind D'Andre Swift and could become an RB1 in Chicago's favorable line environment.",
+      "rationale": "Monangai has flex appeal behind D'Andre Swift and could become an RB1 in Chicago's favorable line environment.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0037746",
+      "player_name": "Brian Robinson Jr.",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Robinson lacks a large receiving role but would carry RB1 upside if Bijan Robinson missed time.",
+      "rationale": "Robinson lacks a large receiving role but would carry RB1 upside if Bijan Robinson missed time.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0038555",
+      "player_name": "Tank Bigsby",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Bigsby has limited stand-alone value but projects as an RB2 if Saquon Barkley is unavailable.",
+      "rationale": "Bigsby has limited stand-alone value but projects as an RB2 if Saquon Barkley is unavailable.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0039165",
+      "player_name": "Zach Charbonnet",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Charbonnet could return to a committee role and touchdown work, though his ACL recovery may extend into October.",
+      "rationale": "Charbonnet could return to a committee role and touchdown work, though his ACL recovery may extend into October.",
+      "risks": [
+        "ACL rehabilitation and an uncertain return date."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0040242",
+      "player_name": "Jacory Croskey-Merritt",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Croskey-Merritt leads an unsettled Washington committee projection but carries workload uncertainty.",
+      "rationale": "Croskey-Merritt leads an unsettled Washington committee projection but carries workload uncertainty.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0038611",
+      "player_name": "Chris Rodriguez Jr.",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Rodriguez is a late early-down target in Jacksonville, with limited receiving upside.",
+      "rationale": "Rodriguez is a late early-down target in Jacksonville, with limited receiving upside.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0040583",
+      "player_name": "Woody Marks",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Marks is a Year 2 contingency bet who could become an RB2 if David Montgomery misses time.",
+      "rationale": "Marks is a Year 2 contingency bet who could become an RB2 if David Montgomery misses time.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    },
+    {
+      "player_id": "nfl:gsis:00-0039384",
+      "player_name": "Tyrone Tracy Jr.",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Tracy has dual-threat bench value and RB2 upside if Cam Skattebo is unavailable.",
+      "rationale": "Tracy has dual-threat bench value and RB2 upside if Cam Skattebo is unavailable.",
+      "risks": [
+        "Role, health, team context, and draft price can change before the season."
+      ]
+    }
+  ]
+}
