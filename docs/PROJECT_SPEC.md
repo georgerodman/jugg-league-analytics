@@ -129,8 +129,8 @@ dark-mode atmosphere or decorative styling.
 The left player-list pane includes Team Roster as a collapsed bottom bar that
 expands upward on demand while preserving the selected owner, roster editing,
 and drag-and-drop slot reassignment. Within the right-hand decision workspace,
-full-width Player Details appears first, followed by full-width Assistant GM
-and League Details. Player Details owns projected price, all five price bands, comparable
+full-width Player Details appears first, followed by full-width Assistant GM.
+Player Details owns projected price, all five price bands, comparable
 alternatives, the recommendation, and draft actions. Immediately below the
 player name it emphasizes four compact, clickable decision cards: live expected
 price and range, points above replacement, scarcity/fallback, and Roster Impact.
@@ -149,8 +149,9 @@ good or bad. Its team selector can
 inspect any owner's roster. Filled players can be dragged between legal lineup
 slots (or swapped when both resulting assignments are legal); each change is
 saved locally as an auditable roster-reassignment event and then projected to
-the matching fixed slot in Google Sheets. League Details owns likely competition,
-aligned opponent needs, and supported owner tendencies.
+the matching fixed slot in Google Sheets. Likely competition, aligned opponent
+needs, room pressure, and supported owner tendencies remain available through
+the grounded Assistant GM rather than a permanent League Details panel.
 
 The Scarcity primary card previews the names of its comparable available and
 affordable alternatives on hover. Clicking it opens a scan-friendly list of
@@ -164,8 +165,11 @@ The space-efficient player rail always shows sortable projected points, a
 named production label derived from xPAR (Elite, Premium, Starter, Depth, or
 Replacement),
 the frozen pre-draft projected price, live price, and Roster Impact without an
-expand/collapse mode. Its divider is draggable, constrained to preserve a usable
-minimum width for both panes, and remembers the operator's chosen width locally.
+expand/collapse mode. The player rail uses a fixed width so the draft-night
+layout remains predictable: it stays at 570 pixels while the adjacent decision
+workspace has at least 600 pixels available. Below that combined viewport width,
+the player rail becomes a full-width section above Player Details instead of
+compressing either pane until its content becomes unreadable.
 Roster Impact classifies every
 available player at his live expected price as Great, Good, Neutral, Poor, or
 Bad, with stronger positive and negative visual treatments for rapid scanning.
@@ -270,6 +274,25 @@ The V1 layout includes the Assistant GM conversation surface before a remote AI
 service is required. Its initial answers are deterministic, local, and labeled
 as offline guidance. Connecting streaming AI responses is a later layer and
 must preserve that offline fallback.
+
+The grounded Assistant GM uses a versioned, strictly validated context packet
+rebuilt server-side from authoritative local state for every request. It is a
+read-only explanation layer behind a private provider adapter with no tools or
+write capabilities. Responses are state-versioned, streamed, audited locally,
+and rejected when stale or when grounding checks fail. The deterministic cards
+remain authoritative and usable offline; browser questions and untrusted notes
+can never supply or override decision facts. Remote-provider configuration is
+optional, server-only, and remains behind a human review gate.
+The conversation viewport automatically follows each newly submitted question
+and streamed response while retaining independent scrolling for reviewing older
+messages. The Assistant GM panel uses only the remaining visible vertical area
+below Player Details, with an internally scrolling transcript, persistent
+composer, and readable conversation text; it must not extend the desktop
+workspace past the viewport. Assistant GM and Draft Outlook are separate peer
+panels with matching headers in a shared row: roughly two-thirds of the width
+goes to chat and one-third to the scrollable roadmap of current targets, target
+prices, and walk-away prices. At narrow responsive widths, the roadmap stacks
+beneath the chat.
 
 ## Data and Persistence
 

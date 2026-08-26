@@ -24,6 +24,8 @@ question they answer.
   playoff format.
 - [Live market and strategy](product/live-market-and-strategy.md) — how live
   prices and soft Renegades preferences affect recommendations.
+- [Assistant GM voice and behavior](product/assistant-gm-voice-and-behavior.md)
+  — editable tone, wording, answer structure, and example responses.
 - [Product notes](product/product-notes.md) — ideas and open questions that are
   not yet formal requirements.
 
@@ -57,6 +59,8 @@ question they answer.
   database, documentation, and generated files belong.
 - [Draft domain and SQLite](architecture/draft-domain-and-sqlite.md) — local
   draft state, events, persistence, recovery, and database contract.
+- [Assistant GM contract](architecture/assistant-gm-contract.md) — validated
+  context packet, prompt, response, provider, and grounding boundaries.
 - [Data sources and player identity](architecture/data-sources-and-player-identity.md)
   — source authority, provenance, matching, and durable player IDs.
 
@@ -71,6 +75,13 @@ question they answer.
 - [Change and revalidation workflow](operations/change-revalidation.md) — the
   required rebuild, comparison, fresh-seed simulation, and approval gates after
   changing a model, input, data source, league rule, or recommendation policy.
+- [Assistant GM implementation brief](operations/assistant-gm-implementation-task-brief.md)
+  — the grounding contract, implementation phases, safety rules, tests, and
+  review gate for adding the AI explanation layer.
+- [Assistant GM setup and recovery](operations/assistant-gm-setup-and-recovery.md)
+  — optional server configuration and offline/failure behavior.
+- [Assistant GM grounding evaluation](studies/assistant-gm-grounding-evaluation.md)
+  — isolated fixtures, results, limitations, and mock-draft review decision.
 
 ## Simple rule for future documents
 
