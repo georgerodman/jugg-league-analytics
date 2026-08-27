@@ -1,0 +1,226 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260827T001500Z",
+    "built_at": "2026-08-27T00:15:00Z",
+    "season": 2026,
+    "takeaway_count": 12
+  },
+  "source": {
+    "source_key": "fantasypros",
+    "season": 2026,
+    "id": "fantasypros:staff:2026-injury-updates-aug26",
+    "title": "Fantasy Football Injury Updates to Know for Your Drafts",
+    "author": "FantasyPros Staff and Dr. Deepak Chona",
+    "url": "https://www.fantasypros.com/2026/08/fantasy-football-injury-updates-to-know-for-your-drafts-2026/",
+    "published_at": "2026-08-26",
+    "content_type": "injury_updates",
+    "summary": "Medical and fantasy interpretation of current injuries, recovery windows, reinjury risk, and price implications."
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0039075",
+      "player_name": "Puka Nacua",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Nacua's hip-flexor and sports-hernia concerns are improving, and the medical view does not support a meaningful injury downgrade.",
+      "rationale": "Nacua's hip-flexor and sports-hernia concerns are improving, and the medical view does not support a meaningful injury downgrade.",
+      "risks": [
+        "Modest reinjury risk and a separate possible suspension."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Early second round",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0033280",
+      "player_name": "Christian McCaffrey",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "McCaffrey's intermittent tightness is viewed as deliberate workload management, leaving him draftable in the back half of Round 1 with roster insurance.",
+      "rationale": "McCaffrey's intermittent tightness is viewed as deliberate workload management, leaving him draftable in the back half of Round 1 with roster insurance.",
+      "risks": [
+        "Age and soft-tissue history make him a conditional RB1."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Back half of Round 1",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040122",
+      "player_name": "Ashton Jeanty",
+      "label": "avoid",
+      "sentiment": "negative",
+      "summary": "Jeanty's ankle injury could be a high-ankle sprain with a multi-week absence and efficiency ramp, prompting a meaningful downgrade.",
+      "rationale": "Jeanty's ankle injury could be a high-ankle sprain with a multi-week absence and efficiency ramp, prompting a meaningful downgrade.",
+      "risks": [
+        "Severity remains uncertain and a low sprain would allow a much quicker return."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Adjusted price; pair with backup",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0039337",
+      "player_name": "Malik Nabers",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Nabers' return to contact work supports a Week 1 return and early-second-round value.",
+      "rationale": "Nabers' return to contact work supports a Week 1 return and early-second-round value.",
+      "risks": [
+        "A four-week workload ramp and early efficiency dip remain plausible."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Early Round 2",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041027",
+      "player_name": "Jeremiyah Love",
+      "label": "avoid",
+      "sentiment": "negative",
+      "summary": "Love's high-ankle sprain creates a possible six-week production dip and elevated reinjury risk, with one analyst out at current cost.",
+      "rationale": "Love's high-ankle sprain creates a possible six-week production dip and elevated reinjury risk, with one analyst out at current cost.",
+      "risks": [
+        "A milder injury remains possible and another analyst accepts the risk."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Current mid-round cost; add handcuff",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040129",
+      "player_name": "Emeka Egbuka",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Egbuka's stable toe sprain is expected to permit a normal or mildly reduced Week 1, leaving analysts comfortable buying at cost.",
+      "rationale": "Egbuka's stable toe sprain is expected to permit a normal or mildly reduced Week 1, leaving analysts comfortable buying at cost.",
+      "risks": [
+        "Tampa Bay's public injury messaging warrants caution."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Current cost",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040735",
+      "player_name": "Luther Burden III",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Burden's light jogging and teammate comments support a Week 1 return from his groin strain.",
+      "rationale": "Burden's light jogging and teammate comments support a Week 1 return from his groin strain.",
+      "risks": [
+        "Soft-tissue reinjury risk is real but described as modest."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Current cost",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040128",
+      "player_name": "Tyler Warren",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Warren's groin injury is viewed as short-term and insufficient to justify a ranking downgrade.",
+      "rationale": "Warren's groin injury is viewed as short-term and insufficient to justify a ranking downgrade.",
+      "risks": [
+        "A setback would change the low-risk outlook."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Current cost",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0037664",
+      "player_name": "Alec Pierce",
+      "label": "avoid",
+      "sentiment": "negative",
+      "summary": "Pierce's lingering ankle problem and required practice ramp create substantial early-season uncertainty, and both analysts moved off him at cost.",
+      "rationale": "Pierce's lingering ankle problem and required practice ramp create substantial early-season uncertainty, and both analysts moved off him at cost.",
+      "risks": [
+        "A later surgical path could improve his midseason outlook."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Avoid current cost",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0039344",
+      "player_name": "Jonathon Brooks",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Brooks' ACL recovery timeline, talent, and camp performance have moved one analyst ahead of Chuba Hubbard.",
+      "rationale": "Brooks' ACL recovery timeline, talent, and camp performance have moved one analyst ahead of Chuba Hubbard.",
+      "risks": [
+        "Carolina can remain a committee and Brooks has two prior ACL tears."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Rising ADP",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0036555",
+      "player_name": "Chuba Hubbard",
+      "label": "avoid",
+      "sentiment": "negative",
+      "summary": "Hubbard's potentially significant hamstring injury threatens Week 1 and has shifted preference toward Jonathon Brooks.",
+      "rationale": "Hubbard's potentially significant hamstring injury threatens Week 1 and has shifted preference toward Jonathon Brooks.",
+      "risks": [
+        "He has previously demonstrated top-12 production and the job remains unsettled."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Current cost",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041029",
+      "player_name": "Jordyn Tyson",
+      "label": "avoid",
+      "sentiment": "negative",
+      "summary": "Tyson's recurring hamstring issue is expected to cost roughly two months plus a workload ramp, making him a redraft fade.",
+      "rationale": "Tyson's recurring hamstring issue is expected to cost roughly two months plus a workload ramp, making him a redraft fade.",
+      "risks": [
+        "The depressed price may create a dynasty buy-low opportunity."
+      ],
+      "formats": [
+        "redraft",
+        "dynasty"
+      ],
+      "price_condition": "Avoid in redraft",
+      "assumptions": []
+    }
+  ]
+}

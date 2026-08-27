@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260827T001500Z",
+    "built_at": "2026-08-27T00:15:00Z",
+    "season": 2026,
+    "takeaway_count": 0
+  },
+  "source": {
+    "source_key": "fantasydata",
+    "season": 2026,
+    "id": "fantasydata:player-news:2026-08-26",
+    "title": "Fantasy Football Player News",
+    "author": "FantasyData",
+    "url": "https://fantasydata.com/nfl/fantasy-football-player-news",
+    "published_at": "2026-08-26",
+    "content_type": "live_player_news",
+    "summary": "A continuously changing player-news feed. Registered as a dated discovery source, not durable recommendation evidence."
+  },
+  "takeaways": []
+}

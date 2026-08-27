@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260827T001500Z",
+    "built_at": "2026-08-27T00:15:00Z",
+    "season": 2026,
+    "takeaway_count": 0
+  },
+  "source": {
+    "source_key": "draftsharks",
+    "season": 2026,
+    "id": "draftsharks:injury-predictor:2026-08-24",
+    "title": "NFL Injuries - Draft Sharks Injury Predictor",
+    "author": "Draft Sharks Team",
+    "url": "https://www.draftsharks.com/injury-predictor",
+    "published_at": "2026-08-26",
+    "content_type": "injury_model",
+    "summary": "Explains a premium machine-learning injury-risk model based on historical injuries and more than 1,000 variables. The public page exposes methodology but no player ratings, so it is retained as model context only."
+  },
+  "takeaways": []
+}

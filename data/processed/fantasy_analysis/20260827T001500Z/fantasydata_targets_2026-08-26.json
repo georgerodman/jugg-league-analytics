@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260827T001500Z",
+    "built_at": "2026-08-27T00:15:00Z",
+    "season": 2026,
+    "takeaway_count": 0
+  },
+  "source": {
+    "source_key": "fantasydata",
+    "season": 2026,
+    "id": "fantasydata:targets:2026-08-26",
+    "title": "NFL Targets",
+    "author": "FantasyData",
+    "url": "https://fantasydata.com/nfl/targets",
+    "published_at": "2026-08-26",
+    "content_type": "live_usage_table",
+    "summary": "A live targets dataset page. Registered as a volatile contextual source; its dynamic table is not converted into a static player opinion."
+  },
+  "takeaways": []
+}

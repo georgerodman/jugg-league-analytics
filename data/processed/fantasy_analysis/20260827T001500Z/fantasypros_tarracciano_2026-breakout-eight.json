@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260827T001500Z",
+    "built_at": "2026-08-27T00:15:00Z",
+    "season": 2026,
+    "takeaway_count": 8
+  },
+  "source": {
+    "source_key": "fantasypros",
+    "season": 2026,
+    "id": "fantasypros:tarracciano:2026-breakout-eight",
+    "title": "8 Fantasy Football Breakout Players for 2026",
+    "author": "Evan Tarracciano",
+    "url": "https://www.fantasypros.com/2026/08/8-fantasy-football-breakout-players-for-2026/",
+    "published_at": "2026-08-26",
+    "content_type": "breakouts",
+    "summary": "Eight players expected to exceed projections if their roles, health, and offensive environments cooperate."
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0036355",
+      "player_name": "Justin Herbert",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "Healthy offensive tackles, strong receiving options, and Herbert's added rushing production create top-five quarterback upside.",
+      "rationale": "Healthy offensive tackles, strong receiving options, and Herbert's added rushing production create top-five quarterback upside.",
+      "risks": [
+        "The case depends materially on improved line health."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "QB breakout cost",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0033106",
+      "player_name": "Jared Goff",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Goff's repeated top-eight finishes and elite passing volume make QB16 pricing overly pessimistic.",
+      "rationale": "Goff's repeated top-eight finishes and elite passing volume make QB16 pricing overly pessimistic.",
+      "risks": [
+        "He adds little rushing value."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "QB16",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040715",
+      "player_name": "Cam Skattebo",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "Skattebo is healthy, receiving-capable, and positioned as the clear lead back behind an improved Giants line.",
+      "rationale": "Skattebo is healthy, receiving-capable, and positioned as the clear lead back behind an improved Giants line.",
+      "risks": [
+        "His physical style and major 2025 leg injury create durability risk."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Lead-back cost",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041512",
+      "player_name": "Jadarian Price",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "Price's first-round capital and limited healthy competition create a strong early workload at RB26 cost.",
+      "rationale": "Price's first-round capital and limited healthy competition create a strong early workload at RB26 cost.",
+      "risks": [
+        "His receiving profile is less established and Zach Charbonnet may return."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "RB26",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040129",
+      "player_name": "Emeka Egbuka",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "Egbuka can become Tampa Bay's lead receiver with Mike Evans gone and carries favorable WR schedule support.",
+      "rationale": "Egbuka can become Tampa Bay's lead receiver with Mike Evans gone and carries favorable WR schedule support.",
+      "risks": [
+        "Toe health and Chris Godwin remain relevant risks."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "WR breakout cost",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0034827",
+      "player_name": "DJ Moore",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "Moore is expected to become Josh Allen's first read and primary deep threat after leaving Chicago.",
+      "rationale": "Moore is expected to become Josh Allen's first read and primary deep threat after leaving Chicago.",
+      "risks": [
+        "Camp chemistry must translate into regular-season target volume."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "WR breakout cost",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0037838",
+      "player_name": "Isaiah Likely",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "Likely projects as the Giants' second read and red-zone mismatch after moving out of Mark Andrews' shadow.",
+      "rationale": "Likely projects as the Giants' second read and red-zone mismatch after moving out of Mark Andrews' shadow.",
+      "risks": [
+        "The role is projected from camp reports in a new offense."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "TE breakout cost",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0034351",
+      "player_name": "Dallas Goedert",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "Goedert can offset touchdown regression with increased targets after A.J. Brown's departure and Makai Lemon's injury.",
+      "rationale": "Goedert can offset touchdown regression with increased targets after A.J. Brown's departure and Makai Lemon's injury.",
+      "risks": [
+        "His 11-touchdown 2025 season is unlikely to repeat."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "TE breakout cost",
+      "assumptions": []
+    }
+  ]
+}

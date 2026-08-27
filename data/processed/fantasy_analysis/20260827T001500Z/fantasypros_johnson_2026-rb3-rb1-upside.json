@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260827T001500Z",
+    "built_at": "2026-08-27T00:15:00Z",
+    "season": 2026,
+    "takeaway_count": 6
+  },
+  "source": {
+    "source_key": "fantasypros",
+    "season": 2026,
+    "id": "fantasypros:johnson:2026-rb3-rb1-upside",
+    "title": "6 RB3s With RB1 Potential",
+    "author": "Ellis Bryn Johnson",
+    "url": "https://www.fantasypros.com/2026/08/6-rb3s-with-rb1-potential-2026-fantasy-football/",
+    "published_at": "2026-08-26",
+    "content_type": "upside_targets",
+    "summary": "Six backs with plausible top-12 outcomes that do not require an injury to a teammate."
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0040719",
+      "player_name": "Bhayshul Tuten",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "Tuten's athleticism, first-team work, and open Jacksonville lead role create an every-down breakout path.",
+      "rationale": "Tuten's athleticism, first-team work, and open Jacksonville lead role create an every-down breakout path.",
+      "risks": [
+        "Chris Rodriguez and passing-down specialist LeQuint Allen remain involved."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "RB23",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0035685",
+      "player_name": "David Montgomery",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Montgomery owns Houston's clearest lead-back path and can reach RB1 volume if the rebuilt line improves efficiency.",
+      "rationale": "Montgomery owns Houston's clearest lead-back path and can reach RB1 volume if the rebuilt line improves efficiency.",
+      "risks": [
+        "His 2025 efficiency was poor and Houston's line improvement is unproven."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "RB24",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0036275",
+      "player_name": "D'Andre Swift",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Swift's durable top-24 history, 2025 lead role, and Chicago's potent offense give him a straightforward top-12 path.",
+      "rationale": "Swift's durable top-24 history, 2025 lead role, and Chicago's potent offense give him a straightforward top-12 path.",
+      "risks": [
+        "Kyle Monangai can regain a meaningful share after injury."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "RB3 price",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0035261",
+      "player_name": "Tony Pollard",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Pollard's dominant share and limited competition create volume-based RB1 upside if Tennessee's offense improves.",
+      "rationale": "Pollard's dominant share and limited competition create volume-based RB1 upside if Tennessee's offense improves.",
+      "risks": [
+        "He ranked only 30th in points per game with similar workload in 2025."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "RB3 price",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0036555",
+      "player_name": "Chuba Hubbard",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Hubbard has prior RB1 production and can return to that ceiling if he wins Carolina's productive backfield.",
+      "rationale": "Hubbard has prior RB1 production and can return to that ceiling if he wins Carolina's productive backfield.",
+      "risks": [
+        "A hamstring injury and Jonathon Brooks make this a true competition."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "RB3 price",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0039344",
+      "player_name": "Jonathon Brooks",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "Brooks' talent and Hubbard's hamstring issue give him a rising chance to win Carolina's RB1-capable role.",
+      "rationale": "Brooks' talent and Hubbard's hamstring issue give him a rising chance to win Carolina's RB1-capable role.",
+      "risks": [
+        "The backfield may stay a committee and Brooks has major knee history."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Rising RB3 price",
+      "assumptions": []
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260827T001500Z",
+    "built_at": "2026-08-27T00:15:00Z",
+    "season": 2026,
+    "takeaway_count": 13
+  },
+  "source": {
+    "source_key": "fantasypros",
+    "season": 2026,
+    "id": "fantasypros:fanelli:2026-zero-wr-targets",
+    "title": "13 Zero-WR Targets",
+    "author": "Mike Fanelli",
+    "url": "https://www.fantasypros.com/2026/08/13-zero-wr-targets-2026-fantasy-football/",
+    "published_at": "2026-08-26",
+    "content_type": "strategy_targets",
+    "summary": "Thirteen receivers targeted from Round 5 through the final round in a PPR Zero-WR construction."
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0031381",
+      "player_name": "Davante Adams",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Adams can remain a strong Round 5 receiver even with touchdown regression because his 2025 scoring margin was substantial.",
+      "rationale": "Adams can remain a strong Round 5 receiver even with touchdown regression because his 2025 scoring margin was substantial.",
+      "risks": [
+        "Age, hamstring history, and touchdown regression."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "ADP 50.4 / WR22",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0034827",
+      "player_name": "DJ Moore",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Moore's move into Buffalo's lead-receiver vacancy creates a path to reproduce Stefon Diggs-level opportunity with Josh Allen.",
+      "rationale": "Moore's move into Buffalo's lead-receiver vacancy creates a path to reproduce Stefon Diggs-level opportunity with Josh Allen.",
+      "risks": [
+        "The new target hierarchy is not yet established."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "ADP 53.2 / WR23",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0039919",
+      "player_name": "Rome Odunze",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Odunze's elite early-2025 stretch and DJ Moore's departure support a top-12 ceiling if his target rate holds.",
+      "rationale": "Odunze's elite early-2025 stretch and DJ Moore's departure support a top-12 ceiling if his target rate holds.",
+      "risks": [
+        "Luther Burden and Colston Loveland still compete for work."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "ADP 61.6 / WR27",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038124",
+      "player_name": "Christian Watson",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Watson's strong points-per-game production and Green Bay's vacated targets offer upside at a Round 6 price.",
+      "rationale": "Watson's strong points-per-game production and Green Bay's vacated targets offer upside at a Round 6 price.",
+      "risks": [
+        "Durability remains the defining risk."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "ADP 71.2 / WR30",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0039849",
+      "player_name": "Marvin Harrison Jr.",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Harrison is priced as a mid-round WR3 but could rebound into the top 12 under Arizona's new offensive staff.",
+      "rationale": "Harrison is priced as a mid-round WR3 but could rebound into the top 12 under Arizona's new offensive staff.",
+      "risks": [
+        "The breakout remains speculative after two disappointing years."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "ADP 75.4 / WR31",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038606",
+      "player_name": "Parker Washington",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Washington's second-half WR11 pace, late-season surge, and camp reports support him as a Round 7-8 target.",
+      "rationale": "Washington's second-half WR11 pace, late-season surge, and camp reports support him as a Round 7-8 target.",
+      "risks": [
+        "Jacksonville still has an ambiguous receiver hierarchy."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "ADP 75.6 / WR32",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0037664",
+      "player_name": "Alec Pierce",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Pierce's lead role, contract, efficiency, and touchdown production create top-20 upside if he reaches 100 targets.",
+      "rationale": "Pierce's lead role, contract, efficiency, and touchdown production create top-20 upside if he reaches 100 targets.",
+      "risks": [
+        "This recommendation conflicts with newer injury concerns."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "ADP 91.6 / WR37",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038117",
+      "player_name": "Wan'Dale Robinson",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Robinson's continuity with Brian Daboll and consecutive 140-target seasons make him a Round 9-10 target.",
+      "rationale": "Robinson's continuity with Brian Daboll and consecutive 140-target seasons make him a Round 9-10 target.",
+      "risks": [
+        "Carnell Tate will command substantial work."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "ADP 98.4 / WR39",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0033921",
+      "player_name": "Chris Godwin Jr.",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Godwin's health and camp form create a plausible bounce-back at WR40 cost.",
+      "rationale": "Godwin's health and camp form create a plausible bounce-back at WR40 cost.",
+      "risks": [
+        "He missed 18 games over the prior two seasons."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "ADP 100.8 / WR40",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038994",
+      "player_name": "Jordan Addison",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Addison's production with competent quarterback play supports a rebound with Kyler Murray.",
+      "rationale": "Addison's production with competent quarterback play supports a rebound with Kyler Murray.",
+      "risks": [
+        "His 2025 output varied sharply by quarterback."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "ADP 108.6 / WR45",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041547",
+      "player_name": "KC Concepcion",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Concepcion's after-catch ability and fit in Todd Monken's offense make him the preferred late Cleveland receiver.",
+      "rationale": "Concepcion's after-catch ability and fit in Todd Monken's offense make him the preferred late Cleveland receiver.",
+      "risks": [
+        "Cleveland's offense and rookie competition remain uncertain."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "ADP 130.8 / WR50",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041035",
+      "player_name": "De'Zhaun Stribling",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Stribling's camp and preseason ascent gives him a path to become San Francisco's top receiver as a rookie.",
+      "rationale": "Stribling's camp and preseason ascent gives him a path to become San Francisco's top receiver as a rookie.",
+      "risks": [
+        "Veteran health and rotation can reduce his role."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "ADP 152.2 / WR57",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040870",
+      "player_name": "Ja'Kobi Lane",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Lane's camp performance and path to Baltimore's No. 2 target role make him a strong final-round pick.",
+      "rationale": "Lane's camp performance and path to Baltimore's No. 2 target role make him a strong final-round pick.",
+      "risks": [
+        "He remains behind Zay Flowers and competes with veterans."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "ADP 195.2 / WR62",
+      "assumptions": []
+    }
+  ]
+}
