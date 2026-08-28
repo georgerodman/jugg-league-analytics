@@ -1,0 +1,182 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260827T223000Z",
+    "built_at": "2026-08-27T22:30:00Z",
+    "season": 2026,
+    "takeaway_count": 10
+  },
+  "source": {
+    "id": "fantasyfootballers:udk:2026-breakouts",
+    "source_key": "fantasy_footballers",
+    "title": "2026 UDK Expert List: Breakouts",
+    "author": "Fantasy Footballers",
+    "url": "https://www.thefantasyfootballers.com/2026-ultimate-draft-kit/udk-expert-lists-breakouts/",
+    "published_at": "2026-08-27",
+    "content_type": "breakouts",
+    "summary": "Ten players with role, efficiency or second-year breakout cases.",
+    "season": 2026
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0040691",
+      "player_name": "Jaxson Dart",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "Dart's rushing production and John Harbaugh's arrival create a difference-making sophomore ceiling.",
+      "rationale": "Dart's rushing production and John Harbaugh's arrival create a difference-making sophomore ceiling.",
+      "risks": [
+        "His aggressive running style creates substantial injury risk."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 9.07",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0036971",
+      "player_name": "Trevor Lawrence",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "A QB4 finish, strong late run and valuable rushing production support another leap in Liam Coen's offense.",
+      "rationale": "A QB4 finish, strong late run and valuable rushing production support another leap in Liam Coen's offense.",
+      "risks": [
+        "His 2025 rushing touchdowns may regress."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 9.01",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040666",
+      "player_name": "Omarion Hampton",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "A healthy line and Mike McDaniel's scheme set Hampton up for a true workhorse role.",
+      "rationale": "A healthy line and Mike McDaniel's scheme set Hampton up for a true workhorse role.",
+      "risks": [
+        "Keaton Mitchell can siphon explosive and receiving work."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 2.03",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038134",
+      "player_name": "Kenneth Walker III",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "Kansas City's large investment and empty depth chart create a path for the offense to run through Walker.",
+      "rationale": "Kansas City's large investment and empty depth chart create a path for the offense to run through Walker.",
+      "risks": [
+        "His career workload and receiving volume have been inconsistent."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 2.06",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040719",
+      "player_name": "Bhayshul Tuten",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "Etienne's departure and Tuten's goal-line efficiency create RB1 upside in an attractive offense.",
+      "rationale": "Etienne's departure and Tuten's goal-line efficiency create RB1 upside in an attractive offense.",
+      "risks": [
+        "Other backs can split power and receiving duties."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 5.12",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038124",
+      "player_name": "Christian Watson",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "Elite per-route production and reduced receiver competition give Watson a strong WR3-or-better ceiling.",
+      "rationale": "Elite per-route production and reduced receiver competition give Watson a strong WR3-or-better ceiling.",
+      "risks": [
+        "His injury history and Green Bay's spread offense remain concerns."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 6.08",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041438",
+      "player_name": "Carnell Tate",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "Fourth-overall draft capital and a sparse Tennessee depth chart create immediate alpha-receiver opportunity.",
+      "rationale": "Fourth-overall draft capital and a sparse Tennessee depth chart create immediate alpha-receiver opportunity.",
+      "risks": [
+        "The ceiling depends on Cam Ward making a meaningful leap."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 6.08",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040124",
+      "player_name": "Tetairoa McMillan",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "A 25% rookie target share and little new competition position McMillan for a classic Year 2 leap.",
+      "rationale": "A 25% rookie target share and little new competition position McMillan for a classic Year 2 leap.",
+      "risks": [
+        "Bryce Young and touchdown growth must cooperate."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 3.12",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040126",
+      "player_name": "Colston Loveland",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "A dominant late-season target surge and Caleb Williams' trust create elite tight-end upside.",
+      "rationale": "A dominant late-season target surge and Caleb Williams' trust create elite tight-end upside.",
+      "risks": [
+        "Chicago still has several strong target earners."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 4.08",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040663",
+      "player_name": "Harold Fannin Jr.",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "David Njoku's departure opens enough work for Fannin to build on a dominant late-season run.",
+      "rationale": "David Njoku's departure opens enough work for Fannin to build on a dominant late-season run.",
+      "risks": [
+        "Cleveland's quarterback situation limits the floor."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 7.02",
+      "assumptions": []
+    }
+  ]
+}

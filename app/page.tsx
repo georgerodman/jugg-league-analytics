@@ -1,3 +1,3 @@
-import { DraftRoom } from "../src/ui/DraftRoom";
+import { DraftBoard } from "../src/ui/board/DraftBoard";
 
-export default function Page(){return <DraftRoom/>;}
+export default function Page(){return <DraftBoard/>;}

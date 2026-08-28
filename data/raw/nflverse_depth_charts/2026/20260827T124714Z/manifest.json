@@ -1,0 +1,27 @@
+{
+  "columns": [
+    "dt",
+    "team",
+    "player_name",
+    "espn_id",
+    "gsis_id",
+    "pos_grp_id",
+    "pos_grp",
+    "pos_id",
+    "pos_name",
+    "pos_abb",
+    "pos_slot",
+    "pos_rank"
+  ],
+  "dataset": "depth_charts",
+  "file": "depth_charts_2026.csv",
+  "license": "CC-BY-SA-4.0 for 2025+ depth charts; credit ESPN via nflverse",
+  "record_count": 472351,
+  "retrieved_at": "2026-08-27T12:47:14.882963+00:00",
+  "schema_version": 1,
+  "season": 2026,
+  "sha256": "f9aa17c949c3e0c04c3d8680401f671de4d7ac92f88f94070b56cfebf2fcdd0c",
+  "snapshot_id": "20260827T124714Z",
+  "source": "nflverse",
+  "url": "https://github.com/nflverse/nflverse-data/releases/download/depth_charts/depth_charts_2026.csv"
+}

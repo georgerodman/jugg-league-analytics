@@ -1,0 +1,175 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260827T033000Z",
+    "built_at": "2026-08-27T03:30:00Z",
+    "season": 2026,
+    "takeaway_count": 9
+  },
+  "source": {
+    "id": "nbc:rotoworld-staff:2026-sleepers-aug18",
+    "source_key": "nbc_rotoworld",
+    "title": "Fantasy Football Sleepers 2026: Keaton Mitchell, Jaydon Blue among Rotoworld staff picks",
+    "author": "Rotoworld Staff",
+    "url": "https://www.nbcsports.com/fantasy/football/news/fantasy-football-sleepers-2026-keaton-mitchell-jaydon-blue-among-rotoworld-staff-picks",
+    "published_at": "2026-08-18",
+    "season": 2026,
+    "content_type": "staff_sleepers",
+    "summary": "Staff sleeper selections emphasizing opportunity and value relative to current draft position."
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0035685",
+      "player_name": "David Montgomery",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Montgomery can command close to a workhorse share in Houston because the incumbent backs have not established trusted passing-down roles.",
+      "rationale": "Montgomery can command close to a workhorse share in Houston because the incumbent backs have not established trusted passing-down roles.",
+      "risks": [
+        "Woody Marks will still have a role and an 80-percent snap projection is aggressive."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "RB20 range",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038454",
+      "player_name": "Keaton Mitchell",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Mitchell's explosive career efficiency and expected passing-game use fit Mike McDaniel's offense and can create a PPR floor behind Hampton.",
+      "rationale": "Mitchell's explosive career efficiency and expected passing-game use fit Mike McDaniel's offense and can create a PPR floor behind Hampton.",
+      "risks": [
+        "His NFL workload remains a small sample and he may stay a clear backup."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Late rounds",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038997",
+      "player_name": "Josh Downs",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Downs can expand beyond a slot-only role amid Indianapolis' thin healthy receiver group, and Keenan Allen need not block his full route tree.",
+      "rationale": "Downs can expand beyond a slot-only role amid Indianapolis' thin healthy receiver group, and Keenan Allen need not block his full route tree.",
+      "risks": [
+        "Allen and Tyler Warren still compete for underneath targets."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Discounted WR price",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0039361",
+      "player_name": "Bucky Irving",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Irving already produced as a top-20 PPR back while hurt and can beat cost by pairing his 2024 efficiency with his 2025 workload.",
+      "rationale": "Irving already produced as a top-20 PPR back while hurt and can beat cost by pairing his 2024 efficiency with his 2025 workload.",
+      "risks": [
+        "His 2025 inefficiency and injury history remain concerns."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Current RB price",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041547",
+      "player_name": "KC Concepcion",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Concepcion can lead Cleveland in receptions because he can win at multiple depths and adapt to either likely quarterback style.",
+      "rationale": "Concepcion can lead Cleveland in receptions because he can win at multiple depths and adapt to either likely quarterback style.",
+      "risks": [
+        "Cleveland's quarterback quality creates a low offensive floor."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Double-digit rounds",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0036252",
+      "player_name": "Michael Pittman Jr.",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Pittman's short-area reliability fits a pass-heavier Pittsburgh offense and can produce steady PPR volume immediately.",
+      "rationale": "Pittman's short-area reliability fits a pass-heavier Pittsburgh offense and can produce steady PPR volume immediately.",
+      "risks": [
+        "The role may be useful rather than high-ceiling."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "PPR formats",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040586",
+      "player_name": "Jaydon Blue",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Blue still has a plausible path to Dallas' third-down role and could become a cheap PPR specialist in a pass-heavy offense.",
+      "rationale": "Blue still has a plausible path to Dallas' third-down role and could become a cheap PPR specialist in a pass-heavy offense.",
+      "risks": [
+        "He contributed almost nothing as a rookie and camp praise may not translate."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Late rounds",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038117",
+      "player_name": "Wan'Dale Robinson",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Robinson brings consecutive 140-target seasons into a familiar Brian Daboll system and is priced as a WR4 after a WR2 PPR finish.",
+      "rationale": "Robinson brings consecutive 140-target seasons into a familiar Brian Daboll system and is priced as a WR4 after a WR2 PPR finish.",
+      "risks": [
+        "Tennessee's overall passing ceiling is uncertain."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "WR4 price",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0034351",
+      "player_name": "Dallas Goedert",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Goedert should remain a top-12 candidate because Philadelphia lost major target volume and did not add proven competition.",
+      "rationale": "Goedert should remain a top-12 candidate because Philadelphia lost major target volume and did not add proven competition.",
+      "risks": [
+        "His 11-touchdown season is unlikely to repeat."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "TE15",
+      "assumptions": []
+    }
+  ]
+}

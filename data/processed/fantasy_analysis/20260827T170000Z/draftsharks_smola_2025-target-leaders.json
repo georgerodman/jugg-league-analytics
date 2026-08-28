@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260827T170000Z",
+    "built_at": "2026-08-27T17:00:00Z",
+    "season": 2026,
+    "takeaway_count": 0
+  },
+  "source": {
+    "id": "draftsharks:smola:2025-target-leaders",
+    "source_key": "draftsharks",
+    "title": "NFL Target Leaders in 2025 (And What It Means For 2026 Fantasy Drafts)",
+    "author": "Jared Smola",
+    "url": "https://www.draftsharks.com/article/nfl-target-leaders",
+    "published_at": "2026-03-06",
+    "content_type": "usage_leaders",
+    "summary": "Historical 2025 total targets, target share, and targets-per-route leaders with 2026 interpretation. Stored as objective usage context rather than a blanket positive vote for every leader.",
+    "season": 2026
+  },
+  "takeaways": []
+}

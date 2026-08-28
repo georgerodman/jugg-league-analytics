@@ -1,0 +1,102 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260827T150000Z",
+    "built_at": "2026-08-27T15:00:00Z",
+    "season": 2026,
+    "takeaway_count": 5
+  },
+  "source": {
+    "id": "rotowire:coventry:2026-rb-busts-aug25",
+    "source_key": "rotowire",
+    "title": "2026 Fantasy Football Busts: 5 Overrated Running Backs to Fade",
+    "author": "Jim Coventry",
+    "url": "https://www.rotowire.com/football/article/2026-fantasy-football-busts-four-overrated-running-backs-to-fade-130011",
+    "published_at": "2026-08-25",
+    "content_type": "rb_busts",
+    "summary": "Five backs whose prices understate workload, efficiency or role risk",
+    "season": 2026
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0033280",
+      "player_name": "Christian McCaffrey",
+      "label": "bust",
+      "sentiment": "negative",
+      "summary": "An RB3 price captures last year's 413-touch ceiling while discounting efficiency decline and accumulated wear.",
+      "rationale": "An RB3 price captures last year's 413-touch ceiling while discounting efficiency decline and accumulated wear.",
+      "risks": [
+        "Elite receiving volume still supplies a stable floor."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 8 / RB3",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038134",
+      "player_name": "Kenneth Walker III",
+      "label": "bust",
+      "sentiment": "negative",
+      "summary": "A workhorse price assumes a workload he has never handled and overlooks boom-or-bust rushing efficiency.",
+      "rationale": "A workhorse price assumes a workload he has never handled and overlooks boom-or-bust rushing efficiency.",
+      "risks": [
+        "Kansas City's investment and scoring environment preserve upside."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 15 / RB9",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038120",
+      "player_name": "Breece Hall",
+      "label": "bust",
+      "sentiment": "negative",
+      "summary": "Aaron Glenn's committee preference and Braelon Allen's high-value roles cap Hall's ceiling.",
+      "rationale": "Aaron Glenn's committee preference and Braelon Allen's high-value roles cap Hall's ceiling.",
+      "risks": [
+        "Hall remains the most talented back and has a major contract."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 39 / RB16",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040734",
+      "player_name": "TreVeyon Henderson",
+      "label": "bust",
+      "sentiment": "negative",
+      "summary": "He is priced as the leader even though Rhamondre Stevenson controlled the postseason workload.",
+      "rationale": "He is priced as the leader even though Rhamondre Stevenson controlled the postseason workload.",
+      "risks": [
+        "Henderson's 2025 production preserves a meaningful ceiling."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 58 / RB22",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040719",
+      "player_name": "Bhayshul Tuten",
+      "label": "bust",
+      "sentiment": "negative",
+      "summary": "Poor rookie efficiency plus separate goal-line and receiving specialists leave few high-value touches.",
+      "rationale": "Poor rookie efficiency plus separate goal-line and receiving specialists leave few high-value touches.",
+      "risks": [
+        "His speed still creates rotational upside."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 59 / RB23",
+      "assumptions": []
+    }
+  ]
+}

@@ -1,6 +1,5 @@
 {
-  "schema_version": 1,
-  "artifact": "data/processed/fantasy_research/20260826T213014Z/player_summaries.json",
-  "research_brief_markdown": "output/reports/2026-fantasy-research-brief.md",
-  "research_brief_pdf": "output/pdf/2026-fantasy-research-brief.pdf"
+  "schema_version": 3,
+  "artifact": "data/processed/fantasy_research/20260827T150533Z/player_summaries.json",
+  "research_wiki": "/research"
 }

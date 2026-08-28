@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260827T170000Z",
+    "built_at": "2026-08-27T17:00:00Z",
+    "season": 2026,
+    "takeaway_count": 0
+  },
+  "source": {
+    "id": "fftoday:krueger:2026-rb-roles-aug24",
+    "source_key": "fftoday",
+    "title": "NFL Running Back Depth Charts & Roles",
+    "author": "Mike Krueger",
+    "url": "https://www.fftoday.com/nfl/rb_rooms.html",
+    "published_at": "2026-08-24",
+    "content_type": "backfield_roles",
+    "summary": "A current all-32-team map of lead backs, passing-down and goal-line roles, and projected handcuffs. Stored as contextual depth-chart evidence rather than recommendation votes.",
+    "season": 2026
+  },
+  "takeaways": []
+}

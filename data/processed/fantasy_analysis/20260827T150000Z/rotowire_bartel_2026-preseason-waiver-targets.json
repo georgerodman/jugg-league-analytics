@@ -1,0 +1,199 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260827T150000Z",
+    "built_at": "2026-08-27T15:00:00Z",
+    "season": 2026,
+    "takeaway_count": 11
+  },
+  "source": {
+    "id": "rotowire:bartel:2026-preseason-waiver-targets",
+    "source_key": "rotowire",
+    "title": "Fantasy Football Waiver Wire: Preseason Pickups & Late-Round Targets",
+    "author": "Joe Bartel",
+    "url": "https://www.rotowire.com/football/article/fantasy-football-waiver-wire-preseason-pickups-late-round-targets-129698",
+    "published_at": "2026-08-24",
+    "content_type": "waiver_and_late_round_targets",
+    "summary": "Preseason waiver and late-round recommendations with format and FAAB context",
+    "season": 2026
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0038128",
+      "player_name": "Malik Willis",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Rushing and an inviting opener offer low-end QB1 upside mainly in two-QB or deep formats.",
+      "rationale": "Rushing and an inviting opener offer low-end QB1 upside mainly in two-QB or deep formats.",
+      "risks": [
+        "Miami's passing ceiling is low."
+      ],
+      "formats": [
+        "deep_redraft",
+        "superflex"
+      ],
+      "price_condition": "Deep leagues; 0% FAAB",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040878",
+      "player_name": "Mike Washington Jr.",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "He is the immediate Jeanty contingency with attractive size and speed, but the injury news reduces urgency.",
+      "rationale": "He is the immediate Jeanty contingency with attractive size and speed, but the injury news reduces urgency.",
+      "risks": [
+        "Las Vegas may add a veteran and Jeanty's injury is not long term."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "5% FAAB",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0037263",
+      "player_name": "Tyler Allgeier",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Early volume and goal-line work while Jeremiyah Love recovers are underpriced.",
+      "rationale": "Early volume and goal-line work while Jeremiyah Love recovers are underpriced.",
+      "risks": [
+        "Arizona may create few scoring chances and Love can reclaim work."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "4% FAAB",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0039811",
+      "player_name": "MarShawn Lloyd",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "He remains a valuable Josh Jacobs handcuff with complementary explosiveness.",
+      "rationale": "He remains a valuable Josh Jacobs handcuff with complementary explosiveness.",
+      "risks": [
+        "Extensive injuries and pass-protection competition cap standalone work."
+      ],
+      "formats": [
+        "deep_redraft"
+      ],
+      "price_condition": "1% FAAB",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041052",
+      "player_name": "Kaelon Black",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "First-team preseason work makes him a speculative McCaffrey contingency.",
+      "rationale": "First-team preseason work makes him a speculative McCaffrey contingency.",
+      "risks": [
+        "The backup role remains unsettled."
+      ],
+      "formats": [
+        "deep_redraft"
+      ],
+      "price_condition": "Monitor only",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041104",
+      "player_name": "Demond Claiborne",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Elite speed offers contingent splash-play appeal behind Aaron Jones and Jordan Mason.",
+      "rationale": "Elite speed offers contingent splash-play appeal behind Aaron Jones and Jordan Mason.",
+      "risks": [
+        "He may open with only a return role."
+      ],
+      "formats": [
+        "deep_redraft"
+      ],
+      "price_condition": "Deep lottery ticket",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038393",
+      "player_name": "Dontayvion Wicks",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "A strong camp and Philadelphia's trade investment give him runway as the starter opposite DeVonta Smith.",
+      "rationale": "A strong camp and Philadelphia's trade investment give him runway as the starter opposite DeVonta Smith.",
+      "risks": [
+        "The offense is run-heavy and receiver competition remains."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "2% FAAB",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041523",
+      "player_name": "Caleb Douglas",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Chris Bell's recovery opens early routes for a toolsy third-round rookie.",
+      "rationale": "Chris Bell's recovery opens early routes for a toolsy third-round rookie.",
+      "risks": [
+        "Miami may not support a useful receiver."
+      ],
+      "formats": [
+        "deep_redraft"
+      ],
+      "price_condition": "Deep leagues",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040138",
+      "player_name": "Jaylin Noel",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Houston's injuries create a path to the primary slot role.",
+      "rationale": "Houston's injuries create a path to the primary slot role.",
+      "risks": [
+        "His own hamstring injury clouds the opening opportunity."
+      ],
+      "formats": [
+        "deep_redraft"
+      ],
+      "price_condition": "Deep benches",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0037809",
+      "player_name": "Chig Okonkwo",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Athleticism, a proven reception floor and growing rapport with Jayden Daniels create breakout potential.",
+      "rationale": "Athleticism, a proven reception floor and growing rapport with Jayden Daniels create breakout potential.",
+      "risks": [
+        "Diggs and McLaurin remain ahead in the target order."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "3% FAAB",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0037252",
+      "player_name": "Greg Dulcich",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "He can become Malik Willis' preferred middle-of-field target at no cost.",
+      "rationale": "He can become Malik Willis' preferred middle-of-field target at no cost.",
+      "risks": [
+        "The offense has a weak passing ceiling."
+      ],
+      "formats": [
+        "deep_redraft"
+      ],
+      "price_condition": "Deep leagues",
+      "assumptions": []
+    }
+  ]
+}

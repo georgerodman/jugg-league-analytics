@@ -1,0 +1,102 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260827T150000Z",
+    "built_at": "2026-08-27T15:00:00Z",
+    "season": 2026,
+    "takeaway_count": 5
+  },
+  "source": {
+    "id": "rotowire:coventry:2026-wr-adp-aug26",
+    "source_key": "rotowire",
+    "title": "2026 Fantasy Football ADP Analysis: Undervalued & Overvalued Wide Receivers",
+    "author": "Jim Coventry",
+    "url": "https://www.rotowire.com/football/article/2026-fantasy-football-adp-analysis-undervalued-overvalued-wide-receivers-130080",
+    "published_at": "2026-08-26",
+    "content_type": "wr_values_and_fades",
+    "summary": "Three receiver values and two fades",
+    "season": 2026
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0034827",
+      "player_name": "DJ Moore",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "A clear No. 1 role with Josh Allen, little competition and a strong improvisational fit are underpriced.",
+      "rationale": "A clear No. 1 role with Josh Allen, little competition and a strong improvisational fit are underpriced.",
+      "risks": [
+        "Buffalo's target distribution can remain volatile."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "WR22",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0039849",
+      "player_name": "Marvin Harrison Jr.",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "A motion and play-action system should manufacture easier separation and after-catch chances.",
+      "rationale": "A motion and play-action system should manufacture easier separation and after-catch chances.",
+      "risks": [
+        "Health and drops remain concerns."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "WR32",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0033921",
+      "player_name": "Chris Godwin Jr.",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "A healthy offseason and proven Mayfield chemistry offer lead-receiver production at a discounted price.",
+      "rationale": "A healthy offseason and proven Mayfield chemistry offer lead-receiver production at a discounted price.",
+      "risks": [
+        "Age, prior injuries and Egbuka create downside."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "WR34",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0037240",
+      "player_name": "Jameson Williams",
+      "label": "bust",
+      "sentiment": "negative",
+      "summary": "Recent production relied on teammate absences or extreme scripts, while line uncertainty threatens deep volume.",
+      "rationale": "Recent production relied on teammate absences or extreme scripts, while line uncertainty threatens deep volume.",
+      "risks": [
+        "Explosive ability still supports spike weeks."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "WR24",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0031381",
+      "player_name": "Davante Adams",
+      "label": "bust",
+      "sentiment": "negative",
+      "summary": "Age, hamstring trouble, shrinking volume and more multi-TE personnel threaten touchdown regression.",
+      "rationale": "Age, hamstring trouble, shrinking volume and more multi-TE personnel threaten touchdown regression.",
+      "risks": [
+        "Stafford chemistry remains a positive."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "WR28",
+      "assumptions": []
+    }
+  ]
+}

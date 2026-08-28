@@ -1,0 +1,175 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260827T033000Z",
+    "built_at": "2026-08-27T03:30:00Z",
+    "season": 2026,
+    "takeaway_count": 9
+  },
+  "source": {
+    "id": "cbs:cummings:2026-deep-sleepers-aug26",
+    "source_key": "cbs_sports",
+    "title": "2026 Fantasy football deep sleepers: Projections say Tyler Shough and Tre Tucker are steals",
+    "author": "Heath Cummings",
+    "url": "https://secure-www.cbssports.com/fantasy/football/news/2026-fantasy-football-deep-sleepers-projections/",
+    "published_at": "2026-08-26",
+    "season": 2026,
+    "content_type": "deep_sleepers",
+    "summary": "Projection-backed and conditional late-round values, all carrying CBS ADPs outside the top 150 or no ADP."
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0040743",
+      "player_name": "Tyler Shough",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Shough's 2025 starting pace, projected touchdown growth, and eventual access to a healthy receiving group create QB1 upside at a QB21 price.",
+      "rationale": "Shough's 2025 starting pace, projected touchdown growth, and eventual access to a healthy receiving group create QB1 upside at a QB21 price.",
+      "risks": [
+        "Early-season receiving health can cap the ceiling."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "ADP 153 / QB21",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0039491",
+      "player_name": "Jalen Coker",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Coker projects as a top-32 receiver and can benefit from more slot usage after already producing efficiently on limited opportunity.",
+      "rationale": "Coker projects as a top-32 receiver and can benefit from more slot usage after already producing efficiently on limited opportunity.",
+      "risks": [
+        "Carolina still has a developing target hierarchy."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "ADP 154; worth a Round 10-11 reach",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038128",
+      "player_name": "Malik Willis",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Willis' rushing production gives him a strong chance to beat QB23 pricing even if Miami remains a weak offense.",
+      "rationale": "Willis' rushing production gives him a strong chance to beat QB23 pricing even if Miami remains a weak offense.",
+      "risks": [
+        "Passing volume and offensive quality may limit weekly consistency."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "ADP 162 / upside QB2",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0034383",
+      "player_name": "Dalton Schultz",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Schultz projects near the TE1 boundary on another 100-plus targets and has top-eight upside with better touchdown luck.",
+      "rationale": "Schultz projects near the TE1 boundary on another 100-plus targets and has top-eight upside with better touchdown luck.",
+      "risks": [
+        "Touchdown improvement is not guaranteed."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "ADP 173 / TE13 projection",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038563",
+      "player_name": "Tre Tucker",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Tucker has emerged as the Raiders' lead receiver and projects to beat his price substantially even before giving him a full coordinator-WR1 target share.",
+      "rationale": "Tucker has emerged as the Raiders' lead receiver and projects to beat his price substantially even before giving him a full coordinator-WR1 target share.",
+      "risks": [
+        "Brock Bowers remains the passing game's central target and the offense may be weak."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "ADP 186",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041496",
+      "player_name": "Jonah Coleman",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Coleman would project for roughly 15 touches per game behind a strong line if J.K. Dobbins misses time.",
+      "rationale": "Coleman would project for roughly 15 touches per game behind a strong line if J.K. Dobbins misses time.",
+      "risks": [
+        "His useful role depends heavily on a Dobbins absence."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "ADP 161 / contingency value",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038454",
+      "player_name": "Keaton Mitchell",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Mitchell's extreme efficiency and possible receiving role give him a path to weekly value without fully displacing Omarion Hampton.",
+      "rationale": "Mitchell's extreme efficiency and possible receiving role give him a path to weekly value without fully displacing Omarion Hampton.",
+      "risks": [
+        "The case extrapolates from very low career volume."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "ADP 163",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0030279",
+      "player_name": "Keenan Allen",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Allen can remain a high-volume PPR flex at a near-free price if he continues earning targets in Indianapolis.",
+      "rationale": "Allen can remain a high-volume PPR flex at a near-free price if he continues earning targets in Indianapolis.",
+      "risks": [
+        "Age and competition from younger Colts receivers can reduce his role."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "ADP 180 / deep PPR leagues",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041525",
+      "player_name": "Chris Bell",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "A fully recovered Bell could be Miami's most talented receiver and a final-round source of size, speed, and late-season upside.",
+      "rationale": "A fully recovered Bell could be Miami's most talented receiver and a final-round source of size, speed, and late-season upside.",
+      "risks": [
+        "His ACL recovery and actual starting role remain uncertain."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Final round",
+      "assumptions": []
+    }
+  ]
+}

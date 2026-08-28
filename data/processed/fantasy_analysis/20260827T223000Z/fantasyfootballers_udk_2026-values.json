@@ -1,0 +1,246 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260827T223000Z",
+    "built_at": "2026-08-27T22:30:00Z",
+    "season": 2026,
+    "takeaway_count": 14
+  },
+  "source": {
+    "id": "fantasyfootballers:udk:2026-values",
+    "source_key": "fantasy_footballers",
+    "title": "2026 UDK Expert List: Values",
+    "author": "Fantasy Footballers",
+    "url": "https://www.thefantasyfootballers.com/2026-ultimate-draft-kit/udk-expert-lists-values/",
+    "published_at": "2026-08-27",
+    "content_type": "values",
+    "summary": "Fourteen players whose cost trails their projected role or ceiling.",
+    "season": 2026
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0026498",
+      "player_name": "Matthew Stafford",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "A double-digit-round price already accounts for touchdown regression in the league's highest-total offense.",
+      "rationale": "A double-digit-round price already accounts for touchdown regression in the league's highest-total offense.",
+      "risks": [
+        "His MVP-level touchdown rate is unlikely to repeat."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 9.11",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0037834",
+      "player_name": "Brock Purdy",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Consistent touchdown production, some rushing floor and early high-total matchups make Purdy an overlooked QB2.",
+      "rationale": "Consistent touchdown production, some rushing floor and early high-total matchups make Purdy an overlooked QB2.",
+      "risks": [
+        "His weekly ceiling can depend on game environment."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 11.02",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0033077",
+      "player_name": "Dak Prescott",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Reliable volume, heavy red-zone passing and a career-long top-12 track record make Prescott a strong late backstop.",
+      "rationale": "Reliable volume, heavy red-zone passing and a career-long top-12 track record make Prescott a strong late backstop.",
+      "risks": [
+        "He offers less rushing upside than elite options."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 8.01",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0032764",
+      "player_name": "Derrick Henry",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "A league-leading win projection and durable touchdown role make Henry attractive at a discounted second-round cost.",
+      "rationale": "A league-leading win projection and durable touchdown role make Henry attractive at a discounted second-round cost.",
+      "risks": [
+        "Age and workload decline remain unavoidable risks."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 2.04",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0036997",
+      "player_name": "Javonte Williams",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "A new extension and almost no backfield competition support another 300-opportunity RB1 season.",
+      "rationale": "A new extension and almost no backfield competition support another 300-opportunity RB1 season.",
+      "risks": [
+        "Last season's touchdown total can regress."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 3.10",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040715",
+      "player_name": "Cam Skattebo",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "A likely three-down and goal-line role creates top-10 upside at an injury-discounted RB2 price.",
+      "rationale": "A likely three-down and goal-line role creates top-10 upside at an injury-discounted RB2 price.",
+      "risks": [
+        "He is returning from a major leg injury."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 4.02",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0036275",
+      "player_name": "D'Andre Swift",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Career highs behind a strong line and no major new competition provide a stable RB2 floor.",
+      "rationale": "Career highs behind a strong line and no major new competition provide a stable RB2 floor.",
+      "risks": [
+        "Kyle Monangai will retain a complementary role."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 5.01",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0036158",
+      "player_name": "J.K. Dobbins",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Denver re-signed Dobbins to lead carries behind an elite line, making his late starter price attractive.",
+      "rationale": "Denver re-signed Dobbins to lead carries behind an elite line, making his late starter price attractive.",
+      "risks": [
+        "RJ Harvey can command passing-down work."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 8.01",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0039893",
+      "player_name": "Brian Thomas Jr.",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "His every-down X role and strong two-receiver usage preserve rebound upside at a WR3 price.",
+      "rationale": "His every-down X role and strong two-receiver usage preserve rebound upside at a WR3 price.",
+      "risks": [
+        "Jacksonville's crowded receiver room creates weekly uncertainty."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 6.12",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040129",
+      "player_name": "Emeka Egbuka",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Mike Evans' departure leaves Egbuka positioned for a lead role and a possible Year 2 top-12 finish.",
+      "rationale": "Mike Evans' departure leaves Egbuka positioned for a lead role and a possible Year 2 top-12 finish.",
+      "risks": [
+        "His late-2025 efficiency collapse cannot be ignored."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 4.05",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0036613",
+      "player_name": "Jaylen Waddle",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Denver paid premium capital for Waddle, whose route efficiency and screen fit create easy-volume upside.",
+      "rationale": "Denver paid premium capital for Waddle, whose route efficiency and screen fit create easy-volume upside.",
+      "risks": [
+        "Courtland Sutton and Denver's spread offense compete for volume."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 4.12",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0035659",
+      "player_name": "Terry McLaurin",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "A healthy Jayden Daniels and shootout-friendly schedule make McLaurin's one-round discount attractive.",
+      "rationale": "A healthy Jayden Daniels and shootout-friendly schedule make McLaurin's one-round discount attractive.",
+      "risks": [
+        "Stefon Diggs adds legitimate target competition."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 5.05",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038935",
+      "player_name": "Brenton Strange",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "A 16% target share and expanded two-tight-end usage make Strange a cheap late streamer with growth potential.",
+      "rationale": "A 16% target share and expanded two-tight-end usage make Strange a cheap late streamer with growth potential.",
+      "risks": [
+        "He has not yet established a weekly fantasy floor."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 14.02",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0039065",
+      "player_name": "Sam LaPorta",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "A reduced price restores access to LaPorta's double-digit-touchdown ceiling in an elite offense.",
+      "rationale": "A reduced price restores access to LaPorta's double-digit-touchdown ceiling in an elite offense.",
+      "risks": [
+        "A crowded target tree and recent injuries add volatility."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 6.04",
+      "assumptions": []
+    }
+  ]
+}

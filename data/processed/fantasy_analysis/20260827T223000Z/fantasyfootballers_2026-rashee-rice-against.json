@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260827T223000Z",
+    "built_at": "2026-08-27T22:30:00Z",
+    "season": 2026,
+    "takeaway_count": 1
+  },
+  "source": {
+    "id": "fantasyfootballers:2026-rashee-rice-against",
+    "source_key": "fantasy_footballers",
+    "title": "Fantasy Court: The Case against Rashee Rice",
+    "author": "Fantasy Footballers",
+    "url": "https://www.thefantasyfootballers.com/analysis/fantasy-court-the-case-against-rashee-rice-in-2026-fantasy-football/",
+    "published_at": "2026-08-23",
+    "content_type": "player_case",
+    "summary": "The negative side of a deliberately two-sided player debate.",
+    "season": 2026
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0039067",
+      "player_name": "Rashee Rice",
+      "label": "avoid",
+      "sentiment": "negative",
+      "summary": "Availability risk, an elevated price and a changing Kansas City offense make Rice difficult to trust.",
+      "rationale": "Availability risk, an elevated price and a changing Kansas City offense make Rice difficult to trust.",
+      "risks": [
+        "His proven target-earning ability can still overcome those concerns."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": null,
+      "assumptions": []
+    }
+  ]
+}

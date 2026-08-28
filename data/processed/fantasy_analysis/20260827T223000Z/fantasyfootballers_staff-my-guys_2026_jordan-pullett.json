@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260827T223000Z",
+    "built_at": "2026-08-27T22:30:00Z",
+    "season": 2026,
+    "takeaway_count": 1
+  },
+  "source": {
+    "id": "fantasyfootballers:staff-my-guys:2026:jordan-pullett",
+    "source_key": "fantasy_footballers",
+    "title": "Fantasy Footballers Writing Staff My Guys for 2026",
+    "author": "Jordan Pullett",
+    "url": "https://www.thefantasyfootballers.com/analysis/the-fantasy-footballers-writing-staff-my-guys-for-2026/",
+    "published_at": "2026-08-27",
+    "content_type": "staff_my_guys",
+    "summary": "One contributor's 2026 My Guy selection.",
+    "season": 2026
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0036355",
+      "player_name": "Justin Herbert",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "Mike McDaniel, healthy tackles and improved efficiency can restore difference-making quarterback production.",
+      "rationale": "Mike McDaniel, healthy tackles and improved efficiency can restore difference-making quarterback production.",
+      "risks": [
+        "The offense may remain balanced."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": null,
+      "assumptions": []
+    }
+  ]
+}

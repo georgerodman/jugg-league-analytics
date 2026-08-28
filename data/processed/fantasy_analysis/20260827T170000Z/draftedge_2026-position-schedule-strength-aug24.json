@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260827T170000Z",
+    "built_at": "2026-08-27T17:00:00Z",
+    "season": 2026,
+    "takeaway_count": 0
+  },
+  "source": {
+    "id": "draftedge:2026-position-schedule-strength-aug24",
+    "source_key": "draftedge",
+    "title": "2026 NFL Team Schedule Strength for Fantasy Football",
+    "author": "DraftEdge",
+    "url": "https://fantasy.draftedge.com/nfl-schedule-strength/",
+    "published_at": "2026-08-24",
+    "content_type": "schedule_context",
+    "summary": "Position-specific schedule ratings for every team, with higher ratings representing friendlier fantasy schedules. Stored as contextual evidence rather than direct player votes.",
+    "season": 2026
+  },
+  "takeaways": []
+}

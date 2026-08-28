@@ -1,0 +1,192 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260827T033000Z",
+    "built_at": "2026-08-27T03:30:00Z",
+    "season": 2026,
+    "takeaway_count": 10
+  },
+  "source": {
+    "id": "nbc:rotoworld-staff:2026-busts-aug20",
+    "source_key": "nbc_rotoworld",
+    "title": "Fantasy Football Busts 2026: Omarion Hampton, Cam Skattebo among Rotoworld's top fades",
+    "author": "Rotoworld Staff",
+    "url": "https://www.nbcsports.com/fantasy/football/news/fantasy-football-busts-2026-omarion-hampton-cam-skattebo-among-rotoworlds-top-fades",
+    "published_at": "2026-08-20",
+    "season": 2026,
+    "content_type": "staff_busts",
+    "summary": "Price-sensitive staff fades based on injuries, role competition, scheme fit, and inflated ADP."
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0037664",
+      "player_name": "Alec Pierce",
+      "label": "bust",
+      "sentiment": "negative",
+      "summary": "Pierce's surgically treated ankle and likely one-dimensional role make his current price difficult to justify.",
+      "rationale": "Pierce's surgically treated ankle and likely one-dimensional role make his current price difficult to justify.",
+      "risks": [
+        "A healthy return could restore his established deep role."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Fade at current ADP",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040666",
+      "player_name": "Omarion Hampton",
+      "label": "bust",
+      "sentiment": "negative",
+      "summary": "Hampton's poor zone-running results create scheme-fit risk under Mike McDaniel, while Keaton Mitchell can take enough work to hurt the price.",
+      "rationale": "Hampton's poor zone-running results create scheme-fit risk under Mike McDaniel, while Keaton Mitchell can take enough work to hurt the price.",
+      "risks": [
+        "A large lead role behind a good line can overcome the efficiency concern."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Early-round price",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040715",
+      "player_name": "Cam Skattebo",
+      "label": "bust",
+      "sentiment": "negative",
+      "summary": "Skattebo's inefficiency, contact-heavy style, and return from a major leg injury make his mid-RB2 price fragile.",
+      "rationale": "Skattebo's inefficiency, contact-heavy style, and return from a major leg injury make his mid-RB2 price fragile.",
+      "risks": [
+        "The rebuilt run game and prior high-volume production preserve upside."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Mid RB2",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0035659",
+      "player_name": "Terry McLaurin",
+      "label": "bust",
+      "sentiment": "negative",
+      "summary": "McLaurin now faces legitimate target competition from Stefon Diggs in a scramble-heavy offense and has rarely produced above low-end WR2 levels.",
+      "rationale": "McLaurin now faces legitimate target competition from Stefon Diggs in a scramble-heavy offense and has rarely produced above low-end WR2 levels.",
+      "risks": [
+        "He remains Washington's expected WR1."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Low-end WR2",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040719",
+      "player_name": "Bhayshul Tuten",
+      "label": "bust",
+      "sentiment": "negative",
+      "summary": "Tuten faces third-down and power-role competition in a backfield that can become an unsatisfying committee.",
+      "rationale": "Tuten faces third-down and power-role competition in a backfield that can become an unsatisfying committee.",
+      "risks": [
+        "His athleticism still gives him the highest individual ceiling in the group."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Elevated lead-back price",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040735",
+      "player_name": "Luther Burden III",
+      "label": "bust",
+      "sentiment": "negative",
+      "summary": "Burden's physical playing style, current groin injury, and crowded young offense threaten both availability and target share.",
+      "rationale": "Burden's physical playing style, current groin injury, and crowded young offense threaten both availability and target share.",
+      "risks": [
+        "His talent can still win a large role when healthy."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Current WR price",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038134",
+      "player_name": "Kenneth Walker III",
+      "label": "bust",
+      "sentiment": "negative",
+      "summary": "Walker is priced at a career high despite Kansas City's pass preference, committee history, and his limited receiving production.",
+      "rationale": "Walker is priced at a career high despite Kansas City's pass preference, committee history, and his limited receiving production.",
+      "risks": [
+        "The contract and improved team context can still produce a larger role."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "RB8 / first two rounds",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0034827",
+      "player_name": "DJ Moore",
+      "label": "bust",
+      "sentiment": "negative",
+      "summary": "Moore's declining route efficiency, weak separation indicators, and low target rate make an immediate Buffalo rebound a risky assumption.",
+      "rationale": "Moore's declining route efficiency, weak separation indicators, and low target rate make an immediate Buffalo rebound a risky assumption.",
+      "risks": [
+        "Josh Allen and an open depth chart provide a strong environment."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Current WR2/3 price",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038606",
+      "player_name": "Parker Washington",
+      "label": "bust",
+      "sentiment": "negative",
+      "summary": "Washington's WR30 price leaves little room for Travis Hunter, Brian Thomas Jr., and Jakobi Meyers to claim healthy target shares.",
+      "rationale": "Washington's WR30 price leaves little room for Travis Hunter, Brian Thomas Jr., and Jakobi Meyers to claim healthy target shares.",
+      "risks": [
+        "Washington's late-2025 production supports a genuine lead-receiver case."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "WR30",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0039065",
+      "player_name": "Sam LaPorta",
+      "label": "bust",
+      "sentiment": "negative",
+      "summary": "LaPorta's crowded offense and multi-year injury history create more downside than his premium tight-end cost reflects.",
+      "rationale": "LaPorta's crowded offense and multi-year injury history create more downside than his premium tight-end cost reflects.",
+      "risks": [
+        "He remains a proven, talented scorer in an elite offense."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Premium TE price",
+      "assumptions": []
+    }
+  ]
+}

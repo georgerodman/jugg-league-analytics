@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260827T150000Z",
+    "built_at": "2026-08-27T15:00:00Z",
+    "season": 2026,
+    "takeaway_count": 0
+  },
+  "source": {
+    "id": "rotowire:2026-auction-values-export-aug27",
+    "source_key": "rotowire",
+    "title": "2026 Fantasy Football Auction Values Export",
+    "author": "RotoWire Staff",
+    "url": "https://www.rotowire.com/football/auction-values.php",
+    "published_at": "2026-08-27",
+    "content_type": "auction_value_context",
+    "summary": "Auction values and projections with undocumented export assumptions; not JUGG prices",
+    "season": 2026
+  },
+  "takeaways": []
+}

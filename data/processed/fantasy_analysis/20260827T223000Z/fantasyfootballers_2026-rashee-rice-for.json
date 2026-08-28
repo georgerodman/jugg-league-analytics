@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260827T223000Z",
+    "built_at": "2026-08-27T22:30:00Z",
+    "season": 2026,
+    "takeaway_count": 1
+  },
+  "source": {
+    "id": "fantasyfootballers:2026-rashee-rice-for",
+    "source_key": "fantasy_footballers",
+    "title": "Fantasy Court: The Case for Rashee Rice",
+    "author": "Fantasy Footballers",
+    "url": "https://www.thefantasyfootballers.com/analysis/fantasy-court-the-case-for-rashee-rice-in-2026-fantasy-football/",
+    "published_at": "2026-08-23",
+    "content_type": "player_case",
+    "summary": "The positive side of a deliberately two-sided player debate.",
+    "season": 2026
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0039067",
+      "player_name": "Rashee Rice",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Prior WR1 production, repeatable target share and red-zone opportunity support a strong ceiling.",
+      "rationale": "Prior WR1 production, repeatable target share and red-zone opportunity support a strong ceiling.",
+      "risks": [
+        "Availability and crowded Kansas City competition remain meaningful."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": null,
+      "assumptions": []
+    }
+  ]
+}

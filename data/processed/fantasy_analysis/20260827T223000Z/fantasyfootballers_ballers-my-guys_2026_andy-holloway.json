@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260827T223000Z",
+    "built_at": "2026-08-27T22:30:00Z",
+    "season": 2026,
+    "takeaway_count": 3
+  },
+  "source": {
+    "id": "fantasyfootballers:ballers-my-guys:2026:andy-holloway",
+    "source_key": "fantasy_footballers",
+    "title": "The Fantasy Footballers My Guys for 2026",
+    "author": "Andy Holloway",
+    "url": "https://www.thefantasyfootballers.com/analysis/the-fantasy-footballers-my-guys-for-2026/",
+    "published_at": "2026-08-27",
+    "content_type": "my_guys",
+    "summary": "Three 2026 conviction picks from one host.",
+    "season": 2026
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0039915",
+      "player_name": "Ladd McConkey",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Elite early-career production and Mike McDaniel's motion offense make a Round 4-5 discount attractive.",
+      "rationale": "Elite early-career production and Mike McDaniel's motion offense make a Round 4-5 discount attractive.",
+      "risks": [
+        "Health and target redistribution add uncertainty."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": null,
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041035",
+      "player_name": "De'Zhaun Stribling",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Draft capital, size, speed and a path to snaps make Stribling a strong late rookie bet.",
+      "rationale": "Draft capital, size, speed and a path to snaps make Stribling a strong late rookie bet.",
+      "risks": [
+        "His starting role is not guaranteed."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": null,
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0039918",
+      "player_name": "Caleb Williams",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "QB7 production, rushing upside, a strong line and elite weapons make Williams a seventh-round value.",
+      "rationale": "QB7 production, rushing upside, a strong line and elite weapons make Williams a seventh-round value.",
+      "risks": [
+        "Pressure handling and consistency still need improvement."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": null,
+      "assumptions": []
+    }
+  ]
+}

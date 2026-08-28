@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260827T223000Z",
+    "built_at": "2026-08-27T22:30:00Z",
+    "season": 2026,
+    "takeaway_count": 1
+  },
+  "source": {
+    "id": "fantasyfootballers:staff-my-guys:2026:brooke-morgan",
+    "source_key": "fantasy_footballers",
+    "title": "Fantasy Footballers Writing Staff My Guys for 2026",
+    "author": "Brooke Morgan",
+    "url": "https://www.thefantasyfootballers.com/analysis/the-fantasy-footballers-writing-staff-my-guys-for-2026/",
+    "published_at": "2026-08-27",
+    "content_type": "staff_my_guys",
+    "summary": "One contributor's 2026 My Guy selection.",
+    "season": 2026
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0037809",
+      "player_name": "Chig Okonkwo",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Career highs and Washington's open target tree create a low-cost breakout path.",
+      "rationale": "Career highs and Washington's open target tree create a low-cost breakout path.",
+      "risks": [
+        "Two veteran receivers remain ahead of him."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": null,
+      "assumptions": []
+    }
+  ]
+}

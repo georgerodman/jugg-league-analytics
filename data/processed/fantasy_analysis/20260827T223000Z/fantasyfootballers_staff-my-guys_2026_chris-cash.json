@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260827T223000Z",
+    "built_at": "2026-08-27T22:30:00Z",
+    "season": 2026,
+    "takeaway_count": 1
+  },
+  "source": {
+    "id": "fantasyfootballers:staff-my-guys:2026:chris-cash",
+    "source_key": "fantasy_footballers",
+    "title": "Fantasy Footballers Writing Staff My Guys for 2026",
+    "author": "Chris Cash",
+    "url": "https://www.thefantasyfootballers.com/analysis/the-fantasy-footballers-writing-staff-my-guys-for-2026/",
+    "published_at": "2026-08-27",
+    "content_type": "staff_my_guys",
+    "summary": "One contributor's 2026 My Guy selection.",
+    "season": 2026
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0040734",
+      "player_name": "TreVeyon Henderson",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "Elite per-snap production and a proven three-down ceiling make Henderson attractive at an RB24 price.",
+      "rationale": "Elite per-snap production and a proven three-down ceiling make Henderson attractive at an RB24 price.",
+      "risks": [
+        "Rhamondre Stevenson can retain a large role."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": null,
+      "assumptions": []
+    }
+  ]
+}

@@ -1,0 +1,345 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260827T170000Z",
+    "built_at": "2026-08-27T17:00:00Z",
+    "season": 2026,
+    "takeaway_count": 19
+  },
+  "source": {
+    "id": "draftkings:johnson:2026-top-160-aug26",
+    "source_key": "draftkings_network",
+    "title": "2026 Fantasy Football Rankings: Top 160 players for PPR drafts and redraft leagues",
+    "author": "Dan Johnson",
+    "url": "https://dknetwork.draftkings.com/2026/08/24/2026-fantasy-football-rankings-top-160-players-for-ppr-drafts-and-redraft-leagues/",
+    "published_at": "2026-08-26",
+    "content_type": "rankings_with_commentary",
+    "summary": "A price-aware PPR top 160 with explicit target and fade tags plus short editorial notes.",
+    "season": 2026
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0039139",
+      "player_name": "Jahmyr Gibbs",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Gibbs combines elite rushing efficiency with 77-catch volume, giving him the cleanest overall ceiling even at a top-three price.",
+      "rationale": "Gibbs combines elite rushing efficiency with 77-catch volume, giving him the cleanest overall ceiling even at a top-three price.",
+      "risks": [
+        "His acquisition cost leaves almost no room for merely good production."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Target near ADP 2.8",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0036223",
+      "player_name": "Jonathan Taylor",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Taylor's league-leading rushing workload, efficiency, receiving growth, and goal-line control make a first-round slide especially attractive.",
+      "rationale": "Taylor's league-leading rushing workload, efficiency, receiving growth, and goal-line control make a first-round slide especially attractive.",
+      "risks": [
+        "His value remains tied to maintaining an unusually heavy workload."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Strong target beyond ADP 9",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0033280",
+      "player_name": "Christian McCaffrey",
+      "label": "avoid",
+      "sentiment": "negative",
+      "summary": "McCaffrey's receiving floor remains elite, but 413 touches at age 29 plus recurring soft-tissue trouble make another top-six investment unusually fragile.",
+      "rationale": "McCaffrey's receiving floor remains elite, but 413 touches at age 29 plus recurring soft-tissue trouble make another top-six investment unusually fragile.",
+      "risks": [
+        "He can still overcome the workload concern with unmatched receiving production."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Fade near ADP 6.5",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0039338",
+      "player_name": "Brock Bowers",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Bowers already earns wide-receiver-level route and target volume at fantasy's thinnest position, creating a weekly lineup advantage.",
+      "rationale": "Bowers already earns wide-receiver-level route and target volume at fantasy's thinnest position, creating a weekly lineup advantage.",
+      "risks": [
+        "The Raiders' offensive ceiling can still limit touchdowns."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Target around ADP 21",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0039337",
+      "player_name": "Malik Nabers",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Nabers' exceptional target share and healthy-game production offer overall-WR1 volume at a price that already discounts his knee recovery.",
+      "rationale": "Nabers' exceptional target share and healthy-game production offer overall-WR1 volume at a price that already discounts his knee recovery.",
+      "risks": [
+        "Medical recovery remains the central uncertainty."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Target around ADP 28.5",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0035676",
+      "player_name": "A.J. Brown",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Brown remains a proven alpha receiver and moves into an efficient New England passing game prepared to feed him substantial volume.",
+      "rationale": "Brown remains a proven alpha receiver and moves into an efficient New England passing game prepared to feed him substantial volume.",
+      "risks": [
+        "Changing teams introduces role and chemistry uncertainty."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Target around ADP 20",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0036613",
+      "player_name": "Jaylen Waddle",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Waddle's elite per-route efficiency can finally pair with heavier volume after moving from a low-volume Miami offense to Denver.",
+      "rationale": "Waddle's elite per-route efficiency can finally pair with heavier volume after moving from a low-volume Miami offense to Denver.",
+      "risks": [
+        "A new offense and quarterback create transition risk."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Strong target around ADP 38",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040122",
+      "player_name": "Ashton Jeanty",
+      "label": "avoid",
+      "sentiment": "negative",
+      "summary": "Jeanty's ankle sprain, low-efficiency rookie season, and weak scoring environment make his mid-second-round price demanding.",
+      "rationale": "Jeanty's ankle sprain, low-efficiency rookie season, and weak scoring environment make his mid-second-round price demanding.",
+      "risks": [
+        "His dominant role can still overcome efficiency and team limitations."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Fade near ADP 15",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040735",
+      "player_name": "Luther Burden III",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "Burden's late-season production and exceptional per-route command point to a larger role and meaningful upside beyond his crowded-depth-chart price.",
+      "rationale": "Burden's late-season production and exceptional per-route command point to a larger role and meaningful upside beyond his crowded-depth-chart price.",
+      "risks": [
+        "The groin injury and target competition can delay the breakout."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Target around ADP 56",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0039067",
+      "player_name": "Rashee Rice",
+      "label": "avoid",
+      "sentiment": "negative",
+      "summary": "Rice's short-area volume remains useful, but repeated availability problems make an early-fourth-round price difficult to trust.",
+      "rationale": "Rice's short-area volume remains useful, but repeated availability problems make an early-fourth-round price difficult to trust.",
+      "risks": [
+        "Healthy games still carry a strong PPR floor."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Fade near ADP 31",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040719",
+      "player_name": "Bhayshul Tuten",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Tuten has access to a large vacant workload and valuable scoring opportunities in a productive backfield.",
+      "rationale": "Tuten has access to a large vacant workload and valuable scoring opportunities in a productive backfield.",
+      "risks": [
+        "His rookie rushing efficiency was poor and the backfield may split more than expected."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Target around ADP 61",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0036875",
+      "player_name": "Rhamondre Stevenson",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Stevenson's larger playoff snap share and Henderson's pass-protection and ankle issues give him inexpensive access to a substantial role.",
+      "rationale": "Stevenson's larger playoff snap share and Henderson's pass-protection and ankle issues give him inexpensive access to a substantial role.",
+      "risks": [
+        "Henderson can reclaim work when healthy and trusted."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Target around ADP 83",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040128",
+      "player_name": "Tyler Warren",
+      "label": "avoid",
+      "sentiment": "negative",
+      "summary": "Warren's solid rookie volume did not create elite efficiency or touchdown access, making a premium tight-end price hard to justify.",
+      "rationale": "Warren's solid rookie volume did not create elite efficiency or touchdown access, making a premium tight-end price hard to justify.",
+      "risks": [
+        "Second-year growth could close the gap quickly."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Strong fade near ADP 44",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0039849",
+      "player_name": "Marvin Harrison Jr.",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Harrison's improving target control and touchdown production offer a post-hype discount on a young receiver with elite draft capital.",
+      "rationale": "Harrison's improving target control and touchdown production offer a post-hype discount on a young receiver with elite draft capital.",
+      "risks": [
+        "Injuries and Arizona's passing environment have limited him through two seasons."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Target around ADP 75",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040784",
+      "player_name": "Quinshon Judkins",
+      "label": "avoid",
+      "sentiment": "negative",
+      "summary": "Judkins' weak efficiency and limited receiving production require too many improvements to justify his current fifth-round price.",
+      "rationale": "Judkins' weak efficiency and limited receiving production require too many improvements to justify his current fifth-round price.",
+      "risks": [
+        "Goal-line volume can preserve weekly usefulness."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Fade near ADP 54",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0037228",
+      "player_name": "Jaylen Warren",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Warren's receiving role and ability to create yards protect his weekly floor while his price already accounts for early-down competition.",
+      "rationale": "Warren's receiving role and ability to create yards protect his weekly floor while his price already accounts for early-down competition.",
+      "risks": [
+        "Rico Dowdle can cap carries and touchdown chances."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Target around ADP 80",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040878",
+      "player_name": "Mike Washington Jr.",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Washington's rare size-speed profile and immediate contingency role behind an injured Ashton Jeanty offer feature-back upside at a near-free price.",
+      "rationale": "Washington's rare size-speed profile and immediate contingency role behind an injured Ashton Jeanty offer feature-back upside at a near-free price.",
+      "risks": [
+        "The role can disappear once Jeanty is healthy."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Late-round target around ADP 188",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040583",
+      "player_name": "Woody Marks",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Marks is earning third-down and receiving work in a backfield that may be much closer to a split than his price implies.",
+      "rationale": "Marks is earning third-down and receiving work in a backfield that may be much closer to a split than his price implies.",
+      "risks": [
+        "David Montgomery still projects to control early downs and goal-line work."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Late target around ADP 178",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0030506",
+      "player_name": "Travis Kelce",
+      "label": "avoid",
+      "sentiment": "negative",
+      "summary": "Kelce's declining touchdown output and broader target competition make his name value more expensive than younger late-round alternatives.",
+      "rationale": "Kelce's declining touchdown output and broader target competition make his name value more expensive than younger late-round alternatives.",
+      "risks": [
+        "He still led Kansas City in receiving and retains strong chemistry with Mahomes."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Strong fade near ADP 90",
+      "assumptions": []
+    }
+  ]
+}

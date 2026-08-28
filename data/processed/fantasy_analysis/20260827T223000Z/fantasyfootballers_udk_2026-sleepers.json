@@ -1,0 +1,246 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260827T223000Z",
+    "built_at": "2026-08-27T22:30:00Z",
+    "season": 2026,
+    "takeaway_count": 14
+  },
+  "source": {
+    "id": "fantasyfootballers:udk:2026-sleepers",
+    "source_key": "fantasy_footballers",
+    "title": "2026 UDK Expert List: Sleepers",
+    "author": "Fantasy Footballers",
+    "url": "https://www.thefantasyfootballers.com/2026-ultimate-draft-kit/udk-expert-lists-sleepers/",
+    "published_at": "2026-08-27",
+    "content_type": "sleepers",
+    "summary": "Fourteen late-round sleeper selections with ADP context.",
+    "season": 2026
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0038128",
+      "player_name": "Malik Willis",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Elite rushing upside makes Willis an appealing late quarterback with QB1 weeks available.",
+      "rationale": "Elite rushing upside makes Willis an appealing late quarterback with QB1 weeks available.",
+      "risks": [
+        "Miami's passing ceiling and his starting security remain uncertain."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 17.02",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040743",
+      "player_name": "Tyler Shough",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "A strong starting pace, favorable schedule and improving weapons create late QB1 upside.",
+      "rationale": "A strong starting pace, favorable schedule and improving weapons create late QB1 upside.",
+      "risks": [
+        "The breakout case rests on a limited NFL sample."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 16.11",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0036139",
+      "player_name": "Rico Dowdle",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "An unsettled Pittsburgh backfield gives Dowdle a path to a useful lead role at a modest price.",
+      "rationale": "An unsettled Pittsburgh backfield gives Dowdle a path to a useful lead role at a modest price.",
+      "risks": [
+        "Jaylen Warren can retain meaningful work."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 7.11",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0039344",
+      "player_name": "Jonathon Brooks",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Receiving ability and an open path past Chuba Hubbard create inexpensive upside.",
+      "rationale": "Receiving ability and an open path past Chuba Hubbard create inexpensive upside.",
+      "risks": [
+        "His health and post-injury workload remain uncertain."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 8.05",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0039738",
+      "player_name": "Blake Corum",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Corum narrowed the gap with Kyren Williams and offers both standalone work and premium contingency value.",
+      "rationale": "Corum narrowed the gap with Kyren Williams and offers both standalone work and premium contingency value.",
+      "risks": [
+        "The Rams can remain a committee while Williams is healthy."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 8.09",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040242",
+      "player_name": "Jacory Croskey-Merritt",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Early-down opportunity in a productive offense gives Croskey-Merritt an RB1 path at a late price.",
+      "rationale": "Early-down opportunity in a productive offense gives Croskey-Merritt an RB1 path at a late price.",
+      "risks": [
+        "Rachaad White and a rookie can control passing-down work."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 9.03",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0037525",
+      "player_name": "Jordan Mason",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Efficient early-down and goal-line work provides standalone value behind Aaron Jones.",
+      "rationale": "Efficient early-down and goal-line work provides standalone value behind Aaron Jones.",
+      "risks": [
+        "Jones is favored for passing downs and remains the starter."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 9.02",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038544",
+      "player_name": "Quentin Johnston",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Mike McDaniel's perimeter usage and Justin Herbert's arm create an inexpensive WR3 ceiling.",
+      "rationale": "Mike McDaniel's perimeter usage and Justin Herbert's arm create an inexpensive WR3 ceiling.",
+      "risks": [
+        "Target competition and prior inconsistency lower the floor."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 9.10",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038997",
+      "player_name": "Josh Downs",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Vacated targets can turn Downs into an every-down receiver at a late price.",
+      "rationale": "Vacated targets can turn Downs into an every-down receiver at a late price.",
+      "risks": [
+        "The Indianapolis target hierarchy is still unsettled."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 9.12",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038606",
+      "player_name": "Parker Washington",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "His strong late-2025 production offers lead-receiver upside despite a crowded Jacksonville room.",
+      "rationale": "His strong late-2025 production offers lead-receiver upside despite a crowded Jacksonville room.",
+      "risks": [
+        "Multiple capable receivers make his weekly share uncertain."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 6.12",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041035",
+      "player_name": "De'Zhaun Stribling",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Size, speed and a plausible early role make Stribling a worthwhile late rookie bet.",
+      "rationale": "Size, speed and a plausible early role make Stribling a worthwhile late rookie bet.",
+      "risks": [
+        "His role depends partly on injuries ahead of him."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 11.05",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0037838",
+      "player_name": "Isaiah Likely",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "A featured Giants role and proven production without Mark Andrews create late tight-end upside.",
+      "rationale": "A featured Giants role and proven production without Mark Andrews create late tight-end upside.",
+      "risks": [
+        "His new offense and target share are not yet established."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 10.04",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0037809",
+      "player_name": "Chig Okonkwo",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Washington's thin receiving depth gives Okonkwo a path to become a primary target.",
+      "rationale": "Washington's thin receiving depth gives Okonkwo a path to become a primary target.",
+      "risks": [
+        "Veteran receivers can keep him third in the pecking order."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 17.04",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0037252",
+      "player_name": "Greg Dulcich",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Every-down athleticism offers deep-league upside in Miami's unsettled receiving group.",
+      "rationale": "Every-down athleticism offers deep-league upside in Miami's unsettled receiving group.",
+      "risks": [
+        "The offense may not support a weekly top-12 tight end."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 21.03",
+      "assumptions": []
+    }
+  ]
+}

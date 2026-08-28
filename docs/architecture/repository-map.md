@@ -84,9 +84,12 @@ Current domain files:
 
 Current application files:
 
-- `app/page.tsx` and `app/layout.tsx` — Next.js entry points.
+- `app/page.tsx` and `app/layout.tsx` — canonical Next.js entry points for the
+  draft board.
+- `app/board/page.tsx` — compatibility redirect from `/board` to `/`.
 - `app/api/draft/route.ts` — validated local draft read/mutation API.
-- `src/ui/DraftRoom.tsx` — Split Focus V1 interface and interactions.
+- `src/ui/board/DraftBoard.tsx` — canonical draft-board interface and
+  interactions, with styles isolated in `DraftBoard.module.css`.
 - `src/server/draftStore.ts` — SQLite lifecycle, artifact bootstrap, view-model
   queries, and translation to deterministic domain commands.
 

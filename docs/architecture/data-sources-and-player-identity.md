@@ -28,8 +28,12 @@ another provider's fields.
 | Source | Primary use | Not used as |
 | --- | --- | --- |
 | FantasyPros preseason projections | Defines the preseason draft-player pool and supplies primary projected counting statistics | Permanent player identity or historical NFL truth |
+| FantasyPros consensus rankings | Current non-PPR expert-consensus rank, position rank, tier, and expert range for writeup context | Projection, auction-dollar value, or automatic Target/Avoid vote |
+| FantasyPros injuries | Dated current availability, designation, injury detail, practice status, and probability context for writeups | Permanent player trait or automatic valuation adjustment |
+| FantasyPros news | Dated recent player developments and FantasyPros impact summaries for writeups | Durable fact after its date, independent analyst vote, or live draft dependency |
 | FFA preseason snapshots | Projection uncertainty, kicker detail, injuries, biographical enrichment, comparison, and missing-field fallback | Projection backbone or permanent identity |
 | nflverse player registry and rosters | Preferred GSIS identity, cross-provider IDs, and historical/current roster evidence | Preseason projection source |
+| nflverse weekly depth charts | Dated team hierarchy, position slot, and depth rank; display-ready QB/RB/WR/TE corps | Fantasy projection, durable role guarantee, or automatic recommendation |
 | nflverse player/team statistics and schedules | Primary historical NFL outcomes and league-scored actuals | Live draft dependency |
 | FantasyPros historical actual points | Legacy evaluation and equal-cohort provider comparisons | Preferred long-term actual-stat source |
 | Historical auction CSV | JUGG sale price, winning owner, player label, position, and season | NFL performance or player-identity authority |
@@ -40,6 +44,13 @@ another provider's fields.
 All network sources are acquired before draft night and preserved locally. The
 live draft application consumes validated local artifacts and never requires a
 provider to be online.
+
+FantasyPros rankings, injuries, and news are joined through the same canonical
+FantasyPros-to-GSIS identity mapping as projections. The AI writeup build reads
+only the latest validated local context artifact. Rankings are labeled as
+non-PPR consensus context, while injury and news facts retain their timestamps
+because they can become stale quickly. None of these feeds silently changes
+projected points, expected auction price, walk-away price, or research votes.
 
 ## Canonical player identity
 

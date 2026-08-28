@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260827T170000Z",
+    "built_at": "2026-08-27T17:00:00Z",
+    "season": 2026,
+    "takeaway_count": 0
+  },
+  "source": {
+    "id": "pff:mcguinness:2026-offensive-line-rankings",
+    "source_key": "pff",
+    "title": "2026 NFL offensive line rankings",
+    "author": "Gordon McGuinness",
+    "url": "https://www.pff.com/news/nfl-offensive-line-rankings-2026",
+    "published_at": "2026-08-12",
+    "content_type": "team_context",
+    "summary": "All 32 offensive lines ranked from multi-year player grades with extra weight on pass protection and tackle play. Stored as team context rather than direct player votes.",
+    "season": 2026
+  },
+  "takeaways": []
+}

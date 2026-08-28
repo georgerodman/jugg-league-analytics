@@ -1,0 +1,82 @@
+{
+  "requests": [
+    {
+      "dataset": "injuries",
+      "file": "injuries.json",
+      "public_api_limited": true,
+      "record_count": 145,
+      "sha256": "07f36891793f57df02ec47846b6e1471683b77519aa3873a6aaaaac697382525",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/injuries?year=2026&week=1&include_probabilities=true"
+    },
+    {
+      "dataset": "news",
+      "file": "news.json",
+      "public_api_limited": true,
+      "record_count": 82,
+      "sha256": "c772fb8f9c30d94f81cbc8e3ac91c234bf4f6f0440d80263bdfab0cf80dd4db1",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/news?limit=100&order_by=created"
+    },
+    {
+      "dataset": "rankings_qb",
+      "file": "rankings_qb.json",
+      "public_api_limited": true,
+      "record_count": 105,
+      "sha256": "ff5e2fd2ab0af4f5f37e63c8a057e00f7128e0d8479fd4701f39cdc804c6d462",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2026/consensus-rankings?position=QB&scoring=STD&week=0"
+    },
+    {
+      "dataset": "rankings_rb",
+      "file": "rankings_rb.json",
+      "public_api_limited": true,
+      "record_count": 193,
+      "sha256": "1364b81b124f511ea839808719ca9d7736b757f1a323ef519e34d3d08dcf35b6",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2026/consensus-rankings?position=RB&scoring=STD&week=0"
+    },
+    {
+      "dataset": "rankings_wr",
+      "file": "rankings_wr.json",
+      "public_api_limited": true,
+      "record_count": 258,
+      "sha256": "c0e4836b7fa2a6537c9f67812a450dacccde5d319ca48e5bd5324b9f666094e6",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2026/consensus-rankings?position=WR&scoring=STD&week=0"
+    },
+    {
+      "dataset": "rankings_te",
+      "file": "rankings_te.json",
+      "public_api_limited": true,
+      "record_count": 175,
+      "sha256": "4120ac4420794839491ea4816a78d18023789dd99ac101d60ad05a9f0485fac8",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2026/consensus-rankings?position=TE&scoring=STD&week=0"
+    },
+    {
+      "dataset": "rankings_k",
+      "file": "rankings_k.json",
+      "public_api_limited": true,
+      "record_count": 44,
+      "sha256": "c593c3ddf5688b8c31d36841ef2173a9cfa8c1f8b2c780c0e109d5d778b988d6",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2026/consensus-rankings?position=K&scoring=STD&week=0"
+    },
+    {
+      "dataset": "rankings_dst",
+      "file": "rankings_dst.json",
+      "public_api_limited": true,
+      "record_count": 32,
+      "sha256": "ff0e724ef449608b52da36cab5ee668cfaf44bdf034f6016c5ebd5b7dc450c55",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2026/consensus-rankings?position=DST&scoring=STD&week=0"
+    }
+  ],
+  "retrieved_at": "2026-08-27T06:49:52.644961+00:00",
+  "schema_version": 1,
+  "season": 2026,
+  "snapshot_id": "20260827T064952Z",
+  "source": "fantasypros",
+  "week": 1
+}

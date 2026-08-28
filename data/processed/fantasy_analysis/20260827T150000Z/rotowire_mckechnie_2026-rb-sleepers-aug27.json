@@ -1,0 +1,153 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260827T150000Z",
+    "built_at": "2026-08-27T15:00:00Z",
+    "season": 2026,
+    "takeaway_count": 8
+  },
+  "source": {
+    "id": "rotowire:mckechnie:2026-rb-sleepers-aug27",
+    "source_key": "rotowire",
+    "title": "2026 Fantasy Football Sleepers: 5 Underrated Running Backs to Target",
+    "author": "John McKechnie",
+    "url": "https://www.rotowire.com/football/article/2026-fantasy-football-sleepers-five-underrated-running-backs-to-target-129827",
+    "published_at": "2026-08-27",
+    "content_type": "rb_sleepers",
+    "summary": "Five primary values plus deep contingent backs",
+    "season": 2026
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0036973",
+      "player_name": "Travis Etienne Jr.",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "A clear lead role, proven volume and receiving ability create upper-RB2 value while Kamara recovers.",
+      "rationale": "A clear lead role, proven volume and receiving ability create upper-RB2 value while Kamara recovers.",
+      "risks": [
+        "The fourth-round price is value rather than a classic sleeper price."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 43.9 / RB18",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0037263",
+      "player_name": "Tyler Allgeier",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Early volume and short-yardage work can create flex weeks even after Love returns.",
+      "rationale": "Early volume and short-yardage work can create flex weeks even after Love returns.",
+      "risks": [
+        "The ceiling and scoring environment are modest."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 148.5 / RB45",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0037525",
+      "player_name": "Jordan Mason",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Strong rushing efficiency and a better Minnesota offense create standalone and contingent upside.",
+      "rationale": "Strong rushing efficiency and a better Minnesota offense create standalone and contingent upside.",
+      "risks": [
+        "Aaron Jones still leads the depth chart and Mason's sample is smaller."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 123.1 / RB40",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038611",
+      "player_name": "Chris Rodriguez Jr.",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Power, after-contact production and likely goal-line work are underpriced.",
+      "rationale": "Power, after-contact production and likely goal-line work are underpriced.",
+      "risks": [
+        "Tuten and LeQuint Allen can control other valuable roles."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 147.2 / RB43",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040162",
+      "player_name": "Dylan Sampson",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Target-earning efficiency and a checkdown-heavy offense create a path to 50 catches.",
+      "rationale": "Target-earning efficiency and a checkdown-heavy offense create a path to 50 catches.",
+      "risks": [
+        "The thesis is much weaker outside full PPR."
+      ],
+      "formats": [
+        "PPR"
+      ],
+      "price_condition": "ADP 173.9 / RB49",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038951",
+      "player_name": "Sean Tucker",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Demonstrated spike-week upside makes him a worthwhile final-round contingency.",
+      "rationale": "Demonstrated spike-week upside makes him a worthwhile final-round contingency.",
+      "risks": [
+        "He likely needs an injury ahead of him."
+      ],
+      "formats": [
+        "deep_redraft",
+        "best_ball"
+      ],
+      "price_condition": "Final rounds",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041104",
+      "player_name": "Demond Claiborne",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "His 4.37 speed offers a small chance of usable splash weeks.",
+      "rationale": "His 4.37 speed offers a small chance of usable splash weeks.",
+      "risks": [
+        "He may have no offensive role."
+      ],
+      "formats": [
+        "deep_redraft",
+        "best_ball"
+      ],
+      "price_condition": "Final rounds",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041013",
+      "player_name": "Emmett Johnson",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Kansas City's likely No. 2 back carries contingent upside and possible standalone work.",
+      "rationale": "Kansas City's likely No. 2 back carries contingent upside and possible standalone work.",
+      "risks": [
+        "Kenneth Walker controls the backfield while healthy."
+      ],
+      "formats": [
+        "deep_redraft",
+        "best_ball"
+      ],
+      "price_condition": "Final rounds",
+      "assumptions": []
+    }
+  ]
+}

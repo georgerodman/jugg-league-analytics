@@ -1,0 +1,198 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260827T223000Z",
+    "built_at": "2026-08-27T22:30:00Z",
+    "season": 2026,
+    "takeaway_count": 11
+  },
+  "source": {
+    "id": "fantasyfootballers:udk:2026-busts",
+    "source_key": "fantasy_footballers",
+    "title": "2026 UDK Expert List: Busts",
+    "author": "Fantasy Footballers",
+    "url": "https://www.thefantasyfootballers.com/2026-ultimate-draft-kit/udk-expert-lists-busts/",
+    "published_at": "2026-08-27",
+    "content_type": "busts",
+    "summary": "Eleven price-sensitive fades covering role, injury and regression risk.",
+    "season": 2026
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0033873",
+      "player_name": "Patrick Mahomes II",
+      "label": "bust",
+      "sentiment": "negative",
+      "summary": "A major knee recovery, limited receiver additions and reduced rushing make separation at quarterback unlikely.",
+      "rationale": "A major knee recovery, limited receiver additions and reduced rushing make separation at quarterback unlikely.",
+      "risks": [
+        "His talent and offense can still create an outlier passing season."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 10.03",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0036264",
+      "player_name": "Jordan Love",
+      "label": "bust",
+      "sentiment": "negative",
+      "summary": "Low passing volume and limited rushing require an unsustainable touchdown spike for difference-making fantasy output.",
+      "rationale": "Low passing volume and limited rushing require an unsustainable touchdown spike for difference-making fantasy output.",
+      "risks": [
+        "Efficiency preserves matchup-streaming appeal."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 14.12",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041027",
+      "player_name": "Jeremiyah Love",
+      "label": "bust",
+      "sentiment": "negative",
+      "summary": "A poor team environment and shared touches make the highly drafted rookie vulnerable to disappointment.",
+      "rationale": "A poor team environment and shared touches make the highly drafted rookie vulnerable to disappointment.",
+      "risks": [
+        "Elite talent and draft capital can overwhelm the situation."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 3.02",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0036555",
+      "player_name": "Chuba Hubbard",
+      "label": "bust",
+      "sentiment": "negative",
+      "summary": "Weak explosiveness, almost no goal-line work and Jonathon Brooks' rise threaten Hubbard's seventh-round cost.",
+      "rationale": "Weak explosiveness, almost no goal-line work and Jonathon Brooks' rise threaten Hubbard's seventh-round cost.",
+      "risks": [
+        "He may still open as Carolina's lead back."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 7.05",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040730",
+      "player_name": "RJ Harvey",
+      "label": "bust",
+      "sentiment": "negative",
+      "summary": "Touchdown regression, poor rushing efficiency and a crowded backfield make Harvey's price fragile.",
+      "rationale": "Touchdown regression, poor rushing efficiency and a crowded backfield make Harvey's price fragile.",
+      "risks": [
+        "Denver's excellent line and offense preserve usable upside."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 7.08",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0039337",
+      "player_name": "Malik Nabers",
+      "label": "bust",
+      "sentiment": "negative",
+      "summary": "ACL and meniscus recovery plus a spring follow-up procedure make an early premium price difficult to accept.",
+      "rationale": "ACL and meniscus recovery plus a spring follow-up procedure make an early premium price difficult to accept.",
+      "risks": [
+        "A late-season return to elite form remains possible."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 3.06",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0034827",
+      "player_name": "DJ Moore",
+      "label": "bust",
+      "sentiment": "negative",
+      "summary": "Age, career-low efficiency and Buffalo's distributed passing game make the Josh Allen premium risky.",
+      "rationale": "Age, career-low efficiency and Buffalo's distributed passing game make the Josh Allen premium risky.",
+      "risks": [
+        "A clear top-receiver role can still unlock a rebound."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 5.08",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0034348",
+      "player_name": "Courtland Sutton",
+      "label": "bust",
+      "sentiment": "negative",
+      "summary": "Jaylen Waddle's arrival, age and likely volume loss can turn Sutton into a touchdown-dependent option.",
+      "rationale": "Jaylen Waddle's arrival, age and likely volume loss can turn Sutton into a touchdown-dependent option.",
+      "risks": [
+        "He has posted consecutive WR13 finishes."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 7.11",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040189",
+      "player_name": "Oronde Gadsden II",
+      "label": "bust",
+      "sentiment": "negative",
+      "summary": "New tight-end competition and inconsistent first-team camp work make Gadsden an avoid at his current cost.",
+      "rationale": "New tight-end competition and inconsistent first-team camp work make Gadsden an avoid at his current cost.",
+      "risks": [
+        "His rookie peak still demonstrates meaningful receiving upside."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 13.03",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038933",
+      "player_name": "Dalton Kincaid",
+      "label": "bust",
+      "sentiment": "negative",
+      "summary": "Low target volume, added underneath competition and possible snap management make similar production available later.",
+      "rationale": "Low target volume, added underneath competition and possible snap management make similar production available later.",
+      "risks": [
+        "Josh Allen keeps his touchdown ceiling alive."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 8.08",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038041",
+      "player_name": "Jake Ferguson",
+      "label": "bust",
+      "sentiment": "negative",
+      "summary": "A weak second half and third-place target role leave Ferguson overly dependent on touchdowns.",
+      "rationale": "A weak second half and third-place target role leave Ferguson overly dependent on touchdowns.",
+      "risks": [
+        "Dallas' passing volume can still create spike weeks."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": "ADP 10.01",
+      "assumptions": []
+    }
+  ]
+}

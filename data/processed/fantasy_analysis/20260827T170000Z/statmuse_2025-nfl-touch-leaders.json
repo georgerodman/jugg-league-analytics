@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260827T170000Z",
+    "built_at": "2026-08-27T17:00:00Z",
+    "season": 2026,
+    "takeaway_count": 0
+  },
+  "source": {
+    "id": "statmuse:2025-nfl-touch-leaders",
+    "source_key": "statmuse",
+    "title": "NFL Touch Leaders, 2025",
+    "author": "StatMuse",
+    "url": "https://www.statmuse.com/nfl/ask/nfl-touch-leaders-this-season",
+    "published_at": "2026-06-01",
+    "content_type": "usage_leaders",
+    "summary": "Historical 2025 touches, carries, receptions, and targets. Stored as objective workload context and not treated as a player recommendation.",
+    "season": 2026
+  },
+  "takeaways": []
+}

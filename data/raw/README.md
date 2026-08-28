@@ -3,6 +3,15 @@
 Files in this directory are immutable source snapshots. Cleaning and identifier
 normalization must write new files rather than changing these inputs.
 
+## Repository retention
+
+Keep the snapshot selected by each source's `latest.json` pointer and any older
+snapshot explicitly referenced by a retained model artifact, published study,
+or reproducibility record. Superseded intermediate captures may be removed from
+the repository after confirming that no retained artifact references them.
+Removing a snapshot from the repository does not permit changing its contents;
+any restored or newly acquired snapshot remains immutable.
+
 ## `auction_history.csv`
 
 - Supplied as cleaned `Auction History - Sheet1 (1).csv` on 2026-08-23.
@@ -75,3 +84,13 @@ Checksums and schema observations are recorded in
   SHA-256 checksums.
 - Normalization, identity matching, and league scoring write only to
   `data/processed/nflverse/<timestamp>/`.
+
+## `nflverse_depth_charts/<season>/<timestamp>/`
+
+- Immutable complete-season depth-chart CSV from the official nflverse release.
+- The source contains multiple dated snapshots; normalization selects the newest
+  complete 32-team timestamp without discarding the preserved source history.
+- `manifest.json` records the URL, schema, record count, SHA-256 checksum, and
+  ESPN-via-nflverse CC-BY-SA-4.0 attribution required for 2025 onward.
+- Normalized team, player, and fantasy-offense views are published separately
+  under `data/processed/nflverse_depth_charts/<season>/<timestamp>/`.

@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260827T223000Z",
+    "built_at": "2026-08-27T22:30:00Z",
+    "season": 2026,
+    "takeaway_count": 3
+  },
+  "source": {
+    "id": "fantasyfootballers:ballers-my-guys:2026:mike-wright",
+    "source_key": "fantasy_footballers",
+    "title": "The Fantasy Footballers My Guys for 2026",
+    "author": "Mike Wright",
+    "url": "https://www.thefantasyfootballers.com/analysis/the-fantasy-footballers-my-guys-for-2026/",
+    "published_at": "2026-08-27",
+    "content_type": "my_guys",
+    "summary": "Three 2026 conviction picks from one host.",
+    "season": 2026
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0038124",
+      "player_name": "Christian Watson",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Elite post-ACL route metrics and a cleared receiver room make Watson underpriced.",
+      "rationale": "Elite post-ACL route metrics and a cleared receiver room make Watson underpriced.",
+      "risks": [
+        "His injury history remains significant."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": null,
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040126",
+      "player_name": "Colston Loveland",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "Dominant late-season efficiency and a featured Ben Johnson role create elite tight-end upside.",
+      "rationale": "Dominant late-season efficiency and a featured Ben Johnson role create elite tight-end upside.",
+      "risks": [
+        "Chicago has several target earners."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": null,
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038134",
+      "player_name": "Kenneth Walker III",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "Kansas City's investment, explosive rushing and major vacated red-zone work create a huge ceiling.",
+      "rationale": "Kansas City's investment, explosive rushing and major vacated red-zone work create a huge ceiling.",
+      "risks": [
+        "He has not handled a full workhorse season."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": null,
+      "assumptions": []
+    }
+  ]
+}

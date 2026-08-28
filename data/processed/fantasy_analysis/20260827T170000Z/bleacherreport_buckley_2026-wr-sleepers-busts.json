@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260827T170000Z",
+    "built_at": "2026-08-27T17:00:00Z",
+    "season": 2026,
+    "takeaway_count": 4
+  },
+  "source": {
+    "id": "bleacherreport:buckley:2026-wr-sleepers-busts",
+    "source_key": "bleacher_report",
+    "title": "Fantasy Football 2026 Wide Receiver Sleepers to Draft and Busts to Avoid",
+    "author": "Zach Buckley",
+    "url": "https://bleacherreport.com/articles/25470748-fantasy-football-2026-wide-receiver-sleepers-draft-and-busts-avoid",
+    "published_at": "2026-08-14",
+    "content_type": "sleepers_and_busts",
+    "summary": "Two receiver sleepers and two price-sensitive avoids.",
+    "season": 2026
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0041035",
+      "player_name": "De'Zhaun Stribling",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Stribling's explosiveness, second-round investment, and fit in San Francisco's yards-after-catch offense create an immediate path to routes.",
+      "rationale": "Stribling's explosiveness, second-round investment, and fit in San Francisco's yards-after-catch offense create an immediate path to routes.",
+      "risks": [
+        "The veteran receiver room can reduce his role if healthy."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Late-round sleeper",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0037239",
+      "player_name": "Chris Olave",
+      "label": "avoid",
+      "sentiment": "negative",
+      "summary": "Olave's third-round price carries more uncertainty than desired because of rookie target competition, quarterback volatility, and injury history.",
+      "rationale": "Olave's third-round price carries more uncertainty than desired because of rookie target competition, quarterback volatility, and injury history.",
+      "risks": [
+        "His 2025 volume and production already proved a WR1 ceiling."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Avoid at a third-round price",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0037545",
+      "player_name": "Rashid Shaheed",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "A full offseason in Seattle should create more designed touches for Shaheed's explosive skill set in an offense that may need more passing volume.",
+      "rationale": "A full offseason in Seattle should create more designed touches for Shaheed's explosive skill set in an offense that may need more passing volume.",
+      "risks": [
+        "Seattle failed to integrate him after the trade and the role remains speculative."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Late-round sleeper",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0037740",
+      "player_name": "Garrett Wilson",
+      "label": "avoid",
+      "sentiment": "negative",
+      "summary": "Wilson's talent remains clear, but uncertain quarterback improvement and new first-round target competition make his third- or fourth-round ceiling questionable.",
+      "rationale": "Wilson's talent remains clear, but uncertain quarterback improvement and new first-round target competition make his third- or fourth-round ceiling questionable.",
+      "risks": [
+        "His historical target dominance can survive a difficult environment."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Avoid at typical cost",
+      "assumptions": []
+    }
+  ]
+}

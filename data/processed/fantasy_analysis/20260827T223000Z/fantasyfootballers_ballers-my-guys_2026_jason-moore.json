@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260827T223000Z",
+    "built_at": "2026-08-27T22:30:00Z",
+    "season": 2026,
+    "takeaway_count": 3
+  },
+  "source": {
+    "id": "fantasyfootballers:ballers-my-guys:2026:jason-moore",
+    "source_key": "fantasy_footballers",
+    "title": "The Fantasy Footballers My Guys for 2026",
+    "author": "Jason Moore",
+    "url": "https://www.thefantasyfootballers.com/analysis/the-fantasy-footballers-my-guys-for-2026/",
+    "published_at": "2026-08-27",
+    "content_type": "my_guys",
+    "summary": "Three 2026 conviction picks from one host.",
+    "season": 2026
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0037740",
+      "player_name": "Garrett Wilson",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "A proven 30% target share and fourth-round WR20 price create substantial upside.",
+      "rationale": "A proven 30% target share and fourth-round WR20 price create substantial upside.",
+      "risks": [
+        "Quarterback quality remains uncertain."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": null,
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041438",
+      "player_name": "Carnell Tate",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "Fourth-overall capital and a likely hyper-targeted WR1 role make Tate attractive in Round 6.",
+      "rationale": "Fourth-overall capital and a likely hyper-targeted WR1 role make Tate attractive in Round 6.",
+      "risks": [
+        "Rookie receivers carry a wide outcome range."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": null,
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0040666",
+      "player_name": "Omarion Hampton",
+      "label": "breakout",
+      "sentiment": "positive",
+      "summary": "Workhorse usage, goal-line control and Mike McDaniel's outside-zone system support an RB1 ceiling.",
+      "rationale": "Workhorse usage, goal-line control and Mike McDaniel's outside-zone system support an RB1 ceiling.",
+      "risks": [
+        "Keaton Mitchell can reduce the workload."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": null,
+      "assumptions": []
+    }
+  ]
+}

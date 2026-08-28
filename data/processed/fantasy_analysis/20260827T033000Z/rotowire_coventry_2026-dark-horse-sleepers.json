@@ -1,0 +1,226 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260827T033000Z",
+    "built_at": "2026-08-27T03:30:00Z",
+    "season": 2026,
+    "takeaway_count": 12
+  },
+  "source": {
+    "id": "rotowire:coventry:2026-dark-horse-sleepers",
+    "source_key": "rotowire",
+    "title": "2026 Fantasy Football Sleepers: 12 Dark Horse Candidates to Win Your League",
+    "author": "Jim Coventry",
+    "url": "https://www.rotowire.com/football/article/2026-fantasy-football-sleepers-12-dark-horse-candidates-to-win-your-league-128019",
+    "published_at": "2026-08-14",
+    "season": 2026,
+    "content_type": "late_round_values",
+    "summary": "Twelve players with ADPs beyond pick 100 whose opportunity, scheme, or contingent role can substantially outperform cost."
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0038994",
+      "player_name": "Jordan Addison",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Addison's touchdown decline tracks poor quarterback play, and Kyler Murray can restore top-24 upside at a WR4 price.",
+      "rationale": "Addison's touchdown decline tracks poor quarterback play, and Kyler Murray can restore top-24 upside at a WR4 price.",
+      "risks": [
+        "Offseason baggage and competition from Minnesota's other targets remain."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Pick 100",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0037525",
+      "player_name": "Jordan Mason",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Mason has already produced efficiently behind Minnesota's strong line and becomes a major value if the aging Aaron Jones misses time.",
+      "rationale": "Mason has already produced efficiently behind Minnesota's strong line and becomes a major value if the aging Aaron Jones misses time.",
+      "risks": [
+        "His receiving work and standalone volume are minimal when Jones plays."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Pick 106 / handcuff",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038933",
+      "player_name": "Dalton Kincaid",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Kincaid's elite route efficiency and explosive usage create league-winning upside at a TE1/2 border price.",
+      "rationale": "Kincaid's elite route efficiency and explosive usage create league-winning upside at a TE1/2 border price.",
+      "risks": [
+        "PCL trouble, missed games, and possible snap restrictions materially lower the floor."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Pick 114",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0039384",
+      "player_name": "Tyrone Tracy Jr.",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Tracy offers a stable receiving floor and becomes a lead option if Cam Skattebo misses time.",
+      "rationale": "Tracy offers a stable receiving floor and becomes a lead option if Cam Skattebo misses time.",
+      "risks": [
+        "A healthy Skattebo controls early downs and caps Tracy's standalone ceiling."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Pick 128",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0034855",
+      "player_name": "Baker Mayfield",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Mayfield's pre-injury top-12 pace and scheme continuity make him a cheap quarterback with a proven ceiling.",
+      "rationale": "Mayfield's pre-injury top-12 pace and scheme continuity make him a cheap quarterback with a proven ceiling.",
+      "risks": [
+        "He has played through injuries that materially damaged his production."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Pick 130",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0034753",
+      "player_name": "Mark Andrews",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Andrews can rebound after Baltimore cleared tight-end competition and recommitted to him in an offense expected to feature the position.",
+      "rationale": "Andrews can rebound after Baltimore cleared tight-end competition and recommitted to him in an offense expected to feature the position.",
+      "risks": [
+        "His 2025 separation and efficiency decline may reflect real aging."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Pick 131 / TE2",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0035228",
+      "player_name": "Kyler Murray",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Murray's rushing floor, Kevin O'Connell's system, elite receivers, and improved protection create top-10 upside at a late QB price.",
+      "rationale": "Murray's rushing floor, Kevin O'Connell's system, elite receivers, and improved protection create top-10 upside at a late QB price.",
+      "risks": [
+        "Durability has remained an important concern."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Pick 136",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0038611",
+      "player_name": "Chris Rodriguez Jr.",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Rodriguez has a clear early-down and goal-line role in an ascending Jacksonville offense with room to gain work if Tuten falters.",
+      "rationale": "Rodriguez has a clear early-down and goal-line role in an ascending Jacksonville offense with room to gain work if Tuten falters.",
+      "risks": [
+        "Six career receptions leave almost no PPR floor."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Pick 142",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0041035",
+      "player_name": "De'Zhaun Stribling",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Stribling's draft capital and ideal Shanahan fit give him a path to early opportunity in an older, injury-prone receiver room.",
+      "rationale": "Stribling's draft capital and ideal Shanahan fit give him a path to early opportunity in an older, injury-prone receiver room.",
+      "risks": [
+        "He remains a rookie stash without a guaranteed starting role."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Pick 145",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0037291",
+      "player_name": "Jalen Nailor",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Nailor's speed, contract, and scheme familiarity give him a legitimate chance to win a large role in Las Vegas.",
+      "rationale": "Nailor's speed, contract, and scheme familiarity give him a legitimate chance to win a large role in Las Vegas.",
+      "risks": [
+        "His NFL production has not yet established starter-level ability."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Pick 151",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0039410",
+      "player_name": "Ryan Flournoy",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Flournoy owns a stable third-receiver role in a strong passing offense and becomes immediately useful if either star receiver misses time.",
+      "rationale": "Flournoy owns a stable third-receiver role in a strong passing offense and becomes immediately useful if either star receiver misses time.",
+      "risks": [
+        "His normal role remains behind two high-volume stars."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Pick 163 / deep leagues",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0035229",
+      "player_name": "T.J. Hockenson",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Hockenson's underlying openness and catch rate can translate into a late-career bounce-back with Kyler Murray restoring passing volume.",
+      "rationale": "Hockenson's underlying openness and catch rate can translate into a late-career bounce-back with Kyler Murray restoring passing volume.",
+      "risks": [
+        "Age and a sharp recent production decline remain meaningful."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Pick 204 / TE20",
+      "assumptions": []
+    }
+  ]
+}

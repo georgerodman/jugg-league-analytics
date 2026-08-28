@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260827T170000Z",
+    "built_at": "2026-08-27T17:00:00Z",
+    "season": 2026,
+    "takeaway_count": 3
+  },
+  "source": {
+    "id": "pff:conway:2026-best-rb-handcuffs",
+    "source_key": "pff",
+    "title": "Fantasy Football 2026: Best running back handcuffs",
+    "author": "Ryan Conway",
+    "url": "https://www.pff.com/news/fantasy-football-2026-best-running-back-handcuffs",
+    "published_at": "2026-08-01",
+    "content_type": "handcuffs",
+    "summary": "Three backups with credible paths to fantasy relevance if the starter ahead of them misses time.",
+    "season": 2026
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0039344",
+      "player_name": "Jonathon Brooks",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Brooks can become Carolina's most explosive back if his recovery from consecutive ACL tears restores his college form.",
+      "rationale": "Brooks can become Carolina's most explosive back if his recovery from consecutive ACL tears restores his college form.",
+      "risks": [
+        "He has only nine NFL carries and substantial medical risk."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Contingent handcuff",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0039738",
+      "player_name": "Blake Corum",
+      "label": "value",
+      "sentiment": "positive",
+      "summary": "Corum matched Kyren Williams' rushing grade and produced explosive runs on much lower volume, giving him both standalone growth and immediate starter upside if Williams misses time.",
+      "rationale": "Corum matched Kyren Williams' rushing grade and produced explosive runs on much lower volume, giving him both standalone growth and immediate starter upside if Williams misses time.",
+      "risks": [
+        "Williams remains the clear lead back."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Priority handcuff",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0039874",
+      "player_name": "Jaylen Wright",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "Wright becomes fantasy relevant in Miami's run-heavy plan if De'Von Achane misses time, with enough efficiency to handle expanded volume.",
+      "rationale": "Wright becomes fantasy relevant in Miami's run-heavy plan if De'Von Achane misses time, with enough efficiency to handle expanded volume.",
+      "risks": [
+        "He played only 127 offensive snaps and fumbled twice on 70 carries."
+      ],
+      "formats": [
+        "redraft",
+        "PPR"
+      ],
+      "price_condition": "Contingent handcuff",
+      "assumptions": []
+    }
+  ]
+}

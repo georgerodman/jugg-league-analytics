@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260827T223000Z",
+    "built_at": "2026-08-27T22:30:00Z",
+    "season": 2026,
+    "takeaway_count": 1
+  },
+  "source": {
+    "id": "fantasyfootballers:staff-my-guys:2026:parker-hagen",
+    "source_key": "fantasy_footballers",
+    "title": "Fantasy Footballers Writing Staff My Guys for 2026",
+    "author": "Parker Hagen",
+    "url": "https://www.thefantasyfootballers.com/analysis/the-fantasy-footballers-writing-staff-my-guys-for-2026/",
+    "published_at": "2026-08-27",
+    "content_type": "staff_my_guys",
+    "summary": "One contributor's 2026 My Guy selection.",
+    "season": 2026
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0040242",
+      "player_name": "Jacory Croskey-Merritt",
+      "label": "sleeper",
+      "sentiment": "positive",
+      "summary": "A likely feature role in a good offense offers meaningful ninth-round upside.",
+      "rationale": "A likely feature role in a good offense offers meaningful ninth-round upside.",
+      "risks": [
+        "Passing-game growth is not guaranteed."
+      ],
+      "formats": [
+        "redraft"
+      ],
+      "price_condition": null,
+      "assumptions": []
+    }
+  ]
+}

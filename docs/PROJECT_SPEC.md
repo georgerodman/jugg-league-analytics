@@ -62,6 +62,9 @@ filled by guessing or confused with a projection.
 The board comparison table shows player age and actual 2025 fantasy points when
 available, keeping historical production visibly distinct from projected xPTS.
 The expanded player details also carry nflverse birth date and NFL experience
+and up to three recent FantasyPros news items from the latest local context
+snapshot. News is informational and must remain non-blocking when that local
+artifact is missing or stale.
 when matched through the durable GSIS identity. Age is calculated from the
 birth date at display time; unavailable biography fields remain explicit rather
 than being inferred from names or roster status.
@@ -73,6 +76,14 @@ player registry. The runtime imports those takeaways into SQLite and exposes
 them in expanded Player Details while remaining fully offline. Analyst labels
 and opinions do not silently modify projections, market price, production
 value, or the shared walk-away price.
+
+FantasyPros premium consensus rankings, injuries, and news are captured as a
+separate versioned local context artifact and may be supplied to the explicit
+AI writeup build. Consensus ranks are non-PPR market/analyst context rather
+than projections, auction dollars, or player votes. Injury and news items keep
+their timestamps and are treated as volatile availability context. These feeds
+do not silently alter projected points, price models, walk-away prices, or
+Target/Avoid classifications, and the draft board never depends on a live API.
 
 Use FantasyPros as the primary source for the preseason player pool and projected counting statistics. Treat FantasyFootballAnalytics (FFA) and future projection or player-data providers as enrichment sources for uncertainty, kicker detail, injuries, biographical attributes, comparison signals, or missing fields. Preserve every provider independently at the raw-data boundary. Merged model inputs must retain field-level source provenance and apply explicit, tested conflict and fallback rules rather than silently blending or overwriting values.
 
@@ -90,6 +101,15 @@ league scoring configuration. nflverse actuals evaluate preseason projections
 and provide prior-season model features; they do not replace FantasyPros as the
 preseason projection backbone. Name-based identity matching must remain
 reviewable and must never silently create a permanent player identifier.
+
+Use the nflverse weekly depth-chart release as the source for dated team depth
+hierarchies. Preserve the complete season file, publish the newest complete
+32-team snapshot as a compact local artifact, and attach players through GSIS
+IDs when present. The normalized artifact provides display-ready QB, RB, WR,
+and TE groups while retaining the complete source position, slot, rank, and
+team chart. A depth rank is roster context, not a fantasy projection, value,
+or automatic recommendation input. For 2025 onward, retain the required ESPN
+via nflverse attribution and CC-BY-SA license metadata.
 
 Use GSIS-backed internal identifiers (`nfl:gsis:<id>`) as the preferred durable
 identity for NFL players and team identifiers (`nfl:def:<team>`) for defenses.
@@ -123,26 +143,102 @@ preserved by default but can be reset explicitly from the confirmation dialog.
 
 ## Nominated-Player Workflow
 
-### Simplified board redesign
+### Draft board
 
-The next draft-night interface is developed at `/board` while the existing
-home screen remains available during validation. The board is the primary
-workspace and uses five first-class metrics: projected JUGG points (`xPTS`),
+The draft board is the canonical draft-night interface at `/`. The former
+split-focus Draft Room interface has been retired; `/board` redirects to the
+canonical home route so existing bookmarks continue to work. The board uses
+five first-class metrics: projected JUGG points (`xPTS`),
 points above replacement (`xPAR`), the drop to the next-best available player
 at the same position (`DROP`), expected JUGG sale price (`xPRICE`), and the
 expected sale-price range. `xRANK` is the cross-position ordering of xPAR.
-`DROP` recalculates locally as players leave the available pool. During board
-validation, the table also exposes production tier and the number of players
+`DROP` recalculates locally as players leave the available pool. The table also
+exposes production tier and the number of players
 remaining in that position-tier. Production value remains an internal
 analytical conversion of xPAR into league-economy dollars and is not displayed
 beside the market-facing xPRICE.
 
 The interface is a full-width sortable player table with a compact sticky
 nomination bar. Clicking a player row expands supporting player information in
-place without leaving the board. The expanded view uses a compact identity and
-action header, a larger readable fantasy-analyst consensus section, and a
-full-width actual-versus-projected stat table. It does not repeat board metrics
-in large summary tiles or show comparable alternatives. A collapsible bottom workspace provides three
+place without leaving the board. While open, the compact list row is replaced
+by an expanded identity-and-action header that carries the primary board
+metrics, eliminating a duplicated player row. The compact player row, expanded
+player header, and yellow nomination ribbon use the same eighteen-column width
+contract, metric order, scale, and separators. The final three decision columns
+show xPrice Value, xEquity at xPRICE, and the nomination engine's Target Rank;
+players outside the current ranked target set show no target rank. Draft actions sit outside that
+shared stat row so they cannot change its column geometry. This preserves
+retaining the expanded player's blue state and the official nomination's gold
+state. Compact research icons beside player names surface Target, Avoid,
+Sleeper, Breakout, Value, and Bust without widening the table. Hover text names
+each icon, while the full editable research controls live in the expanded
+Fantasy Analysis section. Before a player is officially nominated, the expanded
+header places a searchable Nominated By owner picker beside the Nominate button;
+the standalone empty-nomination ribbon does not repeat that control. The action
+row also shows the player's locally cached nflverse fantasy depth chart (top two
+QBs, top three RBs, top four WRs, and top two TEs) beside the nomination action;
+fullbacks are omitted
+from the fantasy RB summary. The expanded view also uses an
+xPRICE-based roster-impact preview and a single deterministic Decision card
+that combines the recommendation, tested-path support, walk-away price,
+xEquity, decision edge, production reasoning, and budget consequences. It also includes
+the cached fantasy-analysis card summary, close available alternatives, and a
+deterministic **Player/Roster Notes** card. That card prioritizes up to six short,
+interpreted observations drawn from current roster fit, expected price versus
+walk-away price, positional scarcity, alternatives, injury status, bye-week
+concentration, research consensus, and tested draft paths. It recalculates
+locally with draft state and does not require an AI call. Reusable structured
+situation signals also surface top- or bottom-10 offensive lines, top- or
+bottom-eight quarterback context, high or limited prior-year target volume,
+projected starter or handcuff status, lead/bell-cow versus committee concerns,
+and meaningful or contested goal-line work. Every signal keeps its positive or
+negative interpretation; historical usage is labeled as prior-year evidence,
+and source disagreement may produce competing notes rather than a false single
+answer. Player News appears
+only when recent news exists and then spans the full width immediately above
+the Brief Summary, Value, and Player/Roster Notes cards. It does not leave
+an empty placeholder for players without news. The expanded view also includes a full-width
+actual-versus-projected stat table. The card-summary tile links to the cached
+full writeup in an in-place modal without navigating away from the board.
+The modal's research classification controls match the research wiki controls
+in button size, spacing, grouping, selected states, and suggestion markers.
+The modal has no visible close button; clicking its surrounding backdrop closes it.
+The research wiki and modal use the same writeup content structure; recent news
+is excluded from both full writeups and remains available on the expanded player card.
+The Value card lists xPRICE and its expected range before the walk-away and
+xEquity metrics; Decision edge is not repeated as a tile. It does not repeat a
+Great-to-Bad recommendation headline because the official nomination's price
+ladder is the canonical display for that classification. The card anchors its
+tested-path support, xEquity, budget impact, and reasoning to the player's current xPRICE.
+The tested-path sentence matches the decision write-up's body size and highlights
+the supported-path count with green, amber, or red treatment for strong, mixed,
+or weak support.
+The pale-rose news tile uses a muted brick-red accent to remain recognizable
+without sharing the active nomination ribbon's yellow state. It omits a redundant
+section heading; its headline, date, and update text use the shared 13-pixel
+content scale. Brief Summary, Value, and
+Player/Roster Notes use consistent 13-pixel headings and 13-pixel prose;
+other compact metadata, badges, and metric labels retain their smaller supporting scale.
+Within the Value card, the four metric-tile labels use 10 pixels and their
+values use 13 pixels for draft-night readability.
+The walk-away price remains a separately labeled ceiling, while the price ladder
+shows how the recommendation changes at prices above and below xPRICE. The
+sticky nominated-player ribbon shows the compact Great-to-Bad ladder on the
+same control row as Nominated By, Cancel Nomination, and Enter Winner, using the
+scenario engine's price bands. The ladder expands into the available width while
+the controls remain grouped on the right. Final sales are entered directly in
+this row with a keyboard-ordered winning-owner selector, winning-bid input, and
+Enter submit button; pressing Enter from the bid field records the sale without
+opening a modal. Each control uses a compact label above its input or button,
+including a Price Ladder label above the five colored ranges, and the price-band
+cells match the other labeled controls' visual height. Nominated By and Winning
+Owner are searchable combo boxes: Winning Owner starts blank when a nomination
+begins; typing filters owner and team names, Tab accepts
+the first match and advances, and Enter accepts without submitting the sale. No band receives a separate active
+outline; the ladder communicates ranges only. The committed walk-away remains
+in the Decision card. The ladder remains
+hidden before official nomination and is not duplicated in Player Details. A
+collapsible bottom workspace provides three
 tables: League Strength, Team Rosters, and Draft History. Team Rosters preserves
 the authoritative roster-slot reassignment workflow and Google Sheets outbox
 synchronization. Draft History preserves confirmed sale reversal and the
@@ -153,27 +249,95 @@ forked for the new interface.
 External fantasy analysis is retained as versioned, source-attributed research
 with an article-level summary and optional player-level takeaways. It remains
 available to the local data layer and is summarized on the draft board using a
-simple two-layer vocabulary. `Target`, `Avoid`, or `Watch` is the normalized
-action signal; `Sleeper`, `Breakout`, `Value`, and `Bust` are descriptive tags
-that explain the kind of argument. Repeated opinions from the same analyst count
-once in the displayed positive/negative split. The operator can force Target,
-force Avoid, hide the flag, or restore the automatic classification without
-changing projections, prices, or recommendation calculations.
+simple two-layer vocabulary. `Target` or `Avoid` is the normalized actionable
+signal; no action means the research is neutral, tied, or unresolved. `Sleeper`,
+`Breakout`, `Value`, and `Bust` are descriptive tags that explain the kind of
+argument. Repeated opinions from the same analyst count once in the displayed
+positive/negative split. The operator can force Target, force Avoid, hide the
+flag, or restore the automatic classification
+without changing projections, prices, or recommendation calculations. From the
+research wiki, the operator may also independently add or remove Sleeper,
+Breakout, Value, and Bust display tags and reset them to their automatic values.
+The wiki highlights the currently effective action and tags rather than an
+abstract “Auto” state. Suggested actions and tags use a small blue dot in the
+button's upper-right corner, while the currently effective choices use a filled
+state. The suggestion dot remains visible when the operator makes a different selection. Action
+and tag buttons are toggles:
+clicking an unselected action selects it, while clicking the selected action
+again suppresses the Target/Avoid indicator. When no action is selected,
+the starred suggestion remains visible and clicking it restores automatic
+behavior. Tags have no separate reset control: clicking a suggested tag that
+was manually removed restores its automatic state. Suppressing the flag does
+not remove tags, writeups, evidence,
+projections, or prices. All manual
+classifications are stored separately from the source evidence. Future imports
+may update the suggested classifications without overwriting manual choices;
+resetting later adopts the newest suggestion.
 
 Player-level aggregate summaries are generated during the repeatable research
 build, not during draft-night page rendering. The build uses the stored
 takeaways, deduplicated analyst opinions, format and price context, risks, and
-source provenance to create a concise grounded synthesis. Each summary is
-cached by an input hash and retains its source IDs, prompt version, model, and
-generation time. SQLite imports the completed artifact so the board remains
-fast and fully functional offline; if a summary is unavailable, the interface
-falls back to deterministic evidence already stored locally.
+source provenance to create two grounded syntheses. The **card summary** (also
+called the card writeup) is one or two concise sentences for draft-night
+scanning. The **full writeup** (also called the full summary) is one to three
+short paragraphs for the longer research brief, using less space when the
+underlying evidence is thin. Both outputs are generated together from the same
+evidence and cached by an input hash and prompt version. Each retains its source
+IDs, model, and generation time. SQLite imports the completed artifact so the
+board remains fast and fully functional offline; if a card summary is
+unavailable, the interface falls back to deterministic evidence already stored
+locally.
 
-The same structured takeaways generate a longer preseason research brief in
-Markdown and PDF. This report is a derived, reproducible view rather than a
-second research store. Team-level articles are retained as context and may
+Card summaries and full writeups state the fantasy-football interpretation
+directly. They do not name analysts or publications and do not use attribution
+phrases such as “the analyst says” or “the article argues.” Author and
+publication attribution remains available separately through the structured
+source links. They also avoid meta-language such as “the evidence suggests,”
+“the supplied evaluations suggest,” or “the research indicates.” The prose
+should read as a natural, informed fantasy-football assessment; thin support is
+expressed through appropriately restrained conclusions rather than commentary
+about the underlying source material. When retained sources disagree, the prose
+describes a mixed or divided outlook and explains the competing football cases
+directly. It does not frame the disagreement as named-person attribution such
+as “one analyst says X while another says Y.”
+
+The same structured takeaways and stored full writeups power a local research
+wiki linked from the draft-board header. The wiki provides an index, position
+sections, direct player anchors, source links, readable long-form entries, and
+each player's current position rank, live-adjusted xPRICE, and expected price
+range in the header, with team, bye week, and current age immediately below.
+The research wiki and player-card full-writeup modal render one shared writeup
+template so identity, opinion summary, Pros/Cons, long-form typography, and
+source links stay synchronized. The research-wiki view places current FantasyPros injury and news context in
+source-labeled callouts separate from the cached AI prose. The draft-board
+full-writeup modal retains the injury callout but omits the latest-news callout
+already shown on the player card, stacks Pros above Cons, and places each label
+inline with its summary using compact padding. The injury callout
+appears only when the structured injury feed has a matching record. In the wiki,
+the news callout shows up to three dated items and
+labels provider-authored commentary explicitly as `FantasyPros impact` so it
+cannot be mistaken for the AI synthesis. Missing context remains silent and
+non-blocking; neither callout changes the cached writeup or draft valuation.
+Each entry also surfaces separately cached AI Pros and Cons fields. Each field
+is one sentence of at most 24 words that synthesizes the two or three strongest
+distinct points without changing the card summary or full writeup. Pros/Cons
+use 13-pixel text and matching green/red callout treatments in the research
+wiki. They retain their own input hash,
+prompt version, model, and generation time so an
+operator can enrich only missing or stale fields. The interface leaves the
+cached full writeup intact and marks genuinely two-sided research as
+Mixed when at least one independent positive and negative opinion are present.
+One-sided research is labeled Positive or Negative with green or red sentiment
+badges respectively;
+it remains available without internet access because it renders entirely from
+the local SQLite store. It is a derived, reproducible view rather than a second
+research store and does not merely repeat the shorter card summaries. PDF or
+Markdown exports may be produced on demand but are not part of the normal
+research-refresh workflow. Team-level articles are retained as context and may
 inform opportunity or environment assumptions, but they do not create a
 player-level analyst vote unless the source makes an attributable player claim.
+Within each position section, players are ordered by position rank with name as
+the tiebreaker; unranked players appear after ranked players.
 
 Research ingestion and AI synthesis are separate operations. New articles and
 rankings may be imported without calling an AI model or replacing existing
@@ -186,9 +350,32 @@ positive or negative vote.
 Factual research tables such as prior-year player targets, team positional
 target shares, analyst accuracy ranks, strength of schedule, and running-back
 depth charts are retained in a separate versioned fantasy-context artifact.
-They may later support weighting or explanatory context, but ingestion alone
-does not convert them into Target/Avoid votes or invalidate player summaries
-that do not quote them.
+Authenticated subscription research may be captured through the operator's
+signed-in browser. Player recommendations remain source-attributed takeaways,
+while coaching, rookie, transaction, injury, market-share, and red-zone pages
+are retained as context and do not create recommendation votes by themselves.
+Applicable historical usage, backfield-role, positional schedule, and
+offensive-line context is attached to player-summary inputs during an explicit
+batch refresh. It may inform the explanation but never creates a Target/Avoid
+vote by itself. The synthesis distinguishes prior-year results from current
+projections, treats preseason schedule strength as a modest tiebreaker, and
+omits contextual facts that are not genuinely relevant to that player's case.
+Raw statistics appear in generated prose only when the retained inputs also
+support an interpretation through a rank, percentile, league or position
+benchmark, meaningful trend, or clear football implication. An isolated share,
+rate, or count whose quality the reader would have to infer is omitted.
+Format-specific advice, such as best-ball or guillotine recommendations, is
+retained as labeled player context so it can clarify a future writeup without
+changing the standard-redraft Target/Avoid split. External auction exports
+retain their scoring, roster, team-count, and budget assumptions; when those
+assumptions are missing, their dollar values remain quarantined from JUGG
+xPRICE and may be used only as qualified external market context.
+The same rules apply to the separate FantasyPros premium context snapshot:
+consensus ranking is a non-PPR reference point, while injuries and news are
+dated current facts that must not be restated as current after they become
+stale. Changing that snapshot invalidates the affected cached writeup inputs
+but does not regenerate prose until the operator runs the explicit batch
+synthesis.
 
 Setup and administrative controls are grouped under a Draft settings control
 beside the application identity. Nomination order and the recoverable full-draft
@@ -196,22 +383,18 @@ reset live there, separate from the live Up Next, budget, and max-bid status.
 Strategy preferences will use the same settings surface when exposed on the
 simplified board.
 
-During this redesign, scenario paths, championship equity, Assistant GM,
-owner-tendency guidance, roadmap recommendations, and tier labels are not
-first-class board outputs. They may remain implemented behind the existing
-interface while the simpler workflow is validated.
+Scenario paths, championship equity, Assistant GM, owner-tendency guidance,
+and roadmap recommendations are not first-class board outputs. Their shared
+domain and server implementations may remain available for deterministic board
+calculations, testing, and future product decisions, but they do not justify a
+second draft-night interface.
 
 Optimize the main draft screen around one currently nominated player. Show the information needed to decide whether and how far to pursue that player: projected performance, publicly sourced auction values when available, historical JUGG prices, external ADP, positional context, roster fit, risks, comparable alternatives, and relevant owner signals.
 
 The application is named **Renegade Draft Room** and highlights the operator's
-team, **Rodman Renegades**. The V1 visual direction uses a split-focus desktop
-layout: a restrained searchable player list on the left and a dedicated live
-decision workspace on the right. The current nomination remains compact while
-roster fit, recommendation rationale, likely competition, room pressure,
-owner signals, and alternatives receive the available decision space.
-Completed picks do not consume a permanent bottom strip; the header's Draft
-History drawer shows every active sale and provides rapid, confirmed
-corrections while the immutable audit history remains preserved.
+team, **Rodman Renegades**. Its canonical interface is the full-width draft
+board described above. The retired split-focus layout is no longer a supported
+application surface.
 
 The visual theme is a practical light workspace: white and light-gray surfaces,
 blue interaction accents, larger readable typography, restrained borders, and
@@ -321,6 +504,10 @@ glance conditions. The nomination treatment remains until the nomination is
 cancelled or its final sale is recorded.
 
 There is intentionally no live bid-entry stream. The user selects or confirms the nominated player, uses the app for decision support while bidding happens elsewhere, then records the final winner and sale price. The app immediately advances state and recommendations.
+
+The final-sale modal uses a keyboard-first owner combobox. Typing any part of
+an owner or team name filters the list; Enter or Tab accepts the first match so
+the operator can continue through price and confirmation without a pointer.
 
 The header exposes an **Upcoming Targets** roadmap, not merely a background
 calculation. It ranks the next eight affordable available players from current

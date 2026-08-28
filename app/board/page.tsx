@@ -1,5 +1,5 @@
-import { DraftBoard } from "../../src/ui/board/DraftBoard";
+import { redirect } from "next/navigation";
 
 export default function BoardPage(){
-  return <DraftBoard/>;
+  redirect("/");
 }

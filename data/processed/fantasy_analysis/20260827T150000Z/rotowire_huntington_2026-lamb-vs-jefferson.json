@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "schema_version": 2,
+    "build_id": "20260827T150000Z",
+    "built_at": "2026-08-27T15:00:00Z",
+    "season": 2026,
+    "takeaway_count": 2
+  },
+  "source": {
+    "id": "rotowire:huntington:2026-lamb-vs-jefferson",
+    "source_key": "rotowire",
+    "title": "Who Should I Draft: CeeDee Lamb vs Justin Jefferson",
+    "author": "Tyler Huntington",
+    "url": "https://www.rotowire.com/football/article/who-should-i-draft-ceedee-lamb-vs-justin-jefferson-2026-fantasy-football-130048",
+    "published_at": "2026-08-26",
+    "content_type": "player_comparison",
+    "summary": "Half-PPR comparison where the projections favor Lamb and the final personal preference is Jefferson",
+    "season": 2026
+  },
+  "takeaways": [
+    {
+      "player_id": "nfl:gsis:00-0036358",
+      "player_name": "CeeDee Lamb",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "He owns the stronger projected points, floor, ceiling and target volume in this elite comparison.",
+      "rationale": "He owns the stronger projected points, floor, ceiling and target volume in this elite comparison.",
+      "risks": [
+        "The edge is modest and both carry first-round prices."
+      ],
+      "formats": [
+        "half_PPR",
+        "PPR",
+        "standard"
+      ],
+      "price_condition": "WR5",
+      "assumptions": []
+    },
+    {
+      "player_id": "nfl:gsis:00-0036322",
+      "player_name": "Justin Jefferson",
+      "label": "target",
+      "sentiment": "positive",
+      "summary": "Elite talent and Kevin O'Connell upside can justify choosing him over Lamb's slightly stronger projection.",
+      "rationale": "Elite talent and Kevin O'Connell upside can justify choosing him over Lamb's slightly stronger projection.",
+      "risks": [
+        "His projected floor, ceiling and volume trail Lamb slightly."
+      ],
+      "formats": [
+        "half_PPR",
+        "PPR",
+        "standard"
+      ],
+      "price_condition": "WR6",
+      "assumptions": []
+    }
+  ]
+}

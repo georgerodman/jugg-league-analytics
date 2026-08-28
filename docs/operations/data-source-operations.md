@@ -97,6 +97,40 @@ position-specific draftable review band (`QB` 20, `RB` 50, `WR` 60, `TE` 20,
 enrichment gaps from the provider's long tail; they do not remove or downgrade
 the FantasyPros primary projection.
 
+## Refresh FantasyPros rankings, injuries, and news
+
+With `FANTASYPROS_API_KEY` available locally, capture the current premium
+context snapshot with:
+
+```sh
+python3 scripts/fantasypros_context.py --season 2026 --week 1 --news-limit 100
+```
+
+The importer preserves raw endpoint responses beneath
+`data/raw/fantasypros_context/`, validates declared counts, normalizes a
+versioned artifact beneath `data/processed/fantasypros_context/`, and links
+rows to stable internal identities through the current FantasyPros crosswalk.
+Review the manifest's returned tier, declared record counts, and unmatched
+counts after each refresh. Unmatched long-tail NFL records remain in the
+normalized dataset even when they are absent from the current draft pool.
+
+This import does not call an AI model. To incorporate a new snapshot into the
+cached card and full player writeups, run the explicit research synthesis:
+
+```sh
+python3 scripts/build_fantasy_research.py
+python3 scripts/enrich_fantasy_pros_cons.py
+```
+
+That second command regenerates writeups whose dated context or prompt version
+changed and may incur OpenAI API usage. It treats consensus ranking as context,
+not a vote or auction value, and treats injury/news as volatile dated facts.
+Generated prose omits isolated statistics unless the retained inputs establish
+whether the number is strong, weak, ranked, meaningfully trending, or otherwise
+important to the player's outlook.
+The draft board continues using the last completed local synthesis until this
+explicit refresh succeeds.
+
 ## Refresh Yahoo and ESPN ADP
 
 Fetch all supported historical/current seasons or a selected season:
@@ -202,6 +236,34 @@ python3 scripts/match_auction_history.py
 python3 scripts/evaluate_projection_sources.py
 python3 -m unittest discover -s tests -v
 ```
+
+## Refresh nflverse depth charts
+
+Fetch and normalize the current 2026 depth-chart release with:
+
+```sh
+python3 scripts/nflverse_depth_charts.py --season 2026
+```
+
+The source release contains many dated snapshots. The importer preserves the
+complete CSV and checksum under `data/raw/nflverse_depth_charts/`, validates
+the current schema, and publishes only the newest complete 32-team timestamp
+under `data/processed/nflverse_depth_charts/`. The normalized artifact retains
+the complete chart in `players` and `teams[].depth_chart`, plus display-ready
+QB, RB, WR, and TE arrays in `teams[].fantasy_offense`.
+
+Rebuild the normalized artifact without another download with:
+
+```sh
+python3 scripts/nflverse_depth_charts.py --season 2026 --no-download
+```
+
+Review the snapshot timestamp, 32-team validation, unnamed source rows, and
+provisional identity count after every refresh. Rows with GSIS IDs use the
+canonical `nfl:gsis:<id>` format. Rows lacking GSIS retain an explicit
+`provisional:nflverse-depth:espn:<id>` identity and must not be guessed. For
+2025 onward, display or downstream redistribution must credit ESPN via
+nflverse under the artifact's recorded CC-BY-SA-4.0 terms.
 
 Historical actual points are refreshed separately because they consume API
 quota and should not change during ordinary projection refreshes:
