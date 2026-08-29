@@ -1,0 +1,886 @@
+{
+  "exceptions": [
+    {
+      "fantasypros_id": 17420,
+      "ffa_candidates": [],
+      "name": "Daniel Carlson",
+      "position": "K",
+      "reason": "unmatched",
+      "team": "NO"
+    },
+    {
+      "fantasypros_id": 27291,
+      "ffa_candidates": [],
+      "name": "Andy Borregales",
+      "position": "K",
+      "reason": "unmatched",
+      "team": "NE"
+    },
+    {
+      "fantasypros_id": 13274,
+      "ffa_candidates": [],
+      "name": "Brandon McManus",
+      "position": "K",
+      "reason": "unmatched",
+      "team": "FA"
+    },
+    {
+      "fantasypros_id": 9232,
+      "ffa_candidates": [],
+      "name": "Graham Gano",
+      "position": "K",
+      "reason": "unmatched",
+      "team": "FA"
+    },
+    {
+      "fantasypros_id": 24009,
+      "ffa_candidates": [],
+      "name": "Jake Moody",
+      "position": "K",
+      "reason": "unmatched",
+      "team": "FA"
+    },
+    {
+      "fantasypros_id": 26478,
+      "ffa_candidates": [],
+      "name": "Joshua Karty",
+      "position": "K",
+      "reason": "unmatched",
+      "team": "FA"
+    },
+    {
+      "fantasypros_id": 25222,
+      "ffa_candidates": [],
+      "name": "Lucas Havrisik",
+      "position": "K",
+      "reason": "unmatched",
+      "team": "FA"
+    },
+    {
+      "fantasypros_id": 9443,
+      "ffa_candidates": [],
+      "name": "Matt Prater",
+      "position": "K",
+      "reason": "unmatched",
+      "team": "FA"
+    },
+    {
+      "fantasypros_id": 25616,
+      "ffa_candidates": [],
+      "name": "Tanner Brown",
+      "position": "K",
+      "reason": "unmatched",
+      "team": "NO"
+    },
+    {
+      "fantasypros_id": 16910,
+      "ffa_candidates": [],
+      "name": "Younghoe Koo",
+      "position": "K",
+      "reason": "unmatched",
+      "team": "FA"
+    },
+    {
+      "fantasypros_id": 16548,
+      "ffa_candidates": [],
+      "name": "Zane Gonzalez",
+      "position": "K",
+      "reason": "unmatched",
+      "team": "FA"
+    },
+    {
+      "fantasypros_id": 18604,
+      "ffa_candidates": [],
+      "name": "Jarrett Stidham",
+      "position": "QB",
+      "reason": "unmatched",
+      "team": "DEN"
+    },
+    {
+      "fantasypros_id": 25746,
+      "ffa_candidates": [],
+      "name": "Tommy DeVito",
+      "position": "QB",
+      "reason": "unmatched",
+      "team": "NE"
+    },
+    {
+      "fantasypros_id": 23045,
+      "ffa_candidates": [],
+      "name": "Sam Howell",
+      "position": "QB",
+      "reason": "unmatched",
+      "team": "DAL"
+    },
+    {
+      "fantasypros_id": 24575,
+      "ffa_candidates": [],
+      "name": "Chris Oladokun",
+      "position": "QB",
+      "reason": "unmatched",
+      "team": "KC"
+    },
+    {
+      "fantasypros_id": 23146,
+      "ffa_candidates": [],
+      "name": "Behren Morton",
+      "position": "QB",
+      "reason": "unmatched",
+      "team": "NE"
+    },
+    {
+      "fantasypros_id": 24345,
+      "ffa_candidates": [],
+      "name": "Drew Allar",
+      "position": "QB",
+      "reason": "unmatched",
+      "team": "PIT"
+    },
+    {
+      "fantasypros_id": 23040,
+      "ffa_candidates": [],
+      "name": "Adrian Martinez",
+      "position": "QB",
+      "reason": "unmatched",
+      "team": "SF"
+    },
+    {
+      "fantasypros_id": 22998,
+      "ffa_candidates": [],
+      "name": "Garrett Nussmeier",
+      "position": "QB",
+      "reason": "unmatched",
+      "team": "KC"
+    },
+    {
+      "fantasypros_id": 28302,
+      "ffa_candidates": [],
+      "name": "Cole Payton",
+      "position": "QB",
+      "reason": "unmatched",
+      "team": "PHI"
+    },
+    {
+      "fantasypros_id": 20080,
+      "ffa_candidates": [],
+      "name": "Desmond Ridder",
+      "position": "QB",
+      "reason": "unmatched",
+      "team": "FA"
+    },
+    {
+      "fantasypros_id": 24330,
+      "ffa_candidates": [],
+      "name": "Aidan O'Connell",
+      "position": "QB",
+      "reason": "unmatched",
+      "team": "LV"
+    },
+    {
+      "fantasypros_id": 9326,
+      "ffa_candidates": [],
+      "name": "Josh Johnson",
+      "position": "QB",
+      "reason": "unmatched",
+      "team": "CIN"
+    },
+    {
+      "fantasypros_id": 23927,
+      "ffa_candidates": [],
+      "name": "Stetson Bennett IV",
+      "position": "QB",
+      "reason": "unmatched",
+      "team": "LAR"
+    },
+    {
+      "fantasypros_id": 22921,
+      "ffa_candidates": [],
+      "name": "Jerome Ford",
+      "position": "RB",
+      "reason": "unmatched",
+      "team": "WAS"
+    },
+    {
+      "fantasypros_id": 22813,
+      "ffa_candidates": [],
+      "name": "Elijah Mitchell",
+      "position": "RB",
+      "reason": "unmatched",
+      "team": "FA"
+    },
+    {
+      "fantasypros_id": 27326,
+      "ffa_candidates": [],
+      "name": "Jam Miller",
+      "position": "RB",
+      "reason": "unmatched",
+      "team": "NE"
+    },
+    {
+      "fantasypros_id": 19449,
+      "ffa_candidates": [],
+      "name": "Salvon Ahmed",
+      "position": "RB",
+      "reason": "unmatched",
+      "team": "CHI"
+    },
+    {
+      "fantasypros_id": 24352,
+      "ffa_candidates": [],
+      "name": "Israel Abanikanda",
+      "position": "RB",
+      "reason": "unmatched",
+      "team": "DAL"
+    },
+    {
+      "fantasypros_id": 22984,
+      "ffa_candidates": [],
+      "name": "Deuce Vaughn",
+      "position": "RB",
+      "reason": "unmatched",
+      "team": "HOU"
+    },
+    {
+      "fantasypros_id": 25941,
+      "ffa_candidates": [],
+      "name": "Hunter Luepke",
+      "position": "RB",
+      "reason": "unmatched",
+      "team": "DAL"
+    },
+    {
+      "fantasypros_id": 18571,
+      "ffa_candidates": [],
+      "name": "Alec Ingold",
+      "position": "RB",
+      "reason": "unmatched",
+      "team": "LAC"
+    },
+    {
+      "fantasypros_id": 23451,
+      "ffa_candidates": [],
+      "name": "Adam Prentice",
+      "position": "RB",
+      "reason": "unmatched",
+      "team": "DEN"
+    },
+    {
+      "fantasypros_id": 28434,
+      "ffa_candidates": [],
+      "name": "Max Bredeson",
+      "position": "RB",
+      "reason": "unmatched",
+      "team": "MIN"
+    },
+    {
+      "fantasypros_id": 19844,
+      "ffa_candidates": [],
+      "name": "Reggie Gilliam",
+      "position": "RB",
+      "reason": "unmatched",
+      "team": "NE"
+    },
+    {
+      "fantasypros_id": 17145,
+      "ffa_candidates": [],
+      "name": "Patrick Ricard",
+      "position": "RB",
+      "reason": "unmatched",
+      "team": "NYG"
+    },
+    {
+      "fantasypros_id": 26748,
+      "ffa_candidates": [],
+      "name": "British Brooks",
+      "position": "RB",
+      "reason": "unmatched",
+      "team": "HOU"
+    },
+    {
+      "fantasypros_id": 24901,
+      "ffa_candidates": [],
+      "name": "Bam Knight",
+      "position": "RB",
+      "reason": "unmatched",
+      "team": "ARI"
+    },
+    {
+      "fantasypros_id": 26597,
+      "ffa_candidates": [],
+      "name": "Chris Collier",
+      "position": "RB",
+      "reason": "unmatched",
+      "team": "LV"
+    },
+    {
+      "fantasypros_id": 19521,
+      "ffa_candidates": [],
+      "name": "DeeJay Dallas",
+      "position": "RB",
+      "reason": "unmatched",
+      "team": "JAC"
+    },
+    {
+      "fantasypros_id": 23812,
+      "ffa_candidates": [],
+      "name": "Tyler Badie",
+      "position": "RB",
+      "reason": "unmatched",
+      "team": "DEN"
+    },
+    {
+      "fantasypros_id": 25748,
+      "ffa_candidates": [],
+      "name": "Zavier Scott",
+      "position": "RB",
+      "reason": "unmatched",
+      "team": "MIN"
+    },
+    {
+      "fantasypros_id": 16460,
+      "ffa_candidates": [],
+      "name": "Jonnu Smith",
+      "position": "TE",
+      "reason": "unmatched",
+      "team": "GB"
+    },
+    {
+      "fantasypros_id": 15645,
+      "ffa_candidates": [],
+      "name": "Nick Vannett",
+      "position": "TE",
+      "reason": "unmatched",
+      "team": "SEA"
+    },
+    {
+      "fantasypros_id": 25347,
+      "ffa_candidates": [],
+      "name": "Zack Kuntz",
+      "position": "TE",
+      "reason": "unmatched",
+      "team": "DAL"
+    },
+    {
+      "fantasypros_id": 26946,
+      "ffa_candidates": [],
+      "name": "Hayden Rucci",
+      "position": "TE",
+      "reason": "unmatched",
+      "team": "SF"
+    },
+    {
+      "fantasypros_id": 24216,
+      "ffa_candidates": [],
+      "name": "Tanner Conner",
+      "position": "TE",
+      "reason": "unmatched",
+      "team": "NYG"
+    },
+    {
+      "fantasypros_id": 27467,
+      "ffa_candidates": [],
+      "name": "Rivaldo Fairweather",
+      "position": "TE",
+      "reason": "unmatched",
+      "team": "ARI"
+    },
+    {
+      "fantasypros_id": 24182,
+      "ffa_candidates": [],
+      "name": "Teagan Quitoriano",
+      "position": "TE",
+      "reason": "unmatched",
+      "team": "ARI"
+    },
+    {
+      "fantasypros_id": 25820,
+      "ffa_candidates": [],
+      "name": "Travis Vokolek",
+      "position": "TE",
+      "reason": "unmatched",
+      "team": "FA"
+    },
+    {
+      "fantasypros_id": 16787,
+      "ffa_candidates": [],
+      "name": "Anthony Firkser",
+      "position": "TE",
+      "reason": "unmatched",
+      "team": "FA"
+    },
+    {
+      "fantasypros_id": 23039,
+      "ffa_candidates": [],
+      "name": "Thomas Fidone II",
+      "position": "TE",
+      "reason": "unmatched",
+      "team": "NYG"
+    },
+    {
+      "fantasypros_id": 24747,
+      "ffa_candidates": [],
+      "name": "Jaheim Bell",
+      "position": "TE",
+      "reason": "unmatched",
+      "team": "FA"
+    },
+    {
+      "fantasypros_id": 27916,
+      "ffa_candidates": [],
+      "name": "Drake Dabney",
+      "position": "TE",
+      "reason": "unmatched",
+      "team": "GB"
+    },
+    {
+      "fantasypros_id": 24181,
+      "ffa_candidates": [],
+      "name": "John FitzPatrick",
+      "position": "TE",
+      "reason": "unmatched",
+      "team": "FA"
+    },
+    {
+      "fantasypros_id": 25346,
+      "ffa_candidates": [],
+      "name": "Payne Durham",
+      "position": "TE",
+      "reason": "unmatched",
+      "team": "TB"
+    },
+    {
+      "fantasypros_id": 22783,
+      "ffa_candidates": [],
+      "name": "Hunter Long",
+      "position": "TE",
+      "reason": "unmatched",
+      "team": "JAC"
+    },
+    {
+      "fantasypros_id": 27251,
+      "ffa_candidates": [],
+      "name": "CJ Dippre",
+      "position": "TE",
+      "reason": "unmatched",
+      "team": "NE"
+    },
+    {
+      "fantasypros_id": 24568,
+      "ffa_candidates": [],
+      "name": "Ko Kieft",
+      "position": "TE",
+      "reason": "unmatched",
+      "team": "TB"
+    },
+    {
+      "fantasypros_id": 28155,
+      "ffa_candidates": [],
+      "name": "Josh Cuevas",
+      "position": "TE",
+      "reason": "unmatched",
+      "team": "BAL"
+    },
+    {
+      "fantasypros_id": 16706,
+      "ffa_candidates": [],
+      "name": "Eric Saubert",
+      "position": "TE",
+      "reason": "unmatched",
+      "team": "SEA"
+    },
+    {
+      "fantasypros_id": 24561,
+      "ffa_candidates": [],
+      "name": "Drew Ogletree",
+      "position": "TE",
+      "reason": "unmatched",
+      "team": "IND"
+    },
+    {
+      "fantasypros_id": 16743,
+      "ffa_candidates": [],
+      "name": "Johnny Mundt",
+      "position": "TE",
+      "reason": "unmatched",
+      "team": "PHI"
+    },
+    {
+      "fantasypros_id": 26432,
+      "ffa_candidates": [],
+      "name": "Tip Reiman",
+      "position": "TE",
+      "reason": "unmatched",
+      "team": "ARI"
+    },
+    {
+      "fantasypros_id": 25657,
+      "ffa_candidates": [],
+      "name": "Blake Whiteheart",
+      "position": "TE",
+      "reason": "unmatched",
+      "team": "CLE"
+    },
+    {
+      "fantasypros_id": 23727,
+      "ffa_candidates": [],
+      "name": "Cole Turner",
+      "position": "TE",
+      "reason": "unmatched",
+      "team": "MIA"
+    },
+    {
+      "fantasypros_id": 23193,
+      "ffa_candidates": [],
+      "name": "Jack Stoll",
+      "position": "TE",
+      "reason": "unmatched",
+      "team": "FA"
+    },
+    {
+      "fantasypros_id": 25824,
+      "ffa_candidates": [],
+      "name": "Julian Hill",
+      "position": "TE",
+      "reason": "unmatched",
+      "team": "NE"
+    },
+    {
+      "fantasypros_id": 22820,
+      "ffa_candidates": [],
+      "name": "Quintin Morris",
+      "position": "TE",
+      "reason": "unmatched",
+      "team": "JAC"
+    },
+    {
+      "fantasypros_id": 26354,
+      "ffa_candidates": [],
+      "name": "Bub Means",
+      "position": "WR",
+      "reason": "unmatched",
+      "team": "NO"
+    },
+    {
+      "fantasypros_id": 27222,
+      "ffa_candidates": [],
+      "name": "Theo Wease Jr.",
+      "position": "WR",
+      "reason": "unmatched",
+      "team": "MIA"
+    },
+    {
+      "fantasypros_id": 28067,
+      "ffa_candidates": [],
+      "name": "Kevin Coleman Jr.",
+      "position": "WR",
+      "reason": "unmatched",
+      "team": "MIA"
+    },
+    {
+      "fantasypros_id": 26023,
+      "ffa_candidates": [],
+      "name": "Malachi Corley",
+      "position": "WR",
+      "reason": "unmatched",
+      "team": "CLE"
+    },
+    {
+      "fantasypros_id": 25813,
+      "ffa_candidates": [],
+      "name": "Tyrell Shavers",
+      "position": "WR",
+      "reason": "unmatched",
+      "team": "BUF"
+    },
+    {
+      "fantasypros_id": 24370,
+      "ffa_candidates": [],
+      "name": "Mitch Tinsley",
+      "position": "WR",
+      "reason": "unmatched",
+      "team": "CIN"
+    },
+    {
+      "fantasypros_id": 28125,
+      "ffa_candidates": [],
+      "name": "CJ Daniels",
+      "position": "WR",
+      "reason": "unmatched",
+      "team": "LAR"
+    },
+    {
+      "fantasypros_id": 27445,
+      "ffa_candidates": [],
+      "name": "Efton Chism III",
+      "position": "WR",
+      "reason": "unmatched",
+      "team": "NE"
+    },
+    {
+      "fantasypros_id": 23030,
+      "ffa_candidates": [],
+      "name": "Jonathan Mingo",
+      "position": "WR",
+      "reason": "unmatched",
+      "team": "DAL"
+    },
+    {
+      "fantasypros_id": 27866,
+      "ffa_candidates": [],
+      "name": "Darius Cooper",
+      "position": "WR",
+      "reason": "unmatched",
+      "team": "PHI"
+    },
+    {
+      "fantasypros_id": 28141,
+      "ffa_candidates": [],
+      "name": "Reggie Virgil",
+      "position": "WR",
+      "reason": "unmatched",
+      "team": "ARI"
+    },
+    {
+      "fantasypros_id": 25631,
+      "ffa_candidates": [],
+      "name": "Brycen Tremayne",
+      "position": "WR",
+      "reason": "unmatched",
+      "team": "CAR"
+    },
+    {
+      "fantasypros_id": 22965,
+      "ffa_candidates": [],
+      "name": "Arian Smith",
+      "position": "WR",
+      "reason": "unmatched",
+      "team": "NYJ"
+    },
+    {
+      "fantasypros_id": 22843,
+      "ffa_candidates": [],
+      "name": "Ben Skowronek",
+      "position": "WR",
+      "reason": "unmatched",
+      "team": "PIT"
+    },
+    {
+      "fantasypros_id": 26626,
+      "ffa_candidates": [],
+      "name": "Kameron Johnson",
+      "position": "WR",
+      "reason": "unmatched",
+      "team": "TB"
+    },
+    {
+      "fantasypros_id": 28435,
+      "ffa_candidates": [],
+      "name": "Kaden Wetjen",
+      "position": "WR",
+      "reason": "unmatched",
+      "team": "PIT"
+    },
+    {
+      "fantasypros_id": 19219,
+      "ffa_candidates": [],
+      "name": "Jalen Reagor",
+      "position": "WR",
+      "reason": "unmatched",
+      "team": "MIA"
+    },
+    {
+      "fantasypros_id": 26404,
+      "ffa_candidates": [],
+      "name": "Anthony Gould",
+      "position": "WR",
+      "reason": "unmatched",
+      "team": "IND"
+    },
+    {
+      "fantasypros_id": 17289,
+      "ffa_candidates": [],
+      "name": "Braxton Berrios",
+      "position": "WR",
+      "reason": "unmatched",
+      "team": "NYG"
+    },
+    {
+      "fantasypros_id": 24234,
+      "ffa_candidates": [],
+      "name": "Britain Covey",
+      "position": "WR",
+      "reason": "unmatched",
+      "team": "PHI"
+    },
+    {
+      "fantasypros_id": 25336,
+      "ffa_candidates": [],
+      "name": "Charlie Jones",
+      "position": "WR",
+      "reason": "unmatched",
+      "team": "CIN"
+    },
+    {
+      "fantasypros_id": 24570,
+      "ffa_candidates": [],
+      "name": "Dareke Young",
+      "position": "WR",
+      "reason": "unmatched",
+      "team": "LV"
+    },
+    {
+      "fantasypros_id": 16757,
+      "ffa_candidates": [],
+      "name": "David Moore",
+      "position": "WR",
+      "reason": "unmatched",
+      "team": "CAR"
+    },
+    {
+      "fantasypros_id": 27829,
+      "ffa_candidates": [],
+      "name": "Gage Larvadain",
+      "position": "WR",
+      "reason": "unmatched",
+      "team": "CLE"
+    },
+    {
+      "fantasypros_id": 20116,
+      "ffa_candidates": [],
+      "name": "Ihmir Smith-Marsette",
+      "position": "WR",
+      "reason": "unmatched",
+      "team": "ARI"
+    },
+    {
+      "fantasypros_id": 25289,
+      "ffa_candidates": [],
+      "name": "Jacob Cowing",
+      "position": "WR",
+      "reason": "unmatched",
+      "team": "SF"
+    },
+    {
+      "fantasypros_id": 25468,
+      "ffa_candidates": [],
+      "name": "Jalen Brooks",
+      "position": "WR",
+      "reason": "unmatched",
+      "team": "ARI"
+    },
+    {
+      "fantasypros_id": 26423,
+      "ffa_candidates": [],
+      "name": "Jeshaun Jones",
+      "position": "WR",
+      "reason": "unmatched",
+      "team": "MIN"
+    },
+    {
+      "fantasypros_id": 28137,
+      "ffa_candidates": [],
+      "name": "Josh Cameron",
+      "position": "WR",
+      "reason": "unmatched",
+      "team": "JAC"
+    },
+    {
+      "fantasypros_id": 27724,
+      "ffa_candidates": [],
+      "name": "Ke'Shawn Williams",
+      "position": "WR",
+      "reason": "unmatched",
+      "team": "CIN"
+    },
+    {
+      "fantasypros_id": 27447,
+      "ffa_candidates": [],
+      "name": "LaJohntay Wester",
+      "position": "WR",
+      "reason": "unmatched",
+      "team": "BAL"
+    },
+    {
+      "fantasypros_id": 15495,
+      "ffa_candidates": [],
+      "name": "Laquon Treadwell",
+      "position": "WR",
+      "reason": "unmatched",
+      "team": "IND"
+    },
+    {
+      "fantasypros_id": 19704,
+      "ffa_candidates": [],
+      "name": "Mason Kinsey",
+      "position": "WR",
+      "reason": "unmatched",
+      "team": "TEN"
+    },
+    {
+      "fantasypros_id": 23531,
+      "ffa_candidates": [],
+      "name": "Michael Bandy",
+      "position": "WR",
+      "reason": "unmatched",
+      "team": "DEN"
+    },
+    {
+      "fantasypros_id": 27805,
+      "ffa_candidates": [],
+      "name": "Myles Price",
+      "position": "WR",
+      "reason": "unmatched",
+      "team": "MIN"
+    },
+    {
+      "fantasypros_id": 25772,
+      "ffa_candidates": [],
+      "name": "Nikko Remigio",
+      "position": "WR",
+      "reason": "unmatched",
+      "team": "KC"
+    },
+    {
+      "fantasypros_id": 23905,
+      "ffa_candidates": [],
+      "name": "Skyy Moore",
+      "position": "WR",
+      "reason": "unmatched",
+      "team": "GB"
+    }
+  ],
+  "metadata": {
+    "build_id": "20260829T044617Z",
+    "built_at": "2026-08-29T04:46:17.883978+00:00",
+    "deduplicated_ffa_source_rows": 2,
+    "enrichment_sources": [
+      "ffa"
+    ],
+    "exception_count": 106,
+    "inputs": {
+      "fantasypros": {
+        "path": "data/processed/fantasypros/2026/20260829T043354Z/projections.json",
+        "sha256": "44fa0727287693646a3409a06c4b19df81f2379ea0c68b4c861278e0c3a62ab8"
+      },
+      "fantasypros_adp": {
+        "path": "data/processed/fantasypros_adp/2026/20260829T043401Z/adp.json",
+        "sha256": "f0015fffafb8a2887ec71bf72561d688c12ade4fda5a3eee954a5deb45d98583"
+      },
+      "ffa": {
+        "path": "data/raw/ffa/2026/raw_stats_2026_wk0.csv",
+        "sha256": "a8f0cc0a887148e858b1a8ac20cf41d897bf70d2c591a0c103680dcc639cf984"
+      }
+    },
+    "match_methods": {
+      "exact_name_position": 3,
+      "exact_name_position_team": 460,
+      "exact_position_team": 32,
+      "unmatched": 106
+    },
+    "matched_ffa_count": 495,
+    "player_count": 601,
+    "primary_source": "fantasypros",
+    "schema_version": 1,
+    "season": 2026
+  }
+}

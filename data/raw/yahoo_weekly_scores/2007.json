@@ -1,0 +1,708 @@
+{
+  "season": 2007,
+  "regular_season_weeks": 14,
+  "league_url": "https://football.fantasysports.yahoo.com/2007/f1/193620",
+  "matchups": [
+    {
+      "score1": 49.56,
+      "score2": 98.58,
+      "season": 2007,
+      "team1": "Fuckin' Soldiers",
+      "team1_id": "2",
+      "team2": "Your Commissioner",
+      "team2_id": "1",
+      "week": 1
+    },
+    {
+      "score1": 97.62,
+      "score2": 112.54,
+      "season": 2007,
+      "team1": "CorbinTroyUltimatum",
+      "team1_id": "3",
+      "team2": "Ron Mexico Dog Pound",
+      "team2_id": "9",
+      "week": 1
+    },
+    {
+      "score1": 83.92,
+      "score2": 88.78,
+      "season": 2007,
+      "team1": "Bitter & Angry",
+      "team1_id": "4",
+      "team2": "New GM in Town",
+      "team2_id": "8",
+      "week": 1
+    },
+    {
+      "score1": 97.28,
+      "score2": 67.04,
+      "season": 2007,
+      "team1": "LB'sdangerousliasons",
+      "team1_id": "5",
+      "team2": "I Only Drink 2%",
+      "team2_id": "7",
+      "week": 1
+    },
+    {
+      "score1": 76.26,
+      "score2": 75.08,
+      "season": 2007,
+      "team1": "House M.D.",
+      "team1_id": "6",
+      "team2": "IwearUsedClothes",
+      "team2_id": "10",
+      "week": 1
+    },
+    {
+      "score1": 103.94,
+      "score2": 99.1,
+      "season": 2007,
+      "team1": "Fuckin' Soldiers",
+      "team1_id": "2",
+      "team2": "IwearUsedClothes",
+      "team2_id": "10",
+      "week": 2
+    },
+    {
+      "score1": 112.64,
+      "score2": 113.18,
+      "season": 2007,
+      "team1": "Your Commissioner",
+      "team1_id": "1",
+      "team2": "CorbinTroyUltimatum",
+      "team2_id": "3",
+      "week": 2
+    },
+    {
+      "score1": 89.86,
+      "score2": 115.84,
+      "season": 2007,
+      "team1": "Bitter & Angry",
+      "team1_id": "4",
+      "team2": "Ron Mexico Dog Pound",
+      "team2_id": "9",
+      "week": 2
+    },
+    {
+      "score1": 103.26,
+      "score2": 95.86,
+      "season": 2007,
+      "team1": "LB'sdangerousliasons",
+      "team1_id": "5",
+      "team2": "New GM in Town",
+      "team2_id": "8",
+      "week": 2
+    },
+    {
+      "score1": 100.8,
+      "score2": 81.7,
+      "season": 2007,
+      "team1": "House M.D.",
+      "team1_id": "6",
+      "team2": "I Only Drink 2%",
+      "team2_id": "7",
+      "week": 2
+    },
+    {
+      "score1": 75.58,
+      "score2": 135.62,
+      "season": 2007,
+      "team1": "Fuckin' Soldiers",
+      "team1_id": "2",
+      "team2": "CorbinTroyUltimatum",
+      "team2_id": "3",
+      "week": 3
+    },
+    {
+      "score1": 63.54,
+      "score2": 92.76,
+      "season": 2007,
+      "team1": "Your Commissioner",
+      "team1_id": "1",
+      "team2": "Bitter & Angry",
+      "team2_id": "4",
+      "week": 3
+    },
+    {
+      "score1": 92.04,
+      "score2": 124.54,
+      "season": 2007,
+      "team1": "LB'sdangerousliasons",
+      "team1_id": "5",
+      "team2": "Ron Mexico Dog Pound",
+      "team2_id": "9",
+      "week": 3
+    },
+    {
+      "score1": 86.94,
+      "score2": 59.48,
+      "season": 2007,
+      "team1": "House M.D.",
+      "team1_id": "6",
+      "team2": "New GM in Town",
+      "team2_id": "8",
+      "week": 3
+    },
+    {
+      "score1": 77.96,
+      "score2": 46.5,
+      "season": 2007,
+      "team1": "I Only Drink 2%",
+      "team1_id": "7",
+      "team2": "IwearUsedClothes",
+      "team2_id": "10",
+      "week": 3
+    },
+    {
+      "score1": 86.24,
+      "score2": 71.34,
+      "season": 2007,
+      "team1": "Fuckin' Soldiers",
+      "team1_id": "2",
+      "team2": "Bitter & Angry",
+      "team2_id": "4",
+      "week": 4
+    },
+    {
+      "score1": 83.16,
+      "score2": 66.04,
+      "season": 2007,
+      "team1": "Your Commissioner",
+      "team1_id": "1",
+      "team2": "LB'sdangerousliasons",
+      "team2_id": "5",
+      "week": 4
+    },
+    {
+      "score1": 89.02,
+      "score2": 48.42,
+      "season": 2007,
+      "team1": "CorbinTroyUltimatum",
+      "team1_id": "3",
+      "team2": "IwearUsedClothes",
+      "team2_id": "10",
+      "week": 4
+    },
+    {
+      "score1": 87.78,
+      "score2": 117.26,
+      "season": 2007,
+      "team1": "House M.D.",
+      "team1_id": "6",
+      "team2": "Ron Mexico Dog Pound",
+      "team2_id": "9",
+      "week": 4
+    },
+    {
+      "score1": 61.74,
+      "score2": 53.68,
+      "season": 2007,
+      "team1": "I Only Drink 2%",
+      "team1_id": "7",
+      "team2": "New GM in Town",
+      "team2_id": "8",
+      "week": 4
+    },
+    {
+      "score1": 82.38,
+      "score2": 93.3,
+      "season": 2007,
+      "team1": "Fuckin' Soldiers",
+      "team1_id": "2",
+      "team2": "LB'sdangerousliasons",
+      "team2_id": "5",
+      "week": 5
+    },
+    {
+      "score1": 94.94,
+      "score2": 70.94,
+      "season": 2007,
+      "team1": "Your Commissioner",
+      "team1_id": "1",
+      "team2": "House M.D.",
+      "team2_id": "6",
+      "week": 5
+    },
+    {
+      "score1": 48.02,
+      "score2": 60.98,
+      "season": 2007,
+      "team1": "CorbinTroyUltimatum",
+      "team1_id": "3",
+      "team2": "Bitter & Angry",
+      "team2_id": "4",
+      "week": 5
+    },
+    {
+      "score1": 89.6,
+      "score2": 106.76,
+      "season": 2007,
+      "team1": "I Only Drink 2%",
+      "team1_id": "7",
+      "team2": "Ron Mexico Dog Pound",
+      "team2_id": "9",
+      "week": 5
+    },
+    {
+      "score1": 66.36,
+      "score2": 44.84,
+      "season": 2007,
+      "team1": "New GM in Town",
+      "team1_id": "8",
+      "team2": "IwearUsedClothes",
+      "team2_id": "10",
+      "week": 5
+    },
+    {
+      "score1": 63.3,
+      "score2": 91.22,
+      "season": 2007,
+      "team1": "Fuckin' Soldiers",
+      "team1_id": "2",
+      "team2": "House M.D.",
+      "team2_id": "6",
+      "week": 6
+    },
+    {
+      "score1": 76.04,
+      "score2": 47.54,
+      "season": 2007,
+      "team1": "Your Commissioner",
+      "team1_id": "1",
+      "team2": "I Only Drink 2%",
+      "team2_id": "7",
+      "week": 6
+    },
+    {
+      "score1": 102.74,
+      "score2": 118.52,
+      "season": 2007,
+      "team1": "CorbinTroyUltimatum",
+      "team1_id": "3",
+      "team2": "LB'sdangerousliasons",
+      "team2_id": "5",
+      "week": 6
+    },
+    {
+      "score1": 85.74,
+      "score2": 85.78,
+      "season": 2007,
+      "team1": "Bitter & Angry",
+      "team1_id": "4",
+      "team2": "IwearUsedClothes",
+      "team2_id": "10",
+      "week": 6
+    },
+    {
+      "score1": 97.8,
+      "score2": 165.26,
+      "season": 2007,
+      "team1": "New GM in Town",
+      "team1_id": "8",
+      "team2": "Ron Mexico Dog Pound",
+      "team2_id": "9",
+      "week": 6
+    },
+    {
+      "score1": 111.24,
+      "score2": 125.48,
+      "season": 2007,
+      "team1": "Fuckin' Soldiers",
+      "team1_id": "2",
+      "team2": "I Only Drink 2%",
+      "team2_id": "7",
+      "week": 7
+    },
+    {
+      "score1": 106.3,
+      "score2": 93.14,
+      "season": 2007,
+      "team1": "Your Commissioner",
+      "team1_id": "1",
+      "team2": "New GM in Town",
+      "team2_id": "8",
+      "week": 7
+    },
+    {
+      "score1": 71.86,
+      "score2": 76.38,
+      "season": 2007,
+      "team1": "CorbinTroyUltimatum",
+      "team1_id": "3",
+      "team2": "House M.D.",
+      "team2_id": "6",
+      "week": 7
+    },
+    {
+      "score1": 72.66,
+      "score2": 91.26,
+      "season": 2007,
+      "team1": "Bitter & Angry",
+      "team1_id": "4",
+      "team2": "LB'sdangerousliasons",
+      "team2_id": "5",
+      "week": 7
+    },
+    {
+      "score1": 89.88,
+      "score2": 62.1,
+      "season": 2007,
+      "team1": "Ron Mexico Dog Pound",
+      "team1_id": "9",
+      "team2": "IwearUsedClothes",
+      "team2_id": "10",
+      "week": 7
+    },
+    {
+      "score1": 81.58,
+      "score2": 74.5,
+      "season": 2007,
+      "team1": "Fuckin' Soldiers",
+      "team1_id": "2",
+      "team2": "New GM in Town",
+      "team2_id": "8",
+      "week": 8
+    },
+    {
+      "score1": 66.9,
+      "score2": 115.62,
+      "season": 2007,
+      "team1": "Your Commissioner",
+      "team1_id": "1",
+      "team2": "Ron Mexico Dog Pound",
+      "team2_id": "9",
+      "week": 8
+    },
+    {
+      "score1": 106.2,
+      "score2": 76.22,
+      "season": 2007,
+      "team1": "CorbinTroyUltimatum",
+      "team1_id": "3",
+      "team2": "I Only Drink 2%",
+      "team2_id": "7",
+      "week": 8
+    },
+    {
+      "score1": 102.04,
+      "score2": 83.32,
+      "season": 2007,
+      "team1": "Bitter & Angry",
+      "team1_id": "4",
+      "team2": "House M.D.",
+      "team2_id": "6",
+      "week": 8
+    },
+    {
+      "score1": 102.34,
+      "score2": 55.56,
+      "season": 2007,
+      "team1": "LB'sdangerousliasons",
+      "team1_id": "5",
+      "team2": "IwearUsedClothes",
+      "team2_id": "10",
+      "week": 8
+    },
+    {
+      "score1": 116.34,
+      "score2": 128.46,
+      "season": 2007,
+      "team1": "Fuckin' Soldiers",
+      "team1_id": "2",
+      "team2": "Ron Mexico Dog Pound",
+      "team2_id": "9",
+      "week": 9
+    },
+    {
+      "score1": 117.06,
+      "score2": 75.42,
+      "season": 2007,
+      "team1": "Your Commissioner",
+      "team1_id": "1",
+      "team2": "IwearUsedClothes",
+      "team2_id": "10",
+      "week": 9
+    },
+    {
+      "score1": 99.4,
+      "score2": 99.56,
+      "season": 2007,
+      "team1": "CorbinTroyUltimatum",
+      "team1_id": "3",
+      "team2": "New GM in Town",
+      "team2_id": "8",
+      "week": 9
+    },
+    {
+      "score1": 111.6,
+      "score2": 57.88,
+      "season": 2007,
+      "team1": "Bitter & Angry",
+      "team1_id": "4",
+      "team2": "I Only Drink 2%",
+      "team2_id": "7",
+      "week": 9
+    },
+    {
+      "score1": 67.6,
+      "score2": 106.88,
+      "season": 2007,
+      "team1": "LB'sdangerousliasons",
+      "team1_id": "5",
+      "team2": "House M.D.",
+      "team2_id": "6",
+      "week": 9
+    },
+    {
+      "score1": 123.56,
+      "score2": 99.92,
+      "season": 2007,
+      "team1": "Fuckin' Soldiers",
+      "team1_id": "2",
+      "team2": "Your Commissioner",
+      "team2_id": "1",
+      "week": 10
+    },
+    {
+      "score1": 94.32,
+      "score2": 89.38,
+      "season": 2007,
+      "team1": "CorbinTroyUltimatum",
+      "team1_id": "3",
+      "team2": "Ron Mexico Dog Pound",
+      "team2_id": "9",
+      "week": 10
+    },
+    {
+      "score1": 112.68,
+      "score2": 93.04,
+      "season": 2007,
+      "team1": "Bitter & Angry",
+      "team1_id": "4",
+      "team2": "New GM in Town",
+      "team2_id": "8",
+      "week": 10
+    },
+    {
+      "score1": 73.14,
+      "score2": 71.68,
+      "season": 2007,
+      "team1": "LB'sdangerousliasons",
+      "team1_id": "5",
+      "team2": "I Only Drink 2%",
+      "team2_id": "7",
+      "week": 10
+    },
+    {
+      "score1": 77.74,
+      "score2": 54.12,
+      "season": 2007,
+      "team1": "House M.D.",
+      "team1_id": "6",
+      "team2": "IwearUsedClothes",
+      "team2_id": "10",
+      "week": 10
+    },
+    {
+      "score1": 76.86,
+      "score2": 101.62,
+      "season": 2007,
+      "team1": "Fuckin' Soldiers",
+      "team1_id": "2",
+      "team2": "IwearUsedClothes",
+      "team2_id": "10",
+      "week": 11
+    },
+    {
+      "score1": 99.2,
+      "score2": 86.52,
+      "season": 2007,
+      "team1": "Your Commissioner",
+      "team1_id": "1",
+      "team2": "CorbinTroyUltimatum",
+      "team2_id": "3",
+      "week": 11
+    },
+    {
+      "score1": 112.4,
+      "score2": 87.92,
+      "season": 2007,
+      "team1": "Bitter & Angry",
+      "team1_id": "4",
+      "team2": "Ron Mexico Dog Pound",
+      "team2_id": "9",
+      "week": 11
+    },
+    {
+      "score1": 126.92,
+      "score2": 75.66,
+      "season": 2007,
+      "team1": "LB'sdangerousliasons",
+      "team1_id": "5",
+      "team2": "New GM in Town",
+      "team2_id": "8",
+      "week": 11
+    },
+    {
+      "score1": 77.82,
+      "score2": 85.24,
+      "season": 2007,
+      "team1": "House M.D.",
+      "team1_id": "6",
+      "team2": "I Only Drink 2%",
+      "team2_id": "7",
+      "week": 11
+    },
+    {
+      "score1": 79.84,
+      "score2": 76.98,
+      "season": 2007,
+      "team1": "Fuckin' Soldiers",
+      "team1_id": "2",
+      "team2": "CorbinTroyUltimatum",
+      "team2_id": "3",
+      "week": 12
+    },
+    {
+      "score1": 89.8,
+      "score2": 103.1,
+      "season": 2007,
+      "team1": "Your Commissioner",
+      "team1_id": "1",
+      "team2": "Bitter & Angry",
+      "team2_id": "4",
+      "week": 12
+    },
+    {
+      "score1": 93.3,
+      "score2": 92.9,
+      "season": 2007,
+      "team1": "LB'sdangerousliasons",
+      "team1_id": "5",
+      "team2": "Ron Mexico Dog Pound",
+      "team2_id": "9",
+      "week": 12
+    },
+    {
+      "score1": 105.44,
+      "score2": 91.42,
+      "season": 2007,
+      "team1": "House M.D.",
+      "team1_id": "6",
+      "team2": "New GM in Town",
+      "team2_id": "8",
+      "week": 12
+    },
+    {
+      "score1": 106.26,
+      "score2": 66.84,
+      "season": 2007,
+      "team1": "I Only Drink 2%",
+      "team1_id": "7",
+      "team2": "IwearUsedClothes",
+      "team2_id": "10",
+      "week": 12
+    },
+    {
+      "score1": 113.12,
+      "score2": 92.16,
+      "season": 2007,
+      "team1": "Fuckin' Soldiers",
+      "team1_id": "2",
+      "team2": "Bitter & Angry",
+      "team2_id": "4",
+      "week": 13
+    },
+    {
+      "score1": 83.06,
+      "score2": 109.88,
+      "season": 2007,
+      "team1": "Your Commissioner",
+      "team1_id": "1",
+      "team2": "LB'sdangerousliasons",
+      "team2_id": "5",
+      "week": 13
+    },
+    {
+      "score1": 65.22,
+      "score2": 61.36,
+      "season": 2007,
+      "team1": "CorbinTroyUltimatum",
+      "team1_id": "3",
+      "team2": "IwearUsedClothes",
+      "team2_id": "10",
+      "week": 13
+    },
+    {
+      "score1": 84.94,
+      "score2": 129.26,
+      "season": 2007,
+      "team1": "House M.D.",
+      "team1_id": "6",
+      "team2": "Ron Mexico Dog Pound",
+      "team2_id": "9",
+      "week": 13
+    },
+    {
+      "score1": 78.46,
+      "score2": 71.12,
+      "season": 2007,
+      "team1": "I Only Drink 2%",
+      "team1_id": "7",
+      "team2": "New GM in Town",
+      "team2_id": "8",
+      "week": 13
+    },
+    {
+      "score1": 66.44,
+      "score2": 70.06,
+      "season": 2007,
+      "team1": "Fuckin' Soldiers",
+      "team1_id": "2",
+      "team2": "LB'sdangerousliasons",
+      "team2_id": "5",
+      "week": 14
+    },
+    {
+      "score1": 90.98,
+      "score2": 115.34,
+      "season": 2007,
+      "team1": "Your Commissioner",
+      "team1_id": "1",
+      "team2": "House M.D.",
+      "team2_id": "6",
+      "week": 14
+    },
+    {
+      "score1": 150.36,
+      "score2": 100.82,
+      "season": 2007,
+      "team1": "CorbinTroyUltimatum",
+      "team1_id": "3",
+      "team2": "Bitter & Angry",
+      "team2_id": "4",
+      "week": 14
+    },
+    {
+      "score1": 75.88,
+      "score2": 112.28,
+      "season": 2007,
+      "team1": "I Only Drink 2%",
+      "team1_id": "7",
+      "team2": "Ron Mexico Dog Pound",
+      "team2_id": "9",
+      "week": 14
+    },
+    {
+      "score1": 90.36,
+      "score2": 117.28,
+      "season": 2007,
+      "team1": "New GM in Town",
+      "team1_id": "8",
+      "team2": "IwearUsedClothes",
+      "team2_id": "10",
+      "week": 14
+    }
+  ],
+  "errors": []
+}

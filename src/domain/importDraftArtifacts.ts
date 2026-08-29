@@ -10,6 +10,10 @@ export const JUGG_SLOTS: SlotTemplate[] = [
   {slotType:"BN",count:5,eligiblePositions:["QB","RB","WR","TE","K","DEF"]},
 ];
 
+function isActiveOwnerProfile(profile:{owner?:unknown}):boolean {
+  return typeof profile.owner==="string"&&!/\(former owner\)\s*$/i.test(profile.owner);
+}
+
 function file(path:string){const bytes=readFileSync(path);return {bytes,payload:JSON.parse(bytes.toString("utf8")),sha256:createHash("sha256").update(bytes).digest("hex")};}
 
 export function initializeFromArtifacts(service:DraftService,input:{draftId:string;season:number;name:string;decisionBoardPath:string;ownerProfilesPath:string;espnSalaryCapPath?:string;teamNames?:Record<string,string>}):void {
@@ -18,7 +22,8 @@ export function initializeFromArtifacts(service:DraftService,input:{draftId:stri
   const espnValues=(espn?.payload.values??[]) as any[];
   const byeByPlayer=new Map(espnValues.map(row=>[row.internal_player_id,row.bye_week]));
   const byeByTeam=new Map(espnValues.filter(row=>row.nfl_team&&row.bye_week).map(row=>[row.nfl_team,row.bye_week]));
-  const teams:TeamInput[]=owners.payload.owners.map((profile:any,index:number)=>({id:`team:${index+1}`,ownerId:`owner:${profile.owner.toLowerCase().replace(/[^a-z0-9]+/g,"-")}`,ownerName:profile.owner,name:input.teamNames?.[profile.owner] ?? profile.owner}));
+  const activeOwnerProfiles=(owners.payload.owners as any[]).filter(isActiveOwnerProfile);
+  const teams:TeamInput[]=activeOwnerProfiles.map((profile:any,index:number)=>({id:`team:${index+1}`,ownerId:`owner:${profile.owner.toLowerCase().replace(/[^a-z0-9]+/g,"-")}`,ownerName:profile.owner,name:input.teamNames?.[profile.owner] ?? profile.owner}));
   const players:PlayerInput[]=board.payload.players.map((row:any)=>({id:row.internal_player_id,name:row.player_name,position:row.position,nflTeam:row.nfl_team,identityStatus:row.internal_player_id.startsWith("provisional:")?"provisional":"stable"}));
   service.initializeDraft({id:input.draftId,season:input.season,name:input.name,teams,players,slots:JUGG_SLOTS});
   service.db.transaction(()=>{

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "aliases": [
+    {"season": 2012, "source_team": "AllBusiness", "owner": "Brandon Martin"},
+    {"season": 2012, "source_team": "Andy Reid's Dead Son", "owner": "Phil Carr"},
+    {"season": 2012, "source_team": "BEAST MODE", "owner": "Nate Corbett"},
+    {"season": 2012, "source_team": "Choke'aBabin", "owner": "Joey Breeland"},
+    {"season": 2012, "source_team": "Discount DoubleCheck", "owner": "George Rodman"},
+    {"season": 2012, "source_team": "Hi I'm in Delaware", "owner": "Brad Beissner"},
+    {"season": 2012, "source_team": "Leliasonsdangereuses", "owner": "Lee Krassner"},
+    {"season": 2012, "source_team": "NoTacoMeatForU", "owner": "Jordan (former owner)"},
+    {"season": 2012, "source_team": "Sultans of Smash VII", "owner": "Robbie Bagwell"},
+    {"season": 2012, "source_team": "SwimFan Corbin Troy", "owner": "Julius Berotte"},
+
+    {"season": 2015, "source_team": "All Business", "owner": "Brandon Martin"},
+    {"season": 2015, "source_team": "Choke'aBabin", "owner": "Joey Breeland"},
+    {"season": 2015, "source_team": "Get In The Damn Van", "owner": "Brad Beissner"},
+    {"season": 2015, "source_team": "I Like Bortles", "owner": "Phil Carr"},
+    {"season": 2015, "source_team": "LwyrUp", "owner": "Nate Corbett"},
+    {"season": 2015, "source_team": "Poop Dick", "owner": "Jordan (former owner)"},
+    {"season": 2015, "source_team": "Sultans of Smash IX", "owner": "Robbie Bagwell"},
+    {"season": 2015, "source_team": "SwimFan Swim Good", "owner": "Julius Berotte"},
+    {"season": 2015, "source_team": "The Renegade Rising", "owner": "George Rodman"},
+    {"season": 2015, "source_team": "TheDangerousLiaisons", "owner": "Lee Krassner"},
+
+    {"season": 2019, "source_team": "ATX ALLBUSINESS", "owner": "Brandon Martin"},
+    {"season": 2019, "source_team": "CHAMP CHAMP", "owner": "Ken Moller"},
+    {"season": 2019, "source_team": "HEBREW NATIONAL BANK OF STATS", "owner": "Lee Krassner"},
+    {"season": 2019, "source_team": "JUGG LEAGUE HQ BAD BOY BABIN", "owner": "Joey Breeland"},
+    {"season": 2019, "source_team": "LA HOBOS", "owner": "Phil Carr"},
+    {"season": 2019, "source_team": "TEAM BEROTTE", "owner": "Julius Berotte"},
+    {"season": 2019, "source_team": "TEAM CORBETT", "owner": "Nate Corbett"},
+    {"season": 2019, "source_team": "TEAM SULTANSOFSMASH", "owner": "Robbie Bagwell"},
+    {"season": 2019, "source_team": "THE EX WIFE STABBERS", "owner": "Brad Beissner"},
+    {"season": 2019, "source_team": "WHITE CLAW PURE", "owner": "George Rodman"}
+  ]
+}

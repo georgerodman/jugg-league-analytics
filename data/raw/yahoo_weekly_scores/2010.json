@@ -1,0 +1,708 @@
+{
+  "season": 2010,
+  "regular_season_weeks": 14,
+  "league_url": "https://football.fantasysports.yahoo.com/2010/f1/94350",
+  "matchups": [
+    {
+      "score1": 95.4,
+      "score2": 94.62,
+      "season": 2010,
+      "team1": "SAM I am",
+      "team1_id": "10",
+      "team2": "Sultans of Smash V",
+      "team2_id": "7",
+      "week": 1
+    },
+    {
+      "score1": 94.32,
+      "score2": 49.34,
+      "season": 2010,
+      "team1": "NoTacoMeatForU",
+      "team1_id": "1",
+      "team2": "Intervention Corbin",
+      "team2_id": "5",
+      "week": 1
+    },
+    {
+      "score1": 90.18,
+      "score2": 69.08,
+      "season": 2010,
+      "team1": "Choke'aBabin",
+      "team1_id": "2",
+      "team2": "THEDANGERousliasons",
+      "team2_id": "6",
+      "week": 1
+    },
+    {
+      "score1": 88.76,
+      "score2": 77.52,
+      "season": 2010,
+      "team1": "The Kubs",
+      "team1_id": "3",
+      "team2": "Release The Poison",
+      "team2_id": "9",
+      "week": 1
+    },
+    {
+      "score1": 93.32,
+      "score2": 86.68,
+      "season": 2010,
+      "team1": "RobbieCantWinAgain",
+      "team1_id": "4",
+      "team2": "AllBusiness",
+      "team2_id": "8",
+      "week": 1
+    },
+    {
+      "score1": 112.46,
+      "score2": 61.66,
+      "season": 2010,
+      "team1": "SAM I am",
+      "team1_id": "10",
+      "team2": "Intervention Corbin",
+      "team2_id": "5",
+      "week": 2
+    },
+    {
+      "score1": 130,
+      "score2": 72.26,
+      "season": 2010,
+      "team1": "NoTacoMeatForU",
+      "team1_id": "1",
+      "team2": "AllBusiness",
+      "team2_id": "8",
+      "week": 2
+    },
+    {
+      "score1": 85.46,
+      "score2": 105.92,
+      "season": 2010,
+      "team1": "Choke'aBabin",
+      "team1_id": "2",
+      "team2": "Release The Poison",
+      "team2_id": "9",
+      "week": 2
+    },
+    {
+      "score1": 100.42,
+      "score2": 101,
+      "season": 2010,
+      "team1": "The Kubs",
+      "team1_id": "3",
+      "team2": "RobbieCantWinAgain",
+      "team2_id": "4",
+      "week": 2
+    },
+    {
+      "score1": 89.88,
+      "score2": 65.86,
+      "season": 2010,
+      "team1": "THEDANGERousliasons",
+      "team1_id": "6",
+      "team2": "Sultans of Smash V",
+      "team2_id": "7",
+      "week": 2
+    },
+    {
+      "score1": 110.94,
+      "score2": 99.54,
+      "season": 2010,
+      "team1": "SAM I am",
+      "team1_id": "10",
+      "team2": "THEDANGERousliasons",
+      "team2_id": "6",
+      "week": 3
+    },
+    {
+      "score1": 72.4,
+      "score2": 93.84,
+      "season": 2010,
+      "team1": "NoTacoMeatForU",
+      "team1_id": "1",
+      "team2": "RobbieCantWinAgain",
+      "team2_id": "4",
+      "week": 3
+    },
+    {
+      "score1": 108.96,
+      "score2": 102.66,
+      "season": 2010,
+      "team1": "Choke'aBabin",
+      "team1_id": "2",
+      "team2": "AllBusiness",
+      "team2_id": "8",
+      "week": 3
+    },
+    {
+      "score1": 86.4,
+      "score2": 65.94,
+      "season": 2010,
+      "team1": "The Kubs",
+      "team1_id": "3",
+      "team2": "Intervention Corbin",
+      "team2_id": "5",
+      "week": 3
+    },
+    {
+      "score1": 78.3,
+      "score2": 96.18,
+      "season": 2010,
+      "team1": "Sultans of Smash V",
+      "team1_id": "7",
+      "team2": "Release The Poison",
+      "team2_id": "9",
+      "week": 3
+    },
+    {
+      "score1": 71.56,
+      "score2": 98.72,
+      "season": 2010,
+      "team1": "SAM I am",
+      "team1_id": "10",
+      "team2": "The Kubs",
+      "team2_id": "3",
+      "week": 4
+    },
+    {
+      "score1": 80.48,
+      "score2": 59.7,
+      "season": 2010,
+      "team1": "NoTacoMeatForU",
+      "team1_id": "1",
+      "team2": "Choke'aBabin",
+      "team2_id": "2",
+      "week": 4
+    },
+    {
+      "score1": 91.34,
+      "score2": 134.54,
+      "season": 2010,
+      "team1": "RobbieCantWinAgain",
+      "team1_id": "4",
+      "team2": "Sultans of Smash V",
+      "team2_id": "7",
+      "week": 4
+    },
+    {
+      "score1": 56.8,
+      "score2": 52.4,
+      "season": 2010,
+      "team1": "Intervention Corbin",
+      "team1_id": "5",
+      "team2": "AllBusiness",
+      "team2_id": "8",
+      "week": 4
+    },
+    {
+      "score1": 81.68,
+      "score2": 73.02,
+      "season": 2010,
+      "team1": "THEDANGERousliasons",
+      "team1_id": "6",
+      "team2": "Release The Poison",
+      "team2_id": "9",
+      "week": 4
+    },
+    {
+      "score1": 47.3,
+      "score2": 89.58,
+      "season": 2010,
+      "team1": "SAM I am",
+      "team1_id": "10",
+      "team2": "Release The Poison",
+      "team2_id": "9",
+      "week": 5
+    },
+    {
+      "score1": 92.86,
+      "score2": 91.94,
+      "season": 2010,
+      "team1": "NoTacoMeatForU",
+      "team1_id": "1",
+      "team2": "Sultans of Smash V",
+      "team2_id": "7",
+      "week": 5
+    },
+    {
+      "score1": 123.66,
+      "score2": 74.78,
+      "season": 2010,
+      "team1": "Choke'aBabin",
+      "team1_id": "2",
+      "team2": "The Kubs",
+      "team2_id": "3",
+      "week": 5
+    },
+    {
+      "score1": 73.22,
+      "score2": 111.46,
+      "season": 2010,
+      "team1": "RobbieCantWinAgain",
+      "team1_id": "4",
+      "team2": "Intervention Corbin",
+      "team2_id": "5",
+      "week": 5
+    },
+    {
+      "score1": 87.84,
+      "score2": 136.24,
+      "season": 2010,
+      "team1": "THEDANGERousliasons",
+      "team1_id": "6",
+      "team2": "AllBusiness",
+      "team2_id": "8",
+      "week": 5
+    },
+    {
+      "score1": 101.54,
+      "score2": 75.28,
+      "season": 2010,
+      "team1": "SAM I am",
+      "team1_id": "10",
+      "team2": "The Kubs",
+      "team2_id": "3",
+      "week": 6
+    },
+    {
+      "score1": 78.08,
+      "score2": 89.4,
+      "season": 2010,
+      "team1": "NoTacoMeatForU",
+      "team1_id": "1",
+      "team2": "THEDANGERousliasons",
+      "team2_id": "6",
+      "week": 6
+    },
+    {
+      "score1": 76.82,
+      "score2": 84.3,
+      "season": 2010,
+      "team1": "Choke'aBabin",
+      "team1_id": "2",
+      "team2": "RobbieCantWinAgain",
+      "team2_id": "4",
+      "week": 6
+    },
+    {
+      "score1": 79.86,
+      "score2": 82.06,
+      "season": 2010,
+      "team1": "Intervention Corbin",
+      "team1_id": "5",
+      "team2": "Sultans of Smash V",
+      "team2_id": "7",
+      "week": 6
+    },
+    {
+      "score1": 102.3,
+      "score2": 70.88,
+      "season": 2010,
+      "team1": "AllBusiness",
+      "team1_id": "8",
+      "team2": "Release The Poison",
+      "team2_id": "9",
+      "week": 6
+    },
+    {
+      "score1": 92.94,
+      "score2": 75.06,
+      "season": 2010,
+      "team1": "SAM I am",
+      "team1_id": "10",
+      "team2": "Release The Poison",
+      "team2_id": "9",
+      "week": 7
+    },
+    {
+      "score1": 92.98,
+      "score2": 96.16,
+      "season": 2010,
+      "team1": "NoTacoMeatForU",
+      "team1_id": "1",
+      "team2": "AllBusiness",
+      "team2_id": "8",
+      "week": 7
+    },
+    {
+      "score1": 67.34,
+      "score2": 87.74,
+      "season": 2010,
+      "team1": "Choke'aBabin",
+      "team1_id": "2",
+      "team2": "Intervention Corbin",
+      "team2_id": "5",
+      "week": 7
+    },
+    {
+      "score1": 94.38,
+      "score2": 103.36,
+      "season": 2010,
+      "team1": "The Kubs",
+      "team1_id": "3",
+      "team2": "THEDANGERousliasons",
+      "team2_id": "6",
+      "week": 7
+    },
+    {
+      "score1": 109.3,
+      "score2": 91.94,
+      "season": 2010,
+      "team1": "RobbieCantWinAgain",
+      "team1_id": "4",
+      "team2": "Sultans of Smash V",
+      "team2_id": "7",
+      "week": 7
+    },
+    {
+      "score1": 84.22,
+      "score2": 86.6,
+      "season": 2010,
+      "team1": "SAM I am",
+      "team1_id": "10",
+      "team2": "Choke'aBabin",
+      "team2_id": "2",
+      "week": 8
+    },
+    {
+      "score1": 77.82,
+      "score2": 83.6,
+      "season": 2010,
+      "team1": "NoTacoMeatForU",
+      "team1_id": "1",
+      "team2": "Release The Poison",
+      "team2_id": "9",
+      "week": 8
+    },
+    {
+      "score1": 73.4,
+      "score2": 112.2,
+      "season": 2010,
+      "team1": "The Kubs",
+      "team1_id": "3",
+      "team2": "Sultans of Smash V",
+      "team2_id": "7",
+      "week": 8
+    },
+    {
+      "score1": 74.2,
+      "score2": 35.34,
+      "season": 2010,
+      "team1": "RobbieCantWinAgain",
+      "team1_id": "4",
+      "team2": "THEDANGERousliasons",
+      "team2_id": "6",
+      "week": 8
+    },
+    {
+      "score1": 104.16,
+      "score2": 77.32,
+      "season": 2010,
+      "team1": "Intervention Corbin",
+      "team1_id": "5",
+      "team2": "AllBusiness",
+      "team2_id": "8",
+      "week": 8
+    },
+    {
+      "score1": 110.72,
+      "score2": 54.56,
+      "season": 2010,
+      "team1": "SAM I am",
+      "team1_id": "10",
+      "team2": "NoTacoMeatForU",
+      "team2_id": "1",
+      "week": 9
+    },
+    {
+      "score1": 81.72,
+      "score2": 115.8,
+      "season": 2010,
+      "team1": "Choke'aBabin",
+      "team1_id": "2",
+      "team2": "Sultans of Smash V",
+      "team2_id": "7",
+      "week": 9
+    },
+    {
+      "score1": 133.72,
+      "score2": 73.9,
+      "season": 2010,
+      "team1": "The Kubs",
+      "team1_id": "3",
+      "team2": "AllBusiness",
+      "team2_id": "8",
+      "week": 9
+    },
+    {
+      "score1": 89.66,
+      "score2": 105.36,
+      "season": 2010,
+      "team1": "RobbieCantWinAgain",
+      "team1_id": "4",
+      "team2": "Release The Poison",
+      "team2_id": "9",
+      "week": 9
+    },
+    {
+      "score1": 103.64,
+      "score2": 42.38,
+      "season": 2010,
+      "team1": "Intervention Corbin",
+      "team1_id": "5",
+      "team2": "THEDANGERousliasons",
+      "team2_id": "6",
+      "week": 9
+    },
+    {
+      "score1": 111.92,
+      "score2": 75.66,
+      "season": 2010,
+      "team1": "SAM I am",
+      "team1_id": "10",
+      "team2": "THEDANGERousliasons",
+      "team2_id": "6",
+      "week": 10
+    },
+    {
+      "score1": 91.5,
+      "score2": 100.38,
+      "season": 2010,
+      "team1": "NoTacoMeatForU",
+      "team1_id": "1",
+      "team2": "RobbieCantWinAgain",
+      "team2_id": "4",
+      "week": 10
+    },
+    {
+      "score1": 96.28,
+      "score2": 129.52,
+      "season": 2010,
+      "team1": "Choke'aBabin",
+      "team1_id": "2",
+      "team2": "AllBusiness",
+      "team2_id": "8",
+      "week": 10
+    },
+    {
+      "score1": 79.84,
+      "score2": 114.44,
+      "season": 2010,
+      "team1": "The Kubs",
+      "team1_id": "3",
+      "team2": "Intervention Corbin",
+      "team2_id": "5",
+      "week": 10
+    },
+    {
+      "score1": 78.78,
+      "score2": 83.94,
+      "season": 2010,
+      "team1": "Sultans of Smash V",
+      "team1_id": "7",
+      "team2": "Release The Poison",
+      "team2_id": "9",
+      "week": 10
+    },
+    {
+      "score1": 93.72,
+      "score2": 76.38,
+      "season": 2010,
+      "team1": "SAM I am",
+      "team1_id": "10",
+      "team2": "AllBusiness",
+      "team2_id": "8",
+      "week": 11
+    },
+    {
+      "score1": 87.04,
+      "score2": 71.44,
+      "season": 2010,
+      "team1": "NoTacoMeatForU",
+      "team1_id": "1",
+      "team2": "The Kubs",
+      "team2_id": "3",
+      "week": 11
+    },
+    {
+      "score1": 88.78,
+      "score2": 79.02,
+      "season": 2010,
+      "team1": "Choke'aBabin",
+      "team1_id": "2",
+      "team2": "THEDANGERousliasons",
+      "team2_id": "6",
+      "week": 11
+    },
+    {
+      "score1": 102.94,
+      "score2": 135.68,
+      "season": 2010,
+      "team1": "RobbieCantWinAgain",
+      "team1_id": "4",
+      "team2": "Release The Poison",
+      "team2_id": "9",
+      "week": 11
+    },
+    {
+      "score1": 93.78,
+      "score2": 111.02,
+      "season": 2010,
+      "team1": "Intervention Corbin",
+      "team1_id": "5",
+      "team2": "Sultans of Smash V",
+      "team2_id": "7",
+      "week": 11
+    },
+    {
+      "score1": 67.12,
+      "score2": 84,
+      "season": 2010,
+      "team1": "SAM I am",
+      "team1_id": "10",
+      "team2": "NoTacoMeatForU",
+      "team2_id": "1",
+      "week": 12
+    },
+    {
+      "score1": 75.98,
+      "score2": 104.34,
+      "season": 2010,
+      "team1": "Choke'aBabin",
+      "team1_id": "2",
+      "team2": "Release The Poison",
+      "team2_id": "9",
+      "week": 12
+    },
+    {
+      "score1": 86.24,
+      "score2": 91.6,
+      "season": 2010,
+      "team1": "The Kubs",
+      "team1_id": "3",
+      "team2": "Sultans of Smash V",
+      "team2_id": "7",
+      "week": 12
+    },
+    {
+      "score1": 111.86,
+      "score2": 127.68,
+      "season": 2010,
+      "team1": "RobbieCantWinAgain",
+      "team1_id": "4",
+      "team2": "Intervention Corbin",
+      "team2_id": "5",
+      "week": 12
+    },
+    {
+      "score1": 79.68,
+      "score2": 57.74,
+      "season": 2010,
+      "team1": "THEDANGERousliasons",
+      "team1_id": "6",
+      "team2": "AllBusiness",
+      "team2_id": "8",
+      "week": 12
+    },
+    {
+      "score1": 126.38,
+      "score2": 97.32,
+      "season": 2010,
+      "team1": "SAM I am",
+      "team1_id": "10",
+      "team2": "RobbieCantWinAgain",
+      "team2_id": "4",
+      "week": 13
+    },
+    {
+      "score1": 79.8,
+      "score2": 70.18,
+      "season": 2010,
+      "team1": "NoTacoMeatForU",
+      "team1_id": "1",
+      "team2": "Intervention Corbin",
+      "team2_id": "5",
+      "week": 13
+    },
+    {
+      "score1": 92.52,
+      "score2": 75.44,
+      "season": 2010,
+      "team1": "Choke'aBabin",
+      "team1_id": "2",
+      "team2": "The Kubs",
+      "team2_id": "3",
+      "week": 13
+    },
+    {
+      "score1": 78.5,
+      "score2": 85.04,
+      "season": 2010,
+      "team1": "THEDANGERousliasons",
+      "team1_id": "6",
+      "team2": "Release The Poison",
+      "team2_id": "9",
+      "week": 13
+    },
+    {
+      "score1": 67.8,
+      "score2": 100.78,
+      "season": 2010,
+      "team1": "Sultans of Smash V",
+      "team1_id": "7",
+      "team2": "AllBusiness",
+      "team2_id": "8",
+      "week": 13
+    },
+    {
+      "score1": 70.6,
+      "score2": 83.28,
+      "season": 2010,
+      "team1": "SAM I am",
+      "team1_id": "10",
+      "team2": "AllBusiness",
+      "team2_id": "8",
+      "week": 14
+    },
+    {
+      "score1": 95.36,
+      "score2": 69.54,
+      "season": 2010,
+      "team1": "NoTacoMeatForU",
+      "team1_id": "1",
+      "team2": "Choke'aBabin",
+      "team2_id": "2",
+      "week": 14
+    },
+    {
+      "score1": 115.82,
+      "score2": 64.04,
+      "season": 2010,
+      "team1": "The Kubs",
+      "team1_id": "3",
+      "team2": "RobbieCantWinAgain",
+      "team2_id": "4",
+      "week": 14
+    },
+    {
+      "score1": 86.9,
+      "score2": 74.46,
+      "season": 2010,
+      "team1": "Intervention Corbin",
+      "team1_id": "5",
+      "team2": "Release The Poison",
+      "team2_id": "9",
+      "week": 14
+    },
+    {
+      "score1": 66.18,
+      "score2": 66.44,
+      "season": 2010,
+      "team1": "THEDANGERousliasons",
+      "team1_id": "6",
+      "team2": "Sultans of Smash V",
+      "team2_id": "7",
+      "week": 14
+    }
+  ],
+  "errors": []
+}

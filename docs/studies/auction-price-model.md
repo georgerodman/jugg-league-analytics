@@ -10,7 +10,7 @@ model must remain visibly distinct and retain their provenance.
 
 ## Baseline dataset
 
-The first benchmark covers the 2020–2025 drafts. Its player-season universe is
+The feature-complete benchmark covers the 2020–2025 drafts. Its player-season universe is
 the union of ESPN's ranked salary-cap pool and every player actually drafted by
 JUGG. This preserves undrafted observations and the 20 JUGG sales that were not
 present in ESPN's pool.
@@ -67,8 +67,8 @@ Regularized regression and distance-weighted nearest-neighbor models compete.
 
 | Model/input set | MAE | RMSE |
 | --- | ---: | ---: |
-| Regularized regression: all inputs | **$3.152** | **$4.613** |
-| Regression: all except prior JUGG price | $3.204 | $4.659 |
+| Regression: all except prior JUGG price | **$3.204** | **$4.659** |
+| Regularized regression: all inputs | $3.215 | $4.697 |
 | Regression: all except projections | $3.285 | $4.798 |
 | Regression: ESPN auction value + both ADPs | $3.303 | $4.784 |
 | Regression: all except ESPN auction value | $3.318 | $4.714 |
@@ -78,11 +78,12 @@ Regularized regression and distance-weighted nearest-neighbor models compete.
 | Regression: ESPN ADP only | $3.641 | $5.241 |
 | Regression: ESPN auction value only | $3.871 | $5.688 |
 
-The full regularized model ranks first overall and wins four of five individual
-test seasons. The model without ESPN auction value wins 2022. Removing ADP
-causes the largest tested deterioration (+$0.339 MAE), followed by removing
-ESPN auction value (+$0.166), projections (+$0.133), and prior JUGG price
-(+$0.052). Yahoo ADP is the strongest single-provider input in this comparison.
+After adding the reviewed 2012, 2015, and 2019 prices as eligible prior-price
+evidence, the regularized model **without** prior JUGG price ranks first. The
+full model is $0.011 worse in forward-test MAE. The accepted legacy results are
+therefore retained and tested, but the current production price fit does not
+force them in after forward testing shows no gain. Yahoo ADP remains the
+strongest single-provider input in this comparison.
 
 This evidence does **not** support treating ESPN auction value as the model's
 primary anchor. It supports using ESPN as one useful complementary input in the
@@ -92,7 +93,7 @@ modeling problem.
 
 ## 2026 conditional sale-price scores
 
-The selected full regularized model is retrained on all 840 sales from
+The selected regularized model without prior price is retrained on all 840 feature-complete sales from
 2020–2025 and applied to the 2026 player pool. Scoring is limited to players
 with a 2026 ESPN Salary Cap Value or Yahoo ADP because deeper canonical players
 fall outside the supported historical sale-price population. The resulting 294
@@ -117,12 +118,12 @@ draft-probability models.
 
 | Calibration | Overall MAE | Bias | $50+ MAE | $50+ bias | $60+ MAE | $60+ bias |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
-| Probability-weighted proportional | $3.138 | +$0.389 | **$4.390** | **-$0.670** | $3.461 | **-$0.196** |
-| Probability-weighted additive | $3.179 | +$0.382 | $4.463 | -$1.475 | **$3.402** | -$1.011 |
-| Premium-preserving top-140 | **$2.985** | -$0.648 | $4.537 | -$1.714 | $3.418 | -$1.223 |
-| Raw, no economy constraint | $3.127 | +$0.152 | $4.537 | -$1.714 | $3.418 | -$1.223 |
-| Additive top-140 | $3.042 | -$0.716 | $4.998 | -$2.820 | $3.850 | -$2.407 |
-| Former proportional top-140 | $3.290 | -$0.855 | $6.885 | -$6.032 | $6.801 | -$6.262 |
+| Probability-weighted proportional | $3.212 | +$0.402 | **$4.551** | **-$1.106** | **$3.545** | **-$0.644** |
+| Probability-weighted additive | $3.247 | +$0.397 | $4.666 | -$1.699 | $3.627 | -$1.248 |
+| Premium-preserving top-140 | **$3.034** | -$0.572 | $4.733 | -$1.877 | $3.670 | -$1.405 |
+| Raw, no economy constraint | $3.200 | +$0.224 | $4.733 | -$1.877 | $3.670 | -$1.405 |
+| Additive top-140 | $3.092 | -$0.639 | $5.156 | -$2.961 | $4.046 | -$2.583 |
+| Former proportional top-140 | $3.358 | -$0.777 | $7.179 | -$6.116 | $7.183 | -$6.427 |
 
 The probability-weighted proportional method is the production winner. Its
 overall MAE is within one cent of the unconstrained raw model, it has the best
@@ -149,9 +150,9 @@ neighbors with time-aware tuning.
 
 The selected full regularized model has:
 
-- Brier score: 0.0776 (lower is better);
-- ROC AUC: 0.9594;
-- log loss: 0.3254; and
+- Brier score: 0.0772 (lower is better);
+- ROC AUC: 0.9603;
+- log loss: 0.3143; and
 - 123–127 correct players among each season's top 140 predictions, or
   87.9%–90.7% precision.
 

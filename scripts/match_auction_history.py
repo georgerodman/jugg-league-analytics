@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import hashlib
 import json
 import sys
 from collections import Counter
@@ -24,6 +25,11 @@ def run(root: Path) -> Path:
     with (root / "data" / "raw" / "auction_history.csv").open(encoding="utf-8-sig", newline="") as handle:
         sales = list(csv.DictReader(handle))
     alias_payload = json.loads((root / "config" / "player_aliases.json").read_text())
+    owner_alias_payload = json.loads((root / "config" / "owner_aliases.json").read_text())
+    owner_aliases = {
+        (int(entry["season"]), entry["source_team"].strip().casefold()): entry["owner"]
+        for entry in owner_alias_payload.get("aliases", [])
+    }
     aliases = {}
     for entry in alias_payload.get("aliases", []):
         if entry.get("source") != "auction_history":
@@ -32,7 +38,12 @@ def run(root: Path) -> Path:
             aliases[(season, normalize_name(entry["source_name"]), normalize_position(entry["position"]))] = normalize_name(entry["fantasypros_name"])
     indexes = {}
     global_by_name_pos = {}
-    for season in sorted({int(row["Season"]) for row in sales}):
+    canonical_seasons = sorted(
+        int(path.parent.name)
+        for path in (root / "data" / "processed" / "canonical_projections").glob("*/latest.json")
+        if path.parent.name.isdigit()
+    )
+    for season in canonical_seasons:
         canonical = load_canonical(root, season)
         by_name_pos = {}
         by_name_pos_team = {}
@@ -50,7 +61,7 @@ def run(root: Path) -> Path:
         position = normalize_position(sale["Pos"])
         source_name = normalize_name(sale["Player"])
         key = (aliases.get((season, source_name, position), source_name), position)
-        by_name_pos, by_name_pos_team = indexes[season]
+        by_name_pos, by_name_pos_team = indexes.get(season, ({}, {}))
         team_candidates = by_name_pos_team.get((*key, normalize_team(sale.get("Team"))), [])
         name_candidates = by_name_pos.get(key, [])
         if len(team_candidates) == 1:
@@ -64,13 +75,21 @@ def run(root: Path) -> Path:
             match, method, confidence = None, "ambiguous_name_position", 0.0
         else:
             match, method, confidence = None, "unmatched", 0.0
+        if match is None and season < min(canonical_seasons):
+            digest = hashlib.sha256(f"{season}|{key[0]}|{position}".encode()).hexdigest()[:16]
+            provisional_id = f"auction_history:yahoo:{digest}"
+            method, confidence = "legacy_provisional", 0.0
+        else:
+            provisional_id = None
         methods[method] += 1
         output.append({
-            "source_row": source_row, "season": season, "owner": sale["FF Team"],
+            "source_row": source_row, "season": season,
+            "owner": owner_aliases.get((season, sale["FF Team"].strip().casefold()), sale["FF Team"]),
+            "source_team": sale["FF Team"],
             "player_name": sale["Player"], "position": position, "nfl_team": normalize_team(sale.get("Team")),
             "salary": int(sale["Salary"].replace("$", "")), "match_method": method,
             "match_confidence": confidence,
-            "internal_player_id": match["internal_player_id"] if match else None,
+            "internal_player_id": match["internal_player_id"] if match else provisional_id,
             "fantasypros_id": match["source_ids"]["fantasypros"] if match else None,
             "candidates": [candidate["internal_player_id"] for candidate in name_candidates] if not match else [],
         })

@@ -31,7 +31,7 @@ class FantasyProsProjectionTests(unittest.TestCase):
 
     def test_defense_includes_points_allowed_buckets_and_return_tds(self):
         stats = {"def_sack": 40, "def_pa_a": 1, "def_pa_g": 2, "def_retd": 1}
-        self.assertEqual(score_player("DEF", stats, LEAGUE), 46.0)
+        self.assertEqual(score_player("DEF", stats, LEAGUE), 48.0)
 
     def test_accepts_single_element_stats_array(self):
         source = {"fpid": 123, "name": "Example Player", "position_id": "RB", "team_id": "EX",

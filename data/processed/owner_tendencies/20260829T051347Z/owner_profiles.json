@@ -1,0 +1,2653 @@
+{
+  "metadata": {
+    "build_id": "20260829T051347Z",
+    "built_at": "2026-08-29T05:13:47.924433+00:00",
+    "excluded_unmapped_legacy_sales": 0,
+    "owner_count": 11,
+    "schema_version": 1,
+    "seasons": [
+      2012,
+      2015,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "source": "data/processed/auction_history_matches/20260829T051249Z/auction_history_matches.json",
+    "timing_features_available": false
+  },
+  "owners": [
+    {
+      "construction_style": "mixed",
+      "evidence_strength": "high",
+      "limitations": [
+        "No nomination order or purchase timing is available.",
+        "Preferences are probabilistic historical context, not intent."
+      ],
+      "market_behavior": {
+        "average_residual_by_position": {
+          "DEF": 2.0,
+          "K": 2.5,
+          "QB": 1.9,
+          "RB": 1.35,
+          "TE": 0.5,
+          "WR": -6.06
+        },
+        "average_salary_minus_espn": -1.64,
+        "covered_purchases": 83,
+        "five_plus_overpay_rate": 0.1325,
+        "five_plus_underpay_rate": 0.3012
+      },
+      "nfl_team_preferences": [
+        {
+          "nfl_team": "CHI",
+          "players": 5,
+          "shrunk_lift": 1.44
+        },
+        {
+          "nfl_team": "SF",
+          "players": 8,
+          "shrunk_lift": 1.38
+        },
+        {
+          "nfl_team": "WAS",
+          "players": 5,
+          "shrunk_lift": 1.28
+        }
+      ],
+      "owner": "Brad Beissner",
+      "positions": {
+        "DEF": {
+          "direction_consistency": 0.6667,
+          "league_players_per_draft": 1.01,
+          "league_spend_share": 0.0098,
+          "players_per_draft": 1.0,
+          "signal": "neutral",
+          "spend_per_draft": 2.67,
+          "spend_share": 0.0133,
+          "spend_share_deviation": 0.0035
+        },
+        "K": {
+          "direction_consistency": 0.7778,
+          "league_players_per_draft": 1.0,
+          "league_spend_share": 0.0099,
+          "players_per_draft": 1.0,
+          "signal": "neutral",
+          "spend_per_draft": 3.56,
+          "spend_share": 0.0178,
+          "spend_share_deviation": 0.0079
+        },
+        "QB": {
+          "direction_consistency": 0.7778,
+          "league_players_per_draft": 1.62,
+          "league_spend_share": 0.0996,
+          "players_per_draft": 1.89,
+          "signal": "underweights",
+          "spend_per_draft": 11.67,
+          "spend_share": 0.0583,
+          "spend_share_deviation": -0.0413
+        },
+        "RB": {
+          "direction_consistency": 0.5556,
+          "league_players_per_draft": 4.54,
+          "league_spend_share": 0.4477,
+          "players_per_draft": 3.78,
+          "signal": "neutral",
+          "spend_per_draft": 84.56,
+          "spend_share": 0.4228,
+          "spend_share_deviation": -0.025
+        },
+        "TE": {
+          "direction_consistency": 0.8889,
+          "league_players_per_draft": 1.14,
+          "league_spend_share": 0.0723,
+          "players_per_draft": 1.0,
+          "signal": "neutral",
+          "spend_per_draft": 8.78,
+          "spend_share": 0.0439,
+          "spend_share_deviation": -0.0284
+        },
+        "WR": {
+          "direction_consistency": 0.6667,
+          "league_players_per_draft": 4.68,
+          "league_spend_share": 0.3607,
+          "players_per_draft": 5.33,
+          "signal": "overweights",
+          "spend_per_draft": 88.78,
+          "spend_share": 0.4439,
+          "spend_share_deviation": 0.0832
+        }
+      },
+      "purchases": 126,
+      "repeat_player_count": 19,
+      "repeat_players": [
+        {
+          "internal_player_id": "nfl:gsis:00-0035676",
+          "player_name": "A.J. Brown",
+          "seasons": [
+            2022,
+            2023,
+            2025
+          ],
+          "times_drafted": 3
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0033293",
+          "player_name": "Aaron Jones",
+          "seasons": [
+            2020,
+            2022
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0031544",
+          "player_name": "Amari Cooper",
+          "seasons": [
+            2019,
+            2020
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0033699",
+          "player_name": "Austin Ekeler",
+          "seasons": [
+            2021,
+            2023
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:def:BUF",
+          "player_name": "Buffalo Bills",
+          "seasons": [
+            2022,
+            2025
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0034827",
+          "player_name": "DJ Moore",
+          "seasons": [
+            2021,
+            2022
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0035719",
+          "player_name": "Deebo Samuel Sr.",
+          "seasons": [
+            2023,
+            2024
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0036158",
+          "player_name": "J.K. Dobbins",
+          "seasons": [
+            2021,
+            2025
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0031376",
+          "player_name": "Jerick McKinnon",
+          "seasons": [
+            2015,
+            2023
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0033897",
+          "player_name": "Joe Mixon",
+          "seasons": [
+            2019,
+            2024
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0029597",
+          "player_name": "Justin Tucker",
+          "seasons": [
+            2021,
+            2024
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0030279",
+          "player_name": "Keenan Allen",
+          "seasons": [
+            2023,
+            2024
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0026498",
+          "player_name": "Matthew Stafford",
+          "seasons": [
+            2012,
+            2021
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0035243",
+          "player_name": "Miles Sanders",
+          "seasons": [
+            2021,
+            2022
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0022942",
+          "player_name": "Philip Rivers",
+          "seasons": [
+            2015,
+            2019
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0031588",
+          "player_name": "Stefon Diggs",
+          "seasons": [
+            2022,
+            2024
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0036410",
+          "player_name": "Tee Higgins",
+          "seasons": [
+            2023,
+            2024
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0036162",
+          "player_name": "Tyler Bass",
+          "seasons": [
+            2023,
+            2025
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0030061",
+          "player_name": "Zach Ertz",
+          "seasons": [
+            2020,
+            2023
+          ],
+          "times_drafted": 2
+        }
+      ],
+      "season_list": [
+        2012,
+        2015,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "seasons": 9,
+      "spending": {
+        "average_30_plus_players": 2.44,
+        "average_max_bid": 52.89,
+        "average_one_dollar_players": 2.0,
+        "average_top_three_spend_share": 0.6294,
+        "average_total": 200.0,
+        "average_unused_budget": 0.0
+      }
+    },
+    {
+      "construction_style": "stars_and_scrubs",
+      "evidence_strength": "high",
+      "limitations": [
+        "No nomination order or purchase timing is available.",
+        "Preferences are probabilistic historical context, not intent."
+      ],
+      "market_behavior": {
+        "average_residual_by_position": {
+          "DEF": 0.33,
+          "K": 0.33,
+          "QB": 1.55,
+          "RB": 1.92,
+          "TE": 1.44,
+          "WR": -4.56
+        },
+        "average_salary_minus_espn": -0.36,
+        "covered_purchases": 83,
+        "five_plus_overpay_rate": 0.1325,
+        "five_plus_underpay_rate": 0.1325
+      },
+      "nfl_team_preferences": [],
+      "owner": "Brandon Martin",
+      "positions": {
+        "DEF": {
+          "direction_consistency": 0.8889,
+          "league_players_per_draft": 1.01,
+          "league_spend_share": 0.0098,
+          "players_per_draft": 1.11,
+          "signal": "neutral",
+          "spend_per_draft": 1.11,
+          "spend_share": 0.0056,
+          "spend_share_deviation": -0.0043
+        },
+        "K": {
+          "direction_consistency": 0.8889,
+          "league_players_per_draft": 1.0,
+          "league_spend_share": 0.0099,
+          "players_per_draft": 1.0,
+          "signal": "neutral",
+          "spend_per_draft": 1.22,
+          "spend_share": 0.0061,
+          "spend_share_deviation": -0.0038
+        },
+        "QB": {
+          "direction_consistency": 0.4444,
+          "league_players_per_draft": 1.62,
+          "league_spend_share": 0.0996,
+          "players_per_draft": 2.0,
+          "signal": "neutral",
+          "spend_per_draft": 22.11,
+          "spend_share": 0.1106,
+          "spend_share_deviation": 0.0109
+        },
+        "RB": {
+          "direction_consistency": 0.4444,
+          "league_players_per_draft": 4.54,
+          "league_spend_share": 0.4477,
+          "players_per_draft": 4.56,
+          "signal": "neutral",
+          "spend_per_draft": 85.67,
+          "spend_share": 0.4283,
+          "spend_share_deviation": -0.0194
+        },
+        "TE": {
+          "direction_consistency": 0.6667,
+          "league_players_per_draft": 1.14,
+          "league_spend_share": 0.0723,
+          "players_per_draft": 1.33,
+          "signal": "neutral",
+          "spend_per_draft": 13.67,
+          "spend_share": 0.0683,
+          "spend_share_deviation": -0.0039
+        },
+        "WR": {
+          "direction_consistency": 0.4444,
+          "league_players_per_draft": 4.68,
+          "league_spend_share": 0.3607,
+          "players_per_draft": 4.0,
+          "signal": "neutral",
+          "spend_per_draft": 76.22,
+          "spend_share": 0.3811,
+          "spend_share_deviation": 0.0204
+        }
+      },
+      "purchases": 126,
+      "repeat_player_count": 14,
+      "repeat_players": [
+        {
+          "internal_player_id": "nfl:gsis:00-0032144",
+          "player_name": "Melvin Gordon",
+          "seasons": [
+            2019,
+            2021,
+            2022
+          ],
+          "times_drafted": 3
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0033873",
+          "player_name": "Patrick Mahomes",
+          "seasons": [
+            2019,
+            2023,
+            2025
+          ],
+          "times_drafted": 3
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0036358",
+          "player_name": "CeeDee Lamb",
+          "seasons": [
+            2023,
+            2024
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0031381",
+          "player_name": "Davante Adams",
+          "seasons": [
+            2020,
+            2025
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0032187",
+          "player_name": "David Johnson",
+          "seasons": [
+            2020,
+            2021
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0032764",
+          "player_name": "Derrick Henry",
+          "seasons": [
+            2021,
+            2022
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0036223",
+          "player_name": "Jonathan Taylor",
+          "seasons": [
+            2022,
+            2023
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0034857",
+          "player_name": "Josh Allen",
+          "seasons": [
+            2020,
+            2024
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0027944",
+          "player_name": "Julio Jones",
+          "seasons": [
+            2012,
+            2020
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0026143",
+          "player_name": "Matt Ryan",
+          "seasons": [
+            2012,
+            2015
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0024333",
+          "player_name": "Stephen Gostkowski",
+          "seasons": [
+            2012,
+            2015
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0030506",
+          "player_name": "Travis Kelce",
+          "seasons": [
+            2015,
+            2024
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0037742",
+          "player_name": "Treylon Burks",
+          "seasons": [
+            2022,
+            2023
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0033040",
+          "player_name": "Tyreek Hill",
+          "seasons": [
+            2019,
+            2021
+          ],
+          "times_drafted": 2
+        }
+      ],
+      "season_list": [
+        2012,
+        2015,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "seasons": 9,
+      "spending": {
+        "average_30_plus_players": 2.89,
+        "average_max_bid": 55.33,
+        "average_one_dollar_players": 5.33,
+        "average_top_three_spend_share": 0.6744,
+        "average_total": 200.0,
+        "average_unused_budget": 0.0
+      }
+    },
+    {
+      "construction_style": "stars_and_scrubs",
+      "evidence_strength": "high",
+      "limitations": [
+        "No nomination order or purchase timing is available.",
+        "Preferences are probabilistic historical context, not intent."
+      ],
+      "market_behavior": {
+        "average_residual_by_position": {
+          "DEF": 0.33,
+          "K": 0.6,
+          "QB": 2.75,
+          "RB": 2.55,
+          "TE": 4.12,
+          "WR": -2.28
+        },
+        "average_salary_minus_espn": 1.01,
+        "covered_purchases": 80,
+        "five_plus_overpay_rate": 0.225,
+        "five_plus_underpay_rate": 0.1375
+      },
+      "nfl_team_preferences": [
+        {
+          "nfl_team": "LAC",
+          "players": 5,
+          "shrunk_lift": 1.44
+        },
+        {
+          "nfl_team": "TEN",
+          "players": 5,
+          "shrunk_lift": 1.33
+        }
+      ],
+      "owner": "George Rodman",
+      "positions": {
+        "DEF": {
+          "direction_consistency": 0.8889,
+          "league_players_per_draft": 1.01,
+          "league_spend_share": 0.0098,
+          "players_per_draft": 1.0,
+          "signal": "neutral",
+          "spend_per_draft": 1.22,
+          "spend_share": 0.0061,
+          "spend_share_deviation": -0.0037
+        },
+        "K": {
+          "direction_consistency": 0.7778,
+          "league_players_per_draft": 1.0,
+          "league_spend_share": 0.0099,
+          "players_per_draft": 1.0,
+          "signal": "neutral",
+          "spend_per_draft": 1.33,
+          "spend_share": 0.0067,
+          "spend_share_deviation": -0.0032
+        },
+        "QB": {
+          "direction_consistency": 1.0,
+          "league_players_per_draft": 1.62,
+          "league_spend_share": 0.0996,
+          "players_per_draft": 1.56,
+          "signal": "underweights",
+          "spend_per_draft": 8.22,
+          "spend_share": 0.0411,
+          "spend_share_deviation": -0.0585
+        },
+        "RB": {
+          "direction_consistency": 0.4444,
+          "league_players_per_draft": 4.54,
+          "league_spend_share": 0.4477,
+          "players_per_draft": 5.11,
+          "signal": "neutral",
+          "spend_per_draft": 90.22,
+          "spend_share": 0.4511,
+          "spend_share_deviation": 0.0034
+        },
+        "TE": {
+          "direction_consistency": 0.6667,
+          "league_players_per_draft": 1.14,
+          "league_spend_share": 0.0723,
+          "players_per_draft": 1.33,
+          "signal": "overweights",
+          "spend_per_draft": 31.67,
+          "spend_share": 0.1583,
+          "spend_share_deviation": 0.0861
+        },
+        "WR": {
+          "direction_consistency": 0.6667,
+          "league_players_per_draft": 4.68,
+          "league_spend_share": 0.3607,
+          "players_per_draft": 4.0,
+          "signal": "neutral",
+          "spend_per_draft": 67.33,
+          "spend_share": 0.3367,
+          "spend_share_deviation": -0.024
+        }
+      },
+      "purchases": 126,
+      "repeat_player_count": 13,
+      "repeat_players": [
+        {
+          "internal_player_id": "nfl:gsis:00-0033280",
+          "player_name": "Christian McCaffrey",
+          "seasons": [
+            2019,
+            2020,
+            2021,
+            2024
+          ],
+          "times_drafted": 4
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0030564",
+          "player_name": "DeAndre Hopkins",
+          "seasons": [
+            2019,
+            2021,
+            2023
+          ],
+          "times_drafted": 3
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0030506",
+          "player_name": "Travis Kelce",
+          "seasons": [
+            2019,
+            2020,
+            2023
+          ],
+          "times_drafted": 3
+        },
+        {
+          "internal_player_id": "nfl:def:BUF",
+          "player_name": "Buffalo Bills",
+          "seasons": [
+            2021,
+            2024
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0034837",
+          "player_name": "Calvin Ridley",
+          "seasons": [
+            2024,
+            2025
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0035685",
+          "player_name": "David Montgomery",
+          "seasons": [
+            2023,
+            2025
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0036158",
+          "player_name": "J.K. Dobbins",
+          "seasons": [
+            2022,
+            2023
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0027696",
+          "player_name": "Jimmy Graham",
+          "seasons": [
+            2012,
+            2015
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0036355",
+          "player_name": "Justin Herbert",
+          "seasons": [
+            2021,
+            2023
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0031408",
+          "player_name": "Mike Evans",
+          "seasons": [
+            2022,
+            2025
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0029701",
+          "player_name": "Ryan Tannehill",
+          "seasons": [
+            2015,
+            2020
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0019596",
+          "player_name": "Tom Brady",
+          "seasons": [
+            2019,
+            2022
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0033702",
+          "player_name": "Younghoe Koo",
+          "seasons": [
+            2024,
+            2025
+          ],
+          "times_drafted": 2
+        }
+      ],
+      "season_list": [
+        2012,
+        2015,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "seasons": 9,
+      "spending": {
+        "average_30_plus_players": 3.0,
+        "average_max_bid": 64.44,
+        "average_one_dollar_players": 5.89,
+        "average_top_three_spend_share": 0.7522,
+        "average_total": 200.0,
+        "average_unused_budget": 0.0
+      }
+    },
+    {
+      "construction_style": "stars_and_scrubs",
+      "evidence_strength": "high",
+      "limitations": [
+        "No nomination order or purchase timing is available.",
+        "Preferences are probabilistic historical context, not intent."
+      ],
+      "market_behavior": {
+        "average_residual_by_position": {
+          "DEF": 1.0,
+          "K": 1.6,
+          "QB": 9.0,
+          "RB": 1.27,
+          "TE": 4.5,
+          "WR": -2.73
+        },
+        "average_salary_minus_espn": 0.6,
+        "covered_purchases": 81,
+        "five_plus_overpay_rate": 0.2716,
+        "five_plus_underpay_rate": 0.2346
+      },
+      "nfl_team_preferences": [
+        {
+          "nfl_team": "GB",
+          "players": 4,
+          "shrunk_lift": 1.49
+        },
+        {
+          "nfl_team": "ATL",
+          "players": 4,
+          "shrunk_lift": 1.35
+        },
+        {
+          "nfl_team": "DEN",
+          "players": 4,
+          "shrunk_lift": 1.35
+        }
+      ],
+      "owner": "Joey Breeland",
+      "positions": {
+        "DEF": {
+          "direction_consistency": 0.7778,
+          "league_players_per_draft": 1.01,
+          "league_spend_share": 0.0098,
+          "players_per_draft": 1.0,
+          "signal": "neutral",
+          "spend_per_draft": 1.33,
+          "spend_share": 0.0067,
+          "spend_share_deviation": -0.0031
+        },
+        "K": {
+          "direction_consistency": 0.6667,
+          "league_players_per_draft": 1.0,
+          "league_spend_share": 0.0099,
+          "players_per_draft": 1.0,
+          "signal": "neutral",
+          "spend_per_draft": 1.78,
+          "spend_share": 0.0089,
+          "spend_share_deviation": -0.001
+        },
+        "QB": {
+          "direction_consistency": 0.6667,
+          "league_players_per_draft": 1.62,
+          "league_spend_share": 0.0996,
+          "players_per_draft": 1.22,
+          "signal": "neutral",
+          "spend_per_draft": 16.67,
+          "spend_share": 0.0836,
+          "spend_share_deviation": -0.016
+        },
+        "RB": {
+          "direction_consistency": 0.5556,
+          "league_players_per_draft": 4.54,
+          "league_spend_share": 0.4477,
+          "players_per_draft": 4.67,
+          "signal": "neutral",
+          "spend_per_draft": 94.22,
+          "spend_share": 0.4727,
+          "spend_share_deviation": 0.025
+        },
+        "TE": {
+          "direction_consistency": 0.4444,
+          "league_players_per_draft": 1.14,
+          "league_spend_share": 0.0723,
+          "players_per_draft": 1.11,
+          "signal": "neutral",
+          "spend_per_draft": 20.11,
+          "spend_share": 0.1009,
+          "spend_share_deviation": 0.0286
+        },
+        "WR": {
+          "direction_consistency": 0.6667,
+          "league_players_per_draft": 4.68,
+          "league_spend_share": 0.3607,
+          "players_per_draft": 5.0,
+          "signal": "underweights",
+          "spend_per_draft": 65.22,
+          "spend_share": 0.3272,
+          "spend_share_deviation": -0.0335
+        }
+      },
+      "purchases": 126,
+      "repeat_player_count": 11,
+      "repeat_players": [
+        {
+          "internal_player_id": "nfl:gsis:00-0034796",
+          "player_name": "Lamar Jackson",
+          "seasons": [
+            2021,
+            2022,
+            2023
+          ],
+          "times_drafted": 3
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0035261",
+          "player_name": "Tony Pollard",
+          "seasons": [
+            2020,
+            2021,
+            2022
+          ],
+          "times_drafted": 3
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0038542",
+          "player_name": "Bijan Robinson",
+          "seasons": [
+            2023,
+            2024
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0033921",
+          "player_name": "Chris Godwin",
+          "seasons": [
+            2019,
+            2025
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0033045",
+          "player_name": "Ezekiel Elliott",
+          "seasons": [
+            2020,
+            2022
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0033288",
+          "player_name": "George Kittle",
+          "seasons": [
+            2020,
+            2023
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0033553",
+          "player_name": "James Conner",
+          "seasons": [
+            2019,
+            2025
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0038543",
+          "player_name": "Jaxon Smith-Njigba",
+          "seasons": [
+            2024,
+            2025
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0033856",
+          "player_name": "Leonard Fournette",
+          "seasons": [
+            2019,
+            2022
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0036973",
+          "player_name": "Travis Etienne Jr.",
+          "seasons": [
+            2022,
+            2023
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0033009",
+          "player_name": "Tyler Boyd",
+          "seasons": [
+            2019,
+            2020
+          ],
+          "times_drafted": 2
+        }
+      ],
+      "season_list": [
+        2012,
+        2015,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "seasons": 9,
+      "spending": {
+        "average_30_plus_players": 2.56,
+        "average_max_bid": 55.33,
+        "average_one_dollar_players": 3.0,
+        "average_top_three_spend_share": 0.6517,
+        "average_total": 199.33,
+        "average_unused_budget": 0.67
+      }
+    },
+    {
+      "construction_style": "stars_and_scrubs",
+      "evidence_strength": "limited",
+      "limitations": [
+        "No nomination order or purchase timing is available.",
+        "Preferences are probabilistic historical context, not intent."
+      ],
+      "market_behavior": {
+        "average_residual_by_position": {},
+        "average_salary_minus_espn": 0.0,
+        "covered_purchases": 0,
+        "five_plus_overpay_rate": 0.0,
+        "five_plus_underpay_rate": 0.0
+      },
+      "nfl_team_preferences": [],
+      "owner": "Jordan (former owner)",
+      "positions": {
+        "DEF": {
+          "direction_consistency": 0.5,
+          "league_players_per_draft": 1.01,
+          "league_spend_share": 0.0098,
+          "players_per_draft": 1.0,
+          "signal": "neutral",
+          "spend_per_draft": 1.5,
+          "spend_share": 0.0075,
+          "spend_share_deviation": -0.0023
+        },
+        "K": {
+          "direction_consistency": 1.0,
+          "league_players_per_draft": 1.0,
+          "league_spend_share": 0.0099,
+          "players_per_draft": 1.0,
+          "signal": "neutral",
+          "spend_per_draft": 1.0,
+          "spend_share": 0.005,
+          "spend_share_deviation": -0.0049
+        },
+        "QB": {
+          "direction_consistency": 0.5,
+          "league_players_per_draft": 1.62,
+          "league_spend_share": 0.0996,
+          "players_per_draft": 1.5,
+          "signal": "overweights",
+          "spend_per_draft": 36.0,
+          "spend_share": 0.18,
+          "spend_share_deviation": 0.0804
+        },
+        "RB": {
+          "direction_consistency": 1.0,
+          "league_players_per_draft": 4.54,
+          "league_spend_share": 0.4477,
+          "players_per_draft": 4.0,
+          "signal": "overweights",
+          "spend_per_draft": 118.5,
+          "spend_share": 0.5925,
+          "spend_share_deviation": 0.1448
+        },
+        "TE": {
+          "direction_consistency": 1.0,
+          "league_players_per_draft": 1.14,
+          "league_spend_share": 0.0723,
+          "players_per_draft": 1.0,
+          "signal": "underweights",
+          "spend_per_draft": 3.0,
+          "spend_share": 0.015,
+          "spend_share_deviation": -0.0573
+        },
+        "WR": {
+          "direction_consistency": 1.0,
+          "league_players_per_draft": 4.68,
+          "league_spend_share": 0.3607,
+          "players_per_draft": 5.5,
+          "signal": "underweights",
+          "spend_per_draft": 40.0,
+          "spend_share": 0.2,
+          "spend_share_deviation": -0.1607
+        }
+      },
+      "purchases": 28,
+      "repeat_player_count": 1,
+      "repeat_players": [
+        {
+          "internal_player_id": "nfl:gsis:00-0019596",
+          "player_name": "Tom Brady",
+          "seasons": [
+            2012,
+            2015
+          ],
+          "times_drafted": 2
+        }
+      ],
+      "season_list": [
+        2012,
+        2015
+      ],
+      "seasons": 2,
+      "spending": {
+        "average_30_plus_players": 2.5,
+        "average_max_bid": 63.0,
+        "average_one_dollar_players": 3.5,
+        "average_top_three_spend_share": 0.75,
+        "average_total": 200.0,
+        "average_unused_budget": 0.0
+      }
+    },
+    {
+      "construction_style": "stars_and_scrubs",
+      "evidence_strength": "high",
+      "limitations": [
+        "No nomination order or purchase timing is available.",
+        "Preferences are probabilistic historical context, not intent."
+      ],
+      "market_behavior": {
+        "average_residual_by_position": {
+          "DEF": 4.0,
+          "K": 0.4,
+          "QB": 5.79,
+          "RB": 1.42,
+          "TE": 1.5,
+          "WR": -1.64
+        },
+        "average_salary_minus_espn": 1.25,
+        "covered_purchases": 83,
+        "five_plus_overpay_rate": 0.1807,
+        "five_plus_underpay_rate": 0.0602
+      },
+      "nfl_team_preferences": [
+        {
+          "nfl_team": "CIN",
+          "players": 7,
+          "shrunk_lift": 1.81
+        },
+        {
+          "nfl_team": "PIT",
+          "players": 6,
+          "shrunk_lift": 1.78
+        },
+        {
+          "nfl_team": "MIA",
+          "players": 5,
+          "shrunk_lift": 1.38
+        },
+        {
+          "nfl_team": "ATL",
+          "players": 4,
+          "shrunk_lift": 1.35
+        }
+      ],
+      "owner": "Julius Berotte",
+      "positions": {
+        "DEF": {
+          "direction_consistency": 0.5556,
+          "league_players_per_draft": 1.01,
+          "league_spend_share": 0.0098,
+          "players_per_draft": 1.0,
+          "signal": "neutral",
+          "spend_per_draft": 4.44,
+          "spend_share": 0.0222,
+          "spend_share_deviation": 0.0124
+        },
+        "K": {
+          "direction_consistency": 0.8889,
+          "league_players_per_draft": 1.0,
+          "league_spend_share": 0.0099,
+          "players_per_draft": 1.0,
+          "signal": "neutral",
+          "spend_per_draft": 1.11,
+          "spend_share": 0.0056,
+          "spend_share_deviation": -0.0043
+        },
+        "QB": {
+          "direction_consistency": 0.7778,
+          "league_players_per_draft": 1.62,
+          "league_spend_share": 0.0996,
+          "players_per_draft": 2.33,
+          "signal": "overweights",
+          "spend_per_draft": 37.67,
+          "spend_share": 0.1883,
+          "spend_share_deviation": 0.0887
+        },
+        "RB": {
+          "direction_consistency": 0.8889,
+          "league_players_per_draft": 4.54,
+          "league_spend_share": 0.4477,
+          "players_per_draft": 3.78,
+          "signal": "underweights",
+          "spend_per_draft": 65.56,
+          "spend_share": 0.3278,
+          "spend_share_deviation": -0.12
+        },
+        "TE": {
+          "direction_consistency": 0.8889,
+          "league_players_per_draft": 1.14,
+          "league_spend_share": 0.0723,
+          "players_per_draft": 1.22,
+          "signal": "neutral",
+          "spend_per_draft": 9.11,
+          "spend_share": 0.0456,
+          "spend_share_deviation": -0.0267
+        },
+        "WR": {
+          "direction_consistency": 0.7778,
+          "league_players_per_draft": 4.68,
+          "league_spend_share": 0.3607,
+          "players_per_draft": 4.67,
+          "signal": "overweights",
+          "spend_per_draft": 82.11,
+          "spend_share": 0.4106,
+          "spend_share_deviation": 0.0499
+        }
+      },
+      "purchases": 126,
+      "repeat_player_count": 19,
+      "repeat_players": [
+        {
+          "internal_player_id": "nfl:gsis:00-0023459",
+          "player_name": "Aaron Rodgers",
+          "seasons": [
+            2015,
+            2019,
+            2021,
+            2022,
+            2023,
+            2024
+          ],
+          "times_drafted": 6
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0036893",
+          "player_name": "Najee Harris",
+          "seasons": [
+            2021,
+            2023,
+            2024,
+            2025
+          ],
+          "times_drafted": 4
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0020531",
+          "player_name": "Drew Brees",
+          "seasons": [
+            2012,
+            2015,
+            2019
+          ],
+          "times_drafted": 3
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0036442",
+          "player_name": "Joe Burrow",
+          "seasons": [
+            2020,
+            2021,
+            2022
+          ],
+          "times_drafted": 3
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0033040",
+          "player_name": "Tyreek Hill",
+          "seasons": [
+            2020,
+            2022,
+            2025
+          ],
+          "times_drafted": 3
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0036963",
+          "player_name": "Amon-Ra St. Brown",
+          "seasons": [
+            2023,
+            2024
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0029822",
+          "player_name": "Brandon McManus",
+          "seasons": [
+            2015,
+            2023
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0036275",
+          "player_name": "D'Andre Swift",
+          "seasons": [
+            2022,
+            2024
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0032764",
+          "player_name": "Derrick Henry",
+          "seasons": [
+            2019,
+            2023
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0037238",
+          "player_name": "Drake London",
+          "seasons": [
+            2023,
+            2024
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0027685",
+          "player_name": "Emmanuel Sanders",
+          "seasons": [
+            2015,
+            2019
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0036322",
+          "player_name": "Justin Jefferson",
+          "seasons": [
+            2020,
+            2021
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0033923",
+          "player_name": "Kareem Hunt",
+          "seasons": [
+            2021,
+            2022
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0034796",
+          "player_name": "Lamar Jackson",
+          "seasons": [
+            2020,
+            2025
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:def:PIT",
+          "player_name": "Pittsburgh Steelers",
+          "seasons": [
+            2023,
+            2025
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0027656",
+          "player_name": "Rob Gronkowski",
+          "seasons": [
+            2020,
+            2021
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0034844",
+          "player_name": "Saquon Barkley",
+          "seasons": [
+            2019,
+            2024
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0036410",
+          "player_name": "Tee Higgins",
+          "seasons": [
+            2022,
+            2025
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0036162",
+          "player_name": "Tyler Bass",
+          "seasons": [
+            2022,
+            2024
+          ],
+          "times_drafted": 2
+        }
+      ],
+      "season_list": [
+        2012,
+        2015,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "seasons": 9,
+      "spending": {
+        "average_30_plus_players": 2.56,
+        "average_max_bid": 54.56,
+        "average_one_dollar_players": 4.56,
+        "average_top_three_spend_share": 0.645,
+        "average_total": 200.0,
+        "average_unused_budget": 0.0
+      }
+    },
+    {
+      "construction_style": "mixed",
+      "evidence_strength": "high",
+      "limitations": [
+        "No nomination order or purchase timing is available.",
+        "Preferences are probabilistic historical context, not intent."
+      ],
+      "market_behavior": {
+        "average_residual_by_position": {
+          "DEF": 1.2,
+          "K": 1.6,
+          "QB": 6.12,
+          "RB": 2.0,
+          "TE": 3.67,
+          "WR": -0.76
+        },
+        "average_salary_minus_espn": 1.3,
+        "covered_purchases": 82,
+        "five_plus_overpay_rate": 0.2073,
+        "five_plus_underpay_rate": 0.1707
+      },
+      "nfl_team_preferences": [
+        {
+          "nfl_team": "ARI",
+          "players": 6,
+          "shrunk_lift": 2.2
+        },
+        {
+          "nfl_team": "CAR",
+          "players": 4,
+          "shrunk_lift": 1.75
+        },
+        {
+          "nfl_team": "CLE",
+          "players": 6,
+          "shrunk_lift": 1.59
+        },
+        {
+          "nfl_team": "DET",
+          "players": 4,
+          "shrunk_lift": 1.46
+        },
+        {
+          "nfl_team": "MIA",
+          "players": 4,
+          "shrunk_lift": 1.4
+        },
+        {
+          "nfl_team": "SF",
+          "players": 6,
+          "shrunk_lift": 1.32
+        },
+        {
+          "nfl_team": "WAS",
+          "players": 4,
+          "shrunk_lift": 1.31
+        }
+      ],
+      "owner": "Ken Moller",
+      "positions": {
+        "DEF": {
+          "direction_consistency": 0.5714,
+          "league_players_per_draft": 1.01,
+          "league_spend_share": 0.0098,
+          "players_per_draft": 1.0,
+          "signal": "neutral",
+          "spend_per_draft": 2.43,
+          "spend_share": 0.0122,
+          "spend_share_deviation": 0.0024
+        },
+        "K": {
+          "direction_consistency": 0.4286,
+          "league_players_per_draft": 1.0,
+          "league_spend_share": 0.0099,
+          "players_per_draft": 1.0,
+          "signal": "neutral",
+          "spend_per_draft": 2.29,
+          "spend_share": 0.0115,
+          "spend_share_deviation": 0.0017
+        },
+        "QB": {
+          "direction_consistency": 0.5714,
+          "league_players_per_draft": 1.62,
+          "league_spend_share": 0.0996,
+          "players_per_draft": 1.43,
+          "signal": "neutral",
+          "spend_per_draft": 21.86,
+          "spend_share": 0.1102,
+          "spend_share_deviation": 0.0106
+        },
+        "RB": {
+          "direction_consistency": 0.5714,
+          "league_players_per_draft": 4.54,
+          "league_spend_share": 0.4477,
+          "players_per_draft": 4.0,
+          "signal": "underweights",
+          "spend_per_draft": 76.14,
+          "spend_share": 0.384,
+          "spend_share_deviation": -0.0637
+        },
+        "TE": {
+          "direction_consistency": 0.8571,
+          "league_players_per_draft": 1.14,
+          "league_spend_share": 0.0723,
+          "players_per_draft": 1.0,
+          "signal": "overweights",
+          "spend_per_draft": 28.14,
+          "spend_share": 0.1419,
+          "spend_share_deviation": 0.0697
+        },
+        "WR": {
+          "direction_consistency": 0.5714,
+          "league_players_per_draft": 4.68,
+          "league_spend_share": 0.3607,
+          "players_per_draft": 5.57,
+          "signal": "neutral",
+          "spend_per_draft": 67.43,
+          "spend_share": 0.3401,
+          "spend_share_deviation": -0.0206
+        }
+      },
+      "purchases": 98,
+      "repeat_player_count": 8,
+      "repeat_players": [
+        {
+          "internal_player_id": "nfl:gsis:00-0029597",
+          "player_name": "Justin Tucker",
+          "seasons": [
+            2019,
+            2022,
+            2023
+          ],
+          "times_drafted": 3
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0036555",
+          "player_name": "Chuba Hubbard",
+          "seasons": [
+            2022,
+            2025
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0035719",
+          "player_name": "Deebo Samuel",
+          "seasons": [
+            2020,
+            2025
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0032764",
+          "player_name": "Derrick Henry",
+          "seasons": [
+            2020,
+            2024
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0027944",
+          "player_name": "Julio Jones",
+          "seasons": [
+            2019,
+            2022
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0034791",
+          "player_name": "Nick Chubb",
+          "seasons": [
+            2022,
+            2024
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:def:SF",
+          "player_name": "San Francisco 49ers",
+          "seasons": [
+            2020,
+            2022
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0031588",
+          "player_name": "Stefon Diggs",
+          "seasons": [
+            2021,
+            2025
+          ],
+          "times_drafted": 2
+        }
+      ],
+      "season_list": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "seasons": 7,
+      "spending": {
+        "average_30_plus_players": 2.14,
+        "average_max_bid": 61.43,
+        "average_one_dollar_players": 2.14,
+        "average_top_three_spend_share": 0.6755,
+        "average_total": 198.29,
+        "average_unused_budget": 1.71
+      }
+    },
+    {
+      "construction_style": "mixed",
+      "evidence_strength": "high",
+      "limitations": [
+        "No nomination order or purchase timing is available.",
+        "Preferences are probabilistic historical context, not intent."
+      ],
+      "market_behavior": {
+        "average_residual_by_position": {
+          "DEF": 0.33,
+          "K": 2.83,
+          "QB": 2.89,
+          "RB": 0.88,
+          "TE": 0.29,
+          "WR": -3.21
+        },
+        "average_salary_minus_espn": -0.02,
+        "covered_purchases": 84,
+        "five_plus_overpay_rate": 0.1548,
+        "five_plus_underpay_rate": 0.1667
+      },
+      "nfl_team_preferences": [
+        {
+          "nfl_team": "TB",
+          "players": 7,
+          "shrunk_lift": 1.43
+        },
+        {
+          "nfl_team": "NYJ",
+          "players": 5,
+          "shrunk_lift": 1.28
+        }
+      ],
+      "owner": "Lee Krassner",
+      "positions": {
+        "DEF": {
+          "direction_consistency": 0.6667,
+          "league_players_per_draft": 1.01,
+          "league_spend_share": 0.0098,
+          "players_per_draft": 1.0,
+          "signal": "neutral",
+          "spend_per_draft": 1.56,
+          "spend_share": 0.0079,
+          "spend_share_deviation": -0.0019
+        },
+        "K": {
+          "direction_consistency": 0.4444,
+          "league_players_per_draft": 1.0,
+          "league_spend_share": 0.0099,
+          "players_per_draft": 1.0,
+          "signal": "neutral",
+          "spend_per_draft": 2.89,
+          "spend_share": 0.0147,
+          "spend_share_deviation": 0.0048
+        },
+        "QB": {
+          "direction_consistency": 0.7778,
+          "league_players_per_draft": 1.62,
+          "league_spend_share": 0.0996,
+          "players_per_draft": 1.56,
+          "signal": "neutral",
+          "spend_per_draft": 16.11,
+          "spend_share": 0.082,
+          "spend_share_deviation": -0.0176
+        },
+        "RB": {
+          "direction_consistency": 0.6667,
+          "league_players_per_draft": 4.54,
+          "league_spend_share": 0.4477,
+          "players_per_draft": 5.11,
+          "signal": "neutral",
+          "spend_per_draft": 84.0,
+          "spend_share": 0.4276,
+          "spend_share_deviation": -0.0201
+        },
+        "TE": {
+          "direction_consistency": 0.8889,
+          "league_players_per_draft": 1.14,
+          "league_spend_share": 0.0723,
+          "players_per_draft": 1.11,
+          "signal": "underweights",
+          "spend_per_draft": 6.0,
+          "spend_share": 0.0305,
+          "spend_share_deviation": -0.0417
+        },
+        "WR": {
+          "direction_consistency": 0.7778,
+          "league_players_per_draft": 4.68,
+          "league_spend_share": 0.3607,
+          "players_per_draft": 4.22,
+          "signal": "overweights",
+          "spend_per_draft": 85.89,
+          "spend_share": 0.4372,
+          "spend_share_deviation": 0.0765
+        }
+      },
+      "purchases": 126,
+      "repeat_player_count": 14,
+      "repeat_players": [
+        {
+          "internal_player_id": "nfl:gsis:00-0033077",
+          "player_name": "Dak Prescott",
+          "seasons": [
+            2020,
+            2023,
+            2025
+          ],
+          "times_drafted": 3
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0027942",
+          "player_name": "A.J. Green",
+          "seasons": [
+            2012,
+            2015
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0036265",
+          "player_name": "AJ Dillon",
+          "seasons": [
+            2021,
+            2022
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0033293",
+          "player_name": "Aaron Jones",
+          "seasons": [
+            2019,
+            2021
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0037224",
+          "player_name": "Cameron Dicker",
+          "seasons": [
+            2024,
+            2025
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0034681",
+          "player_name": "Chase Edmonds",
+          "seasons": [
+            2021,
+            2022
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0031381",
+          "player_name": "Davante Adams",
+          "seasons": [
+            2022,
+            2024
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0031547",
+          "player_name": "DeVante Parker",
+          "seasons": [
+            2015,
+            2020
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0036158",
+          "player_name": "J.K. Dobbins",
+          "seasons": [
+            2020,
+            2024
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0036389",
+          "player_name": "Jalen Hurts",
+          "seasons": [
+            2021,
+            2022
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0033897",
+          "player_name": "Joe Mixon",
+          "seasons": [
+            2022,
+            2025
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0036322",
+          "player_name": "Justin Jefferson",
+          "seasons": [
+            2023,
+            2024
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0031408",
+          "player_name": "Mike Evans",
+          "seasons": [
+            2019,
+            2023
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0033110",
+          "player_name": "Tyler Higbee",
+          "seasons": [
+            2020,
+            2021
+          ],
+          "times_drafted": 2
+        }
+      ],
+      "season_list": [
+        2012,
+        2015,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "seasons": 9,
+      "spending": {
+        "average_30_plus_players": 2.44,
+        "average_max_bid": 52.22,
+        "average_one_dollar_players": 1.56,
+        "average_top_three_spend_share": 0.6172,
+        "average_total": 196.44,
+        "average_unused_budget": 3.56
+      }
+    },
+    {
+      "construction_style": "mixed",
+      "evidence_strength": "high",
+      "limitations": [
+        "No nomination order or purchase timing is available.",
+        "Preferences are probabilistic historical context, not intent."
+      ],
+      "market_behavior": {
+        "average_residual_by_position": {
+          "DEF": 2.17,
+          "K": 1.5,
+          "QB": 7.22,
+          "RB": 0.74,
+          "TE": 0.25,
+          "WR": -2.26
+        },
+        "average_salary_minus_espn": 0.58,
+        "covered_purchases": 83,
+        "five_plus_overpay_rate": 0.1928,
+        "five_plus_underpay_rate": 0.1325
+      },
+      "nfl_team_preferences": [
+        {
+          "nfl_team": "HOU",
+          "players": 7,
+          "shrunk_lift": 1.52
+        },
+        {
+          "nfl_team": "NO",
+          "players": 6,
+          "shrunk_lift": 1.32
+        }
+      ],
+      "owner": "Nate Corbett",
+      "positions": {
+        "DEF": {
+          "direction_consistency": 0.4444,
+          "league_players_per_draft": 1.01,
+          "league_spend_share": 0.0098,
+          "players_per_draft": 1.0,
+          "signal": "neutral",
+          "spend_per_draft": 2.44,
+          "spend_share": 0.0123,
+          "spend_share_deviation": 0.0025
+        },
+        "K": {
+          "direction_consistency": 0.6667,
+          "league_players_per_draft": 1.0,
+          "league_spend_share": 0.0099,
+          "players_per_draft": 1.0,
+          "signal": "neutral",
+          "spend_per_draft": 1.89,
+          "spend_share": 0.0095,
+          "spend_share_deviation": -0.0004
+        },
+        "QB": {
+          "direction_consistency": 0.7778,
+          "league_players_per_draft": 1.62,
+          "league_spend_share": 0.0996,
+          "players_per_draft": 1.56,
+          "signal": "neutral",
+          "spend_per_draft": 25.67,
+          "spend_share": 0.1288,
+          "spend_share_deviation": 0.0292
+        },
+        "RB": {
+          "direction_consistency": 0.7778,
+          "league_players_per_draft": 4.54,
+          "league_spend_share": 0.4477,
+          "players_per_draft": 4.89,
+          "signal": "underweights",
+          "spend_per_draft": 77.11,
+          "spend_share": 0.3871,
+          "spend_share_deviation": -0.0607
+        },
+        "TE": {
+          "direction_consistency": 0.8889,
+          "league_players_per_draft": 1.14,
+          "league_spend_share": 0.0723,
+          "players_per_draft": 1.22,
+          "signal": "neutral",
+          "spend_per_draft": 8.56,
+          "spend_share": 0.0429,
+          "spend_share_deviation": -0.0293
+        },
+        "WR": {
+          "direction_consistency": 0.7778,
+          "league_players_per_draft": 4.68,
+          "league_spend_share": 0.3607,
+          "players_per_draft": 4.33,
+          "signal": "overweights",
+          "spend_per_draft": 83.56,
+          "spend_share": 0.4194,
+          "spend_share_deviation": 0.0587
+        }
+      },
+      "purchases": 126,
+      "repeat_player_count": 13,
+      "repeat_players": [
+        {
+          "internal_player_id": "nfl:gsis:00-0033881",
+          "player_name": "Evan Engram",
+          "seasons": [
+            2019,
+            2020,
+            2023
+          ],
+          "times_drafted": 3
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0035261",
+          "player_name": "Tony Pollard",
+          "seasons": [
+            2019,
+            2024,
+            2025
+          ],
+          "times_drafted": 3
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0037258",
+          "player_name": "Dameon Pierce",
+          "seasons": [
+            2022,
+            2023
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0035664",
+          "player_name": "Darrell Henderson",
+          "seasons": [
+            2019,
+            2021
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0031381",
+          "player_name": "Davante Adams",
+          "seasons": [
+            2019,
+            2021
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0033537",
+          "player_name": "Deshaun Watson",
+          "seasons": [
+            2020,
+            2023
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0034184",
+          "player_name": "Gus Edwards",
+          "seasons": [
+            2021,
+            2024
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0031408",
+          "player_name": "Mike Evans",
+          "seasons": [
+            2015,
+            2024
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:def:NO",
+          "player_name": "New Orleans Saints",
+          "seasons": [
+            2022,
+            2023
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0031235",
+          "player_name": "Odell Beckham Jr.",
+          "seasons": [
+            2015,
+            2019
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0033873",
+          "player_name": "Patrick Mahomes II",
+          "seasons": [
+            2022,
+            2024
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0034109",
+          "player_name": "Phillip Lindsay",
+          "seasons": [
+            2019,
+            2021
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0036875",
+          "player_name": "Rhamondre Stevenson",
+          "seasons": [
+            2023,
+            2024
+          ],
+          "times_drafted": 2
+        }
+      ],
+      "season_list": [
+        2012,
+        2015,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "seasons": 9,
+      "spending": {
+        "average_30_plus_players": 2.56,
+        "average_max_bid": 53.11,
+        "average_one_dollar_players": 2.33,
+        "average_top_three_spend_share": 0.6398,
+        "average_total": 199.22,
+        "average_unused_budget": 0.78
+      }
+    },
+    {
+      "construction_style": "stars_and_scrubs",
+      "evidence_strength": "high",
+      "limitations": [
+        "No nomination order or purchase timing is available.",
+        "Preferences are probabilistic historical context, not intent."
+      ],
+      "market_behavior": {
+        "average_residual_by_position": {
+          "DEF": 0.75,
+          "K": 0.6,
+          "QB": 4.75,
+          "RB": 1.85,
+          "TE": 4.0,
+          "WR": -2.55
+        },
+        "average_salary_minus_espn": 0.46,
+        "covered_purchases": 80,
+        "five_plus_overpay_rate": 0.15,
+        "five_plus_underpay_rate": 0.1375
+      },
+      "nfl_team_preferences": [
+        {
+          "nfl_team": "DAL",
+          "players": 11,
+          "shrunk_lift": 1.57
+        },
+        {
+          "nfl_team": "LV",
+          "players": 4,
+          "shrunk_lift": 1.28
+        }
+      ],
+      "owner": "Phil Carr",
+      "positions": {
+        "DEF": {
+          "direction_consistency": 0.7778,
+          "league_players_per_draft": 1.01,
+          "league_spend_share": 0.0098,
+          "players_per_draft": 1.0,
+          "signal": "neutral",
+          "spend_per_draft": 1.44,
+          "spend_share": 0.0072,
+          "spend_share_deviation": -0.0026
+        },
+        "K": {
+          "direction_consistency": 0.8889,
+          "league_players_per_draft": 1.0,
+          "league_spend_share": 0.0099,
+          "players_per_draft": 1.0,
+          "signal": "neutral",
+          "spend_per_draft": 1.33,
+          "spend_share": 0.0067,
+          "spend_share_deviation": -0.0032
+        },
+        "QB": {
+          "direction_consistency": 0.4444,
+          "league_players_per_draft": 1.62,
+          "league_spend_share": 0.0996,
+          "players_per_draft": 1.44,
+          "signal": "neutral",
+          "spend_per_draft": 21.67,
+          "spend_share": 0.1083,
+          "spend_share_deviation": 0.0087
+        },
+        "RB": {
+          "direction_consistency": 0.7778,
+          "league_players_per_draft": 4.54,
+          "league_spend_share": 0.4477,
+          "players_per_draft": 4.44,
+          "signal": "overweights",
+          "spend_per_draft": 109.56,
+          "spend_share": 0.5478,
+          "spend_share_deviation": 0.1
+        },
+        "TE": {
+          "direction_consistency": 0.6667,
+          "league_players_per_draft": 1.14,
+          "league_spend_share": 0.0723,
+          "players_per_draft": 1.11,
+          "signal": "neutral",
+          "spend_per_draft": 13.11,
+          "spend_share": 0.0656,
+          "spend_share_deviation": -0.0067
+        },
+        "WR": {
+          "direction_consistency": 0.8889,
+          "league_players_per_draft": 4.68,
+          "league_spend_share": 0.3607,
+          "players_per_draft": 5.0,
+          "signal": "underweights",
+          "spend_per_draft": 52.89,
+          "spend_share": 0.2644,
+          "spend_share_deviation": -0.0962
+        }
+      },
+      "purchases": 126,
+      "repeat_player_count": 14,
+      "repeat_players": [
+        {
+          "internal_player_id": "nfl:gsis:00-0033906",
+          "player_name": "Alvin Kamara",
+          "seasons": [
+            2019,
+            2020,
+            2022
+          ],
+          "times_drafted": 3
+        },
+        {
+          "internal_player_id": "nfl:def:DAL",
+          "player_name": "Dallas Cowboys",
+          "seasons": [
+            2020,
+            2023,
+            2025
+          ],
+          "times_drafted": 3
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0031428",
+          "player_name": "Allen Robinson",
+          "seasons": [
+            2015,
+            2020
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0031544",
+          "player_name": "Amari Cooper",
+          "seasons": [
+            2021,
+            2023
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0031236",
+          "player_name": "Brandin Cooks",
+          "seasons": [
+            2020,
+            2021
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0039893",
+          "player_name": "Brian Thomas Jr.",
+          "seasons": [
+            2024,
+            2025
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0036275",
+          "player_name": "D'Andre Swift",
+          "seasons": [
+            2020,
+            2021
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0038041",
+          "player_name": "Jake Ferguson",
+          "seasons": [
+            2023,
+            2025
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0036613",
+          "player_name": "Jaylen Waddle",
+          "seasons": [
+            2024,
+            2025
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0036970",
+          "player_name": "Kyle Pitts",
+          "seasons": [
+            2022,
+            2024
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0030513",
+          "player_name": "Latavius Murray",
+          "seasons": [
+            2020,
+            2021
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:def:PHI",
+          "player_name": "Philadelphia Eagles",
+          "seasons": [
+            2022,
+            2024
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0034844",
+          "player_name": "Saquon Barkley",
+          "seasons": [
+            2021,
+            2023
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0032211",
+          "player_name": "Tyler Lockett",
+          "seasons": [
+            2015,
+            2022
+          ],
+          "times_drafted": 2
+        }
+      ],
+      "season_list": [
+        2012,
+        2015,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "seasons": 9,
+      "spending": {
+        "average_30_plus_players": 3.11,
+        "average_max_bid": 58.33,
+        "average_one_dollar_players": 4.78,
+        "average_top_three_spend_share": 0.7,
+        "average_total": 200.0,
+        "average_unused_budget": 0.0
+      }
+    },
+    {
+      "construction_style": "stars_and_scrubs",
+      "evidence_strength": "high",
+      "limitations": [
+        "No nomination order or purchase timing is available.",
+        "Preferences are probabilistic historical context, not intent."
+      ],
+      "market_behavior": {
+        "average_residual_by_position": {
+          "DEF": 0.2,
+          "K": 3.5,
+          "QB": 4.38,
+          "RB": 0.4,
+          "TE": 1.33,
+          "WR": -4.04
+        },
+        "average_salary_minus_espn": -0.53,
+        "covered_purchases": 81,
+        "five_plus_overpay_rate": 0.1605,
+        "five_plus_underpay_rate": 0.2469
+      },
+      "nfl_team_preferences": [
+        {
+          "nfl_team": "ARI",
+          "players": 5,
+          "shrunk_lift": 1.5
+        },
+        {
+          "nfl_team": "DET",
+          "players": 5,
+          "shrunk_lift": 1.44
+        },
+        {
+          "nfl_team": "DEN",
+          "players": 4,
+          "shrunk_lift": 1.35
+        },
+        {
+          "nfl_team": "IND",
+          "players": 5,
+          "shrunk_lift": 1.28
+        },
+        {
+          "nfl_team": "NYJ",
+          "players": 5,
+          "shrunk_lift": 1.28
+        }
+      ],
+      "owner": "Robbie Bagwell",
+      "positions": {
+        "DEF": {
+          "direction_consistency": 0.8889,
+          "league_players_per_draft": 1.01,
+          "league_spend_share": 0.0098,
+          "players_per_draft": 1.0,
+          "signal": "neutral",
+          "spend_per_draft": 1.11,
+          "spend_share": 0.0056,
+          "spend_share_deviation": -0.0042
+        },
+        "K": {
+          "direction_consistency": 0.1111,
+          "league_players_per_draft": 1.0,
+          "league_spend_share": 0.0099,
+          "players_per_draft": 1.0,
+          "signal": "neutral",
+          "spend_per_draft": 2.56,
+          "spend_share": 0.0128,
+          "spend_share_deviation": 0.003
+        },
+        "QB": {
+          "direction_consistency": 0.6667,
+          "league_players_per_draft": 1.62,
+          "league_spend_share": 0.0996,
+          "players_per_draft": 1.22,
+          "signal": "underweights",
+          "spend_per_draft": 13.78,
+          "spend_share": 0.0692,
+          "spend_share_deviation": -0.0304
+        },
+        "RB": {
+          "direction_consistency": 0.8889,
+          "league_players_per_draft": 4.54,
+          "league_spend_share": 0.4477,
+          "players_per_draft": 5.11,
+          "signal": "overweights",
+          "spend_per_draft": 115.78,
+          "spend_share": 0.5815,
+          "spend_share_deviation": 0.1337
+        },
+        "TE": {
+          "direction_consistency": 0.7778,
+          "league_players_per_draft": 1.14,
+          "league_spend_share": 0.0723,
+          "players_per_draft": 1.0,
+          "signal": "neutral",
+          "spend_per_draft": 10.44,
+          "spend_share": 0.0525,
+          "spend_share_deviation": -0.0198
+        },
+        "WR": {
+          "direction_consistency": 0.7778,
+          "league_players_per_draft": 4.68,
+          "league_spend_share": 0.3607,
+          "players_per_draft": 4.67,
+          "signal": "underweights",
+          "spend_per_draft": 55.44,
+          "spend_share": 0.2785,
+          "spend_share_deviation": -0.0822
+        }
+      },
+      "purchases": 126,
+      "repeat_player_count": 13,
+      "repeat_players": [
+        {
+          "internal_player_id": "nfl:gsis:00-0033893",
+          "player_name": "Dalvin Cook",
+          "seasons": [
+            2019,
+            2020,
+            2022
+          ],
+          "times_drafted": 3
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0035685",
+          "player_name": "David Montgomery",
+          "seasons": [
+            2019,
+            2020
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0036854",
+          "player_name": "Evan McPherson",
+          "seasons": [
+            2023,
+            2025
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0039139",
+          "player_name": "Jahmyr Gibbs",
+          "seasons": [
+            2023,
+            2025
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0033553",
+          "player_name": "James Conner",
+          "seasons": [
+            2022,
+            2024
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0039146",
+          "player_name": "Jayden Reed",
+          "seasons": [
+            2024,
+            2025
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0036223",
+          "player_name": "Jonathan Taylor",
+          "seasons": [
+            2020,
+            2025
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0034857",
+          "player_name": "Josh Allen",
+          "seasons": [
+            2022,
+            2023
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0035228",
+          "player_name": "Kyler Murray",
+          "seasons": [
+            2020,
+            2024
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0033536",
+          "player_name": "Mike Williams",
+          "seasons": [
+            2012,
+            2022
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0032211",
+          "player_name": "Tyler Lockett",
+          "seasons": [
+            2021,
+            2023
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "nfl:gsis:00-0032569",
+          "player_name": "Wil Lutz",
+          "seasons": [
+            2019,
+            2020
+          ],
+          "times_drafted": 2
+        },
+        {
+          "internal_player_id": "provisional:fantasypros:15629",
+          "player_name": "William Fuller",
+          "seasons": [
+            2020,
+            2021
+          ],
+          "times_drafted": 2
+        }
+      ],
+      "season_list": [
+        2012,
+        2015,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "seasons": 9,
+      "spending": {
+        "average_30_plus_players": 2.89,
+        "average_max_bid": 58.11,
+        "average_one_dollar_players": 5.0,
+        "average_top_three_spend_share": 0.6776,
+        "average_total": 199.11,
+        "average_unused_budget": 0.89
+      }
+    }
+  ]
+}

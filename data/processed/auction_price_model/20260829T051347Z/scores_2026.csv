@@ -1,0 +1,295 @@
+jugg_price_rank,internal_player_id,fantasypros_id,player_name,position,nfl_team,expected_jugg_price_if_drafted,uncalibrated_model_price,price_range_low,price_range_high,range_basis,draft_probability,draft_likelihood,espn_salary_cap_value,adp_espn,adp_yahoo,projected_points_jugg,prior_jugg_salary,missing_inputs
+1,nfl:gsis:00-0039139,22968,Jahmyr Gibbs,RB,DET,74.2,73.3,68.1,80.3,historical_forward_error_p80:RB,0.9625,very_likely,57,1.0,1.0,301.79,62,
+2,nfl:gsis:00-0038542,23133,Bijan Robinson,RB,ATL,70.2,69.3,64.1,76.3,historical_forward_error_p80:RB,0.9683,very_likely,56,2.0,2.0,279.753,68,
+3,nfl:gsis:00-0036900,19788,Ja'Marr Chase,WR,CIN,63.6,62.8,56.4,70.7,historical_forward_error_p80:WR,0.9199,very_likely,56,3.0,3.0,214.78,71,
+4,nfl:gsis:00-0033280,16393,Christian McCaffrey,RB,SF,62.4,61.6,56.3,68.5,historical_forward_error_p80:RB,0.9648,very_likely,53,6.0,5.0,256.249,66,
+5,nfl:gsis:00-0039075,23180,Puka Nacua,WR,LAR,60.8,60.0,53.6,67.9,historical_forward_error_p80:WR,0.9298,very_likely,55,4.0,4.0,222.78,40,
+6,nfl:gsis:00-0036223,19217,Jonathan Taylor,RB,IND,60.1,59.3,54.0,66.1,historical_forward_error_p80:RB,0.9728,very_likely,52,7.0,6.0,267.245,37,
+7,nfl:gsis:00-0038543,23070,Jaxon Smith-Njigba,WR,SEA,54.9,54.2,47.8,62.0,historical_forward_error_p80:WR,0.9407,very_likely,54,5.0,7.0,215.301,23,
+8,nfl:gsis:00-0036963,19799,Amon-Ra St. Brown,WR,DET,53.4,52.8,46.3,60.6,historical_forward_error_p80:WR,0.9176,very_likely,52,8.0,8.0,202.449,51,
+9,nfl:gsis:00-0037248,22958,James Cook III,RB,BUF,52.4,51.8,46.4,58.5,historical_forward_error_p80:RB,0.995,very_likely,46,11.0,9.0,237.275,33,
+10,nfl:gsis:00-0036358,19202,CeeDee Lamb,WR,DAL,50.2,49.6,43.1,57.3,historical_forward_error_p80:WR,0.9305,very_likely,51,9.0,10.0,175.577,62,
+11,nfl:gsis:00-0034844,17240,Saquon Barkley,RB,PHI,49.3,48.7,43.2,55.4,historical_forward_error_p80:RB,0.995,very_likely,42,13.0,11.0,222.912,67,
+12,nfl:gsis:00-0039040,23136,De'Von Achane,RB,MIA,48.1,47.5,42.0,54.2,historical_forward_error_p80:RB,0.995,very_likely,45,10.0,14.0,227.067,52,
+13,nfl:gsis:00-0032764,15514,Derrick Henry,RB,BAL,47.7,47.1,41.6,53.7,historical_forward_error_p80:RB,0.9278,very_likely,48,15.0,17.0,255.675,58,
+14,nfl:gsis:00-0036322,19236,Justin Jefferson,WR,MIN,47.3,46.7,40.2,54.5,historical_forward_error_p80:WR,0.9152,very_likely,50,12.0,12.0,173.862,54,
+15,nfl:gsis:00-0040122,25989,Ashton Jeanty,RB,LV,45.5,45.0,39.5,51.6,historical_forward_error_p80:RB,0.995,very_likely,40,14.0,13.0,204.084,51,
+16,nfl:gsis:00-0038134,23021,Kenneth Walker III,RB,KC,41.3,40.8,35.2,47.3,historical_forward_error_p80:RB,0.995,very_likely,37,20.0,15.0,212.287,24,
+17,nfl:gsis:00-0038597,25324,Chase Brown,RB,CIN,40.1,39.6,34.0,46.2,historical_forward_error_p80:RB,0.995,very_likely,32,18.0,16.0,214.848,46,
+18,nfl:gsis:00-0037238,23163,Drake London,WR,ATL,39.2,38.7,32.1,46.3,historical_forward_error_p80:WR,0.9752,very_likely,43,16.0,19.0,177.928,41,
+19,nfl:gsis:00-0040666,25395,Omarion Hampton,RB,LAC,38.4,37.9,32.3,44.5,historical_forward_error_p80:RB,0.995,very_likely,36,24.0,18.0,203.938,35,
+20,nfl:gsis:00-0039338,22955,Brock Bowers,TE,LV,34.8,34.3,30.0,39.5,historical_forward_error_p80:TE,0.9275,very_likely,34,23.0,21.0,147.045,41,
+21,nfl:gsis:00-0041027,25403,Jeremiyah Love,RB,ARI,34.8,34.4,28.7,40.9,historical_forward_error_p80:RB,0.995,very_likely,38,22.0,27.0,201.284,,prior_jugg_salary
+22,nfl:gsis:00-0034857,17298,Josh Allen,QB,BUF,34.3,33.9,29.5,39.0,historical_forward_error_p80:QB,0.995,very_likely,22,19.0,20.0,399.898,38,
+23,nfl:gsis:00-0037744,22936,Trey McBride,TE,ARI,33.9,33.5,29.2,38.7,historical_forward_error_p80:TE,0.995,very_likely,35,17.0,25.0,147.108,30,
+24,nfl:gsis:00-0036554,20130,Nico Collins,WR,HOU,31.2,30.8,24.1,38.3,historical_forward_error_p80:WR,0.995,very_likely,31,26.0,22.0,165.402,42,
+25,nfl:gsis:00-0035676,18218,A.J. Brown,WR,NE,30.0,29.6,22.9,37.1,historical_forward_error_p80:WR,0.995,very_likely,30,25.0,24.0,168.638,37,
+26,nfl:gsis:00-0037247,22963,George Pickens,WR,DAL,28.6,28.3,21.5,35.7,historical_forward_error_p80:WR,0.995,very_likely,29,27.0,23.0,169.501,5,
+27,nfl:gsis:00-0038120,22982,Breece Hall,RB,NYJ,28.4,28.0,22.3,34.4,historical_forward_error_p80:RB,0.995,very_likely,33,30.0,35.0,198.939,21,
+28,nfl:gsis:00-0035700,18269,Josh Jacobs,RB,GB,28.0,27.6,21.9,34.0,historical_forward_error_p80:RB,0.995,very_likely,27,33.0,32.0,208.381,44,
+29,nfl:gsis:00-0037840,23059,Kyren Williams,RB,LAR,27.3,27.0,21.2,33.4,historical_forward_error_p80:RB,0.995,very_likely,21,36.0,26.0,206.322,37,
+30,nfl:gsis:00-0039337,25409,Malik Nabers,WR,NYG,27.0,26.7,19.9,34.2,historical_forward_error_p80:WR,0.995,very_likely,30,29.0,29.0,159.198,40,
+31,nfl:gsis:00-0039067,23113,Rashee Rice,WR,KC,26.8,26.5,19.7,33.9,historical_forward_error_p80:WR,0.995,very_likely,32,21.0,34.0,171.399,1,
+32,nfl:gsis:00-0036997,22739,Javonte Williams,RB,DAL,25.6,25.3,19.5,31.7,historical_forward_error_p80:RB,0.995,very_likely,25,31.0,33.0,201.262,3,
+33,nfl:gsis:00-0037239,20111,Chris Olave,WR,NO,25.2,24.9,18.1,32.3,historical_forward_error_p80:WR,0.995,very_likely,28,28.0,30.0,166.209,2,
+34,nfl:gsis:00-0036912,19222,DeVonta Smith,WR,PHI,20.7,20.4,13.5,27.8,historical_forward_error_p80:WR,0.995,very_likely,18,35.0,28.0,149.034,6,
+35,nfl:gsis:00-0036973,19231,Travis Etienne Jr.,RB,NO,20.6,20.3,14.5,26.6,historical_forward_error_p80:RB,0.995,very_likely,22,39.0,42.0,191.33,1,
+36,nfl:gsis:00-0040715,27166,Cam Skattebo,RB,NYG,19.9,19.7,13.9,26.0,historical_forward_error_p80:RB,0.995,very_likely,20,40.0,41.0,190.548,1,
+37,nfl:gsis:00-0039064,22916,Zay Flowers,WR,BAL,19.2,19.0,12.1,26.4,historical_forward_error_p80:WR,0.995,very_likely,22,38.0,36.0,160.508,6,
+38,nfl:gsis:00-0034796,17233,Lamar Jackson,QB,BAL,19.1,18.9,14.3,23.9,historical_forward_error_p80:QB,0.995,very_likely,10,34.0,37.0,353.315,38,
+39,nfl:gsis:00-0040124,25417,Tetairoa McMillan,WR,CAR,18.4,18.2,11.2,25.5,historical_forward_error_p80:WR,0.995,very_likely,23,37.0,40.0,152.566,3,
+40,nfl:gsis:00-0036410,19211,Tee Higgins,WR,CIN,17.6,17.4,10.5,24.7,historical_forward_error_p80:WR,0.995,very_likely,15,51.0,31.0,150.935,36,
+41,nfl:gsis:00-0040126,26006,Colston Loveland,TE,CHI,17.5,17.3,12.7,22.2,historical_forward_error_p80:TE,0.995,very_likely,13,41.0,38.0,132.293,,prior_jugg_salary
+42,nfl:gsis:00-0040129,23062,Emeka Egbuka,WR,TB,17.3,17.1,10.1,24.4,historical_forward_error_p80:WR,0.947,very_likely,24,44.0,43.0,155.046,1,
+43,nfl:gsis:00-0040784,25391,Quinshon Judkins,RB,CLE,16.5,16.3,10.4,22.6,historical_forward_error_p80:RB,0.995,very_likely,21,49.0,51.0,183.591,2,
+44,nfl:gsis:00-0039361,25981,Bucky Irving,RB,TB,15.8,15.6,9.7,21.9,historical_forward_error_p80:RB,0.995,very_likely,19,50.0,55.0,179.969,35,
+45,nfl:gsis:00-0037740,23072,Garrett Wilson,WR,NYJ,15.8,15.6,8.7,22.9,historical_forward_error_p80:WR,0.995,very_likely,19,32.0,48.0,146.412,11,
+46,nfl:gsis:00-0031381,12123,Davante Adams,WR,LAR,15.7,15.5,8.5,22.8,historical_forward_error_p80:WR,0.9841,very_likely,26,42.0,54.0,153.435,6,
+47,nfl:gsis:00-0037563,24205,Malik Davis,RB,DAL,14.9,14.7,8.8,21.0,historical_forward_error_p80:RB,0.005,unlikely,0,396.0,,54.066,,adp_yahoo;prior_jugg_salary
+48,nfl:gsis:00-0039851,23046,Drake Maye,QB,NE,14.1,13.9,9.3,18.8,historical_forward_error_p80:QB,0.9918,very_likely,10,43.0,47.0,348.051,1,
+49,nfl:gsis:00-0039915,26122,Ladd McConkey,WR,LAC,14.0,13.8,6.8,21.1,historical_forward_error_p80:WR,0.995,very_likely,15,45.0,44.0,141.052,27,
+50,nfl:gsis:00-0040128,26434,Tyler Warren,TE,IND,13.7,13.6,9.0,18.5,historical_forward_error_p80:TE,0.9803,very_likely,13,46.0,46.0,120.226,1,
+51,nfl:gsis:00-0036275,19210,D'Andre Swift,RB,CHI,13.6,13.4,7.5,19.7,historical_forward_error_p80:RB,0.995,very_likely,9,55.0,45.0,188.369,7,
+52,nfl:gsis:00-0039910,22902,Jayden Daniels,QB,WAS,12.7,12.6,8.0,17.5,historical_forward_error_p80:QB,0.995,very_likely,10,47.0,53.0,346.311,25,
+53,nfl:gsis:00-0036613,19790,Jaylen Waddle,WR,DEN,12.7,12.5,5.5,19.8,historical_forward_error_p80:WR,0.995,very_likely,12,52.0,39.0,136.004,2,
+54,nfl:gsis:00-0036442,19196,Joe Burrow,QB,CIN,12.3,12.2,7.6,17.1,historical_forward_error_p80:QB,0.9686,very_likely,5,53.0,49.0,344.213,27,
+55,nfl:gsis:00-0036389,19275,Jalen Hurts,QB,PHI,12.0,11.8,7.2,16.7,historical_forward_error_p80:QB,0.995,very_likely,9,48.0,56.0,344.608,29,
+56,nfl:gsis:00-0035659,18466,Terry McLaurin,WR,WAS,11.1,11.0,4.0,18.3,historical_forward_error_p80:WR,0.995,very_likely,17,54.0,52.0,140.845,10,
+57,nfl:gsis:00-0035685,18239,David Montgomery,RB,HOU,11.0,10.9,4.9,17.1,historical_forward_error_p80:RB,0.995,very_likely,8,60.0,50.0,165.083,5,
+58,nfl:gsis:00-0040719,27297,Bhayshul Tuten,RB,JAX,10.7,10.6,4.6,16.8,historical_forward_error_p80:RB,0.995,very_likely,9,61.0,60.0,178.047,,prior_jugg_salary
+59,nfl:gsis:00-0041512,27329,Jadarian Price,RB,SEA,9.4,9.3,3.3,15.5,historical_forward_error_p80:RB,0.995,very_likely,8,63.0,63.0,163.608,,prior_jugg_salary
+60,nfl:gsis:00-0040734,23065,TreVeyon Henderson,RB,NE,9.4,9.3,3.3,15.4,historical_forward_error_p80:RB,0.995,very_likely,2,68.0,62.0,156.182,14,
+61,nfl:gsis:00-0039919,25411,Rome Odunze,WR,CHI,8.8,8.7,1.7,15.9,historical_forward_error_p80:WR,0.9458,very_likely,17,57.0,65.0,142.707,2,
+62,nfl:gsis:00-0038996,25298,Tucker Kraft,TE,GB,8.4,8.3,3.6,13.1,historical_forward_error_p80:TE,0.7347,likely,2,77.0,58.0,115.639,1,
+63,nfl:gsis:00-0037240,23677,Jameson Williams,WR,DET,8.1,8.0,1.0,15.2,historical_forward_error_p80:WR,0.995,very_likely,14,59.0,64.0,152.861,9,
+64,nfl:gsis:00-0040735,27016,Luther Burden III,WR,CHI,8.1,8.0,1.0,15.2,historical_forward_error_p80:WR,0.9396,very_likely,11,65.0,57.0,135.33,,prior_jugg_salary
+65,nfl:gsis:00-0034827,17265,DJ Moore,WR,BUF,7.9,7.8,1.0,15.0,historical_forward_error_p80:WR,0.995,very_likely,11,56.0,59.0,139.029,2,
+66,nfl:gsis:00-0039065,22978,Sam LaPorta,TE,DET,7.5,7.5,2.8,12.3,historical_forward_error_p80:TE,0.9421,very_likely,6,62.0,61.0,113.705,8,
+67,nfl:gsis:00-0040663,27050,Harold Fannin Jr.,TE,CLE,7.2,7.1,2.4,11.9,historical_forward_error_p80:TE,0.8641,very_likely,6,64.0,70.0,116.234,,prior_jugg_salary
+68,nfl:gsis:00-0039918,23084,Caleb Williams,QB,CHI,6.7,6.6,2.0,11.5,historical_forward_error_p80:QB,0.7028,likely,3,82.0,68.0,328.821,,prior_jugg_salary
+69,nfl:gsis:00-0036970,20164,Kyle Pitts Sr.,TE,ATL,6.6,6.5,1.8,11.3,historical_forward_error_p80:TE,0.9419,very_likely,6,58.0,71.0,110.578,3,
+70,nfl:gsis:00-0037228,24209,Jaylen Warren,RB,PIT,6.4,6.4,1.0,12.5,historical_forward_error_p80:RB,0.833,very_likely,2,86.0,73.0,150.972,1,
+71,nfl:gsis:00-0036875,22726,Rhamondre Stevenson,RB,NE,6.2,6.1,1.0,12.2,historical_forward_error_p80:RB,0.9868,very_likely,8,71.0,75.0,153.299,1,
+72,nfl:gsis:00-0033077,15600,Dak Prescott,QB,DAL,6.0,5.9,1.2,10.8,historical_forward_error_p80:QB,0.8078,very_likely,4,72.0,72.0,337.131,5,
+73,nfl:gsis:00-0033288,16499,George Kittle,TE,SF,5.8,5.7,1.0,10.5,historical_forward_error_p80:TE,0.7409,likely,2,79.0,81.0,115.657,22,
+74,nfl:gsis:00-0040691,23160,Jaxson Dart,QB,NYG,5.7,5.6,1.0,10.4,historical_forward_error_p80:QB,0.7956,likely,5,66.0,87.0,332.041,,prior_jugg_salary
+75,nfl:gsis:00-0037692,26068,Brandon Aubrey,K,DAL,5.5,5.5,3.0,8.0,historical_forward_error_p80:K,0.995,very_likely,1,75.0,82.0,153.03,5,
+76,nfl:gsis:00-0035261,18705,Tony Pollard,RB,TEN,5.2,5.2,1.0,11.3,historical_forward_error_p80:RB,0.8071,very_likely,2,94.0,80.0,155.887,4,
+77,nfl:gsis:00-0036355,18635,Justin Herbert,QB,LAC,5.0,4.9,1.0,9.7,historical_forward_error_p80:QB,0.6805,likely,3,96.0,69.0,325.803,15,
+78,nfl:gsis:00-0035358,19058,Chase McLaughlin,K,TB,4.9,4.9,2.4,7.5,historical_forward_error_p80:K,0.1637,unlikely,0,,221.0,132.85,,adp_espn;prior_jugg_salary
+79,nfl:gsis:00-0037252,23153,Greg Dulcich,TE,MIA,4.9,4.8,1.0,9.6,historical_forward_error_p80:TE,0.005,unlikely,0,,202.0,78.939,,adp_espn;prior_jugg_salary
+80,nfl:gsis:00-0031203,13731,Cairo Santos,K,CHI,4.8,4.7,2.3,7.3,historical_forward_error_p80:K,0.2001,long_shot,0,195.0,226.0,133.31,,prior_jugg_salary
+81,nfl:gsis:00-0031408,12119,Mike Evans,WR,SF,4.7,4.7,1.0,11.9,historical_forward_error_p80:WR,0.892,very_likely,5,81.0,66.0,135.784,30,
+82,nfl:gsis:00-0036971,19780,Trevor Lawrence,QB,JAX,4.5,4.4,1.0,9.2,historical_forward_error_p80:QB,0.694,likely,4,84.0,79.0,333.212,1,
+83,nfl:gsis:00-0037809,23982,Chig Okonkwo,TE,WAS,4.3,4.2,1.0,9.0,historical_forward_error_p80:TE,0.0254,unlikely,0,238.0,155.0,73.367,,prior_jugg_salary
+84,nfl:gsis:00-0039404,26341,Will Reichard,K,MIN,4.2,4.2,1.7,6.8,historical_forward_error_p80:K,0.2429,long_shot,0,181.0,223.0,130.72,,prior_jugg_salary
+85,nfl:gsis:00-0041438,26009,Carnell Tate,WR,TEN,4.0,4.0,1.0,11.2,historical_forward_error_p80:WR,0.9377,very_likely,7,67.0,76.0,113.235,,prior_jugg_salary
+86,nfl:gsis:00-0036555,19792,Chuba Hubbard,RB,CAR,4.0,4.0,1.0,10.1,historical_forward_error_p80:RB,0.7412,likely,2,110.0,84.0,137.183,19,
+87,nfl:gsis:00-0034173,17575,Eddy Pineiro,K,SF,4.0,4.0,1.5,6.6,historical_forward_error_p80:K,0.3278,long_shot,1,145.0,224.0,132.62,,prior_jugg_salary
+88,nfl:gsis:00-0036854,23297,Evan McPherson,K,CIN,4.0,4.0,1.5,6.5,historical_forward_error_p80:K,0.1953,unlikely,0,206.0,222.0,128.72,1,
+89,nfl:gsis:00-0041052,28401,Kaelon Black,RB,SF,4.0,4.0,1.0,10.1,historical_forward_error_p80:RB,0.0709,unlikely,0,,192.0,78.104,,adp_espn;prior_jugg_salary
+90,nfl:gsis:00-0040074,27534,Tyler Loop,K,BAL,3.9,3.8,1.3,6.4,historical_forward_error_p80:K,0.2726,long_shot,1,170.0,220.0,132.06,,prior_jugg_salary
+91,nfl:gsis:00-0036158,19245,J.K. Dobbins,RB,DEN,3.8,3.7,1.0,9.8,historical_forward_error_p80:RB,0.73,likely,2,107.0,93.0,156.646,10,
+92,nfl:gsis:00-0038454,25360,Keaton Mitchell,RB,LAC,3.8,3.7,1.0,9.9,historical_forward_error_p80:RB,0.0923,unlikely,0,197.0,200.0,68.866,,prior_jugg_salary
+93,nfl:gsis:00-0039849,23064,Marvin Harrison Jr.,WR,ARI,3.8,3.7,1.0,10.9,historical_forward_error_p80:WR,0.9483,very_likely,7,73.0,74.0,131.595,19,
+94,nfl:gsis:00-0026498,9451,Matthew Stafford,QB,LAR,3.8,3.8,1.0,8.6,historical_forward_error_p80:QB,0.7451,likely,4,70.0,99.0,327.976,1,
+95,nfl:gsis:00-0038129,23181,Cade Otton,TE,TB,3.7,3.7,1.0,8.5,historical_forward_error_p80:TE,0.005,unlikely,0,,,74.021,,adp_espn;adp_yahoo;prior_jugg_salary
+96,nfl:def:HOU,8120,Houston Texans,DEF,HOU,3.7,3.7,1.9,5.5,historical_forward_error_p80:DEF,0.995,very_likely,1,78.0,88.0,124.0,10,
+97,nfl:gsis:00-0036139,19647,Rico Dowdle,RB,PIT,3.7,3.6,1.0,9.7,historical_forward_error_p80:RB,0.8526,very_likely,7,90.0,85.0,148.503,1,
+98,nfl:gsis:00-0030506,11594,Travis Kelce,TE,KC,3.7,3.7,1.0,8.5,historical_forward_error_p80:TE,0.67,likely,2,87.0,90.0,107.21,4,
+99,nfl:gsis:00-0040200,27291,Andy Borregales,K,NE,3.6,3.6,1.1,6.2,historical_forward_error_p80:K,0.7382,likely,,,225.0,119.37,,espn_salary_cap_value;adp_espn;prior_jugg_salary
+100,nfl:gsis:00-0038611,22986,Chris Rodriguez Jr.,RB,JAX,3.6,3.6,1.0,9.7,historical_forward_error_p80:RB,0.1441,unlikely,1,172.0,199.0,90.219,,prior_jugg_salary
+101,nfl:gsis:00-0040584,27109,Gunnar Helm,TE,TEN,3.6,3.5,1.0,8.3,historical_forward_error_p80:TE,0.005,unlikely,0,,,62.667,,adp_espn;adp_yahoo;prior_jugg_salary
+102,nfl:gsis:00-0034829,17272,Mike Gesicki,TE,CIN,3.6,3.5,1.0,8.3,historical_forward_error_p80:TE,0.005,unlikely,0,,,64.668,,adp_espn;adp_yahoo;prior_jugg_salary
+103,nfl:gsis:00-0039794,24346,Braelon Allen,RB,NYJ,3.5,3.5,1.0,9.6,historical_forward_error_p80:RB,0.0454,unlikely,0,,,82.664,,adp_espn;adp_yahoo;prior_jugg_salary
+104,nfl:gsis:00-0036244,19372,Colby Parkinson,TE,LAR,3.5,3.4,1.0,8.2,historical_forward_error_p80:TE,0.005,unlikely,0,,,57.191,,adp_espn;adp_yahoo;prior_jugg_salary
+105,nfl:gsis:00-0040583,27520,Woody Marks,RB,HOU,3.5,3.5,1.0,9.6,historical_forward_error_p80:RB,0.2227,long_shot,1,146.0,195.0,100.263,,prior_jugg_salary
+106,nfl:gsis:00-0038124,23886,Christian Watson,WR,GB,3.4,3.4,1.0,10.5,historical_forward_error_p80:WR,0.8557,very_likely,6,85.0,67.0,136.146,3,
+107,nfl:gsis:00-0034975,18256,Justice Hill,RB,BAL,3.4,3.4,1.0,9.5,historical_forward_error_p80:RB,0.0452,unlikely,0,,,79.414,,adp_espn;adp_yahoo;prior_jugg_salary
+108,nfl:gsis:00-0039066,23056,Michael Mayer,TE,LV,3.4,3.4,1.0,8.2,historical_forward_error_p80:TE,0.005,unlikely,0,,,49.971,,adp_espn;adp_yahoo;prior_jugg_salary
+109,nfl:gsis:00-0038935,25345,Brenton Strange,TE,JAX,3.3,3.2,1.0,8.0,historical_forward_error_p80:TE,0.0819,unlikely,0,183.0,173.0,91.703,,prior_jugg_salary
+110,nfl:gsis:00-0039498,26638,Harrison Mevis,K,LAR,3.3,3.3,1.0,5.8,historical_forward_error_p80:K,0.4577,bubble,1,128.0,204.0,136.89,,prior_jugg_salary
+111,nfl:gsis:00-0035537,18406,Ty Johnson,RB,BUF,3.3,3.3,1.0,9.4,historical_forward_error_p80:RB,0.0443,unlikely,0,,,71.56,,adp_espn;adp_yahoo;prior_jugg_salary
+112,nfl:gsis:00-0039384,22980,Tyrone Tracy Jr.,RB,NYG,3.3,3.2,1.0,9.3,historical_forward_error_p80:RB,0.0677,unlikely,0,,194.0,71.302,1,adp_espn
+113,nfl:gsis:00-0039793,26335,AJ Barner,TE,SEA,3.2,3.1,1.0,7.9,historical_forward_error_p80:TE,0.0904,unlikely,0,211.0,147.0,75.809,,prior_jugg_salary
+114,nfl:gsis:00-0034351,17270,Dallas Goedert,TE,PHI,3.2,3.2,1.0,8.0,historical_forward_error_p80:TE,0.6002,likely,2,88.0,106.0,113.883,1,
+115,nfl:gsis:00-0038705,25654,Emari Demercado,RB,KC,3.2,3.2,1.0,9.3,historical_forward_error_p80:RB,0.0434,unlikely,0,,,66.462,,adp_espn;adp_yahoo;prior_jugg_salary
+116,nfl:gsis:00-0040177,27310,Jordan James,RB,SF,3.2,3.1,1.0,9.2,historical_forward_error_p80:RB,0.0423,unlikely,0,,,61.857,,adp_espn;adp_yahoo;prior_jugg_salary
+117,nfl:gsis:00-0039811,23118,MarShawn Lloyd,RB,GB,3.2,3.2,1.0,9.3,historical_forward_error_p80:RB,0.1656,unlikely,0,192.0,179.0,89.809,,prior_jugg_salary
+118,nfl:gsis:00-0040888,24367,Adam Randall,RB,BAL,3.1,3.1,1.0,9.2,historical_forward_error_p80:RB,0.0407,unlikely,0,,,56.276,,adp_espn;adp_yahoo;prior_jugg_salary
+119,nfl:gsis:00-0039732,22910,Bo Nix,QB,DEN,3.1,3.0,1.0,7.8,historical_forward_error_p80:QB,0.7574,likely,4,76.0,98.0,324.973,8,
+120,nfl:gsis:00-0041104,28084,Demond Claiborne,RB,MIN,3.1,3.1,1.0,9.2,historical_forward_error_p80:RB,0.0147,unlikely,0,,,16.857,,adp_espn;adp_yahoo;prior_jugg_salary
+121,nfl:gsis:00-0039172,26075,Jake Bates,K,DET,3.1,3.0,1.0,5.6,historical_forward_error_p80:K,0.3174,long_shot,1,157.0,218.0,135.87,1,
+122,nfl:gsis:00-0041096,24362,Kaytron Allen,RB,WAS,3.1,3.0,1.0,9.1,historical_forward_error_p80:RB,0.0165,unlikely,0,,,18.497,,adp_espn;adp_yahoo;prior_jugg_salary
+123,nfl:gsis:00-0040886,24343,Nicholas Singleton,RB,TEN,3.1,3.1,1.0,9.2,historical_forward_error_p80:RB,0.0131,unlikely,0,,,15.448,,adp_espn;adp_yahoo;prior_jugg_salary
+124,nfl:gsis:00-0040189,25997,Oronde Gadsden II,TE,LAC,3.1,3.1,1.0,7.8,historical_forward_error_p80:TE,0.0457,unlikely,0,,157.0,63.29,,adp_espn;prior_jugg_salary
+125,nfl:gsis:00-0040743,23096,Tyler Shough,QB,NO,3.1,3.1,1.0,7.9,historical_forward_error_p80:QB,0.1109,unlikely,1,151.0,187.0,307.589,,prior_jugg_salary
+126,nfl:gsis:00-0032569,16026,Wil Lutz,K,DEN,3.1,3.1,1.0,5.6,historical_forward_error_p80:K,0.834,very_likely,,226.0,213.0,128.51,15,espn_salary_cap_value
+127,nfl:gsis:00-0039746,22930,Will Shipley,RB,PHI,3.1,3.1,1.0,9.2,historical_forward_error_p80:RB,0.0141,unlikely,0,,,16.282,,adp_espn;adp_yahoo;prior_jugg_salary
+128,nfl:gsis:00-0038685,25823,Chris Brooks,RB,GB,3.0,2.9,1.0,9.0,historical_forward_error_p80:RB,0.028,unlikely,0,,,31.271,,adp_espn;adp_yahoo;prior_jugg_salary
+129,nfl:gsis:00-0038797,25885,Emanuel Wilson,RB,SEA,3.0,3.0,1.0,9.1,historical_forward_error_p80:RB,0.0356,unlikely,0,,,43.641,,adp_espn;adp_yahoo;prior_jugg_salary
+130,nfl:gsis:00-0039299,22915,George Holani,RB,SEA,3.0,2.9,1.0,9.0,historical_forward_error_p80:RB,0.0293,unlikely,0,,,33.116,,adp_espn;adp_yahoo;prior_jugg_salary
+131,nfl:gsis:00-0039798,25977,Isaiah Davis,RB,NYJ,3.0,2.9,1.0,9.0,historical_forward_error_p80:RB,0.0295,unlikely,0,,,33.426,,adp_espn;adp_yahoo;prior_jugg_salary
+132,nfl:gsis:00-0039874,25987,Jaylen Wright,RB,MIA,3.0,3.0,1.0,9.1,historical_forward_error_p80:RB,0.0355,unlikely,0,,,43.558,,adp_espn;adp_yahoo;prior_jugg_salary
+133,nfl:gsis:00-0041496,27320,Jonah Coleman,RB,DEN,3.0,2.9,1.0,9.0,historical_forward_error_p80:RB,0.1172,unlikely,0,205.0,182.0,39.222,,prior_jugg_salary
+134,nfl:gsis:00-0038551,24360,Kendre Miller,RB,NO,3.0,3.0,1.0,9.1,historical_forward_error_p80:RB,0.0188,unlikely,0,,,20.65,,adp_espn;adp_yahoo;prior_jugg_salary
+135,nfl:gsis:00-0039391,26355,Kimani Vidal,RB,LAC,3.0,3.0,1.0,9.1,historical_forward_error_p80:RB,0.0372,unlikely,0,,,47.1,,adp_espn;adp_yahoo;prior_jugg_salary
+136,nfl:gsis:00-0040238,27285,LeQuint Allen Jr.,RB,JAX,3.0,2.9,1.0,9.0,historical_forward_error_p80:RB,0.0259,unlikely,0,,,28.552,,adp_espn;adp_yahoo;prior_jugg_salary
+137,nfl:def:LAC,8250,Los Angeles Chargers,DEF,LAC,3.0,3.0,1.2,4.8,historical_forward_error_p80:DEF,0.1981,unlikely,0,169.0,219.0,112.62,,prior_jugg_salary
+138,nfl:gsis:00-0040198,25984,Ollie Gordon II,RB,MIA,3.0,2.9,1.0,9.0,historical_forward_error_p80:RB,0.0277,unlikely,0,,,30.88,,adp_espn;adp_yahoo;prior_jugg_salary
+139,nfl:gsis:00-0036894,20163,Pat Freiermuth,TE,PIT,3.0,2.9,1.0,7.7,historical_forward_error_p80:TE,0.1247,unlikely,0,203.0,139.0,81.14,,prior_jugg_salary
+140,nfl:gsis:00-0039875,26191,Ray Davis,RB,BUF,3.0,2.9,1.0,9.0,historical_forward_error_p80:RB,0.0255,unlikely,0,,,28.108,,adp_espn;adp_yahoo;prior_jugg_salary
+141,nfl:gsis:00-0038951,23679,Sean Tucker,RB,TB,3.0,2.9,1.0,9.0,historical_forward_error_p80:RB,0.0275,unlikely,0,,,30.641,,adp_espn;adp_yahoo;prior_jugg_salary
+142,nfl:gsis:00-0041125,23079,Seth McGowan,RB,IND,3.0,3.0,1.0,9.1,historical_forward_error_p80:RB,0.0181,unlikely,0,,,19.968,,adp_espn;adp_yahoo;prior_jugg_salary
+143,nfl:gsis:00-0039032,25323,Tyjae Spears,RB,TEN,3.0,3.0,1.0,9.1,historical_forward_error_p80:RB,0.1757,unlikely,1,156.0,206.0,92.249,2,
+144,nfl:def:GB,8110,Green Bay Packers,DEF,GB,2.9,2.9,1.1,4.8,historical_forward_error_p80:DEF,0.1527,unlikely,0,194.0,216.0,99.09,,prior_jugg_salary
+145,nfl:gsis:00-0040236,27131,Kyle Monangai,RB,CHI,2.9,2.9,1.0,9.0,historical_forward_error_p80:RB,0.6152,likely,2,118.0,105.0,133.394,,prior_jugg_salary
+146,nfl:gsis:00-0038606,23106,Parker Washington,WR,JAX,2.9,2.9,1.0,10.0,historical_forward_error_p80:WR,0.8284,very_likely,6,83.0,77.0,121.803,,prior_jugg_salary
+147,nfl:gsis:00-0038555,22908,Tank Bigsby,RB,PHI,2.9,2.8,1.0,8.9,historical_forward_error_p80:RB,0.122,unlikely,0,202.0,188.0,78.354,1,
+148,nfl:gsis:00-0031610,14104,Darren Waller,TE,CAR,2.8,2.8,1.0,7.6,historical_forward_error_p80:TE,0.005,unlikely,0,,,72.447,9,adp_espn;adp_yahoo
+149,nfl:gsis:00-0033881,16411,Evan Engram,TE,DEN,2.8,2.8,1.0,7.6,historical_forward_error_p80:TE,0.005,unlikely,0,,,63.692,1,adp_espn;adp_yahoo
+150,nfl:def:JAX,8140,Jacksonville Jaguars,DEF,JAX,2.8,2.8,1.0,4.7,historical_forward_error_p80:DEF,0.1705,unlikely,0,187.0,215.0,103.9,,prior_jugg_salary
+151,nfl:gsis:00-0037834,19797,Brock Purdy,QB,SF,2.7,2.7,1.0,7.5,historical_forward_error_p80:QB,0.6066,likely,4,95.0,95.0,335.233,1,
+152,nfl:gsis:00-0037263,24172,Tyler Allgeier,RB,ARI,2.7,2.7,1.0,8.8,historical_forward_error_p80:RB,0.2226,long_shot,0,165.0,181.0,81.541,,prior_jugg_salary
+153,nfl:gsis:00-0039893,23000,Brian Thomas Jr.,WR,JAX,2.6,2.5,1.0,9.7,historical_forward_error_p80:WR,0.7727,likely,4,97.0,78.0,123.047,38,
+154,nfl:gsis:00-0040162,27102,Dylan Sampson,RB,CLE,2.6,2.6,1.0,8.7,historical_forward_error_p80:RB,0.0478,unlikely,0,,,73.101,1,adp_espn;adp_yahoo
+155,nfl:gsis:00-0041013,28107,Emmett Johnson,RB,KC,2.6,2.6,1.0,8.7,historical_forward_error_p80:RB,0.1331,unlikely,0,,162.0,29.5,,adp_espn;prior_jugg_salary
+156,nfl:gsis:00-0040242,27316,Jacory Croskey-Merritt,RB,WAS,2.6,2.6,1.0,8.7,historical_forward_error_p80:RB,0.5799,bubble,2,123.0,111.0,135.002,,prior_jugg_salary
+157,nfl:gsis:00-0039344,26148,Jonathon Brooks,RB,CAR,2.6,2.6,1.0,8.7,historical_forward_error_p80:RB,0.763,likely,3,103.0,91.0,134.527,2,
+158,nfl:gsis:00-0036040,19562,Juwan Johnson,TE,NO,2.6,2.6,1.0,7.3,historical_forward_error_p80:TE,0.1724,unlikely,0,163.0,156.0,90.045,,prior_jugg_salary
+159,nfl:gsis:00-0040730,27142,RJ Harvey,RB,DEN,2.6,2.5,1.0,8.6,historical_forward_error_p80:RB,0.5728,bubble,1,130.0,104.0,116.213,9,
+160,nfl:gsis:00-0033526,16423,Samaje Perine,RB,CIN,2.6,2.5,1.0,8.6,historical_forward_error_p80:RB,0.0582,unlikely,0,,,78.249,2,adp_espn;adp_yahoo
+161,nfl:gsis:00-0036919,23310,Kenny Gainwell,RB,TB,2.5,2.4,1.0,8.5,historical_forward_error_p80:RB,0.6309,likely,2,105.0,123.0,121.804,,prior_jugg_salary
+162,nfl:gsis:00-0036893,19302,Najee Harris,RB,NYG,2.5,2.4,1.0,8.5,historical_forward_error_p80:RB,0.0459,unlikely,0,,,63.339,1,adp_espn;adp_yahoo
+163,nfl:gsis:00-0035640,18219,DK Metcalf,WR,PIT,2.4,2.3,1.0,9.5,historical_forward_error_p80:WR,0.9164,very_likely,7,74.0,83.0,130.967,5,
+164,nfl:gsis:00-0033885,16399,David Njoku,TE,LAC,2.4,2.4,1.0,7.1,historical_forward_error_p80:TE,0.0965,unlikely,0,216.0,141.0,65.138,1,
+165,nfl:def:LAR,8280,Los Angeles Rams,DEF,LAR,2.4,2.3,1.0,4.2,historical_forward_error_p80:DEF,0.8516,very_likely,1,100.0,86.0,111.27,1,
+166,nfl:def:PIT,8240,Pittsburgh Steelers,DEF,PIT,2.4,2.3,1.0,4.2,historical_forward_error_p80:DEF,0.421,bubble,1,109.0,211.0,115.73,2,
+167,nfl:gsis:00-0031136,13029,Chris Boswell,K,PIT,2.3,2.3,1.0,4.9,historical_forward_error_p80:K,0.3239,long_shot,0,167.0,212.0,118.33,1,
+168,nfl:gsis:00-0034348,17253,Courtland Sutton,WR,DEN,2.3,2.3,1.0,9.4,historical_forward_error_p80:WR,0.9008,very_likely,10,69.0,103.0,131.192,15,
+169,nfl:gsis:00-0033106,15501,Jared Goff,QB,DET,2.3,2.3,1.0,7.1,historical_forward_error_p80:QB,0.3428,long_shot,1,132.0,117.0,319.467,1,
+170,nfl:gsis:00-0033873,16413,Patrick Mahomes II,QB,KC,2.3,2.3,1.0,7.0,historical_forward_error_p80:QB,0.6134,likely,3,98.0,100.0,330.13,9,
+171,nfl:gsis:00-0036162,19760,Tyler Bass,K,BUF,2.3,2.3,1.0,4.8,historical_forward_error_p80:K,0.8346,very_likely,,214.0,210.0,123.58,1,espn_salary_cap_value
+172,nfl:gsis:00-0039165,23152,Zach Charbonnet,RB,SEA,2.3,2.3,1.0,8.4,historical_forward_error_p80:RB,0.2914,long_shot,1,152.0,180.0,103.286,14,
+173,nfl:def:DEN,8090,Denver Broncos,DEF,DEN,2.2,2.2,1.0,4.0,historical_forward_error_p80:DEF,0.8939,very_likely,1,89.0,101.0,122.24,2,
+174,nfl:gsis:00-0037838,23781,Isaiah Likely,TE,NYG,2.2,2.2,1.0,6.9,historical_forward_error_p80:TE,0.4519,bubble,2,119.0,110.0,102.191,,prior_jugg_salary
+175,nfl:gsis:00-0039491,26403,Jalen Coker,WR,CAR,2.2,2.2,1.0,9.3,historical_forward_error_p80:WR,0.0992,unlikely,1,160.0,205.0,97.078,,prior_jugg_salary
+176,nfl:gsis:00-0037816,23794,Romeo Doubs,WR,NE,2.2,2.2,1.0,9.4,historical_forward_error_p80:WR,0.1407,unlikely,1,148.0,201.0,106.583,,prior_jugg_salary
+177,nfl:gsis:00-0033293,16673,Aaron Jones Sr.,RB,MIN,2.1,2.1,1.0,8.2,historical_forward_error_p80:RB,0.5238,bubble,1,120.0,136.0,120.489,6,
+178,nfl:def:BAL,8020,Baltimore Ravens,DEF,BAL,2.1,2.0,1.0,3.9,historical_forward_error_p80:DEF,0.3227,long_shot,1,127.0,217.0,105.28,1,
+179,nfl:gsis:00-0039738,23013,Blake Corum,RB,LAR,2.1,2.0,1.0,8.1,historical_forward_error_p80:RB,0.6246,likely,2,125.0,97.0,126.627,2,
+180,nfl:gsis:00-0041037,27339,Denzel Boston,WR,CLE,2.1,2.1,1.0,9.2,historical_forward_error_p80:WR,0.09,unlikely,0,176.0,198.0,95.863,,prior_jugg_salary
+181,nfl:gsis:00-0037291,24177,Jalen Nailor,WR,LV,2.1,2.0,1.0,9.2,historical_forward_error_p80:WR,0.0407,unlikely,0,,184.0,83.529,,adp_espn;prior_jugg_salary
+182,nfl:gsis:00-0038933,25247,Dalton Kincaid,TE,BUF,2.0,2.0,1.0,6.7,historical_forward_error_p80:TE,0.5173,bubble,2,121.0,96.0,103.099,11,
+183,nfl:gsis:00-0034383,17349,Dalton Schultz,TE,HOU,2.0,2.0,1.0,6.8,historical_forward_error_p80:TE,0.1179,unlikely,0,190.0,165.0,82.514,6,
+184,nfl:gsis:00-0035229,18290,T.J. Hockenson,TE,MIN,2.0,1.9,1.0,6.7,historical_forward_error_p80:TE,0.2462,long_shot,0,129.0,175.0,76.727,6,
+185,nfl:gsis:00-0037197,24333,Isiah Pacheco,RB,DET,1.9,1.9,1.0,8.0,historical_forward_error_p80:RB,0.3462,long_shot,0,164.0,153.0,102.799,17,
+186,nfl:gsis:00-0040878,28108,Mike Washington Jr.,RB,LV,1.9,1.9,1.0,8.0,historical_forward_error_p80:RB,0.3598,long_shot,0,166.0,131.0,83.22,,prior_jugg_salary
+187,nfl:gsis:00-0037664,23791,Alec Pierce,WR,IND,1.8,1.8,1.0,9.0,historical_forward_error_p80:WR,0.7564,likely,6,91.0,89.0,135.744,,prior_jugg_salary
+188,nfl:def:ATL,8010,Atlanta Falcons,DEF,ATL,1.8,1.8,1.0,3.6,historical_forward_error_p80:DEF,0.7169,likely,,,203.0,105.59,,espn_salary_cap_value;adp_espn;prior_jugg_salary
+189,nfl:def:DET,8100,Detroit Lions,DEF,DET,1.8,1.8,1.0,3.7,historical_forward_error_p80:DEF,0.2615,long_shot,1,150.0,214.0,111.39,1,
+190,nfl:gsis:00-0038608,22989,Kayshon Boutte,WR,HOU,1.8,1.7,1.0,8.9,historical_forward_error_p80:WR,0.005,unlikely,0,,,81.826,,adp_espn;adp_yahoo;prior_jugg_salary
+191,nfl:gsis:00-0041523,28135,Caleb Douglas,WR,MIA,1.7,1.7,1.0,8.8,historical_forward_error_p80:WR,0.005,unlikely,0,217.0,,65.388,,adp_yahoo;prior_jugg_salary
+192,nfl:gsis:00-0037224,23901,Cameron Dicker,K,LAC,1.7,1.7,1.0,4.2,historical_forward_error_p80:K,0.8711,very_likely,1,99.0,135.0,142.73,3,
+193,nfl:gsis:00-0039424,26409,Devaughn Vele,WR,NO,1.7,1.7,1.0,8.8,historical_forward_error_p80:WR,0.005,unlikely,0,,,78.51,,adp_espn;adp_yahoo;prior_jugg_salary
+194,nfl:gsis:00-0033303,16712,Harrison Butker,K,KC,1.7,1.7,1.0,4.2,historical_forward_error_p80:K,0.4691,bubble,1,141.0,196.0,131.95,3,
+195,nfl:gsis:00-0031492,14003,Jason Myers,K,SEA,1.7,1.7,1.0,4.2,historical_forward_error_p80:K,0.7823,likely,1,111.0,134.0,150.42,1,
+196,nfl:gsis:00-0040586,24344,Jaydon Blue,RB,DAL,1.7,1.7,1.0,7.8,historical_forward_error_p80:RB,0.1809,unlikely,0,,149.0,45.934,1,adp_espn
+197,nfl:gsis:00-0041032,26055,Kenyon Sadiq,TE,NYJ,1.7,1.7,1.0,6.5,historical_forward_error_p80:TE,0.1617,unlikely,2,147.0,185.0,76.282,,prior_jugg_salary
+198,nfl:gsis:00-0030565,11687,Geno Smith,QB,NYJ,1.6,1.6,1.0,6.3,historical_forward_error_p80:QB,0.005,unlikely,0,,,256.987,,adp_espn;adp_yahoo;prior_jugg_salary
+199,nfl:gsis:00-0038041,22718,Jake Ferguson,TE,DAL,1.6,1.6,1.0,6.3,historical_forward_error_p80:TE,0.5028,bubble,2,102.0,120.0,93.52,1,
+200,nfl:gsis:00-0034869,17236,Sam Darnold,QB,SEA,1.6,1.6,1.0,6.3,historical_forward_error_p80:QB,0.2425,long_shot,0,162.0,133.0,293.971,,prior_jugg_salary
+201,nfl:gsis:00-0041040,25418,Antonio Williams,WR,WAS,1.5,1.5,1.0,8.6,historical_forward_error_p80:WR,0.005,unlikely,0,,,68.68,,adp_espn;adp_yahoo;prior_jugg_salary
+202,nfl:gsis:00-0041561,22953,Carson Beck,QB,ARI,1.5,1.5,1.0,6.3,historical_forward_error_p80:QB,0.005,unlikely,0,329.0,,25.421,,adp_yahoo;prior_jugg_salary
+203,nfl:gsis:00-0038393,24354,Dontayvion Wicks,WR,PHI,1.5,1.5,1.0,8.6,historical_forward_error_p80:WR,0.005,unlikely,0,,,68.414,,adp_espn;adp_yahoo;prior_jugg_salary
+204,nfl:gsis:00-0041489,26039,Germie Bernard,WR,PIT,1.5,1.5,1.0,8.6,historical_forward_error_p80:WR,0.005,unlikely,0,,,68.042,,adp_espn;adp_yahoo;prior_jugg_salary
+205,nfl:gsis:00-0033553,16447,James Conner,RB,ARI,1.5,1.5,1.0,7.6,historical_forward_error_p80:RB,0.223,long_shot,0,,145.0,44.15,10,adp_espn
+206,nfl:gsis:00-0040138,27122,Jaylin Noel,WR,HOU,1.5,1.5,1.0,8.6,historical_forward_error_p80:WR,0.005,unlikely,0,,,66.182,,adp_espn;adp_yahoo;prior_jugg_salary
+207,nfl:gsis:00-0039880,26314,Malik Washington,WR,MIA,1.5,1.5,1.0,8.6,historical_forward_error_p80:WR,0.005,unlikely,0,,,66.233,,adp_espn;adp_yahoo;prior_jugg_salary
+208,nfl:gsis:00-0038128,23499,Malik Willis,QB,MIA,1.5,1.5,1.0,6.3,historical_forward_error_p80:QB,0.1836,unlikely,0,179.0,142.0,287.951,,prior_jugg_salary
+209,nfl:gsis:00-0041511,28127,Omar Cooper Jr.,WR,NYJ,1.5,1.4,1.0,8.6,historical_forward_error_p80:WR,0.005,unlikely,0,,,64.709,,adp_espn;adp_yahoo;prior_jugg_salary
+210,nfl:gsis:00-0038104,22913,Tyquan Thornton,WR,KC,1.5,1.5,1.0,8.6,historical_forward_error_p80:WR,0.005,unlikely,0,,,67.554,,adp_espn;adp_yahoo;prior_jugg_salary
+211,nfl:gsis:00-0034855,17237,Baker Mayfield,QB,TB,1.4,1.4,1.0,6.1,historical_forward_error_p80:QB,0.2614,long_shot,0,143.0,151.0,307.7,3,
+212,nfl:gsis:00-0039150,22900,Bryce Young,QB,CAR,1.4,1.4,1.0,6.2,historical_forward_error_p80:QB,0.1867,unlikely,0,193.0,130.0,278.613,,prior_jugg_salary
+213,nfl:gsis:00-0039409,26475,Cam Little,K,JAX,1.4,1.4,1.0,3.9,historical_forward_error_p80:K,0.5059,bubble,1,138.0,183.0,131.47,1,
+214,nfl:gsis:00-0041525,26038,Chris Bell,WR,MIA,1.4,1.4,1.0,8.5,historical_forward_error_p80:WR,0.005,unlikely,0,,,62.24,,adp_espn;adp_yahoo;prior_jugg_salary
+215,nfl:gsis:00-0041029,26035,Jordyn Tyson,WR,NO,1.4,1.4,1.0,8.5,historical_forward_error_p80:WR,0.3377,long_shot,0,180.0,92.0,69.0,,prior_jugg_salary
+216,nfl:gsis:00-0035228,18600,Kyler Murray,QB,MIN,1.4,1.4,1.0,6.2,historical_forward_error_p80:QB,0.3424,long_shot,1,142.0,114.0,303.713,2,
+217,nfl:gsis:00-0034753,17269,Mark Andrews,TE,BAL,1.4,1.4,1.0,6.1,historical_forward_error_p80:TE,0.4922,bubble,2,113.0,116.0,107.564,4,
+218,nfl:gsis:00-0038563,25337,Tre Tucker,WR,LV,1.4,1.4,1.0,8.5,historical_forward_error_p80:WR,0.0538,unlikely,0,189.0,,91.849,,adp_yahoo;prior_jugg_salary
+219,nfl:gsis:00-0039342,26136,Xavier Legette,WR,CAR,1.4,1.4,1.0,8.5,historical_forward_error_p80:WR,0.005,unlikely,0,,,57.906,,adp_espn;adp_yahoo;prior_jugg_salary
+220,nfl:gsis:00-0033906,16421,Alvin Kamara,RB,NO,1.3,1.3,1.0,7.3,historical_forward_error_p80:RB,0.3701,long_shot,0,161.0,148.0,85.296,14,
+221,nfl:def:CLE,8070,Cleveland Browns,DEF,CLE,1.3,1.3,1.0,3.1,historical_forward_error_p80:DEF,0.2687,long_shot,1,154.0,209.0,100.91,1,
+222,nfl:gsis:00-0038621,25304,DeMario Douglas,WR,NE,1.3,1.3,1.0,8.4,historical_forward_error_p80:WR,0.005,unlikely,0,,,51.011,,adp_espn;adp_yahoo;prior_jugg_salary
+223,nfl:gsis:00-0033119,15642,Jacoby Brissett,QB,ARI,1.3,1.3,1.0,6.0,historical_forward_error_p80:QB,0.005,unlikely,0,,,250.094,,adp_espn;adp_yahoo;prior_jugg_salary
+224,nfl:gsis:00-0037666,23770,Jalen Tolbert,WR,MIA,1.3,1.3,1.0,8.4,historical_forward_error_p80:WR,0.005,unlikely,0,,,50.454,,adp_espn;adp_yahoo;prior_jugg_salary
+225,nfl:gsis:00-0037525,22969,Jordan Mason,RB,MIN,1.3,1.3,1.0,7.4,historical_forward_error_p80:RB,0.5204,bubble,2,135.0,119.0,130.729,1,
+226,nfl:gsis:00-0037256,23891,Rachaad White,RB,WAS,1.3,1.3,1.0,7.4,historical_forward_error_p80:RB,0.5618,bubble,2,126.0,132.0,125.497,18,
+227,nfl:gsis:00-0036550,19794,Rashod Bateman,WR,BAL,1.3,1.3,1.0,8.5,historical_forward_error_p80:WR,0.005,unlikely,0,,,95.421,1,adp_espn;adp_yahoo
+228,nfl:gsis:00-0039410,26398,Ryan Flournoy,WR,DAL,1.3,1.3,1.0,8.5,historical_forward_error_p80:WR,0.005,unlikely,0,,,55.379,,adp_espn;adp_yahoo;prior_jugg_salary
+229,nfl:def:TB,8290,Tampa Bay Buccaneers,DEF,TB,1.3,1.3,1.0,3.1,historical_forward_error_p80:DEF,0.1789,unlikely,0,,,97.28,23,adp_espn;adp_yahoo
+230,nfl:gsis:00-0040737,23091,Terrance Ferguson,TE,LAR,1.3,1.3,1.0,6.0,historical_forward_error_p80:TE,0.1618,unlikely,2,175.0,160.0,83.801,,prior_jugg_salary
+231,nfl:gsis:00-0040727,26215,Tre' Harris,WR,LAC,1.3,1.3,1.0,8.5,historical_forward_error_p80:WR,0.005,unlikely,0,,,55.233,,adp_espn;adp_yahoo;prior_jugg_salary
+232,nfl:gsis:00-0041044,25419,Zachariah Branch,WR,ATL,1.3,1.3,1.0,8.4,historical_forward_error_p80:WR,0.005,unlikely,0,,,48.869,,adp_espn;adp_yahoo;prior_jugg_salary
+233,nfl:gsis:00-0033921,16406,Chris Godwin Jr.,WR,TB,1.2,1.2,1.0,8.3,historical_forward_error_p80:WR,0.4618,bubble,1,136.0,94.0,107.942,1,
+234,nfl:gsis:00-0035710,18232,Daniel Jones,QB,IND,1.2,1.2,1.0,5.9,historical_forward_error_p80:QB,0.178,unlikely,1,159.0,159.0,298.081,1,
+235,nfl:gsis:00-0032726,15756,Ka'imi Fairbairn,K,HOU,1.2,1.2,1.0,3.7,historical_forward_error_p80:K,0.7535,likely,1,124.0,125.0,144.06,1,
+236,nfl:def:KC,8150,Kansas City Chiefs,DEF,KC,1.2,1.2,1.0,3.0,historical_forward_error_p80:DEF,0.2429,long_shot,0,168.0,208.0,92.51,1,
+237,nfl:def:SEA,8260,Seattle Seahawks,DEF,SEA,1.2,1.2,1.0,3.0,historical_forward_error_p80:DEF,0.7948,likely,1,101.0,108.0,114.7,1,
+238,nfl:gsis:00-0040899,28507,Trey Smack,K,GB,1.2,1.2,1.0,3.7,historical_forward_error_p80:K,0.995,very_likely,,182.0,186.0,126.36,,espn_salary_cap_value;prior_jugg_salary
+239,nfl:gsis:00-0038117,22985,Wan'Dale Robinson,WR,TEN,1.2,1.2,1.0,8.4,historical_forward_error_p80:WR,0.3535,long_shot,2,104.0,191.0,99.11,,prior_jugg_salary
+240,nfl:gsis:00-0039855,23179,Jalen McMillan,WR,TB,1.1,1.1,1.0,8.3,historical_forward_error_p80:WR,0.1239,unlikely,1,186.0,176.0,87.23,,prior_jugg_salary
+241,nfl:gsis:00-0023459,9001,Aaron Rodgers,QB,PIT,1.0,1.0,1.0,5.8,historical_forward_error_p80:QB,0.2069,long_shot,0,204.0,122.0,245.235,1,
+242,nfl:gsis:00-0039890,24357,Adonai Mitchell,WR,NYJ,1.0,1.0,1.0,8.1,historical_forward_error_p80:WR,0.005,unlikely,0,,,74.282,1,adp_espn;adp_yahoo
+243,nfl:gsis:00-0037746,20094,Brian Robinson Jr.,RB,ATL,1.0,1.0,1.0,7.1,historical_forward_error_p80:RB,0.3585,long_shot,1,171.0,129.0,78.824,2,
+244,nfl:def:BUF,8030,Buffalo Bills,DEF,BUF,1.0,1.0,1.0,2.8,historical_forward_error_p80:DEF,0.8685,very_likely,,198.0,189.0,106.68,2,espn_salary_cap_value
+245,nfl:gsis:00-0039163,23071,C.J. Stroud,QB,HOU,1.0,1.0,1.0,5.8,historical_forward_error_p80:QB,0.233,long_shot,0,173.0,144.0,284.334,12,
+246,nfl:gsis:00-0034837,17258,Calvin Ridley,WR,TEN,1.0,1.0,1.0,8.1,historical_forward_error_p80:WR,0.0685,unlikely,0,188.0,,101.476,2,adp_yahoo
+247,nfl:gsis:00-0040676,24755,Cam Ward,QB,TEN,1.0,1.0,1.0,5.8,historical_forward_error_p80:QB,0.1648,unlikely,0,201.0,140.0,252.26,,prior_jugg_salary
+248,nfl:def:CHI,8050,Chicago Bears,DEF,CHI,1.0,1.0,1.0,2.8,historical_forward_error_p80:DEF,0.9017,very_likely,,212.0,168.0,104.94,1,espn_salary_cap_value
+249,nfl:gsis:00-0033908,16433,Cooper Kupp,WR,SEA,1.0,1.0,1.0,8.1,historical_forward_error_p80:WR,0.2256,long_shot,0,200.0,128.0,77.754,1,
+250,nfl:def:DAL,8080,Dallas Cowboys,DEF,DAL,1.0,1.0,1.0,2.8,historical_forward_error_p80:DEF,0.995,very_likely,,177.0,170.0,95.58,1,espn_salary_cap_value
+251,nfl:gsis:00-0035535,18706,Darius Slayton,WR,NYG,1.0,1.0,1.0,8.1,historical_forward_error_p80:WR,0.005,unlikely,0,,,64.402,1,adp_espn;adp_yahoo
+252,nfl:gsis:00-0041035,28138,De'Zhaun Stribling,WR,SF,1.0,1.0,1.0,8.1,historical_forward_error_p80:WR,0.4749,bubble,4,144.0,113.0,106.489,,prior_jugg_salary
+253,nfl:gsis:00-0035719,18244,Deebo Samuel Sr.,WR,SF,1.0,1.0,1.0,8.1,historical_forward_error_p80:WR,0.3646,long_shot,1,122.0,161.0,106.646,3,
+254,nfl:gsis:00-0033537,16398,Deshaun Watson,QB,CLE,1.0,1.0,1.0,5.8,historical_forward_error_p80:QB,0.044,unlikely,0,,,145.988,5,adp_espn;adp_yahoo
+255,nfl:gsis:00-0041562,28013,Fernando Mendoza,QB,LV,1.0,1.0,1.0,5.8,historical_forward_error_p80:QB,0.2621,long_shot,0,184.0,126.0,207.535,,prior_jugg_salary
+256,nfl:gsis:00-0033090,15561,Hunter Henry,TE,NE,1.0,1.0,1.0,5.7,historical_forward_error_p80:TE,0.2406,long_shot,2,140.0,166.0,97.395,1,
+257,nfl:gsis:00-0040669,27446,Isaac TeSlaa,WR,DET,1.0,1.0,1.0,8.1,historical_forward_error_p80:WR,0.7201,likely,,,143.0,59.716,,espn_salary_cap_value;adp_espn;prior_jugg_salary
+258,nfl:gsis:00-0039923,23018,J.J. McCarthy,QB,MIN,1.0,1.0,1.0,5.8,historical_forward_error_p80:QB,0.005,unlikely,0,227.0,,24.259,,adp_yahoo;prior_jugg_salary
+259,nfl:gsis:00-0040870,27337,Ja'Kobi Lane,WR,BAL,1.0,1.0,1.0,8.1,historical_forward_error_p80:WR,0.1923,unlikely,0,185.0,154.0,87.901,,prior_jugg_salary
+260,nfl:gsis:00-0037741,23101,Jahan Dotson,WR,ATL,1.0,1.0,1.0,8.1,historical_forward_error_p80:WR,0.0086,unlikely,0,,,57.329,3,adp_espn;adp_yahoo
+261,nfl:gsis:00-0033787,16540,Jake Elliott,K,PHI,1.0,1.0,1.0,3.5,historical_forward_error_p80:K,0.995,very_likely,,199.0,171.0,119.81,1,espn_salary_cap_value
+262,nfl:gsis:00-0034960,18598,Jakobi Meyers,WR,JAX,1.0,1.0,1.0,8.1,historical_forward_error_p80:WR,0.4161,bubble,3,106.0,178.0,110.435,1,
+263,nfl:gsis:00-0036259,19590,Jauan Jennings,WR,MIN,1.0,1.0,1.0,8.1,historical_forward_error_p80:WR,0.1317,unlikely,0,,150.0,85.326,1,adp_espn
+264,nfl:gsis:00-0039146,23020,Jayden Reed,WR,GB,1.0,1.0,1.0,8.1,historical_forward_error_p80:WR,0.5401,bubble,3,116.0,124.0,112.713,1,
+265,nfl:gsis:00-0036407,19201,Jerry Jeudy,WR,CLE,1.0,1.0,1.0,8.1,historical_forward_error_p80:WR,0.1053,unlikely,0,174.0,,96.58,3,adp_yahoo
+266,nfl:gsis:00-0026158,9300,Joe Flacco,QB,CIN,1.0,1.0,1.0,5.8,historical_forward_error_p80:QB,0.005,unlikely,0,263.0,,11.486,,adp_yahoo;prior_jugg_salary
+267,nfl:gsis:00-0038994,23107,Jordan Addison,WR,MIN,1.0,1.0,1.0,8.1,historical_forward_error_p80:WR,0.6112,likely,4,108.0,121.0,113.737,2,
+268,nfl:gsis:00-0036264,19246,Jordan Love,QB,GB,1.0,1.0,1.0,5.8,historical_forward_error_p80:QB,0.2759,long_shot,0,158.0,138.0,297.308,9,
+269,nfl:gsis:00-0038997,24706,Josh Downs,WR,IND,1.0,1.0,1.0,8.1,historical_forward_error_p80:WR,0.4509,bubble,1,131.0,109.0,94.916,1,
+270,nfl:gsis:00-0036945,19781,Justin Fields,QB,KC,1.0,1.0,1.0,5.8,historical_forward_error_p80:QB,0.005,unlikely,0,296.0,,13.021,2,adp_yahoo
+271,nfl:gsis:00-0041547,27331,KC Concepcion,WR,CLE,1.0,1.0,1.0,8.1,historical_forward_error_p80:WR,0.3339,long_shot,2,139.0,158.0,105.575,,prior_jugg_salary
+272,nfl:gsis:00-0030279,11616,Keenan Allen,WR,IND,1.0,1.0,1.0,8.1,historical_forward_error_p80:WR,0.256,long_shot,0,178.0,146.0,83.184,4,
+273,nfl:gsis:00-0037261,23748,Khalil Shakir,WR,BUF,1.0,1.0,1.0,8.1,historical_forward_error_p80:WR,0.2893,long_shot,2,117.0,197.0,95.219,1,
+274,nfl:gsis:00-0029604,11177,Kirk Cousins,QB,LV,1.0,1.0,1.0,5.8,historical_forward_error_p80:QB,0.005,unlikely,0,328.0,,52.051,1,adp_yahoo
+275,nfl:gsis:00-0036972,20156,Mac Jones,QB,SF,1.0,1.0,1.0,5.8,historical_forward_error_p80:QB,0.005,unlikely,0,297.0,,11.49,,adp_yahoo;prior_jugg_salary
+276,nfl:gsis:00-0040867,25420,Makai Lemon,WR,PHI,1.0,1.0,1.0,8.1,historical_forward_error_p80:WR,0.4126,bubble,1,137.0,115.0,98.089,,prior_jugg_salary
+277,nfl:gsis:00-0040667,26024,Matthew Golden,WR,GB,1.0,1.0,1.0,8.1,historical_forward_error_p80:WR,0.5491,bubble,4,93.0,164.0,104.762,2,
+278,nfl:gsis:00-0039917,22973,Michael Penix Jr.,QB,ATL,1.0,1.0,1.0,5.8,historical_forward_error_p80:QB,0.0219,unlikely,0,,,129.793,,adp_espn;adp_yahoo;prior_jugg_salary
+279,nfl:gsis:00-0036252,19278,Michael Pittman Jr.,WR,PIT,1.0,1.0,1.0,8.1,historical_forward_error_p80:WR,0.7762,likely,5,80.0,127.0,109.828,8,
+280,nfl:gsis:00-0038559,25333,Michael Wilson,WR,ARI,1.0,1.0,1.0,8.1,historical_forward_error_p80:WR,0.7026,likely,3,92.0,102.0,110.423,,prior_jugg_salary
+281,nfl:def:MIN,8170,Minnesota Vikings,DEF,MIN,1.0,1.0,1.0,2.8,historical_forward_error_p80:DEF,0.8844,very_likely,,191.0,190.0,116.77,2,espn_salary_cap_value
+282,nfl:def:NE,8180,New England Patriots,DEF,NE,1.0,1.0,1.0,2.8,historical_forward_error_p80:DEF,0.4228,bubble,1,149.0,167.0,107.4,1,
+283,nfl:def:NYG,8200,New York Giants,DEF,NYG,1.0,1.0,1.0,2.8,historical_forward_error_p80:DEF,0.8807,very_likely,,209.0,174.0,95.26,,espn_salary_cap_value;prior_jugg_salary
+284,nfl:gsis:00-0025565,9491,Nick Folk,K,ATL,1.0,1.0,1.0,3.5,historical_forward_error_p80:K,0.995,very_likely,,,177.0,121.06,4,espn_salary_cap_value;adp_espn
+285,nfl:def:PHI,8230,Philadelphia Eagles,DEF,PHI,1.0,1.0,1.0,2.8,historical_forward_error_p80:DEF,0.5681,bubble,1,134.0,137.0,106.56,1,
+286,nfl:gsis:00-0038544,23123,Quentin Johnston,WR,LAC,1.0,1.0,1.0,8.1,historical_forward_error_p80:WR,0.4992,bubble,3,133.0,112.0,116.322,,prior_jugg_salary
+287,nfl:gsis:00-0037545,24687,Rashid Shaheed,WR,SEA,1.0,1.0,1.0,8.2,historical_forward_error_p80:WR,0.2221,long_shot,1,153.0,169.0,106.903,,prior_jugg_salary
+288,nfl:def:SF,8270,San Francisco 49ers,DEF,SF,1.0,1.0,1.0,2.8,historical_forward_error_p80:DEF,0.9936,very_likely,,196.0,163.0,88.1,2,espn_salary_cap_value
+289,nfl:gsis:00-0040668,25968,Shedeur Sanders,QB,CLE,1.0,1.0,1.0,5.8,historical_forward_error_p80:QB,0.031,unlikely,0,218.0,,114.385,,adp_yahoo;prior_jugg_salary
+290,nfl:gsis:00-0031588,13981,Stefon Diggs,WR,WAS,1.0,1.0,1.0,8.1,historical_forward_error_p80:WR,0.5333,bubble,1,114.0,107.0,99.201,2,
+291,nfl:gsis:00-0038977,25361,Tank Dell,WR,HOU,1.0,1.0,1.0,8.1,historical_forward_error_p80:WR,0.1606,unlikely,0,155.0,,77.092,6,adp_yahoo
+292,nfl:gsis:00-0040718,26034,Travis Hunter,WR,JAX,1.0,1.0,1.0,8.1,historical_forward_error_p80:WR,0.4288,bubble,0,112.0,152.0,70.2,2,
+293,nfl:gsis:00-0036212,19198,Tua Tagovailoa,QB,ATL,1.0,1.0,1.0,5.8,historical_forward_error_p80:QB,0.0246,unlikely,0,,,132.054,1,adp_espn;adp_yahoo
+294,nfl:gsis:00-0039894,23019,Xavier Worthy,WR,KC,1.0,1.0,1.0,8.1,historical_forward_error_p80:WR,0.4263,bubble,3,115.0,172.0,112.471,4,

@@ -177,7 +177,10 @@ header places a searchable Nominated By owner picker beside the Nominate button;
 the standalone empty-nomination ribbon does not repeat that control. The action
 row also shows the player's locally cached nflverse fantasy depth chart (top two
 QBs, top three RBs, top four WRs, and top two TEs) beside the nomination action;
-fullbacks are omitted
+the team's current offensive-line rank appears immediately after the TEs using
+an ordinal label such as `OLine: 5th`. The rank uses a same-height inline badge:
+green for the top 10, neutral for ranks 11–22, and red for the bottom 10, without
+reducing the depth-chart text size. Fullbacks are omitted
 from the fantasy RB summary. The expanded view also uses an
 xPRICE-based roster-impact preview and a single deterministic Decision card
 that combines the recommendation, tested-path support, walk-away price,
@@ -203,6 +206,13 @@ full writeup in an in-place modal without navigating away from the board.
 The modal's research classification controls match the research wiki controls
 in button size, spacing, grouping, selected states, and suggestion markers.
 The modal has no visible close button; clicking its surrounding backdrop closes it.
+The five nomination and sale controls use one consistent keyboard-focus treatment:
+a medium-blue control border with a single light-blue outer ring, so their current
+position is obvious while tabbing quickly without stacked or mismatched outlines.
+During an active nomination, the unmodified `N` key focuses Nominated By and the
+unmodified `W` key focuses Winning Owner. These shortcuts are suppressed while
+typing, using editable controls, or working in a dialog, and their labels display
+visible key hints.
 The research wiki and modal use the same writeup content structure; recent news
 is excluded from both full writeups and remains available on the expanded player card.
 The Value card lists xPRICE and its expected range before the walk-away and
@@ -234,15 +244,21 @@ including a Price Ladder label above the five colored ranges, and the price-band
 cells match the other labeled controls' visual height. Nominated By and Winning
 Owner are searchable combo boxes: Winning Owner starts blank when a nomination
 begins; typing filters owner and team names, Tab accepts
-the first match and advances, and Enter accepts without submitting the sale. No band receives a separate active
+the first match and advances, Shift+Tab follows the normal reverse control order,
+and Enter accepts without submitting the sale. No band receives a separate active
 outline; the ladder communicates ranges only. The committed walk-away remains
 in the Decision card. The ladder remains
 hidden before official nomination and is not duplicated in Player Details. A
 collapsible bottom workspace provides three
-tables: League Strength, Team Rosters, and Draft History. Team Rosters preserves
+tables: League Strength, Team Rosters, and Draft History. Team Rosters uses a
+searchable owner combo box that filters by owner or team name, then preserves
 the authoritative roster-slot reassignment workflow and Google Sheets outbox
 synchronization. Draft History preserves confirmed sale reversal and the
-immutable audit trail. The existing local draft engine, SQLite persistence,
+immutable audit trail. The unmodified `D` key toggles this workspace while the
+draft board has focus. The shortcut is suppressed in inputs, text areas, selects,
+editable content, and dialogs so it cannot interfere with owner entry, searches,
+bids, or modal work. The drawer toggle displays the shortcut as a visible `D`
+key hint. The existing local draft engine, SQLite persistence,
 recovery behavior, and Google Sheets adapter remain authoritative and are not
 forked for the new interface.
 
@@ -288,6 +304,15 @@ board remains fast and fully functional offline; if a card summary is
 unavailable, the interface falls back to deterministic evidence already stored
 locally.
 
+All generated prose uses the league's 10-team, non-PPR auction context. PPR
+rankings and phrases such as “PPR upside” are not repeated as though they apply
+to this league. Reception-driven arguments are translated into their
+standard-scoring implications—yardage, touchdowns, total workload, and
+price—and recommendations that depend primarily on points per reception are
+discounted. This rule applies to card summaries, full writeups, and the separate
+Pros/Cons enrichment. Generated prose applies this adjustment silently and does
+not mention PPR or compare scoring formats.
+
 Card summaries and full writeups state the fantasy-football interpretation
 directly. They do not name analysts or publications and do not use attribution
 phrases such as “the analyst says” or “the article argues.” Author and
@@ -306,6 +331,15 @@ wiki linked from the draft-board header. The wiki provides an index, position
 sections, direct player anchors, source links, readable long-form entries, and
 each player's current position rank, live-adjusted xPRICE, and expected price
 range in the header, with team, bye week, and current age immediately below.
+The wiki also provides a derived Player Lists section covering lead/bell-cow
+backs, primary running-back handcuffs, high-target receivers, quality receivers
+paired with strong quarterbacks, quality backs on run-oriented teams, quality
+receivers on pass-oriented teams, and players whose team change improved their
+quarterback or offensive situation. These lists combine retained research,
+current rankings and projections, handcuff mappings, and team context; each
+entry explains why it qualified and links to the player's full writeup. Lists
+are reproducible derived views and do not create or change Target/Avoid or tag
+classifications.
 The research wiki and player-card full-writeup modal render one shared writeup
 template so identity, opinion summary, Pros/Cons, long-form typography, and
 source links stay synchronized. The research-wiki view places current FantasyPros injury and news context in
@@ -358,8 +392,12 @@ Applicable historical usage, backfield-role, positional schedule, and
 offensive-line context is attached to player-summary inputs during an explicit
 batch refresh. It may inform the explanation but never creates a Target/Avoid
 vote by itself. The synthesis distinguishes prior-year results from current
-projections, treats preseason schedule strength as a modest tiebreaker, and
+projections, treats preseason forecasts of 2026 regular-season positional
+matchup difficulty as a modest tiebreaker, and
 omits contextual facts that are not genuinely relevant to that player's case.
+Generated prose calls this the projected regular-season schedule, never the
+“preseason schedule.” Exhibition-game schedule strength is irrelevant and is
+excluded from synthesis inputs.
 Raw statistics appear in generated prose only when the retained inputs also
 support an interpretation through a rank, percentile, league or position
 benchmark, meaningful trend, or clear football implication. An isolated share,
@@ -389,6 +427,11 @@ domain and server implementations may remain available for deterministic board
 calculations, testing, and future product decisions, but they do not justify a
 second draft-night interface.
 
+Former-owner profiles remain available for historical owner-tendency research,
+but profiles explicitly labeled `(former owner)` do not initialize active draft
+teams or appear in live owner controls. Replacement owners keep separate
+tendency profiles; their histories are not merged.
+
 Optimize the main draft screen around one currently nominated player. Show the information needed to decide whether and how far to pursue that player: projected performance, publicly sourced auction values when available, historical JUGG prices, external ADP, positional context, roster fit, risks, comparable alternatives, and relevant owner signals.
 
 The application is named **Renegade Draft Room** and highlights the operator's
@@ -410,6 +453,18 @@ Player Details owns projected price, all five price bands, comparable
 alternatives, the recommendation, and draft actions. Immediately below the
 player name it emphasizes four compact, clickable decision cards: live expected
 price and range, points above replacement, scarcity/fallback, and Roster Impact.
+
+The operational player pool includes every current FantasyPros projection row
+so an unexpected deep nomination can always be recorded. The validated decision
+board remains a separate modeled subset. Projection-backed players outside that
+subset are labeled internally as limited guidance, while a small number of
+material ADP-only players may be retained without a production projection.
+Their unavailable xPRICE, range, xPAR, tier, scarcity, walk-away, and equity
+fields display as an em dash; the interface never substitutes a zero-dollar or
+one-dollar recommendation. A compact Modeled/Limited/All filter defaults to
+Modeled. Limited players remain nominatable, sale-recordable, rosterable, and
+sheet-syncable, but they do not enter recommendation paths, modeled alternatives,
+or remaining-player championship simulations.
 Each card uses one primary-result line and two useful supporting lines. A small
 expand indicator communicates that clicking opens deeper evidence without
 making the dashboard row taller. Supporting text, price-ladder labels and

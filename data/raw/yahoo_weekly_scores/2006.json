@@ -1,0 +1,708 @@
+{
+  "season": 2006,
+  "regular_season_weeks": 14,
+  "league_url": "https://football.fantasysports.yahoo.com/2006/f1/162942",
+  "matchups": [
+    {
+      "score1": 77.96,
+      "score2": 47.88,
+      "season": 2006,
+      "team1": "Fuckin' Soldiers",
+      "team1_id": "3",
+      "team2": "GordonBombayReturns",
+      "team2_id": "9",
+      "week": 1
+    },
+    {
+      "score1": 81.64,
+      "score2": 81.3,
+      "season": 2006,
+      "team1": "Choke'aBabin",
+      "team1_id": "1",
+      "team2": "Cutler for President",
+      "team2_id": "2",
+      "week": 1
+    },
+    {
+      "score1": 118.14,
+      "score2": 64.98,
+      "season": 2006,
+      "team1": "IamDanBrown!",
+      "team1_id": "4",
+      "team2": "Army of Juice",
+      "team2_id": "8",
+      "week": 1
+    },
+    {
+      "score1": 112.28,
+      "score2": 79.08,
+      "season": 2006,
+      "team1": "TEAM Ron Mexico",
+      "team1_id": "5",
+      "team2": "The Norwalk Army",
+      "team2_id": "7",
+      "week": 1
+    },
+    {
+      "score1": 78.9,
+      "score2": 51.12,
+      "season": 2006,
+      "team1": "All Business",
+      "team1_id": "6",
+      "team2": "The U",
+      "team2_id": "10",
+      "week": 1
+    },
+    {
+      "score1": 90.9,
+      "score2": 65.38,
+      "season": 2006,
+      "team1": "Fuckin' Soldiers",
+      "team1_id": "3",
+      "team2": "Choke'aBabin",
+      "team2_id": "1",
+      "week": 2
+    },
+    {
+      "score1": 87.46,
+      "score2": 76.6,
+      "season": 2006,
+      "team1": "Cutler for President",
+      "team1_id": "2",
+      "team2": "The U",
+      "team2_id": "10",
+      "week": 2
+    },
+    {
+      "score1": 82.14,
+      "score2": 81.1,
+      "season": 2006,
+      "team1": "IamDanBrown!",
+      "team1_id": "4",
+      "team2": "GordonBombayReturns",
+      "team2_id": "9",
+      "week": 2
+    },
+    {
+      "score1": 104.88,
+      "score2": 67.18,
+      "season": 2006,
+      "team1": "TEAM Ron Mexico",
+      "team1_id": "5",
+      "team2": "Army of Juice",
+      "team2_id": "8",
+      "week": 2
+    },
+    {
+      "score1": 99.44,
+      "score2": 105.3,
+      "season": 2006,
+      "team1": "All Business",
+      "team1_id": "6",
+      "team2": "The Norwalk Army",
+      "team2_id": "7",
+      "week": 2
+    },
+    {
+      "score1": 59.84,
+      "score2": 88.86,
+      "season": 2006,
+      "team1": "Fuckin' Soldiers",
+      "team1_id": "3",
+      "team2": "Cutler for President",
+      "team2_id": "2",
+      "week": 3
+    },
+    {
+      "score1": 83.24,
+      "score2": 90.78,
+      "season": 2006,
+      "team1": "Choke'aBabin",
+      "team1_id": "1",
+      "team2": "IamDanBrown!",
+      "team2_id": "4",
+      "week": 3
+    },
+    {
+      "score1": 71.08,
+      "score2": 74.66,
+      "season": 2006,
+      "team1": "TEAM Ron Mexico",
+      "team1_id": "5",
+      "team2": "GordonBombayReturns",
+      "team2_id": "9",
+      "week": 3
+    },
+    {
+      "score1": 98.68,
+      "score2": 128.22,
+      "season": 2006,
+      "team1": "All Business",
+      "team1_id": "6",
+      "team2": "Army of Juice",
+      "team2_id": "8",
+      "week": 3
+    },
+    {
+      "score1": 71.12,
+      "score2": 85.92,
+      "season": 2006,
+      "team1": "The Norwalk Army",
+      "team1_id": "7",
+      "team2": "The U",
+      "team2_id": "10",
+      "week": 3
+    },
+    {
+      "score1": 128.02,
+      "score2": 121.32,
+      "season": 2006,
+      "team1": "Fuckin' Soldiers",
+      "team1_id": "3",
+      "team2": "The U",
+      "team2_id": "10",
+      "week": 4
+    },
+    {
+      "score1": 67.9,
+      "score2": 68.62,
+      "season": 2006,
+      "team1": "Choke'aBabin",
+      "team1_id": "1",
+      "team2": "TEAM Ron Mexico",
+      "team2_id": "5",
+      "week": 4
+    },
+    {
+      "score1": 62.98,
+      "score2": 56.86,
+      "season": 2006,
+      "team1": "Cutler for President",
+      "team1_id": "2",
+      "team2": "IamDanBrown!",
+      "team2_id": "4",
+      "week": 4
+    },
+    {
+      "score1": 118.22,
+      "score2": 69.68,
+      "season": 2006,
+      "team1": "All Business",
+      "team1_id": "6",
+      "team2": "GordonBombayReturns",
+      "team2_id": "9",
+      "week": 4
+    },
+    {
+      "score1": 86.16,
+      "score2": 71.5,
+      "season": 2006,
+      "team1": "The Norwalk Army",
+      "team1_id": "7",
+      "team2": "Army of Juice",
+      "team2_id": "8",
+      "week": 4
+    },
+    {
+      "score1": 89.76,
+      "score2": 60.06,
+      "season": 2006,
+      "team1": "Fuckin' Soldiers",
+      "team1_id": "3",
+      "team2": "IamDanBrown!",
+      "team2_id": "4",
+      "week": 5
+    },
+    {
+      "score1": 60.62,
+      "score2": 89.1,
+      "season": 2006,
+      "team1": "Choke'aBabin",
+      "team1_id": "1",
+      "team2": "All Business",
+      "team2_id": "6",
+      "week": 5
+    },
+    {
+      "score1": 71.14,
+      "score2": 78.54,
+      "season": 2006,
+      "team1": "Cutler for President",
+      "team1_id": "2",
+      "team2": "TEAM Ron Mexico",
+      "team2_id": "5",
+      "week": 5
+    },
+    {
+      "score1": 75.5,
+      "score2": 88.84,
+      "season": 2006,
+      "team1": "The Norwalk Army",
+      "team1_id": "7",
+      "team2": "GordonBombayReturns",
+      "team2_id": "9",
+      "week": 5
+    },
+    {
+      "score1": 63.7,
+      "score2": 59,
+      "season": 2006,
+      "team1": "Army of Juice",
+      "team1_id": "8",
+      "team2": "The U",
+      "team2_id": "10",
+      "week": 5
+    },
+    {
+      "score1": 116.88,
+      "score2": 59.56,
+      "season": 2006,
+      "team1": "Fuckin' Soldiers",
+      "team1_id": "3",
+      "team2": "TEAM Ron Mexico",
+      "team2_id": "5",
+      "week": 6
+    },
+    {
+      "score1": 130.42,
+      "score2": 107.76,
+      "season": 2006,
+      "team1": "Choke'aBabin",
+      "team1_id": "1",
+      "team2": "The Norwalk Army",
+      "team2_id": "7",
+      "week": 6
+    },
+    {
+      "score1": 92.1,
+      "score2": 118.52,
+      "season": 2006,
+      "team1": "Cutler for President",
+      "team1_id": "2",
+      "team2": "All Business",
+      "team2_id": "6",
+      "week": 6
+    },
+    {
+      "score1": 68.7,
+      "score2": 71.22,
+      "season": 2006,
+      "team1": "IamDanBrown!",
+      "team1_id": "4",
+      "team2": "The U",
+      "team2_id": "10",
+      "week": 6
+    },
+    {
+      "score1": 88.14,
+      "score2": 78.78,
+      "season": 2006,
+      "team1": "Army of Juice",
+      "team1_id": "8",
+      "team2": "GordonBombayReturns",
+      "team2_id": "9",
+      "week": 6
+    },
+    {
+      "score1": 84.38,
+      "score2": 93.08,
+      "season": 2006,
+      "team1": "Fuckin' Soldiers",
+      "team1_id": "3",
+      "team2": "All Business",
+      "team2_id": "6",
+      "week": 7
+    },
+    {
+      "score1": 104.84,
+      "score2": 56.2,
+      "season": 2006,
+      "team1": "Choke'aBabin",
+      "team1_id": "1",
+      "team2": "Army of Juice",
+      "team2_id": "8",
+      "week": 7
+    },
+    {
+      "score1": 83.9,
+      "score2": 81.56,
+      "season": 2006,
+      "team1": "Cutler for President",
+      "team1_id": "2",
+      "team2": "The Norwalk Army",
+      "team2_id": "7",
+      "week": 7
+    },
+    {
+      "score1": 107.02,
+      "score2": 73.86,
+      "season": 2006,
+      "team1": "IamDanBrown!",
+      "team1_id": "4",
+      "team2": "TEAM Ron Mexico",
+      "team2_id": "5",
+      "week": 7
+    },
+    {
+      "score1": 81.98,
+      "score2": 67.9,
+      "season": 2006,
+      "team1": "GordonBombayReturns",
+      "team1_id": "9",
+      "team2": "The U",
+      "team2_id": "10",
+      "week": 7
+    },
+    {
+      "score1": 72.64,
+      "score2": 68.5,
+      "season": 2006,
+      "team1": "Fuckin' Soldiers",
+      "team1_id": "3",
+      "team2": "The Norwalk Army",
+      "team2_id": "7",
+      "week": 8
+    },
+    {
+      "score1": 88.1,
+      "score2": 83.3,
+      "season": 2006,
+      "team1": "Choke'aBabin",
+      "team1_id": "1",
+      "team2": "GordonBombayReturns",
+      "team2_id": "9",
+      "week": 8
+    },
+    {
+      "score1": 108.02,
+      "score2": 91.84,
+      "season": 2006,
+      "team1": "Cutler for President",
+      "team1_id": "2",
+      "team2": "Army of Juice",
+      "team2_id": "8",
+      "week": 8
+    },
+    {
+      "score1": 84.66,
+      "score2": 130.28,
+      "season": 2006,
+      "team1": "IamDanBrown!",
+      "team1_id": "4",
+      "team2": "All Business",
+      "team2_id": "6",
+      "week": 8
+    },
+    {
+      "score1": 50.66,
+      "score2": 94.68,
+      "season": 2006,
+      "team1": "TEAM Ron Mexico",
+      "team1_id": "5",
+      "team2": "The U",
+      "team2_id": "10",
+      "week": 8
+    },
+    {
+      "score1": 107.08,
+      "score2": 77.2,
+      "season": 2006,
+      "team1": "Fuckin' Soldiers",
+      "team1_id": "3",
+      "team2": "Army of Juice",
+      "team2_id": "8",
+      "week": 9
+    },
+    {
+      "score1": 106.58,
+      "score2": 85.74,
+      "season": 2006,
+      "team1": "Choke'aBabin",
+      "team1_id": "1",
+      "team2": "The U",
+      "team2_id": "10",
+      "week": 9
+    },
+    {
+      "score1": 112.02,
+      "score2": 111.74,
+      "season": 2006,
+      "team1": "Cutler for President",
+      "team1_id": "2",
+      "team2": "GordonBombayReturns",
+      "team2_id": "9",
+      "week": 9
+    },
+    {
+      "score1": 65.3,
+      "score2": 82.66,
+      "season": 2006,
+      "team1": "IamDanBrown!",
+      "team1_id": "4",
+      "team2": "The Norwalk Army",
+      "team2_id": "7",
+      "week": 9
+    },
+    {
+      "score1": 58.32,
+      "score2": 104.26,
+      "season": 2006,
+      "team1": "TEAM Ron Mexico",
+      "team1_id": "5",
+      "team2": "All Business",
+      "team2_id": "6",
+      "week": 9
+    },
+    {
+      "score1": 91.38,
+      "score2": 88.84,
+      "season": 2006,
+      "team1": "Fuckin' Soldiers",
+      "team1_id": "3",
+      "team2": "GordonBombayReturns",
+      "team2_id": "9",
+      "week": 10
+    },
+    {
+      "score1": 110.82,
+      "score2": 83.04,
+      "season": 2006,
+      "team1": "Choke'aBabin",
+      "team1_id": "1",
+      "team2": "Cutler for President",
+      "team2_id": "2",
+      "week": 10
+    },
+    {
+      "score1": 99.66,
+      "score2": 128.8,
+      "season": 2006,
+      "team1": "IamDanBrown!",
+      "team1_id": "4",
+      "team2": "Army of Juice",
+      "team2_id": "8",
+      "week": 10
+    },
+    {
+      "score1": 93.18,
+      "score2": 88.82,
+      "season": 2006,
+      "team1": "TEAM Ron Mexico",
+      "team1_id": "5",
+      "team2": "The Norwalk Army",
+      "team2_id": "7",
+      "week": 10
+    },
+    {
+      "score1": 87.28,
+      "score2": 66.22,
+      "season": 2006,
+      "team1": "All Business",
+      "team1_id": "6",
+      "team2": "The U",
+      "team2_id": "10",
+      "week": 10
+    },
+    {
+      "score1": 52.92,
+      "score2": 116.3,
+      "season": 2006,
+      "team1": "Fuckin' Soldiers",
+      "team1_id": "3",
+      "team2": "Choke'aBabin",
+      "team2_id": "1",
+      "week": 11
+    },
+    {
+      "score1": 92.18,
+      "score2": 103.66,
+      "season": 2006,
+      "team1": "Cutler for President",
+      "team1_id": "2",
+      "team2": "The U",
+      "team2_id": "10",
+      "week": 11
+    },
+    {
+      "score1": 84.58,
+      "score2": 70.16,
+      "season": 2006,
+      "team1": "IamDanBrown!",
+      "team1_id": "4",
+      "team2": "GordonBombayReturns",
+      "team2_id": "9",
+      "week": 11
+    },
+    {
+      "score1": 67.78,
+      "score2": 89.8,
+      "season": 2006,
+      "team1": "TEAM Ron Mexico",
+      "team1_id": "5",
+      "team2": "Army of Juice",
+      "team2_id": "8",
+      "week": 11
+    },
+    {
+      "score1": 92.68,
+      "score2": 60.14,
+      "season": 2006,
+      "team1": "All Business",
+      "team1_id": "6",
+      "team2": "The Norwalk Army",
+      "team2_id": "7",
+      "week": 11
+    },
+    {
+      "score1": 94.98,
+      "score2": 93,
+      "season": 2006,
+      "team1": "Fuckin' Soldiers",
+      "team1_id": "3",
+      "team2": "Cutler for President",
+      "team2_id": "2",
+      "week": 12
+    },
+    {
+      "score1": 108.16,
+      "score2": 78.72,
+      "season": 2006,
+      "team1": "Choke'aBabin",
+      "team1_id": "1",
+      "team2": "IamDanBrown!",
+      "team2_id": "4",
+      "week": 12
+    },
+    {
+      "score1": 99.26,
+      "score2": 77.62,
+      "season": 2006,
+      "team1": "TEAM Ron Mexico",
+      "team1_id": "5",
+      "team2": "GordonBombayReturns",
+      "team2_id": "9",
+      "week": 12
+    },
+    {
+      "score1": 115.68,
+      "score2": 80.3,
+      "season": 2006,
+      "team1": "All Business",
+      "team1_id": "6",
+      "team2": "Army of Juice",
+      "team2_id": "8",
+      "week": 12
+    },
+    {
+      "score1": 99.54,
+      "score2": 58.4,
+      "season": 2006,
+      "team1": "The Norwalk Army",
+      "team1_id": "7",
+      "team2": "The U",
+      "team2_id": "10",
+      "week": 12
+    },
+    {
+      "score1": 106.62,
+      "score2": 67.1,
+      "season": 2006,
+      "team1": "Fuckin' Soldiers",
+      "team1_id": "3",
+      "team2": "The U",
+      "team2_id": "10",
+      "week": 13
+    },
+    {
+      "score1": 82.54,
+      "score2": 109.78,
+      "season": 2006,
+      "team1": "Choke'aBabin",
+      "team1_id": "1",
+      "team2": "TEAM Ron Mexico",
+      "team2_id": "5",
+      "week": 13
+    },
+    {
+      "score1": 108.14,
+      "score2": 86.02,
+      "season": 2006,
+      "team1": "Cutler for President",
+      "team1_id": "2",
+      "team2": "IamDanBrown!",
+      "team2_id": "4",
+      "week": 13
+    },
+    {
+      "score1": 98.56,
+      "score2": 63.74,
+      "season": 2006,
+      "team1": "All Business",
+      "team1_id": "6",
+      "team2": "GordonBombayReturns",
+      "team2_id": "9",
+      "week": 13
+    },
+    {
+      "score1": 44.78,
+      "score2": 76.86,
+      "season": 2006,
+      "team1": "The Norwalk Army",
+      "team1_id": "7",
+      "team2": "Army of Juice",
+      "team2_id": "8",
+      "week": 13
+    },
+    {
+      "score1": 113.36,
+      "score2": 91.7,
+      "season": 2006,
+      "team1": "Fuckin' Soldiers",
+      "team1_id": "3",
+      "team2": "IamDanBrown!",
+      "team2_id": "4",
+      "week": 14
+    },
+    {
+      "score1": 85.42,
+      "score2": 94.32,
+      "season": 2006,
+      "team1": "Choke'aBabin",
+      "team1_id": "1",
+      "team2": "All Business",
+      "team2_id": "6",
+      "week": 14
+    },
+    {
+      "score1": 91.28,
+      "score2": 68.7,
+      "season": 2006,
+      "team1": "Cutler for President",
+      "team1_id": "2",
+      "team2": "TEAM Ron Mexico",
+      "team2_id": "5",
+      "week": 14
+    },
+    {
+      "score1": 71.96,
+      "score2": 74.82,
+      "season": 2006,
+      "team1": "The Norwalk Army",
+      "team1_id": "7",
+      "team2": "GordonBombayReturns",
+      "team2_id": "9",
+      "week": 14
+    },
+    {
+      "score1": 122.28,
+      "score2": 71.22,
+      "season": 2006,
+      "team1": "Army of Juice",
+      "team1_id": "8",
+      "team2": "The U",
+      "team2_id": "10",
+      "week": 14
+    }
+  ],
+  "errors": []
+}

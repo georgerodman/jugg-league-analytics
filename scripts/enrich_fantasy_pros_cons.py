@@ -12,7 +12,7 @@ from pathlib import Path
 import build_fantasy_research as research
 
 ROOT = Path(__file__).resolve().parents[1]
-PROMPT_VERSION = "fantasy-pros-cons-v1"
+PROMPT_VERSION = "fantasy-pros-cons-v4-format-silent"
 CHECKPOINT = ROOT / "data/processed/fantasy_research/pros_cons_checkpoint.json"
 
 
@@ -53,6 +53,9 @@ def synthesize(records, model, key, results):
         "PROS SUMMARY: exactly one natural sentence of at most 24 words containing the two or three strongest distinct favorable points. "
         "CONS SUMMARY: exactly one natural sentence of at most 24 words containing the two or three most important risks, weaknesses, or price conditions. "
         "Prefer compact comma-separated football phrases, such as 'Elite workload, strong offensive line, and receiving growth.' "
+        "The league is a 10-team, non-PPR auction league. Do not repeat PPR rankings or labels as applicable; translate receiving arguments into standard-scoring yardage, touchdown, workload, and price implications, and down-weight reception-only value. "
+        "Apply that adjustment silently: the output must never contain the term PPR or compare scoring formats. "
+        "A preseason forecast of 2026 regular-season matchup difficulty may be only a modest tiebreaker; never call it a 'preseason schedule,' and ignore exhibition-game schedule strength. "
         "Synthesize across the supplied material without naming analysts or publications, mentioning evidence or sources, or adding outside facts. "
         "Avoid repeating the player name and avoid labels such as Pros, Cons, Why, or Risk because the interface supplies them."
     )

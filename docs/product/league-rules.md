@@ -74,7 +74,7 @@ Fractional and negative scoring are enabled.
 ## Defense/special-teams scoring
 
 - Sack: 1; interception: 2; fumble recovery: 2; touchdown: 6.
-- Safety: 2; blocked kick: 2; kickoff/punt return touchdown: 4.
+- Safety: 2; blocked kick: 2; kickoff/punt return touchdown: 6.
 - Points allowed: 10 for 0; 7 for 1–6; 4 for 7–13; 1 for 14–20; 0 for
   21–27; -1 for 28–34; -4 for 35+.
 - Extra-point return: 2.

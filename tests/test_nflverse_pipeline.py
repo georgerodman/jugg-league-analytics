@@ -28,7 +28,7 @@ class NflversePipelineTests(unittest.TestCase):
     def test_scores_team_defense(self):
         row = {"def_sacks": "3", "def_interceptions": "2", "fumble_recovery_opp": "1",
                "def_tds": "1", "def_safeties": "1", "def_fg_blocks": "1", "special_teams_tds": "1"}
-        self.assertEqual(score_defense(row, 17, LEAGUE), 24.0)
+        self.assertEqual(score_defense(row, 17, LEAGUE), 26.0)
 
 
 if __name__ == "__main__":

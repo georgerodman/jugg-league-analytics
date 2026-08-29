@@ -1,0 +1,68 @@
+{
+  "league_config": "config/league.json",
+  "league_config_sha256": "1d225df6bc044b232a1771c3c8ba6fda22fe7fa3b7e909787ed382510b8a825c",
+  "projection_type": "preseason_consensus",
+  "requests": [
+    {
+      "file": "qb.json",
+      "position": "QB",
+      "public_api_limited": true,
+      "record_count": 83,
+      "sha256": "e8291382b3d7748425c7385870d0c11816145c8eacaede15d98c1a65719df61d",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2026/projections?position=QB&week=0"
+    },
+    {
+      "file": "rb.json",
+      "position": "RB",
+      "public_api_limited": true,
+      "record_count": 128,
+      "sha256": "5a09c435a10072644407a4f937e253f21c3ffe8db2bdec3e49110ea996533cff",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2026/projections?position=RB&week=0"
+    },
+    {
+      "file": "wr.json",
+      "position": "WR",
+      "public_api_limited": true,
+      "record_count": 189,
+      "sha256": "751feafbba80a4082b1b3cad3983f08d20ba9a60e69e4dc508713ab68d71bead",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2026/projections?position=WR&week=0"
+    },
+    {
+      "file": "te.json",
+      "position": "TE",
+      "public_api_limited": true,
+      "record_count": 124,
+      "sha256": "6a310863c7751edf537c8aceb1e9a8f1de71d1b214958196d5d7c2895d74063b",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2026/projections?position=TE&week=0"
+    },
+    {
+      "file": "k.json",
+      "position": "K",
+      "public_api_limited": true,
+      "record_count": 45,
+      "sha256": "4b7b33404dd4acc8f4ea594e2de89aa734fa50413db29c93f4a85c0b45ff9e84",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2026/projections?position=K&week=0"
+    },
+    {
+      "file": "dst.json",
+      "position": "DST",
+      "public_api_limited": true,
+      "record_count": 32,
+      "sha256": "f8109fb544e105cca5600263c65e22d25cef8d59c15e5ade76fda2ced3e2b4fb",
+      "tier": "premium",
+      "url": "https://api.fantasypros.com/public/v2/json/nfl/2026/projections?position=DST&week=0"
+    }
+  ],
+  "retrieved_at": "2026-08-29T04:33:54.107073+00:00",
+  "schema_version": 1,
+  "season": 2026,
+  "snapshot_id": "20260829T043354Z",
+  "source": "fantasypros",
+  "total_players": 601,
+  "week": 0
+}

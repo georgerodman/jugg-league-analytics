@@ -72,6 +72,12 @@ def build_rows(root: Path) -> tuple[list[dict[str, Any]], dict[str, str]]:
     rows: list[dict[str, Any]] = []
     inputs = {str(sales_path.relative_to(root)): checksum(sales_path)}
     prior_salary: dict[str, int] = {}
+    # Accepted legacy drafts do not have the contemporaneous market inputs needed
+    # to become training rows. They still provide observed league prior prices for
+    # players that can be matched unambiguously to a durable current identity.
+    for sale in sorted(sales_payload["sales"], key=lambda row: row["season"]):
+        if sale["season"] < min(SEASONS) and sale["internal_player_id"]:
+            prior_salary[sale["internal_player_id"]] = sale["salary"]
     for season in SEASONS:
         canonical, canonical_path = read_pointer(
             root, Path(f"data/processed/canonical_projections/{season}/latest.json")

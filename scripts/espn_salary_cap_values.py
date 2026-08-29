@@ -65,6 +65,14 @@ def line_words(words: list[dict[str, Any]], target: dict[str, Any]) -> list[dict
     return sorted((word for word in words if abs(word["top"] - target["top"]) < 1.0), key=lambda word: word["x0"])
 
 
+def single_content_page_words(pages: list[Any], filename: str) -> list[dict[str, Any]]:
+    """Return the one populated cheat-sheet page, ignoring blank export pages."""
+    populated = [words for page in pages if (words := page.extract_words())]
+    if len(populated) != 1:
+        raise PipelineError(f"{filename}: expected one populated page, found {len(populated)}")
+    return populated[0]
+
+
 def extract_rows(path: Path, season: int) -> list[dict[str, Any]]:
     if season == 2020:
         executable = shutil.which("pdftotext")
@@ -89,9 +97,7 @@ def extract_rows(path: Path, season: int) -> list[dict[str, Any]]:
         raise PipelineError("Install data dependencies first: python3 -m pip install -r requirements-data.txt") from exc
 
     with pdfplumber.open(path) as pdf:
-        if len(pdf.pages) != 1:
-            raise PipelineError(f"{path.name}: expected one page, found {len(pdf.pages)}")
-        words = pdf.pages[0].extract_words()
+        words = single_content_page_words(pdf.pages, path.name)
 
     rows: list[dict[str, Any]] = []
     for salary_word in (word for word in words if SALARY_PATTERN.fullmatch(word["text"])):

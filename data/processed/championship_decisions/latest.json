@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "build_id": "20260824T024746Z",
-  "completion_paths": "data/processed/championship_decisions/20260824T024746Z/completion_paths_2026.json",
-  "historical_decision_proxy": "data/processed/championship_decisions/20260824T024746Z/historical_decision_proxy.json",
-  "decision_band_contract": "data/processed/championship_decisions/20260824T024746Z/decision_band_contract.json"
+  "build_id": "20260829T052307Z",
+  "completion_paths": "data/processed/championship_decisions/20260829T052307Z/completion_paths_2026.json",
+  "historical_decision_proxy": "data/processed/championship_decisions/20260829T052307Z/historical_decision_proxy.json",
+  "decision_band_contract": "data/processed/championship_decisions/20260829T052307Z/decision_band_contract.json"
 }

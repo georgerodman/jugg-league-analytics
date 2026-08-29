@@ -1,6 +1,7 @@
 import { existsSync, mkdirSync, readFileSync, renameSync, rmSync } from "node:fs";
 import { join, resolve } from "node:path";
 import { randomUUID } from "node:crypto";
+import { createHash } from "node:crypto";
 import { z } from "zod";
 import { DraftService, DomainError } from "../domain/DraftService";
 import { initializeFromArtifacts } from "../domain/importDraftArtifacts";
@@ -22,6 +23,13 @@ let decisionCache:{key:string;leaderboard:any[];championshipDecision:any;targets
 declare global { var __renegadeDraftService:DraftService|undefined; }
 
 function latest(path:string):any{return JSON.parse(readFileSync(resolve(ROOT,path),"utf8"));}
+function priorTeamByPlayer():Map<string,string>{
+  try{
+    const pointer=latest("data/processed/nflverse/latest.json"),snapshot=String(pointer.snapshot_id),rows=readFileSync(resolve(ROOT,`data/processed/nflverse/${snapshot}/player_stats_2025.csv`),"utf8").split(/\r?\n/),result=new Map<string,string>();
+    for(const row of rows.slice(1)){const match=row.match(/^([^,]+),.*?,2025,\d+,([A-Z]{2,3}),/);if(match?.[1]&&match[2])result.set(`nfl:gsis:${match[1]}`,match[2]);}
+    return result;
+  }catch{return new Map();}
+}
 type TeamDepthChart={QB:string[];RB:string[];WR:string[];TE:string[]};
 function teamDepthCharts():Map<string,TeamDepthChart>{
   try{
@@ -70,6 +78,37 @@ function productionLabel(pointsAboveReplacement:number|null|undefined,positionMa
   return share>=.75?"Elite":share>=.5?"Premium":share>=.25?"Starter":"Depth";
 }
 
+function syncOperationalFallbackPlayers(service:DraftService):void{
+  const productionPointer=latest("data/processed/production_value_model/latest.json"),board=latest(productionPointer.decision_board_json!);
+  const modeledIds=new Set((board.players as any[]).map(row=>row.internal_player_id));
+  const canonicalPointer=latest("data/processed/canonical_projections/2026/latest.json"),canonical=latest(canonicalPointer.artifact!);
+  const adpPointer=latest("data/processed/fantasypros_adp/2026/latest.json"),adp=latest(adpPointer.artifact!);
+  const espnPointer=latest("data/processed/espn_salary_cap_values/2026/latest.json"),espn=latest(espnPointer.artifact!);
+  const byeByPlayer=new Map((espn.values as any[]).map(row=>[row.internal_player_id,row.bye_week]));
+  const byeByTeam=new Map((espn.values as any[]).map(row=>[row.nfl_team,row.bye_week]));
+  const insertPlayer=service.db.prepare("INSERT OR IGNORE INTO players(id,display_name,position,nfl_team,identity_status,source_ids_json) VALUES(?,?,?,?,?,?)");
+  const findPlayer=service.db.prepare("SELECT id FROM players WHERE id=? OR (display_name=? AND position=? AND nfl_team IS ?) ORDER BY CASE WHEN id=? THEN 0 ELSE 1 END LIMIT 1");
+  const upsertFallback=service.db.prepare("INSERT INTO draft_player_pool(draft_id,player_id,status,risk_flags_json,adp_espn,adp_yahoo,bye_week) VALUES(?,?,'available','[\"limited_auction_guidance\"]',?,?,?) ON CONFLICT(draft_id,player_id) DO UPDATE SET status=CASE WHEN draft_player_pool.status='removed' THEN 'available' ELSE draft_player_pool.status END,expected_price=NULL,price_low=NULL,price_high=NULL,draft_probability=NULL,production_value=NULL,expected_surplus=NULL,market_artifact_id=NULL,production_artifact_id=NULL,risk_flags_json='[\"limited_auction_guidance\"]',adp_espn=excluded.adp_espn,adp_yahoo=excluded.adp_yahoo,bye_week=excluded.bye_week");
+  const canonicalFantasyProsIds=new Set<number>();
+  service.db.transaction(()=>{
+    for(const row of canonical.players as any[]){
+      const fantasyProsId=Number(row.source_ids?.fantasypros);if(Number.isFinite(fantasyProsId))canonicalFantasyProsIds.add(fantasyProsId);
+      if(modeledIds.has(row.internal_player_id))continue;
+      insertPlayer.run(row.internal_player_id,row.name,row.position,row.nfl_team,row.internal_player_id.startsWith("provisional:")?"provisional":"stable",JSON.stringify(row.source_ids??{}));
+      const player=(findPlayer.get(row.internal_player_id,row.name,row.position,row.nfl_team,row.internal_player_id) as {id:string}|undefined)?.id;if(!player)continue;
+      upsertFallback.run(DRAFT_ID,player,row.market_signals?.adp_espn??null,row.market_signals?.adp_yahoo??null,byeByPlayer.get(row.internal_player_id)??byeByTeam.get(row.nfl_team)??null);
+    }
+    for(const row of adp.players as any[]){
+      const best=Math.min(...[row.adp_espn,row.adp_yahoo].filter(Number.isFinite));
+      if(!Number.isFinite(best)||best>200||canonicalFantasyProsIds.has(Number(row.fantasypros_id)))continue;
+      const position=row.position==="DST"?"DEF":row.position,id=`provisional:fantasypros:${row.fantasypros_id}`;
+      insertPlayer.run(id,row.name,position,row.nfl_team??null,"provisional",JSON.stringify({fantasypros:row.fantasypros_id}));
+      const player=(findPlayer.get(id,row.name,position,row.nfl_team??null,id) as {id:string}|undefined)?.id;if(!player)continue;
+      upsertFallback.run(DRAFT_ID,player,row.adp_espn??null,row.adp_yahoo??null,byeByTeam.get(row.nfl_team)??null);
+    }
+  })();
+}
+
 export function getDraftService():DraftService{
   // Next.js keeps this singleton across hot reloads. If the domain service gains
   // a new command, discard an older in-memory instance so its prototype cannot
@@ -91,13 +130,31 @@ export function getDraftService():DraftService{
     initializeFromArtifacts(service,{draftId:DRAFT_ID,season:2026,name:"2026 JUGG Auction",decisionBoardPath:production.decision_board_json!,ownerProfilesPath:owners.artifact!,espnSalaryCapPath:espn.artifact!,teamNames:{"George Rodman":"Rodman Renegades"}});
   }else{
     const production=latest("data/processed/production_value_model/latest.json"),board=latest(production.decision_board_json!);
+    const ownersPointer=latest("data/processed/owner_tendencies/latest.json"),ownersArtifact=latest(ownersPointer.artifact!);
     const espnPointer=latest("data/processed/espn_salary_cap_values/2026/latest.json"),espn=latest(espnPointer.artifact!);
     const byeByPlayer=new Map((espn.values as any[]).map(row=>[row.internal_player_id,row.bye_week]));
     const byeByTeam=new Map((espn.values as any[]).map(row=>[row.nfl_team,row.bye_week]));
-    const update=service.db.prepare("UPDATE draft_player_pool SET adp_espn=?,adp_yahoo=?,bye_week=? WHERE draft_id=? AND player_id=?");
-    service.db.transaction(()=>{for(const row of board.players as any[])update.run(row.adp_espn,row.adp_yahoo,byeByPlayer.get(row.internal_player_id)??byeByTeam.get(row.nfl_team)??null,DRAFT_ID,row.internal_player_id);})();
+    const artifactHash=(path:string)=>createHash("sha256").update(readFileSync(resolve(ROOT,path))).digest("hex");
+    const upsertArtifact=service.db.prepare("INSERT INTO artifact_imports(id,artifact_type,schema_version,build_id,relative_path,sha256,metadata_json) VALUES(?,?,?,?,?,?,?) ON CONFLICT(id) DO UPDATE SET build_id=excluded.build_id,relative_path=excluded.relative_path,sha256=excluded.sha256,metadata_json=excluded.metadata_json,imported_at=CURRENT_TIMESTAMP");
+    const upsertPlayer=service.db.prepare("INSERT INTO players(id,display_name,position,nfl_team,identity_status) VALUES(?,?,?,?,?) ON CONFLICT(id) DO UPDATE SET display_name=excluded.display_name,position=excluded.position,nfl_team=excluded.nfl_team,identity_status=excluded.identity_status");
+    const upsertPool=service.db.prepare("INSERT INTO draft_player_pool(draft_id,player_id,status,expected_price,price_low,price_high,draft_probability,production_value,expected_surplus,risk_flags_json,market_artifact_id,production_artifact_id,owner_profile_artifact_id,adp_espn,adp_yahoo,bye_week) VALUES(?,?,'available',?,?,?,?,?,?,?,'artifact:decision','artifact:decision','artifact:owners',?,?,?) ON CONFLICT(draft_id,player_id) DO UPDATE SET expected_price=excluded.expected_price,price_low=excluded.price_low,price_high=excluded.price_high,draft_probability=excluded.draft_probability,production_value=excluded.production_value,expected_surplus=excluded.expected_surplus,risk_flags_json=excluded.risk_flags_json,market_artifact_id=excluded.market_artifact_id,production_artifact_id=excluded.production_artifact_id,owner_profile_artifact_id=excluded.owner_profile_artifact_id,adp_espn=excluded.adp_espn,adp_yahoo=excluded.adp_yahoo,bye_week=excluded.bye_week");
+    const markRemoved=service.db.prepare("UPDATE draft_player_pool SET status='removed' WHERE draft_id=? AND status='available' AND player_id NOT IN (SELECT value FROM json_each(?))");
+    const updateOwner=service.db.prepare("UPDATE owners SET profile_json=?,profile_artifact_id='artifact:owners' WHERE display_name=?");
+    service.db.transaction(()=>{
+      upsertArtifact.run("artifact:decision","combined_decision_board",1,board.metadata.build_id,production.decision_board_json,artifactHash(production.decision_board_json),JSON.stringify(board.metadata));
+      upsertArtifact.run("artifact:owners","owner_tendencies",1,ownersArtifact.metadata.build_id,ownersPointer.artifact,artifactHash(ownersPointer.artifact),JSON.stringify(ownersArtifact.metadata));
+      const activeIds:string[]=[];
+      for(const row of board.players as any[]){
+        activeIds.push(row.internal_player_id);
+        upsertPlayer.run(row.internal_player_id,row.player_name,row.position,row.nfl_team,row.internal_player_id.startsWith("provisional:")?"provisional":"stable");
+        upsertPool.run(DRAFT_ID,row.internal_player_id,row.expected_jugg_price,row.price_range_low,row.price_range_high,row.draft_probability,row.production_value,row.expected_surplus,JSON.stringify((row.risk_flags||"").split(";").filter(Boolean)),row.adp_espn,row.adp_yahoo,byeByPlayer.get(row.internal_player_id)??byeByTeam.get(row.nfl_team)??null);
+      }
+      markRemoved.run(DRAFT_ID,JSON.stringify(activeIds));
+      for(const profile of ownersArtifact.owners as any[])updateOwner.run(JSON.stringify(profile),profile.owner);
+    })();
     service.db.prepare("INSERT OR IGNORE INTO draft_strategy(draft_id,strategy_json) VALUES(?,?)").run(DRAFT_ID,JSON.stringify(DEFAULT_STRATEGY));
   }
+  syncOperationalFallbackPlayers(service);
   importFantasyAnalysis(service,ROOT);
   importFantasyResearchSynthesis(service,ROOT);
   globalThis.__renegadeDraftService=service;
@@ -150,9 +207,12 @@ export function readDraftRoom(){
   const strategy:Strategy={...DEFAULT_STRATEGY,...storedStrategy,teamPreferences:storedStrategy.teamPreferences??[],situations:storedStrategy.situations??[]};
   const market=marketContext(service);
   const productionPointer=latest("data/processed/production_value_model/latest.json"),decisionBoard=latest(productionPointer.decision_board_json!);
-  const projectedById=new Map((decisionBoard.players as any[]).map(row=>[row.internal_player_id,Number(row.projected_points??0)]));
+  const canonicalPointer=latest("data/processed/canonical_projections/2026/latest.json"),canonicalProjections=latest(canonicalPointer.artifact!);
+  const projectedById=new Map<string,number|null>((canonicalProjections.players as any[]).map(row=>[row.internal_player_id,row.fantasypros?.league_projected_points==null?null:Number(row.fantasypros.league_projected_points)]));
+  for(const row of decisionBoard.players as any[])projectedById.set(row.internal_player_id,Number(row.projected_points??0));
   const productionById=new Map((decisionBoard.players as any[]).map(row=>[row.internal_player_id,row]));
   const fantasyProsContext=fantasyProsContextByPlayer();
+  const previousTeamByPlayer=priorTeamByPlayer();
   const depthChartsByTeam=teamDepthCharts();
   const situationContext=fantasySituationContext();
   const maximumXparByPosition=new Map<string,number>();
@@ -197,7 +257,7 @@ export function readDraftRoom(){
     if(strategy.riskTolerance==="conservative"&&riskFlags.length){adjustment-=2;reasons.push("Conservative risk adjustment");}
     if(strategy.riskTolerance==="aggressive"&&(row.edge??0)>5){adjustment+=1;reasons.push("Aggressive value-upside adjustment");}
     adjustment=clamp(adjustment,-12,12);
-    const strategyValue=rounded(Math.max(0,(row.productionValue??0)+adjustment));
+    const strategyValue=row.productionValue==null?null:rounded(Math.max(0,row.productionValue+adjustment));
     const situationSignals:SituationSignal[]=[];
     const lineRank=row.nflTeam?OFFENSIVE_LINE_ORDER.indexOf(row.nflTeam)+1:0;
     if(lineRank>0&&lineRank<=10)situationSignals.push({key:"offensive_line",tone:"positive",text:`Plays behind a top-10 offensive line (ranked ${lineRank} of 32).`,priority:88});
@@ -218,13 +278,14 @@ export function readDraftRoom(){
     else if(row.position==="RB"&&/(committee|timeshare|shared role|backup role|limited standalone|split(?:ting)? (?:the )?(?:work|backfield))/i.test(concernText))situationSignals.push({key:"workload_role",tone:"negative",text:"A committee or limited standalone workload is a meaningful concern.",priority:91});
     if(row.position==="RB"&&/(goal-line|short-yardage|inside the 5|red-zone work)/i.test(positiveRoleText))situationSignals.push({key:"goal_line_role",tone:"positive",text:"Current role evidence supports meaningful goal-line work.",priority:89});
     else if(row.position==="RB"&&/(limited goal-line|goal-line competition|few goal-line|no goal-line|lacks? goal-line|goal-line role.*(?:uncertain|capped))/i.test(concernText))situationSignals.push({key:"goal_line_role",tone:"negative",text:"Goal-line opportunity is limited or contested.",priority:89});
-    return {...row,projectedPoints:projectedById.get(row.id)??0,expectedPrice:rounded(row.expectedPrice),priceLow:rounded(row.priceLow),priceHigh:rounded(row.priceHigh),liveExpectedPrice:liveExpected,livePriceLow:row.priceLow==null?null:rounded(row.priceLow*multiplier),livePriceHigh:row.priceHigh==null?null:rounded(row.priceHigh*multiplier),marketMultiplier:Number(multiplier.toFixed(3)),marketAdp:rounded(([row.adpEspn,row.adpYahoo].filter(Number.isFinite) as number[]).reduce((sum,value)=>sum+value,0)/([row.adpEspn,row.adpYahoo].filter(Number.isFinite).length||1))||null,productionValue:rounded(row.productionValue),edge:rounded(row.edge),liveEdge:strategyValue==null||liveExpected==null?null:strategyValue-liveExpected,strategyValue,strategyReasons:reasons,riskFlags,situationSignals,
+    const guidanceLevel=production?"modeled":projectedById.get(row.id)!=null?"limited":"adp_only";
+    return {...row,guidanceLevel,projectedPoints:projectedById.get(row.id)??null,expectedPrice:rounded(row.expectedPrice),priceLow:rounded(row.priceLow),priceHigh:rounded(row.priceHigh),liveExpectedPrice:liveExpected,livePriceLow:row.priceLow==null?null:rounded(row.priceLow*multiplier),livePriceHigh:row.priceHigh==null?null:rounded(row.priceHigh*multiplier),marketMultiplier:Number(multiplier.toFixed(3)),marketAdp:rounded(([row.adpEspn,row.adpYahoo].filter(Number.isFinite) as number[]).reduce((sum,value)=>sum+value,0)/([row.adpEspn,row.adpYahoo].filter(Number.isFinite).length||1))||null,productionValue:rounded(row.productionValue),edge:rounded(row.edge),liveEdge:strategyValue==null||liveExpected==null?null:strategyValue-liveExpected,strategyValue,strategyReasons:reasons,riskFlags,situationSignals,
       positionRank:production?.position_rank??null,replacementPoints:production?.replacement_points??null,pointsAboveReplacement:production?.points_above_replacement??null,birthDate:production?.birth_date??null,yearsOfExperience:production?.years_of_experience??null,
-      productionLabel:productionLabel(production?.points_above_replacement,maximumXparByPosition.get(row.position)??0),
+      productionLabel:production?productionLabel(production.points_above_replacement,maximumXparByPosition.get(row.position)??0):null,
       productionTier:production?.production_tier??null,productionTierSize:production?.production_tier_size??null,productionTierHigh:production?.production_tier_high??null,productionTierLow:production?.production_tier_low??null,
       auctionTier:production?.auction_tier??null,auctionTierSize:production?.auction_tier_size??null,auctionTierHigh:production?.auction_tier_high??null,auctionTierLow:production?.auction_tier_low??null,
       lastSeasonStatLine:production?.last_season_stat_line??null,historicalStatLines:production?.historical_stat_lines??(production?.last_season_stat_line?[production.last_season_stat_line]:[]),projectedStatLine:production?.projected_stat_line??null,
-      fantasyAnalysis:fantasyAnalysisByPlayer.get(row.id)??[],analystConsensus:analysisConsensus(row.id),injury:fantasyProsContext.get(row.id)?.injury??null,recentNews:fantasyProsContext.get(row.id)?.recentNews??[],teamDepthChart:depthChartsByTeam.get(row.nflTeam)??null};
+      fantasyAnalysis:fantasyAnalysisByPlayer.get(row.id)??[],analystConsensus:analysisConsensus(row.id),injury:fantasyProsContext.get(row.id)?.injury??null,recentNews:fantasyProsContext.get(row.id)?.recentNews??[],teamDepthChart:depthChartsByTeam.get(row.nflTeam)??null,offensiveLineRank:lineRank||null,previousNflTeam:previousTeamByPlayer.get(row.id)??null};
   });
   const quarterbackByTeam=new Map<string,(typeof basePlayers)[number]>();
   for(const quarterback of basePlayers.filter(player=>player.position==="QB"&&player.nflTeam).sort((a,b)=>(a.positionRank??999)-(b.positionRank??999)))if(!quarterbackByTeam.has(quarterback.nflTeam))quarterbackByTeam.set(quarterback.nflTeam,quarterback);
@@ -239,7 +300,7 @@ export function readDraftRoom(){
   const comparableAlternatives=(focus:any)=>{
     const focusPrice=Math.max(1,focus.liveExpectedPrice??focus.expectedPrice??1),focusPoints=Math.max(1,focus.projectedPoints??1);
     const score=(candidate:any)=>.3*Math.abs((candidate.productionTier??99)-(focus.productionTier??99))+Math.abs(Math.log(Math.max(1,candidate.liveExpectedPrice??candidate.expectedPrice??1)/focusPrice))+.65*Math.abs(Math.log(Math.max(1,candidate.projectedPoints??1)/focusPoints));
-    return players.filter(player=>player.status==="available"&&player.id!==focus.id&&player.position===focus.position).sort((a,b)=>score(a)-score(b)||(b.liveExpectedPrice??0)-(a.liveExpectedPrice??0)).slice(0,3).map(player=>({id:player.id,name:player.name,nflTeam:player.nflTeam,projectedPoints:player.projectedPoints,pointsAboveReplacement:player.pointsAboveReplacement,productionTier:player.productionTier,liveExpectedPrice:player.liveExpectedPrice??player.expectedPrice,productionLabel:player.productionLabel}));
+    return players.filter(player=>player.guidanceLevel==="modeled"&&player.status==="available"&&player.id!==focus.id&&player.position===focus.position).sort((a,b)=>score(a)-score(b)||(b.liveExpectedPrice??0)-(a.liveExpectedPrice??0)).slice(0,3).map(player=>({id:player.id,name:player.name,nflTeam:player.nflTeam,projectedPoints:player.projectedPoints,pointsAboveReplacement:player.pointsAboveReplacement,productionTier:player.productionTier,liveExpectedPrice:player.liveExpectedPrice??player.expectedPrice,productionLabel:player.productionLabel}));
   };
   const boardPlayers=players.map(player=>({...player,alternatives:player.status==="sold"?[]:comparableAlternatives(player)}));
   const teams=(service.db.prepare(`SELECT t.id,t.display_name name,o.display_name owner,s.remaining_budget remainingBudget,s.open_slot_count openSlots,s.rostered_player_count rosteredCount,d.minimum_bid minimumBid,o.profile_json profileJson FROM teams t JOIN owners o ON o.id=t.owner_id JOIN team_draft_state s ON s.team_id=t.id JOIN drafts d ON d.id=t.draft_id WHERE t.draft_id=? ORDER BY CASE WHEN t.display_name='Rodman Renegades' THEN 0 ELSE 1 END,s.remaining_budget DESC`).all(DRAFT_ID) as any[]).map(row=>({...row,maxBid:row.remainingBudget-(row.openSlots-1)*row.minimumBid,profile:parseJson<OwnerProfile|null>(row.profileJson,null),profileJson:undefined}));
@@ -264,19 +325,19 @@ export function readDraftRoom(){
   const enrichedRosters=rawRosters.map(row=>{const production=productionById.get(row.playerId) as any;const rank=Number(production?.position_rank)||null;return {...row,eligiblePositions:parseJson<Position[]>(row.eligiblePositionsJson,[]),eligiblePositionsJson:undefined,positionRank:rank,pointsAboveReplacement:production?.points_above_replacement==null?null:Number(production.points_above_replacement),productionLabel:row.playerId?productionLabel(production?.points_above_replacement,maximumXparByPosition.get(row.position)??0):null};});
   const teamRosters=Object.fromEntries(teams.map(team=>[team.id,enrichedRosters.filter(row=>row.teamId===team.id)]));
   const roster=renegades?teamRosters[renegades.id]??[]:[];
-  const decisionPlayers=new Map<string,DecisionPlayer>(players.map(player=>[player.id,{id:player.id,name:player.name,position:player.position as Position,projectedPoints:player.projectedPoints,
+  const decisionPlayers=new Map<string,DecisionPlayer>(players.map(player=>[player.id,{id:player.id,name:player.name,position:player.position as Position,projectedPoints:player.projectedPoints??0,
     expectedPrice:Math.max(1,player.liveExpectedPrice??player.expectedPrice??1),priceLow:Math.max(1,player.livePriceLow??player.priceLow??1),priceHigh:Math.max(1,player.livePriceHigh??player.priceHigh??1),
     productionTier:player.productionTier??undefined,auctionTier:player.auctionTier??undefined,pointsAboveReplacement:player.pointsAboveReplacement??undefined,replacementPoints:player.replacementPoints??undefined,
     strategyValue:player.strategyValue??undefined,strategyAdjustment:player.strategyValue!=null&&player.productionValue!=null?player.strategyValue-player.productionValue:0,preference:player.preference,strategyReasons:player.strategyReasons} as DecisionPlayer]));
   const rosterRows=service.db.prepare(`SELECT rs.team_id teamId,rs.player_id playerId FROM roster_slots rs JOIN teams t ON t.id=rs.team_id WHERE t.draft_id=? AND rs.player_id IS NOT NULL`).all(DRAFT_ID) as {teamId:string;playerId:string}[];
   const decisionTeams:DecisionTeam[]=teams.map(team=>({id:team.id,name:team.name,owner:team.owner,remainingBudget:team.remainingBudget,openSlots:team.openSlots,
     roster:rosterRows.filter(row=>row.teamId===team.id).map(row=>decisionPlayers.get(row.playerId)).filter((player):player is DecisionPlayer=>Boolean(player))}));
-  const availableDecisionPlayers=players.filter(player=>player.status==="available"||player.status==="nominated").map(player=>decisionPlayers.get(player.id)).filter((player):player is DecisionPlayer=>Boolean(player));
-  const roadmapPlayers=players.filter(player=>player.status==="available").map(player=>decisionPlayers.get(player.id)).filter((player):player is DecisionPlayer=>Boolean(player));
+  const availableDecisionPlayers=players.filter(player=>player.guidanceLevel==="modeled"&&(player.status==="available"||player.status==="nominated")).map(player=>decisionPlayers.get(player.id)).filter((player):player is DecisionPlayer=>Boolean(player));
+  const roadmapPlayers=players.filter(player=>player.guidanceLevel==="modeled"&&player.status==="available").map(player=>decisionPlayers.get(player.id)).filter((player):player is DecisionPlayer=>Boolean(player));
   const cacheKey=`${draft.stateVersion}:${JSON.stringify(strategy)}`;
   if(!decisionCache||decisionCache.key!==cacheKey){
     const roadmap=renegades?draftRoadmap(decisionTeams,renegades.id,roadmapPlayers,renegades.maxBid):{targets:[],impacts:[]};
-    decisionCache={key:cacheKey,leaderboard:liveLeaderboard(decisionTeams,availableDecisionPlayers),championshipDecision:currentNomination&&renegades?nominationDecision(decisionTeams,renegades.id,availableDecisionPlayers,currentNomination.playerId,renegades.maxBid):null,...roadmap};
+    decisionCache={key:cacheKey,leaderboard:liveLeaderboard(decisionTeams,availableDecisionPlayers),championshipDecision:currentNomination&&currentNomination.guidanceLevel==="modeled"&&renegades?nominationDecision(decisionTeams,renegades.id,availableDecisionPlayers,currentNomination.playerId,renegades.maxBid):null,...roadmap};
   }
   const {leaderboard,championshipDecision,targets,impacts}=decisionCache;
   const targetByPlayerId=new Map(targets.map(target=>[target.playerId,target]));
@@ -294,7 +355,7 @@ export function readDraftRoom(){
     player.draftImpact=impactByPlayerId.get(player.id)??null;
   }
   let decisionPlan:any=null;
-  if(currentNomination&&renegades){
+  if(currentNomination&&currentNomination.guidanceLevel==="modeled"&&renegades){
     const recommendedCeiling=Math.max(1,championshipDecision?.recommendedMax??1);
     const existingPlan=service.db.prepare("SELECT recommended_ceiling recommendedCeiling,committed_ceiling committedCeiling,adjustment_reason adjustmentReason FROM nomination_decision_plans WHERE nomination_id=?").get(currentNomination.nominationId) as any;
     if(!existingPlan)service.db.prepare("INSERT INTO nomination_decision_plans(nomination_id,draft_id,player_id,recommended_ceiling,committed_ceiling) VALUES(?,?,?,?,?)").run(currentNomination.nominationId,DRAFT_ID,currentNomination.playerId,recommendedCeiling,recommendedCeiling);

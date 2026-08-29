@@ -1,0 +1,79 @@
+{
+  "bands": [
+    "strong_pursue",
+    "lean_pursue",
+    "neutral",
+    "lean_pass",
+    "strong_pass"
+  ],
+  "calibration": {
+    "decision_noise_floor": 0.018,
+    "estimated_simulations_for_one_point_max_range": 12960,
+    "observed_max_seed_range": 0.036,
+    "simulations_per_seed": 1000
+  },
+  "examples": {
+    "lean_pass": {
+      "band": "neutral",
+      "median_championship_equity_delta": -0.021,
+      "noise_floor": 0.018,
+      "robust_range": [
+        -0.024,
+        -0.018
+      ],
+      "scenario_positive_rate": 0.0
+    },
+    "lean_pursue": {
+      "band": "neutral",
+      "median_championship_equity_delta": 0.021,
+      "noise_floor": 0.018,
+      "robust_range": [
+        0.018,
+        0.024
+      ],
+      "scenario_positive_rate": 1.0
+    },
+    "neutral": {
+      "band": "neutral",
+      "median_championship_equity_delta": 0.005,
+      "noise_floor": 0.018,
+      "robust_range": [
+        -0.01,
+        0.012
+      ],
+      "scenario_positive_rate": 0.6
+    },
+    "strong_pass": {
+      "band": "strong_pass",
+      "median_championship_equity_delta": -0.038,
+      "noise_floor": 0.018,
+      "robust_range": [
+        -0.045,
+        -0.032
+      ],
+      "scenario_positive_rate": 0.0
+    },
+    "strong_pursue": {
+      "band": "strong_pursue",
+      "median_championship_equity_delta": 0.038,
+      "noise_floor": 0.018,
+      "robust_range": [
+        0.032,
+        0.045
+      ],
+      "scenario_positive_rate": 1.0
+    }
+  },
+  "metadata": {
+    "build_id": "20260829T045646Z",
+    "inputs": {
+      "data/processed/auction_history_matches/20260829T044618Z/auction_history_matches.json": "79ccdc773d93b7ce14135ca9689c9c7315a39d0bda2b6e576c122aa69d7b8930",
+      "data/processed/championship_equity/20260829T045640Z/historical_backtest.json": "4b91e7f56510bfd9ef027b07dd80125126ae6fda51b3b0951e70f8d3064f644f",
+      "data/processed/nflverse/20260829T043413Z/league_scored_actuals.json": "3f9d81e154bff0854ac05573c92654047ef15040770b9082c0b9e4938689269d",
+      "data/processed/production_value_model/20260829T044717Z/decision_board_2026.json": "2aace271c2a4883e55f145194796c19c6fe6b27478db533c1c76ccf14f75f7f5"
+    },
+    "schema_version": 1,
+    "strategy_neutral": true
+  },
+  "rule": "Bands require magnitude beyond simulation noise and agreement across reasonable scenarios; neutral is the default."
+}

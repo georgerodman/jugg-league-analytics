@@ -1,0 +1,2228 @@
+{
+  "metadata": {
+    "build_id": "20260829T051029Z",
+    "schema_version": 1
+  },
+  "seasons": [
+    {
+      "owners": [
+        {
+          "acquisitions": [
+            {
+              "added": "Allen Lazard",
+              "candidate_signal": 8.36,
+              "dropped": "Christian Kirk",
+              "incumbent_signal": 4.97,
+              "week": 2
+            },
+            {
+              "added": "Mike Williams",
+              "candidate_signal": 6.92,
+              "dropped": "Allen Lazard",
+              "incumbent_signal": 6.14,
+              "week": 6
+            },
+            {
+              "added": "Giovani Bernard",
+              "candidate_signal": 7.1,
+              "dropped": "Kerryon Johnson",
+              "incumbent_signal": 5.85,
+              "week": 9
+            },
+            {
+              "added": "Curtis Samuel",
+              "candidate_signal": 8.84,
+              "dropped": "A.J. Green",
+              "incumbent_signal": 6.79,
+              "week": 10
+            }
+          ],
+          "frozen_actual_optimal_points": 1426.14,
+          "owner": "Brad Beissner",
+          "replacement_access_actual_optimal_points": 1426.54,
+          "replacement_access_gain": 0.4
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Sony Michel",
+              "candidate_signal": 7.27,
+              "dropped": "Matt Breida",
+              "incumbent_signal": 5.22,
+              "week": 2
+            },
+            {
+              "added": "Philadelphia Eagles",
+              "candidate_signal": 7.5,
+              "dropped": "Buffalo Bills",
+              "incumbent_signal": 6.04,
+              "week": 5
+            },
+            {
+              "added": "Jason Sanders",
+              "candidate_signal": 8.84,
+              "dropped": "Matt Prater",
+              "incumbent_signal": 6.7,
+              "week": 6
+            },
+            {
+              "added": "Myles Gaskin",
+              "candidate_signal": 5.06,
+              "dropped": "Sony Michel",
+              "incumbent_signal": 4.36,
+              "week": 7
+            }
+          ],
+          "frozen_actual_optimal_points": 1607.84,
+          "owner": "Brandon Martin",
+          "replacement_access_actual_optimal_points": 1618.44,
+          "replacement_access_gain": 10.6
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Jamison Crowder",
+              "candidate_signal": 10.46,
+              "dropped": "N'Keal Harry",
+              "incumbent_signal": 4.66,
+              "week": 2
+            },
+            {
+              "added": "Corey Davis",
+              "candidate_signal": 6.8,
+              "dropped": "Parris Campbell",
+              "incumbent_signal": 4.51,
+              "week": 3
+            },
+            {
+              "added": "Rex Burkhead",
+              "candidate_signal": 5.96,
+              "dropped": "Chase Edmonds",
+              "incumbent_signal": 4.6,
+              "week": 4
+            },
+            {
+              "added": "Jared Goff",
+              "candidate_signal": 20.01,
+              "dropped": "Daniel Jones",
+              "incumbent_signal": 15.82,
+              "week": 5
+            }
+          ],
+          "frozen_actual_optimal_points": 1240.6,
+          "owner": "George Rodman",
+          "replacement_access_actual_optimal_points": 1313.02,
+          "replacement_access_gain": 72.42
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Daniel Carlson",
+              "candidate_signal": 7.87,
+              "dropped": "Matt Gay",
+              "incumbent_signal": 0.0,
+              "week": 2
+            },
+            {
+              "added": "James Robinson",
+              "candidate_signal": 7.16,
+              "dropped": "Tony Pollard",
+              "incumbent_signal": 4.29,
+              "week": 3
+            },
+            {
+              "added": "Joshua Kelley",
+              "candidate_signal": 5.59,
+              "dropped": "James White",
+              "incumbent_signal": 5.27,
+              "week": 4
+            },
+            {
+              "added": "Duke Johnson Jr.",
+              "candidate_signal": 4.86,
+              "dropped": "Joshua Kelley",
+              "incumbent_signal": 3.77,
+              "week": 6
+            }
+          ],
+          "frozen_actual_optimal_points": 1295.02,
+          "owner": "Joey Breeland",
+          "replacement_access_actual_optimal_points": 1446.32,
+          "replacement_access_gain": 151.3
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Robbie Chosen",
+              "candidate_signal": 10.18,
+              "dropped": "Justin Jefferson",
+              "incumbent_signal": 4.76,
+              "week": 2
+            },
+            {
+              "added": "Jonnu Smith",
+              "candidate_signal": 7.72,
+              "dropped": "Rob Gronkowski",
+              "incumbent_signal": 4.11,
+              "week": 3
+            },
+            {
+              "added": "Darrell Henderson Jr.",
+              "candidate_signal": 7.29,
+              "dropped": "Tarik Cohen",
+              "incumbent_signal": 5.71,
+              "week": 4
+            },
+            {
+              "added": "Randy Bullock",
+              "candidate_signal": 8.46,
+              "dropped": "Chris Boswell",
+              "incumbent_signal": 6.31,
+              "week": 5
+            }
+          ],
+          "frozen_actual_optimal_points": 1408.62,
+          "owner": "Julius Berotte",
+          "replacement_access_actual_optimal_points": 1359.72,
+          "replacement_access_gain": -48.9
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Sammy Watkins",
+              "candidate_signal": 8.73,
+              "dropped": "Deebo Samuel Sr.",
+              "incumbent_signal": 5.15,
+              "week": 2
+            },
+            {
+              "added": "Diontae Johnson",
+              "candidate_signal": 7.91,
+              "dropped": "Henry Ruggs",
+              "incumbent_signal": 5.7,
+              "week": 3
+            },
+            {
+              "added": "Emmanuel Sanders",
+              "candidate_signal": 6.78,
+              "dropped": "Sammy Watkins",
+              "incumbent_signal": 5.34,
+              "week": 5
+            },
+            {
+              "added": "Mecole Hardman Jr.",
+              "candidate_signal": 6.65,
+              "dropped": "Diontae Johnson",
+              "incumbent_signal": 5.14,
+              "week": 6
+            }
+          ],
+          "frozen_actual_optimal_points": 1515.44,
+          "owner": "Ken Moller",
+          "replacement_access_actual_optimal_points": 1504.34,
+          "replacement_access_gain": -11.1
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "New Orleans Saints",
+              "candidate_signal": 9.94,
+              "dropped": "Indianapolis Colts",
+              "incumbent_signal": 5.89,
+              "week": 2
+            },
+            {
+              "added": "Kansas City Chiefs",
+              "candidate_signal": 8.03,
+              "dropped": "New Orleans Saints",
+              "incumbent_signal": 5.34,
+              "week": 5
+            },
+            {
+              "added": "Preston Williams",
+              "candidate_signal": 7.52,
+              "dropped": "Sterling Shepard",
+              "incumbent_signal": 5.09,
+              "week": 6
+            },
+            {
+              "added": "Baker Mayfield",
+              "candidate_signal": 19.05,
+              "dropped": "Dak Prescott",
+              "incumbent_signal": 16.95,
+              "week": 8
+            }
+          ],
+          "frozen_actual_optimal_points": 1270.94,
+          "owner": "Lee Krassner",
+          "replacement_access_actual_optimal_points": 1325.24,
+          "replacement_access_gain": 54.3
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Dallas Goedert",
+              "candidate_signal": 8.28,
+              "dropped": "Evan Engram",
+              "incumbent_signal": 4.59,
+              "week": 2
+            },
+            {
+              "added": "Mike Gesicki",
+              "candidate_signal": 6.69,
+              "dropped": "Dallas Goedert",
+              "incumbent_signal": 5.43,
+              "week": 4
+            },
+            {
+              "added": "Brandon Aiyuk",
+              "candidate_signal": 6.92,
+              "dropped": "Courtland Sutton",
+              "incumbent_signal": 6.15,
+              "week": 6
+            },
+            {
+              "added": "Chase Claypool",
+              "candidate_signal": 7.44,
+              "dropped": "Brandon Aiyuk",
+              "incumbent_signal": 6.03,
+              "week": 7
+            }
+          ],
+          "frozen_actual_optimal_points": 1487.34,
+          "owner": "Nate Corbett",
+          "replacement_access_actual_optimal_points": 1508.64,
+          "replacement_access_gain": 21.3
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Malcolm Brown",
+              "candidate_signal": 9.19,
+              "dropped": "Latavius Murray",
+              "incumbent_signal": 5.84,
+              "week": 2
+            },
+            {
+              "added": "Washington Commanders",
+              "candidate_signal": 7.3,
+              "dropped": "Dallas Cowboys",
+              "incumbent_signal": 4.66,
+              "week": 3
+            },
+            {
+              "added": "Tampa Bay Buccaneers",
+              "candidate_signal": 7.94,
+              "dropped": "Washington Commanders",
+              "incumbent_signal": 6.45,
+              "week": 4
+            },
+            {
+              "added": "Mike Davis",
+              "candidate_signal": 5.58,
+              "dropped": "Malcolm Brown",
+              "incumbent_signal": 3.52,
+              "week": 5
+            }
+          ],
+          "frozen_actual_optimal_points": 1322.48,
+          "owner": "Phil Carr",
+          "replacement_access_actual_optimal_points": 1346.58,
+          "replacement_access_gain": 24.1
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Anthony Miller",
+              "candidate_signal": 8.46,
+              "dropped": "William Fuller V",
+              "incumbent_signal": 5.12,
+              "week": 2
+            },
+            {
+              "added": "Jerick McKinnon",
+              "candidate_signal": 6.93,
+              "dropped": "Alexander Mattison",
+              "incumbent_signal": 5.1,
+              "week": 3
+            },
+            {
+              "added": "Hunter Henry",
+              "candidate_signal": 5.8,
+              "dropped": "Noah Fant",
+              "incumbent_signal": 4.63,
+              "week": 6
+            },
+            {
+              "added": "Cole Beasley",
+              "candidate_signal": 6.4,
+              "dropped": "Anthony Miller",
+              "incumbent_signal": 4.9,
+              "week": 7
+            }
+          ],
+          "frozen_actual_optimal_points": 1610.78,
+          "owner": "Robbie Bagwell",
+          "replacement_access_actual_optimal_points": 1678.38,
+          "replacement_access_gain": 67.6
+        }
+      ],
+      "season": 2020
+    },
+    {
+      "owners": [
+        {
+          "acquisitions": [
+            {
+              "added": "Mark Ingram II",
+              "candidate_signal": 6.74,
+              "dropped": "JK Dobbins",
+              "incumbent_signal": 0.0,
+              "week": 2
+            },
+            {
+              "added": "Michael Pittman Jr.",
+              "candidate_signal": 7.28,
+              "dropped": "Odell Beckham Jr.",
+              "incumbent_signal": 6.01,
+              "week": 3
+            },
+            {
+              "added": "DeVante Parker",
+              "candidate_signal": 6.89,
+              "dropped": "Jerry Jeudy",
+              "incumbent_signal": 6.41,
+              "week": 4
+            },
+            {
+              "added": "Darrel Williams",
+              "candidate_signal": 4.72,
+              "dropped": "Mark Ingram II",
+              "incumbent_signal": 3.23,
+              "week": 5
+            }
+          ],
+          "frozen_actual_optimal_points": 1400.0,
+          "owner": "Brad Beissner",
+          "replacement_access_actual_optimal_points": 1490.2,
+          "replacement_access_gain": 90.2
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Jarvis Landry",
+              "candidate_signal": 9.82,
+              "dropped": "Courtland Sutton",
+              "incumbent_signal": 6.14,
+              "week": 2
+            },
+            {
+              "added": "Daniel Carlson",
+              "candidate_signal": 8.94,
+              "dropped": "Jason Sanders",
+              "incumbent_signal": 6.12,
+              "week": 3
+            },
+            {
+              "added": "Mecole Hardman Jr.",
+              "candidate_signal": 6.71,
+              "dropped": "Jarvis Landry",
+              "incumbent_signal": 5.59,
+              "week": 5
+            },
+            {
+              "added": "Dawson Knox",
+              "candidate_signal": 7.36,
+              "dropped": "Robert Tonyan",
+              "incumbent_signal": 4.67,
+              "week": 6
+            }
+          ],
+          "frozen_actual_optimal_points": 1366.02,
+          "owner": "Brandon Martin",
+          "replacement_access_actual_optimal_points": 1372.72,
+          "replacement_access_gain": 6.7
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Ty'Son Williams",
+              "candidate_signal": 8.29,
+              "dropped": "Chuba Hubbard",
+              "incumbent_signal": 1.84,
+              "week": 2
+            },
+            {
+              "added": "J.D. McKissic",
+              "candidate_signal": 6.33,
+              "dropped": "Alexander Mattison",
+              "incumbent_signal": 3.95,
+              "week": 3
+            },
+            {
+              "added": "Brandon McManus",
+              "candidate_signal": 8.52,
+              "dropped": "Jason Myers",
+              "incumbent_signal": 6.97,
+              "week": 4
+            },
+            {
+              "added": "Damien Williams",
+              "candidate_signal": 5.87,
+              "dropped": "Ty'Son Williams",
+              "incumbent_signal": 4.1,
+              "week": 6
+            }
+          ],
+          "frozen_actual_optimal_points": 1438.02,
+          "owner": "George Rodman",
+          "replacement_access_actual_optimal_points": 1408.52,
+          "replacement_access_gain": -29.5
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Arizona Cardinals",
+              "candidate_signal": 9.58,
+              "dropped": "Baltimore Ravens",
+              "incumbent_signal": 5.99,
+              "week": 2
+            },
+            {
+              "added": "Mike Williams",
+              "candidate_signal": 9.72,
+              "dropped": "Kenny Golladay",
+              "incumbent_signal": 7.65,
+              "week": 3
+            },
+            {
+              "added": "Cole Beasley",
+              "candidate_signal": 7.19,
+              "dropped": "Mike Williams",
+              "incumbent_signal": 5.78,
+              "week": 9
+            },
+            {
+              "added": "Tennessee Titans",
+              "candidate_signal": 8.85,
+              "dropped": "Arizona Cardinals",
+              "incumbent_signal": 7.18,
+              "week": 10
+            }
+          ],
+          "frozen_actual_optimal_points": 1525.68,
+          "owner": "Joey Breeland",
+          "replacement_access_actual_optimal_points": 1592.08,
+          "replacement_access_gain": 66.4
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Jameis Winston",
+              "candidate_signal": 23.6,
+              "dropped": "Aaron Rodgers",
+              "incumbent_signal": 17.71,
+              "week": 2
+            },
+            {
+              "added": "Matt Ryan",
+              "candidate_signal": 21.18,
+              "dropped": "Jameis Winston",
+              "incumbent_signal": 17.2,
+              "week": 5
+            },
+            {
+              "added": "Dallas Goedert",
+              "candidate_signal": 6.18,
+              "dropped": "Rob Gronkowski",
+              "incumbent_signal": 4.39,
+              "week": 6
+            },
+            {
+              "added": "Jared Cook",
+              "candidate_signal": 6.62,
+              "dropped": "Dallas Goedert",
+              "incumbent_signal": 5.52,
+              "week": 7
+            }
+          ],
+          "frozen_actual_optimal_points": 1438.0,
+          "owner": "Julius Berotte",
+          "replacement_access_actual_optimal_points": 1369.06,
+          "replacement_access_gain": -68.94
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Marvin Jones Jr.",
+              "candidate_signal": 10.1,
+              "dropped": "Michael Thomas",
+              "incumbent_signal": 4.64,
+              "week": 2
+            },
+            {
+              "added": "New Orleans Saints",
+              "candidate_signal": 8.03,
+              "dropped": "Cleveland Browns",
+              "incumbent_signal": 5.85,
+              "week": 3
+            },
+            {
+              "added": "A.J. Green",
+              "candidate_signal": 6.99,
+              "dropped": "Antonio Brown",
+              "incumbent_signal": 5.69,
+              "week": 5
+            },
+            {
+              "added": "Darnell Mooney",
+              "candidate_signal": 7.15,
+              "dropped": "DJ Chark Jr.",
+              "incumbent_signal": 5.39,
+              "week": 7
+            }
+          ],
+          "frozen_actual_optimal_points": 1457.4,
+          "owner": "Ken Moller",
+          "replacement_access_actual_optimal_points": 1501.6,
+          "replacement_access_gain": 44.2
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Robbie Gould",
+              "candidate_signal": 8.82,
+              "dropped": "Josh Lambo",
+              "incumbent_signal": 5.51,
+              "week": 2
+            },
+            {
+              "added": "James White",
+              "candidate_signal": 6.6,
+              "dropped": "AJ Dillon",
+              "incumbent_signal": 4.91,
+              "week": 3
+            },
+            {
+              "added": "Denver Broncos",
+              "candidate_signal": 8.13,
+              "dropped": "Washington Commanders",
+              "incumbent_signal": 5.37,
+              "week": 4
+            },
+            {
+              "added": "Matt Prater",
+              "candidate_signal": 8.36,
+              "dropped": "Robbie Gould",
+              "incumbent_signal": 6.12,
+              "week": 5
+            }
+          ],
+          "frozen_actual_optimal_points": 1352.04,
+          "owner": "Lee Krassner",
+          "replacement_access_actual_optimal_points": 1397.04,
+          "replacement_access_gain": 45.0
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Elijah Mitchell",
+              "candidate_signal": 6.79,
+              "dropped": "Gus Edwards",
+              "incumbent_signal": 0.0,
+              "week": 2
+            },
+            {
+              "added": "Sterling Shepard",
+              "candidate_signal": 8.34,
+              "dropped": "Jaylen Waddle",
+              "incumbent_signal": 6.78,
+              "week": 3
+            },
+            {
+              "added": "Cordarrelle Patterson",
+              "candidate_signal": 5.76,
+              "dropped": "Elijah Mitchell",
+              "incumbent_signal": 4.04,
+              "week": 4
+            },
+            {
+              "added": "Mike Gesicki",
+              "candidate_signal": 7.04,
+              "dropped": "Logan Thomas",
+              "incumbent_signal": 5.56,
+              "week": 5
+            }
+          ],
+          "frozen_actual_optimal_points": 1329.66,
+          "owner": "Nate Corbett",
+          "replacement_access_actual_optimal_points": 1336.16,
+          "replacement_access_gain": 6.5
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Hollywood Brown",
+              "candidate_signal": 9.87,
+              "dropped": "Marquez Callaway",
+              "incumbent_signal": 4.99,
+              "week": 2
+            },
+            {
+              "added": "Henry Ruggs III",
+              "candidate_signal": 8.15,
+              "dropped": "Jakobi Meyers",
+              "incumbent_signal": 6.43,
+              "week": 3
+            },
+            {
+              "added": "Chicago Bears",
+              "candidate_signal": 7.9,
+              "dropped": "San Francisco 49ers",
+              "incumbent_signal": 5.65,
+              "week": 5
+            },
+            {
+              "added": "Green Bay Packers",
+              "candidate_signal": 7.62,
+              "dropped": "Chicago Bears",
+              "incumbent_signal": 5.5,
+              "week": 8
+            }
+          ],
+          "frozen_actual_optimal_points": 1326.18,
+          "owner": "Phil Carr",
+          "replacement_access_actual_optimal_points": 1337.58,
+          "replacement_access_gain": 11.4
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Jared Goff",
+              "candidate_signal": 22.41,
+              "dropped": "Trey Lance",
+              "incumbent_signal": 12.24,
+              "week": 2
+            },
+            {
+              "added": "Christian Kirk",
+              "candidate_signal": 7.3,
+              "dropped": "William Fuller",
+              "incumbent_signal": 4.86,
+              "week": 3
+            },
+            {
+              "added": "Emmanuel Sanders",
+              "candidate_signal": 7.14,
+              "dropped": "Curtis Samuel",
+              "incumbent_signal": 5.41,
+              "week": 4
+            },
+            {
+              "added": "Laviska Shenault Jr.",
+              "candidate_signal": 6.82,
+              "dropped": "Christian Kirk",
+              "incumbent_signal": 5.21,
+              "week": 5
+            }
+          ],
+          "frozen_actual_optimal_points": 1366.04,
+          "owner": "Robbie Bagwell",
+          "replacement_access_actual_optimal_points": 1434.26,
+          "replacement_access_gain": 68.22
+        }
+      ],
+      "season": 2021
+    },
+    {
+      "owners": [
+        {
+          "acquisitions": [
+            {
+              "added": "Jahan Dotson",
+              "candidate_signal": 8.18,
+              "dropped": "Kadarius Toney",
+              "incumbent_signal": 5.26,
+              "week": 2
+            },
+            {
+              "added": "Derek Carr",
+              "candidate_signal": 20.28,
+              "dropped": "Baker Mayfield",
+              "incumbent_signal": 16.73,
+              "week": 3
+            },
+            {
+              "added": "Jakobi Meyers",
+              "candidate_signal": 6.68,
+              "dropped": "Jahan Dotson",
+              "incumbent_signal": 4.81,
+              "week": 6
+            },
+            {
+              "added": "Mike Gesicki",
+              "candidate_signal": 6.28,
+              "dropped": "Darren Waller",
+              "incumbent_signal": 5.68,
+              "week": 7
+            }
+          ],
+          "frozen_actual_optimal_points": 1402.22,
+          "owner": "Brad Beissner",
+          "replacement_access_actual_optimal_points": 1503.86,
+          "replacement_access_gain": 101.64
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Kirk Cousins",
+              "candidate_signal": 20.99,
+              "dropped": "Kenny Pickett",
+              "incumbent_signal": 4.35,
+              "week": 2
+            },
+            {
+              "added": "Gerald Everett",
+              "candidate_signal": 6.04,
+              "dropped": "Noah Fant",
+              "incumbent_signal": 4.0,
+              "week": 3
+            },
+            {
+              "added": "Trevor Lawrence",
+              "candidate_signal": 19.59,
+              "dropped": "Dak Prescott",
+              "incumbent_signal": 16.98,
+              "week": 4
+            },
+            {
+              "added": "New England Patriots",
+              "candidate_signal": 7.82,
+              "dropped": "Pittsburgh Steelers",
+              "incumbent_signal": 5.89,
+              "week": 6
+            }
+          ],
+          "frozen_actual_optimal_points": 1164.3,
+          "owner": "Brandon Martin",
+          "replacement_access_actual_optimal_points": 1290.16,
+          "replacement_access_gain": 125.86
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Jamaal Williams",
+              "candidate_signal": 8.78,
+              "dropped": "Gus Edwards",
+              "incumbent_signal": 2.8,
+              "week": 2
+            },
+            {
+              "added": "Pat Freiermuth",
+              "candidate_signal": 6.0,
+              "dropped": "Hunter Henry",
+              "incumbent_signal": 4.66,
+              "week": 3
+            },
+            {
+              "added": "Graham Gano",
+              "candidate_signal": 7.73,
+              "dropped": "Harrison Butker",
+              "incumbent_signal": 6.47,
+              "week": 4
+            },
+            {
+              "added": "David Njoku",
+              "candidate_signal": 6.44,
+              "dropped": "Pat Freiermuth",
+              "incumbent_signal": 5.03,
+              "week": 6
+            }
+          ],
+          "frozen_actual_optimal_points": 1231.98,
+          "owner": "George Rodman",
+          "replacement_access_actual_optimal_points": 1289.28,
+          "replacement_access_gain": 57.3
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Tampa Bay Buccaneers",
+              "candidate_signal": 9.06,
+              "dropped": "Denver Broncos",
+              "incumbent_signal": 6.05,
+              "week": 2
+            },
+            {
+              "added": "Drake London",
+              "candidate_signal": 8.69,
+              "dropped": "Hunter Renfrow",
+              "incumbent_signal": 6.77,
+              "week": 3
+            },
+            {
+              "added": "Seattle Seahawks",
+              "candidate_signal": 7.6,
+              "dropped": "Tampa Bay Buccaneers",
+              "incumbent_signal": 6.06,
+              "week": 9
+            },
+            {
+              "added": "Washington Commanders",
+              "candidate_signal": 7.84,
+              "dropped": "Seattle Seahawks",
+              "incumbent_signal": 5.2,
+              "week": 12
+            }
+          ],
+          "frozen_actual_optimal_points": 1409.38,
+          "owner": "Joey Breeland",
+          "replacement_access_actual_optimal_points": 1407.48,
+          "replacement_access_gain": -1.9
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Carson Wentz",
+              "candidate_signal": 22.48,
+              "dropped": "Aaron Rodgers",
+              "incumbent_signal": 16.76,
+              "week": 2
+            },
+            {
+              "added": "Curtis Samuel",
+              "candidate_signal": 8.12,
+              "dropped": "Marquez Valdes-Scantling",
+              "incumbent_signal": 5.36,
+              "week": 3
+            },
+            {
+              "added": "Khalil Herbert",
+              "candidate_signal": 7.51,
+              "dropped": "J.D. McKissic ",
+              "incumbent_signal": 4.93,
+              "week": 4
+            },
+            {
+              "added": "Mecole Hardman Jr.",
+              "candidate_signal": 7.18,
+              "dropped": "Curtis Samuel",
+              "incumbent_signal": 5.12,
+              "week": 7
+            }
+          ],
+          "frozen_actual_optimal_points": 1532.3,
+          "owner": "Julius Berotte",
+          "replacement_access_actual_optimal_points": 1563.1,
+          "replacement_access_gain": 30.8
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Dontrell Hilliard",
+              "candidate_signal": 7.82,
+              "dropped": "Chuba Hubbard",
+              "incumbent_signal": 1.71,
+              "week": 2
+            },
+            {
+              "added": "Garrett Wilson",
+              "candidate_signal": 7.83,
+              "dropped": "Julio Jones",
+              "incumbent_signal": 4.43,
+              "week": 3
+            },
+            {
+              "added": "Tyler Boyd",
+              "candidate_signal": 7.45,
+              "dropped": "DeAndre Hopkins",
+              "incumbent_signal": 5.3,
+              "week": 4
+            },
+            {
+              "added": "Alexander Mattison",
+              "candidate_signal": 5.63,
+              "dropped": "Dontrell Hilliard",
+              "incumbent_signal": 2.77,
+              "week": 5
+            }
+          ],
+          "frozen_actual_optimal_points": 1321.72,
+          "owner": "Ken Moller",
+          "replacement_access_actual_optimal_points": 1322.74,
+          "replacement_access_gain": 1.02
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Robbie Chosen",
+              "candidate_signal": 9.01,
+              "dropped": "Darnell Mooney",
+              "incumbent_signal": 6.25,
+              "week": 2
+            },
+            {
+              "added": "Jacksonville Jaguars",
+              "candidate_signal": 8.26,
+              "dropped": "Dallas Cowboys",
+              "incumbent_signal": 6.8,
+              "week": 3
+            },
+            {
+              "added": "T.J. Hockenson",
+              "candidate_signal": 8.74,
+              "dropped": "Dalton Schultz",
+              "incumbent_signal": 4.71,
+              "week": 5
+            },
+            {
+              "added": "DeVante Parker",
+              "candidate_signal": 6.86,
+              "dropped": "Robbie Chosen",
+              "incumbent_signal": 4.87,
+              "week": 6
+            }
+          ],
+          "frozen_actual_optimal_points": 1564.78,
+          "owner": "Lee Krassner",
+          "replacement_access_actual_optimal_points": 1500.68,
+          "replacement_access_gain": -64.1
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Younghoe Koo",
+              "candidate_signal": 9.87,
+              "dropped": "Nick Folk",
+              "incumbent_signal": 5.75,
+              "week": 2
+            },
+            {
+              "added": "Tua Tagovailoa",
+              "candidate_signal": 23.11,
+              "dropped": "Trey Lance",
+              "incumbent_signal": 16.96,
+              "week": 3
+            },
+            {
+              "added": "Green Bay Packers",
+              "candidate_signal": 7.64,
+              "dropped": "New Orleans Saints",
+              "incumbent_signal": 6.02,
+              "week": 5
+            },
+            {
+              "added": "Jared Goff",
+              "candidate_signal": 18.43,
+              "dropped": "Tua Tagovailoa",
+              "incumbent_signal": 15.29,
+              "week": 6
+            }
+          ],
+          "frozen_actual_optimal_points": 1396.4,
+          "owner": "Nate Corbett",
+          "replacement_access_actual_optimal_points": 1389.14,
+          "replacement_access_gain": -7.26
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Michael Carter",
+              "candidate_signal": 7.78,
+              "dropped": "D'Onta Foreman",
+              "incumbent_signal": 2.69,
+              "week": 2
+            },
+            {
+              "added": "Corey Davis",
+              "candidate_signal": 7.66,
+              "dropped": "Skyy Moore",
+              "incumbent_signal": 3.53,
+              "week": 3
+            },
+            {
+              "added": "Arizona Cardinals",
+              "candidate_signal": 7.46,
+              "dropped": "Philadelphia Eagles",
+              "incumbent_signal": 5.61,
+              "week": 8
+            },
+            {
+              "added": "Parris Campbell",
+              "candidate_signal": 7.08,
+              "dropped": "Corey Davis",
+              "incumbent_signal": 4.88,
+              "week": 9
+            }
+          ],
+          "frozen_actual_optimal_points": 1367.12,
+          "owner": "Phil Carr",
+          "replacement_access_actual_optimal_points": 1331.72,
+          "replacement_access_gain": -35.4
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Zach Ertz",
+              "candidate_signal": 6.86,
+              "dropped": "Cole Kmet",
+              "incumbent_signal": 3.99,
+              "week": 2
+            },
+            {
+              "added": "Raheem Mostert",
+              "candidate_signal": 6.35,
+              "dropped": "Isiah Pacheco",
+              "incumbent_signal": 3.81,
+              "week": 3
+            },
+            {
+              "added": "Cincinnati Bengals",
+              "candidate_signal": 7.33,
+              "dropped": "Indianapolis Colts",
+              "incumbent_signal": 5.78,
+              "week": 5
+            },
+            {
+              "added": "New York Jets",
+              "candidate_signal": 8.04,
+              "dropped": "Cincinnati Bengals",
+              "incumbent_signal": 5.83,
+              "week": 7
+            }
+          ],
+          "frozen_actual_optimal_points": 1355.48,
+          "owner": "Robbie Bagwell",
+          "replacement_access_actual_optimal_points": 1331.38,
+          "replacement_access_gain": -24.1
+        }
+      ],
+      "season": 2022
+    },
+    {
+      "owners": [
+        {
+          "acquisitions": [
+            {
+              "added": "Hunter Henry",
+              "candidate_signal": 6.39,
+              "dropped": "Zach Ertz",
+              "incumbent_signal": 2.75,
+              "week": 2
+            },
+            {
+              "added": "Jared Goff",
+              "candidate_signal": 20.39,
+              "dropped": "Kenny Pickett",
+              "incumbent_signal": 14.62,
+              "week": 3
+            },
+            {
+              "added": "Dalton Schultz",
+              "candidate_signal": 5.87,
+              "dropped": "Hunter Henry",
+              "incumbent_signal": 3.59,
+              "week": 6
+            },
+            {
+              "added": "Kareem Hunt",
+              "candidate_signal": 5.94,
+              "dropped": "Jerick McKinnon",
+              "incumbent_signal": 3.82,
+              "week": 7
+            }
+          ],
+          "frozen_actual_optimal_points": 1394.26,
+          "owner": "Brad Beissner",
+          "replacement_access_actual_optimal_points": 1554.28,
+          "replacement_access_gain": 160.02
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Puka Nacua",
+              "candidate_signal": 8.48,
+              "dropped": "Treylon Burks",
+              "incumbent_signal": 4.8,
+              "week": 2
+            },
+            {
+              "added": "Chuba Hubbard",
+              "candidate_signal": 6.49,
+              "dropped": "D'Onta Foreman",
+              "incumbent_signal": 4.0,
+              "week": 3
+            },
+            {
+              "added": "Marvin Mims Jr.",
+              "candidate_signal": 6.98,
+              "dropped": "Tutu Atwell",
+              "incumbent_signal": 5.26,
+              "week": 5
+            },
+            {
+              "added": "Detroit Lions",
+              "candidate_signal": 7.99,
+              "dropped": "New England Patriots",
+              "incumbent_signal": 5.72,
+              "week": 6
+            }
+          ],
+          "frozen_actual_optimal_points": 1288.42,
+          "owner": "Brandon Martin",
+          "replacement_access_actual_optimal_points": 1334.52,
+          "replacement_access_gain": 46.1
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Kyren Williams",
+              "candidate_signal": 11.27,
+              "dropped": "J.K. Dobbins",
+              "incumbent_signal": 0.0,
+              "week": 2
+            },
+            {
+              "added": "Jaylen Warren",
+              "candidate_signal": 6.41,
+              "dropped": "Ezekiel Elliott",
+              "incumbent_signal": 5.14,
+              "week": 3
+            },
+            {
+              "added": "Tyjae Spears",
+              "candidate_signal": 5.07,
+              "dropped": "Jamaal Williams",
+              "incumbent_signal": 4.23,
+              "week": 5
+            },
+            {
+              "added": "Cincinnati Bengals",
+              "candidate_signal": 7.5,
+              "dropped": "Indianapolis Colts",
+              "incumbent_signal": 6.21,
+              "week": 6
+            }
+          ],
+          "frozen_actual_optimal_points": 1412.66,
+          "owner": "George Rodman",
+          "replacement_access_actual_optimal_points": 1465.26,
+          "replacement_access_gain": 52.6
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Jakobi Meyers",
+              "candidate_signal": 10.51,
+              "dropped": "Skyy Moore",
+              "incumbent_signal": 3.43,
+              "week": 2
+            },
+            {
+              "added": "Nico Collins",
+              "candidate_signal": 9.68,
+              "dropped": "Christian Watson",
+              "incumbent_signal": 5.61,
+              "week": 3
+            },
+            {
+              "added": "Devin Singletary",
+              "candidate_signal": 5.3,
+              "dropped": "Elijah Mitchell",
+              "incumbent_signal": 4.36,
+              "week": 4
+            },
+            {
+              "added": "Kansas City Chiefs",
+              "candidate_signal": 7.35,
+              "dropped": "Washington Commanders",
+              "incumbent_signal": 5.72,
+              "week": 5
+            }
+          ],
+          "frozen_actual_optimal_points": 1307.36,
+          "owner": "Joey Breeland",
+          "replacement_access_actual_optimal_points": 1457.28,
+          "replacement_access_gain": 149.92
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Tyler Allgeier",
+              "candidate_signal": 11.04,
+              "dropped": "Deuce Vaughn",
+              "incumbent_signal": 2.0,
+              "week": 2
+            },
+            {
+              "added": "Russell Wilson",
+              "candidate_signal": 20.47,
+              "dropped": "Aaron Rodgers",
+              "incumbent_signal": 13.37,
+              "week": 3
+            },
+            {
+              "added": "De'Von Achane",
+              "candidate_signal": 9.77,
+              "dropped": "Clyde Edwards-Helaire",
+              "incumbent_signal": 4.25,
+              "week": 4
+            },
+            {
+              "added": "Michael Wilson",
+              "candidate_signal": 6.79,
+              "dropped": "Odell Beckham Jr.",
+              "incumbent_signal": 4.22,
+              "week": 5
+            }
+          ],
+          "frozen_actual_optimal_points": 1230.6,
+          "owner": "Julius Berotte",
+          "replacement_access_actual_optimal_points": 1324.22,
+          "replacement_access_gain": 93.62
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Raheem Mostert",
+              "candidate_signal": 10.09,
+              "dropped": "Antonio Gibson",
+              "incumbent_signal": 4.58,
+              "week": 2
+            },
+            {
+              "added": "Jerome Ford",
+              "candidate_signal": 8.03,
+              "dropped": "Alvin Kamara",
+              "incumbent_signal": 6.77,
+              "week": 3
+            },
+            {
+              "added": "Adam Thielen",
+              "candidate_signal": 7.86,
+              "dropped": "Rashee Rice",
+              "incumbent_signal": 5.88,
+              "week": 4
+            },
+            {
+              "added": "Seattle Seahawks",
+              "candidate_signal": 9.11,
+              "dropped": "Philadelphia Eagles",
+              "incumbent_signal": 7.44,
+              "week": 5
+            }
+          ],
+          "frozen_actual_optimal_points": 1603.2,
+          "owner": "Ken Moller",
+          "replacement_access_actual_optimal_points": 1654.0,
+          "replacement_access_gain": 50.8
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Tua Tagovailoa",
+              "candidate_signal": 23.64,
+              "dropped": "Dak Prescott",
+              "incumbent_signal": 17.11,
+              "week": 2
+            },
+            {
+              "added": "Gus Edwards",
+              "candidate_signal": 7.34,
+              "dropped": "Dalvin Cook",
+              "incumbent_signal": 5.15,
+              "week": 3
+            },
+            {
+              "added": "Buffalo Bills",
+              "candidate_signal": 9.44,
+              "dropped": "New York Jets",
+              "incumbent_signal": 6.6,
+              "week": 4
+            },
+            {
+              "added": "Cole Kmet",
+              "candidate_signal": 6.31,
+              "dropped": "Darren Waller",
+              "incumbent_signal": 5.25,
+              "week": 5
+            }
+          ],
+          "frozen_actual_optimal_points": 1427.22,
+          "owner": "Lee Krassner",
+          "replacement_access_actual_optimal_points": 1429.58,
+          "replacement_access_gain": 2.36
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Romeo Doubs",
+              "candidate_signal": 8.58,
+              "dropped": "Brandin Cooks",
+              "incumbent_signal": 5.92,
+              "week": 2
+            },
+            {
+              "added": "Brandon Aubrey",
+              "candidate_signal": 9.1,
+              "dropped": "Daniel Carlson",
+              "incumbent_signal": 6.77,
+              "week": 3
+            },
+            {
+              "added": "Tank Dell",
+              "candidate_signal": 7.03,
+              "dropped": "Diontae Johnson",
+              "incumbent_signal": 5.58,
+              "week": 4
+            },
+            {
+              "added": "Brock Purdy",
+              "candidate_signal": 20.11,
+              "dropped": "Deshaun Watson",
+              "incumbent_signal": 14.99,
+              "week": 6
+            }
+          ],
+          "frozen_actual_optimal_points": 1271.04,
+          "owner": "Nate Corbett",
+          "replacement_access_actual_optimal_points": 1417.0,
+          "replacement_access_gain": 145.96
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Jordan Love",
+              "candidate_signal": 21.06,
+              "dropped": "Joshua Dobbs",
+              "incumbent_signal": 6.31,
+              "week": 2
+            },
+            {
+              "added": "Jayden Reed",
+              "candidate_signal": 7.65,
+              "dropped": "Kadarius Toney",
+              "incumbent_signal": 4.05,
+              "week": 3
+            },
+            {
+              "added": "Sam LaPorta",
+              "candidate_signal": 6.82,
+              "dropped": "Jake Ferguson",
+              "incumbent_signal": 4.67,
+              "week": 4
+            },
+            {
+              "added": "Ka'imi Fairbairn",
+              "candidate_signal": 8.67,
+              "dropped": "Cameron Dicker",
+              "incumbent_signal": 6.5,
+              "week": 6
+            }
+          ],
+          "frozen_actual_optimal_points": 1250.7,
+          "owner": "Phil Carr",
+          "replacement_access_actual_optimal_points": 1361.68,
+          "replacement_access_gain": 110.98
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Joshua Kelley",
+              "candidate_signal": 7.19,
+              "dropped": "Rashaad Penny",
+              "incumbent_signal": 3.54,
+              "week": 2
+            },
+            {
+              "added": "Tampa Bay Buccaneers",
+              "candidate_signal": 8.31,
+              "dropped": "Denver Broncos",
+              "incumbent_signal": 4.91,
+              "week": 3
+            },
+            {
+              "added": "Zack Moss",
+              "candidate_signal": 7.14,
+              "dropped": "Tank Bigsby",
+              "incumbent_signal": 3.97,
+              "week": 4
+            },
+            {
+              "added": "Jaleel McLaughlin",
+              "candidate_signal": 5.36,
+              "dropped": "Joshua Kelley",
+              "incumbent_signal": 3.87,
+              "week": 5
+            }
+          ],
+          "frozen_actual_optimal_points": 1301.54,
+          "owner": "Robbie Bagwell",
+          "replacement_access_actual_optimal_points": 1349.74,
+          "replacement_access_gain": 48.2
+        }
+      ],
+      "season": 2023
+    },
+    {
+      "owners": [
+        {
+          "acquisitions": [
+            {
+              "added": "Isaiah Likely",
+              "candidate_signal": 8.05,
+              "dropped": "Evan Engram",
+              "incumbent_signal": 4.66,
+              "week": 2
+            },
+            {
+              "added": "Chuba Hubbard",
+              "candidate_signal": 6.02,
+              "dropped": "Jaleel McLaughlin",
+              "incumbent_signal": 4.29,
+              "week": 3
+            },
+            {
+              "added": "Sam Darnold",
+              "candidate_signal": 18.41,
+              "dropped": "Jordan Love",
+              "incumbent_signal": 16.09,
+              "week": 4
+            },
+            {
+              "added": "Pat Freiermuth",
+              "candidate_signal": 5.44,
+              "dropped": "Isaiah Likely",
+              "incumbent_signal": 3.48,
+              "week": 5
+            }
+          ],
+          "frozen_actual_optimal_points": 1395.6,
+          "owner": "Brad Beissner",
+          "replacement_access_actual_optimal_points": 1494.3,
+          "replacement_access_gain": 98.7
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Chris Boswell",
+              "candidate_signal": 11.32,
+              "dropped": "Jake Elliott",
+              "incumbent_signal": 8.93,
+              "week": 2
+            },
+            {
+              "added": "Evan McPherson",
+              "candidate_signal": 8.93,
+              "dropped": "Chris Boswell",
+              "incumbent_signal": 7.32,
+              "week": 5
+            },
+            {
+              "added": "Tucker Kraft",
+              "candidate_signal": 5.5,
+              "dropped": "Dallas Goedert",
+              "incumbent_signal": 4.65,
+              "week": 7
+            },
+            {
+              "added": "Jason Myers",
+              "candidate_signal": 8.34,
+              "dropped": "Evan McPherson",
+              "incumbent_signal": 6.83,
+              "week": 8
+            }
+          ],
+          "frozen_actual_optimal_points": 1397.64,
+          "owner": "Brandon Martin",
+          "replacement_access_actual_optimal_points": 1404.44,
+          "replacement_access_gain": 6.8
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Chicago Bears",
+              "candidate_signal": 11.11,
+              "dropped": "Buffalo Bills",
+              "incumbent_signal": 6.37,
+              "week": 2
+            },
+            {
+              "added": "Darnell Mooney",
+              "candidate_signal": 7.69,
+              "dropped": "Calvin Ridley",
+              "incumbent_signal": 6.36,
+              "week": 6
+            },
+            {
+              "added": "Bucky Irving",
+              "candidate_signal": 6.87,
+              "dropped": "Jordan Mason",
+              "incumbent_signal": 5.69,
+              "week": 8
+            },
+            {
+              "added": "Detroit Lions",
+              "candidate_signal": 8.18,
+              "dropped": "Chicago Bears",
+              "incumbent_signal": 5.71,
+              "week": 9
+            }
+          ],
+          "frozen_actual_optimal_points": 1355.6,
+          "owner": "George Rodman",
+          "replacement_access_actual_optimal_points": 1365.2,
+          "replacement_access_gain": 9.6
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Minnesota Vikings",
+              "candidate_signal": 11.02,
+              "dropped": "San Francisco 49ers",
+              "incumbent_signal": 6.63,
+              "week": 2
+            },
+            {
+              "added": "Rashid Shaheed",
+              "candidate_signal": 8.97,
+              "dropped": "Amari Cooper",
+              "incumbent_signal": 6.82,
+              "week": 3
+            },
+            {
+              "added": "Romeo Doubs",
+              "candidate_signal": 7.78,
+              "dropped": "Rashid Shaheed",
+              "incumbent_signal": 5.17,
+              "week": 9
+            },
+            {
+              "added": "Los Angeles Rams",
+              "candidate_signal": 8.16,
+              "dropped": "Minnesota Vikings",
+              "incumbent_signal": 6.12,
+              "week": 10
+            }
+          ],
+          "frozen_actual_optimal_points": 1417.88,
+          "owner": "Joey Breeland",
+          "replacement_access_actual_optimal_points": 1425.68,
+          "replacement_access_gain": 7.8
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Baker Mayfield",
+              "candidate_signal": 22.96,
+              "dropped": "Aaron Rodgers",
+              "incumbent_signal": 15.81,
+              "week": 2
+            },
+            {
+              "added": "Jerry Jeudy",
+              "candidate_signal": 7.2,
+              "dropped": "Adonai Mitchell",
+              "incumbent_signal": 4.3,
+              "week": 3
+            },
+            {
+              "added": "Green Bay Packers",
+              "candidate_signal": 8.48,
+              "dropped": "Dallas Cowboys",
+              "incumbent_signal": 6.78,
+              "week": 4
+            },
+            {
+              "added": "Jordan Addison",
+              "candidate_signal": 7.15,
+              "dropped": "Brandin Cooks",
+              "incumbent_signal": 5.05,
+              "week": 5
+            }
+          ],
+          "frozen_actual_optimal_points": 1577.68,
+          "owner": "Julius Berotte",
+          "replacement_access_actual_optimal_points": 1697.82,
+          "replacement_access_gain": 120.14
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Jake Moody",
+              "candidate_signal": 12.2,
+              "dropped": "Matt Gay",
+              "incumbent_signal": 5.58,
+              "week": 2
+            },
+            {
+              "added": "Ladd McConkey",
+              "candidate_signal": 6.73,
+              "dropped": "Hollywood Brown",
+              "incumbent_signal": 4.92,
+              "week": 3
+            },
+            {
+              "added": "Denver Broncos",
+              "candidate_signal": 7.63,
+              "dropped": "Miami Dolphins",
+              "incumbent_signal": 5.94,
+              "week": 4
+            },
+            {
+              "added": "Antonio Gibson",
+              "candidate_signal": 6.34,
+              "dropped": "Nick Chubb",
+              "incumbent_signal": 5.19,
+              "week": 5
+            }
+          ],
+          "frozen_actual_optimal_points": 1413.96,
+          "owner": "Ken Moller",
+          "replacement_access_actual_optimal_points": 1472.26,
+          "replacement_access_gain": 58.3
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Zach Charbonnet",
+              "candidate_signal": 6.99,
+              "dropped": "Jonathon Brooks",
+              "incumbent_signal": 4.95,
+              "week": 2
+            },
+            {
+              "added": "Cole Kmet",
+              "candidate_signal": 5.44,
+              "dropped": "David Njoku",
+              "incumbent_signal": 4.71,
+              "week": 5
+            },
+            {
+              "added": "Caleb Williams",
+              "candidate_signal": 19.59,
+              "dropped": "Anthony Richardson",
+              "incumbent_signal": 15.71,
+              "week": 6
+            },
+            {
+              "added": "Josh Downs",
+              "candidate_signal": 6.94,
+              "dropped": "Rashee Rice",
+              "incumbent_signal": 6.02,
+              "week": 7
+            }
+          ],
+          "frozen_actual_optimal_points": 1352.2,
+          "owner": "Lee Krassner",
+          "replacement_access_actual_optimal_points": 1453.58,
+          "replacement_access_gain": 101.38
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Blake Grupe",
+              "candidate_signal": 11.4,
+              "dropped": "Jake Bates",
+              "incumbent_signal": 7.69,
+              "week": 2
+            },
+            {
+              "added": "Ty Chandler",
+              "candidate_signal": 6.39,
+              "dropped": "Blake Corum",
+              "incumbent_signal": 4.93,
+              "week": 3
+            },
+            {
+              "added": "Tyler Allgeier",
+              "candidate_signal": 7.31,
+              "dropped": "Ty Chandler",
+              "incumbent_signal": 5.05,
+              "week": 7
+            },
+            {
+              "added": "Tyrone Tracy Jr.",
+              "candidate_signal": 6.32,
+              "dropped": "Gus Edwards",
+              "incumbent_signal": 5.81,
+              "week": 8
+            }
+          ],
+          "frozen_actual_optimal_points": 1334.22,
+          "owner": "Nate Corbett",
+          "replacement_access_actual_optimal_points": 1328.42,
+          "replacement_access_gain": -5.8
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Los Angeles Chargers",
+              "candidate_signal": 8.5,
+              "dropped": "Philadelphia Eagles",
+              "incumbent_signal": 5.82,
+              "week": 2
+            },
+            {
+              "added": "Courtland Sutton",
+              "candidate_signal": 7.35,
+              "dropped": "Christian Watson",
+              "incumbent_signal": 6.04,
+              "week": 5
+            },
+            {
+              "added": "New York Giants",
+              "candidate_signal": 7.65,
+              "dropped": "Los Angeles Chargers",
+              "incumbent_signal": 5.9,
+              "week": 6
+            },
+            {
+              "added": "Tyler Lockett",
+              "candidate_signal": 7.25,
+              "dropped": "Khalil Shakir",
+              "incumbent_signal": 5.38,
+              "week": 7
+            }
+          ],
+          "frozen_actual_optimal_points": 1233.32,
+          "owner": "Phil Carr",
+          "replacement_access_actual_optimal_points": 1207.32,
+          "replacement_access_gain": -26.0
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Pittsburgh Steelers",
+              "candidate_signal": 8.48,
+              "dropped": "Cleveland Browns",
+              "incumbent_signal": 5.41,
+              "week": 2
+            },
+            {
+              "added": "Tank Bigsby",
+              "candidate_signal": 7.71,
+              "dropped": "Tyjae Spears",
+              "incumbent_signal": 5.73,
+              "week": 8
+            },
+            {
+              "added": "Ray Davis",
+              "candidate_signal": 6.11,
+              "dropped": "Jerome Ford",
+              "incumbent_signal": 5.58,
+              "week": 9
+            },
+            {
+              "added": "DeAndre Hopkins",
+              "candidate_signal": 7.53,
+              "dropped": "Diontae Johnson",
+              "incumbent_signal": 5.63,
+              "week": 10
+            }
+          ],
+          "frozen_actual_optimal_points": 1474.44,
+          "owner": "Robbie Bagwell",
+          "replacement_access_actual_optimal_points": 1538.74,
+          "replacement_access_gain": 64.3
+        }
+      ],
+      "season": 2024
+    },
+    {
+      "owners": [
+        {
+          "acquisitions": [
+            {
+              "added": "Spencer Shrader",
+              "candidate_signal": 9.78,
+              "dropped": "Tyler Bass",
+              "incumbent_signal": 5.83,
+              "week": 2
+            },
+            {
+              "added": "Cedric Tillman",
+              "candidate_signal": 7.13,
+              "dropped": "Rashee Rice",
+              "incumbent_signal": 4.59,
+              "week": 3
+            },
+            {
+              "added": "Seattle Seahawks",
+              "candidate_signal": 7.92,
+              "dropped": "Buffalo Bills",
+              "incumbent_signal": 6.36,
+              "week": 4
+            },
+            {
+              "added": "Romeo Doubs",
+              "candidate_signal": 7.21,
+              "dropped": "Cedric Tillman",
+              "incumbent_signal": 5.36,
+              "week": 5
+            }
+          ],
+          "frozen_actual_optimal_points": 1241.48,
+          "owner": "Brad Beissner",
+          "replacement_access_actual_optimal_points": 1266.58,
+          "replacement_access_gain": 25.1
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Keenan Allen",
+              "candidate_signal": 7.85,
+              "dropped": "Jauan Jennings",
+              "incumbent_signal": 5.56,
+              "week": 2
+            },
+            {
+              "added": "Zach Ertz",
+              "candidate_signal": 6.86,
+              "dropped": "T.J. Hockenson",
+              "incumbent_signal": 4.9,
+              "week": 3
+            },
+            {
+              "added": "Dallas Goedert",
+              "candidate_signal": 7.05,
+              "dropped": "Zach Ertz",
+              "incumbent_signal": 4.5,
+              "week": 6
+            },
+            {
+              "added": "Marvin Mims Jr.",
+              "candidate_signal": 6.59,
+              "dropped": "Keenan Allen",
+              "incumbent_signal": 5.23,
+              "week": 7
+            }
+          ],
+          "frozen_actual_optimal_points": 1637.46,
+          "owner": "Brandon Martin",
+          "replacement_access_actual_optimal_points": 1636.86,
+          "replacement_access_gain": -0.6
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Justin Herbert",
+              "candidate_signal": 23.07,
+              "dropped": "Anthony Richardson",
+              "incumbent_signal": 2.71,
+              "week": 2
+            },
+            {
+              "added": "Joey Slye",
+              "candidate_signal": 8.96,
+              "dropped": "Younghoe Koo",
+              "incumbent_signal": 6.64,
+              "week": 3
+            },
+            {
+              "added": "Hunter Henry",
+              "candidate_signal": 6.32,
+              "dropped": "Evan Engram",
+              "incumbent_signal": 4.1,
+              "week": 4
+            },
+            {
+              "added": "Jacksonville Jaguars",
+              "candidate_signal": 7.33,
+              "dropped": "Baltimore Ravens",
+              "incumbent_signal": 5.31,
+              "week": 5
+            }
+          ],
+          "frozen_actual_optimal_points": 1284.58,
+          "owner": "George Rodman",
+          "replacement_access_actual_optimal_points": 1419.72,
+          "replacement_access_gain": 135.14
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Jacory Croskey-Merritt",
+              "candidate_signal": 9.86,
+              "dropped": "Quinshon Judkins",
+              "incumbent_signal": 4.21,
+              "week": 2
+            },
+            {
+              "added": "Wan'Dale Robinson",
+              "candidate_signal": 7.45,
+              "dropped": "Chris Godwin",
+              "incumbent_signal": 4.77,
+              "week": 3
+            },
+            {
+              "added": "Jordan Addison",
+              "candidate_signal": 7.12,
+              "dropped": "Wan'Dale Robinson",
+              "incumbent_signal": 4.32,
+              "week": 6
+            },
+            {
+              "added": "Los Angeles Rams",
+              "candidate_signal": 7.05,
+              "dropped": "Arizona Cardinals",
+              "incumbent_signal": 5.75,
+              "week": 7
+            }
+          ],
+          "frozen_actual_optimal_points": 1487.24,
+          "owner": "Joey Breeland",
+          "replacement_access_actual_optimal_points": 1486.74,
+          "replacement_access_gain": -0.5
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Keon Coleman",
+              "candidate_signal": 10.34,
+              "dropped": "Rashod Bateman",
+              "incumbent_signal": 4.95,
+              "week": 2
+            },
+            {
+              "added": "Nick Chubb",
+              "candidate_signal": 7.2,
+              "dropped": "Raheem Mostert",
+              "incumbent_signal": 2.46,
+              "week": 3
+            },
+            {
+              "added": "Caleb Williams",
+              "candidate_signal": 21.49,
+              "dropped": "Tua Tagovailoa",
+              "incumbent_signal": 17.15,
+              "week": 4
+            },
+            {
+              "added": "Kenny Gainwell",
+              "candidate_signal": 5.66,
+              "dropped": "Najee Harris",
+              "incumbent_signal": 4.56,
+              "week": 5
+            }
+          ],
+          "frozen_actual_optimal_points": 1270.78,
+          "owner": "Julius Berotte",
+          "replacement_access_actual_optimal_points": 1363.5,
+          "replacement_access_gain": 92.72
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Michael Pittman Jr.",
+              "candidate_signal": 9.11,
+              "dropped": "Travis Hunter",
+              "incumbent_signal": 5.52,
+              "week": 2
+            },
+            {
+              "added": "Rachaad White",
+              "candidate_signal": 6.3,
+              "dropped": "Brian Robinson Jr.",
+              "incumbent_signal": 3.92,
+              "week": 3
+            },
+            {
+              "added": "Jared Goff",
+              "candidate_signal": 20.61,
+              "dropped": "Joe Burrow",
+              "incumbent_signal": 17.26,
+              "week": 5
+            },
+            {
+              "added": "Blake Grupe",
+              "candidate_signal": 8.45,
+              "dropped": "Cam Little",
+              "incumbent_signal": 6.7,
+              "week": 7
+            }
+          ],
+          "frozen_actual_optimal_points": 1172.56,
+          "owner": "Ken Moller",
+          "replacement_access_actual_optimal_points": 1363.78,
+          "replacement_access_gain": 191.22
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "J.J. McCarthy",
+              "candidate_signal": 21.59,
+              "dropped": "Dak Prescott",
+              "incumbent_signal": 16.3,
+              "week": 2
+            },
+            {
+              "added": "Tyler Allgeier",
+              "candidate_signal": 6.24,
+              "dropped": "Joe Mixon",
+              "incumbent_signal": 4.87,
+              "week": 3
+            },
+            {
+              "added": "Jordan Love",
+              "candidate_signal": 19.85,
+              "dropped": "J.J. McCarthy",
+              "incumbent_signal": 14.51,
+              "week": 5
+            },
+            {
+              "added": "Rico Dowdle",
+              "candidate_signal": 7.55,
+              "dropped": "Tyler Allgeier",
+              "incumbent_signal": 4.93,
+              "week": 6
+            }
+          ],
+          "frozen_actual_optimal_points": 1643.82,
+          "owner": "Lee Krassner",
+          "replacement_access_actual_optimal_points": 1608.74,
+          "replacement_access_gain": -35.08
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Quentin Johnston",
+              "candidate_signal": 9.03,
+              "dropped": "DeVonta Smith",
+              "incumbent_signal": 6.56,
+              "week": 2
+            },
+            {
+              "added": "Trey Benson",
+              "candidate_signal": 5.94,
+              "dropped": "Tank Bigsby",
+              "incumbent_signal": 4.48,
+              "week": 3
+            },
+            {
+              "added": "Dalton Kincaid",
+              "candidate_signal": 6.37,
+              "dropped": "Kyle Pitts",
+              "incumbent_signal": 5.3,
+              "week": 4
+            },
+            {
+              "added": "Kareem Hunt",
+              "candidate_signal": 6.42,
+              "dropped": "Trey Benson",
+              "incumbent_signal": 5.2,
+              "week": 6
+            }
+          ],
+          "frozen_actual_optimal_points": 1617.14,
+          "owner": "Nate Corbett",
+          "replacement_access_actual_optimal_points": 1590.44,
+          "replacement_access_gain": -26.7
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Indianapolis Colts",
+              "candidate_signal": 8.26,
+              "dropped": "Dallas Cowboys",
+              "incumbent_signal": 4.96,
+              "week": 2
+            },
+            {
+              "added": "Bhayshul Tuten",
+              "candidate_signal": 5.73,
+              "dropped": "Jaydon Blue",
+              "incumbent_signal": 3.91,
+              "week": 3
+            },
+            {
+              "added": "Tre Tucker",
+              "candidate_signal": 6.98,
+              "dropped": "Jayden Higgins",
+              "incumbent_signal": 4.55,
+              "week": 4
+            },
+            {
+              "added": "Hollywood Brown",
+              "candidate_signal": 7.23,
+              "dropped": "Tre Tucker",
+              "incumbent_signal": 3.99,
+              "week": 7
+            }
+          ],
+          "frozen_actual_optimal_points": 1112.3,
+          "owner": "Phil Carr",
+          "replacement_access_actual_optimal_points": 1149.6,
+          "replacement_access_gain": 37.3
+        },
+        {
+          "acquisitions": [
+            {
+              "added": "Green Bay Packers",
+              "candidate_signal": 7.93,
+              "dropped": "Detroit Lions",
+              "incumbent_signal": 4.68,
+              "week": 2
+            },
+            {
+              "added": "Rashid Shaheed",
+              "candidate_signal": 7.23,
+              "dropped": "Josh Downs",
+              "incumbent_signal": 5.47,
+              "week": 3
+            },
+            {
+              "added": "Khalil Shakir",
+              "candidate_signal": 6.57,
+              "dropped": "Jayden Reed",
+              "incumbent_signal": 5.94,
+              "week": 4
+            },
+            {
+              "added": "Chase McLaughlin",
+              "candidate_signal": 9.33,
+              "dropped": "Evan McPherson",
+              "incumbent_signal": 6.89,
+              "week": 5
+            }
+          ],
+          "frozen_actual_optimal_points": 1794.24,
+          "owner": "Robbie Bagwell",
+          "replacement_access_actual_optimal_points": 1806.74,
+          "replacement_access_gain": 12.5
+        }
+      ],
+      "season": 2025
+    }
+  ],
+  "summary": {
+    "mean_frozen_actual_optimal_points": 1393.85,
+    "mean_gain": 41.55,
+    "mean_replacement_access_actual_optimal_points": 1435.4,
+    "median_gain": 34.05,
+    "owner_seasons": 60,
+    "policy": "Maximum four exclusive same-position acquisitions per team; 70% preseason projection and 30% trailing-three-week performance; 20% improvement threshold, relaxed to 5% after two zero weeks; no future data.",
+    "stress_scenarios": {
+      "active": {
+        "mean_gain_over_frozen": 34.06,
+        "mean_points": 1427.91,
+        "owner_seasons": 60
+      },
+      "baseline": {
+        "mean_gain_over_frozen": 41.55,
+        "mean_points": 1435.4,
+        "owner_seasons": 60
+      },
+      "frozen": {
+        "mean_gain_over_frozen": 0.0,
+        "mean_points": 1393.85,
+        "owner_seasons": 60
+      },
+      "limited": {
+        "mean_gain_over_frozen": 31.39,
+        "mean_points": 1425.24,
+        "owner_seasons": 60
+      }
+    }
+  }
+}

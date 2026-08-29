@@ -2,10 +2,17 @@
 
 ## Scope
 
-Profiles use 840 completed purchases from 2020–2025: six complete drafts, 84
-purchases, and 14 roster slots for each of ten stable owners. Evidence strength
-is high for broad construction and positional behavior. These signals are
-probabilistic context and must not be treated as owner intent.
+Profiles use 1,260 completed purchases from the accepted 2012, 2015, and
+2019–2025 drafts. Every legacy fantasy-team label is resolved through a
+reviewed, season-specific owner alias. Current owners have differing tenure;
+Jordan is retained as a former owner rather than being merged into a current
+identity. Evidence strength is based on seasons observed, and all signals are
+probabilistic context rather than owner intent.
+
+The 2012, 2015, and 2019 aliases were reviewed by the league commissioner and
+are stored in `config/owner_aliases.json`. Legacy NFL-team fields remain blank,
+so those seasons affect construction, positional spending, premium-player,
+budget, and repeat-player evidence but never NFL-team affinity.
 
 Purchase order is unavailable. The profiles therefore make no claims about
 nomination strategy, early/late spending, budget at time of purchase, or bid
@@ -45,3 +52,12 @@ generated from the same validated profile data. The report opens with a league
 summary table and threshold-based strong-signal bullets, followed by the full
 owner writeups. Strong signals are separated into stylistic positional trends
 and personnel-specific repeat-player or NFL-team trends.
+
+Run `python3 scripts/generate_owner_style_summaries.py` ahead of draft night to
+enrich those profiles with one grounded 90–110 word paragraph per owner. This
+uses the same Responses API, `.env`, structured-output, and model-selection
+conventions as the cached fantasy-research workflow. Inputs contain only the
+computed owner metrics; outputs are validated as one paragraph, cached by input
+hash and prompt version, and stored locally in the versioned owner artifact.
+The deterministic paragraph remains the offline fallback, and neither profile
+generation nor the live draft application requires network access.
