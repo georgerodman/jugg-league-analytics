@@ -43,6 +43,19 @@ their training and backtest window.
 
 After the new artifacts have been generated, run the rollover gate:
 
+When the archive and target-season ESPN PDF are available and the FantasyPros
+credential is configured, the guarded refresh can run the listed stages:
+
+```sh
+python3 scripts/season_refresh.py --season 2027 --execute \
+  --confirm REFRESH-2027 --archive-confirmed
+```
+
+It writes stage logs under `.local/refresh-runs/`, stops at the first failure,
+and restores previously published artifact pointers on failure. A successful
+run prepares and verifies artifacts only. It cannot activate the new season,
+create a draft database, or enable/contact Google Sheets.
+
 Run the dry-run readiness report with:
 
 ```sh

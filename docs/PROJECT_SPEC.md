@@ -140,6 +140,10 @@ season. They train and backtest only on completed seasons before that target,
 read target-season input artifacts, and publish season-labeled score and board
 files. A future-season refresh must remain a dry run until its source inputs
 exist; it must never overwrite or reactivate the finalized prior-season draft.
+Execution requires explicit season confirmation, confirmation that archived
+historical inputs remain available, and presence of the target manual and
+credentialed sources. Failed refreshes restore the prior published artifact
+pointers. Artifact preparation and season activation are separate operations.
 
 ### Owner tendencies
 
