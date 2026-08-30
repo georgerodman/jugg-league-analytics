@@ -35,7 +35,7 @@ another provider's fields.
 | nflverse player registry and rosters | Preferred GSIS identity, cross-provider IDs, and historical/current roster evidence | Preseason projection source |
 | nflverse weekly depth charts | Dated team hierarchy, position slot, and depth rank; display-ready QB/RB/WR/TE corps | Fantasy projection, durable role guarantee, or automatic recommendation |
 | nflverse player/team statistics and schedules | Primary historical NFL outcomes and league-scored actuals | Live draft dependency |
-| FantasyPros historical actual points | Legacy evaluation and equal-cohort provider comparisons | Preferred long-term actual-stat source |
+| FantasyPros historical actual points | Retired 2026 comparison source preserved in the season archive | nflverse is the supported actual-stat source |
 | Historical auction CSV | JUGG sale price, winning owner, player label, position, and season | NFL performance or player-identity authority |
 | Yahoo league data | League settings and, when imported, authoritative Yahoo transactions, rosters, standings, and platform IDs | NFL projection or outcome source |
 | `config/league.json` | JUGG scoring, roster, auction, and league rules | Player data source |

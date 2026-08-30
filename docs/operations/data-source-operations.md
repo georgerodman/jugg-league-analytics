@@ -218,11 +218,15 @@ After source or matching changes, run:
 
 ```sh
 python3 scripts/build_canonical_projections.py
-python3 scripts/projection_match_report.py
 python3 scripts/match_auction_history.py
-python3 scripts/evaluate_projection_sources.py
 python3 -m unittest discover -s tests -v
 ```
+
+The completed 2026 projection-comparison reports and legacy matching studies
+are preserved in the external season archive and final Git tag. nflverse is the
+supported historical-outcomes source for future backtests. If source policy is
+reconsidered, add a focused season-aware comparison rather than restoring the
+retired fixed-workspace report scripts wholesale.
 
 ## Refresh nflverse depth charts
 
@@ -251,13 +255,6 @@ canonical `nfl:gsis:<id>` format. Rows lacking GSIS retain an explicit
 `provisional:nflverse-depth:espn:<id>` identity and must not be guessed. For
 2025 onward, display or downstream redistribution must credit ESPN via
 nflverse under the artifact's recorded CC-BY-SA-4.0 terms.
-
-Historical actual points are refreshed separately because they consume API
-quota and should not change during ordinary projection refreshes:
-
-```sh
-python3 scripts/fantasypros_actual_points.py
-```
 
 Treat evaluation results as evidence, not an automatic promotion mechanism.
 Coverage, MAE, RMSE, bias, missingness, uncertainty quality, and licensing all

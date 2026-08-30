@@ -53,12 +53,6 @@ Checksums and schema observations are recorded in
   parameters, response counts, source tier metadata, and SHA-256 checksums.
 - API credentials are never stored in raw or processed data.
 
-## `fantasypros_actuals/<season>/<timestamp>/`
-
-- Immutable FantasyPros historical standard-scoring player-points responses.
-- Used only for offline projection evaluation, not as a draft-night dependency.
-- One offensive-position response plus checksum metadata per request.
-
 ## `fantasypros_adp/<season>/<timestamp>/`
 
 - Immutable FantasyPros half-PPR and PPR ADP pool responses.
