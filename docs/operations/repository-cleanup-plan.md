@@ -29,6 +29,19 @@ The default destination is ignored local storage under `.local/archives/`.
 Before deleting operational state or old backups, copy the resulting directory
 to durable storage outside this repository and verify its checksums there.
 
+The draft archive above preserves the authoritative draft record. Before
+retiring completed-season source and model-building data, create a separate
+checksummed data archive:
+
+```sh
+python3 scripts/archive_season_data.py --season 2026
+```
+
+This bundle contains `data/`, `config/`, the pinned data requirements, and an
+internal per-file manifest. Copy it outside the repository before applying the
+postseason data prune. It is not needed to run the finalized Draft Room; it is
+the recovery copy for detailed model reproduction and historical research.
+
 ## Deletion gates
 
 No data or implementation area may be removed until all applicable gates pass:
