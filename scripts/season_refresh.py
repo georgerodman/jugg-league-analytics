@@ -13,11 +13,11 @@ from pathlib import Path
 from typing import Any, Callable
 
 try:
-    from scripts.rebuild_all import pointers, restore_pointers
+    from scripts.artifact_pointers import restore_pointers, snapshot_pointers
     from scripts.season_refresh_plan import build_plan
     from scripts.season_rollover_readiness import readiness
 except ModuleNotFoundError:  # Direct `python scripts/season_refresh.py` execution.
-    from rebuild_all import pointers, restore_pointers
+    from artifact_pointers import restore_pointers, snapshot_pointers
     from season_refresh_plan import build_plan
     from season_rollover_readiness import readiness
 
@@ -65,7 +65,7 @@ def run_commands(
     output: Path,
     runner: Callable[..., subprocess.CompletedProcess[str]] = subprocess.run,
 ) -> list[dict[str, Any]]:
-    before = pointers(root)
+    before = snapshot_pointers(root)
     records: list[dict[str, Any]] = []
     output.mkdir(parents=True, exist_ok=False)
     try:
@@ -93,7 +93,7 @@ def execute(
     started = datetime.now(timezone.utc)
     run_id = started.strftime("%Y%m%dT%H%M%SZ")
     output = root / ".local" / "refresh-runs" / f"{season}-{run_id}"
-    before = pointers(root)
+    before = snapshot_pointers(root)
     try:
         records = run_commands(root, executable_commands(plan), output)
         report = readiness(root, season)

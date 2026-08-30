@@ -140,11 +140,10 @@ Completed-season decisions and validation evidence are summarized under
 final Git tag.
 The plain-language product interpretation and intended draft-night use are in
 `docs/product/draft-decision-guide.md`.
-The standalone engine lives in `scripts/championship_equity.py`; neutral roster
-completions, historical decision proxies, and decision-band contracts live in
-`scripts/championship_decisions.py`. Their versioned outputs are under
-`data/processed/championship_equity/` and
-`data/processed/championship_decisions/` and are not live UI dependencies.
+The live TypeScript decision engine owns roster paths, recommendation bands,
+and draft-state recalculation. Completed standalone 2026 championship studies
+were retired after their accepted conclusions were preserved in the season
+record and final Git tag.
 
 ## Scripts and operational commands
 
@@ -154,10 +153,8 @@ purpose and expose a command-line entry point when directly runnable.
 Important commands:
 
 ```sh
-python3 scripts/rebuild_all.py       # guarded rebuild of all derived artifacts
+python3 scripts/season_refresh.py --season 2027 # dry-run annual refresh plan
 python3 scripts/owner_tendencies.py # owner profiles only
-python3 scripts/championship_equity.py # standalone equity calibration
-python3 scripts/championship_decisions.py # neutral paths and decision bands
 npm run typecheck                   # strict TypeScript verification
 npm run test:domain                 # offline domain-engine tests
 npm run dev                         # local Renegade Draft Room
