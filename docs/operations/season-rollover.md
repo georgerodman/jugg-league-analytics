@@ -29,6 +29,17 @@ The future guided rollover command must:
 
 ## Next implementation stop
 
-Build a dry-run-first rollover command and a readiness report. Test both with a
-temporary future-season fixture; do not point the real active configuration at
-that fixture and do not modify the finalized 2026 database.
+Run the dry-run readiness report with:
+
+```sh
+python3 scripts/season_rollover_readiness.py --season 2027
+```
+
+It verifies the finalized active database and backup, confirms Sheets is
+disabled, proposes distinct target paths, checks every required target-season
+artifact, and records missing imports. It never changes active configuration,
+creates a target database, advances an artifact pointer, or contacts Google.
+
+The next implementation stop is the explicit preparation/apply command. It
+must consume a passing readiness report and remain unable to activate a season
+whose artifacts are incomplete.
