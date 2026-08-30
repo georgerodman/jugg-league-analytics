@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Build JUGG production values, a 2026 decision board, and historical backtests."""
+"""Build JUGG production values, a target-season decision board, and historical backtests."""
 
 from __future__ import annotations
 
+import argparse
 import csv
 import hashlib
 import json
@@ -20,7 +21,6 @@ ALLOCATION_VARIANTS = {
     "rb_heavy_2021": {"QB": 15, "RB": 48, "WR": 46, "TE": 11, "K": 10, "DEF": 10},
     "qb_heavy_2020": {"QB": 17, "RB": 44, "WR": 48, "TE": 11, "K": 10, "DEF": 10},
 }
-SEASONS = tuple(range(2020, 2026))
 STAT_KEYS = {
     "QB": ("passing_completions", "passing_attempts", "passing_yards", "passing_tds", "passing_interceptions", "rushing_attempts", "rushing_yards", "rushing_tds", "fumbles_lost"),
     "RB": ("rushing_attempts", "rushing_yards", "rushing_tds", "targets", "receptions", "receiving_yards", "receiving_tds", "fumbles_lost"),
@@ -51,6 +51,13 @@ ACTUAL_STAT_ALIASES = {
 
 class ValueErrorModel(RuntimeError):
     pass
+
+
+def training_seasons(target_season: int) -> tuple[int, ...]:
+    seasons = tuple(range(2020, target_season))
+    if len(seasons) < 2:
+        raise ValueErrorModel("Target season must be 2022 or later")
+    return seasons
 
 
 def load_pointer(root: Path, path: str, key: str = "artifact") -> tuple[dict[str, Any], Path]:
@@ -183,30 +190,31 @@ def correlation(pairs: list[tuple[float, float]]) -> float | None:
     return round(sum((x-xm)*(y-ym) for x,y in pairs) / denominator, 4) if denominator else None
 
 
-def run(root: Path) -> Path:
+def run(root: Path, season: int = 2026) -> Path:
+    seasons = training_seasons(season)
     auction, auction_path = load_pointer(root, "data/processed/auction_history_matches/latest.json")
     nfl_pointer = json.loads((root / "data/processed/nflverse/latest.json").read_text())
     actual_path = (root / nfl_pointer["manifest"]).parent / "league_scored_actuals.json"
     actual_payload = json.loads(actual_path.read_text())
     actual_by_season = {}
-    for season in SEASONS:
-        actual_rows = [{"season": season, "internal_player_id": row["internal_player_id"],
+    for historical_season in seasons:
+        actual_rows = [{"season": historical_season, "internal_player_id": row["internal_player_id"],
                         "player_name": row["name"], "position": row["position"],
                         "actual_points": row["league_points"]}
-                       for row in actual_payload["seasons"] if row["season"] == season and row["position"] in ALLOCATION]
-        actual_by_season[season] = {row["internal_player_id"]: row for row in production_values(actual_rows, "actual_points")}
+                       for row in actual_payload["seasons"] if row["season"] == historical_season and row["position"] in ALLOCATION]
+        actual_by_season[historical_season] = {row["internal_player_id"]: row for row in production_values(actual_rows, "actual_points")}
     backtest_rows = []
     inputs = {str(auction_path.relative_to(root)): hashlib.sha256(auction_path.read_bytes()).hexdigest(),
               str(actual_path.relative_to(root)): hashlib.sha256(actual_path.read_bytes()).hexdigest()}
-    for season in SEASONS:
-        projections, projection_path = projected_players(root, season)
+    for historical_season in seasons:
+        projections, projection_path = projected_players(root, historical_season)
         inputs[str(projection_path.relative_to(root))] = hashlib.sha256(projection_path.read_bytes()).hexdigest()
         projected = {row["internal_player_id"]: row for row in production_values(projections, "projected_points")}
-        for sale in (row for row in auction["sales"] if row["season"] == season):
-            p, a = projected.get(sale["internal_player_id"]), actual_by_season[season].get(sale["internal_player_id"])
+        for sale in (row for row in auction["sales"] if row["season"] == historical_season):
+            p, a = projected.get(sale["internal_player_id"]), actual_by_season[historical_season].get(sale["internal_player_id"])
             if not p or not a:
                 continue
-            backtest_rows.append({"season": season, "internal_player_id": sale["internal_player_id"],
+            backtest_rows.append({"season": historical_season, "internal_player_id": sale["internal_player_id"],
                 "player_name": sale["player_name"], "position": sale["position"], "salary": sale["salary"],
                 "projected_production_value": p["production_value"], "actual_production_value": a["production_value"],
                 "predicted_surplus_at_sale": round(p["production_value"]-sale["salary"],2),
@@ -230,30 +238,31 @@ def run(root: Path) -> Path:
             "remaining_mean_realized_surplus": round(statistics.fmean(row["realized_surplus"] for row in position_ordered[cut:]),3),
         }
 
-    projections_2026, projection_path = projected_players(root, 2026)
+    target_projections, projection_path = projected_players(root, season)
     inputs[str(projection_path.relative_to(root))] = hashlib.sha256(projection_path.read_bytes()).hexdigest()
-    projected_stat_lines, projected_stat_path = normalized_projected_stat_lines(root, 2026)
+    projected_stat_lines, projected_stat_path = normalized_projected_stat_lines(root, season)
     historical_stat_lines={};actual_stat_paths=[]
-    for actual_season in (2024,2025):
+    actual_seasons = (season - 2, season - 1)
+    for actual_season in actual_seasons:
         season_lines,season_paths=normalized_actual_stat_lines(root,actual_season,nfl_pointer)
         historical_stat_lines[actual_season]=season_lines;actual_stat_paths.extend(season_paths)
-    actual_stat_lines=historical_stat_lines[2025]
+    actual_stat_lines=historical_stat_lines[season - 1]
     biographies, biographies_path = player_biographies(root, nfl_pointer)
     inputs[str(projected_stat_path.relative_to(root))] = hashlib.sha256(projected_stat_path.read_bytes()).hexdigest()
     for stat_path in actual_stat_paths:
         inputs[str(stat_path.relative_to(root))] = hashlib.sha256(stat_path.read_bytes()).hexdigest()
     inputs[str(biographies_path.relative_to(root))] = hashlib.sha256(biographies_path.read_bytes()).hexdigest()
-    values_2026 = {row["internal_player_id"]: row for row in production_values(projections_2026,"projected_points")}
+    target_values = {row["internal_player_id"]: row for row in production_values(target_projections,"projected_points")}
     variant_values = {
-        name: {row["internal_player_id"]: row for row in production_values(projections_2026, "projected_points", allocation)}
+        name: {row["internal_player_id"]: row for row in production_values(target_projections, "projected_points", allocation)}
         for name, allocation in ALLOCATION_VARIANTS.items()
     }
     price_pointer = json.loads((root / "data/processed/auction_price_model/latest.json").read_text())
-    price_path = root / price_pointer["scores_2026_json"]; prices = json.loads(price_path.read_text())
+    price_path = root / price_pointer[f"scores_{season}_json"]; prices = json.loads(price_path.read_text())
     inputs[str(price_path.relative_to(root))] = hashlib.sha256(price_path.read_bytes()).hexdigest()
     board=[]
     for market in prices["players"]:
-        value=values_2026.get(market["internal_player_id"])
+        value=target_values.get(market["internal_player_id"])
         if not value: continue
         variants = [rows[market["internal_player_id"]]["production_value"] for rows in variant_values.values()]
         flags = []
@@ -283,7 +292,7 @@ def run(root: Path) -> Path:
             "risk_flags":";".join(flags),
             "modeled_roster_slot":value["modeled_roster_slot"],
             "last_season_stat_line":actual_stat_lines.get(market["internal_player_id"]),
-            "historical_stat_lines":[historical_stat_lines[season][market["internal_player_id"]] for season in (2024,2025) if market["internal_player_id"] in historical_stat_lines[season]],
+            "historical_stat_lines":[historical_stat_lines[actual_season][market["internal_player_id"]] for actual_season in actual_seasons if market["internal_player_id"] in historical_stat_lines[actual_season]],
             "projected_stat_line":projected_stat_lines.get(market["internal_player_id"])})
     assign_position_tiers(board,"projected_points","production",maximum_span=16.0,minimum_natural_gap=6.0)
     assign_position_tiers(board,"expected_jugg_price","auction",maximum_span=5.0,minimum_natural_gap=2.0)
@@ -292,21 +301,27 @@ def run(root: Path) -> Path:
     built=datetime.now(timezone.utc); build_id=built.strftime("%Y%m%dT%H%M%SZ")
     out=root/"data/processed/production_value_model"/build_id; out.mkdir(parents=True,exist_ok=True)
     fields=list(board[0]);
-    with (out/"decision_board_2026.csv").open("w",newline="",encoding="utf-8") as f:
+    board_csv = out/f"decision_board_{season}.csv"
+    board_json = out/f"decision_board_{season}.json"
+    with board_csv.open("w",newline="",encoding="utf-8") as f:
         w=csv.DictWriter(f,fieldnames=fields);w.writeheader();w.writerows(board)
     hardening = {"allocation_variants": ALLOCATION_VARIANTS,
         "allocation_sensitive_count":sum("allocation_sensitive" in row["risk_flags"] for row in board),
         "risk_flag_counts":{flag:sum(flag in row["risk_flags"].split(";") for row in board) for flag in ["missing_market_inputs","low_confidence_special_teams_projection","wide_market_price_range","low_draft_probability","replacement_boundary","allocation_sensitive"]},
         "top_20_bargain_positions":{position:sum(row["position"]==position for row in board[:20]) for position in ALLOCATION}}
     tier_contract={"scope":"position","production":{"value":"projected_points","maximum_within_tier_span":16.0,"minimum_natural_gap":6.0,"natural_gap_multiplier":2.5},"auction":{"value":"expected_jugg_price","maximum_within_tier_span":5.0,"minimum_natural_gap":2.0,"natural_gap_multiplier":2.5}}
-    (out/"decision_board_2026.json").write_text(json.dumps({"metadata":{"schema_version":2,"build_id":build_id,"allocation":ALLOCATION,"tier_contract":tier_contract,"stat_line_contract":{"actual_seasons":[2024,2025],"projection_season":2026},"inputs":inputs,"hardening":hardening},"players":board},indent=2,sort_keys=True)+"\n")
+    board_json.write_text(json.dumps({"metadata":{"schema_version":2,"build_id":build_id,"season":season,"allocation":ALLOCATION,"tier_contract":tier_contract,"stat_line_contract":{"actual_seasons":list(actual_seasons),"projection_season":season},"inputs":inputs,"hardening":hardening},"players":board},indent=2,sort_keys=True)+"\n")
     (out/"backtest.json").write_text(json.dumps({"metadata":{"schema_version":1,"build_id":build_id},"summary":backtest,"rows":backtest_rows},indent=2,sort_keys=True)+"\n")
     latest=root/"data/processed/production_value_model/latest.json"
-    latest.write_text(json.dumps({"schema_version":1,"build_id":build_id,"decision_board_json":str((out/"decision_board_2026.json").relative_to(root)),"decision_board_csv":str((out/"decision_board_2026.csv").relative_to(root)),"backtest":str((out/"backtest.json").relative_to(root))},indent=2)+"\n")
+    latest.write_text(json.dumps({"schema_version":1,"build_id":build_id,"season":season,"decision_board_json":str(board_json.relative_to(root)),"decision_board_csv":str(board_csv.relative_to(root)),"backtest":str((out/"backtest.json").relative_to(root))},indent=2)+"\n")
     return out
 
 
 if __name__ == "__main__":
-    try: print(f"Wrote {run(Path(__file__).resolve().parents[1])}")
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--root",type=Path,default=Path(__file__).resolve().parents[1])
+    parser.add_argument("--season",type=int,default=2026,help="Season to score; prior seasons become training data")
+    args=parser.parse_args()
+    try: print(f"Wrote {run(args.root.resolve(),args.season)}")
     except (OSError,KeyError,ValueError,json.JSONDecodeError,ValueErrorModel) as exc:
         print(f"Production value model failed: {exc}",file=sys.stderr);raise SystemExit(1)

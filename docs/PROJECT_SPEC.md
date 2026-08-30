@@ -135,6 +135,12 @@ disabled, pass its artifact/readiness gates, and preserve rollback to the
 finalized prior-season configuration. Manually changing a year in application
 code is not an acceptable rollover procedure.
 
+Annual auction-price and production-value builds require an explicit target
+season. They train and backtest only on completed seasons before that target,
+read target-season input artifacts, and publish season-labeled score and board
+files. A future-season refresh must remain a dry run until its source inputs
+exist; it must never overwrite or reactivate the finalized prior-season draft.
+
 ### Owner tendencies
 
 Learn or encode manager-specific behavior from historical drafts: position and team preferences, typical aggression, willingness to pay, timing, nomination patterns, budget discipline, and other repeatable tendencies. Use owner signals as probabilistic context, not certainty, and show when evidence is weak.

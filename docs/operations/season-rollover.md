@@ -36,10 +36,10 @@ python3 scripts/season_refresh_plan.py --season 2027
 ```
 
 This writes `.local/readiness/refresh-2027.json`. It records the ordered data
-imports, manual prerequisites, and model-building blockers without running a
-download or changing any live state. The current collectors are season-aware;
-the auction-price and production-value builders must still be generalized and
-tested before they can safely produce a season other than 2026.
+imports and manual prerequisites without running a download or changing any
+live state. The collectors and the auction-price and production-value builders
+accept an explicit target season; model builders use completed prior seasons as
+their training and backtest window.
 
 After the new artifacts have been generated, run the rollover gate:
 

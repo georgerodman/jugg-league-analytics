@@ -25,10 +25,16 @@ class SeasonRefreshPlanTests(unittest.TestCase):
         self.assertEqual(before, after)
         self.assertEqual(plan["targetSeason"], 2027)
         self.assertFalse(plan["executableNow"])
+        self.assertEqual(plan["summary"]["blockers"], 0)
+        self.assertEqual(plan["summary"]["manual"], 2)
         self.assertEqual(plan["steps"][0]["status"], "ready")
         names = [item["name"] for item in plan["steps"]]
         self.assertLess(names.index("fantasypros_projections"), names.index("canonical_projections"))
         self.assertLess(names.index("canonical_projections"), names.index("auction_price_model"))
+        auction = next(item for item in plan["steps"] if item["name"] == "auction_price_model")
+        production = next(item for item in plan["steps"] if item["name"] == "production_value_model")
+        self.assertEqual(auction["command"][-2:], ["--season", "2027"])
+        self.assertEqual(production["command"][-2:], ["--season", "2027"])
         self.assertIn("No downloads ran", plan["safety"])
 
     def test_current_season_is_blocked(self):

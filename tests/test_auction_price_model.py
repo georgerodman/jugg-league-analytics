@@ -5,10 +5,14 @@ from scripts.auction_price_model import (
     calibrate_draft_probabilities, economy_calibrate_prices, evaluate, fit_line,
     fit_ridge, metrics, percentile, position_adjustments,
     predict_ridge, probability_metrics, solve_linear_system,
+    training_seasons,
 )
 
 
 class AuctionPriceModelTests(unittest.TestCase):
+    def test_target_season_defines_completed_training_window(self):
+        self.assertEqual(training_seasons(2027), tuple(range(2020, 2027)))
+
     def test_metrics_preserve_prediction_minus_actual_bias(self):
         self.assertEqual(
             metrics([(10, 8), (5, 9)]),

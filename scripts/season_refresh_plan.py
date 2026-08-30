@@ -97,14 +97,16 @@ def build_plan(root: Path, season: int) -> dict[str, Any]:
         step(
             "auction_price_model",
             "model",
-            "code_change_required",
-            "The auction-price builder still hardcodes its training window, target season, field names, and output names to 2026. Generalize and test it before running for a new season.",
+            "available",
+            f"Train on completed seasons and score the {season} player pool.",
+            ["python3", "scripts/auction_price_model.py", "--season", str(season)],
         ),
         step(
             "production_value_model",
             "model",
-            "code_change_required",
-            "The production-value builder still hardcodes its training window, target season, and decision-board output to 2026. Generalize and test it before running for a new season.",
+            "available",
+            f"Build production values and the {season} decision board.",
+            ["python3", "scripts/production_value_model.py", "--season", str(season)],
         ),
         step(
             "rollover_readiness",
@@ -115,16 +117,17 @@ def build_plan(root: Path, season: int) -> dict[str, Any]:
         ),
     ]
     blockers = [item for item in steps if item["status"] in {"blocked", "code_change_required"}]
+    manual = [item for item in steps if item["status"] == "manual"]
     return {
         "schemaVersion": 1,
         "createdAt": datetime.now(timezone.utc).isoformat(),
         "mode": "dry_run",
         "activeSeason": active["season"],
         "targetSeason": season,
-        "executableNow": not blockers,
+        "executableNow": not blockers and not manual,
         "summary": {
             "available": sum(item["status"] == "available" for item in steps),
-            "manual": sum(item["status"] == "manual" for item in steps),
+            "manual": len(manual),
             "blockers": len(blockers),
         },
         "steps": steps,

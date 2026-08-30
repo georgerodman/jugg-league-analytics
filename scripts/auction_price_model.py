@@ -50,6 +50,13 @@ class ModelError(RuntimeError):
     pass
 
 
+def training_seasons(target_season: int) -> tuple[int, ...]:
+    seasons = tuple(range(2020, target_season))
+    if len(seasons) < 2:
+        raise ModelError("Target season must be 2022 or later")
+    return seasons
+
+
 def read_pointer(root: Path, pointer: Path) -> tuple[dict[str, Any], Path]:
     reference = json.loads((root / pointer).read_text(encoding="utf-8"))
     artifact = reference.get("artifact")
@@ -63,7 +70,7 @@ def checksum(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
-def build_rows(root: Path) -> tuple[list[dict[str, Any]], dict[str, str]]:
+def build_rows(root: Path, seasons: tuple[int, ...] = SEASONS) -> tuple[list[dict[str, Any]], dict[str, str]]:
     sales_payload, sales_path = read_pointer(root, Path("data/processed/auction_history_matches/latest.json"))
     sales = {(row["season"], row["internal_player_id"]): row for row in sales_payload["sales"]}
     if len(sales) != len(sales_payload["sales"]):
@@ -76,9 +83,9 @@ def build_rows(root: Path) -> tuple[list[dict[str, Any]], dict[str, str]]:
     # to become training rows. They still provide observed league prior prices for
     # players that can be matched unambiguously to a durable current identity.
     for sale in sorted(sales_payload["sales"], key=lambda row: row["season"]):
-        if sale["season"] < min(SEASONS) and sale["internal_player_id"]:
+        if sale["season"] < min(seasons) and sale["internal_player_id"]:
             prior_salary[sale["internal_player_id"]] = sale["salary"]
-    for season in SEASONS:
+    for season in seasons:
         canonical, canonical_path = read_pointer(
             root, Path(f"data/processed/canonical_projections/{season}/latest.json")
         )
@@ -123,8 +130,7 @@ def build_rows(root: Path) -> tuple[list[dict[str, Any]], dict[str, str]]:
     return rows, inputs
 
 
-def build_scoring_rows(root: Path, historical_rows: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], dict[str, str]]:
-    season = 2026
+def build_scoring_rows(root: Path, historical_rows: list[dict[str, Any]], season: int = 2026) -> tuple[list[dict[str, Any]], dict[str, str]]:
     canonical, canonical_path = read_pointer(
         root, Path(f"data/processed/canonical_projections/{season}/latest.json")
     )
@@ -153,7 +159,7 @@ def build_scoring_rows(root: Path, historical_rows: list[dict[str, Any]]) -> tup
             "adp_espn": market.get("adp_espn"), "adp_yahoo": market.get("adp_yahoo"),
             "projected_points_jugg": fp.get("league_projected_points"),
             "prior_jugg_salary": latest_prior.get(player_id),
-            "player_pool_source": "canonical_2026",
+            "player_pool_source": f"canonical_{season}",
         })
     inputs = {
         str(canonical_path.relative_to(root)): checksum(canonical_path),
@@ -388,7 +394,7 @@ def choose_probability_parameter(
     return min(scores)[1]
 
 
-def draft_probability_tournament(rows: list[dict[str, Any]]) -> dict[str, Any]:
+def draft_probability_tournament(rows: list[dict[str, Any]], seasons: tuple[int, ...] = SEASONS) -> dict[str, Any]:
     pool = [row for row in rows if row.get("espn_salary_cap_value") is not None or row.get("adp_yahoo") is not None]
     feature_sets = {
         "adp_only": MODEL_FEATURES["adp_only"],
@@ -399,7 +405,7 @@ def draft_probability_tournament(rows: list[dict[str, Any]]) -> dict[str, Any]:
     }
     accumulated: dict[str, list[tuple[float, int, dict[str, Any]]]] = {}
     by_season = {}
-    for season in SEASONS[1:]:
+    for season in seasons[1:]:
         training = [row for row in pool if row["season"] < season]
         test = [row for row in pool if row["season"] == season]
         by_season[str(season)] = {}
@@ -418,7 +424,7 @@ def draft_probability_tournament(rows: list[dict[str, Any]]) -> dict[str, Any]:
     best_predictions = accumulated[best]
     top_pool = sorted(best_predictions, key=lambda item: item[0], reverse=True)
     by_year_top_140 = {}
-    for season in SEASONS[1:]:
+    for season in seasons[1:]:
         season_predictions = sorted((item for item in best_predictions if item[2]["season"] == season), key=lambda item: item[0], reverse=True)[:140]
         hits = sum(actual for _, actual, _ in season_predictions)
         eligible_actuals = sum(row["drafted"] for row in pool if row["season"] == season)
@@ -563,14 +569,14 @@ def economy_calibrate_prices(
     }
 
 
-def economy_calibration_tournament(rows: list[dict[str, Any]]) -> dict[str, Any]:
+def economy_calibration_tournament(rows: list[dict[str, Any]], seasons: tuple[int, ...] = SEASONS) -> dict[str, Any]:
     """Forward-test competing ways to reconcile conditional prices to $2,000."""
     sold = [row for row in rows if row["drafted"]]
     pool = [
         row for row in rows
         if row.get("espn_salary_cap_value") is not None or row.get("adp_yahoo") is not None
     ]
-    if any(sum(row["season"] == season for row in pool) < 140 for season in SEASONS[1:]):
+    if any(sum(row["season"] == season for row in pool) < 140 for season in seasons[1:]):
         return {
             "status": "insufficient_pool",
             "required_supported_players_per_test_season": 140,
@@ -582,7 +588,7 @@ def economy_calibration_tournament(rows: list[dict[str, Any]]) -> dict[str, Any]
     )
     predictions: dict[str, list[tuple[float, float]]] = {method: [] for method in methods}
     by_season: dict[str, dict[str, Any]] = {}
-    for season in SEASONS[1:]:
+    for season in seasons[1:]:
         price_training = [row for row in sold if row["season"] < season]
         probability_training = [row for row in pool if row["season"] < season]
         test = [row for row in pool if row["season"] == season]
@@ -629,9 +635,9 @@ def economy_calibration_tournament(rows: list[dict[str, Any]]) -> dict[str, Any]
     }
 
 
-def neutral_model_tournament(rows: list[dict[str, Any]]) -> dict[str, Any]:
+def neutral_model_tournament(rows: list[dict[str, Any]], seasons: tuple[int, ...] = SEASONS) -> dict[str, Any]:
     sold = [row for row in rows if row["drafted"]]
-    test_seasons = SEASONS[1:]
+    test_seasons = seasons[1:]
     results: dict[str, list[tuple[float, float, dict[str, Any]]]] = {}
     by_season: dict[str, dict[str, Any]] = {}
     selected_parameters: dict[str, dict[str, Any]] = {}
@@ -692,7 +698,7 @@ def neutral_model_tournament(rows: list[dict[str, Any]]) -> dict[str, Any]:
         for feature in ("espn_salary_cap_value", "adp_espn", "adp_yahoo", "projected_points_jugg", "prior_jugg_salary")
     }
     return {
-        "cohort": "all JUGG sales from 2021-2025; cohort membership is independent of every candidate feature",
+        "cohort": f"all JUGG sales from {test_seasons[0]}-{test_seasons[-1]}; cohort membership is independent of every candidate feature",
         "training_rule": "for test season Y, train only on seasons earlier than Y",
         "tuning_rule": "choose ridge penalty or neighbor count using the latest training season as an inner forward validation set when available",
         "feature_rule": "every numeric input receives raw, log1p, and square-root bases plus a missing indicator; all models include position",
@@ -709,9 +715,9 @@ def neutral_model_tournament(rows: list[dict[str, Any]]) -> dict[str, Any]:
     }
 
 
-def score_2026(
+def score_season(
     historical_rows: list[dict[str, Any]], scoring_rows: list[dict[str, Any]], tournament: dict[str, Any],
-    probability_tournament: dict[str, Any],
+    probability_tournament: dict[str, Any], season: int = 2026,
 ) -> tuple[list[dict[str, Any]], dict[str, Any]]:
     training = [row for row in historical_rows if row["drafted"]]
     feature_names = MODEL_FEATURES["full"]
@@ -768,10 +774,10 @@ def score_2026(
     for rank, row in enumerate(scored, start=1):
         row["jugg_price_rank"] = rank
     metadata = {
-        "season": 2026, "model": "ridge:full", "training_seasons": list(SEASONS),
+        "season": season, "model": "ridge:full", "training_seasons": sorted({row["season"] for row in historical_rows}),
         "training_sale_count": len(training), "selected_ridge_penalty": penalty,
         "score_count": len(scored), "excluded_out_of_scope_count": len(scoring_rows) - len(scored),
-        "scoring_eligibility": "Player has a 2026 ESPN Salary Cap Value or Yahoo ADP; deeper canonical players are excluded as outside the historical model's supported sale-price population.",
+        "scoring_eligibility": f"Player has a {season} ESPN Salary Cap Value or Yahoo ADP; deeper canonical players are excluded as outside the historical model's supported sale-price population.",
         "league_economy_calibration": {
             "draft_slots": draft_slots, "total_budget": total_budget,
             "minimum_price": 1, **economy,
@@ -787,17 +793,17 @@ def score_2026(
             "training_pool_count": len(probability_pool),
             "probability_floor": 0.005, "probability_ceiling": 0.995,
             "expected_drafted_count": round(sum(row["draft_probability"] for row in scored), 4),
-            "interpretation": "Probability that the player occupies one of the 140 JUGG draft slots, calibrated to sum to 140 across the supported 2026 pool.",
+            "interpretation": f"Probability that the player occupies one of the 140 JUGG draft slots, calibrated to sum to 140 across the supported {season} pool.",
         },
     }
     return scored, metadata
 
 
-def ablation_study(rows: list[dict[str, Any]]) -> dict[str, Any]:
+def ablation_study(rows: list[dict[str, Any]], seasons: tuple[int, ...] = SEASONS) -> dict[str, Any]:
     common = [row for row in rows if row["drafted"] and row["espn_salary_cap_value"] is not None]
     predictions: dict[str, list[tuple[float, float]]] = {name: [] for name in MODEL_FEATURES}
     season_results: dict[str, dict[str, Any]] = {}
-    for season in SEASONS:
+    for season in seasons:
         training = [row for row in common if row["season"] != season]
         test = [row for row in common if row["season"] == season]
         season_results[str(season)] = {}
@@ -823,14 +829,14 @@ def ablation_study(rows: list[dict[str, Any]]) -> dict[str, Any]:
     }
 
 
-def evaluate(rows: list[dict[str, Any]]) -> dict[str, Any]:
+def evaluate(rows: list[dict[str, Any]], seasons: tuple[int, ...] = SEASONS) -> dict[str, Any]:
     sold_with_espn = [r for r in rows if r["drafted"] and r["espn_salary_cap_value"] is not None]
     raw_pairs = [(float(r["espn_salary_cap_value"]), float(r["jugg_salary"])) for r in sold_with_espn]
     by_season = {}
     held_out_predictions = []
     position_predictions = []
     coefficients = {}
-    for season in SEASONS:
+    for season in seasons:
         training = [r for r in sold_with_espn if r["season"] != season]
         test = [r for r in sold_with_espn if r["season"] == season]
         intercept, slope = fit_line(training)
@@ -878,10 +884,10 @@ def evaluate(rows: list[dict[str, Any]]) -> dict[str, Any]:
             }
         },
         "calibration_coefficients_by_held_out_season": coefficients,
-        "ablation_study": ablation_study(rows),
-        "neutral_model_tournament": neutral_model_tournament(rows),
-        "economy_calibration_tournament": economy_calibration_tournament(rows),
-        "draft_probability_tournament": draft_probability_tournament(rows),
+        "ablation_study": ablation_study(rows, seasons),
+        "neutral_model_tournament": neutral_model_tournament(rows, seasons),
+        "economy_calibration_tournament": economy_calibration_tournament(rows, seasons),
+        "draft_probability_tournament": draft_probability_tournament(rows, seasons),
         "notes": [
             "Sale-price errors are evaluated only for drafted players with an ESPN value.",
             "The calibrated baseline is fit without the evaluated season; it is not a random row split.",
@@ -907,12 +913,13 @@ def write_scores_csv(path: Path, rows: list[dict[str, Any]]) -> None:
             writer.writerow(output)
 
 
-def run(root: Path) -> Path:
-    rows, inputs = build_rows(root)
-    report = evaluate(rows)
-    scoring_rows, scoring_inputs = build_scoring_rows(root, rows)
-    scores, scoring_metadata = score_2026(
-        rows, scoring_rows, report["neutral_model_tournament"], report["draft_probability_tournament"]
+def run(root: Path, season: int = 2026) -> Path:
+    seasons = training_seasons(season)
+    rows, inputs = build_rows(root, seasons)
+    report = evaluate(rows, seasons)
+    scoring_rows, scoring_inputs = build_scoring_rows(root, rows, season)
+    scores, scoring_metadata = score_season(
+        rows, scoring_rows, report["neutral_model_tournament"], report["draft_probability_tournament"], season
     )
     inputs.update(scoring_inputs)
     built_at = datetime.now(timezone.utc)
@@ -920,12 +927,14 @@ def run(root: Path) -> Path:
     output_dir = root / "data" / "processed" / "auction_price_model" / build_id
     output_dir.mkdir(parents=True, exist_ok=True)
     write_csv(output_dir / "training_rows.csv", rows)
-    write_scores_csv(output_dir / "scores_2026.csv", scores)
-    (output_dir / "scores_2026.json").write_text(json.dumps({
+    scores_csv = output_dir / f"scores_{season}.csv"
+    scores_json = output_dir / f"scores_{season}.json"
+    write_scores_csv(scores_csv, scores)
+    scores_json.write_text(json.dumps({
         "metadata": scoring_metadata, "players": scores,
     }, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     payload = {
-        "metadata": {"schema_version": 1, "build_id": build_id, "built_at": built_at.isoformat(), "seasons": list(SEASONS), "inputs": inputs},
+        "metadata": {"schema_version": 1, "build_id": build_id, "built_at": built_at.isoformat(), "seasons": list(seasons), "target_season": season, "inputs": inputs},
         **report,
     }
     report_path = output_dir / "benchmark.json"
@@ -935,8 +944,9 @@ def run(root: Path) -> Path:
         "schema_version": 1, "build_id": build_id,
         "benchmark": str(report_path.relative_to(root)),
         "training_rows": str((output_dir / "training_rows.csv").relative_to(root)),
-        "scores_2026_csv": str((output_dir / "scores_2026.csv").relative_to(root)),
-        "scores_2026_json": str((output_dir / "scores_2026.json").relative_to(root)),
+        "target_season": season,
+        f"scores_{season}_csv": str(scores_csv.relative_to(root)),
+        f"scores_{season}_json": str(scores_json.relative_to(root)),
     }, indent=2) + "\n", encoding="utf-8")
     return report_path
 
@@ -944,9 +954,10 @@ def run(root: Path) -> Path:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
+    parser.add_argument("--season", type=int, default=2026, help="Season to score; prior seasons become training data")
     args = parser.parse_args()
     try:
-        print(f"Wrote {run(args.root.resolve())}")
+        print(f"Wrote {run(args.root.resolve(), args.season)}")
     except (OSError, KeyError, ValueError, json.JSONDecodeError, ModelError) as exc:
         print(f"Auction model benchmark failed: {exc}", file=sys.stderr)
         return 1

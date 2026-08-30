@@ -1,9 +1,12 @@
 import unittest
 
-from scripts.production_value_model import ALLOCATION, assign_position_tiers, production_values
+from scripts.production_value_model import ALLOCATION, assign_position_tiers, production_values, training_seasons
 
 
 class ProductionValueModelTests(unittest.TestCase):
+    def test_target_season_defines_completed_training_window(self):
+        self.assertEqual(training_seasons(2027), tuple(range(2020, 2027)))
+
     def test_values_respect_allocation_and_budget(self):
         rows = []
         for position, count in ALLOCATION.items():
