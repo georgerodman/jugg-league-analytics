@@ -134,15 +134,15 @@ production-based value. Public auction values, ADP, projections, and historical
 league evidence remain independently attributable inputs rather than being
 presented as intrinsic value.
 
-Rebuild all derived artifacts from the current validated local inputs with:
+Preview or run the guarded annual import and model refresh with:
 
 ```sh
-python3 scripts/rebuild_all.py
+python3 scripts/season_refresh.py --season 2027
 ```
 
-The guarded workflow restores the previous published pointers if any stage or
-test fails. See `docs/operations/data-source-operations.md` for refresh, new-source, and
-publication procedures.
+The default is a non-mutating dry run. See
+`docs/operations/start-next-season.md` for the short annual checklist and
+`docs/operations/data-source-operations.md` for detailed source procedures.
 
 ## Refresh historical nflverse data
 

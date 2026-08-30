@@ -36,6 +36,8 @@ question they answer.
 
 ## Operations: how to run and maintain it
 
+- [Start the next season](operations/start-next-season.md) — the short annual
+  checklist for prerequisites, dry run, guarded refresh, and activation review.
 - [Data-source operations](operations/data-source-operations.md) — refreshing
   sources, adding providers, rebuilding artifacts, auditing changes, and
   recovery behavior.

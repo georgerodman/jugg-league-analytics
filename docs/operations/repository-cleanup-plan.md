@@ -122,6 +122,12 @@ and `draft-2026-final` tag.
 start without reinstalling packages. It is not part of the Git repository and
 may be deleted at any time; restore it with `npm install`.
 
+The final generated-cache pass removed `.next/`, TypeScript incremental build
+metadata, and Finder metadata after verification. This reduced the working
+directory from approximately 647 MB to 511 MB while retaining `node_modules/`
+and the finalized local SQLite state for immediate app startup. Next.js and
+TypeScript recreate those ignored caches when the app or checks run.
+
 ## Verification commands
 
 ```sh
