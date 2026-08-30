@@ -39,9 +39,10 @@ convenience copy and should not be the only retained record.
 ## Final validation evidence
 
 The accepted system completed 21 of 21 fresh deterministic full-draft
-scenarios legally, with monotonic price ladders, valid fallback references,
-budget and roster conservation, and equivalent recovery after reopening each
-temporary SQLite database.
+scenarios legally, with valid fallback references, budget and roster
+conservation, and equivalent recovery after reopening each temporary SQLite
+database. The accepted baseline also recorded a known non-monotonic price-band
+finding; later focused domain tests enforce the corrected monotonic boundary.
 
 The historical price benchmark used a forward-held-out cohort of 700 JUGG
 sales from 2021–2025. The combined evidence-selected model outperformed the
@@ -77,3 +78,23 @@ git show draft-2026-final:docs/studies/deterministic-readiness-review.md
 
 Do not restore old documents into the active tree merely to preserve history;
 Git and the external finalized archive already provide that record.
+
+## Repository cleanup record
+
+Cleanup followed preserve, prove, consolidate, prune, and verify. Before
+removal, the operator copied both the finalized-draft archive and the complete
+model-data archive outside the repository. The final SQLite backup referenced
+by the draft remains locally available as a convenience copy.
+
+The active tree retired superseded timestamped builds, refetchable historical
+sources, completed research tooling, legacy auction PDFs, FantasyPros actuals,
+standalone championship studies, and the old fixed-year rebuild wrapper. The
+published 2026 board, owner context, identity data, depth charts, frozen
+research wiki, and finalized database remain available to the application.
+The full simulation trace was replaced by a compact certification of its tested
+invariants; the trace remains in the external archive and final tag.
+
+Generated `.next/`, TypeScript, and Finder caches were removed after
+verification. `node_modules/` remains as an ignored local convenience so the
+app can start without reinstalling packages. All removed material is
+recoverable from the external archives or source-control checkpoints.

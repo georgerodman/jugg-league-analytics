@@ -46,17 +46,14 @@ question they answer.
   changing a model, input, data source, league rule, or recommendation policy.
 - [Assistant GM setup and recovery](operations/assistant-gm-setup-and-recovery.md)
   — optional server configuration and offline/failure behavior.
-- [Repository cleanup and season rollover](operations/repository-cleanup-plan.md)
-  — finalized-season preservation, artifact inventory, deletion gates, and the
-  staged path to a compact annual repository.
 - [Season rollover](operations/season-rollover.md) — active-season
   configuration, safety gates, and the path to a dry-run-first annual setup.
 
 ## History: what happened in completed seasons
 
 - [2026 season record](history/2026-season-record.md) — final draft lifecycle,
-  accepted modeling decisions, validation evidence, limitations, and pointers
-  to the detailed documents preserved at the final Git tag.
+  accepted modeling decisions, cleanup record, validation evidence,
+  limitations, and pointers to the final Git tag.
 
 ## Simple rule for future documents
 

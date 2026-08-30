@@ -17,6 +17,11 @@ the local pointer is `data/processed/draft_simulations/latest.json`. The build
 ID is derived from the code revision, artifact build IDs, seeds, and documented
 assumptions. A repeated run with the same inputs writes the same version.
 
+The active repository retains a compact certification of the accepted 2026
+baseline invariants. Its full per-action trace is preserved in the external
+season archive and at `draft-2026-final`; a newly executed simulation may
+produce another full local trace for review.
+
 The suite exits unsuccessfully if any valid full-draft scenario fails to reach
 140 sales or violates the core accounting/recovery checks.
 

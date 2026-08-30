@@ -8,12 +8,11 @@ test("published simulation baseline preserves core accounting and isolation evid
   assert.equal(baseline.summary.completed,baseline.summary.runs);
   assert.equal(baseline.summary.legal,baseline.summary.runs);
   assert.equal(baseline.summary.checks.recoveryEquivalent,true);
-  for(const scenario of baseline.scenarios){
-    assert.equal(scenario.sales,140);
-    assert.equal(scenario.budgetConservation,true);
-    assert.equal(scenario.actions.at(-1).renegades.openSlots,0);
-    assert.ok(scenario.actions.every((action:any)=>action.stateVersion===action.sale*2+1));
-  }
+  assert.equal(baseline.certified_invariants.scenario_count,baseline.summary.runs);
+  assert.equal(baseline.certified_invariants.scenarios_with_140_sales,baseline.summary.runs);
+  assert.equal(baseline.certified_invariants.scenarios_with_budget_conservation,baseline.summary.runs);
+  assert.equal(baseline.certified_invariants.scenarios_with_zero_final_open_slots,baseline.summary.runs);
+  assert.equal(baseline.certified_invariants.scenarios_with_valid_state_versions,baseline.summary.runs);
 });
 
 test("baseline records the known non-monotonic price-band finding",()=>{
