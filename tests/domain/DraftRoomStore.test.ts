@@ -57,6 +57,16 @@ test("draft-room view and commands run against isolated local state",async()=>{
 
     const active=applyDraftAction({type:"start"});
     assert.equal(active.draft.status,"active");
+    const manual=applyDraftAction({type:"addManualPlayer",name:"Draft Night Missing Player",position:"WR",nflTeam:"CHI",byeWeek:5});
+    const manualPlayer=manual.players.find(row=>row.name==="Draft Night Missing Player");
+    assert.equal(manualPlayer?.guidanceLevel,"adp_only");
+    assert.equal(manualPlayer?.byeWeek,5);
+    assert.equal(manualPlayer?.expectedPrice,null);
+    assert.throws(()=>applyDraftAction({type:"addManualPlayer",name:" draft night missing player ",position:"WR",nflTeam:"chi"}),/already in the player list/i);
+    const manualNomination=applyDraftAction({type:"nominate",playerId:manualPlayer!.id});
+    assert.equal(manualNomination.currentNomination?.playerId,manualPlayer!.id);
+    assert.equal(manualNomination.currentNomination?.championshipDecision,null);
+    applyDraftAction({type:"cancelNomination"});
     assert.ok(active.players.filter(row=>row.status==="available"&&row.guidanceLevel==="modeled").every(row=>row.draftImpact));
     assert.ok(active.players.filter(row=>row.status==="available"&&row.guidanceLevel!=="modeled").every(row=>row.draftImpact===null));
     const reversed=applyDraftAction({type:"updateNominationOrder",teamIds:[...active.nominationOrder.teams.map(row=>row.teamId)].reverse()});

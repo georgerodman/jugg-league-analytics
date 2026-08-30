@@ -5,7 +5,7 @@ import { readFileSync } from "node:fs";
 import { DraftService, DomainError, type SlotTemplate } from "../../src/domain/DraftService.js";
 import { initializeFromArtifacts, JUGG_SLOTS } from "../../src/domain/importDraftArtifacts.js";
 
-const migration=readFileSync("db/migrations/001_initial.sql","utf8")+readFileSync("db/migrations/002_strategy_and_market_context.sql","utf8")+readFileSync("db/migrations/003_nomination_and_waiver_order.sql","utf8")+readFileSync("db/migrations/004_decision_planning.sql","utf8")+readFileSync("db/migrations/005_nomination_owner_changed_event.sql","utf8");
+const migration=readFileSync("db/migrations/001_initial.sql","utf8")+readFileSync("db/migrations/002_strategy_and_market_context.sql","utf8")+readFileSync("db/migrations/003_nomination_and_waiver_order.sql","utf8")+readFileSync("db/migrations/004_decision_planning.sql","utf8")+readFileSync("db/migrations/005_nomination_owner_changed_event.sql","utf8")+readFileSync("db/migrations/014_draft_finalization.sql","utf8");
 const slots:SlotTemplate[]=[
   {slotType:"QB",count:1,eligiblePositions:["QB"]},{slotType:"RB",count:1,eligiblePositions:["RB"]},
   {slotType:"WR",count:2,eligiblePositions:["WR"]},{slotType:"TE",count:1,eligiblePositions:["TE"]},
@@ -125,6 +125,20 @@ test("records and reverses draft completion for waiver priority",()=>{
   assert.equal((svc.db.prepare("SELECT COUNT(*) count FROM team_draft_completions WHERE team_id='t' AND voided_event_id IS NULL").get() as any).count,1);
   svc.voidSale({draftId:"d",expectedVersion:3,idempotencyKey:"void",occurredAt:at,saleId:sale.saleId});
   assert.equal((svc.db.prepare("SELECT COUNT(*) count FROM team_draft_completions WHERE team_id='t' AND voided_event_id IS NULL").get() as any).count,0);
+});
+
+test("finalization requires complete rosters, is audited, and disconnects Google Sheets",()=>{
+  const svc=service();svc.startDraft({draftId:"d",expectedVersion:0,idempotencyKey:"start",occurredAt:at});
+  assert.throws(()=>svc.completeDraft({draftId:"d",expectedVersion:1,idempotencyKey:"too-early",occurredAt:at}),
+    (error:any)=>error instanceof DomainError&&error.code==="INCOMPLETE_ROSTERS");
+  svc.db.prepare("UPDATE team_draft_state SET open_slot_count=0,rostered_player_count=14").run();
+  (svc as any).recoveryAudit=()=>[];
+  svc.completeDraft({draftId:"d",expectedVersion:1,idempotencyKey:"complete",occurredAt:at});
+  const draft=svc.db.prepare("SELECT status,finalized_at finalizedAt,google_sheets_sync_enabled syncEnabled,state_version stateVersion FROM drafts WHERE id='d'").get() as any;
+  assert.deepEqual(draft,{status:"complete",finalizedAt:at,syncEnabled:0,stateVersion:2});
+  assert.equal((svc.db.prepare("SELECT event_type eventType FROM draft_events WHERE sequence=2").get() as any).eventType,"draft_completed");
+  assert.throws(()=>svc.openNomination({draftId:"d",expectedVersion:2,idempotencyKey:"locked",occurredAt:at,playerId:"p"}),
+    (error:any)=>error instanceof DomainError&&error.code==="DRAFT_NOT_ACTIVE");
 });
 
 test("the production slot template contains fourteen draftable slots",()=>{

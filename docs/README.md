@@ -82,6 +82,9 @@ question they answer.
   — optional server configuration and offline/failure behavior.
 - [Assistant GM grounding evaluation](studies/assistant-gm-grounding-evaluation.md)
   — isolated fixtures, results, limitations, and mock-draft review decision.
+- [Repository cleanup and season rollover](operations/repository-cleanup-plan.md)
+  — finalized-season preservation, artifact inventory, deletion gates, and the
+  staged path to a compact annual repository.
 
 ## Simple rule for future documents
 

@@ -133,6 +133,13 @@ The live engine maintains the authoritative local draft state:
 - market inflation and remaining positional supply;
 - continuously recalculated prices, values, recommendations, and risks.
 
+For draft-night coverage, the player search includes a small manual-entry escape
+hatch for a missing player. A manual player requires a name and position, with
+optional NFL team and bye week. The entry is persisted in the local SQLite
+registry and can be nominated, sold, rostered, audited, undone, and synchronized
+like any other player. It is explicitly provisional and receives no modeled
+price, xPAR, scarcity, walk-away, or championship-impact guidance.
+
 Every completed sale must update the winning roster and budget, remove the player from the available pool, update league-wide constraints, and trigger recalculation. State transitions should be deterministic, validated, persisted, and recoverable.
 
 A deliberate full-draft reset is available from the application. It requires
@@ -140,6 +147,13 @@ typing `RESET`, checkpoints and preserves the prior SQLite database as a
 timestamped local backup, initializes a clean draft, and projects the empty
 rosters to Google Sheets. Renegades strategy and player preferences are
 preserved by default but can be reset explicitly from the confirmation dialog.
+
+When every roster is full and no nomination is open, a guarded finalization
+action requires typing `FINALIZE`. Finalization appends the audited
+`draft_completed` lifecycle event, marks the draft complete and read-only,
+disables Google Sheets synchronization for that draft before any later action
+can enqueue a remote write, and creates a timestamped self-contained SQLite
+backup. A finalized draft cannot be reset or edited through the application.
 
 ## Nominated-Player Workflow
 

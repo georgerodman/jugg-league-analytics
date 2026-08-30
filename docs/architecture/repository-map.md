@@ -165,6 +165,8 @@ python3 -m unittest discover -s tests -q
 
 The complete source-refresh and rebuild runbook is
 `docs/operations/data-source-operations.md`.
+The preservation gates, artifact inventory, and staged pruning workflow are in
+`docs/operations/repository-cleanup-plan.md`.
 
 ## Naming conventions
 

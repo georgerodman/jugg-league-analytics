@@ -50,6 +50,21 @@ export class DraftService {
 
   startDraft(command: Command): unknown { return this.eventOnly(command,"draft_started","draft",command.draftId,{},()=>this.db.prepare("UPDATE drafts SET status='active' WHERE id=?").run(command.draftId)); }
 
+  completeDraft(command: Command): unknown {
+    const openNomination=this.db.prepare("SELECT 1 FROM nominations WHERE draft_id=? AND status='open'").get(command.draftId);
+    if(openNomination)throw new DomainError("OPEN_NOMINATION","Cancel or record the open nomination before finalizing the draft");
+    const incomplete=this.db.prepare(`SELECT o.display_name owner,s.open_slot_count openSlots
+      FROM teams t JOIN owners o ON o.id=t.owner_id JOIN team_draft_state s ON s.team_id=t.id
+      WHERE t.draft_id=? AND s.open_slot_count>0 ORDER BY o.display_name`).all(command.draftId) as {owner:string;openSlots:number}[];
+    if(incomplete.length)throw new DomainError("INCOMPLETE_ROSTERS",`Every roster must be complete. ${incomplete.map(row=>`${row.owner} has ${row.openSlots} open`).join(", ")}.`);
+    const recoveryIssues=this.recoveryAudit(command.draftId);
+    if(recoveryIssues.length)throw new DomainError("RECOVERY_AUDIT_FAILED",`Resolve draft recovery issues before finalizing: ${recoveryIssues.join(", ")}`);
+    return this.execute(command,"draft_completed","draft",command.draftId,{googleSheetsDisconnected:true},()=>{
+      this.db.prepare("UPDATE drafts SET status='complete',finalized_at=?,google_sheets_sync_enabled=0 WHERE id=?").run(command.occurredAt,command.draftId);
+      return {finalizedAt:command.occurredAt};
+    });
+  }
+
   openNomination(command: Command & { playerId:string; nominatedByTeamId?:string }): unknown {
     return this.execute(command,"nomination_opened","nomination",command.playerId,{playerId:command.playerId,nominatedByTeamId:command.nominatedByTeamId ?? null},eventId=>{
       const pool=this.db.prepare("SELECT status FROM draft_player_pool WHERE draft_id=? AND player_id=?").get(command.draftId,command.playerId) as {status:string}|undefined;

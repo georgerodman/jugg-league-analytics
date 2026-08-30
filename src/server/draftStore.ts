@@ -114,8 +114,8 @@ export function getDraftService():DraftService{
   // a new command, discard an older in-memory instance so its prototype cannot
   // lag behind the newly loaded server code.
   const cachedService=globalThis.__renegadeDraftService;
-  const needsCurrentMigrations=cachedService&&(!cachedService.db.prepare("SELECT 1 FROM sqlite_master WHERE type='table' AND name='draft_nomination_order'").get()||!cachedService.db.prepare("SELECT 1 FROM sqlite_master WHERE type='table' AND name='decision_snapshots'").get()||!cachedService.db.prepare("SELECT 1 FROM schema_migrations WHERE version=13").get());
-  if(cachedService&&(typeof cachedService.reassignRosterSlot!=="function"||needsCurrentMigrations)){
+  const needsCurrentMigrations=cachedService&&(!cachedService.db.prepare("SELECT 1 FROM sqlite_master WHERE type='table' AND name='draft_nomination_order'").get()||!cachedService.db.prepare("SELECT 1 FROM sqlite_master WHERE type='table' AND name='decision_snapshots'").get()||!cachedService.db.prepare("SELECT 1 FROM schema_migrations WHERE version=14").get());
+  if(cachedService&&(cachedService.constructor!==DraftService||typeof cachedService.reassignRosterSlot!=="function"||typeof cachedService.completeDraft!=="function"||needsCurrentMigrations)){
     cachedService.db.close();
     globalThis.__renegadeDraftService=undefined;
     decisionCache=null;
@@ -202,7 +202,7 @@ function recordDecisionSnapshot(service:DraftService,view:any,triggerType:string
 
 export function readDraftRoom(){
   const service=getDraftService();
-  const draft=service.db.prepare("SELECT id,status,state_version stateVersion FROM drafts WHERE id=?").get(DRAFT_ID) as any;
+  const draft=service.db.prepare("SELECT id,status,state_version stateVersion,finalized_at finalizedAt,finalized_backup_path finalizedBackupPath,google_sheets_sync_enabled googleSheetsSyncEnabled FROM drafts WHERE id=?").get(DRAFT_ID) as any;
   const storedStrategy=parseJson<Partial<Strategy>>((service.db.prepare("SELECT strategy_json strategyJson FROM draft_strategy WHERE draft_id=?").get(DRAFT_ID) as any)?.strategyJson,DEFAULT_STRATEGY);
   const strategy:Strategy={...DEFAULT_STRATEGY,...storedStrategy,teamPreferences:storedStrategy.teamPreferences??[],situations:storedStrategy.situations??[]};
   const market=marketContext(service);
@@ -369,8 +369,25 @@ export function readDraftRoom(){
 
 export const draftRuntime={draftId:DRAFT_ID,root:ROOT};
 
+export async function finalizeDraftRoom(){
+  const service=getDraftService();
+  const draft=service.db.prepare("SELECT state_version stateVersion,status FROM drafts WHERE id=?").get(DRAFT_ID) as {stateVersion:number;status:string};
+  if(draft.status==="complete")throw new DomainError("DRAFT_ALREADY_FINALIZED","This draft is already finalized");
+  const occurredAt=new Date().toISOString();
+  service.completeDraft({draftId:DRAFT_ID,expectedVersion:draft.stateVersion,idempotencyKey:randomUUID(),occurredAt});
+  const backupDirectory=join(DATA_DIR,"backups");mkdirSync(backupDirectory,{recursive:true});
+  const stamp=occurredAt.replaceAll(":","-").replaceAll(".","-");
+  const backupPath=join(backupDirectory,`renegade-draft-room-final-${stamp}.sqlite`);
+  await service.db.backup(backupPath);
+  service.db.prepare("UPDATE drafts SET finalized_backup_path=? WHERE id=?").run(backupPath,DRAFT_ID);
+  decisionCache=null;
+  return {backupPath,view:readDraftRoom()};
+}
+
 export function resetDraftRoom(options:{preservePreferences:boolean}){
   const service=getDraftService();
+  const status=(service.db.prepare("SELECT status FROM drafts WHERE id=?").get(DRAFT_ID) as {status:string}).status;
+  if(status==="complete"||status==="archived")throw new DomainError("DRAFT_FINALIZED","A finalized draft is read-only and cannot be reset");
   const strategy=(service.db.prepare("SELECT strategy_json strategyJson FROM draft_strategy WHERE draft_id=?").get(DRAFT_ID) as {strategyJson:string}|undefined)?.strategyJson;
   const preferences=service.db.prepare("SELECT player_id playerId,preference,premium,note FROM player_preferences WHERE draft_id=?").all(DRAFT_ID) as {playerId:string;preference:string;premium:number;note:string}[];
   const analysisOverrides=service.db.prepare("SELECT player_id playerId,override_value overrideValue FROM fantasy_analysis_overrides WHERE draft_id=?").all(DRAFT_ID) as {playerId:string;overrideValue:string}[];
@@ -396,7 +413,7 @@ export function resetDraftRoom(options:{preservePreferences:boolean}){
 }
 
 const actionSchema=z.discriminatedUnion("type",[
-  z.object({type:z.literal("start")}),z.object({type:z.literal("nominate"),playerId:z.string().min(1),nominatedByTeamId:z.string().optional()}),z.object({type:z.literal("cancelNomination")}),z.object({type:z.literal("sale"),winnerTeamId:z.string().min(1),price:z.number().int().positive(),ceilingOverrideReason:z.string().max(300).optional()}),z.object({type:z.literal("voidSale"),saleId:z.string().min(1)}),z.object({type:z.literal("reassignRosterSlot"),teamId:z.string().min(1),playerId:z.string().min(1),targetSlotId:z.string().min(1)})
+  z.object({type:z.literal("start")}),z.object({type:z.literal("addManualPlayer"),name:z.string().trim().min(2).max(80),position:z.enum(["QB","RB","WR","TE","K","DEF"]),nflTeam:z.string().trim().max(3).optional(),byeWeek:z.number().int().min(1).max(18).optional()}),z.object({type:z.literal("nominate"),playerId:z.string().min(1),nominatedByTeamId:z.string().optional()}),z.object({type:z.literal("cancelNomination")}),z.object({type:z.literal("sale"),winnerTeamId:z.string().min(1),price:z.number().int().positive(),ceilingOverrideReason:z.string().max(300).optional()}),z.object({type:z.literal("voidSale"),saleId:z.string().min(1)}),z.object({type:z.literal("reassignRosterSlot"),teamId:z.string().min(1),playerId:z.string().min(1),targetSlotId:z.string().min(1)})
   ,z.object({type:z.literal("updateStrategy"),strategy:z.object({buildStyle:z.enum(["balanced","stars_and_scrubs","value_first"]),riskTolerance:z.enum(["conservative","balanced","aggressive"]),byeWeekMode:z.enum(["ignore","soft","strict"]),maxSameBye:z.number().int().min(1).max(6),targetPremium:z.number().int().min(0).max(20),situations:z.array(z.string().max(80)).max(12),teamPreferences:z.array(z.object({team:z.string().min(2).max(3),position:z.enum(["ALL","QB","RB","WR","TE","K","DEF"]),preference:z.enum(["prefer","avoid"]),adjustment:z.number().int().min(1).max(5),note:z.string().max(120)})).max(24),notes:z.string().max(1000)})})
   ,z.object({type:z.literal("playerPreference"),playerId:z.string().min(1),preference:z.enum(["target","avoid","neutral"]),premium:z.number().int().min(-50).max(50).default(0),note:z.string().max(300).default("")})
   ,z.object({type:z.literal("fantasyAnalysisOverride"),playerId:z.string().min(1),override:z.enum(["auto","target","avoid","off"])})
@@ -409,9 +426,20 @@ const actionSchema=z.discriminatedUnion("type",[
 
 export function applyDraftAction(raw:unknown){
   const action=actionSchema.parse(raw),service=getDraftService();
-  const draft=service.db.prepare("SELECT state_version FROM drafts WHERE id=?").get(DRAFT_ID) as {state_version:number};
+  const draft=service.db.prepare("SELECT state_version,status FROM drafts WHERE id=?").get(DRAFT_ID) as {state_version:number;status:string};
+  if(draft.status==="complete"||draft.status==="archived")throw new DomainError("DRAFT_FINALIZED","This draft is finalized and read-only");
   const command={draftId:DRAFT_ID,expectedVersion:draft.state_version,idempotencyKey:randomUUID(),occurredAt:new Date().toISOString()};
   if(action.type==="start")service.startDraft(command);
+  if(action.type==="addManualPlayer"){
+    const name=action.name.trim(),nflTeam=action.nflTeam?.trim().toUpperCase()||null;
+    const duplicate=service.db.prepare("SELECT display_name FROM players WHERE lower(trim(display_name))=lower(?) AND position=? AND coalesce(nfl_team,'')=coalesce(?,'') LIMIT 1").get(name,action.position,nflTeam) as {display_name:string}|undefined;
+    if(duplicate)throw new DomainError("PLAYER_ALREADY_EXISTS",`${duplicate.display_name} is already in the player list`);
+    const playerId=`manual:${randomUUID()}`;
+    service.db.transaction(()=>{
+      service.db.prepare("INSERT INTO players(id,display_name,position,nfl_team,identity_status,source_ids_json) VALUES(?,?,?,?,?,'{}')").run(playerId,name,action.position,nflTeam,"provisional");
+      service.db.prepare("INSERT INTO draft_player_pool(draft_id,player_id,status,risk_flags_json,bye_week) VALUES(?,?,'available','[\"manual_entry\",\"limited_auction_guidance\"]',?)").run(DRAFT_ID,playerId,action.byeWeek??null);
+    })();
+  }
   if(action.type==="nominate")service.openNomination({...command,playerId:action.playerId,...(action.nominatedByTeamId?{nominatedByTeamId:action.nominatedByTeamId}:{})});
   if(action.type==="cancelNomination")service.cancelNomination(command);
   if(action.type==="changeNominationOwner")service.changeNominationOwner({...command,nominatedByTeamId:action.nominatedByTeamId});
