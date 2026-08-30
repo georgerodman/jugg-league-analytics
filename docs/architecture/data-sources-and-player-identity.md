@@ -186,8 +186,6 @@ seasons allows the league transaction to remain attached to the correct player.
 - `docs/PROJECT_SPEC.md`: durable product and architecture decisions
 - `docs/operations/data-source-operations.md`: refresh, rebuild, audit, and publication
   commands
-- `docs/studies/projection-data.md`: provider schemas, inventories, and projection
-  details
-- `docs/studies/projection-evaluation.md`: evidence supporting the FantasyPros/FFA role
-  decision
+- `docs/history/2026-season-record.md`: evidence supporting the accepted 2026
+  source roles and links to the detailed final-tag records
 - `data/raw/README.md`: raw snapshot inventory and preservation rules

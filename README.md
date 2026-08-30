@@ -115,8 +115,9 @@ python3 scripts/fantasypros_projections.py --season 2026
 ```
 
 The command preserves immutable raw responses and writes normalized,
-league-scored JSON and CSV artifacts. See `docs/studies/projection-data.md` for the
-data contract and provenance details.
+league-scored JSON and CSV artifacts. See
+`docs/architecture/data-sources-and-player-identity.md` for the source and
+provenance contract.
 
 FantasyPros is the primary projection source. Historical FFA snapshots are
 preserved separately under `data/raw/ffa/<season>/` and will enrich the primary

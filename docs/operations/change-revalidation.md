@@ -101,7 +101,8 @@ recommendation change and follows the stricter workflow below.
 
 Keep the candidate artifact IDs, exact seed list, code revision, source build
 IDs, test output, comparison summary, known limitations, and approval decision.
-Store repeatable procedures under `docs/operations/` and empirical results
-under `docs/studies/`. Update `docs/PROJECT_SPEC.md` only when a durable product
-or architecture rule changes.
-
+Store repeatable procedures under `docs/operations/` and summarize accepted
+empirical results in that season's document under `docs/history/`. Keep bulky
+intermediate reports outside the active documentation tree once the season is
+final. Update `docs/PROJECT_SPEC.md` only when a durable product or architecture
+rule changes.

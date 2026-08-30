@@ -24,7 +24,7 @@ jugg-league-analytics/
 │   ├── README.md           Documentation index and filing guide
 │   ├── PROJECT_SPEC.md     Durable project-wide source of truth
 │   ├── product/            User-facing requirements and decision guidance
-│   ├── studies/            Model methods, experiments, and results
+│   ├── history/            Compact records for completed seasons
 │   ├── architecture/       Technical boundaries and contracts
 │   └── operations/         Repeatable refresh and maintenance procedures
 ├── tests/
@@ -128,14 +128,11 @@ only validated local artifacts imported before the draft.
 
 The domain contract is documented in
 `docs/architecture/draft-domain-and-sqlite.md`.
-The front-facing V1 scope and screen contract are documented in
-`docs/product/v1-application-requirements.md`.
-Open ideas and unresolved product questions are collected in
-`docs/product/product-notes.md`; they become formal requirements only after a decision
-is recorded in the project spec or the relevant detailed contract.
-The standalone championship objective and its current pre-integration review
-gate are documented in `docs/studies/championship-equity-method.md` and
-`docs/studies/championship-equity-results.md`.
+The durable product scope and screen contract are documented in
+`docs/PROJECT_SPEC.md` and the focused documents under `docs/product/`.
+Completed-season decisions and validation evidence are summarized under
+`docs/history/`; detailed superseded material remains available at the season's
+final Git tag.
 The plain-language product interpretation and intended draft-night use are in
 `docs/product/draft-decision-guide.md`.
 The standalone engine lives in `scripts/championship_equity.py`; neutral roster

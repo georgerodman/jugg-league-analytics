@@ -80,6 +80,27 @@ bundle rather than the full modeling workspace. A new-season command should
 create a distinct draft ID, season configuration, SQLite state, and Google Sheet
 mapping. Finalized seasons remain immutable and disconnected.
 
+## 2026 cleanup checkpoint
+
+Completed after the finalized archive was copied outside the repository:
+
+- pruned 705 superseded processed artifacts and obsolete raw snapshots;
+- retained every published runtime, test, and rebuild dependency reported by
+  the repository artifact audit;
+- reduced the active data tree from approximately 836 MB to 207 MB;
+- removed generated PDF renders, build output, caches, duplicate local backups,
+  and the repository-local archive copy;
+- retained the timestamped final SQLite backup referenced by the finalized
+  draft record;
+- condensed completed studies and task briefs into
+  `docs/history/2026-season-record.md`; and
+- retired the one-time 2026 player-research ingestion and rewrite scripts while
+  preserving their published summaries for read-only Draft Room use.
+
+`node_modules/` remains an ignored local convenience so the application can
+start without reinstalling packages. It is not part of the Git repository and
+may be deleted at any time; restore it with `npm install`.
+
 ## Verification commands
 
 ```sh

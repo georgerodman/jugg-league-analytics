@@ -114,22 +114,14 @@ Review the manifest's returned tier, declared record counts, and unmatched
 counts after each refresh. Unmatched long-tail NFL records remain in the
 normalized dataset even when they are absent from the current draft pool.
 
-This import does not call an AI model. To incorporate a new snapshot into the
-cached card and full player writeups, run the explicit research synthesis:
+This import does not call an AI model. The 2026 player-research synthesis is a
+frozen draft artifact: its one-time ingestion, enrichment, and language-repair
+scripts were retired after finalization. The Draft Room may continue reading
+the published local summaries, but they are not refreshed in place.
 
-```sh
-python3 scripts/build_fantasy_research.py
-python3 scripts/enrich_fantasy_pros_cons.py
-```
-
-That second command regenerates writeups whose dated context or prompt version
-changed and may incur OpenAI API usage. It treats consensus ranking as context,
-not a vote or auction value, and treats injury/news as volatile dated facts.
-Generated prose omits isolated statistics unless the retained inputs establish
-whether the number is strong, weak, ranked, meaningfully trending, or otherwise
-important to the player's outlook.
-The draft board continues using the last completed local synthesis until this
-explicit refresh succeeds.
+If in-season or next-season summaries are needed, create a new dated workflow
+with explicit source, freshness, cost, and validation contracts. Do not present
+the frozen 2026 writeups as current news.
 
 ## Refresh Yahoo and ESPN ADP
 
@@ -222,8 +214,9 @@ Then:
    source snapshot.
 6. Compare the provider against actual outcomes on the same player-season
    cohort before changing primary/fallback policy.
-7. Update `docs/studies/projection-data.md` and `docs/PROJECT_SPEC.md` if source roles or
-   model policy change.
+7. Update `docs/architecture/data-sources-and-player-identity.md` and
+   `docs/PROJECT_SPEC.md` if source roles or model policy change. Record the
+   final evidence in that season's compact history document.
 
 ## Historical rebuild and evaluation
 

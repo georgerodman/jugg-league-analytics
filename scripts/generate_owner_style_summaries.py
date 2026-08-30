@@ -16,15 +16,37 @@ from typing import Any
 
 try:
     from scripts.owner_tendencies import markdown_report, style_summary
-    from scripts.build_fantasy_research import load_env, response_text
 except ModuleNotFoundError:  # Direct script execution places scripts/ on sys.path.
     from owner_tendencies import markdown_report, style_summary
-    from build_fantasy_research import load_env, response_text
 
 ROOT = Path(__file__).resolve().parents[1]
 PROMPT_VERSION = "owner-style-summary-v1"
 MIN_WORDS = 90
 MAX_WORDS = 110
+
+
+def load_env() -> None:
+    """Load simple KEY=VALUE entries from the ignored project .env file."""
+    env_path = ROOT / ".env"
+    if not env_path.exists():
+        return
+    for line in env_path.read_text().splitlines():
+        if not line or line.lstrip().startswith("#") or "=" not in line:
+            continue
+        key, value = line.split("=", 1)
+        os.environ.setdefault(key.strip(), value.strip().strip('"').strip("'"))
+
+
+def response_text(payload: dict[str, Any]) -> str:
+    """Extract text from either Responses API output representation."""
+    if isinstance(payload.get("output_text"), str):
+        return payload["output_text"]
+    return "".join(
+        item.get("text", "")
+        for output in payload.get("output", [])
+        for item in output.get("content", [])
+        if item.get("type") in ("output_text", "text")
+    )
 
 
 def grounded_input(profile: dict[str, Any]) -> dict[str, Any]:
