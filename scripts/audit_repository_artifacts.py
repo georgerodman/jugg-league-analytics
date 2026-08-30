@@ -31,6 +31,7 @@ RUNTIME_ROOTS = [
 
 TEST_ROOTS = [
     "data/processed/draft_simulations/latest.json",
+    "data/processed/nflverse/20260829T043413Z/player_identity_crosswalk.json",
 ]
 
 

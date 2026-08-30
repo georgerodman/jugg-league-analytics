@@ -119,6 +119,15 @@ PFR, and PFF IDs are source aliases on that entity, not the entity itself.
 Identity promotion requires collision checks, evidence provenance, a shadow
 old-to-new mapping, and regression testing against versioned reviewed records.
 
+After a draft is finalized, source snapshots and non-runtime model artifacts
+may leave the active repository only after a checksummed season-data archive is
+copied to durable storage and the final Git tag exists. The active tree must
+retain the complete artifact closure required to view the finalized board,
+research, owner context, depth charts, and draft record, plus focused test
+fixtures. Refetchable nflverse source files may be restored from the season
+archive or reacquired for the next annual rebuild; archived preseason writeups
+remain frozen rather than being presented as current research.
+
 ### Owner tendencies
 
 Learn or encode manager-specific behavior from historical drafts: position and team preferences, typical aggression, willingness to pay, timing, nomination patterns, budget discipline, and other repeatable tendencies. Use owner signals as probabilistic context, not certainty, and show when evidence is weak.

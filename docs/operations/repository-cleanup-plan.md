@@ -110,6 +110,14 @@ Completed after the finalized archive was copied outside the repository:
 - retired the one-time 2026 player-research ingestion and rewrite scripts while
   preserving their published summaries for read-only Draft Room use.
 
+After the external season-data archive was confirmed, the postseason data
+prune reduced the active data tree again, from 207 MB to approximately 38 MB.
+The retained runtime closure is about 13 MB, the checked-in simulation and
+identity fixtures are about 5 MB, and the remaining raw files are compact
+provider inputs useful for the next annual refresh. Large refetchable nflverse
+sources and non-runtime derived reports are available from the external archive
+and `draft-2026-final` tag.
+
 `node_modules/` remains an ignored local convenience so the application can
 start without reinstalling packages. It is not part of the Git repository and
 may be deleted at any time; restore it with `npm install`.
@@ -122,6 +130,8 @@ python3 scripts/prune_processed_artifacts.py          # reviewed dry run
 python3 scripts/prune_processed_artifacts.py --apply  # remove superseded builds
 python3 scripts/prune_raw_artifact_versions.py        # reviewed dry run
 python3 scripts/prune_raw_artifact_versions.py --apply
+python3 scripts/prune_postseason_data.py              # archive-gated dry run
+python3 scripts/prune_postseason_data.py --apply --archive-confirmed
 python3 -m unittest discover -s tests -q
 npm run typecheck
 npm run test:domain
