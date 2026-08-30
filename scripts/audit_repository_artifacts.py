@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import re
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -31,6 +32,10 @@ RUNTIME_ROOTS = [
 TEST_ROOTS = [
     "data/processed/draft_simulations/latest.json",
 ]
+
+
+def published_roots() -> list[str]:
+    return [str(path.relative_to(ROOT)) for path in sorted((ROOT / "data" / "processed").rglob("latest.json"))]
 
 
 def digest(path: Path) -> str:
@@ -76,6 +81,23 @@ def closure(roots: list[str]) -> tuple[set[str], set[str]]:
     return found, missing
 
 
+def published_closure(roots: list[str]) -> tuple[set[str], set[str]]:
+    found, missing = closure(roots)
+    build_pattern = re.compile(r"^(?:\d{8}T\d{6}Z|[0-9a-f]{16})$")
+    while True:
+        companions: set[str] = set()
+        for relative in found:
+            parent = (ROOT / relative).parent
+            if build_pattern.fullmatch(parent.name):
+                companions.update(str(path.relative_to(ROOT)) for path in parent.rglob("*") if path.is_file())
+        new_roots = companions - found
+        if not new_roots:
+            return found, missing
+        expanded, expanded_missing = closure(sorted(new_roots))
+        found.update(expanded)
+        missing.update(expanded_missing)
+
+
 def describe(paths: set[str]) -> dict[str, Any]:
     files = []
     for relative in sorted(paths):
@@ -90,13 +112,19 @@ def main() -> None:
     args = parser.parse_args()
     runtime, runtime_missing = closure(RUNTIME_ROOTS)
     tests, test_missing = closure(TEST_ROOTS)
+    published, published_missing = published_closure(published_roots())
     report = {
         "schema_version": 1,
         "created_at": datetime.now(timezone.utc).isoformat(),
         "purpose": "Conservative artifact closure used by the current application and checked-in tests.",
         "runtime": describe(runtime),
         "tests": describe(tests),
-        "missing": {"runtime": sorted(runtime_missing), "tests": sorted(test_missing)},
+        "published": describe(published),
+        "missing": {
+            "runtime": sorted(runtime_missing),
+            "tests": sorted(test_missing),
+            "published": sorted(published_missing),
+        },
     }
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
