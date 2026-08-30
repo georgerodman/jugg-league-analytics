@@ -35,7 +35,7 @@ TEST_ROOTS = [
 
 
 def published_roots() -> list[str]:
-    return [str(path.relative_to(ROOT)) for path in sorted((ROOT / "data" / "processed").rglob("latest.json"))]
+    return [str(path.relative_to(ROOT)) for path in sorted((ROOT / "data").rglob("latest.json"))]
 
 
 def digest(path: Path) -> str:

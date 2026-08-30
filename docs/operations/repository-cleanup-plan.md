@@ -86,6 +86,8 @@ mapping. Finalized seasons remain immutable and disconnected.
 python3 scripts/audit_repository_artifacts.py
 python3 scripts/prune_processed_artifacts.py          # reviewed dry run
 python3 scripts/prune_processed_artifacts.py --apply  # remove superseded builds
+python3 scripts/prune_raw_artifact_versions.py        # reviewed dry run
+python3 scripts/prune_raw_artifact_versions.py --apply
 python3 -m unittest discover -s tests -q
 npm run typecheck
 npm run test:domain
