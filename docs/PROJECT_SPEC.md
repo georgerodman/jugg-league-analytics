@@ -700,6 +700,41 @@ writes remain in the SQLite outbox and can be retried without duplicating picks.
 
 Prepare all draft-night data and model artifacts locally in advance. Nomination, sale recording, budget and roster updates, recommendations, and recovery must continue without a network connection. Queue remote writes and replay them safely after reconnection. Avoid draft-night dependencies that require package installation, cloud startup, authentication refresh, or live data fetching.
 
+## Deferred Roadmap — 2027 Draft
+
+The league has acquired `texasjuggleague.com`. For the 2027 draft, replace
+Google Sheets as the participant-facing draft-board viewer with a live board on
+that domain. Each league user should have an authenticated account and, after
+signing in, be able to view the current draft board.
+
+This is a future feature and is explicitly outside the 2026 implementation
+scope. The website is a read-only participant view unless a later product
+decision expands its permissions. It must consume synchronized draft state
+through a clearly isolated adapter or service and must not become authoritative
+over the local SQLite draft state. Loss of internet access, website hosting, or
+user authentication must never block the local nomination and sale workflow.
+Google Sheets may remain an optional reporting/export integration after the
+website launches, but league members should no longer need to visit Sheets to
+follow the live board.
+
+Also explore and implement the following improvements for the 2027 draft:
+
+- Provide a quick, low-friction way to see every team's current maximum bid
+  from within the draft application. Candidate presentations include adding
+  max bid to an existing draft table or providing a keyboard shortcut that
+  quickly opens and closes a compact all-team max-bid view. Choose the final
+  interaction after exploring it against the draft-night workflow.
+- Make the stat tables on expanded player cards more comprehensive and useful
+  for fast player evaluation. Define the additional statistics, comparisons,
+  time periods, and visual hierarchy during 2027 product design rather than
+  expanding the 2026 card without validation.
+- Research additional reliable sources for timely, up-to-date player-news
+  feeds. Evaluate freshness, coverage, attribution and licensing requirements,
+  stable player identity matching, cost, and failure behavior before selecting
+  a provider. Any live feed must remain supplemental: locally cached context
+  and the core draft workflow must continue to work when the feed is stale or
+  unavailable.
+
 ## Technical Stack
 
 - Live application: Next.js with TypeScript.
