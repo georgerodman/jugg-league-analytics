@@ -8,10 +8,11 @@ import { initializeFromArtifacts } from "../domain/importDraftArtifacts";
 import { importFantasyAnalysis } from "../domain/importFantasyAnalysis";
 import { importFantasyResearchSynthesis } from "../domain/importFantasyResearchSynthesis";
 import { sheetSyncStatus } from "./googleSheetsSync";
+import { activeSeason, activeSeasonPaths } from "./activeSeason";
 import { draftRoadmap, liveLeaderboard, nominationDecision, type DecisionPlayer, type DecisionTeam, type Position } from "../domain/liveDecisionEngine";
 
-const ROOT=process.cwd(), DRAFT_ID="jugg-2026", DATA_DIR=join(ROOT,".local");
-const DATABASE_PATH=process.env.RENEGADE_DB_PATH??join(DATA_DIR,"renegade-draft-room.sqlite");
+const ROOT=process.cwd(), DRAFT_ID=activeSeason.draftId, SEASON=activeSeason.season, PRIOR_SEASON=SEASON-1, DATA_DIR=join(ROOT,".local");
+const DATABASE_PATH=process.env.RENEGADE_DB_PATH??activeSeasonPaths.database;
 
 type OwnerProfile={owner:string;evidence_strength:string;construction_style:string;positions:Record<string,{signal:string;direction_consistency:number}>;repeat_players:{internal_player_id:string;player_name:string;times_drafted:number}[]};
 type TeamPreference={team:string;position:"ALL"|"QB"|"RB"|"WR"|"TE"|"K"|"DEF";preference:"prefer"|"avoid";adjustment:number;note:string};
@@ -25,15 +26,15 @@ declare global { var __renegadeDraftService:DraftService|undefined; }
 function latest(path:string):any{return JSON.parse(readFileSync(resolve(ROOT,path),"utf8"));}
 function priorTeamByPlayer():Map<string,string>{
   try{
-    const pointer=latest("data/processed/nflverse/latest.json"),snapshot=String(pointer.snapshot_id),rows=readFileSync(resolve(ROOT,`data/processed/nflverse/${snapshot}/player_stats_2025.csv`),"utf8").split(/\r?\n/),result=new Map<string,string>();
-    for(const row of rows.slice(1)){const match=row.match(/^([^,]+),.*?,2025,\d+,([A-Z]{2,3}),/);if(match?.[1]&&match[2])result.set(`nfl:gsis:${match[1]}`,match[2]);}
+    const pointer=latest("data/processed/nflverse/latest.json"),snapshot=String(pointer.snapshot_id),rows=readFileSync(resolve(ROOT,`data/processed/nflverse/${snapshot}/player_stats_${PRIOR_SEASON}.csv`),"utf8").split(/\r?\n/),result=new Map<string,string>();
+    for(const row of rows.slice(1)){const columns=row.split(",");if(columns[0]&&Number(columns[3])===PRIOR_SEASON&&columns[5])result.set(`nfl:gsis:${columns[0]}`,columns[5]);}
     return result;
   }catch{return new Map();}
 }
 type TeamDepthChart={QB:string[];RB:string[];WR:string[];TE:string[]};
 function teamDepthCharts():Map<string,TeamDepthChart>{
   try{
-    const pointer=latest("data/processed/nflverse_depth_charts/2026/latest.json"),artifact=latest(pointer.artifact),result=new Map<string,TeamDepthChart>();
+    const pointer=latest(activeSeasonPaths.nflverseDepthCharts),artifact=latest(pointer.artifact),result=new Map<string,TeamDepthChart>();
     for(const team of Array.isArray(artifact.teams)?artifact.teams:[]){
       const offense=team.fantasy_offense??{},names=(group:"QB"|"RB"|"WR"|"TE",limit:number)=>(Array.isArray(offense[group])?offense[group]:[]).filter((row:any)=>group!=="RB"||row.position_abbreviation!=="FB").map((row:any)=>row.name).filter(Boolean).slice(0,limit);
       result.set(team.team,{QB:names("QB",2),RB:names("RB",3),WR:names("WR",4),TE:names("TE",2)});
@@ -43,7 +44,7 @@ function teamDepthCharts():Map<string,TeamDepthChart>{
 }
 function fantasyProsContextByPlayer():Map<string,{injury:any|null;recentNews:any[]}>{
   try{
-    const pointer=latest("data/processed/fantasypros_context/2026/latest.json"),artifact=latest(pointer.artifact);
+    const pointer=latest(activeSeasonPaths.fantasyProsContext),artifact=latest(pointer.artifact);
     const result=new Map<string,{injury:any|null;recentNews:any[]}>();
     for(const context of Array.isArray(artifact.ai_player_context)?artifact.ai_player_context:[]){
       if(!context.internal_player_id)continue;
@@ -66,7 +67,7 @@ function fantasySituationContext(){
       const eligible=targetRows.filter(row=>row.position===position&&row.targets_per_game>0&&row.targets/row.targets_per_game>=8).sort((a,b)=>b.targets_per_game-a.targets_per_game||a.player.localeCompare(b.player));
       eligible.forEach((row,index)=>targetRankByPlayer.set(row.player,index+1));
     }
-    for(const row of datasets.rb_handcuffs_2026?.rows??[])handcuffByTeam.set(row.team,row);
+    for(const row of datasets[`rb_handcuffs_${SEASON}`]?.rows??[])handcuffByTeam.set(row.team,row);
   }catch{}
   return {targetsByPlayer,targetRankByPlayer,handcuffByTeam};
 }
@@ -81,9 +82,9 @@ function productionLabel(pointsAboveReplacement:number|null|undefined,positionMa
 function syncOperationalFallbackPlayers(service:DraftService):void{
   const productionPointer=latest("data/processed/production_value_model/latest.json"),board=latest(productionPointer.decision_board_json!);
   const modeledIds=new Set((board.players as any[]).map(row=>row.internal_player_id));
-  const canonicalPointer=latest("data/processed/canonical_projections/2026/latest.json"),canonical=latest(canonicalPointer.artifact!);
-  const adpPointer=latest("data/processed/fantasypros_adp/2026/latest.json"),adp=latest(adpPointer.artifact!);
-  const espnPointer=latest("data/processed/espn_salary_cap_values/2026/latest.json"),espn=latest(espnPointer.artifact!);
+  const canonicalPointer=latest(activeSeasonPaths.canonicalProjections),canonical=latest(canonicalPointer.artifact!);
+  const adpPointer=latest(activeSeasonPaths.fantasyProsAdp),adp=latest(adpPointer.artifact!);
+  const espnPointer=latest(activeSeasonPaths.espnSalaryCapValues),espn=latest(espnPointer.artifact!);
   const byeByPlayer=new Map((espn.values as any[]).map(row=>[row.internal_player_id,row.bye_week]));
   const byeByTeam=new Map((espn.values as any[]).map(row=>[row.nfl_team,row.bye_week]));
   const insertPlayer=service.db.prepare("INSERT OR IGNORE INTO players(id,display_name,position,nfl_team,identity_status,source_ids_json) VALUES(?,?,?,?,?,?)");
@@ -126,12 +127,12 @@ export function getDraftService():DraftService{
   if(!service.db.prepare("SELECT id FROM drafts WHERE id=?").get(DRAFT_ID)){
     const production=latest("data/processed/production_value_model/latest.json");
     const owners=latest("data/processed/owner_tendencies/latest.json");
-    const espn=latest("data/processed/espn_salary_cap_values/2026/latest.json");
-    initializeFromArtifacts(service,{draftId:DRAFT_ID,season:2026,name:"2026 JUGG Auction",decisionBoardPath:production.decision_board_json!,ownerProfilesPath:owners.artifact!,espnSalaryCapPath:espn.artifact!,teamNames:{"George Rodman":"Rodman Renegades"}});
+    const espn=latest(activeSeasonPaths.espnSalaryCapValues);
+    initializeFromArtifacts(service,{draftId:DRAFT_ID,season:SEASON,name:activeSeason.draftName,decisionBoardPath:production.decision_board_json!,ownerProfilesPath:owners.artifact!,espnSalaryCapPath:espn.artifact!,teamNames:{"George Rodman":"Rodman Renegades"}});
   }else{
     const production=latest("data/processed/production_value_model/latest.json"),board=latest(production.decision_board_json!);
     const ownersPointer=latest("data/processed/owner_tendencies/latest.json"),ownersArtifact=latest(ownersPointer.artifact!);
-    const espnPointer=latest("data/processed/espn_salary_cap_values/2026/latest.json"),espn=latest(espnPointer.artifact!);
+    const espnPointer=latest(activeSeasonPaths.espnSalaryCapValues),espn=latest(espnPointer.artifact!);
     const byeByPlayer=new Map((espn.values as any[]).map(row=>[row.internal_player_id,row.bye_week]));
     const byeByTeam=new Map((espn.values as any[]).map(row=>[row.nfl_team,row.bye_week]));
     const artifactHash=(path:string)=>createHash("sha256").update(readFileSync(resolve(ROOT,path))).digest("hex");
@@ -202,12 +203,12 @@ function recordDecisionSnapshot(service:DraftService,view:any,triggerType:string
 
 export function readDraftRoom(){
   const service=getDraftService();
-  const draft=service.db.prepare("SELECT id,status,state_version stateVersion,finalized_at finalizedAt,finalized_backup_path finalizedBackupPath,google_sheets_sync_enabled googleSheetsSyncEnabled FROM drafts WHERE id=?").get(DRAFT_ID) as any;
+  const draft=service.db.prepare("SELECT id,season,name,status,state_version stateVersion,finalized_at finalizedAt,finalized_backup_path finalizedBackupPath,google_sheets_sync_enabled googleSheetsSyncEnabled FROM drafts WHERE id=?").get(DRAFT_ID) as any;
   const storedStrategy=parseJson<Partial<Strategy>>((service.db.prepare("SELECT strategy_json strategyJson FROM draft_strategy WHERE draft_id=?").get(DRAFT_ID) as any)?.strategyJson,DEFAULT_STRATEGY);
   const strategy:Strategy={...DEFAULT_STRATEGY,...storedStrategy,teamPreferences:storedStrategy.teamPreferences??[],situations:storedStrategy.situations??[]};
   const market=marketContext(service);
   const productionPointer=latest("data/processed/production_value_model/latest.json"),decisionBoard=latest(productionPointer.decision_board_json!);
-  const canonicalPointer=latest("data/processed/canonical_projections/2026/latest.json"),canonicalProjections=latest(canonicalPointer.artifact!);
+  const canonicalPointer=latest(activeSeasonPaths.canonicalProjections),canonicalProjections=latest(canonicalPointer.artifact!);
   const projectedById=new Map<string,number|null>((canonicalProjections.players as any[]).map(row=>[row.internal_player_id,row.fantasypros?.league_projected_points==null?null:Number(row.fantasypros.league_projected_points)]));
   for(const row of decisionBoard.players as any[])projectedById.set(row.internal_player_id,Number(row.projected_points??0));
   const productionById=new Map((decisionBoard.players as any[]).map(row=>[row.internal_player_id,row]));
@@ -221,7 +222,7 @@ export function readDraftRoom(){
   const byeCounts=new Map<number,number>();
   for(const row of service.db.prepare(`SELECT pool.bye_week byeWeek FROM roster_slots rs JOIN draft_player_pool pool ON pool.draft_id=? AND pool.player_id=rs.player_id WHERE rs.team_id=? AND rs.player_id IS NOT NULL`).all(DRAFT_ID,renegadeId) as {byeWeek:number|null}[])if(row.byeWeek)byeCounts.set(row.byeWeek,(byeCounts.get(row.byeWeek)??0)+1);
   const rawPlayers=service.db.prepare(`SELECT p.id,p.display_name name,p.position,p.nfl_team nflTeam,pool.status,pool.expected_price expectedPrice,pool.price_low priceLow,pool.price_high priceHigh,pool.production_value productionValue,pool.expected_surplus edge,pool.draft_probability draftProbability,pool.risk_flags_json riskFlags,pool.adp_espn adpEspn,pool.adp_yahoo adpYahoo,pool.bye_week byeWeek,pref.preference,pref.premium preferencePremium,pref.note preferenceNote,s.price salePrice,winner_owner.display_name draftedBy FROM draft_player_pool pool JOIN players p ON p.id=pool.player_id LEFT JOIN player_preferences pref ON pref.draft_id=pool.draft_id AND pref.player_id=pool.player_id LEFT JOIN sales s ON s.draft_id=pool.draft_id AND s.player_id=pool.player_id AND s.voided_event_id IS NULL LEFT JOIN teams winner ON winner.id=s.winner_team_id LEFT JOIN owners winner_owner ON winner_owner.id=winner.owner_id WHERE pool.draft_id=? ORDER BY pool.expected_price DESC,p.display_name`).all(DRAFT_ID) as any[];
-  const fantasyAnalysisRows=service.db.prepare(`SELECT t.player_id playerId,t.label,t.sentiment,t.summary,t.rationale,t.risks_json risksJson,s.id sourceId,s.source_key sourceKey,s.title sourceTitle,s.author,s.url,s.published_at publishedAt FROM fantasy_player_takeaways t JOIN fantasy_analysis_sources s ON s.id=t.source_id WHERE s.season=? ORDER BY s.published_at DESC,s.title`).all(2026) as any[];
+  const fantasyAnalysisRows=service.db.prepare(`SELECT t.player_id playerId,t.label,t.sentiment,t.summary,t.rationale,t.risks_json risksJson,s.id sourceId,s.source_key sourceKey,s.title sourceTitle,s.author,s.url,s.published_at publishedAt FROM fantasy_player_takeaways t JOIN fantasy_analysis_sources s ON s.id=t.source_id WHERE s.season=? ORDER BY s.published_at DESC,s.title`).all(SEASON) as any[];
   const fantasyAnalysisByPlayer=new Map<string,any[]>();
   for(const row of fantasyAnalysisRows){const entries=fantasyAnalysisByPlayer.get(row.playerId)??[];entries.push({...row,risks:parseJson<string[]>(row.risksJson,[]),risksJson:undefined});fantasyAnalysisByPlayer.set(row.playerId,entries);}
   const analysisOverrides=new Map((service.db.prepare("SELECT player_id playerId,override_value overrideValue FROM fantasy_analysis_overrides WHERE draft_id=?").all(DRAFT_ID) as {playerId:string;overrideValue:"target"|"avoid"|"off"}[]).map(row=>[row.playerId,row.overrideValue]));
@@ -367,7 +368,7 @@ export function readDraftRoom(){
   return {draft:{...draft,recoveryIssues:service.recoveryAudit(DRAFT_ID)},players:boardPlayers,teams:teams.map(({profile,...team})=>team),renegades:renegades?(({profile,...team})=>team)(renegades):null,roster,teamRosters,nominationOrder:{teams:nominationOrder,nextTeamId:nextNominatorTeamId},currentNomination:currentNomination?{...currentNomination,draftImpact:impactByPlayerId.get(currentNomination.playerId)??null,championshipDecision,decisionPlan}:null,leaderboard,recentSales,strategy,market:{...market,globalMultiplier:Number(market.globalMultiplier.toFixed(3))},upcomingTargets:targets,whatChanged:latestDecisionChange(service),discipline,sheetSync:sheetSyncStatus(service.db,DRAFT_ID),researchStatus:{summaryRefreshNeeded:pendingSummaryPlayers.size>0,pendingPlayerCount:pendingSummaryPlayers.size,pendingTakeawayCount:pendingSummaryTakeaways,pendingSourceCount:pendingSummarySources.size,lastSummaryGeneratedAt:summaryGeneratedAt},localSaved:true};
 }
 
-export const draftRuntime={draftId:DRAFT_ID,root:ROOT};
+export const draftRuntime={draftId:DRAFT_ID,season:SEASON,root:ROOT,googleSheetsConfigPath:activeSeasonPaths.googleSheets};
 
 export async function finalizeDraftRoom(){
   const service=getDraftService();

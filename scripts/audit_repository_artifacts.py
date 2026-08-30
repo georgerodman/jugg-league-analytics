@@ -14,16 +14,17 @@ from typing import Any
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_OUTPUT = ROOT / ".local" / "audits" / "repository-artifacts.json"
+ACTIVE_SEASON = json.loads((ROOT / "config" / "active-season.json").read_text())["season"]
 
 RUNTIME_ROOTS = [
     "data/processed/production_value_model/latest.json",
     "data/processed/owner_tendencies/latest.json",
-    "data/processed/espn_salary_cap_values/2026/latest.json",
-    "data/processed/canonical_projections/2026/latest.json",
-    "data/processed/fantasypros_adp/2026/latest.json",
+    f"data/processed/espn_salary_cap_values/{ACTIVE_SEASON}/latest.json",
+    f"data/processed/canonical_projections/{ACTIVE_SEASON}/latest.json",
+    f"data/processed/fantasypros_adp/{ACTIVE_SEASON}/latest.json",
     "data/processed/nflverse/latest.json",
-    "data/processed/nflverse_depth_charts/2026/latest.json",
-    "data/processed/fantasypros_context/2026/latest.json",
+    f"data/processed/nflverse_depth_charts/{ACTIVE_SEASON}/latest.json",
+    f"data/processed/fantasypros_context/{ACTIVE_SEASON}/latest.json",
     "data/processed/fantasy_context/latest.json",
     "data/processed/fantasy_analysis/latest.json",
     "data/processed/fantasy_research/latest.json",

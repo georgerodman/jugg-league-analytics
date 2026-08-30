@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "season": 2026,
+  "draftId": "jugg-2026",
+  "draftName": "2026 JUGG Auction",
+  "databasePath": ".local/renegade-draft-room.sqlite",
+  "googleSheetsConfigPath": "config/google_sheets.json"
+}

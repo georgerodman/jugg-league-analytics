@@ -40,6 +40,11 @@ The `.local/` directory contains ignored operational SQLite state created while
 running the draft room. The `.next/` directory and `node_modules/` are generated
 and ignored.
 
+`config/active-season.json` is the single runtime selector for the current
+season, draft ID, local database, and Google Sheets mapping. It must be changed
+only through the validated season-rollover workflow; a rollover must never
+reuse or mutate a finalized season's database.
+
 ## Authored code versus generated files
 
 Project-authored files belong in `src/`, `db/`, `scripts/`, `config/`, `docs/`,

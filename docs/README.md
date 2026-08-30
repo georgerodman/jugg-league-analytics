@@ -47,6 +47,8 @@ question they answer.
 - [Repository cleanup and season rollover](operations/repository-cleanup-plan.md)
   — finalized-season preservation, artifact inventory, deletion gates, and the
   staged path to a compact annual repository.
+- [Season rollover](operations/season-rollover.md) — active-season
+  configuration, safety gates, and the path to a dry-run-first annual setup.
 
 ## History: what happened in completed seasons
 

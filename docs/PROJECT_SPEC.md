@@ -128,6 +128,13 @@ fixtures. Refetchable nflverse source files may be restored from the season
 archive or reacquired for the next annual rebuild; archived preseason writeups
 remain frozen rather than being presented as current research.
 
+The active runtime season, draft ID, SQLite path, and Google Sheets mapping path
+are selected through one validated configuration contract. A new season must
+use a distinct draft ID and database, begin with Sheets synchronization
+disabled, pass its artifact/readiness gates, and preserve rollback to the
+finalized prior-season configuration. Manually changing a year in application
+code is not an acceptable rollover procedure.
+
 ### Owner tendencies
 
 Learn or encode manager-specific behavior from historical drafts: position and team preferences, typical aggression, willingness to pay, timing, nomination patterns, budget discipline, and other repeatable tendencies. Use owner signals as probabilistic context, not certainty, and show when evidence is weak.
